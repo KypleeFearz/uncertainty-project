@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140782n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8064708af86554c174d712b6b2e5e6df51abe99a3660d83ea23e639889ad7df9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b2060ebb447c31016acbe948c5f887d2b71e7252fcbf2e42",
+  "received_at": "2026-10-11T19:53:47.990954+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.02,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise identifies a general difference in construction height between FGD systems and SCR technology retrofits, supporting the hypothesis that they differ."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

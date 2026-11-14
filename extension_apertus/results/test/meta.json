@@ -1,0 +1,32 @@
+{
+  "split": "test",
+  "name": "MNLI-Test",
+  "cases": 327,
+  "apertus_complete": 310,
+  "excluded": [
+    "1073c",
+    "109254n",
+    "132539c",
+    "137708c",
+    "142630n",
+    "142816c",
+    "143760n",
+    "2942n",
+    "38336c",
+    "46198n",
+    "51356n",
+    "54822n",
+    "75320c",
+    "76957c",
+    "86429n",
+    "91191n",
+    "98487c"
+  ],
+  "valid_answers": 1593,
+  "requests": 1635,
+  "invalid_answers": 42,
+  "clear_cases": 85,
+  "debatable_cases": 173,
+  "apertus_clear_deviations": 19,
+  "written_at": "2026-11-07T22:52:59.589755+00:00"
+}

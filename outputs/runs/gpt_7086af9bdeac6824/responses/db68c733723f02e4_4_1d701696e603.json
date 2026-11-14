@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92774n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7181307c77f24d05b430f9b8c348af583fe5f7de9f9589102edcdb013863fa78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0711418e878761be016acbf446fc8087d2b43f8aa2ed62b943",
+  "received_at": "2026-10-11T20:40:42.342964+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies ties with Britain and the Commonwealth as an aim but says nothing about establishing ties with the United States. Those stated aims neither establish nor rule out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

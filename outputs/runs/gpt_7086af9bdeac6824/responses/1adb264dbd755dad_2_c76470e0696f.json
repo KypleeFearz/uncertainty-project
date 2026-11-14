@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41975e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9f71889a53814a4e8bffcb2069654748d3aa43cd2dce6de5fe67e46bc7bffa2f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e12299c5b0e39a2016acd458a1ea887d2a29faff977e1650d",
+  "received_at": "2026-10-12T20:39:41.169860+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "His casual manner supports a calm outward demeanor, while furiously racking his brains for his only chance of escape supports racing thoughts about escaping."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

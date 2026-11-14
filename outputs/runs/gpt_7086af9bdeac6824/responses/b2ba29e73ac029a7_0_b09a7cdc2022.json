@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66858n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f10d01149dd485dd61c9b691c97bf46f7333e42a28cf74ac4dc4ddbeaa6a79d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09fac9eae7736a35016acbf104dcf487d28f5c4789baa700f4",
+  "received_at": "2026-10-11T20:26:49.676120+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise makes sound information necessary for managing better, but does not explicitly say that relying on unsound information causes management problems. The hypothesis is plausible, but requires an additional inference from failure to improve management to having management problems."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

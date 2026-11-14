@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80600e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2857216807a8a1f592ccd185024827d83e7376fc697eecd596317089962ba3a5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07273ff3b8250b9a016acbf2b2eb3087d2a7e5d9134c48d3bf",
+  "received_at": "2026-10-11T20:33:59.041031+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise says that a lot of kids resent things their parents tell them, supporting the hypothesis's statement of dislike. The hypothesis is somewhat broader because it does not retain the qualifier \"a lot of.\""
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139362e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cdb2cdc90d885d13c0b7a28bb2cb5dd4886904711cbf9daa69d5ccf04a5ad036",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00dbba889457625e016acd43a6d59887d2b5e129e31b7aeedd",
+  "received_at": "2026-10-12T20:31:37.843625+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.94,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not identify whose endorphins were flowing. They could be the speaker's, but that attribution is not established."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

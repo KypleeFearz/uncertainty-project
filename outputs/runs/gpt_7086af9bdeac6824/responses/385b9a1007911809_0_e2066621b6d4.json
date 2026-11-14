@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140900n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13ae8a8071020e31dfba8f55f89f3ee80ed885debedc4877d0a626152117ec87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0114d72dddf75d9f016acbf71bc0ec87d28a30591db2d160be",
+  "received_at": "2026-10-11T20:52:46.790905+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says a power mower would probably reduce his mowing time, but gives no specific duration or assurance that he would mow the entire yard. The eight-minute claim is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 433,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

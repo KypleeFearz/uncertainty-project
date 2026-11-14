@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103354n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "836cc05e329093d43b0c9de58ee704dc8cdd0046e8f982852156a6ec9248c01e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d8434c63e44279a016acd41ac825887d299fe853c96d8a6ca",
+  "received_at": "2026-10-12T20:23:12.731719+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the museum’s Mughal miniature collection is considered superior, not that the museum itself is objectively superior. It also does not explicitly establish that the museum is on the university’s campus."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

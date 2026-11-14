@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4795n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0bfcb3d3bbbbcdfbaa029824f3008a80132a7789cafa5e404492a5cda4a4e276",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f6c5bede0c9203016acbee8bcd8887d2858cb1e752556c35",
+  "received_at": "2026-10-11T20:16:15.582753+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "She described holistic lawyering as “one-stop shopping,” which supports interpreting her remarks as discussing its convenience. Convenience is implied by that description rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

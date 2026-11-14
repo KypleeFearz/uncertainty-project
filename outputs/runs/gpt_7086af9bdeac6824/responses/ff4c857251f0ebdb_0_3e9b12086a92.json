@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50293e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c1bb6f3afbf17c1c3afc5abcb8c97b019056f425b31b696fdbcd98ea6fee2dc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05dedc5d82336125016acd460ee27887d2ab7ee2f5d701f159",
+  "received_at": "2026-10-12T20:41:56.047016+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Developing positions that span a divide suggests awareness of it, but does not explicitly establish that awareness. The premise says Clinton has developed rhetoric and positions, not that development is currently ongoing or that the divide is current."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

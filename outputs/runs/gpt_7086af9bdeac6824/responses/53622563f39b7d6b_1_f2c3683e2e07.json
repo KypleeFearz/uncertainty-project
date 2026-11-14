@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35290n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "028a25f1f78f6470eb11ee42c491907e6e35bec61e92bb69395559ce620669ef",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_043645bcfa8d0d98016acd453aa82487d2b7e783ae796a3e83",
+  "received_at": "2026-10-12T20:38:23.787132+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.73,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise identifies two effective ways to put Emily out of the way, but does not establish that there are many. Generalizing from these two methods to many requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

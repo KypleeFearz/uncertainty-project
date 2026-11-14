@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47639c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c5c6f1a4fa67c07c4bf4cf060b8f4695bbed6bb748be55da97efd82644c1a2b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6b95ed68b82ab3016acbee6b38f087d299c957a99eeb4762",
+  "received_at": "2026-10-11T20:15:43.733141+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.9,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise expresses openness to something happening when the time is right, but does not establish eagerness or impatience. That relaxed attitude may suggest less enthusiasm, but it does not rule out looking forward to the event."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

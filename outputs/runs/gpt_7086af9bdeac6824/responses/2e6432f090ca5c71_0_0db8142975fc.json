@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78358n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "38ab561e3389f9d56f3d7f6ad084d207f7bb1f96cbff7881cc271031497df737",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3b7fd1158603c5016acbf9e020cc87d2a124c44f014b7ee9",
+  "received_at": "2026-10-11T21:04:35.240541+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise states that OMB approved the information collection on Form ADV, but its unfinished ending provides no information about Form CGF. Approval of both forms is therefore neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

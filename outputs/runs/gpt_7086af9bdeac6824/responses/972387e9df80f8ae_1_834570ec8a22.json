@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134616e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c30c5e01d495b53e78324149a122606daf3fa77b9c527832366b9fcfa5f4ec31",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06c39fcc58d8e392016acbe8637a1487d2a4b3f7f6d024af44",
+  "received_at": "2026-10-11T19:50:01.835597+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.22,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Calling it “the last problem I'll outline” supports the claim that no further problems will be outlined afterward. However, if “any more problems” means none from this moment onward, the premise still anticipates outlining that last problem."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 227,
+    "output_tokens_details": {
+      "reasoning_tokens": 115
+    },
+    "total_tokens": 613
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36715n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fcf5486d8ab713a8994b3cdb7ea29fc219f1f9f019985680259cd8f8a672ffce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c77edeaf1375f14016acbd9098df487d2b637358fab6eecac",
+  "received_at": "2026-10-11T18:44:29.432896+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "Twisting the man's wrist may involve grabbing him, but the premise does not establish that Jon yelled at him. It also does not rule out yelling."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

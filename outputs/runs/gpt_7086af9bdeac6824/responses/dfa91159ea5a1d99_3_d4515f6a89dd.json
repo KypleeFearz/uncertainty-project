@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139028e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ef6a0331c56a8caa6c14313aa7cf07c963f36241c4c4ad8444a26158de88d4fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0529a3f4a37fc7016acbe90b28e087d2b031cff9ba81e74b",
+  "received_at": "2026-10-11T19:52:47.777188+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.73,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise mentions shared reasons, the care involved, and the speaker possibly leaving for a week, but does not establish continued investment when the listener is absent. The unfinished wording and unspecified referent of “them” leave the relationship uncertain."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

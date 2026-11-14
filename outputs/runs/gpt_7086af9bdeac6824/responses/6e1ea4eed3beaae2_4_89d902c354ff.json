@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6848277313.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92b79b3246adfe7703940531610bc311f2365bb3b86c67c420990de49c78cf02",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0539f4e426c50832016acd4e79b34487d298da62cc5e69ab17",
+  "received_at": "2026-10-12T21:17:48.324729+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Giving a PowerPoint presentation to people strongly suggests that the man is talking, but the premise does not explicitly state that he speaks."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

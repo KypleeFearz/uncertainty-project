@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36924e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0625cd5148e3e13a89dffc43b2404be1414d91cfbee516d23db7e3021a4fa678",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dc039ca6da00b92016acbecf5bdd487d2ab78e445dcdb2ff8",
+  "received_at": "2026-10-11T20:09:30.595028+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Saying “never heard of it” ordinarily supports not knowing what it is, though unfamiliarity with a name does not guarantee ignorance of the thing itself. The premise does not explicitly identify its speaker as “he.”"
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

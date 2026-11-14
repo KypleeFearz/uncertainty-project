@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111693e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2af192e0ec9488baee0e68d72c3d0f587b4eb88459bfe7da851766132e6a99d7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d26d1cfcccdab8016acbc209ecb087d29182edf1f6c66d76",
+  "received_at": "2026-10-11T17:06:24.849604+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise reports allegations that publishers are pressured to favor blockbuster books over moderate-selling books; it does not establish publishers’ wishes or intentions to produce high-budget films. Moderate-selling books also do not necessarily sell badly."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

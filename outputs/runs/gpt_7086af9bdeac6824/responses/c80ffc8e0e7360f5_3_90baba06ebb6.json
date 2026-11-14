@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74561c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3646e51dd0a5d6509678917f0f01182f4ccb142455f7f9dc2428a30131ca5502",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08ce0fb3aa31bec9016acd4783710887d283c7021ff523960e",
+  "received_at": "2026-10-12T20:48:06.596018+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise states only that Greuze asked Natalia whether they should take him down there. It does not establish Natalia's certainty, her answer, or any insistence that he must go there."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

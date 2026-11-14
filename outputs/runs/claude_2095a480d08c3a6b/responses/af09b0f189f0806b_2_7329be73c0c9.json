@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "131216n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "72f381a2f45c3e27906c36bbfbb1c45db50aa78f110936c8bfc17ed278722628",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3oSCR8fsCUy15wn4Xq",
+  "received_at": "2026-10-12T21:25:27.287794+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the palace was the home of his mistress, where the king increasingly took refuge, which suggests he stayed there but does not clearly state it was his residence. Whether 'residence' covers frequent refuge is an interpretive judgment."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 845,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

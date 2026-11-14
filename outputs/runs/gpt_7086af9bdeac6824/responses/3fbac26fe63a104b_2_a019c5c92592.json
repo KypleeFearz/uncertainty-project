@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_299193125.jpg#4r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2607c1c887a0cb80351275413112e37bea143a61a0d61451f38cee6e76f2516e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eb6a6426fe450c2016acd4a76880087d2bbd7a31ccb73f8aa",
+  "received_at": "2026-10-12T21:00:43.090499+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise describes children playing outside but does not establish whether a boy is playing a Gamecube on a couch. The hypothesis could describe a different child or event, so it is not ruled out."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

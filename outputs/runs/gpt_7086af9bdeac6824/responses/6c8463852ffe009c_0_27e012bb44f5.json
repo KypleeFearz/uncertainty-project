@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4952155171.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c39be111617098264ccef9e5aa46b3363aa0c1b59e253cd04342bcda07475c90",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08a65c66cdd06728016acd4daf546487d2a516e5da684168fa",
+  "received_at": "2026-10-12T21:14:26.302008+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise establishes that water from a fire engine reaches a young man who is shielding himself with an umbrella. It does not establish whether the fire engine is broken."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

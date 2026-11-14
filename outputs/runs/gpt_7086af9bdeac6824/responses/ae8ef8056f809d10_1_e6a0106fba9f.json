@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100637e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ece2dcf784632130a80548b05da89e15559da09011f8180ec21f59a3601a0706",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_023e5a04d52a1567016acbe39309f087d2bb882504ad60f338",
+  "received_at": "2026-10-11T19:29:27.524543+00:00",
+  "parsed": {
+    "entailment": 0.73,
+    "neutral": 0.18,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The speaker describes the venue as not large enough and says about forty thousand people had to be squeezed in, supporting a contextually limited capacity. However, whether forty thousand counts as “many people” depends on the comparison standard."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

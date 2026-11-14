@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141293e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e332ed33f47d4969cf719805f418cdbb2acf5c8c3beffa7c8bf0c90a45000041",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fbca44d8b78becf016acbf7284e2087d28330ff15573b54d2",
+  "received_at": "2026-10-11T20:53:01.776287+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise places the speaker's start at approximately five years ago, supporting the hypothesis's timing if it refers to that same activity or event. The referent of \"it\" is unspecified, and the premise qualifies the timing with \"about\" and \"I think.\""
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

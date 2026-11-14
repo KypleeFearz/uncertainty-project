@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48908e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb815210a0d0e112bad19adff5096299bb3af7a718906355099a34b38cda3064",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6fd762c7313a4c016acbeea76be487d2b6a586a608e4b308",
+  "received_at": "2026-10-11T20:16:44.180654+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.029,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The town already existed in 6500 B.C., which is more than 8,000 years before the present. This supports the hypothesis, taking the town's age to mean time since its establishment rather than continuous habitation."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

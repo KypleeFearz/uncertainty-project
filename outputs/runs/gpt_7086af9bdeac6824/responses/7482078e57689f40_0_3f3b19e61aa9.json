@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96946n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8970724f01b0b18793dc2834a0e3aed2591ddb9b474351650873948207296143",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cdc1e0223c09f6e016acbfaeef80887d2a1882d4805884e30",
+  "received_at": "2026-10-11T21:09:07.444852+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Adrin describes them as seeming more for show than for battle, but does not explicitly state that they prefer performing to fighting. The hypothesis turns an impression about their behavior or purpose into a claim about their preferences."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

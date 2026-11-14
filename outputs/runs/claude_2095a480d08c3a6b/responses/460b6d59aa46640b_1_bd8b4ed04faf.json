@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42745e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f58e047ac6b52c6a70fa5f15183bc10364a1a144c608e506382c394d94ba8fd5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAgGkkK9t9da9r9fcsM",
+  "received_at": "2026-10-11T21:34:26.294550+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Santa and the Rockettes appear per the premise, but the premise only mentions a funny heart attack moment without saying who appears to have it or that it is one of them."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133243e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "046c58e1053eb1cc9b85b063432e1f7999a275b0858235c01fbca8eb81f69db3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0687b30289795836016acbf6d7625087d2acd50b895cc602ae",
+  "received_at": "2026-10-11T20:51:38.521553+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise establishes that the river flowed, but does not specify its sound or force. It could have roared or flowed quietly."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

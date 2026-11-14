@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21229n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "56a4c34139ad1424b43c92fa49d7e3bc0a3487dfa080b18c0522514b1e544efe",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA9GJbUUGgBcYgx9Kjs",
+  "received_at": "2026-10-11T21:27:26.097866+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The speaker mentions working with customers and government visitors but says nothing about customers' gender. The hypothesis is unsupported and not ruled out, so it is neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 832,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

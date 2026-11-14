@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3632197966.jpg#3r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.2,
+  "neutral": 0.7,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise only states that a motorcyclist race occurs on a course, providing no information about a specific man, chasers, or the direction of travel, making the hypothesis largely speculative."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 110
+ },
+ "seconds": 2.46,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:24:04.891487+00:00"
+}

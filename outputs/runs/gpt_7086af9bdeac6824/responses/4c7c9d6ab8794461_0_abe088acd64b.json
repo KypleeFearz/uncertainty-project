@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109698n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d50b0eb683aeaaee145606883766abfd961acd01a0b7324ce0a14eb073520fb2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f4780fb4b79dd25016acbe4f3e88c87d2918f1fe3512664c9",
+  "received_at": "2026-10-11T19:35:18.725053+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.41,
+    "brief_reason": "The premise supports that elderly and infirm people travel here, but does not specify where they come from. Travel from across the country and from other countries is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

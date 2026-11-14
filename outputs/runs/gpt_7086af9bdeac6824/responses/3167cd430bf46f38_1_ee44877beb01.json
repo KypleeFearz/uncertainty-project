@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35422c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e75f15338101f5fb627f6407072be10b995daaa134a0876cf0cb0898e5058aaa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_046306384b75d4c5016acbecc14af887d2b076d9d149d9450f",
+  "received_at": "2026-10-11T20:08:36.388282+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says that yachts can be chartered in Marina del Rey, but does not establish dinghy rentals or its status as the area's premier rental location. It also does not rule those claims out."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

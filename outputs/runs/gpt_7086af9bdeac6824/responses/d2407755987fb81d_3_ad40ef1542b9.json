@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49246n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "186063b69262ad6db6d13a522f728c65d725fee78768f7fa19bacfbcef50a46e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_048dc7f4cf71ee4c016acbf8d151cc87d289134b6fcadf3a6a",
+  "received_at": "2026-10-11T21:00:04.634720+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise expresses that something is believable but does not identify what “that” refers to. It does not establish that the facts are difficult to explain otherwise."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

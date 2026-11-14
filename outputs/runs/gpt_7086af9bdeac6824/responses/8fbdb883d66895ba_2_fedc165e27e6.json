@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65650e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c186ce3309f04d3cb1598ab0feb865f4e1ad716611aec21ea24eed36b9ce5d91",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab917f896afecf8016acbf0f735f487d28f06df89abc365d6",
+  "received_at": "2026-10-11T20:26:36.447086+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not specify what she failed to listen to, so it does not establish that it was the noise. A broader reading of 'didn't listen' as not listening to anything would support the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38477e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8c12ba070de9cb66196677ce90ea5c0de11e93471bc39aa2cf930fb590440de9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3f3c810bbc9ea5016acd4560088c87d2a73ff1d24abf0622",
+  "received_at": "2026-10-12T20:39:01.411921+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Revealing clothes may be considered provocative, but professional clothes need not be conservative. The hypothesis therefore depends on plausible but unguaranteed associations between these descriptions."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

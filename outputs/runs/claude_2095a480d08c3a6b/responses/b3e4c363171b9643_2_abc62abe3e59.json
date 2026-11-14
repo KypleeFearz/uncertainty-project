@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53628c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "28c9cbf9c9be0cc3fe19aaee44cbac052b26a37029284b528673c947a3ac2f8b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Q5C6UpvM4ciiUqxWv",
+  "received_at": "2026-10-12T21:33:17.602389+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says 'Clinton' (likely Bill Clinton, given 'his two predecessors') used the bully pulpit less often than predecessors, which does not support Hillary doing so. If Clinton meant Hillary, the premise would still not clearly entail it; the reference is unclear, and the premise's 'his' points to a different person."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

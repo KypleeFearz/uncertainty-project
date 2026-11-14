@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83207e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b0d267a4fe8993a8cd2821f46fd3f09e61ec73c6d9008c41c00308f04dfcb8ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cae787bb7a93d54016acbf346219087d2826923f9777c7005",
+  "received_at": "2026-10-11T20:36:25.258248+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise asks whether those people can be rehabilitated, supporting the hypothesis that their rehabilitation is being questioned. The fragmented wording leaves some uncertainty about the people described and whether the question expresses personal wondering."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

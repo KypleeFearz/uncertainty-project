@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144418e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a7ad0e235c4fb84d197a8b74221fdd92f10b8d84fd601fb1222b036e321ad73",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d8e4b1918b9c017016acbe9c9e23087d2b157138c596ee41f",
+  "received_at": "2026-10-11T19:55:58.499666+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "A million in savings supports the informal claim of saving \"a ton\" this year. However, the premise is a fragment and does not identify who achieved the savings, so \"we\" is not established."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

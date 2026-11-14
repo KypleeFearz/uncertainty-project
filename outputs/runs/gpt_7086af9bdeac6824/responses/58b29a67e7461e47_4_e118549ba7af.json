@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122928e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a2f3fec5722b5d282323b9b76e1db219e329ee5812d35e20592bf3ff6b7454b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3a7efda650bb54016acbe6a958fc87d294177b7c6edf4748",
+  "received_at": "2026-10-11T19:42:36.563267+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise places a page-boy waiting outside her door when she returns, supporting that she found something waiting. Minor uncertainty comes from using “something” for a person and from whether she actually noticed him."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

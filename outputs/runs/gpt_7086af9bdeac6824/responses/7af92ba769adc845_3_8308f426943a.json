@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100792n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8e7f7d26b59d551dba2b2554f9eb7ceff82fb74acb58450f15f2e3baebcb610",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d2d69756322c01e016acbe3a6875087d28f4d98827f83e9b4",
+  "received_at": "2026-10-11T19:29:47.673501+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise asks whether the addressee has small children, which supports the broader question about having children. It narrows the question by age rather than asserting whether any children actually exist."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

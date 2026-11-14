@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5217397101.jpg#2r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd949fbdf373805f9a6f9d0ff91832a092508837b3b1536909629bcb15468f40",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f65663a0a698b58016acd4de4958c87d290283900ab47506d",
+  "received_at": "2026-10-12T21:15:21.153179+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise establishes that a nun is photographing an interesting site, but does not specify whether she is outside. An outdoor setting is plausible, not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

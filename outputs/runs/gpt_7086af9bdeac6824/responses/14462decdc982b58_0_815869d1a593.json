@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117177n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c7f8137bca9e9bb12d4ff34714d8899453df5e2c2f5e9d7576acbc8038cfde66",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03315d907b52d4ef016acbe5dbb02887d2985b5c23869bd3aa",
+  "received_at": "2026-10-11T19:39:11.977441+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.74,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise tentatively endorses the idea that history repeats itself, but does not identify a prior situation as evidence or establish the stronger conviction expressed by 'truly think.' Reading those details into the premise requires contextual assumptions."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

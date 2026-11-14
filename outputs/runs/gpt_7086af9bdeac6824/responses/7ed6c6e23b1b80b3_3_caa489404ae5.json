@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24103e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b34b456037d3dd3b8a08627907b95dc40ee88473f32b21ecb078bdbf8988c4db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0806735721a78818016acbeb4bc26c87d2ad47e6a09b09b45c",
+  "received_at": "2026-10-11T20:02:24.596323+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "Using full conventional power could mean maximizing conventional military potential, but the hypothesis leaves the kind of potential unspecified. Both are conditional fragments, and the premise does not establish maximization of broader national potential."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_431018958.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8e295ac97fbd72a8a26d5ce37550f159bc2fbdd8f26b532341d25cb7953a01d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c48e7c6b339e017016acd4c70afdc87d291b0d178ebe7c41c",
+  "received_at": "2026-10-12T21:09:08.770095+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise specifies water but does not establish that it is a river rather than a lake or another body of water. It also calls the paddler a girl, which suggests but does not strictly guarantee that she is a child."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

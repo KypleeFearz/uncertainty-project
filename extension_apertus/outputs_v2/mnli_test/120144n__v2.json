@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "120144n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The hypothesis adds vivid details about the bell being brass and echoing, which are elaborations not contradicted by the premise. The core events—turning a curve, seeing him ring the bell, and being admitted—are preserved, making the hypothesis entailed with minor probabilistic elaboration."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 368,
+  "output_tokens": 132
+ },
+ "seconds": 2.83,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:53:14.838072+00:00"
+}

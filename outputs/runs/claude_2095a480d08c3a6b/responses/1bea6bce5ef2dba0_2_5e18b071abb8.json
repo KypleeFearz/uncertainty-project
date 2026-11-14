@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "5329c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c69012691d8f7b198f14f76bd3bf2f5c0a354ea3e64c9c9a1a61edfb663f2a7b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAvb3Ej5UvFW7s135qd",
+  "received_at": "2026-10-11T21:37:41.359892+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise calls Maria Hsia a Democratic fund-raiser, while the hypothesis calls her a Republican one, so the two conflict. Although the FBI does have files on her, the party claim is ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

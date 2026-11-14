@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "20010c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ae191268e9121f37ada5cf7b4160101382fffe53fc00d8772cfaf72ef3e420d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072d243c89a9cd3c016acbeaa0271087d2ad1bd775e86ef50b",
+  "received_at": "2026-10-11T19:59:31.981605+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise is a fragment mentioning accounting and a management reform act; it does not establish that management is bad or that it is not bad. The incomplete wording leaves the relationship between accounting and management unclear."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

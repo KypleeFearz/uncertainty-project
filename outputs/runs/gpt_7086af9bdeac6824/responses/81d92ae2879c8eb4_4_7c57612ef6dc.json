@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47090c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "092e99b4c43f5d0f983da549d2d67d1bb72efc1c9801c9110c6ffd75555dbb21",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce2d91ba492f40c016acbf8b394bc87d2b603c6f1f2cccc8b",
+  "received_at": "2026-10-11T20:59:36.240372+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.82,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.34,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The speaker questions what body is meant rather than asserting that he has or lacks one. Although “his body” can suggest an existing body, that suggestion is not established by the questions."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

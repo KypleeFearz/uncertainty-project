@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109278n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "586d152b159b21dee8ed6326fdec636b64af5a65c328835dcb33f97c7ed4ac78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000607fc34753e78016acbe4dc12c487d2b905e5ee6009089c",
+  "received_at": "2026-10-11T19:34:55.645608+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.76,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise specifies fees for certain categories of lawyers but does not say the fees are for directory inclusion. If the hypothesis means all lawyers pay $90, it conflicts with the statement that retired lawyers pay nothing."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

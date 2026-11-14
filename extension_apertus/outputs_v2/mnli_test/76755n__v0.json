@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "76755n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise only reports that the analysis covers marginal costs and economy-wide impacts without stating whether those impacts are positive or negative, so it neither confirms nor denies the hypothesis."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 353,
+  "output_tokens": 104
+ },
+ "seconds": 2.35,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:42:28.932353+00:00"
+}

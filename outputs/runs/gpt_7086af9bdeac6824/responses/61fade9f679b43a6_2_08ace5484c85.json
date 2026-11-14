@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71974n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c483438337b05b69bbfa113bcc38baf794acaec9ae7a510c66655c84d7f336f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08db8e463c76047d016acd475cce8c87d2a5c7f3c3769eb8da",
+  "received_at": "2026-10-12T20:47:27.689736+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise praises Goodman's descriptive abilities and understanding of family dynamics, not a performance as a father. It neither establishes nor rules out critics praising him for such a role."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

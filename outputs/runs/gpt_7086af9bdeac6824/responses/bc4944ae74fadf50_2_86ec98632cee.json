@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34573e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "301962e9bb7debe85666b0579c14b14333e984e48864361ce5c27eb68960c0cb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072d59cd1223efe9016acd4524c18487d29b7dd0f46953ff09",
+  "received_at": "2026-10-12T20:38:01.592893+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.08,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "“Wasn't unlocked” ordinarily conveys the same state as “was locked,” and “chaotically exclaimed” closely paraphrases exclamations bursting out “disjointedly.” The slight uncertainty concerns whether “chaotically” implies more disorder than the premise establishes."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

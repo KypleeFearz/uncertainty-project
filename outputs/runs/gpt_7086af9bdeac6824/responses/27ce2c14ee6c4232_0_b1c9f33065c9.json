@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41975c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e4aaff2282a33b31ed814fa5dfb22a3921310a143e72688f3501cf65760f8cfa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082fce802c1543d4016acd458210cc87d2b6ca5f54607c5283",
+  "received_at": "2026-10-12T20:39:33.449933+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise describes Tommy urgently thinking of a way to escape, but gives no duration and does not say he is beginning to doubt himself. Being stuck for hours and feeling doubt are possible additions, not established facts."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

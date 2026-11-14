@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130680n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13e61d27966b58f2bde18d713b447ff874720ff5b2591130de134277d358d35b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf535e04e21b677016acbf6b26ad487d2ac3e40b0be58918c",
+  "received_at": "2026-10-11T20:51:02.938013+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise supports that leading organizations seek effective core processes, but does not establish that this is obvious to most people present. The hypothesis also leaves unspecified who 'the people here' are."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

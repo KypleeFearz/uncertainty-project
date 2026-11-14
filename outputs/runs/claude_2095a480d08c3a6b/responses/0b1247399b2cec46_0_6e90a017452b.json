@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "55864e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f2d84cff9608e37651ae8af9c71129d3fae00889489f12e844799005d3d48651",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwxsAstfyJ2Pv55Ex26",
+  "received_at": "2026-10-11T18:47:43.174852+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says he lived in Trenchtown, Kingston, and that the village is tiny, but it never says he came from that village. The reference of 'the village' is unclear, so the origin claim is only a plausible inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

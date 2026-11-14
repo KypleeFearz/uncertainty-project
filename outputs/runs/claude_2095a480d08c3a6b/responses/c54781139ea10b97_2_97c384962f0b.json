@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "62982n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "763b1521f9ef3eda3b0d35506de0d77959ac31a2754cd36f84a5945638cd0fe2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBAqWmauW8i5JTpxJCi",
+  "received_at": "2026-10-11T21:40:54.287613+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.85,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says the Oregon Law Center runs the program but gives no location, so the claim that it is in Portland is not established. Portland is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 838,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

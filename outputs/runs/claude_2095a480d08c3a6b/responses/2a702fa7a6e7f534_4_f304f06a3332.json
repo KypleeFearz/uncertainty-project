@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6272230270.jpg#0r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "28b6a7b0dcb6fd70531cbb0e401eae385fdbba0545c8ef5ca59a3ea96fa24ba2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5rQgha9bMBiTkBQAi1",
+  "received_at": "2026-10-12T21:52:21.640210+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise only describes a man in a spandex uniform riding a bike; it says nothing about his fear of falling or of spoiling the uniform. The hypothesis adds unsupported mental-state claims, though it does not clearly conflict with the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

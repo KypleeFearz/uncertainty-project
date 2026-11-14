@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4534889800.jpg#0r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "12bb8570bcd9120345da811f250f125d2aac63f2e0c6fc2b7219a93e92c302d3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ZRFhpTsCYGWUhQPd5",
+  "received_at": "2026-10-12T21:48:30.657177+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.85,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise only describes a man in an apron sitting and another man crossing the street; it does not say he is a waiter, took a break, finished cleaning, or that a last customer left. These details are plausible but not established, and nothing rules them out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 817,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

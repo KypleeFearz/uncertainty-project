@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3925836925.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cf1c4138c258fd55c7001faec4ed412cf10713a27f3240087d8f010e72d77b4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d098d98d063d4d016acd4c0b464c87d2bf32cae872e7c6e1",
+  "received_at": "2026-10-12T21:07:25.879455+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.11,
+    "brief_reason": "Taking a picture ordinarily entails using a camera, including one built into a phone. The premise therefore strongly supports the hypothesis, although the device is not explicitly named."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

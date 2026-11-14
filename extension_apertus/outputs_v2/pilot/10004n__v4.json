@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "10004n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The hypothesis rephrases the premise by adding a causal explanation ('because it's not who you are'), which is a plausible but not logically guaranteed inference from the original statement."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 110
+ },
+ "seconds": 2.52,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:31:52.069457+00:00"
+}

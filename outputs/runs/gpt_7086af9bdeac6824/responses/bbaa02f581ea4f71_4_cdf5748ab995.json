@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98944e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "014791e4dbce29513911c758b4fe5de06e6d5951ddd973cc435f09e08bc3b0ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099666ebee7f9716016acd48baf42487d290c0f0aad86f6841",
+  "received_at": "2026-10-12T20:53:20.356618+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.54,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The fragment mentions evaluation questions but does not identify a topic or explicitly connect the questions to one. The hypothesis is plausible, though its reference to “the topic” adds information not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

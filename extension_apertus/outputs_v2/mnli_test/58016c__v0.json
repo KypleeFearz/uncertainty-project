@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "58016c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.5,
+  "contradiction": 0.5,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise suggests that if you cannot identify the fool, you are likely the fool, implying that at least one fool exists. The hypothesis claims dealers say everyone playing is smart, which contradicts the premise's implication of fools at the table, but neither statement logically guarantees the other."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 349,
+  "output_tokens": 128
+ },
+ "seconds": 2.76,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:33:38.657479+00:00"
+}

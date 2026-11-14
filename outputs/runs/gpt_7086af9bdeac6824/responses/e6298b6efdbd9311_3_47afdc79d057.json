@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19668c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "466fc43158d8e2c17063336f69c17c11f2ca20a4fe7ced79e5d984c83847c50b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0370c44f4a6406016acbea7edc3c87d28c45576278ce9422",
+  "received_at": "2026-10-11T19:58:58.566980+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.09,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise says they should simply hang up and need not do anything else, which conflicts with needing to wait for further instructions. The speaker's tentative wording leaves some uncertainty about whether this is an established requirement."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

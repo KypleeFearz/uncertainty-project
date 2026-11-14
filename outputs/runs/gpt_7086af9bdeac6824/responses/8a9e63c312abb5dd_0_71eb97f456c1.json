@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2912739576.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "602ebd41c8509fe5c092976de5fe59681da80bbd8ba1fb45d21a0b129030f598",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0204ceaa2ba39d57016acd4a65407487d29adfa4ca6222506e",
+  "received_at": "2026-10-12T21:00:24.682214+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says the baby is waiting for a shower but does not identify who will give it. His mother is a plausible caregiver, but that detail is not established."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

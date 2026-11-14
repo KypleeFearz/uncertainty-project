@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37136n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a7d37bbcca729bdc2a3596244c6ba8af43570aab0e449468e416c575cbf20dd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03612ae5759cb58c016acd455396e487d2ad87dd3c9a30ef54",
+  "received_at": "2026-10-12T20:38:47.352383+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise supports that Adrin's arms were tangled and the blades kept away, but it does not establish that the blades were rusty. Their ownership and precisely whom they were kept away from are also not explicit."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

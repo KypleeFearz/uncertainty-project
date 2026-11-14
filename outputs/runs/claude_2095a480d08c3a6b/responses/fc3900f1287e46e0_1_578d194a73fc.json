@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53171n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "813167dd6cbca2349f5a8267dd8bc418cbf7bcf95df5ee0a061df9aac3284ccd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4PcfQZ73b9HKuMXRdb",
+  "received_at": "2026-10-12T21:33:10.845048+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise expresses that something is an honor, but does not say who feels it or that they feel humbled. Being humbled is a plausible but unguaranteed reaction, and the referent of 'They' is unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

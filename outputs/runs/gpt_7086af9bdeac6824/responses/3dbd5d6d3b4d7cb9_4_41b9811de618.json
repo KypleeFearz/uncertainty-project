@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134217n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d01dcbbb3556aaf770f53fd0a2aec93e54f8ca867291cf894a8f04f22ed61166",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0015ebe17a1e2185016acbf6e0948087d2ab0c4a4ad67bd832",
+  "received_at": "2026-10-11T20:51:47.848902+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.66,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise is an unfinished question about whether something is true, not an assertion that it is correct. What \"it\" refers to is unspecified."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

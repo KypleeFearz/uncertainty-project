@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121422c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ecf98546b5476af7b0d8d37b51b743574e12b9e03a67285b0125589ea31023a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f1b00eb0e995d58016acbe689c33087d2985d5b61b37faa07",
+  "received_at": "2026-10-11T19:42:05.633613+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.88,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise places you in the middle of the mountains but does not establish that this is the correct or appropriate part. In the premise, “right” emphasizes “in the middle,” rather than describing the part as correct."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

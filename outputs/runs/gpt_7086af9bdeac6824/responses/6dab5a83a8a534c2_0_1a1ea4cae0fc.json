@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1735n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73dab4f6097d59aa095cf6920e53b23a318e4b7b2c5a54facd0a4d88bc4ccb07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e40aca9fdcf070f016acbea44eee087d2b0e0f901cd41ea68",
+  "received_at": "2026-10-11T19:58:00.875583+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.74,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise expresses an impression that something is unfair, but does not rule out its possibly being fair. It also does not explicitly establish that possibility."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

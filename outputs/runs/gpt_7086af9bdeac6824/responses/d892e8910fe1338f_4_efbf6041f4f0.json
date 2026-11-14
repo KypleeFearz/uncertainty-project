@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136360n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "54ff2c2a84346491c4f73a5651c18fa65fec3ce039a43d5e1617e8b0107097c7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0dc32522f42277016acbe89d956c87d2bf9976d593ab5664",
+  "received_at": "2026-10-11T19:50:57.716241+00:00",
+  "parsed": {
+    "entailment": 0.33,
+    "neutral": 0.65,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "“Feel him” could mean physical contact or sensing his presence, but it could also describe an emotional or intuitive connection. The premise therefore does not establish that the speaker knows he is nearby."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

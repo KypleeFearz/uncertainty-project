@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125910n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7123219ca3fe3bb37a1c1339238fa0bd309e7bfd1ec197414938607f0443c426",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c04838b1e7a98e5016acbe700b74c87d29e817e7725cc4df4",
+  "received_at": "2026-10-11T19:44:05.036130+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise suggests that the listener probably has a similar place nearby, but does not establish that similar places are usually found anywhere one goes. The broader generalization is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

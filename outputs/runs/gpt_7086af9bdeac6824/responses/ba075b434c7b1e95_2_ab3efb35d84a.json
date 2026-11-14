@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93587c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d9a0fea3bc6bb3d480721cfce7bf31d52d9ea6cee8fd8ead9c16b5969ecc7986",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d8a56c4accfc1a016acbf469b4c887d2a30b4bcba496cf71",
+  "received_at": "2026-10-11T20:41:18.191251+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise mentions personal parties and commercial phone-answering services, not public parties or doorbell-answering things. The hypothesis asks a question rather than asserting a claim that the premise clearly supports or rules out."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

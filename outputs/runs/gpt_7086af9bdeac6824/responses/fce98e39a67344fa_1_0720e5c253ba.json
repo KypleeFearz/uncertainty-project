@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57454e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8e88d7cedee78e36f1f42fae29cb085abe8e81af5031b804ee9a5869ffc272a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05cf401bddf0e403016acbefdfb0d087d2b0ca73b650bfbc13",
+  "received_at": "2026-10-11T20:21:56.851682+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise asks whether Robin Williams has a funny part in the movie, which broadly supports the hypothesis’s question about his participation. However, the fragmented wording and focus on the kind of role leave some uncertainty about whether his presence is being questioned or assumed."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

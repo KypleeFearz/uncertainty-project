@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "16989c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "739b0733e1d104f41b427683d585fb5ea93322d548c74afb247d4a1b562390b7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA4AP1qHJgy3fwdJDYd",
+  "received_at": "2026-10-11T21:26:17.034242+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says foreign auditors must meet qualifications under national laws or acceptable standards such as INTOSAI's, but it says nothing about all auditors reporting to a global governing body. The mention of national laws weakly suggests no single global body, though it does not rule one out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

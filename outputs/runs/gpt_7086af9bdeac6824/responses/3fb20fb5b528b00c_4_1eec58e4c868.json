@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79130e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c048415d88107109fa1c5e3b32c30bdd3bcc425f0426a9c4487e5a7270e64991",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002ab33bd480b3c4016acbf9f74b7487d2b4513d5cc26ba53b",
+  "received_at": "2026-10-11T21:04:59.756590+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The chest being \"full to overflowing\" supports that its capacity was insufficient to completely contain the garments. A figurative reading of that phrase as merely very full leaves some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

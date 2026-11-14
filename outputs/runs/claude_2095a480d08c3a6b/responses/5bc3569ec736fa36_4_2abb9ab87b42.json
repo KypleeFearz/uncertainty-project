@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "40710c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "89f4fe66f8f04459c0a26aee289f24482ccdc9e3a8783fff56ffa874d798ced1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCZSk4JiFp4qf4XhK9B",
+  "received_at": "2026-10-11T21:59:07.441194+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.62,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise urges repeated writing, which suggests the speaker values writing, so a claim that it is a waste of time is somewhat unlikely. But the premise does not state any evaluation, so it neither rules the hypothesis out nor supports it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

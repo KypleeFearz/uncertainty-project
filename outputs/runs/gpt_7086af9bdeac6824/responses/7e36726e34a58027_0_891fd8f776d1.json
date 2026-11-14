@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40867c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a12c0a790434eb76b3292d182e006f8105ad39b46af9737182df6810916282c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d394b86f6cf771b016acd456fc27887d29d161ec9ee5e8163",
+  "received_at": "2026-10-12T20:39:16.139916+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.84,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise attributes at least five minutes to \"we,\" whereas the hypothesis attributes the last five minutes to \"you.\" The premise does not establish that the addressee alone took up that specific interval, but it does not rule it out."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

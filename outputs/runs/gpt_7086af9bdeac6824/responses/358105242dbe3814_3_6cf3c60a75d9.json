@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72019n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac41b3a0ee71e7e2c937b8d8a98b1034492a04c489fdb35e34292efa9fea51bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084ddda85dba6e14016acbf187d02c87d28f14820188ad3ed8",
+  "received_at": "2026-10-11T20:29:00.572739+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The hypothesis paraphrases the heading as a period extending from the Palestinian uprising to the present. This is supported by the usual interpretation of “Intifada,” although the premise does not specify which uprising."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

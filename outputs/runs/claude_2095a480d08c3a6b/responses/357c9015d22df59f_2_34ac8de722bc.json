@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "52171c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "20ee9d0bdcf2e4aac2502246f321a7e9f1f517b6112e2d69f334ce3351728134",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4NeCQcdP3sjMu4irZH",
+  "received_at": "2026-10-12T21:32:57.774296+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says conferences are held with central agencies like OMB, whereas the hypothesis says specialized agencies, which is a different category and not established. Whether OMB or OPM count as specialized is unclear, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

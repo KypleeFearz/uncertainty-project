@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2554531876.jpg#4r1n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "13fe032d8d40b05e1d0ddb6e2d3733b5e96922e2ae7aeba31978b857cfa4cb83",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy54WeLZ1en4THirQEbA",
+  "received_at": "2026-10-12T21:41:58.822722+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.67,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says only that a motorcycle races, without saying who or what it races against. A race against a cheetah is possible but not stated, and a reader might assume a normal motorcycle race, which would be incompatible with it. 'Bike' could also mean a bicycle."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 755,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

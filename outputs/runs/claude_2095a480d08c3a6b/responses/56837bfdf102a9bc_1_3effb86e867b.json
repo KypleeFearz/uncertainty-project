@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "54811c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "54c5e53541146310359f18e06ade82815e3154975c5772b5ea19493e82f4979a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCgrG7uhbSxkXwzs5dz",
+  "received_at": "2026-10-11T22:00:48.451406+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the park makes a good playground and the toboggan ride is tame for older kids, which suggests it is not only for children, though it never states who may use it. The exclusive claim 'only for children' is therefore likely contradicted, but not strictly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

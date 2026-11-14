@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24929e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd22a963ec6cf0c55a3e87bd030a59323879288821aec83930d9a7b964f202c0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0811357588d86adb016acbf7c8284c87d28b0871559c8b0749",
+  "received_at": "2026-10-11T20:55:39.403688+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.025,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "Providing general background information supports the broader claim that Chapter 1 shows general information. The hypothesis omits the specific topic without conflicting with the premise."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

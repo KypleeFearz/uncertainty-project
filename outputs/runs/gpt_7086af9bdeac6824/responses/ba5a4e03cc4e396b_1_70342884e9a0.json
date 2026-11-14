@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102708c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7d5e3bd7b806156c5bb8a2aaddbd07619849e6ae7718eaaff7d8aa886d8723b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026911c0291ca0ab016acbf5416f3487d2beb42064e3991dce",
+  "received_at": "2026-10-11T20:44:53.475224+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.66,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is an incomplete phrase and does not establish whether the cases relate to law. The meaning of “cases” and the malformed wording “Cases care” are unclear."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

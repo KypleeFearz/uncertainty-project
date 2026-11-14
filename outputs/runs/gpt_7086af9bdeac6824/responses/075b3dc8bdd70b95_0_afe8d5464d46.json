@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70717c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7e843b332f5eda39b980bca9de8c4f746aad07335d1f7f7a19e120645cc53e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3da02163fa6000016acbf9a8b0b087d2a7f411844da2e514",
+  "received_at": "2026-10-11T21:03:40.776851+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.33,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The speaker addresses the man as alive, and being 'given up for dead' means presumed dead rather than actually dead, which conflicts with the hypothesis if both refer to the same man. The premise provides no information about starvation, a desert, or abandonment by friends."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

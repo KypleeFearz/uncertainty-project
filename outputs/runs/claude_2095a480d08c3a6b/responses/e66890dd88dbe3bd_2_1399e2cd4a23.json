@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88646c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cb6bfb246956e0da7a5b380c0895e0f9c584946a0b0b741be884e810ce80f33a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCwj6S2BPiPkHDoxETz",
+  "received_at": "2026-10-11T22:04:09.714677+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says he told the listener they have no instincts, while the hypothesis says he said they had no willpower. Instincts and willpower are different traits, so the premise does not establish the hypothesis. It does not clearly rule it out either, since he could have said both."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108847e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7e7323b2e45b8f1c5ac27e5233989ed8e7d12c71e8fb9e1dc23b37d8ff64abd3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_025c4a38ad1601aa016acbf5b902c887d283f8ceace43bed6e",
+  "received_at": "2026-10-11T20:46:53.013505+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says welfare recipients could be included, not that they definitively qualify. It also requires competence to give informed consent, which the hypothesis does not specify."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

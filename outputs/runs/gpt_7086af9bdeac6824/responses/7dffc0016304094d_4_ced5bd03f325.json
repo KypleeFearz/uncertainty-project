@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18991n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17fbd2c0fa922e3b1bb3203e9f030aa0264dfcf410eb47c761cb0da35e27eaf2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0494cea1f0953e2a016acbea6d7d7c87d2ad8e0caf8195ff19",
+  "received_at": "2026-10-11T19:58:41.766585+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise describes a ranking of America's largest contributors to charity, without specifying educational charities. It neither establishes nor explicitly excludes the educational focus asserted by the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

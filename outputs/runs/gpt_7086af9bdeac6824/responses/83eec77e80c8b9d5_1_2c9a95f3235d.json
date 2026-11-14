@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8598c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd1c63fd989ca46f1e4fec5be476e097865103f30e68ac6219a4f3cc002fe951",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb582028cd012e0016acd47f9acb887d2a53f6ab9bc4d24d4",
+  "received_at": "2026-10-12T20:50:06.131067+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes a contract that provides for a firm price, which conflicts with the claim that it specifies no price details. The unfinished ending introduces some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56634c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f67e694038c756f0861ed70f42cf86409f8f402cf69930e3bfaeff8e4782676f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0104d9161bf492e5016acbefa0131c87d2a49f3420a5043e9e",
+  "received_at": "2026-10-11T20:20:52.996491+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.8,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise reports that an unspecified speaker said “we” were staying at the inn, but does not identify whether “he” belongs to that group or establish that the report was true. If “he” is included and the report is accepted as factual, the hypothesis conflicts with it."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

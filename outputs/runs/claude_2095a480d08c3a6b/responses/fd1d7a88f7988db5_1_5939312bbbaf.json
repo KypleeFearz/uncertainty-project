@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2060904593.jpg#3r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "eb5f8440965849d3e4c04bf83a5b159d9b3c36b856287aa6b390913d285f7258",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4vdKTeUh3P7GTHsbJG",
+  "received_at": "2026-10-12T21:40:11.163675+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.3,
+    "contradiction": 0.62,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says only one of the three boys is inspecting the bow, so all three inspecting it conflicts with that. Annotators might read it as neutral, since the other two boys' activity is not stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

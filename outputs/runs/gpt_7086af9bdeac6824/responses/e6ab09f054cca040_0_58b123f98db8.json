@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46059c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "821abfb707d47d518d0d29c40e4a0243687831f188923bd7b55428b4a2435c44",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bdd7cc5ea92272c016acbee39958887d2a68c5d4cf4d6e685",
+  "received_at": "2026-10-11T20:14:52.306557+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise states that well-designed studies typically have narrower uncertainty bounds than lower-quality studies. This conflicts with the hypothesis that all studies have the same amount of uncertainty."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3006443200.jpg#1r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4aba736264994b6467cfa1f721aafc2e48254aa5da020e5e38f94515f1e8c190",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d8c408462f1299016acd4a81b24487d294ed7bcfeafb1723",
+  "received_at": "2026-10-12T21:00:52.858304+00:00",
+  "parsed": {
+    "entailment": 0.29,
+    "neutral": 0.7,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.79,
+    "brief_reason": "The person is holding bananas, but the premise does not specify that the person is a man. Inferring male gender from the robe and pointed hat is not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

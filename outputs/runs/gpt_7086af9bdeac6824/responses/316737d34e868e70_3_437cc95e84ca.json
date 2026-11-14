@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99194n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3cd90ba645d61d8bd29fd613c0354b755e24b8586d393d476057be9be073fb1c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08a96795a7904427016acbfb298e7087d2b639f60896b2d396",
+  "received_at": "2026-10-11T21:10:04.568068+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.68,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the breakdown of an alliance between political groups, not two countries, and says nothing about a subsequent war. The hypothesis's reference to 'the two countries' has no clear antecedent."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

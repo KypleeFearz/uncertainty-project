@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45319e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cfd3c916ec1ccad5ae20c97858c45f0b4b1cc0e0b508941d1a3199044f6eb0fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6cb9468250769a016acbf886913c87d29b212856fc693411",
+  "received_at": "2026-10-11T20:58:50.675902+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.8,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise calls them good but does not specify whether they are merely all right or great. The hypothesis adds a limitation that is neither established nor clearly ruled out by that broad positive assessment."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

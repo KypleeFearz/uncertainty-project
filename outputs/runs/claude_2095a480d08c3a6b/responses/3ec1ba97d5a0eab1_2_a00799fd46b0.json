@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53897c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "afd85252916eb0b52f4277edcfe040e598fb11bebd7e5987f5d2a8a07af944a3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCgUnnLhTjomDzN3J8N",
+  "received_at": "2026-10-11T22:00:42.981291+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.55,
+    "contradiction": 0.43,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only states that greenhouse gas concentrations rose and says nothing directly about whether global warming is real, so it neither entails nor strictly rules out the hypothesis. Background knowledge that greenhouse gases cause warming makes the hypothesis implausible, which pushes some readers toward contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

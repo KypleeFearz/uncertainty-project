@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2298283771.jpg#0r1c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise only describes the man's appearance and gaze direction, not his action; taking a photo is a plausible but unconfirmed inference, while the hypothesis contradicts nothing but also isn't guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 111
+ },
+ "seconds": 2.48,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:01:38.927597+00:00"
+}

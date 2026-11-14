@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88349n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "82e1d427a6c32e273512e7eb40532d72efbdd9830bfbb52f69b6d30eec08b604",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_076532d752e5fdd1016acbfa89325887d28939377c6e7d78e9",
+  "received_at": "2026-10-11T21:07:25.468781+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says it behooves Slate to make a thorough effort to uncover the truth, supporting the idea that Slate should investigate. However, “is obliged” is stronger than the speaker’s expressed judgment about what is appropriate."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

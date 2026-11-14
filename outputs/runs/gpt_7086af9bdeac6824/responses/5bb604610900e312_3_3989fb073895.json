@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106013c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8bf4e854e08aa5b501fbca32f265418eb891f2a88f209da38da83895bb46b921",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ea746685ed59ba016acbf5875f3887d2925e284d98f85ac3",
+  "received_at": "2026-10-11T20:46:02.126174+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says Ca'daan heard the Kal grunt, not that the Kal heard Ca'daan grunt. It neither establishes nor rules out the reversed event."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

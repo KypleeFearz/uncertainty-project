@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61198c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3330a32c8f4e44a7d557e0bce5425754998f4292759e0ab4888e7efb9d2830c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cffd1f66cb6ab19016acbf030463487d2ae2adbd273f7ade5",
+  "received_at": "2026-10-11T20:23:16.430963+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.83,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise questions the fairness of people with fewer children paying income tax to educate someone else's five children. It does not establish whether people with more children should receive lower tax rates."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "27335e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9c4844b9041a2843cf73ab8f378298b956447ebf195661d15042e598df7310f7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy46S1Uojg6ygyZma3sF",
+  "received_at": "2026-10-12T21:29:17.277982+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Both ask whether a previously mentioned kind of music still exists. 'Available' (obtainable) and 'still a thing' (popular or existing) differ slightly, and 'that type' is unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

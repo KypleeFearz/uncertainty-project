@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2637936161.jpg#4r1n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "caab0071c645ec9a7711fbcb19fa471e44b077f5919caac696a0636db318781f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy55CuGweaFQkoJ8DQaE",
+  "received_at": "2026-10-12T21:42:07.920538+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.4,
+    "contradiction": 0.57,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The father looks at the camera, and the boy's gaze is not stated, so he is not described as looking at his father. 'Younger' is unspecified, though a boy is naturally younger than his father; a contradiction reading is likely but not certain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

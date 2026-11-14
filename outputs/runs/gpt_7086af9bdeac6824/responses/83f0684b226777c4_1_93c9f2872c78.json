@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101531c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e432777764e1621e29488c5f3f248e001c049cdec00b965d134cc7f546ff6d76",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d141dc78a50e121016acbf53a40cc87d2b1a340369fcd070d",
+  "received_at": "2026-10-11T20:44:45.382271+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise says a single large clay pot cooked all their food, whereas the hypothesis says they used multiple clay pots."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

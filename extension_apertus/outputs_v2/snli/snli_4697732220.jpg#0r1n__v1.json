@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4697732220.jpg#0r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise describes women in belly dancing costumes, which strongly implies they are dressed for belly dancing, but does not explicitly state they are dancing; however, the context of being pictured in costumes makes dancing highly probable."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 116
+ },
+ "seconds": 2.52,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:37:33.255153+00:00"
+}

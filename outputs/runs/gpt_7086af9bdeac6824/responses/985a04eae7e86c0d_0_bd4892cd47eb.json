@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54904e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "508c26747d3a30cea9bdcfbc05934c8bb038bd19a8c3727745e2e433955baaec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9b9be6ec457075016acbef6742a087d289aef4ef9e576398",
+  "received_at": "2026-10-11T20:19:54.341389+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.41,
+    "brief_reason": "The premise questions whether John and Miss Howard were speaking truthfully, but does not establish that the speaker knows them well or is certain of their honesty. The hypothesis adds familiarity and certainty not stated in the premise."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

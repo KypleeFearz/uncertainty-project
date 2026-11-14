@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "113913e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a665fb56c34c5f68cb4d31fad5a72f30f44a3217d9964f6a452066c2a75f26e5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9FzjoYdJW1fG5e8QgG",
+  "received_at": "2026-10-11T21:15:50.883758+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.33,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "\"Doesn't pay for all\" implies he does not pay for every treat, and by implicature he pays for some. It is not strictly guaranteed that he pays for any, so the entailment rests on a likely inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 774,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

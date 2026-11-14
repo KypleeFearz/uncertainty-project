@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73817e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb114785b40e6243ff40564420674b382fc448402de19bc570ccc96f2afcd711",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e3cdf7cfc106ba4016acbf1c8c77887d283863dace35f775a",
+  "received_at": "2026-10-11T20:30:05.124833+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise expresses enjoyment and good value for money, supporting a general claim that it was worthwhile. It does not explicitly connect that value to time, so the hypothesis adds an unstated qualification."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

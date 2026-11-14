@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33340c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6f84d6b7cb77e1a36ed3584d7a97496425b81f30f9d9d088fc381db35a52e6b5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0740311c1464da66016acd4516977c87d2884bf7f5c55f537c",
+  "received_at": "2026-10-12T20:37:47.035025+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The shops price their goods in US dollars and require payment in foreign currency, supporting that US dollars are accepted. This relies slightly on the usual assumption that a currency used for pricing can also be used for payment."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

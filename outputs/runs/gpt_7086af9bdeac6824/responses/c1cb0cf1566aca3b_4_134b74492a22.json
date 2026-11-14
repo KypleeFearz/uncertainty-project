@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5196768578.jpg#1r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f8ebdc484948a01564b990df19b6739e09b9af8b84f1465196fadd11695fa48",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a75af0a3ecac039016acd4de0a29887d2af92aff6ba4505a0",
+  "received_at": "2026-10-12T21:15:15.436049+00:00",
+  "parsed": {
+    "entailment": 0.998,
+    "neutral": 0.001,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The hypothesis repeats the premise's description of the child making a snowball, omitting only the location in a large pile of snow."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

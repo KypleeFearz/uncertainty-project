@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18892n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb8a95d4db1d416f5edcf9e6cca233e849bec6a903323f0aa70988150f909a7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0333da66ccaecf1b016acbea6710f087d2bc493f792c4873e5",
+  "received_at": "2026-10-11T19:58:33.895943+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "The premise says the sites automatically lead to George W. Bush's website, but does not establish their themes. A Bush-related theme is plausible, not guaranteed by their destination."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

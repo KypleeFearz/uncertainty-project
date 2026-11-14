@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11601n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd32c49255abfaff4476d14e9891c461cde8e79669660e9d4f1fd272637731e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5be7bc2b5b9bb3016acd4255b40c87d2a5fdb9e34c692f24",
+  "received_at": "2026-10-12T20:26:06.215442+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says AC usage should be roughly proportional to generating capacity, not that its numerical value is higher. It provides neither a proportionality constant nor a basis for comparing these different quantities."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

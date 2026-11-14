@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48150c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "152cfe0cb6f7ab56dce8594fcf22258c3193d7d9b98f1d54b341594320d2e744",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077dfe9f46139645016acd45f7facc87d281c43222c66a9168",
+  "received_at": "2026-10-12T20:41:32.885274+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.19,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "On a literal racial reading, the premise denies being Black, contradicting the hypothesis. The qualifier \"tonight\" leaves room for a figurative or situational meaning rather than a denial of racial identity."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

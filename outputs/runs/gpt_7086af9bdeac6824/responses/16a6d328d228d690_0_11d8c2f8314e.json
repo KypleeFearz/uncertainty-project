@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135779c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a6792cfbde1944f06512c4ad48c27e1d140cd1c294dc210cbf095d8a7d79f997",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0409dadf7f70edb2016acbe86f4ee087d29a9d02ed157900fb",
+  "received_at": "2026-10-11T19:50:10.268486+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise explains why Judge Bailey was chosen but says nothing about whether anyone liked him. Being chosen as a representative does not establish either universal dislike or that someone liked him."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

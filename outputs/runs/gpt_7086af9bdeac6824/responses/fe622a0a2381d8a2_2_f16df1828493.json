@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80458n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a0019b00727351cc7c510bf7490acd5797c08395394a76b39e7ca259d9749cd2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f57607194f4bf49016acbf2af43fc87d290af1e605c275039",
+  "received_at": "2026-10-11T20:33:55.668213+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise supports that pro-Microsoft analysts describe the removal as a heroic sacrifice, but it does not establish that anyone is risking their future. The hypothesis also leaves unclear whose future is at risk."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

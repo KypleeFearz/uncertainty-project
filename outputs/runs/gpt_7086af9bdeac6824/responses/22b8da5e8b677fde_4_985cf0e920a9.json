@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103354n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1768a6761c90ce32860d54a7a270f1259b86c9e339d2881ec472cee9465a9452",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcff0ef7236b697016acd41acb76c87d29d027d26e342577f",
+  "received_at": "2026-10-12T20:23:12.956785+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.71,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.31,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise establishes that the university has an art museum, but does not explicitly locate it on campus. It describes the miniature collection as considered superior, rather than establishing objective superiority of the museum itself."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

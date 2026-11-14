@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "25109e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7171ad02c8b2d259094ac64c6a3a09373cc9876fa86d5a163938f0cbd3be7855",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAFsY5nonE2irrKSw3M",
+  "received_at": "2026-10-11T21:28:55.864883+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker recalls their parents watching the Ed Sullivan Show as a kid, but does not say they watched it themselves. The hypothesis is plausible but not guaranteed, since the speaker may have watched with their parents or may not have."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 866,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

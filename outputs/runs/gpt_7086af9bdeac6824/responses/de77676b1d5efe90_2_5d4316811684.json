@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44834e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3aec30787c6f975c74e9f07b7940896990f40a8ef23dc9c954bddf71925c30ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015e0d1bf8c95db4016acbedfd039087d2ad29d3f6ffc39a36",
+  "received_at": "2026-10-11T20:13:54.627496+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says everyone grew tired of clever analyses, but does not say they grew tired of data collection. The shift toward data collection suggests the opposite attitude, without logically ruling out fatigue with it."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

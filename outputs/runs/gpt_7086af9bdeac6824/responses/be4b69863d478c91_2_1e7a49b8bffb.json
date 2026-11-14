@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100248c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61fdba45359e84501f823dac9bac9f937cdecab3979cca14fa7d99e13aebbdd3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020a7eb44b4a6e51016acbf518f85487d28c0516733b439afe",
+  "received_at": "2026-10-11T20:44:14.224216+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise explicitly leaves future regulation open if industry fails to police itself, whereas the hypothesis categorically excludes future regulation."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45605n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dffb89508dbfcc5bdccb080a0ce0702f7a135b788f101e9043dcbcdb79dd7e83",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c5359da76f4a7c0016acbee25889c87d2a73cdee6550624f9",
+  "received_at": "2026-10-11T20:14:33.503755+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "The premise presents naming after British redcoats as a possibility, not an established fact. It also does not establish that matching bright red body color was the reason for the name."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

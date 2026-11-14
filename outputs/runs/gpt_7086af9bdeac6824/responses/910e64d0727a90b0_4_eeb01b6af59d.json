@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82830n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0f0cfbd511026d1b553b30bf683210284b8e05dfa02bbb73a90817ca2e7122d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a20c4c1e0a382a1016acbfa34cd2487d2b38efec32f48c2b3",
+  "received_at": "2026-10-11T21:06:01.419745+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says the British built houseboats after being forbidden to buy land, but does not explicitly establish the maharaja’s permission for houseboats. Permission or tacit tolerance is plausible, rather than logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 600
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

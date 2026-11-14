@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "80766n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fc6cca38cec1b9bcc8083c7368da3d1fc06aa4ea7ef5ef79547ba9353fd9e1cb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4fB3jyXDd6ZpZUYT6R",
+  "received_at": "2026-10-12T21:36:42.110665+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.75,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise only says something is scary, with no stated referent, and does not say whether it is predictable. Unpredictability could be a reason for the fear, but that is an assumption, not something the premise establishes."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

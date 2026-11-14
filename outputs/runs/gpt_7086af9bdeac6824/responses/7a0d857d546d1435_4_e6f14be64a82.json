@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67174c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c6151b0bb08dc66716eda80923d2d5ed2c7ddd5fb8186afae5ef9ad5f0095e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e04d8a60aa28e50016acbf999dac087d2a53f0736f0fd60d2",
+  "received_at": "2026-10-11T21:03:26.618550+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.83,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.46,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says Democrats are mounting serious campaigns, but does not characterize them as dumb or their campaigns as silly or invented. “Serious” may contrast with “silly,” though a substantial campaign could still be considered foolish."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

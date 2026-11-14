@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125238c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b7fdb1bc2a7fa77ec650e57d6cc1159cbb2615ce1a54bce9f8a629a687ec7d9a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00077b383d36bbd0016acd42bd58c087d2b41314ae794ff218",
+  "received_at": "2026-10-12T20:27:44.827971+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explains accounting treatment if nonexchange revenue is transferred to the General Fund or another entity; it does not establish a transfer to General Mills. The hypothesis is a fragment, leaving its intended assertion unclear."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132539c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c41728fa68c8d137b7af969c01467596fb83cf15cb9414fa33cf9167201dcd5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4bef1c7d9dac57016acd43316c5087d2b75e80ba8ae41a63",
+  "received_at": "2026-10-12T20:29:43.430853+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.24,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise labels the route “moderate,” which conflicts with an “advanced” classification if that is what “advance category” means. However, the hypothesis refers to a chapter, whose relationship to the route is unspecified."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 574
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

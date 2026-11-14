@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34573e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cadbfa1d6c94cbe8675a9f3683e6e3c5b6175c4ebf59fbd2a6b7411745f8a3e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3941b99583c4dc016acd45243b4887d2b48f747e44e54fe9",
+  "received_at": "2026-10-12T20:38:00.542103+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "“Wasn't unlocked” ordinarily expresses the same state as “was locked,” and exclamations bursting out “disjointedly” supports the paraphrase “chaotically exclaimed.”"
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

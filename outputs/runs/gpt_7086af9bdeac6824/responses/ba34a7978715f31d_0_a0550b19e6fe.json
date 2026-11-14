@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12815e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "65833accb6dd19eca3cde1f7d366efcebb92d21a28db7a75be7e54e385161b3c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f691f5ff06de30016acbd8b2fae087d28145f33a2e45e9d0",
+  "received_at": "2026-10-11T18:43:03.403139+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says a league is always bowling when the speaker tries to go, but it does not establish that only leagues are bowling. Exclusivity is a plausible contextual inference rather than an explicit claim."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

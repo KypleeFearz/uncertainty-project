@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66225e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4106fa0294abedad0e1fbb08e0f6e71f757c028ab3f08c59734161cbeb475f09",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b32197fd1c5b957016acbf0fef9f887d2a37a72eb02f21b56",
+  "received_at": "2026-10-11T20:26:41.743942+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The speaker describes advertising to buy wheat pennies, not trying to sell them. This reverses the stated transaction direction, although buying pennies does not strictly exclude also having tried to sell them."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

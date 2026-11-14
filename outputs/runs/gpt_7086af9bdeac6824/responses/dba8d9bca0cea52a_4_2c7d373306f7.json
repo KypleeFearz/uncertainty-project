@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26443c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e537bfee527a91124e2e0a80073b17265fd4dd7fbc3481482a4ced2f37f169cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ba1c87c0307d49d016acbeb94251087d2bf100eb7680cb5a6",
+  "received_at": "2026-10-11T20:03:36.160766+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies sloping shoulders as characteristic of Dior-era clothing and contrasts them with the vigorous shoulder padding of the preceding period. The hypothesis instead attributes thick, heavy shoulder pads to Dior."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

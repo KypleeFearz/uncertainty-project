@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80797c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fb4e358d2c4c85c22c8552d962ee603ddb890772edb537cb6985584c202d9452",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dbb8818c2f0b286016acd47d866e887d295517e096094abcc",
+  "received_at": "2026-10-12T20:49:31.175910+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise describes recognizing revenue from forfeited property, not how revenue is spent. It neither establishes nor rules out spending revenue on forfeited property."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

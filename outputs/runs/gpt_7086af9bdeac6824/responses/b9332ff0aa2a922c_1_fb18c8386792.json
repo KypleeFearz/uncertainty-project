@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65162n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "14c9870a4a3fe63875835a39e4e4497577a2f77b75cf4c4660d83bb4fec61097",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09791ded3802ed6f016acd470a463087d2be08985c28a1d222",
+  "received_at": "2026-10-12T20:46:05.364259+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise indicates that donkeys may be encountered in Fira's alleys, but does not establish their transport role or prevalence relative to other methods."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

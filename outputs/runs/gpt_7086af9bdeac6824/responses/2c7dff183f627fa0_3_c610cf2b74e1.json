@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79245n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "feff80f04bbd5bae69a102784ba8935cf960822c99f934e4f3ac6b33080a3c12",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06e80fbd34ab961a016acbf9fbb00887d2ba788c9ee03d9049",
+  "received_at": "2026-10-11T21:05:02.792526+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise says dark eyes and eyelashes would have made her a beauty, not the most beautiful. It also does not specify brown eyes or establish that changing her eyes alone would suffice."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

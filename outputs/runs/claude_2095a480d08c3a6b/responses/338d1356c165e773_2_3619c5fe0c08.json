@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "64831n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1ee370c03f9d16d359f49102cb076d34c9d1ef05df424bcdbf8c8743725c2471",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwyCWy5P5SNQXyqpK7v",
+  "received_at": "2026-10-11T18:47:47.747096+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Fiss thinks people lack access to enlightening information, while the hypothesis claims researching would help form opinions. It is loosely related but does not establish it, and the premise's focus on denied access slightly clashes with a self-research framing."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 860,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

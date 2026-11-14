@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1773n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bb3868433ae224ab7acb69bc79253371c9ebb08d201127087b891c6b23cbd08",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a608221fdce10e3016acbd8e5198487d2aec1221171aff8bc",
+  "received_at": "2026-10-11T18:43:53.527233+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise does not identify the associates' boss or establish how that boss was operating. If their boss is the person referred to as \"he,\" the hypothesis conflicts with the premise."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

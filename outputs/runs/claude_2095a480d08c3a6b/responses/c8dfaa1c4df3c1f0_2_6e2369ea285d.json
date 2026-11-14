@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102563n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ab137e5c79d14c9c796c41607cf954254fac811c2286e547ed9d26b1b1fe0467",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8yyN1H6qRRoi7E38bM",
+  "received_at": "2026-10-11T21:12:13.219587+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The judge only murmured disapproval; nothing says he ordered silence. The premise neither establishes nor clearly rules out such an order, though a murmur suggests he did not formally order anything."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

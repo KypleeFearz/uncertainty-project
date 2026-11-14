@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97337e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "466462e3b0e29101f8177558e987a08aa419f777ed8bae67234a4e42b6de6403",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03b55edbef39059d016acbf4cf2f0c87d2807441b55564c6a7",
+  "received_at": "2026-10-11T20:42:58.791198+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise gives an approximate total across several groups, including Holocaust survivors. It does not establish that all 2.5 million people were taken in as a result of the Holocaust."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

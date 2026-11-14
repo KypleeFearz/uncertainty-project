@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "72870n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "201b954598519a8042587ebfca6fb829b062f6bbc2762d83f2b762f82da044eb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBMRjLT94iL5EByRmtE",
+  "received_at": "2026-10-11T21:43:18.021156+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.92,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise only says preprint prices could be very low due to low marginal costs; it says nothing about public opinion or fairness to new printers, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "116111e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f2d7e59451fccbccbda0534e014536d6cdf090a26513379b1586a0e60b1db64e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9JnuEmS3BWWjGp3BXo",
+  "received_at": "2026-10-11T21:16:28.694401+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.03,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise states NHTSA concluded section 330 did not supersede the section 32902 mandate for model year 1998 CAFE standards, which is exactly the hypothesis, with the extra clause about the criteria not affecting it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 854,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

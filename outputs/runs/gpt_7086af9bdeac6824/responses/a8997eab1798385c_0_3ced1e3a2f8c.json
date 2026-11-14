@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4854166267.jpg#4r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "532ab1c5ca8f1de1221af94e02aab1dd827b32e67c1abaf680ee770285b319de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_087d66f2b4ac4f69016acd4d7d907487d282c48150e144a274",
+  "received_at": "2026-10-12T21:13:36.795676+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The girl is female and is lying on a floating dock, but lying down does not establish that she is asleep. Whether the dock surface counts as a deck also allows some variation in interpretation."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

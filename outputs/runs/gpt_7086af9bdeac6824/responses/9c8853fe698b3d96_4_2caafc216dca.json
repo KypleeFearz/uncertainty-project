@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131681n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d4eb4363f5ec2a31b72903e8e52bd51b0ce81739644108f67f93745c7a9a237b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002eca069ca3d27f016acbf6c4510487d2aaff14adf32cd26c",
+  "received_at": "2026-10-11T20:51:19.936226+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise explicitly attributes people's colds to alternating cold and hot days. This supports the hypothesis, though \"directly\" slightly strengthens the stated relationship."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

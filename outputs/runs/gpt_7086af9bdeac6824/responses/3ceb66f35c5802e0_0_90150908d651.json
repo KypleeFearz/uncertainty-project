@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43440n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f3148d33757453a7a508b5e411fd266dcef7cc6945179da06eb268de61db025",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053e52f54cbef06f016acbede4232487d2b99c2365a6f7c32b",
+  "received_at": "2026-10-11T20:13:27.486341+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise rejects condemning an unspecified act or thing but does not establish that everybody does it or that it is normal. The referent of \"it\" is unclear, and a reason for rejecting condemnation is not supplied."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70047c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a817dbd41c744394edcef9d423cef2298967f616cc6acb28860287d347d0363",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e572903cd7886e3016acbf150b93c87d2812605b7e694478a",
+  "received_at": "2026-10-11T20:28:05.002729+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says they examined the cliff-side after mentioning a hole, but does not specify that they were at the top of the cliff. Looking for the hole is plausible, while their viewing location remains unstated."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "85863n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a46512fc62a590e8ba56e4c3d121e0eb21e04462d4181ae1cc8b4110c76fcc3e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBhohjcuyUjncRCTtpk",
+  "received_at": "2026-10-11T21:47:54.514993+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.2,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says flattening is done deliberately to make life easier for them, which suggests intent and conflicts with the claim that they do not mean to flatten neighborhoods. Unclear referents for 'it' and 'them' leave some room for neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

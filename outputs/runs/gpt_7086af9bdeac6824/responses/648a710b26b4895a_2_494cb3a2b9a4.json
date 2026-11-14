@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117576e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ccc9152f857ab274ab205141272f346aef858a53122f2a0f7d520b4b716db08b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b3037f46312b38016acbf62426f887d2a7df2bfebade5337",
+  "received_at": "2026-10-11T20:48:40.234801+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise asks how long questioning someone or getting into their head takes, but does not say it takes a long time. The hypothesis supplies a plausible duration and explanation rather than information established by the premise."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

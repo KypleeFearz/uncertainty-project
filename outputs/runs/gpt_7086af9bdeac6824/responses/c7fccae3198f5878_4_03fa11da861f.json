@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3473742715.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1688216c1dcf6e115b6e27cb66fb0e8402c18cb29129ff166de286a8024d36f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053364119ba2730a016acd4b77dcf487d2ad3f267fa8e5dede",
+  "received_at": "2026-10-12T21:04:58.919127+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise explicitly describes the taller bald white man as sitting. The qualifier “appears to be” introduces slight uncertainty but does not materially change the support for the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

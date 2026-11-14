@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50830n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e9feb30e185a70f432d0149cd99da3cc98d9173d098b9be4a71db2eaf5c3128",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f764f9863a54125016acd462f49b087d2af3f3fefceda0e09",
+  "received_at": "2026-10-12T20:42:26.665274+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.9,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says money is loaned with strings attached, but does not clearly establish that a lot is loaned or that the speaker feels bad about it. Calling the situation funny and understanding a changed government's attitude do not establish remorse."
+  },
+  "usage": {
+    "input_tokens": 462,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

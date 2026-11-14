@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98621n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8dd2c42f1a82bb4b92145ad9c9c7e9eb0770aae513b5cdf72ba9246bb6c5b13",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_069f6245cbc63088016acbf4efea1c87d2aab2e08f8b897a5f",
+  "received_at": "2026-10-11T20:43:30.651863+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says respondents are questioned about willingness to pay in hypothetical market situations, but does not specify whether those situations are identical or different across respondents."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

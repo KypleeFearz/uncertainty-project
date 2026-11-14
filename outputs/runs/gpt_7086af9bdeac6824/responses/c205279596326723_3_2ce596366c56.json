@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145053c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5758b21c41b1a6ee66541dffe702fd07a3bb1eadb921e31781869576cc22f5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052c16a34ca63370016acbe9e6df3487d2ba62edde349f77c8",
+  "received_at": "2026-10-11T19:56:26.323771+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise establishes Jordanian control of east Jerusalem and Israeli control of west Jerusalem, but says nothing about a war or its winner. If “won Jerusalem” means gaining the whole city, the divided control weighs against that reading."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

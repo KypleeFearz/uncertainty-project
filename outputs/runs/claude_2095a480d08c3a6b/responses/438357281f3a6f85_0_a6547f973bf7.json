@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97394e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b105eed94e856477a2dc77a478d312aa33154f6281121a16ed4b534821755f41",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD2BmtvmvkRNKuiUTyR",
+  "received_at": "2026-10-11T22:05:10.335024+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says everyone should understand that First-Class mail carries a disproportionate share of overhead, which broadly matches the hypothesis's 'they have a lot of burden'. The hypothesis's 'they' is vague and could refer to First-Class mail or its users, and 'a lot' loosely paraphrases 'disproportionate'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

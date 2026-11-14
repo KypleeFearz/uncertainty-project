@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8524n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c8bb1d033a0b24f10517dc5cddda315e501334c1215080b908b47465719ce0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d631102f98c0a6f016acbf382bfd087d2b424e5468c3bc9ee",
+  "received_at": "2026-10-11T20:37:26.877613+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.25,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The parenthetical “South Coast” supports locating Treasure Beach on a south coast. However, the premise does not explicitly identify that coast as belonging to an island."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

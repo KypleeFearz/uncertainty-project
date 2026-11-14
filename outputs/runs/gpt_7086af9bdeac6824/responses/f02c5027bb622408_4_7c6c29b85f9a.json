@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82436n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b6f7919a79e589f24e9ac5c7f10e4934f575a79aefc97d28658a788c84e05045",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5de7a367e75444016acbf321c65487d2b1a19e0469e22c74",
+  "received_at": "2026-10-11T20:35:48.901475+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise praises the portrayal of aging except for the last actor, but supplies neither the ages 5 and 20 nor a claim that the actor was recognizable. Those added details are not established or ruled out."
+  },
+  "usage": {
+    "input_tokens": 441,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

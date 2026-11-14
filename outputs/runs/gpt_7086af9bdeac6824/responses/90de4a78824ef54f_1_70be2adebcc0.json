@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_322103537.jpg#2r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dcfd15e7a6a92bc6772c125d48b11a165b2fba8787dd6c852a897171d8aa6bed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040d47b49461c961016acd4b05659087d299c069caca974bbf",
+  "received_at": "2026-10-12T21:03:04.249521+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise establishes that a girl in a bikini jumps off a dune, but it does not specify where she lands. Jumping into a pirate ship is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

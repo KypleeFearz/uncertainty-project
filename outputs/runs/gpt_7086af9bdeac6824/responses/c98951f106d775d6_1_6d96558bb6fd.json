@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33822c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92025adb34114531bc3c6abf9b7693bd5022480236f072ba9779f27e6f7c6a2b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d7308c9dfe0ac3a016acbec895f1c87d28d0df0ecbcb629ca",
+  "received_at": "2026-10-11T20:07:41.179443+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The question may rhetorically suggest that he is that way, but it does not establish that he already is. What “be” refers to is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

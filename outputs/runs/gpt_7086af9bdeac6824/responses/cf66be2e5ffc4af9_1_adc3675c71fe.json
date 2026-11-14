@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19803e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd17b663fe6b59701a55e299b754d94573bf335aac0c71a70514245d7ef8bd21",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ced43802c201d7a016acbea8cef4c87d2b219bcc5c2b4b2ae",
+  "received_at": "2026-10-11T19:59:12.947151+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "Both sentences assert that something exists. “Surely” adds confidence, while “but” marks a contrast without changing that assertion."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

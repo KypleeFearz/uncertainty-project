@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98739n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7958c427547fc5cb19f162ad8dfdf14196beae612054b276e58c5a0737b0d87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c581f41e686aa55016acd48b0339487d28cef0f3464c31d46",
+  "received_at": "2026-10-12T20:53:10.144169+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The hypothesis plausibly paraphrases the unfavorable comparison with the Ritz and interprets the sigh as sadness. However, “nothing compared to the glamour” strengthens and specifies a comparison that the premise leaves less explicit."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

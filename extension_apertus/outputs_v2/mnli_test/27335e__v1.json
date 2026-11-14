@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "27335e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The hypothesis rephrases the premise about the continued existence of a music type, making entailment highly likely. Minor ambiguity exists around which specific music type is meant, and the question assumes existence without explicit confirmation."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 337,
+  "output_tokens": 117
+ },
+ "seconds": 2.55,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:14:13.006153+00:00"
+}

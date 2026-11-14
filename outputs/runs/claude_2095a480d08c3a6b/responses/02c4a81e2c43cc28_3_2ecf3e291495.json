@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "49227n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "96523b98621fb9238f1567ce71f1ae8622db34be822ca1a7e9c676b3c703be0f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAr1ynVz3RHohnks8BJ",
+  "received_at": "2026-10-11T21:36:38.956236+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise confirms agreement that he lacked Montana's supporting cast, but says nothing about whether he did well, so that added claim is unestablished."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

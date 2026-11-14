@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2214n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c83715180aad557363c2b4d26dc752c8d005d5031649e05fd4774d16f60d5a29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_046bfba9926f2c13016acd448847b887d2bfe13abeee229580",
+  "received_at": "2026-10-12T20:35:23.230301+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the documentation is available at a website but does not specify whether viewing it costs money. Free access is a plausible assumption, not an explicit guarantee."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

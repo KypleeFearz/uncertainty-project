@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10916n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5ee85b5f7608c9ad3f2a3b736207c208e89d9f659bc47b4fa12fc4724e6069d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_038f8075273b2425016acbe4d6361087d28cab934607afc039",
+  "received_at": "2026-10-11T19:34:50.654440+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says he made substantial progress using information from the book, but does not establish how much he learned from it. He could have gone a long way using only a small amount of knowledge."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

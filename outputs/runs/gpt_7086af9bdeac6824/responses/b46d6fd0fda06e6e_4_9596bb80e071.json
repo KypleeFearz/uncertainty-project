@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16469n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8700b008d937be42312c85eebd479a503f0efd942234dab9c2688b0e53c03056",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08fa0bf09a9e405f016acd444977c887d299a7493455b7328b",
+  "received_at": "2026-10-12T20:34:21.161596+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.63,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says Douglas was the only place they played on the trip and mentions amazement, but does not clearly identify Douglas as a highlight. Treating it as a highlight requires an assumption about the significance and positive tone of that experience."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

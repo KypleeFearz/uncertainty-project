@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "93354e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "11081d80c0e4317b8b9fac587d1ff72e96c8dec51d0566eee4273447f456cd4c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBqYHWP9LqY8D9mu4Yu",
+  "received_at": "2026-10-11T21:49:39.463290+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.35,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the speaker pays someone to do yard work and plans to have landscaping put in, which supports the plan. But the hypothesis says they 'always had someone do it', whereas the premise says they 'always had to do it' themselves before hiring, and the causal 'since' link is not stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

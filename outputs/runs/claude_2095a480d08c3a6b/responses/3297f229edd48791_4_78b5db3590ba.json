@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "50531e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6c6abeac0fda287b2eeadca1a6a4f8b4fa0b25e4a07ffeab864816393542738c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4M8au7h2jeUPKc41RS",
+  "received_at": "2026-10-12T21:32:37.113002+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The phrase \"In the USPS view\" suggests the USPS perspective may differ from others, but the premise never names another entity or says its view differs. The difference is only implied, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

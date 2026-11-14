@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73751n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "59a6fd0728952bcdacade43833a65f462ab93ec48f4836abd3b5128059b1725a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020d2285a46b343e016acbf1c4123887d28bfdd9e3f6bdb0fe",
+  "received_at": "2026-10-11T20:29:59.493053+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise suggests that timing may be the key question, but does not establish what current reports say or definitively replace whether Hillary knew with when she knew. The hypothesis also changes the contrast from “what” to “if.”"
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

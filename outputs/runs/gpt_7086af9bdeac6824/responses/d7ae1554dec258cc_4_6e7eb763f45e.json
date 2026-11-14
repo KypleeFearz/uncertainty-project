@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67632c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f451ce5147f835e34fcd2de7ff035cb4444b53bff2f461de6027ea4d381bda21",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_073dbaed6a87355f016acbf11ce00887d286e828081f57c91d",
+  "received_at": "2026-10-11T20:27:14.171596+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.87,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise ends the speaker’s remarks and expresses thanks, but does not specify what earlier remarks contained. It neither establishes nor explicitly rules out the sentiment “good riddance.”"
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

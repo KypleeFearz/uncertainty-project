@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6979052552.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50acee6ff528588c75ed4b6929a1e7154eb40678cc15be54a08a0e465180f548",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be3e91e625f2077016acd4e980a1c87d2903c7f65f2b26dfe",
+  "received_at": "2026-10-12T21:18:19.349782+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.0,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Riding a four-wheeler in a sandy area strongly supports riding outside, though the premise does not explicitly exclude an indoor sandy area."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113908n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "412ade6c7659dc8b63c737053e1a98d2aea83f66832a741918c7cac6722a8db0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0006bfd6fa1f7f90016acbf5ed7a5487d284d8cfd7d22fccb8",
+  "received_at": "2026-10-11T20:47:44.430596+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The premise authorizes a treat billed to Si but does not specify an unlimited spending allowance. Interpreting that invitation as permission to spend any amount requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

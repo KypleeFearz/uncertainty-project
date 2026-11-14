@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119758n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "88477a84437377ef7c321927fc1a43f9f702a90a8bb607c063151b1261b5656b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab0a29111ce810b016acbe63b17e087d2b4f4ea339b225b1b",
+  "received_at": "2026-10-11T19:40:47.434679+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "Both ask whether growing grass in shade requires a shade-tolerant variety. The hypothesis adds a reference to seed and changes the person from “you” to “I,” neither of which is explicit in the incomplete premise."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

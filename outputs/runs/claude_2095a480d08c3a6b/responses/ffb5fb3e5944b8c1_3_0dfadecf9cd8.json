@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42615n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "84e7dad6d00a594d1ec343e0dc73fabd9e9b97060f93968b93914aa923708d94",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAfxZ8UcBENA9HiaGTu",
+  "received_at": "2026-10-11T21:34:22.644356+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says two full-time circuit riders are being hired, which supports the claim that more people will be hired. It says they will assist grantees with web site content, not poor residents directly, so the stated purpose is only loosely supported."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 854,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

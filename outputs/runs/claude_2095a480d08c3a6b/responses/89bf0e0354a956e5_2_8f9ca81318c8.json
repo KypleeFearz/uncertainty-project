@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53468n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "151dc19bbe36a36d444cc7fd3cffaba23ccf16d697f5b7b9063948db015e3182",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAw9XMCmbT2obSoMLV6",
+  "received_at": "2026-10-11T21:37:48.916246+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is a skeptical rhetorical question doubting that the Internet is such a miraculous advertising vehicle, so it implies the opposite of the hypothesis. It does not state outright that Gross saved no money, so some neutrality remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77175n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62454a02740e4f6b00532cfe340de8e7f0ca48230c96b302167b6d22ac5f967e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_088375b3c2934055016acbf9da002887d297ad656b87605dd7",
+  "received_at": "2026-10-11T21:04:29.496331+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise presents money as necessary for results, but does not establish that enough money guarantees them. The request for a guarantee leaves that sufficiency unresolved."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

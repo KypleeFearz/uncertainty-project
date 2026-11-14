@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_7189118835.jpg#2r1n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise mentions three men but does not specify they are working on a skyscraper; it only says they are working on construction, which is vague. The hypothesis adds specific details (new skyscraper) not supported by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 121
+ },
+ "seconds": 3.04,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:55:14.566944+00:00"
+}

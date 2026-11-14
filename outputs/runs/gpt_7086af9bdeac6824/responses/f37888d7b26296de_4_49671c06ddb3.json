@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46198c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "917b59af6f8af6e4983d68d502dddd566dd9591b911c8b0e631e95a56f5f4e05",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0daef4581e2e4f66016acd45d0e95487d2952a2ab9fa3c50e3",
+  "received_at": "2026-10-12T20:40:53.813454+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.86,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise makes the return depend on how effectively DOD manages the funds, without stating how effective that management will be. It therefore establishes neither a certain bad return nor its negation."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118670c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a2a2588e1e6fd2658da7d3aa35cde12d1c4e70f790af2a2f993277b3fd5e1c9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d430957c3fc3f0016acbe61cc87c87d2851048960509c779",
+  "received_at": "2026-10-11T19:40:16.127635+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says that the Kal whistled, but does not specify the direction or whether it was near Vrenna's face. Vrenna's reaction is linked to seeing Jon swing something, not explicitly to the whistling."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

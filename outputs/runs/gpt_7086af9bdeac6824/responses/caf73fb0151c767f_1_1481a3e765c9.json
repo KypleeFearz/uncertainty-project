@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97394n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "468187fcb2927d0fad61fe2abcbda55dc9029ec271ffe8d36ea37eee9d379db9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d6bda617eb734a4016acbfb0059f087d2b42ff55934bcd69e",
+  "received_at": "2026-10-11T21:09:24.922140+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says First-Class mail bears a disproportionate share of postal overhead costs, but does not establish that it is \"too busy.\" The hypothesis could loosely describe that financial burden, though its wording may instead imply excessive workload."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

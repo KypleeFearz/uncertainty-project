@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48300n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f8543fd2bf72d5a0f90560f636c01dc0c67016e47751c5fde2e40d9165f94741",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d74a18a6335dd1016acbee9af0c087d2b4923ba767fed6a8",
+  "received_at": "2026-10-11T20:16:31.974680+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.39,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.26,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise generally places expected regulatory actions within the next 12 months, rather than saying most have longer time frames. However, the hypothesis's wording about activities that 'have been' longer could refer to elapsed duration, which the premise does not address."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 610
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

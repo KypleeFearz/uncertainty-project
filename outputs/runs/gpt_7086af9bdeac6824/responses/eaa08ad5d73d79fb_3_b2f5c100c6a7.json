@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52720c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e2b2c7ba1baaf5bc1d9034c3bcad8524c4d55edf0584fb54a87edf422c85c15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c7c71403f8cdbf4016acbef01c89487d2a1eb7b4f495a238b",
+  "received_at": "2026-10-11T20:18:12.586271+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.63,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise asks whether someone has 'got' him, which could mean captured, located, or understood him. It does not establish whether anyone helped him escape."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

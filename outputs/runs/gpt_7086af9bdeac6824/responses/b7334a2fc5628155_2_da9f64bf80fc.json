@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69906c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "167e4799a87e41582d9b3c3e06200164c64463339e5216a307b4850e228845d4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e82d4118f08812d016acbf145cf7887d28b4c0eb151272de8",
+  "received_at": "2026-10-11T20:27:53.519464+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise associates the Journal with a question about publicity, not whether something is a good political move. It does not establish or rule out that the Journal also asked the question in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

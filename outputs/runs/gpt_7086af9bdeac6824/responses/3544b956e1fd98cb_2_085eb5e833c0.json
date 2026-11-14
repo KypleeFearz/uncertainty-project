@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "25728e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f0dea4eef2b0bfc3e9acb174931bd366a86213aff67e5c08875f726b98c18fb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf702149ab28660016acbeb72fd0c87d2a7db06486a262a68",
+  "received_at": "2026-10-11T20:03:02.378103+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explicitly says the discussions were expanded beyond the eight primary organizations by requesting a poll of additional members. This supports discussing the topic with more than the original organizations."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

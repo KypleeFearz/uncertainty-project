@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92211n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "101796ce99eda204d6c5e78e5779e205243577017838fdf6a72463d041620181",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b74fa07ce36674016acbfad5ae1887d280b86ebb12f589e1",
+  "received_at": "2026-10-11T21:08:40.687855+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise places his birth in a grove of sal trees but does not specify where within the grove. It therefore neither establishes nor rules out birth in its centre."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

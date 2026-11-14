@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109443e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "07892cfd32cc94ab0c65423653994b010cf81c365697a186111fa51bec55c511",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5709986d433076016acbe4e4506c87d2b357f0e4098d188b",
+  "received_at": "2026-10-11T19:35:04.525341+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.68,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Waterloo” could name a place or refer to the battle, but the premise does not establish the hypothesis’s specific battle reference or the relation expressed by “in.” It also does not rule that interpretation out."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

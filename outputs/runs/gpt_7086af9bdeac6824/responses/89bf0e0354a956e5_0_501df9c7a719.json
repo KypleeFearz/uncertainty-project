@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53468n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e52fe14b280862c9d11f7df96aaa61a74ed50cc3187385f6fd7e26eae68afa98",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018e3cbe9d2751bd016acbef33f0ec87d2a1001b4082d29432",
+  "received_at": "2026-10-11T20:19:03.426773+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise questions whether Internet advertising could bring Gross substantial advertising revenue; it does not state that it saved him money. Its skeptical wording also does not establish that no savings occurred."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

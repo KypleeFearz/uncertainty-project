@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "28387c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5915603549ead7a9f3acc8beaa6bce6748ba737cbddef68d701001ec354b30d0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy47R9AhBkY3U7f4wtmo",
+  "received_at": "2026-10-12T21:29:30.806570+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise offers to describe what it would be like for a soul to live in a mandrake root, not to send the soul there. The hypothesis is a related but different offer, so the premise neither confirms nor rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

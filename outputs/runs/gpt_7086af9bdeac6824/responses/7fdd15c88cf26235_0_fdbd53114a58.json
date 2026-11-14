@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70711c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3ff0f4ebbdf238619b5602c103e64d100dbca66644a07cb6d4ef873e964f978a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c7d4af8ed18fbd3016acbf159237487d2938be471f5756df3",
+  "received_at": "2026-10-11T20:28:13.259975+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says that starting them when it is cooler in spring results in it getting too hot in summer. This conflicts with recommending a spring start to keep them cool during summer, although the referents are unspecified."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

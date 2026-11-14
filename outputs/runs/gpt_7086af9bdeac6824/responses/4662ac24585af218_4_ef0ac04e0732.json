@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31263n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "08b42c2ef6f668417fc3db908a70d2111e36b7e79ed55ab22312c760f6a4f6e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_030b57c5366c0e07016acd45160aa487d2a064ff3e55cf3978",
+  "received_at": "2026-10-12T20:37:47.150623+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Don't answer” commonly functions as a request to remain silent, supporting “Don't say a word.” Strictly, however, it prohibits answering rather than all speech."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "100136e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states that there are challenges to restore public confidence, which logically implies that reestablishing public confidence is difficult. The hypothesis directly captures this implication without introducing new information or ambiguity."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 111
+ },
+ "seconds": 2.95,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:32:02.346827+00:00"
+}

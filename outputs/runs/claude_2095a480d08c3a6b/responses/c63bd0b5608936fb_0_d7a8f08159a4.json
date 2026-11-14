@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "19c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "294407e909486b1b51af258d250bd08dcf65cec70967bf5a50b867ce5f8cfc1f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA7urWfVqaAwSrTB44V",
+  "received_at": "2026-10-11T21:27:07.719346+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the site is the ancient capital of the island, called Thira, not an asteroid impact site. The hypothesis is also ungrammatical, but it substitutes a different kind of site, which conflicts with the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21287n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d269000110f208d2a56eddc073601494679c1da8aa6d99871bb646e8e5bddf8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_069a907e753e2c48016acbeab8de4487d284d483a9eb423446",
+  "received_at": "2026-10-11T19:59:57.154262+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports that the green glow painted their surroundings after the rain stopped, but it does not establish that the rain was heavy. The added intensity is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

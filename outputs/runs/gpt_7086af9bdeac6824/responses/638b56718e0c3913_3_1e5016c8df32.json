@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77152c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fa8d4487b9f6f2f14fef3e298957a236e90b99aa6e2e13379db5d937541e11b1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cc6ba4928177dcb016acbf24409ac87d28401c999a7c63ac6",
+  "received_at": "2026-10-11T20:32:06.794689+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says some people can afford legal services, not that everyone involved has plenty of money. It also does not explicitly establish that anyone lacks plenty of money."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

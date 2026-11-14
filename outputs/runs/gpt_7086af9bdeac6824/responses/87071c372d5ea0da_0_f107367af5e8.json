@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79013n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c7c5941cf97348bf33f0055fdbdf0ba68d5c28b95861be812f3d89264bc6883",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0146c0b358d131e8016acbf277c38487d2aded538faa79abfa",
+  "received_at": "2026-10-11T20:33:00.294980+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise presents his fear as a possible explanation, not a definite fact, so it neither establishes nor rules out the hypothesis. The incomplete expression \"his No.\" also leaves what he might lose unspecified."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

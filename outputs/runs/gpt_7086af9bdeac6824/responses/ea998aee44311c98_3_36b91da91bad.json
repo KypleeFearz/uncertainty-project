@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125700e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7101343d9cd51f585cec694f97ff88c3eb22ed14795b8579bdd8ce0c24174c3c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b90865c6024a16d016acbe6f8511887d2a760a86b4bd4d505",
+  "received_at": "2026-10-11T19:43:56.637943+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.92,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise asks someone to bring spare clothing and a towel, not to replace their towel and clothing. It neither requires nor prohibits replacing those items."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

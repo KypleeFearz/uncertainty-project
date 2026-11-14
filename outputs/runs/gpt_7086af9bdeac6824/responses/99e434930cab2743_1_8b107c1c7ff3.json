@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136860n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17fc0d9a26fa7d7481855308d4b3cecab500e24676748275ef02cdb312178bfe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8a7b4a7efcead1016acbf6f9419487d2876e8965a2e2cbc9",
+  "received_at": "2026-10-11T20:52:13.248598+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise proposes agreeing that someone else should do the task; it does not establish that anyone will be appointed or will actually do it. The hypothesis is therefore undetermined rather than contradicted."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

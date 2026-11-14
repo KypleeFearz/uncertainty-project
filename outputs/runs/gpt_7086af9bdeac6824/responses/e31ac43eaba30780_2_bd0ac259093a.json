@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44861n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2fa9804722aec520949f67f7bf97fa35c7e44a2af957fe9a7b8a301866ddfc7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06c0a01678a4f4f6016acd45c29a9887d2a249e5c5f1007fa5",
+  "received_at": "2026-10-12T20:40:39.617925+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "Not caring what librarians do with the specified Reporters includes not caring if they throw them away. The hypothesis leaves the actor unspecified, but naturally refers to disposal of the same Reporters."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

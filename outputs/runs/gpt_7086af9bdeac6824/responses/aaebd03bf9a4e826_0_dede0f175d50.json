@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23769n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "807bb91658e58dade4aca769ce6167f392c1b11787c1fda64efb68d9cec36276",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d856de83d14af4016acbeb34020887d28f20d1c4885bff23",
+  "received_at": "2026-10-11T20:01:58.875452+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise supports describing Kom Ombo as unusual and devoted to two gods, but gives no information about how often it is visited. Thus, the added claim that it is rarely visited is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

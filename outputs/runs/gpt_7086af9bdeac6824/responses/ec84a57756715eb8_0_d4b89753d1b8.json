@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130277e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ddb817acc560a119f9e8ac1e45c64061e2e7a95f02fc96c073c2748affdf7e62",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fbe7c52bd18700e016acbe77f638887d29a9fa2253b15585e",
+  "received_at": "2026-10-11T19:46:11.211945+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "Asking what someone is going to do about something generally asks about their plan. However, the question could be a challenge rather than a genuine request for information, and the excerpt does not explicitly identify its speaker."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

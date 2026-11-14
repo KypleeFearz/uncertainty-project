@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3644142276.jpg#1r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ef3fdb12a00323aa1b7eaf700d83bb613f5ae75188da8f4ec1082f7dfc6fe317",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a703a0e1df524c2016acd4bd1895887d28663633a391701c5",
+  "received_at": "2026-10-12T21:06:30.168213+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "Hanging by gymnastic ropes is consistent with being in a gymnastics class, but the premise does not establish a class setting. The awkward phrase “brunette brown” also leaves the second participant's description uncertain."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

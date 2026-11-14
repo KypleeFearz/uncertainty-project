@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103455e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce53539bcc194fe3f58e38c53bad88ab0d118d3c78554e39d84c7d4d7dd6bea6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085334892ec01163016acbe4200a5887d2accfe5b0b1e9da9c",
+  "received_at": "2026-10-11T19:31:48.611845+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says nighttime feeding restrictions begin once infants are a few months old, suggesting that feeding is permitted earlier. However, it does not explicitly establish what is allowed before that age."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

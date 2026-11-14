@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115173n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3d91ce6fa3e3f9cce7c0dfed6a9a769e6f8f938a5b6faaae4dfa642c2e30a61a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0474e60551c1015f016acbe5905a6087d2910d602389f802e9",
+  "received_at": "2026-10-11T19:37:55.534726+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies Practice 16 but provides no information about Practice 17. It therefore neither supports nor rules out the claim that Practice 17 is to check for intrusions."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

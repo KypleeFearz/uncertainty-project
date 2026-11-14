@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3105691757.jpg#1r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "284df164eeb97a66bef56525cf56716857ed0d80c9702c8ef8a61c8d7153307a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5D5RYe1gUAtViiGXX1",
+  "received_at": "2026-10-12T21:43:54.253380+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.37,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "A parade of people in Santa costumes strongly suggests a Christmas parade, and marching counts as walking. However, the premise does not explicitly say the parade is for Christmas, so this is a likely but not guaranteed inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 778,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

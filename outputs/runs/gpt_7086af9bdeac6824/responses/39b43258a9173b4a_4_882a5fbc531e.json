@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21420c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f1c823db1560be76e88aa6d79e2f06409c0f8a776d0ff57f8e4e4632a54e5580",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07f2255c1d9ba54c016acbf7a106fc87d2bc756ea77ef59c18",
+  "received_at": "2026-10-11T20:55:00.044817+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise expresses liking the Lakers, Milwaukee, and Atlanta Hawks, but says nothing about the Chicago Bulls or Warriors. Liking the named teams neither establishes nor rules out liking the additional teams."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77590c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b726d30f120d27e417ab31145db6744e6fba9e75f4eea05608ab96465dfe3a7a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02bd634dcca87c5e016acbf24a9e8087d29d52212b1f8a48f8",
+  "received_at": "2026-10-11T20:32:13.862932+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise asks whether the listener thinks most states have something; it does not assert that the speaker thinks they do. The referent of \"that\" is unspecified."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26822n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a5e9a920d58dba1ae2887ca4eaecfc5bc8f5e303d89801b6a97fe0fa7b0e973",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_024f80e3d1964567016acbeb9a454087d29d5a6afa3cb92aad",
+  "received_at": "2026-10-11T20:03:42.228378+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The hypothesis closely paraphrases leaning over Tommy and having a purple face from excitement. Some uncertainty remains because “hovered” can imply lingering above someone rather than merely leaning over them."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

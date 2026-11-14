@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136360e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89ed76887e9c702556b383eff83438c0a74f3227071df81a1343065218a26705",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f46ef689ffa316f016acbe8999a3887d294ae10c8f5e557cf",
+  "received_at": "2026-10-11T19:50:53.043791+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Feel him” naturally supports sensing his presence, though it could instead refer to physical touch or emotional connection. The premise does not specify which sense of “feel” is intended."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

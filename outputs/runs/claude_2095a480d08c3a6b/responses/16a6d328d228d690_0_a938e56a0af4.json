@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "135779c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a6792cfbde1944f06512c4ad48c27e1d140cd1c294dc210cbf095d8a7d79f997",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9jqtGk6ieRf8NZqF67",
+  "received_at": "2026-10-11T21:22:08.541467+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says Judge Bailey was chosen as a representative of future winners, but says nothing about whether people liked him. The hypothesis is therefore neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

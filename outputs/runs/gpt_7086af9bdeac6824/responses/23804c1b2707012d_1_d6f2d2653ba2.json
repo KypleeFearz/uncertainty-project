@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123027n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "41a6d2ddea134ed1ece3ab31a882392f5d806ebee94ff16f5f09c29eed3fb22e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a8a99014ad61ff016acbf663012887d28f1a396639a3c188",
+  "received_at": "2026-10-11T20:49:41.859056+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "High humidity does not establish warm temperatures or sweating, though these conditions are often associated. “Sweaty temperatures” is also an imprecise description."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

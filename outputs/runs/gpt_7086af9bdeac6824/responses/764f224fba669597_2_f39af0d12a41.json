@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119065n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ffb30aae9b144b6cbb1a3f21360bb0a7712c6aba47cfde64e2fa6f7d9e6bf92e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0de4331e347f3cda016acd427776e487d290913c5c9fb4f9dd",
+  "received_at": "2026-10-12T20:26:34.479817+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.99,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The speaker says they do not know the highest rank for girls and supplies no rank name. The premise therefore neither supports nor rules out the claim that it is Hawk Scout."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

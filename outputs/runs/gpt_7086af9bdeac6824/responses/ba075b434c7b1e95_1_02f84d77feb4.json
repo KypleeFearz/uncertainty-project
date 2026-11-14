@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93587c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d255c1cccc912848e49448c852e9eafd15990ca315fa1c09d767a0818ecbc1f3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6cb95bc23acea4016acbf467c5f887d289f1e569f89d7b6f",
+  "received_at": "2026-10-11T20:41:16.568015+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.88,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The fragment mentions personal parties and commercial phone-answering services, not public parties or doorbell-answering services. Because the hypothesis is a question and the premise does not identify what is being discussed, it is neither established nor clearly ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

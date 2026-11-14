@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45443c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23e9a871937d000b0bcff3627a9fc2dbb21fe492d243ae1f96c5d952263d636d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d2c5b1af725580016acbee10c2a487d28c991ac1e9e87db9",
+  "received_at": "2026-10-11T20:14:12.973646+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise explicitly reports an I-695 victory, which conflicts with the hypothesis's description of campaign failure. However, it does not establish whether that victory actually helped people, leaving some ambiguity about what 'failed' means."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

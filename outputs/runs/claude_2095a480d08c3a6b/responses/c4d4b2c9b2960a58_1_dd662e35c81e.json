@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "12815n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "98ae54d5e2d1f6d15ed73f561d3a6b7d639034ece0f97b7883bfa51aaf317b00",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9aE7Ds2AjzDt5FKg5W",
+  "received_at": "2026-10-11T21:19:57.795482+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.38,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says that whenever they try to go, a bowling league is always there, which suggests they can't bowl. The premise does not state that leagues are the only activity or that they were turned away, so that part is inferred."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

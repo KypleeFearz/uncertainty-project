@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24385c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8ae6a7b8cf000470600c31d1f7c38ad3693919024d6f311231c8c3932c403b0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_057a8b90183542bd016acd44ab949087d28182400735d0c9da",
+  "received_at": "2026-10-12T20:36:00.092508+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise is an incomplete fragment that mentions farmworkers and the U.S. but establishes no rocket-fueling purpose, employment, or exceptional ability. It neither supports nor rules out the hypothesis's added details."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

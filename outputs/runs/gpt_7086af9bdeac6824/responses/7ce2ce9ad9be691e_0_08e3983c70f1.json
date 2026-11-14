@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19768c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62d8af8084b97b222ea23f3483d2bdedbb0d3cab91bb0177660ff4f05ed2844b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b032eaebc507b2016acbea81bcfc87d2a5cf6d154be9ad85",
+  "received_at": "2026-10-11T19:59:01.790186+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.15,
+    "contradiction": 0.84,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The instruction to keep to the shade in the street implies that street shade is available, conflicting with the hypothesis that there is none. The premise does not establish the buildings’ height, and shade availability is implied rather than explicitly asserted."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

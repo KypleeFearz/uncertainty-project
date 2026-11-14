@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15488c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8521de23257d51af24b62fc9485313563b5b8500b5671371f2d7e748ec943e68",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c20e6359aa7398016acd4433917087d289ae82e7a7fb10ec",
+  "received_at": "2026-10-12T20:34:00.061573+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise suggests that magic could prevent you from keeping things you wanted, which conflicts with the claim that it had little power. Its fragmentary wording leaves some uncertainty about the scope of that power."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

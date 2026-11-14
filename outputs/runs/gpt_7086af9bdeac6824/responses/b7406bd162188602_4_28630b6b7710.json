@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73817e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "37019f42a13eaf0f7d30feb87c4fba7836f47456decc72e9bff5e1d14e766c9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018063014e083156016acbf1cb615487d28efd34c8950559c5",
+  "received_at": "2026-10-11T20:30:07.760179+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Enjoying it and getting more for one's money supports the claim that it was worth the money. However, the premise does not explicitly establish the hypothesis's time-related qualification."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

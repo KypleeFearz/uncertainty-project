@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16253n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a54a847a74daf6f466391e7d980d9c83063d34f77315f7d68f24446769df89e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca7e104941384cd016acbea24908c87d2920cd8b510a117ed",
+  "received_at": "2026-10-11T19:57:27.858327+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.69,
+    "brief_reason": "The premise states a possible rate increase, not the Postal Service's preference for higher rates. The comparison intended by \"higher than that\" is also underspecified."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56649n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b2ea11dfe36076c98df74a3da38451f32b18b98c7d2af4631c63ce28cf639d2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f1374a66c089af9016acbefaa178087d2bb18f215e5e9ddd4",
+  "received_at": "2026-10-11T20:21:02.488366+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise naturally expresses uncertainty about where they might appear next, supporting the hypothesis. The wording “won't turn up” allows a more literal reading about absence rather than appearance."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

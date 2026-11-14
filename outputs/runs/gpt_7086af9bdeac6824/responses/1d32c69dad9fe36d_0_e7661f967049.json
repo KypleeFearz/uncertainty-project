@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100409e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13ab6d1883e57e9b666d3df9cd1aba9b0e23fe69bf1e8890058aca08bdb59502",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0af18113790e9e52016acbe387518087d2887747b2faa2b75b",
+  "received_at": "2026-10-11T19:29:15.008925+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says that the prize's value determines total expenditure, not that the prize's monetary amount is determined independently of its use. It neither establishes nor rules out the hypothesis's claim."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

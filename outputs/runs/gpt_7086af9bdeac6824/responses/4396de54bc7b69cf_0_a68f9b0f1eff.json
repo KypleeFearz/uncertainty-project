@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14388c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c396d24c7abb61d14bda19a7f355c295e6b54b07e8667602ee8f7c5b9ceb178d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c2b878383e8539016acd44048f4c87d29110b0366d4cf9ab",
+  "received_at": "2026-10-12T20:33:14.669875+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.25,
+    "contradiction": 0.74,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise criticizes the system for making parole eligibility depend on the distinction between 'life' and 'life and a day,' which conflicts with the hypothesis's positive assessment of fairness. However, it does not explicitly say whether he will receive a deserved sentence."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

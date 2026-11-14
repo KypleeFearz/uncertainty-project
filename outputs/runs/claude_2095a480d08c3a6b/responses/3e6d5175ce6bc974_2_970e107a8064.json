@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3487583433.jpg#0r1c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "839b39f0f5f246bbe4a8120163ebfbb567ee03c2ca6108ebdbcadb40d934c8fc",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5M94nPZsAoML6Cvq9Q",
+  "received_at": "2026-10-12T21:45:44.091517+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Doing diagnostics on a vehicle usually implies it is stationary, not being driven over a bridge, so the hypothesis is likely ruled out. However, diagnostics could technically occur while driving, leaving some neutrality."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

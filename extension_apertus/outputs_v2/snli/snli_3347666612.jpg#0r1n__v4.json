@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3347666612.jpg#0r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.75,
+  "neutral": 0.2,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes an activity that is commonly associated with playful games involving water and face painting, but does not explicitly state that a game is being played."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 104
+ },
+ "seconds": 2.4,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:19:19.950963+00:00"
+}

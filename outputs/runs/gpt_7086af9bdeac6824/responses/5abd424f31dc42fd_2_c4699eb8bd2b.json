@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17179n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c3e0079acdd18c1ab84fe3e5c1ac0172a7af755f46eeef40e7d1713df9b2b06c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_095ac05acc3c9535016acbea4055bc87d288abcc1feddff21e",
+  "received_at": "2026-10-11T19:57:57.835683+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "Both sentences instruct the addressee to lie back and refrain from thinking, if “use your mind” means “think.” The description of the mind as “crazy” is not supported by the premise."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5329c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "24871dc0fb36a0ef9fc42b834d4a1749202c509c634d3564088e32e31b6bb139",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04036227678d2acd016acbef26476087d28d22bafa34b33e1b",
+  "received_at": "2026-10-11T20:18:50.006204+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.04,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies Maria Hsia as a Democratic fund-raiser, conflicting with the hypothesis's Republican affiliation. It does support that the FBI has information on her."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

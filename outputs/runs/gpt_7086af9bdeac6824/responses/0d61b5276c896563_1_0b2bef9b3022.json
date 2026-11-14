@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134514n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ba90cc6d5938bcf288a8de78f3f9f52d96d9133e9e0411c678ad9d3827c4e4eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080c060b58b5bf5f016acbf6e709d087d2b16a86979d1eda96",
+  "received_at": "2026-10-11T20:51:55.611359+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explicitly says co-requesters cannot restrict the timing of the product’s release, supporting the hypothesis if “they” refers to co-requesters. The hypothesis omits the premise’s qualifier “after it is issued,” creating a small scope uncertainty."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

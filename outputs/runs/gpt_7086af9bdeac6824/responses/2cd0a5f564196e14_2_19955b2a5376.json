@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77893n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "90e89b04129d606615d5b02fba464bd9a1640509a53596f36f9378df27129b99",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1c1286e9475a50016acbf263441887d280747926b1e8ccae",
+  "received_at": "2026-10-11T20:32:40.031461+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise does not clearly establish whether “his head” refers to Tommy’s head or another person’s. Even if it is Tommy’s head, being struck with terrific force suggests injury or pain but does not explicitly establish it."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

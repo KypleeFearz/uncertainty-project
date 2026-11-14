@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109510n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "472323e1a2a7b56a17d91e311268845e508b5459a10c2b2bfe633f80a4f7b60e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d17a02ed77a60d7016acbe4f370a087d2bf2dababcfffccc8",
+  "received_at": "2026-10-11T19:35:20.700134+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the speaker has no \"heartburn\" about doing the work themselves, apparently meaning no reservations. The hypothesis instead presents heartburn as an existing issue to be treated and adds an unsupported intention to keep doing it."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 579
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

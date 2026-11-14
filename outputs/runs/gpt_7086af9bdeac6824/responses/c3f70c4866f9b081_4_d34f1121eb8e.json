@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68078c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30e4d739037921f4f7f197a94b8107936c6257bbdefd1055121dc70f74f650c3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0539b1e74e60aa79016acbf12a132487d2b83fb29da22317a1",
+  "received_at": "2026-10-11T20:27:26.931948+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.89,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise asks about the duration of his current position, while the hypothesis asks about his last position, ordinarily understood as a previous one. Neither question establishes an answer to or negates the other."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

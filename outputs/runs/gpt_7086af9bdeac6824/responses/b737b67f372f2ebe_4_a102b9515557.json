@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98561e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dac847d38794bd74db87be4affb22d1323a10cccfa919645a70ed1b79ca8d9c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c62f823584ac467016acd48a8308c87d2b354aacd64045e0d",
+  "received_at": "2026-10-12T20:53:01.109054+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The questions are ordinarily paraphrases, with “bad” corresponding to “not good.” A stricter interpretation allows something to be neither good nor bad, making “not good” broader."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

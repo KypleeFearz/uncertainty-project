@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18874n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "baa4a79805ce428e186ec2518b17258b8c97d58a8d0f7b8276d41f8de885552b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d8ad54f1d892f04016acd44691bc887d29fe92de6a9693269",
+  "received_at": "2026-10-12T20:34:52.246406+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says that lawyer Smith described wondering about a future occupation, not wanting to become a lawyer. Smith's occupation does not establish the listener's career preference."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

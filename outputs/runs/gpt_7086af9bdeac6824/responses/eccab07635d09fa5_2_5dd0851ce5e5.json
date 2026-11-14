@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3690358925.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25736fdd3baa02ef6123b45ed3fff449348823d677d5afdc9693f8bd40689644",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d188d56b088b352016acd4bd93a1c87d2ab86959f9a19707a",
+  "received_at": "2026-10-12T21:06:36.881202+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.89,
+    "brief_reason": "Playing with colorful letters may involve enjoyment and learning, but the premise does not establish either. It also does not rule them out."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

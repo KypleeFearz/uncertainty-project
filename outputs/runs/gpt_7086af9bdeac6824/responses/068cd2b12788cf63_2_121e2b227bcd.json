@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "35b11d7c15c4d08ad6793deb9c0e6e7a3b0f940b7475f659968e0c6686c23b69",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e12fe6f456c25c0016acbe9d81a5887d28954ea31e5177e07",
+  "received_at": "2026-10-11T19:56:13.157425+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The rhetorical question suggests that innocent people will suffer from his major strike. However, it does not explicitly establish that many people will suffer, so the hypothesis depends on an inferred scale of harm."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

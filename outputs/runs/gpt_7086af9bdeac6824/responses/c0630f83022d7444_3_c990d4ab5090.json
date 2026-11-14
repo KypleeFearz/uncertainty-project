@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27287c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4ccc62c54d9e27e6e43aaed9943f21d480c513f057de04b860eef2d2a49df8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b08f770231784c5016acd44c17c4087d2a9be8ce8d8c577ad",
+  "received_at": "2026-10-12T20:36:21.447067+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.88,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says they were talking and asks someone to behave, but it does not establish an argument or a challenge to confront the speaker. A tense exchange is possible, but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

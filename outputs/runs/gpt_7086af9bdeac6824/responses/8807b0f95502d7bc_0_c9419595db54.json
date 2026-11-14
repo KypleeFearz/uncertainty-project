@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7283335868.jpg#2r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85ffadbad33af31b655f3cbed7320e6035365b680131ec63204406c6343742b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a8c85db5792a80016acd4eae37fc87d2a01ac3b798d7fa46",
+  "received_at": "2026-10-12T21:18:40.665122+00:00",
+  "parsed": {
+    "entailment": 0.995,
+    "neutral": 0.004,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise describes the man as wearing blue jeans, directly supporting the hypothesis that he is wearing jeans."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 84,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 455
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

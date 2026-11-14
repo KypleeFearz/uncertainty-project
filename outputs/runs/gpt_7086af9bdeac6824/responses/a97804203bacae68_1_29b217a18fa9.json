@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33764c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "39460103426e1db36bbd634da67532ad40198f1d9d36f9d6515d5bc42a6ef12c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_067475e413288663016acbec8022dc87d2a29eeedf718a4ca9",
+  "received_at": "2026-10-11T20:07:31.443552+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise mentions discoveries about archaebacteria living in unexpected places but does not identify Mars. It neither establishes nor rules out their existence on Mars."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

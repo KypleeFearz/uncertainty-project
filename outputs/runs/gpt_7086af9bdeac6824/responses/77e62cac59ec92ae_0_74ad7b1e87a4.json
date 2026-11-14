@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3420651743.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1d9036ce8cd47f7d461275f11e914c869e282640757cf0fc970cadb96f53f1f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bfd59f0cec045f4016acd4b5b7a7087d2a09303545d80d98c",
+  "received_at": "2026-10-12T21:04:31.510542+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.93,
+    "brief_reason": "A brick wall can be indoors or outdoors, so the premise does not establish that the man is outside. An outdoor setting is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

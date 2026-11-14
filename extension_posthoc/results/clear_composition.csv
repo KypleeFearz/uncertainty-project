@@ -1,0 +1,17 @@
+split,model,majority_share,clear_cases,deviations
+test,gpt,below 0.70,14,10
+test,gpt,0.70 to 0.79,27,9
+test,gpt,0.80 to 0.89,45,12
+test,gpt,0.90 or more,8,1
+shift,gpt,below 0.70,23,8
+shift,gpt,0.70 to 0.79,46,6
+shift,gpt,0.80 to 0.89,75,4
+shift,gpt,0.90 or more,72,1
+test,claude,below 0.70,14,6
+test,claude,0.70 to 0.79,27,6
+test,claude,0.80 to 0.89,45,8
+test,claude,0.90 or more,8,0
+shift,claude,below 0.70,23,4
+shift,claude,0.70 to 0.79,46,6
+shift,claude,0.80 to 0.89,75,2
+shift,claude,0.90 or more,72,0

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55808n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ccd8f619911112e2f9aaae8055404491fd893b59c90eb0c67d4d51fdd8c77ccd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ac51f14e33e8bd1016acd4690a9e887d2ada3e657b5211ce2",
+  "received_at": "2026-10-12T20:44:05.166168+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says Time reported that the FBI was seeking a specific possible accomplice, not that it was seeking new leads generally. Searching for that person might involve pursuing new leads, but this is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

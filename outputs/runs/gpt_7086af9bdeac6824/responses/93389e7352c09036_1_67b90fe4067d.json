@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8545c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e01dd6b6afefd5bdc2e37baf80e2a85b909d83c42c57dbad1d6700c742020e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05bf6af1330cc166016acbfa705cfc87d2b6a160554f28719c",
+  "received_at": "2026-10-11T21:07:01.209086+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says he had not seen pictures of such things since seeing some silent movies, but does not specify when that occurred. Treating those viewings as long ago would conflict with 'recently,' but that timing is not established."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

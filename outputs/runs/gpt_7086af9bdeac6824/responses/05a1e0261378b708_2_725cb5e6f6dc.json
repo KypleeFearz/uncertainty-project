@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22462n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "42381abda943530883de869342eb198c87c0c6b893fbb735136c98971dbc7a2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02db96bf20798236016acd448b52fc87d2ab4d80b9727a9841",
+  "received_at": "2026-10-12T20:35:26.758343+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise discusses Mann's direction of The Insider and its narrative complexity, but does not establish whether it was his directorial debut. The pronoun \"it\" most naturally refers to The Insider."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

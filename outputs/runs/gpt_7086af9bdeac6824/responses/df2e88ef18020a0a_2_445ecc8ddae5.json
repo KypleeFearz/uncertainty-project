@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9047c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c34091e525ea4b34774b629d5d4fc363cd14e3fcb12d2e6570090cec0b3993d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085027a9ed696ab8016acbf3f8902087d2a93e9224792db40c",
+  "received_at": "2026-10-11T20:39:25.482083+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.88,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says that we tried to help, but does not establish whether anyone cared or whether our caring depended on theirs. The referents of “it” and “they” are unspecified."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

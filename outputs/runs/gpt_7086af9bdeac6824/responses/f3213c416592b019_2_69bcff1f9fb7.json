@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84781e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b226727b4dc6052a37ef80223a103aa65e1ce7571a6c8cd1854dd99d0000ec47",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0534806c6ce33ef9016acbfa5e12c087d2b6f0bfa3605db4b8",
+  "received_at": "2026-10-11T21:06:41.007918+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise says her coordination helps communicate new risks and remind employees of policies, not that awareness activities enable her to discover new risks. It neither establishes nor rules out that ability."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

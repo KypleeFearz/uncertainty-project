@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111338c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0d1c0dcf5369ed485f0faeb202e8f9b79c71524ed46a5c9bcc70bf9900e54d86",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0082459176422a43016acbe52c083887d28cf6c061e6bc54bc",
+  "received_at": "2026-10-11T19:36:16.575730+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.075,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "On the ordinary firearm reading, shooting the other conflicts with keeping his gun holstered. Alternative meanings of “shot,” or an unusual firing method, leave some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

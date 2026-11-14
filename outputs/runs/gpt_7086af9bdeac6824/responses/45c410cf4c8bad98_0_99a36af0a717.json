@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37131c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4443a8817f3d1b465b34d4f2e27fa15e18fee4255b9c9985abdc1570f73fad18",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026e1a7ec6643e09016acbf84053f087d285b2ef156b0d38fb",
+  "received_at": "2026-10-11T20:57:40.516533+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.92,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says Saddam might emerge strengthened in Arab-world opinion, not that he necessarily will. It neither establishes nor rules out the possibility that he could turn out weaker."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

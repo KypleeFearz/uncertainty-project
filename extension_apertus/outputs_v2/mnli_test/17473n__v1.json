@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "17473n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise expresses willingness to attempt something because the oil filter is accessible and tangible, which supports the idea that trying to remove it is worthwhile. However, the informal language and lack of explicit success claim leave some uncertainty about the outcome."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 363,
+  "output_tokens": 120
+ },
+ "seconds": 2.57,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:10:15.315538+00:00"
+}

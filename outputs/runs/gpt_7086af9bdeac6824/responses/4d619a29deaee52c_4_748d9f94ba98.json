@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44648e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7382698ec1b0c144c9dd6807221be3969fc506d6d8df413b913fd68dd3e64a72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dab4dcf11059a0e016acbedfb778887d2afc63d70647f4f56",
+  "received_at": "2026-10-11T20:13:52.250727+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise suggests taco salad may be unfamiliar to Mexican people and may be gaining popularity, but it does not establish its traditional status. Interpreting “moving up” as becoming a traditional dish through cultural movement requires additional assumptions."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

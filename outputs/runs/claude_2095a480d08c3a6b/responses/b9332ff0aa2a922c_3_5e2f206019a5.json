@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "65162n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4bc347caaa3933ebb898c4d2ae5229a0220e8eba10ffcc32ca53e6f785b3b019",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4WsUq2eiUUwaxNiQJY",
+  "received_at": "2026-10-12T21:34:49.542124+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.7,
+    "contradiction": 0.26,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Fira's alleys are free of traffic and that donkeys may be present, but it never says donkeys are the main transport. Their presence is compatible with the hypothesis but does not establish it; the 'free from traffic' wording leans slightly against it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 816,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34573n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c3e7b6a3c5bec1dbb3020d18d825b92d726ae21ffe9d1a8dfbc676f9b6c298d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0679252dc846f82b016acd4529ff5087d282379645409c767b",
+  "received_at": "2026-10-12T20:38:06.362909+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise supports disjointed exclamations about a locked door, but does not establish that everyone jumped up in a frenzy. \"Wasn't unlocked\" is compatible with \"was locked,\" so the added actions are unsupported rather than contradicted."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80808e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7995773e4707f134df98805163cc0107026e1b203c32be74d07bf13d8327dad3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0774bdd325612a5a016acbd94577e087d28e56adf8aabc131d",
+  "received_at": "2026-10-11T18:45:29.999764+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says a button will make some activity easy, but does not explicitly say the button itself is easy to use. Ease of use is a plausible inference rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

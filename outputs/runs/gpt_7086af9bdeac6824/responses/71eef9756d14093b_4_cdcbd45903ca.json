@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_779266595.jpg#4r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9e80279fecaa6c456a92881b05f9eafb0d5a6a5c08aa8f33de451d153a12e978",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01fe195bc5d8b257016acd4ed8ae1c87d2b136afd152b57f7f",
+  "received_at": "2026-10-12T21:19:24.272992+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.77,
+    "contradiction": 0.21,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise does not specify whether the men are awake or sleeping. Although “hang out” commonly suggests awake leisure activity, it does not explicitly rule out sleeping."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

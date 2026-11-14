@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120166e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61bc2c81095c56eb204c9da20a6f931fde9b59332a39e257da4a5e19b0275637",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06257ca1b7398091016acd4287fbe487d281282add40a01d74",
+  "received_at": "2026-10-12T20:26:51.920148+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise contrasts outward appearances with substantial activity underneath, supporting a figurative reading of an additional layer beneath the surface. The hypothesis is somewhat ambiguous if read literally."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

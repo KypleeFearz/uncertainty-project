@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69975n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ed85bee14c5d6a9e0005938c98835dcf87ff407fe2d1d5fca19cde88c62f90a4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_028e4dee557deeb4016acbf14dd6ac87d2afc567ef7f0a061e",
+  "received_at": "2026-10-11T20:28:00.758597+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker states their own lack of interest in tactics while addressing Al. The premise does not establish whether Al is interested in tactics."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

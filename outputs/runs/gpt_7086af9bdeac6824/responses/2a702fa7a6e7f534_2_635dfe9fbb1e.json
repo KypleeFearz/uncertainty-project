@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6272230270.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe88f31d9887411f92e324984045e0b81ea4a43ee77fdbb4e86e95d243fa2fbf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b09d2b137365a83016acd4e3e7b8487d2aa872adc23788f1b",
+  "received_at": "2026-10-12T21:16:50.504230+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Riding a bike in a multicolored sports uniform does not establish whether the man fears falling or has spoiled his uniform. The hypothesis's awkward phrasing leaves unclear whether spoiling the uniform is asserted or merely part of what he does not fear."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

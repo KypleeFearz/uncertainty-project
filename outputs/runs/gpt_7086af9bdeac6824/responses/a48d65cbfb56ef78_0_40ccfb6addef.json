@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13983n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1b064cf31f1e54f3caf90d78fae6fbbc5fd6852734c9290dd6f02c3cb4eecc5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00eb06e9a25a23ba016acbe935479087d2a901f9cf1d153b2f",
+  "received_at": "2026-10-11T19:53:30.075462+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise expresses belief that something is very important, but does not specify that it is important for us to know. The unspecified referent of \"that\" leaves this added claim unresolved."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

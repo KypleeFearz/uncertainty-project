@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "24385c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b8ae6a7b8cf000470600c31d1f7c38ad3693919024d6f311231c8c3932c403b0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy45QDJRS1Dh56wnB9RB",
+  "received_at": "2026-10-12T21:29:03.756816+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is a fragment about farmworkers 'conducted by the U.S.' (likely a survey or study), and says nothing about rocket fuel or hiring the brightest farmworkers. The hypothesis is unsupported, but it is not clearly ruled out either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

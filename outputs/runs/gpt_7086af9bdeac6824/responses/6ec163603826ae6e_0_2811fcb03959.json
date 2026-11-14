@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98197c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "780b2ce9e1a0a9e55a06b6e618a5263c4f1a17725adb51f2a9cc858045455003",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08066f4193bbb5e1016acbd97b7ba087d2b4f130be6055101d",
+  "received_at": "2026-10-11T18:46:23.973092+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.12,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Use by most major federal audit entities supports use by at least a few, assuming “the GAO system” refers to the named audit manual. If “a few” means only a small number, it instead conflicts with “most.”"
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

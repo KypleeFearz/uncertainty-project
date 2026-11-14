@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "98944e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise simply states the existence of 'evaluation questions' without specifying a topic, while the hypothesis asserts they exist on a particular topic. The premise provides minimal support, requiring an assumption about the topic, hence a small probability of neutral or contradiction."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 323,
+  "output_tokens": 124
+ },
+ "seconds": 2.71,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:53:54.500220+00:00"
+}

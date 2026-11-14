@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42301c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25981ee0e77f75fc449c89e576c21877dd156666018abb2400ac5a3a0702fe23",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fede3f97f52907016acbed9af7f887d29229d617d6cc4a2d",
+  "received_at": "2026-10-11T20:12:18.065429+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.3,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "“May include” suggests a possibility that the categorical “don't include” denies. However, both statements omit what is included, and the hypothesis may not refer to the same parties."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 582
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

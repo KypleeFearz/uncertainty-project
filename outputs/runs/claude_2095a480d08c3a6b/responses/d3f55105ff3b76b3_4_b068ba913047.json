@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53468c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b28b66fa39d2b594da7a268599594763a22800283353fc7dacfd82b87a3db045",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAw5uZAqqpqu3LKgQ4M",
+  "received_at": "2026-10-11T21:37:47.339271+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.77,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise questions whether Gross can capture ad revenue from advertisers, so it concerns him receiving ad money, not whether he pays for advertising. It neither establishes nor rules out the hypothesis, though it loosely suggests he is the seller of ad space."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

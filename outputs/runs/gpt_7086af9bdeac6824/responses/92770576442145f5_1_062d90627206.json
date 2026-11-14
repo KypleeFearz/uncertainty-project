@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57816e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1dd107890dc512f09d14b3ed1f04b230e1f38bbad44fe44f4f07ae31a4e90927",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06356d0c84e78f04016acbf944bffc87d2b910634a91d3ea57",
+  "received_at": "2026-10-11T21:02:00.071745+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "'Getting a kick out of' ordinarily means enjoying something, whereas 'gotten kicked out of' means being expelled. The premise does not establish whether the speaker has been expelled from anything recently."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

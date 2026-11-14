@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108588c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8d213a10506e7dcf7816164199f723f824490aca2d115920d2204355beb4f80b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0682f1ee00f95699016acbf5b0b8f487d2b110075abfb3fefb",
+  "received_at": "2026-10-11T20:46:44.609135+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.88,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise describes the blonde woman's figure positively but does not state how the men felt about it. Attributing that appreciation to the men rather than the narrator would require an assumption."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

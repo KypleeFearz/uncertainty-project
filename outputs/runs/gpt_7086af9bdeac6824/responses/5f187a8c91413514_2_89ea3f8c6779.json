@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80517e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2058b258fc5635b725e3f2d5e513b021089e9c7d34fe3f2c6ccdce313e5fd657",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ccd7eb6a26e0400016acd47cf484087d2a9422e8c579d968d",
+  "received_at": "2026-10-12T20:49:24.114331+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“Doesn't look good” conveys a negative assessment but does not establish the stronger degree expressed by “really bad.” The stronger reading is plausible as conversational understatement, but is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

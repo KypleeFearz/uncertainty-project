@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98844n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc7d84ae0cfd4675636ee3d480e7bd4f6f59162fc9399ba7817e8aa4766e50ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e65ff47b94219b016acbf4f8679087d2a6e1c919a14dec4a",
+  "received_at": "2026-10-11T20:43:40.391261+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the subway is fastest for getting around, but does not establish whether it is good for experiencing big city life. That broader evaluation requires an assumption about what experiencing city life involves."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

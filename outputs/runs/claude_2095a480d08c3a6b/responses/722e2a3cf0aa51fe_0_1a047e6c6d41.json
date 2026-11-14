@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "40100e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "df39aa3a45b9d97d6c6ce5824436b407c7b616a5a4bab17427f4167e8a602441",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAcj3CGfRRC2gcxn2Ya",
+  "received_at": "2026-10-11T21:33:38.217939+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.14,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Tripp was indicted for illegally taping Lewinsky, which strongly implies the taping occurred. But an indictment is only an accusation, so it does not strictly establish that she actually did it or that it was illegal."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3259228898.jpg#0r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53969192c0af40ef98e1ce2a779e0b6ed665ae4eadf73d73353e61fedc8d7f04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09d50c78f939f723016acd4b148c9887d296533db65dbe439e",
+  "received_at": "2026-10-12T21:03:20.661304+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise calls the object a box, which ordinarily has a shape incompatible with a ball. Its precise shape is not explicitly described, leaving slight uncertainty about an unusual round box."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

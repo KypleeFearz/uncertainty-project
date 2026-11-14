@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77654e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "330c6ca93bcc94ced034d626b3979ac4d191386b7847d813afade21630ae832a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d748b05ff351c5016acbf9db2c3887d2a45566d324470e28",
+  "received_at": "2026-10-11T21:04:30.281384+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise explicitly says there are no dates, supporting the hypothesis's proposed absence of dates. The referent of \"it\" is unstated, but naturally understood as the same object discussed in the premise."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

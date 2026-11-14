@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109876c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c006d68b70a6d74c62b940c6493faafa406f263eed47f635da6d75aa0ca7ed36",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0443ac1ddc680f63016acbe4f9acf087d2b934ca37fb82ab13",
+  "received_at": "2026-10-11T19:35:25.867097+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise mentions Gross Domestic Product, Gross National Product, and federal budget concepts, not GBP or USD. It neither establishes nor rules out that the broader text discusses those currencies."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

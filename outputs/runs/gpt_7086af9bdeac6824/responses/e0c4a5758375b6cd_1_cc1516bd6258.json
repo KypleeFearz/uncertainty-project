@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3637966641.jpg#3r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a779ac22c5d3916ecfe54d74df45bd4d604cfa28e580644deb31340d2780e8dd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e9e31338f9c01d016acd4bc5a4fc87d2818cbe3b68fdf5ff",
+  "received_at": "2026-10-12T21:06:16.849859+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise supports that a group of young boys is playing baseball, but it does not specify whether they are playing a championship game."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "92382n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "be3d278fc4c3b9a4ffe4418f878835bc4559a465f695aceff7776ff43d814a4e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCztqeAQivGqR2wUHv1",
+  "received_at": "2026-10-11T22:04:52.578805+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says the scriptures are on the lintels and that the tiles are mainly blue and yellow, not that they show nature scenes. Scriptures are text, so depicting nature scenes is unlikely, though the premise does not strictly rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 843,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

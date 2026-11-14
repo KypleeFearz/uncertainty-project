@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100613c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d36569f3376479621aef49b49a40cad578c529417bb06efc868bf71f582ae969",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09dc95ed7bf343be016acbf52c4d8c87d2a6dcd77e9c588396",
+  "received_at": "2026-10-11T20:44:31.618272+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise attributes rules establishing bridgeopening schedules to the Coast Guard, not the Navy. It does not establish whether the Navy also creates such schedules, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

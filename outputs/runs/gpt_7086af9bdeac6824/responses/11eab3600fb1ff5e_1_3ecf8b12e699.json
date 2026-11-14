@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18635n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4c40544609dc96e1b397b7e5138a5f2b04e84b8a9919e5a118f0eec9f3459de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcc32ce53d58754016acbf77e8d3c87d29005ed370dc66934",
+  "received_at": "2026-10-11T20:54:25.467020+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise describes perceptions of America and the blame it receives, not its actual responsibility. It neither establishes nor rules out America being solely responsible for globalization's excesses."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

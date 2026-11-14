@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "60212c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8640eef0437e7345311c3fde188b8d0aa8df6cbd76293c5e961b23ff50d92fdf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082c412b12324be7016acd46e0f5f887d2ac2cb05ac033bbc2",
+  "received_at": "2026-10-12T20:45:24.701696+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.83,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise suggests that some Kwanzaa rituals were borrowed, but says nothing about anyone claiming independent origins. The hypothesis also leaves \"they\" and \"the tradition\" unspecified."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

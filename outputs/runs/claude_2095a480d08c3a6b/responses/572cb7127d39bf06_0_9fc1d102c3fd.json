@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "113039e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "747bdd8579b4f615dc490b59bf6386de90fd0fbaf858e7a80b4e58bed70ef998",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9ETbXEWZdN3F4c2bt1",
+  "received_at": "2026-10-11T21:15:29.767553+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise's comparison presupposes that Steve Jobs was brought back to save Apple, which implies he returned. The sentence is truncated and could be read as hypothetical, so a small amount of uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

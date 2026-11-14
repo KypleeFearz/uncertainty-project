@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38204n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bd43ac1d7ce3cde0b4c0f2a67f456ba7372f4c0070bb002ac1300306633631c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b6e6e764596113016acbed28b93887d2967a958d29909f32",
+  "received_at": "2026-10-11T20:10:20.380932+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise suggests that the country's history may be uniquely turbulent, not that it is completely different from all other countries' histories. It neither establishes nor rules out that broader claim."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

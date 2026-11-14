@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73840n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8423bb2f002bbbf77f770bd84ef8841717cd20f767907090dc8bc5ff9693a46a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dce0554c916b5f8016acbf1d2d09087d2b9645ca2bee7c45e",
+  "received_at": "2026-10-11T20:30:14.623441+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Tuppence says events seem \"meant to be,\" and Carter agrees, but this does not establish that luck is real. Connecting apparent destiny with luck requires an additional interpretation."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7096n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95cd22655ce766c6680d1aadd6f4ae312eca966fdc2e62f0d8a4537257d8edcc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0308f3565f7219ff016acbf17071e087d2b35550ebae7a66b5",
+  "received_at": "2026-10-11T20:28:35.417931+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the island as popular with affluent gentry and celebrities, but says nothing about whether other Paris citizens dislike it. Popularity with one group does not rule out dislike by some citizens."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

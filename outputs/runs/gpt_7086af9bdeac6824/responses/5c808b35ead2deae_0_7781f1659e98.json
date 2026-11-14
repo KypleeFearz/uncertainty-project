@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102174e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "806eef1cb7cb37ad8bbc8a0dfeadce24cffe1cd7739fedc713ef46ca459e1fd1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b0a5e33aebbcb2d016acbe3e1850c87d2accec194efc87e95",
+  "received_at": "2026-10-11T19:30:44.272139+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise explicitly considers the possibility that they are \"not hitting that night\" or are \"low,\" which supports the hypothesis that they might not be playing well that night."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

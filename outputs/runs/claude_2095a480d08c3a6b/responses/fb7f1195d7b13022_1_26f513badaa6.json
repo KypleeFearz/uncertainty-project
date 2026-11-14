@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "48300c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a7293a6c0d0a26dbcd5b90e8dfa15327e29d964722118af9be0946c0b9b6337c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwApfi78t25WteJU2RfH",
+  "received_at": "2026-10-11T21:36:20.737706+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes which activities are included in the Unified Agenda (expected within 12 months, or longer). It says nothing about actions being implemented because they were shorter than 12 months, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

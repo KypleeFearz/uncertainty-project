@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34185e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "04b1d182ec3740241cb89ac2229dad87805f442bb03fb332cbe9e24257e79992",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCWpA5WgB21XE1DFPiU",
+  "received_at": "2026-10-11T21:58:32.289187+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the Taurus Show has the spoiler kit, which supports the hypothesis that it had spoiler kits. The tense shift (has vs. had) and singular vs. plural (kit vs. kits) leave a little room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

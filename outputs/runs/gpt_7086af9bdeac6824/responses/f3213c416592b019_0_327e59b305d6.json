@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84781e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f14a11edfaaa78c1fd7519de8bc4d8883d73bfc2dc6ab90b0317a63fac4afdfe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ebb741d5da605d0016acbfa5c31dc87d2a047c52f53b6d44c",
+  "received_at": "2026-10-11T21:06:40.082289+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise says she helps communicate new risks and remind employees of policies, not that awareness activities enable her to discover risks. It neither establishes nor rules out that possibility."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "130928n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "20e2ab8f4ee0794386706d2d304d5ba1ccc3a11d68304a2cd1f9fca43460ac0a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3nyGAvBZ9tGFixtEX4",
+  "received_at": "2026-10-12T21:25:20.531549+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says some unspecified problem can be overcome, which loosely suggests something to get past, but 'got over' is not the same as 'ignore' and nothing says it must be ignored. The referent of 'that' is unclear."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

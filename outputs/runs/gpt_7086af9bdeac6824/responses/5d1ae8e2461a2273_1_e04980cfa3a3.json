@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3012517885.jpg#3r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b077b2a1c461b251b28f22584740819a19d44c41518c662b037c93f5338c2f4e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e78144afd36dc8d016acd4a8856d887d29ec6b7507e557d16",
+  "received_at": "2026-10-12T21:01:01.427904+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The phrase “two men working on something” naturally describes both men working on a shared thing. However, the unspecified “something” leaves a small possibility that they are working on separate things."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

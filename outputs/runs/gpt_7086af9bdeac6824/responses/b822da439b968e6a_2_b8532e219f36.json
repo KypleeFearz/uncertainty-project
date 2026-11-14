@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92730e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8383de794d26f6652507098c2a2a1cb16f7c32161d74d8110fea38992f0308bd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_058f51962199df28016acbf43a983487d2b252b639102eeff4",
+  "received_at": "2026-10-11T20:40:31.342256+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "“Adrin’s Third Lesson” suggests a sequence containing at least three lessons associated with Adrin. However, the title alone does not establish that Adrin actually received them or that there were exactly three."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

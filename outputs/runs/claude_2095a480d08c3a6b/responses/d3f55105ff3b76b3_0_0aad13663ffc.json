@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53468c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1b845044415e93d004462f149c1d54dc3c985c160a5a6c71215e76e50c7ab3f7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAvut48jkhCdAK2j8Lc",
+  "received_at": "2026-10-11T21:37:45.576122+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise questions whether Gross can earn ad revenue from the Internet, which is about him collecting ad money, not whether he pays for advertising. It neither establishes nor rules out that he paid nothing, so the relation is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

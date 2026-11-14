@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42563c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1adb302a59dc3b9e9f856b719e858ae1105292e694438935d10d4a4af62b8b09",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d4f1ba4dbebfbe4016acbedacedf087d283004f26181ffdd5",
+  "received_at": "2026-10-11T20:12:34.690019+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Having Mr. Inglethorp watched suggests that his whereabouts can be tracked, opposing the claim that there is no way to tell where he is. The hiding-place remains unknown, but that is distinct from his current location."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 574
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

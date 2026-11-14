@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109443n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85b9895ad56719206815a520317e2e9791887a48bfe359823130c451f049018a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3aebb306543227016acbe4e8cce487d2b87cec66dcb739cf",
+  "received_at": "2026-10-11T19:35:10.409980+00:00",
+  "parsed": {
+    "entailment": 0.44,
+    "neutral": 0.55,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Waterloo” can name the battle associated with Napoleon’s defeat, but it can also refer to a place or another namesake. Without context, the premise does not establish which meaning is intended."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

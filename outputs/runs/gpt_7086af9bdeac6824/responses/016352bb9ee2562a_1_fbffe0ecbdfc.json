@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91541n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ccefd3b5da58668c1a89b109f96de85efaa5e7db991cab74643dffc0e900292d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09addd5ce8716b0a016acbfac760c887d29d681e5ba94a310d",
+  "received_at": "2026-10-11T21:08:26.767427+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.47,
+    "brief_reason": "The enjoyment of viewing it during heavy monsoon rains and the evocative visual description support its beauty in that season. However, 'especially beautiful' adds an evaluative comparison that the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

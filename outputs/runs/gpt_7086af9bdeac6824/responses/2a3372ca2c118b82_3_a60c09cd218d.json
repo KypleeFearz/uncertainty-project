@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126847e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4ef933dac4c8432d6810ec431f193fe56cb670b6861877bac9dc0a23b224c74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_083d748289229121016acbe71a6ef887d291f39bda5f19f904",
+  "received_at": "2026-10-11T19:44:30.362595+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise identifies Tom as the winner of a prize but does not specify a contest or when it occurred. A year's supply describes the prize's quantity, not the year of a contest."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

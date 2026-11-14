@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46937n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1ac1864a8eba2394bd7597c645f6d3a07f3fe21a24af4fdff59a2adbb6295f59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_028e1f845bca67fb016acd45ecced087d2b841cec2d216d030",
+  "received_at": "2026-10-12T20:41:21.823246+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.93,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise requires an unspecified action above six hundred but does not state what is required below two hundred. Inferring that nothing is required below that threshold assumes a rule the premise does not establish."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

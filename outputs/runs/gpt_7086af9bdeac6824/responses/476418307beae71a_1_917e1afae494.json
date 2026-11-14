@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_477774424.jpg#2r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92da1955f49954d153953583d83f5b19f78f37c37cfe057b1b6c532b6358cdad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04332e4c2d026c12016acd4d4beac487d28b6eb6f82b29de97",
+  "received_at": "2026-10-12T21:12:46.600613+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.015,
+    "contradiction": 0.98,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says the man is sleeping, whereas the hypothesis says he is wide awake trying to fall asleep. These describe incompatible states at the same time."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

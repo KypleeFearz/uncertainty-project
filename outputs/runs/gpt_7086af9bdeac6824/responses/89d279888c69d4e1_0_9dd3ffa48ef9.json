@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3028404926.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a8cae272fbbd43c11dcd016ae321b90a20320c632be5ef92adb1fb154bb1475a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e220593f8f0e6a4016acd4a915b1087d28b8f4452f8a645d1",
+  "received_at": "2026-10-12T21:01:07.847258+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise places benches behind the child, which supports the equivalent description that the child is in front of the benches."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 454
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

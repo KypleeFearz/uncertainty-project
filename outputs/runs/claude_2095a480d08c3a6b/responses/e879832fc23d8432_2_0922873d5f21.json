@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21297n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8f8e03387fb5d61a0578848b6bc5afc5d6e153ea3c71d7cc7310bdebb54faa30",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA9aAtihTLhUSmwti9p",
+  "received_at": "2026-10-11T21:27:30.388674+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.8,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "\"Walloped\" means hit hard, but the premise does not say a spoon was used, so the hypothesis adds an unsupported detail. It is a simile, so no actual hitting is asserted, and the spoon detail is neither confirmed nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

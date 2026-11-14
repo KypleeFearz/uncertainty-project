@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2204777844.jpg#4r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "66383310cf586264c9f6c85883a0c86f332f9e4d0e311060713aa2deb7d2a3ce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03b016672de7b9b0016acd4958e91087d2b898bc737bc35a11",
+  "received_at": "2026-10-12T20:55:55.800485+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise identifies a child and an adult but does not establish that the adult is the child's parent. Parenthood is a plausible assumption, not a stated relationship."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

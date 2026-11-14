@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "59934n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "34031646b0c4514ceb21f170c2adeab4c31d521164169cf357c3190ee423bca4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4UhQoTPDg5f9yPpDp4",
+  "received_at": "2026-10-12T21:34:19.368742+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the programs failed to capture manufacturing and reliability knowledge at reviews, but says nothing about finding data anomalies. The hypothesis is therefore unsupported, though not clearly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

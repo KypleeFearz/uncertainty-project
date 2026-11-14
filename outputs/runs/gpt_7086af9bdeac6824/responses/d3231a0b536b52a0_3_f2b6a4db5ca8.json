@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1073c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c200e3d56216de5d39033966c4ed7b990f93160920ffac9cb84de8b0203cd2c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07cb65228d2240ae016acd41dd342087d2a074f8851ad8ba41",
+  "received_at": "2026-10-12T20:23:59.818335+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise discusses erosion of Microsoft's dominance, not its profitability relative to Apple. It establishes neither that Microsoft is more profitable nor that it is not."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4183609474.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise specifies a young man buying from his dealer after his old car was towed, which implies he is buying a new car from a dealer, matching the hypothesis's core claim. However, the premise adds details (age, dealer relationship, towing) that are not in the hypothesis, and the hypothesis omits 'new' and 'dealer', introducing minor uncertainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 150
+ },
+ "seconds": 3.14,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:29:56.255186+00:00"
+}

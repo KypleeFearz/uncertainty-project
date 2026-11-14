@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109278n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1a37867afe20abe6c77bcad15e0a09842e8b80e7e650fcf13a493b49d28565d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c83eaa0776888d5016acbe4deb80c87d2af6fdbcada9725d8",
+  "received_at": "2026-10-11T19:35:00.274506+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.79,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise specifies payments for certain categories of lawyers but does not say those payments are for directory inclusion. It also says retired lawyers pay nothing, so it does not establish a uniform $90 payment for lawyers."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

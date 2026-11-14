@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114492e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b1107a0e85a8376c4494710e56e12159b51e8b9da959d59e0d78baa18bb2a45",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e7f80f2ecf662c6016acd423c177c87d2a184d3b43e7ee214",
+  "received_at": "2026-10-12T20:25:36.411917+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The phrase \"the same is true of the drug hangover\" supports a similarity to a drug hangover. However, the incomplete premise leaves unclear what is being compared and in what respect."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

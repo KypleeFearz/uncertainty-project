@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127809n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63197adfc0390971b0b908531dd602aa126db0fc8eea02d34830f8f299193ac9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e17d51726336d9e016acbf689810087d292a65ea7c1cdca9c",
+  "received_at": "2026-10-11T20:50:22.371954+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Being confused ordinarily means that at least something is not clear to the speaker, supporting the hypothesis. The hypothesis's \"it\" is unspecified, so the connection depends slightly on assuming it refers to the subject of the confusion."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

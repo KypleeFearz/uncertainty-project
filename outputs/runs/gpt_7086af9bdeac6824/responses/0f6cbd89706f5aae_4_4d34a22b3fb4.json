@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2249783869.jpg#0r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbd6d8df74d8332e423a9029a42d9bfc99b1330338094d0a1193d76ea58357c8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d28182359003b3b016acd4970daf487d284be5e9335f14fd9",
+  "received_at": "2026-10-12T20:56:22.308521+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.85,
+    "contradiction": 0.14,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the women are knitting in a cafe, not that they are helping make pies. It does not explicitly rule out their also contributing to pie-making."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

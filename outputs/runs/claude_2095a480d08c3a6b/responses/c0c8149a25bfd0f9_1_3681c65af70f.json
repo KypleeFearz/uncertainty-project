@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "64231e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b12d02d3653b4c38ca9e48c6fa33d536fe071242171fba1e5a13e2e57b670717",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBDL5YoX1XRgYzBZRzY",
+  "received_at": "2026-10-11T21:41:27.848395+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The Vice President's letter argues GAO has no right of access to documents because he is not an 'agency', which suggests he opposes GAO reading them. However, it is a legal argument about a right of access, not an explicit statement of belief about what GAO should be able to do."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 928,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

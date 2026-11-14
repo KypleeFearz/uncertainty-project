@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120496n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c98417896259a02d7ce9cf7c6301f20fa928b3d41c2897ea75a9fcdb2cbf81a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_001d884a9b565c96016acbe67043f487d28e8b6f6df44fa058",
+  "received_at": "2026-10-11T19:41:39.271138+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Saying strategic human capital management must be at the center of the transformation supports its being extremely important. The hypothesis generalizes slightly beyond the specific transformation effort."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76016c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3623e9ff8cc783ce7712a03c3da9f64e9671d06e7f68e8e0bdd26b88ada906a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09586c5478b1863f016acbf21885dc87d2a7d932eb6291f977",
+  "received_at": "2026-10-11T20:31:23.783644+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise says divers can explore the deeps, but does not state whether they like doing so. Availability of an activity does not establish or rule out a preference for it."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

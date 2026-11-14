@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95883e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0fe825113d9606fc97a2ee4e97807ab206dad5f50112856656c8d6071bf8db04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b8d43412b6734da016acd48445d4c87d2bac7e8d41d9e5cc0",
+  "received_at": "2026-10-12T20:51:20.088886+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the legislation will increase a supplement charged on court filing fees, whereas the hypothesis says it will lower those fees. These indicate opposite effects, although the premise does not explicitly describe every component of the total fee."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

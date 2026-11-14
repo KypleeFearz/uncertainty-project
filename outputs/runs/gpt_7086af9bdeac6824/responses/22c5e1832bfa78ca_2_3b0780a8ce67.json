@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59688n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a7e69b2a8ff118d6944892b6ddd1ade93c126368edc952d9de3eeb4b52054d55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eefbf47a081131c016acd46d029ac87d29695f489cd9512c3",
+  "received_at": "2026-10-12T20:45:07.310065+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Poirot’s call of “Eh! Monsieur Lawrence” conventionally functions as a request for Lawrence’s attention. The purpose is strongly supported by the direct address, although it is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

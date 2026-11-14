@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78105e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f092ffe1a7890f50259f8bcedd00f9ccb7e67e00113200fb829ffd780087df05",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e8dde7661b2f663016acd47b4583487d29bdec2bef4f87157",
+  "received_at": "2026-10-12T20:48:56.695743+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise establishes that supplies were scarce, but not that they remained scarce over time or were hard to maintain. Those additions are plausible in context but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

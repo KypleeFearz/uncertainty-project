@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111011e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9616f841df081bba768356bfd4f56ba32f04d9be0c448802d4382217ad853d6a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d169c0dcf890667016acbe522043487d29709b515da100fec",
+  "received_at": "2026-10-11T19:36:04.817991+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.91,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.27,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise mentions concern about trees or a bush and says lilac bushes grow quickly and spread across lawns. It does not say they could wrap around trees or that this is the reason for his concern."
+  },
+  "usage": {
+    "input_tokens": 424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

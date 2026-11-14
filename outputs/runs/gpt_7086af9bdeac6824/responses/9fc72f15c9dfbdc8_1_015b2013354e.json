@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46300n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4c1ba1a171d3a352bb2c473ae07d480b4a07d15269c27920b2db235d53c967f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_016760ec69fd2b44016acd45d8104087d2be860af1d7745429",
+  "received_at": "2026-10-12T20:40:59.047739+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.025,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "Accuracy and speed are the first measures named in the premise’s list. The hypothesis follows on the natural reading that it refers to this listing order."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

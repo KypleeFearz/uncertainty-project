@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118652e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2fa122e9a5f8acc3bea0b7f37d185027fb8446b76a06339b0e89d6d81e5f3177",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_034ff245834c60a7016acbe617963087d28a153b1450fdc5ac",
+  "received_at": "2026-10-11T19:40:10.436306+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise calls for analysis of progress toward a particular legal services model, not analysis of all models. It neither establishes nor rules out the hypothesis's universal claim."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

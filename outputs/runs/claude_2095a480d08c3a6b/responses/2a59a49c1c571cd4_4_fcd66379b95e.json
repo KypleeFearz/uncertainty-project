@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "71447e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4619d0b001065ab78aff13ca0f5a232548843945566d768632f2c5c34616bd5a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwzQ51yuy6daR7db9kT",
+  "received_at": "2026-10-11T18:48:03.540416+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.6,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says \"I play softball a couple of times a year,\" so the claim is about the speaker, while the hypothesis uses \"They.\" \"They\" could refer to the speaker's team or league, who are getting ready for the season, but the premise does not say that outright."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

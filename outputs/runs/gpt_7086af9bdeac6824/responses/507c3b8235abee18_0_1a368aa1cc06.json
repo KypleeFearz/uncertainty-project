@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73840c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bc31d8a7c476ea1d54bb648abc738bb97a91828d29c20faaa1068bfa96318fba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f6dcd34f769dffe016acbf1cd4d8c87d28371167e0daa34f3",
+  "received_at": "2026-10-11T20:30:08.549401+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "Carter's nod conventionally indicates agreement with Tuppence's statement, opposing the hypothesis that he disagreed. A nod can merely acknowledge a statement, so disagreement is not strictly ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

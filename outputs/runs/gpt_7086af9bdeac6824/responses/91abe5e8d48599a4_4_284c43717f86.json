@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13263n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "78f5c9e7fd282c020875c543594bfabfe02f3f7082a0a9ff67edb472c981642e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09815665447deb0b016acd43403b2087d2a0457f7b37fef621",
+  "received_at": "2026-10-12T20:29:56.705821+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says cultural transitions are difficult for major organizations, including GAO, but does not compare their relative difficulty. GAO could have an easier time than comparable organizations while still facing a difficult transition."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

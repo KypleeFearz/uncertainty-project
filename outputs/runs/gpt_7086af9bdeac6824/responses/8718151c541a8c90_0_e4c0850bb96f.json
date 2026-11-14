@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80643e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a0497b378f4a3adb6fd13361f41b203aa19a0d855fad757ea65a7f7869468de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e897a764b488db9016acbf2bc56d487d295aed7f28caa3718",
+  "received_at": "2026-10-11T20:34:09.691893+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.37,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Dole denied Clinton's basis for invoking executive privilege to withhold this memo, supporting the hypothesis if 'privilege' refers to that particular claim. The premise does not establish that Dole denied Clinton any right to executive privilege generally."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 595
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

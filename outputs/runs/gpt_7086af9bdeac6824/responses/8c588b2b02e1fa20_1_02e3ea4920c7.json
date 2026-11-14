@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13387e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "02bbd4d33cf56ba3291be25266360982c41b1f6df08fc2f4d7c17249a0ea00db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01710be6d1a1cdb6016acbe84246ec87d2bccdcefda2cfacac",
+  "received_at": "2026-10-11T19:49:26.825703+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.37,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "“Yeah, I can believe that” commonly signals agreement with a preceding statement. However, it can merely acknowledge plausibility without fully agreeing that the statement is true."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

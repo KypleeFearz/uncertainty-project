@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135876n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6b240a5258a7557cea81571ae06c66b3234a014f886a44b7d9af521de7f1d336",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f2fdcfa32a27e12016acbe87a604887d2b900d5cfa7bb4f80",
+  "received_at": "2026-10-11T19:50:22.926139+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise advocates releasing misdemeanor offenders, not all non-violent offenders. Misdemeanors can involve violence, and non-violent offenses can be felonies, so neither the hypothesis nor its negation is established."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50531e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6c6abeac0fda287b2eeadca1a6a4f8b4fa0b25e4a07ffeab864816393542738c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6304a909d48c79016acd4625b76c87d2b34227a02e09c662",
+  "received_at": "2026-10-12T20:42:19.773579+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The wording “In the USPS view” and the comparisons “larger” and “fewer” suggest a contrasting perspective. However, the premise does not explicitly identify another entity or establish that its worldview differs."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 606
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

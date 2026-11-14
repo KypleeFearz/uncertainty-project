@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_561940436.jpg#3r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "55df948a463cb967b3515d41fb4a67de44ca6d69b3933429b6e7195e7c14d41f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8eba36c13e78aa016acd4e13a41087d280164c81b6f69caa",
+  "received_at": "2026-10-12T21:16:07.352654+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.1,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "An older couple consists of two people, and resting together on a bench ordinarily implies sitting next to each other. Their exact posture and relative positions are not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

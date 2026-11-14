@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_890734502.jpg#1r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise only states the boy is playing near the water, not that he is building a sandcastle, so the hypothesis is not guaranteed but could be plausible."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 103
+ },
+ "seconds": 2.41,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:58:48.650977+00:00"
+}

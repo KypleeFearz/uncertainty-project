@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111680e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "652a5424ff8d35f28b81c83751fb399d609b9ee6fe0f8b3def891c461a16c4b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04126a2fb1ec3adc016acbf5d787dc87d2aa6904f3ca00547b",
+  "received_at": "2026-10-11T20:47:24.411357+00:00",
+  "parsed": {
+    "entailment": 0.73,
+    "neutral": 0.26,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.74,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "“Smaller than the rest” naturally suggests shorter stature, but could instead refer to build or overall body size. Thus, being shorter is supported by a common reading but is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

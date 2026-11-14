@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92382n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d9f2a13e8e652952ec7deb62b925817de1c56d545870b6c252f3d047b03ad40",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c16052642c3cf76016acbfad78ccc87d287f22f46ae40c191",
+  "received_at": "2026-10-11T21:08:44.667775+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise mentions Persian ceramic tiles and Koranic scriptures on the lintels, but does not describe the scriptures’ content or say they depict nature scenes. It therefore neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

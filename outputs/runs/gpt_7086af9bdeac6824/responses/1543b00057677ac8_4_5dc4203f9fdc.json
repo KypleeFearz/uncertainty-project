@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74254e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f7219861cf46e3c976a090bbd5f7f0bd14f3f28dfb648361b1b55205f0876ab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a899dad8536c78a016acd477e2a6887d2b02b63c4e8ee0fbe",
+  "received_at": "2026-10-12T20:48:03.419890+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Keep his finger on the pulse” suggests staying attuned to current conditions, plausibly including tourists’ preferences. Matching customers’ wants is a reasonable interpretation, but the premise does not explicitly identify customer preferences as what he must monitor."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 579
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

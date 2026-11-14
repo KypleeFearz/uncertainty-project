@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3105691757.jpg#1r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6f19c44330dd786951376e5646d6b006257a4f32551393f9cfacf15f184902b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02dbf3bb85c1d975016acd4ac0eb1087d2999575b78d3869e3",
+  "received_at": "2026-10-12T21:01:58.366918+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The people marching constitute a group walking in a parade. Their Santa costumes strongly suggest a Christmas parade, although the premise does not explicitly establish its theme."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

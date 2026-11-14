@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55110c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61ed39024a223940e75b0fbed593ee489032c6dc54197ce3d335e6a9d1f36f63",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0107c98516181334016acbef6d101c87d29b131ba035556b02",
+  "received_at": "2026-10-11T20:20:01.347211+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise favors Congress over Agency rulemakings for deciding certain key issues, whereas the hypothesis asserts the opposite preference. However, the premise does not explicitly compare their judgment in general."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

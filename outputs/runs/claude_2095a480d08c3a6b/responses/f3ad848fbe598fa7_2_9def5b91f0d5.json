@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96448n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ab177681ae4d879c2bbd00e6b5e87d93b5f6dda64506e9ba09a7452d286ee83a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4kNu1zii3Wqti5gdAf",
+  "received_at": "2026-10-12T21:37:52.609889+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise implies Social Security benefits factor into retirement planning, which loosely supports usefulness, but it does not state they secure retirement or give 'financial freedom'. The hypothesis goes beyond what is stated, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 837,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

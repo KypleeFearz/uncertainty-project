@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116809n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "258d6dafb1360c10d952fc78e3458efa683507aca5a603b81b55df04d8cd9614",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bcad47578c6491d016acbf61a91c087d29c99a2e3b14feafc",
+  "received_at": "2026-10-11T20:48:30.259540+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise offers Sherlock Holmes as a possible alternative but does not establish that the speaker thinks he was the answer. The missing context leaves what is being identified unclear."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

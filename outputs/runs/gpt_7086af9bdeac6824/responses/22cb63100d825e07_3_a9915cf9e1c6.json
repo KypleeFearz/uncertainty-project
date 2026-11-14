@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35809n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5d62735e0daca7c48497473e1c0cf6426e5bd5ca4dbd8e0db1642ffa0ac35cb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fed2d2ae5f1c0bf016acbecd02a8c87d2b37bed6353069f5d",
+  "received_at": "2026-10-11T20:08:51.370372+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.79,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The premise groups six principles into three sets called critical success factors, but does not explicitly require all three sets to be fulfilled for success. That requirement depends on interpreting the label as a necessary condition and 'filled' as 'fulfilled'."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

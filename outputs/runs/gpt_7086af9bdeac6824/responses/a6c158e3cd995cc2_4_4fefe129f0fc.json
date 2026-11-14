@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58353c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0603dd8ffeeb96d715f22b60fa3a97e7a38cb5631d42eab80e9c81f6580057ab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0663741fc326c65d016acd46c3c5a087d29b24adfcd72a7450",
+  "received_at": "2026-10-12T20:44:54.580891+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The speaker asks to add their own speculation to the sociologists' speculations, without stating whether they agree or disagree with them."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

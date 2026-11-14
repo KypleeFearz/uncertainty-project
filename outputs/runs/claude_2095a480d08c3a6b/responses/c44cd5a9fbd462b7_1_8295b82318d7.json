@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "3707n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dd73d15e018a8804b4fa0ac458c3dd98409122954c25d945e06b3434a3cff0f4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAYt73BwSiujVc67h3r",
+  "received_at": "2026-10-11T21:32:45.999072+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise calls the estimate conservative, which the hypothesis restates. The 'likely to be lower' part is an inference that a conservative estimate undercounts the true figure, which is not strictly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

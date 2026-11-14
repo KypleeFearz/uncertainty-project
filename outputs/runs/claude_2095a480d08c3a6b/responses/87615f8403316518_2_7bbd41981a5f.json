@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "55561n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9c2aa4218547515697e059084dec948d4442a4c75c93e5301483b1623405b1b6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwChgXzhjc7vmVNFr7sG",
+  "received_at": "2026-10-11T22:00:59.253063+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.33,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says weddings and feast days show performances in their true context and are the better way, which implies festivals lack that context. The hypothesis adds that festivals feel less authentic, which is a plausible but not explicit inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

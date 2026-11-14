@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66185c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a2d20bd652e0a4c726132318d746435fd7255dce74ca39f3491bb83e209ba4b5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cd15d90a44fba30016acd4712bd8487d2b4ac0cfcbaa87ae4",
+  "received_at": "2026-10-12T20:46:16.041420+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise explicitly says political cleansing did not happen through the impeachment process, supporting the hypothesis if “such instance” refers to that event. It does not establish that no political cleansing occurred through any other means."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

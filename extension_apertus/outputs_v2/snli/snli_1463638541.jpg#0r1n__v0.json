@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_1463638541.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise only states that a person is climbing toward a sign at the top, without specifying the purpose of the climb. The hypothesis adds a specific intent (spray painting), which is not supported by the premise and could be true or false."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 334,
+  "output_tokens": 120
+ },
+ "seconds": 2.67,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:56:03.893081+00:00"
+}

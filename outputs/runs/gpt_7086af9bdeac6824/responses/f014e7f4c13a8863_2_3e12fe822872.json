@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77175e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c090777947ed4daf171f55c0b956f2e33a511ff7e0d02f56c0cbde397f216555",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096479c4b4da4183016acbf9d2e68087d2b20f1f1998433e09",
+  "received_at": "2026-10-11T21:04:23.695198+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The reply asks whether results can be guaranteed, closely matching the hypothesis. The qualification “with money” is inferred from the preceding statement rather than explicitly included in the question."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

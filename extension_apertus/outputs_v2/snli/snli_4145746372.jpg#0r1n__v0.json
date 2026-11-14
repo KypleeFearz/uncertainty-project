@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4145746372.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes behavior typical of a musical performance, but does not explicitly confirm they are actors or that it is a musical rather than a themed event; the link is strong but not logically certain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 117
+ },
+ "seconds": 2.7,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:29:31.279965+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6419a6c163fa0aa21f41d6002f56030db7569426a874b69bacb8debf034e4e06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06edd97a28bcdf2d016acbe9d25a2887d29350ab475f984e53",
+  "received_at": "2026-10-11T19:56:07.364553+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise anticipates a major strike that will cause innocent people to suffer, rather than suggesting their safety will prevent it. This conflicts with the hypothesis, although the anticipated strike is not explicitly confirmed to occur."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

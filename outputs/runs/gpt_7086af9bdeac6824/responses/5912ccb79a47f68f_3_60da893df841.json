@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65066n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfb0e6a331f4c4066a69468a6fd1d2399bd0fecafb14087e767e79c719a54199",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04580b26c379b9fe016acbf9820b5c87d2b2e0572fbdc7a25e",
+  "received_at": "2026-10-11T21:03:02.909688+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise gives a travel time for larger ski resorts but does not identify the largest resort or establish its travel time. A contradiction requires assuming that the largest resort belongs to the group described as 90 minutes away."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2873n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1829bb59fbe1aca36bdb9cbed5f4b9798cd22bcb290d8238d079d2573ff5746f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0700baefe1e3a4af016acbebebea2c87d29e5e30408adb5caf",
+  "received_at": "2026-10-11T20:05:04.981652+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The dinosaurs are alive and scavenging for scraps, supporting that they were trying to eat. However, “had survived” could imply surviving a particular event that the premise does not specify."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

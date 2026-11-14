@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102031e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ec6da2bee2750011665c000d9fb27125cdc347c6a2692d5c81f6aa3102e72d5e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3Z46F4ajB1bvMizeaZ",
+  "received_at": "2026-10-12T21:22:11.916638+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.04,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise explicitly lists Legal Services of New Jersey as one of the named defendants in the case, matching the hypothesis directly."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

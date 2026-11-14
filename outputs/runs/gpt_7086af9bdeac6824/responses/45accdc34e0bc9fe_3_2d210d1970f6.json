@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141525n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "656520de34fd48c44a06fa9b6e2d3ef631ba88b1158842afe5933a2799c98d33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0afc38e4a888502e016acbe95a1a2487d283aceab4a33a054c",
+  "received_at": "2026-10-11T19:54:05.596372+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the educational lay programs relate to law and justice, but does not specify justice for minorities. It neither establishes nor rules out that particular focus."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "71974n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.85,
+  "contradiction": 0.15,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.8,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise praises Goodman's descriptive abilities about familial dynamics, not any personal performance as a father. The hypothesis assumes a specific role (father) not mentioned in the premise, making it neither supported nor contradicted."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 361,
+  "output_tokens": 116
+ },
+ "seconds": 2.61,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:40:07.461798+00:00"
+}

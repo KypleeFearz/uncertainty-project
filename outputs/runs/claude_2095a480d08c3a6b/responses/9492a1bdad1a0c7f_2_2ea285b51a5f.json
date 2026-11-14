@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34920c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d40e7ed49b49914b797352a50453ddc63b246662f738df3f0e8034f2faf6c91c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCXJQDHGqJLM6BBrVcj",
+  "received_at": "2026-10-11T21:58:38.387637+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says using a phone modem felt like sitting in the office, which conflicts with the hypothesis claim that it was very different. The speech is disfluent, so some readers may see it as neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

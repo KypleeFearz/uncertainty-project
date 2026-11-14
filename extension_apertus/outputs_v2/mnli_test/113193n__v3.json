@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "113193n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.03,
+  "contradiction": 0.02,
+  "lexical_ambiguity": 0.05,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise suggests annexation would be unpopular, implying strong opposition, which aligns with the hypothesis that Cubans would resist violently. The main uncertainty is whether 'go up in arms' is the exact expected reaction, but the core idea is strongly supported."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 349,
+  "output_tokens": 129
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:50:37.197956+00:00"
+}

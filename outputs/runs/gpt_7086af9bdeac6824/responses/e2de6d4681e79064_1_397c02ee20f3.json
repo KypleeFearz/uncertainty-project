@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116665n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a78a0232c672ae59dbd967592894f09f5bf5ee6e4d6d3d365cce0083cafe5062",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08da14f865cc4aee016acbe5c079b087d293378dd34e86c45b",
+  "received_at": "2026-10-11T19:38:43.483290+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Welcoming children does not establish that taking them along is great or advisable. The hypothesis adds a positive evaluation not supplied by the premise."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

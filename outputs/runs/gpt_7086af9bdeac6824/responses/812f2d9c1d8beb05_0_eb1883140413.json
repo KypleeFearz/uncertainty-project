@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106390n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3d4f6461401c80ad7b5631255ece57ee10f7ab69f7f2be15d7a3927ed26957e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03630f67993c0d7d016acbf58e604087d2b37843338de6251f",
+  "received_at": "2026-10-11T20:46:11.106557+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The parenthetical links the absence of a diving ban in Mykonos to the absence of ancient sites needing protection, implying that such protection motivates bans elsewhere. However, bans in other places and their reasons are not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 570
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

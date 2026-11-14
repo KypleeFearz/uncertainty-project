@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103400n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "238985b755562ef33199c1faa3e78ee9c800e43837a965f08d69c8631f011f9c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ffd34ff525ab4f9016acbe416be9c87d28b1ca388aa2fd538",
+  "received_at": "2026-10-11T19:31:39.242230+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise says Saint-Etienne followed a temple to Jupiter at the same location, not that the church had that temple. It provides no information about rituals performed by the church during Roman times."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

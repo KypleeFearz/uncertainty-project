@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "119768n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6fd486fc0a86905349a8dbc1ee534d314798936a57c0505a0e5a460d76d15598",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCBWr1Du3vfMQCgAk7N",
+  "received_at": "2026-10-11T21:54:10.281776+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise states the speaker rejected it as absurd and it persisted anyway, which matches the first part of the hypothesis. The added reason, 'out of protest', is not stated or implied, so the pair is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

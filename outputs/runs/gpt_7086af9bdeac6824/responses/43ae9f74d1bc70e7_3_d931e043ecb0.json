@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44861e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e928d25cb6f7205796dcf1c89dc948b8275b6f1db0c13eef8bf073f8d3201642",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f324b84e2679409016acd45bee26c87d2a6c52a4742bf698e",
+  "received_at": "2026-10-12T20:40:33.920882+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "Not caring what librarians do with the reporters does not establish that Kennedy considers the reporters unimportant. That conclusion requires an additional assumption about why he is indifferent to their handling."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

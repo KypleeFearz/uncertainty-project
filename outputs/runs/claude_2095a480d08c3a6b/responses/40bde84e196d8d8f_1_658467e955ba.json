@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "35138c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "49773fca8300816cb54c7a575d639d4c2045d93e483a0f498546b40b355d8794",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAVv1nyQYabM7pBAGnJ",
+  "received_at": "2026-10-11T21:32:06.502276+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.27,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the speaker has always jumped on sentiment (criticized it) and is now being very sentimental, so it does not support always being soft at heart. It also says nothing about pessimism, though being more sentimental conflicts with the hypothesis's contrast."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43225n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "938210752cea55780ff1a57f90b5ed9520c25ab35ddd418f5e279f956b49d3f6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a984413577f0f2016acd4597da0087d2b81647593c660aec",
+  "received_at": "2026-10-12T20:39:55.360316+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "“Sue me” may suggest defiance or frustration, but it does not establish that Royko was fed up with anyone's behavior. The premise also does not identify who “their” refers to."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

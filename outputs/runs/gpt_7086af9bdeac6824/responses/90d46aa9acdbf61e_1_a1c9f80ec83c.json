@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137715n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a813268feebe157b8345205773521f8c1d64c82942a2afe7c8e822720f9afa1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b981d7a4420a3f1016acbe8cef2cc87d296126c92be4a0ad5",
+  "received_at": "2026-10-11T19:51:46.873920+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise asserts a right for humans to use the environment for their benefit, supporting entitlement understood as permission to use it. It does not establish entitlement understood as ownership or unrestricted control."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

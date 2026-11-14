@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21810n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0d7f20614f6ddb82a1ddebbb382db53ec19dec6174a1a1b79e2cc954aa6cd416",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c67dfe6654a21a016acbead34bcc87d2964c7ea44fd11045",
+  "received_at": "2026-10-11T20:00:22.802676+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Saying that a hard copy is available and “that's about it” suggests that email is not an option. However, the premise does not explicitly establish whether an email would be acceptable or sufficient."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3366424545.jpg#2r1n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dac1623bf5fc7aa30a126d9a615135141c39ec85a49a8bdcaec1f3eb8abab7bc",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5JfS5FCQRGY2un8KZ5",
+  "received_at": "2026-10-12T21:45:10.410559+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Having coffee outside implies drinking outside, so the hypothesis is largely supported. The phrase 'trying to have a drink' is slightly odd and could imply they haven't yet succeeded, which leaves some room for neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

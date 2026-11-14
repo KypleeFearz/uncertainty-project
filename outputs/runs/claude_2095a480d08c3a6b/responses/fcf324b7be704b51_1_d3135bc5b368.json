@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "60543n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b7e043dd0a3673ddb12c29aab805e2d27728e103a2c357b5e220d1bb31ff01d6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB6BCYjyzUEwsGhTjeS",
+  "received_at": "2026-10-11T21:39:50.915676+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.55,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The guy warned the speaker to leave the tent because it might collapse, which suggests safety concern, but his motive is not stated; he could have been concerned about something else, such as the tent itself."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34573e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "301962e9bb7debe85666b0579c14b14333e984e48864361ce5c27eb68960c0cb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4AAD5gWqjcQdFYEtFx",
+  "received_at": "2026-10-12T21:30:08.547013+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.3,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise quotes 'the door was locked?' while the hypothesis quotes 'the door wasn't unlocked?'. These are logically equivalent in content, and 'disjointedly' roughly matches 'chaotically', but the altered quote may be read as a different utterance."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

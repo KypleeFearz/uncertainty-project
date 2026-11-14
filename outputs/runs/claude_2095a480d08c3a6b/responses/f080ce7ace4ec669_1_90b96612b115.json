@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "139595n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4e0757e5037f0113e429384f7977f6472257d7e1d83fbf6972aa4d0e30a3046b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3uXhUnk29PT4SxhhZm",
+  "received_at": "2026-10-12T21:26:56.089861+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.6,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise is a rhetorical question about using any weapon to hand, but it never mentions a cave or says who \"they\" are. The hypothesis adds specifics and treats a question as a fact, so it is left undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

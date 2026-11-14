@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53897c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b65260db727ec876999206a894ce44f03c583ae882a7fcfce8aa811389955d42",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07707c124881b593016acbf90a76c487d29cbd1336098fa3f4",
+  "received_at": "2026-10-11T21:01:01.565570+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise states that greenhouse gas concentrations have increased, but does not explicitly establish whether global warming is real. Treating it as a contradiction requires additional knowledge linking increased greenhouse gases to warming."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

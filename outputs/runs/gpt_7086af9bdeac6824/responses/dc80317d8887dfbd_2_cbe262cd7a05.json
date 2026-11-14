@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122393n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "789b90a4d5436622be69da77725b4cd80698b891bc3326007247b6db73b3667f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020293f1e44a586f016acbe69ad2a487d2ad5003c459e946bf",
+  "received_at": "2026-10-11T19:42:22.535961+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise says visual arts are gaining prominence, supported by a new museum and many galleries. It does not establish that they have become enormously popular, though that is a possible inference."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

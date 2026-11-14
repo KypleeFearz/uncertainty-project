@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63602n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50090d415e8083ebbbc973490b5fc229e1cbbea5c5fa1e9bdefba1dc26af8730",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08ab9239c22e3b54016acbf0bf79dc87d29e15feb083f350ac",
+  "received_at": "2026-10-11T20:25:38.936201+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise locates a number of these in Tsim Sha Tsui but does not say whether any are outside it. The referent of “these” is unspecified, though this does not establish an exclusive location."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 12
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "10547c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1dabe319b3c9546ed14cce9666a205d141fcf5b4d3ece2f6575f9667f1097b08",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw94iaeqmL73zs5ajEeS",
+  "received_at": "2026-10-11T21:13:17.646508+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says he attacked the brute with an axe, while the hypothesis says he used a sword, which is a different weapon. A small chance remains that he had both or that the attack is described loosely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

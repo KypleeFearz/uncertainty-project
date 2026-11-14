@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131235n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8064bd508209e5f7b1ab86cd8f5ee2f33fa3f593228d2f78171bce99058f0f1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082544e0b90c2a46016acbe7f6095487d29a626727b9a002e5",
+  "received_at": "2026-10-11T19:48:09.033259+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes GDP per capita growth relative to a historical doubling rate, but gives no absolute GDP level. It therefore does not establish whether GDP would exceed 50,000 under those conditions."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

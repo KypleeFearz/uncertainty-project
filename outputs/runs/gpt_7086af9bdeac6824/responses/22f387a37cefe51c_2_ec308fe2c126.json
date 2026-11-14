@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98721e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4cdef452231aad07c2fad285ea3fa7440ce6ecb26a77bb4e9b0edc0688fd7c70",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03bd8aadb2b58ecd016acbf4f29d8887d2ab203f6418eaaa33",
+  "received_at": "2026-10-11T20:43:35.209133+00:00",
+  "parsed": {
+    "entailment": 0.31,
+    "neutral": 0.61,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.49,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.59,
+    "brief_reason": "The premise mentions supervision and possibly security, but does not clearly specify who supervises whom. Saying that they 'just supervise people' adds a definite role and restriction that the fragmented premise does not establish."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

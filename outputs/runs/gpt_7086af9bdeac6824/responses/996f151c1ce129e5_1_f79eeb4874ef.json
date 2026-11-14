@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28666n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a0fd00a36885a46adca3bbc0b949ba3dc340a6b97e31ce856a2e08cee1c9ee71",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0117dd37eb38903d016acbebdc8b2c87d298995bbcc1609cbd",
+  "received_at": "2026-10-11T20:04:49.913143+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says waiting is what matters, but does not establish any dependence on patients. Reading “patients” as a mistaken spelling of “patience” could suggest support, but that is not the literal hypothesis."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

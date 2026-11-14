@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "726n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9151861a1d450d7616fcfcda524e35ec536b53a75341c727bd428d19a4c6c998",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4ayDEpzmE3eUmstQ2D",
+  "received_at": "2026-10-12T21:35:44.637547+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The speaker is relieved never to have visited Midland, which suggests a negative view, but the premise never says Midland is a terrible place. The hypothesis adds that opinion as an unstated assumption."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 780,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

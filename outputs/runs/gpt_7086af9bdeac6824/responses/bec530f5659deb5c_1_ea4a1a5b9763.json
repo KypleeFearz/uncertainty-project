@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4635783933.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d36a62bd0e508738f7b113e6195b9be398c770a75c35b2d5ada37eed120d42e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03c688d77431302b016acd4ce118b487d29b3c120ece4015bc",
+  "received_at": "2026-10-12T21:11:00.116740+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Walking away from the camera supports having their backs toward it, but the premise does not establish that the people are guys or that they are heading toward a bar."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

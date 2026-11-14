@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3158680604.jpg#4r1e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c4889104f9b68a6b5ce17b8f59d5cab4c3d072b941c7ee68d8485dc03009a289",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5E61YQeCe7N9EvsKNm",
+  "received_at": "2026-10-12T21:44:08.161071+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.85,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only places four people in a kitchen and does not say they are cooking. Cooking is plausible there but not guaranteed, so the hypothesis adds information."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

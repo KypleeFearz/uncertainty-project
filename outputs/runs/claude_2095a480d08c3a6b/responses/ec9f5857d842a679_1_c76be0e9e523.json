@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "51299n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "af6efc5ec06ce5679d120ede5775dd1444987035a93b709ed1ddc170dd403765",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCetS2iu8wZTeFip1FZ",
+  "received_at": "2026-10-11T22:00:21.686393+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise expresses hope the listener likes their office, but does not say the office is new. The hypothesis adds 'new', which is plausible in context but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

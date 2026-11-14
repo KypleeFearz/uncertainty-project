@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3226796100.jpg#1r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "452bf3f1ef8823a1a2865842ee77ee2953ed50d213b0b3d7f54e95dea83ee9f5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0efc3b1a6bce8b8a016acd4b0b80b887d29c25ca27b586dfff",
+  "received_at": "2026-10-12T21:03:12.001205+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The young girl is a kid, and she is playing with a toy golf club. Swinging is a plausible way to play with it, but the premise does not explicitly establish that action."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

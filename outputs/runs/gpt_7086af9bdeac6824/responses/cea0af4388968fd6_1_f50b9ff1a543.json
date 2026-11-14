@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105196n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "36a163e3aef18f98148497e91238d0a44d6d0e2911353959676133d376928080",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa1b4b1eed9c53e016acbf56c3c2487d2b88db7b71e9a3b40",
+  "received_at": "2026-10-11T20:45:35.903370+00:00",
+  "parsed": {
+    "entailment": 0.09,
+    "neutral": 0.89,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "San'doro's saying \"Indeed\" expresses agreement or affirmation but does not establish certainty. The premise also does not identify whom \"they\" refers to."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

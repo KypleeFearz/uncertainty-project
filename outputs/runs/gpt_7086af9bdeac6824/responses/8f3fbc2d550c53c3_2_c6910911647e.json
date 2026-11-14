@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89040e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3218cc20de53f602b3eddac721ebff8c9d9987565f88f0d0fbaeacdb7a982040",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01860a11c1d30b06016acbfa96045487d281b187c254a92bb2",
+  "received_at": "2026-10-11T21:07:37.222981+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.029,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly places Jon on the ground. The hypothesis follows if “the man” refers to Jon, as naturally assumed, though his gender and age are not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

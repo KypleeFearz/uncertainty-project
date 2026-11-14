@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4796c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b6b14f93c2822d03743d47c1f7cacfff5c6b6e0da27d05d9e2f0c878437af211",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_019547831a78de7f016acd45f281f887d2bcaadb1175757e99",
+  "received_at": "2026-10-12T20:41:26.635349+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.81,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise places the units in villas and a great house but does not establish whether they are condos. These building descriptions do not necessarily exclude condominium units."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

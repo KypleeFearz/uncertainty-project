@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "49237c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "69af43907bee2f61de2fa09389c7a74455309370544f987e3fe3edc8e4ac0b83",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwArB6TdiUxKnqVQgWmW",
+  "received_at": "2026-10-11T21:36:40.475151+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the house was burned down, while the hypothesis says it is in perfect state after a failed attempt; these cannot both be true."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 778,
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

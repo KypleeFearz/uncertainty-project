@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2527829321.jpg#0r1e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0a708127a4297c15ba10cf906fd6621228a06d1679ba0cfc09f57522a9bd20a6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy54BXAGa1VMFpRfwWn4",
+  "received_at": "2026-10-12T21:41:54.629501+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says bikers cross a line and one raises his arm, which suggests a finish rather than a start. It does not say the race begins, so the hypothesis is not established, though a finish reading leans toward contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

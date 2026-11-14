@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38557n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9e9f2b1e93d9906c69f860a32cd52640aabbd24cc7ce2c464a48328434a63b20",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_064339c42ff2f3d6016acbf84a86ac87d29c20781809b69c11",
+  "received_at": "2026-10-11T20:57:49.831466+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise reports that the Holy Family sheltered here but gives no duration. A total stay of three days is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

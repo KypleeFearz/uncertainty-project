@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2527829321.jpg#0r1e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.35,
+  "neutral": 0.55,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes a moment during a race (a biker raising his arm), but does not confirm the race has just begun; the hypothesis assumes the arm raise signals the start. The premise does not entail the hypothesis, but also does not contradict it outright."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 354,
+  "output_tokens": 129
+ },
+ "seconds": 2.8,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:05:28.236109+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96338n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9a4dea9d469a2b8eeb4e737b5941312282d6523a37d9a610a759ad2303f95dc8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD1M2k8atswngEGc5nK",
+  "received_at": "2026-10-11T22:04:58.796522+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says it is anti-democratic and replaces congressional and executive branch decision-making, which supports the hypothesis. The phrase \"in DC\" is an added detail, and \"it\" is not clearly identified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

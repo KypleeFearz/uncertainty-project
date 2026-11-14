@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97569e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd23afcf26ff38539f2ffb58bf1f2418a25c7a9be366fe211e40d8aa0ce1cabd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0050a56b020f1994016acbfb0774dc87d2b32a701c6b46ea18",
+  "received_at": "2026-10-11T21:09:32.071729+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The hypothesis is a natural expansion of the elliptical question “Candle grease?” Both ask whether something was candle grease, although the premise leaves the referent and tense unstated."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

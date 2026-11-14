@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123953e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a37b5b845803e21255e940ef7d6cf544521d42cc38e8052e8ae0627c17a5518",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c1430fff2794209016acbe6c11b5887d2860407f1b1f800ed",
+  "received_at": "2026-10-11T19:43:00.982765+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Calling these human lives does not establish or exclude a connection to Hunan. “Hunan” could also be a typo for “human,” which would change the interpretation."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "41391n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a561646661777ac0f584b4123f1d8ebd9373daa22f2e3c5909eb1e3605aa13d0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAeFS4oWz3G9cMNH41J",
+  "received_at": "2026-10-11T21:33:58.961143+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says 'over 160' reports, so 170 is possible but not guaranteed; 'roughly 170' fits only if the true number is near 170. Whether it is entailed depends on how loosely 'roughly' is read, and the premise does not give an exact count."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 829,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

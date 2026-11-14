@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "103431n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.7,
+  "neutral": 0.2,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise describes the creation of a reward system intended to support improvement initiatives, which logically suggests a positive impact on performance, but does not guarantee it. The hypothesis expresses a hopeful expectation that aligns with the stated intent of the system."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 392,
+  "output_tokens": 118
+ },
+ "seconds": 2.61,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:41:08.733373+00:00"
+}

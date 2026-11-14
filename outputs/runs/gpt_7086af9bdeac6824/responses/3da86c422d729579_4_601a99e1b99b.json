@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142729c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb97b36e0692addd5763f86706ec4e3b197cbc1b4e60f900c77e1394e72ea3fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_045dc5162daec61b016acbe98af0b087d292e6417e0268a3c2",
+  "received_at": "2026-10-11T19:54:54.821550+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.15,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says Ellison, like Hemingway, equates becoming an artist with becoming a man, indicating a shared comparison rather than different approaches. However, 'different ways' could refer to unspecified details of how they expressed that comparison."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21555n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d5e415f685bd95616a284171c6f9cf9a28242d71976145ce9ff3d360cc124b29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0410215aab47d3cc016acbeacc368c87d2821ab9288fac86ea",
+  "received_at": "2026-10-11T20:00:15.764957+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "“They here put him in a coma” supports that the people present caused his coma. The hypothesis adds that they were around him, which is suggested but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

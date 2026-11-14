@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "135449e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The hypothesis is a simplified paraphrase of the premise, preserving the core concern about the speed of emissions reductions."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 334,
+  "output_tokens": 96
+ },
+ "seconds": 2.35,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:01:56.922995+00:00"
+}

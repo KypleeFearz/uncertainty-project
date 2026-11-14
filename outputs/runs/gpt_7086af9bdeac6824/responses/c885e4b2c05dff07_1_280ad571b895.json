@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82915n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da7b24c509d61624f47cc8742a5030305a0cf65b42a6d21e10fe602b96852dc0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ced630c0e46c391016acbf33eec2887d2919f4852c0beb33b",
+  "received_at": "2026-10-11T20:36:17.902097+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.84,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "“Starting from scratch” means beginning anew, but does not necessarily mean abandoning everything. The hypothesis could describe a related circumstance, but the premise does not establish it."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

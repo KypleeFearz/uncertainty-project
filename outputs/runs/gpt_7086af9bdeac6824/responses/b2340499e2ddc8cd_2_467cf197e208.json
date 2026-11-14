@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23414e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "40487b1eca569b3a3ae97c33406956d86b43f13649c75cad1c64357f4c187a7a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_030a4515aa6290fe016acbf7bd36fc87d292c72f9838dcf09e",
+  "received_at": "2026-10-11T20:55:29.881686+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.9,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The question suggests a contemplated sacrifice, but does not establish that people actually sacrifice their lives. It also mentions slavers, not slaves, so the hypothesis changes the beneficiaries."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3627n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b21d44bff1865f777e43b9edf1f1ccf9cd66297af0131ee9a395a1068439af3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078bc2917e5a1f2f016acbf82e671087d2b8e91bbc22a54458",
+  "received_at": "2026-10-11T20:57:22.366295+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.095,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "“Proving them right” supports that he is showing their judgment was correct. Calling that judgment a guess adds a minor assumption about how they reached it."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

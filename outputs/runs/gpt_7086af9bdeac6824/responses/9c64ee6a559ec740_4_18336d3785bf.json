@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110061n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b4f478190684e4529c11da2b3a0abaf90e2d41fa78e9401dc50620b3b6ccbe4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce180cdb524e3f0016acbe51039ac87d2a57e6c8d4660de37",
+  "received_at": "2026-10-11T19:35:47.001536+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes the view from the south tower as stunning but does not compare it with other views in the city. It therefore does not establish or rule out that this is the best view."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

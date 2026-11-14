@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85309c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17109f91a3cceb78393e99711072f6a609eff257851f2d30a282e681921ccab1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085a71ad8a95b188016acbfa617d6487d285a2a6f2cf0cc3bf",
+  "received_at": "2026-10-11T21:06:46.230765+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.79,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise describes a possible benefit of prototyping but does not establish its importance or compare it with testing a finished product. Treating that benefit as incompatible with 'not important' requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

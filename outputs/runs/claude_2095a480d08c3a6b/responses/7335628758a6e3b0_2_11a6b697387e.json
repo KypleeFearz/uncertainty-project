@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42563e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f47880f8d84c615aa729611a4a9380a429c534cbafb61b7d9adc4f919d1ebcab",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAfgHKjbDpN52sW7WcV",
+  "received_at": "2026-10-11T21:34:18.810130+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.1,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker had Mr. Inglethorp watched hoping he would lead to the hiding-place, so thinking he would show where he hid is a close paraphrase. Slight gap: 'hoping' vs 'thought', and 'hiding-place' may not be his own."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

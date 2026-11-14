@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32814n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a170667b0ba34cc03aa3e879d5e648753ac1a73bf47e5a59e740238882dd0fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b433c0fe47f676016acbec64584c87d2bb4179253301ce5a",
+  "received_at": "2026-10-11T20:07:04.807151+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.9,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise asserts something in the present, while the hypothesis asserts something in the past; neither establishes nor excludes the other. Both sentences leave unspecified what exists or existed."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

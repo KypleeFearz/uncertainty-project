@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "18027n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1f0596398f434cd624ff8d2fe623c67223229cf2bd8721d74a1bc1b8832363b6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfvwvb4TiWUoJQt3r6G92",
+  "received_at": "2026-10-11T18:47:11.895986+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says only that agencies need to be able to design procedures to fit their circumstances, which is flexibility rather than a requirement. It never mentions a bill or its authors, and 'They' is unspecified, so the hypothesis is not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 803,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

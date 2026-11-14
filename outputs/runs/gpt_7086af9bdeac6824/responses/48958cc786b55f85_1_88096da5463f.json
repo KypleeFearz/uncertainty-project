@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127809n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62f33037f8adb7c4bfc0ccfe3f3ec94ca6c768695e707673fe6b579cd757097e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f22701f4ecc7fb0016acbf689a01087d2bc9693f6d0efc35d",
+  "received_at": "2026-10-11T20:50:21.889845+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.075,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Being confused ordinarily means that something is not clear to the speaker, supporting the hypothesis. The premise does not specify what \"it\" refers to."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

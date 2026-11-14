@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2789232177.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0764cef2c6411955da3d6a52e6ef2a86ae89b238320dbdbe96dde6818c83f3e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0457aa1a605057bb016acd4a2887d487d2868b7dda809cbc17",
+  "received_at": "2026-10-12T20:59:23.565773+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says people are watching a TV but does not identify what is on it. A soccer game is possible, but neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

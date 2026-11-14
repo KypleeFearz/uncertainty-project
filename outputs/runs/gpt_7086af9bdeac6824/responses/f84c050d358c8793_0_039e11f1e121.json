@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45442c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e1f45497d72bd1fa8596bb3543c5d7526ca36e08aa6e8ae07eb31aed942d36d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bbe9eebf95cc422016acbee0b3d0087d2be7bae745186defa",
+  "received_at": "2026-10-11T20:14:06.293159+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise describes the radical side effect as unintended, whereas the hypothesis describes it as intended. On the natural reading that both refer to the same side effect, they conflict."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

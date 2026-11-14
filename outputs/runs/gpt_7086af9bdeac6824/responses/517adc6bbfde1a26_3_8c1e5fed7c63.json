@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6386n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab007757df687f94d6eb7033df36ae46c7ed1b62702c67be6ab47edd52c993c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0218bd34dba80a60016acbf0cc562087d2addd3ee8eb458a43",
+  "received_at": "2026-10-11T20:25:51.360854+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the speaker lived in Wylie and could see downtown Dallas, but does not establish driving distance or travel time. Visibility may suggest proximity, but it does not guarantee a short drive."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

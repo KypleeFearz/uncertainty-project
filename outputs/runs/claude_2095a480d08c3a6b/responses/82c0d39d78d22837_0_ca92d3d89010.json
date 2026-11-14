@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "6105n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4eb37bceb229ee179dd4cdda3324892e940196367601449f569311c00201b662",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB6ipaEu58T8fadz1p8",
+  "received_at": "2026-10-11T21:39:58.572758+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.68,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Nicholson invoked an apparent party line (an inclusive party) when asked about abortion, but it says nothing about constituents insisting on it. The causal reason is unsupported, though the party-line reliance is partly consistent. The 'inclusive party' line could also be read as at odds with a strict party line."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 827,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

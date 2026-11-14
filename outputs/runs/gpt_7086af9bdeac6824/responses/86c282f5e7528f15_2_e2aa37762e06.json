@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134514c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "97d8abb2fb35154a1d0b76d5de1087c2fc260c41a6e72b12727cefc261b4e6be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ecda7ccd394825d016acbf6e2ff6087d2b2e42b7112c1cdba",
+  "received_at": "2026-10-11T20:51:50.667132+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "If “they” refers to the co-requesters, the hypothesis conflicts with the explicit statement that they cannot restrict the timing of the product’s release. The pronoun and omission of the premise’s “after it is issued” qualification leave slight interpretive uncertainty."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

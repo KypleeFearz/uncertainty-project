@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100332e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "910fb292ecefcfca1ed14daa75ad5f106e5075648094195eb0bf14c1739fdac2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05537cd18f3bd299016acd418843b087d2be86b94a6ff84854",
+  "received_at": "2026-10-12T20:22:36.599766+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says he advocated maximizing good or benefit while minimizing harm, whereas the hypothesis says he disputed that principle. The phrase \"provide the most we can\" is less specific than \"achieve the most good or benefit,\" but the opposing stances support contradiction."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

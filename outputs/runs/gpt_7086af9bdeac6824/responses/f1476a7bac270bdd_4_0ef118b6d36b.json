@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107020c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "401c82d86d1fac969cbbdfb4f59061df59ca313b4da539093718515eb15d5985",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eb97d6645acaf7b016acbf5a40d7c87d2be4d18b322e8fa2c",
+  "received_at": "2026-10-11T20:46:32.438619+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise suggests that dealing with customers may be the only reason, whereas the hypothesis says customers were one of many reasons. The tentative wording and unclear reference of “that's” leave some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

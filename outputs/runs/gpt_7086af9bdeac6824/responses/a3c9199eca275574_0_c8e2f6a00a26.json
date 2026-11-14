@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107399c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "10c6592deb5e4231d37ed60ffe86f45869657392cbe00c319490776792522414",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0418a061cd974eb5016acbe49aa52087d29e0ef552259741af",
+  "received_at": "2026-10-11T19:33:50.471010+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise says New England Republicans led the party, indicating political strength rather than weakness during that period. The hypothesis leaves the time and sense of 'weak' unspecified, allowing a small degree of uncertainty."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

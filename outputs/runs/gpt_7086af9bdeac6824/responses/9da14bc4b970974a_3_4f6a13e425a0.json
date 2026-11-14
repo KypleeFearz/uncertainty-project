@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52761e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e4f083b52573a2d6c86586f75a2fab976ef62735e1de03002439908f781f60b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e7d3a64969c381016acbef05904887d28030154fb3f1680d",
+  "received_at": "2026-10-11T20:18:18.567123+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise excludes appearances by the speaker's unborn children, but says nothing about other direct descendants, such as grandchildren or already-born children. Thus it neither establishes nor rules out the broader hypothesis."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

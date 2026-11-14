@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2685727511.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92075723e414b705d6cfb8260ca9f01b7ee9531839ae05eae05a8db3992051b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a6298e417ac3e30016acd4a180d2487d2887dc988fafec95b",
+  "received_at": "2026-10-12T20:59:07.188207+00:00",
+  "parsed": {
+    "entailment": 0.48,
+    "neutral": 0.51,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "Preparing stalls of fish, vegetables, and fruits suggests a market getting ready to open, but the premise does not establish that it is a farmers market or that opening is imminent."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

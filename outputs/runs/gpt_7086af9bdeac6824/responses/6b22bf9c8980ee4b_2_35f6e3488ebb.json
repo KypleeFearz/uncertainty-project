@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12562n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "431d2317648daa48eb7c97b3b7ca62c73b23fc0dd09bf6d431919b02248cd92e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03146037d333d1e7016acbf68196c487d2abf357eb56d5aa42",
+  "received_at": "2026-10-11T20:50:12.356257+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise identifies Cope as a music professor and reports his claim to have created a 42nd Mozart symphony. It does not establish that he specializes in Mozart's music."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

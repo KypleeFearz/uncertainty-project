@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "129081e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a9ddcda3bae47e1fe7ee372281e7b5d7d5501919060adfe845255405e3a128e8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9c1fRPbY9WKNW95jvw",
+  "received_at": "2026-10-11T21:20:22.350145+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.5,
+    "contradiction": 0.38,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker says 'they' kept everyone informed and wonders if it was more than needed, whereas the hypothesis has the speaker sharing information themselves. The agent differs, so it is not entailed, but the 'too much information' theme overlaps, leaving it mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

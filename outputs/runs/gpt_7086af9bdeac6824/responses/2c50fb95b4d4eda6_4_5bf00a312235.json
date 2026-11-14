@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3347666612.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5058b688a79a8c18c8b5c01487ed5ed6620ad2bd76442df628496445954ed038",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090f4c4824f40066016acd4b44762887d2b700149b070ffdce",
+  "received_at": "2026-10-12T21:04:07.574601+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Being sprayed with water on grass could be part of a game, but the premise does not establish that the children are playing one."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

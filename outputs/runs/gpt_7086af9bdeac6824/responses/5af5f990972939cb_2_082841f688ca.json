@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114458e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1e31b47ba107f10fb907f4b9fed1a9e9a25c34c077bac06b2aea18cb1062583",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0492b6e57a727b9d016acbf5f77c2c87d2a38529455f25ad5a",
+  "received_at": "2026-10-11T20:47:56.076846+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.62,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise associates youth with laziness but does not establish that many young people are lazy. That conclusion requires interpreting “youth” as young people generally and inferring how widespread the trait is."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91383n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8dbd864199b4a6f7a43e3ff1a352e30b79e1910fbc35b9de4a6f6a7b21df8f16",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0346bb0840b8ca7f016acbfac4354087d280c916e2607febd2",
+  "received_at": "2026-10-11T21:08:23.332295+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise establishes that a searchable database of Government Executive articles exists, but does not describe the articles' content. Profiles of notable government employees are plausible but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

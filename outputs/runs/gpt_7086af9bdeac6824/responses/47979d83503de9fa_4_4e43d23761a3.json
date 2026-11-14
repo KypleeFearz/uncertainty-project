@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73444n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "84f52878415e1c851118d28750ab01223b6271bd58001f7e6b9595d69b340a3a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009dff533141d277016acbf1bb75ac87d284834fe02efe1f66",
+  "received_at": "2026-10-11T20:29:51.395647+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise links their expected motivation to pursuing an undefeated season and making history, supporting continued motivation while they avoid losses. However, it expresses a prediction rather than guaranteeing that motivation will persist."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

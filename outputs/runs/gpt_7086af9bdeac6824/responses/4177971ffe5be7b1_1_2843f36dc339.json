@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98848n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "850450f0fe970441d57136e61dd1d3937ae38ac605ac5ce0d8c4aef3844c5792",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5ca143476b5e34016acbf4fc574487d296c90cc722cce8ee",
+  "received_at": "2026-10-11T20:43:44.548197+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise recommends using the ringroad to get as close as possible to a destination, but does not establish that it will take you to most destinations. That broader claim requires an assumption about how many destinations the road serves."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

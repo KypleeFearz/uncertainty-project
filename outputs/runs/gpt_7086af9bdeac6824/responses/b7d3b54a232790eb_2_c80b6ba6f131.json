@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28456n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ca13dc2d02d7bf29e5c634fb4f85169733c00292c17bb2a91ae0aa2b169fe04b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e3623c565cba0e1016acbf7eeddf887d2ab5872ff82a253bf",
+  "received_at": "2026-10-11T20:56:19.384715+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes the woman's appearance and an opening action, not her intentions. The phrase \"trying to be desecrate\" is malformed and unclear, but a wholesome appearance does not rule out an intention to desecrate something."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

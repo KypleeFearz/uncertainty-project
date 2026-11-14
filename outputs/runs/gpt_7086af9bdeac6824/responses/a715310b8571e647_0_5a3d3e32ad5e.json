@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35664e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c08621a6c4352b3710fc2f42a87b3fd345aa9872d1cce689c7bf938681f24cc3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013993e0527d634c016acd4545240887d28f90831307cacc75",
+  "received_at": "2026-10-12T20:38:32.009545+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The obligation to depart, backed by the threat of deportation, supports describing the worker as being forced to leave. A narrower reading of “being forced” as physical removal already underway is not established."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

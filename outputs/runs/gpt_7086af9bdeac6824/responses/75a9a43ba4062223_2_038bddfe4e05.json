@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63100e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0902ef9a6caec119cc15586a10174ce6cc94a7881fd8f373646138536a5958d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07980a2cbfb55656016acbf099e34487d28b7ff841258e3413",
+  "received_at": "2026-10-11T20:25:01.843260+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.85,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes possibly jumping from a sports plane with a parachute, but does not establish jumping out a window or rule it out. It also says something 'needs work,' which does not necessarily mean 'needs to work.'"
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

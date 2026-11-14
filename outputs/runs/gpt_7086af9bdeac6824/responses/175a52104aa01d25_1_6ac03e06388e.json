@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15110n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "71a6d24b38ce069dbbf82f06dfd70e0c9ca1b83bc15f7739fef1eb919a43bd15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_098bbfe1cda7147a016acbea05f57087d29805671453329faf",
+  "received_at": "2026-10-11T19:56:57.146082+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.26,
+    "brief_reason": "The premise establishes boredom and describes the room as claustrophobic, but does not establish loneliness or fear. Those feelings could coexist with boredom, so the hypothesis is not ruled out either."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,10 @@
+|--- mean_e <= 0.465
+|   |--- mean_confidence <= 0.707
+|   |   |--- value: [0.624]
+|   |--- mean_confidence >  0.707
+|   |   |--- value: [0.202]
+|--- mean_e >  0.465
+|   |--- unclear_reference_mean <= 0.235
+|   |   |--- value: [0.012]
+|   |--- unclear_reference_mean >  0.235
+|   |   |--- value: [0.146]

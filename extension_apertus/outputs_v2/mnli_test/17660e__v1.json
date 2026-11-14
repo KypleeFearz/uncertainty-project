@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "17660e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states that something leads to phone solicitations, and the hypothesis claims it also leads to move marketing calls, which are a type of solicitation. The connection is clear, though the exact nature of \"move marketing\" is assumed to be a form of solicitation."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 129
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:10:28.924166+00:00"
+}

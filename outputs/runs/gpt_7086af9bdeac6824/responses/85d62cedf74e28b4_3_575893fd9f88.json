@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4574570790.jpg#3r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1f8df885a5ec7d0df31b7dc4f35357e77ada4b183fb65e69fc04af8891c0669",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01bb1787d572338c016acd4cccbee487d29618542840da1bf3",
+  "received_at": "2026-10-12T21:10:39.485703+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "Punching an opponent in a boxing arena supports that the boxer is competing in a fight."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 82,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

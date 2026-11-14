@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98848n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2588a511b4d73a43826e93cbfce5a3d87bb9de92f372eae2b28f97c129443e42",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e9be20cbacb4083016acbf4ff71e487d29c2618a3113d9fae",
+  "received_at": "2026-10-11T20:43:47.263377+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.78,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise recommends using the ringroad to get as close as possible to your destination, but does not establish that it reaches most destinations. Interpreting “take you to” as providing access rather than reaching a destination directly makes the hypothesis more plausible."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

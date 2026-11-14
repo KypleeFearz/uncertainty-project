@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22462n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0c7a22d711cc59c3ca0662dbb61d9403d8a6d931df2c9e251fbef75de098034a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0589efad32800299016acd448a683087d29adb0407bc5ebc99",
+  "received_at": "2026-10-12T20:35:25.561993+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise evaluates Mann's storytelling in The Insider but does not identify his first directing work. Saying he has never attempted a story this complex or nonviolent does not establish whether this film was his directorial debut."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

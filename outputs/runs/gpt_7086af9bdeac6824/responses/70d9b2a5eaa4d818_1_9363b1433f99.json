@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105769c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d1ebf80f41f13ac7f728012582a86fc696faa360419f39026ce1606cba7962e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_051454e520cdbd0a016acbf57a575087d28761d174c586e214",
+  "received_at": "2026-10-11T20:45:51.112670+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise places the time to sign up for majors at the end of sophomore year, rather than freshman year. This conflicts with the hypothesis’s stated requirement, although the premise describes the speaker’s experience rather than an explicit general rule."
+  },
+  "usage": {
+    "input_tokens": 459,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 622
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

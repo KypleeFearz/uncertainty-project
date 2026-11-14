@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48970n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be9a5b9943feb46a80f9ec01cd2b43f2d1e482806efc9194723756407472288c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c83761e5291027c016acbeeaae40087d29d63574d65215fb1",
+  "received_at": "2026-10-11T20:16:49.349364+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.1,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The left side evaluates to 474.4 feet, not exactly 474 feet, so the equation is incorrect as written. If rounding to whole feet is implicit, however, the displayed result could be considered correct."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 582
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

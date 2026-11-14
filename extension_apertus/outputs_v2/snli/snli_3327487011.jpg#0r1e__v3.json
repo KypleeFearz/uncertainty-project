@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3327487011.jpg#0r1e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise shows students inside a bamboo structure looking in the same direction, which is consistent with a tour, but does not confirm the purpose of their gathering."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 108
+ },
+ "seconds": 2.69,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:18:26.178235+00:00"
+}

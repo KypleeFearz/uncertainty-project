@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "146129e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "536746f778d14cb5e9b679f2da534b09a424cfdc46ee96ccc3e1b7737ddc6f79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_098834d527442c0c016acd44290adc87d2b3ece2a6be62a70b",
+  "received_at": "2026-10-12T20:33:50.678777+00:00",
+  "parsed": {
+    "entailment": 0.41,
+    "neutral": 0.57,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.82,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The unusual phrase \"it might be worked\" could suggest that joining can be arranged, but it does not clearly establish that you can try to do it. The hypothesis is a plausible interpretation rather than an unambiguous consequence."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

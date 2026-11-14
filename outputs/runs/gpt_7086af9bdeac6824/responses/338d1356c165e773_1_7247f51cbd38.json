@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64831n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c93b34d75b3a1cb4de22b4b4961d050f13e913ab04adf8953c6ae7650bcc79eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07cf3e7f523813a1016acbd921ff9c87d29c957bf6ab4d76e4",
+  "received_at": "2026-10-11T18:44:53.893624+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise attributes the public's lack of enlightenment to denied access to information, not to insufficient research. Research improving people's ability to form opinions is plausible, but is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 438,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

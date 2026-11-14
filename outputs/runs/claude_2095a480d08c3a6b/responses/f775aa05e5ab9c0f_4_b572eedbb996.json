@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4502489690.jpg#4r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "16d7649b08109cbad1d93bccfa573b16c258c044d2619901db941edc80ea6589",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5YjCRm1S6GAerQeWnZ",
+  "received_at": "2026-10-12T21:48:21.319764+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.08,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Train tracks in a large city are normally outdoors, so a view down them is a view outdoors. This is very likely but not strictly guaranteed, since tracks could be in an underground subway or station."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

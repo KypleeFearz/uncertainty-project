@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55864c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9d83fa5db2a8e583c7ffa0abfbf747d4b15c7e3e9174f7bb3f89572c451f7347",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f0d8b9da3e8dfb1016acbef85ebf487d28677f1435a5351e3",
+  "received_at": "2026-10-11T20:20:24.839069+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says he lived in Trenchtown as a recording superstar but does not specify how much time he spent in the village. It also does not explicitly establish that the village is outside Kingston."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

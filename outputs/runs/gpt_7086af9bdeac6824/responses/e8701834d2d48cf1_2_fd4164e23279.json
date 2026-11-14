@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58331c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b1b2fc297ed5537d9327e8c7c21476877ad3d1c08ac657a12593d68ab637a07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035283396d73c889016acd46bd840087d2adae969464dbdb10",
+  "received_at": "2026-10-12T20:44:50.268432+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Puppet shows can be televised or performed live. The premise does not specify television as the medium, so it neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

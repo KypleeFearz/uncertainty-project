@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3012517885.jpg#3r1e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "106dd66e7394f1d54dea00f913024fadaa1db0fb26ab37130efaaab63498d45e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5AmjrhZPyPBHYuAsoy",
+  "received_at": "2026-10-12T21:43:23.474932+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.38,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Two men working on something\" most naturally reads as a shared task, which supports the hypothesis. But it could also mean each man works on a different thing, so \"the same thing\" is not strictly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

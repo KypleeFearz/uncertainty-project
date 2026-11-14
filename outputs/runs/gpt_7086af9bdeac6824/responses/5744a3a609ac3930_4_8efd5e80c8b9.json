@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53866e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ba541af3087323c7b4184185122218da47ed9db7cb3bae13386515d3d945bdaa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b808e165291386016acbf90980d087d28095b770ecf29500",
+  "received_at": "2026-10-11T21:01:01.954770+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.57,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The fragmented premise leaves the scope of its negation unclear and does not clearly establish rejection of a particular thing. The hypothesis adds an unequivocal attitude that the premise does not establish."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

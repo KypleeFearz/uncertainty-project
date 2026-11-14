@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "499650c851af40d52bdf1cac2100f827836b1b38f6a9600b7c84c3b759cba2f2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d2d9576a2015cc016acbe9d75fb487d2955eecc88ed22bf8",
+  "received_at": "2026-10-11T19:56:12.374569+00:00",
+  "parsed": {
+    "entailment": 0.33,
+    "neutral": 0.66,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The question suggests that innocents will suffer from a major strike, but it does not establish that many people will suffer. The quotation about the needs of the many does not specify the number of victims."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

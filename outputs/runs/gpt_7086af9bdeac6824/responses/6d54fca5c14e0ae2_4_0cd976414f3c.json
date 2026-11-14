@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9798n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8a9a3e95873dad34f9bd8f97a9ee915ebd1a7dc9f34f1a780f53365bf22a0f0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e54b57f29e3cc1c016acd488d991887d2bc23ab22663678e6",
+  "received_at": "2026-10-12T20:52:33.876362+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "Their question supports that Clarisse and Onardo wanted to know how San Barenakedino was doing. The premise does not establish that they had not talked to him for a while."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

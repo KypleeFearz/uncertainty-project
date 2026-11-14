@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "56258c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "59636007a203847aba5abffa780c6ac3a49caea63c451b71509459820484e2e1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAzuZZnP1WpiTjrwP2E",
+  "received_at": "2026-10-11T21:38:39.781271+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The speaker wants to warn the listener about the risks of the chosen course, whereas the hypothesis has them wanting to join and ignore the risks. These attitudes conflict, though the pair is not strictly incompatible, since the speaker's stance toward joining is not stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3344632789.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50fb1da0f7133e6383bc73560ddac0d59fdfbe6b3ff964c262f84aaae876d4db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d7776b591280a28016acd4b376f1487d2900b15432cc5552a",
+  "received_at": "2026-10-12T21:03:56.862332+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise explicitly describes a skater doing a trick with other people nearby. It suggests, but does not explicitly establish, that those people are watching."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

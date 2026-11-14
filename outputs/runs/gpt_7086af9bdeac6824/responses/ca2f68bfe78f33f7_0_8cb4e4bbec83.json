@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1120n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2b3f5d8551f802b852f9ddf672fd76a10309df7889b41bdad9448608542d417e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00f58a7e770b9afb016acbe53c552c87d2add7b3f448c2c73d",
+  "received_at": "2026-10-11T19:36:32.754190+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise implies contributions were $500,000 in 2001, making this year's contributions $500,000 higher than in 2001. It does not establish that 2001 was the previous year."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4695720306.jpg#3r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "79044247d4c695f86e1a4a4d4aa31d0b6df655bbbb201ed181bc94ec2fc8112c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5dQtEteGrXxAFwwVam",
+  "received_at": "2026-10-12T21:49:24.847522+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes one woman with a shopping bag, which does not establish that women shop while men stay home. The men-at-home claim is unsupported, though not strictly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

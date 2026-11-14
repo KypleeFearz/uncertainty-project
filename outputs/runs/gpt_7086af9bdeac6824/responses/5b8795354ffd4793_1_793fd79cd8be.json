@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84804n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f98c2584d32746cb23a76a18f6c6518cce2bf29ac8734d82aa9fa41789b79b6d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02a0efc263adc09d016acbf361ffe887d2b21168c031202f79",
+  "received_at": "2026-10-11T20:36:55.307913+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "A return to the gay porn industry strongly suggests that Ricky Martin is a gay porn performer. However, the premise does not explicitly establish his role or star status; he could work in the industry in another capacity."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 103
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

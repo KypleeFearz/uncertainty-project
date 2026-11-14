@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "54454c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "616a765c512b3504d6b826ec3b79aef7ad6014a350913415e2a74c59fe6082e9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAxNe9oGLak7JJZpyRK",
+  "received_at": "2026-10-11T21:38:04.910526+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is an instruction to participate in the postaward audit, which implies that someone participates, conflicting with 'nobody participates'. Some uncertainty remains because an imperative does not guarantee that anyone actually does participate."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

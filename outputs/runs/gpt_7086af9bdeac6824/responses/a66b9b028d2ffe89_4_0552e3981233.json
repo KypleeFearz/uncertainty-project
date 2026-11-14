@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4328463789.jpg#1r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dba1f25c34096f54bf034f6b2477ab69d7efe2e7a605b54804c0e5309a797182",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f6f5d6116a5ce3016acd4c7aeabc87d2a145cedbaba41b30",
+  "received_at": "2026-10-12T21:09:18.281672+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise describes the boy napping under cardboard, not a large blanket. An additional blanket is possible but is not mentioned."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

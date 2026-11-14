@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4540798718.jpg#3r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d50c65bcbdfd31db3f7ac2686d47226a3dcb491341d2121968f21975c307e45e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090873526f42109e016acd4cbee23c87d2bab7f9a04e0b20a5",
+  "received_at": "2026-10-12T21:10:26.164235+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the man is crossing the road but does not specify how. Walking on his hands is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 455
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95334n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a090350d73f9ca265c16a640de22d801e6d910790e30e1a7baa5044f47478772",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052fc6777208ce6b016acbf496afac87d2b4fb3cf4a7adb120",
+  "received_at": "2026-10-11T20:42:01.441224+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says Buchanan announced he would seek the Reform nomination after criticizing the GOP. It does not establish whether he received the nomination or whether his comments affected that outcome."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

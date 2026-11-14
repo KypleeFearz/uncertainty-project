@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_662492649.jpg#4r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "baa58aa49dc11cda15bbbe39c0dd0b0d8a333ae9427eb1aa0ac5cd38191034d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0431a1457747938d016acd4e61d69087d286a6e635172f8fbc",
+  "received_at": "2026-10-12T21:17:26.408704+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.15,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The man is explicitly sitting, and spraying a pedestrian with a squirt bottle naturally suggests making mischief. That characterization is plausible but not guaranteed without knowing the context or intent."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

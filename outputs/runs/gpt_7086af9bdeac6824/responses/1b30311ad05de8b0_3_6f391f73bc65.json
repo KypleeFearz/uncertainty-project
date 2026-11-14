@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130518n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1552fdf08a43ca6d4d2b6617c5f4add60490a9bf8b3e172f3b1ced6cdaafbce9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05433bdc13f8d42d016acbf6a948dc87d289eaab5c5b39280e",
+  "received_at": "2026-10-11T20:50:54.053704+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The hypothesis reverses the premise’s comparison of how dark Marilyn Manson and Alice Cooper are. However, the differing tenses leave some room for the statements to describe different periods."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "101981n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise only claims Beaune is a good place to buy for beginners and most others, not necessarily the best for artists specifically. The hypothesis adds 'best' and 'artists,' which are not supported by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 353,
+  "output_tokens": 117
+ },
+ "seconds": 2.46,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:39:02.394954+00:00"
+}

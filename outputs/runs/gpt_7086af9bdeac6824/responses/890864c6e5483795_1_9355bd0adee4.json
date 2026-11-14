@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98739n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4916b7b9fea1558703142c2df5a0486e9eb196f139ada710d5e076b7fd64b127",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00bf71c61e190d52016acd48ab479087d2a682f5ec97f86775",
+  "received_at": "2026-10-12T20:53:05.857870+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise suggests an unfavorable comparison with the Ritz, and the sigh may indicate sadness. However, it does not establish the stronger claim that the living is 'nothing compared' to the Ritz or specifically attribute the difference to glamour."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 589
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6502487823.jpg#4r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aeb7994cd0d7899a93018990e57372c9d85145f3eb90084eadb6920294d9e693",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b0b9392479e13e4016acd4e56fa4087d28b20c98436e35662",
+  "received_at": "2026-10-12T21:17:15.945753+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.88,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise establishes that two kickboxers compete before an audience, but says nothing about either waiting for the other to arrive. Such waiting could have occurred, but it is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

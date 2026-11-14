@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142736n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad670e6280904a61ae5da6984c170c9c7f97563d3c9232af6b0cb60a27dfdaa4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a38418c659792de016acd43ec302087d2ada41a140f72f25a",
+  "received_at": "2026-10-12T20:32:48.796206+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.9,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise does not specify what the listener is expected to know. The hypothesis supplies “the answer to that,” which is a plausible contextual completion but is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

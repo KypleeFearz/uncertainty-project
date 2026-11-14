@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109254n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fcfb9880938bb37ff64aa990df493a7764de83ad03130234ff3eae0a14125f9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea79c1ed24a9cdb016acd41f06f5487d2af4d7b65f3024318",
+  "received_at": "2026-10-12T20:24:19.894705+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The fragment \"profit rather\" provides no assessment of profit performance or indication of whose profit is meant. It therefore neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

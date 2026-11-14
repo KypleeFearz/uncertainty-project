@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "24043e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise states there were no bones, which strongly implies no body remains, making the hypothesis highly supported. Minor uncertainty arises from whether 'no one' refers to people or other entities, and whether 'nothing' could theoretically exclude non-bone remnants, though this is unlikely."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 328,
+  "output_tokens": 128
+ },
+ "seconds": 2.84,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:12:54.748604+00:00"
+}

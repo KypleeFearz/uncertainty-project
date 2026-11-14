@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "36859n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c5800e363107126f2095af77ffa4dae62e6a7dfeb564d6f1bc0bfb7adedf384e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAY8AMZ7xMfj9YcTMd1",
+  "received_at": "2026-10-11T21:32:35.771485+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the report is submitted to the speaker's addressee and designated officials, but does not say that everyone needs to see it. The hypothesis claims a broader requirement for \"everyone\" that the premise does not establish or rule out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

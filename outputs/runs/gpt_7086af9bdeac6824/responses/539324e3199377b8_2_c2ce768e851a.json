@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123748n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6f0c561636820e77d2e0d1d410898a0ee0496da2ac89d289695d9e486b6706a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00bb5b4fadd9d2cc016acbe6b4fe2487d2a16df0e0004633e7",
+  "received_at": "2026-10-11T19:42:50.104351+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "“Many” ordinarily implies more than two, and “at the present time” means “currently.” Although “such” has no explicit antecedent, the hypothesis does not require identifying what is being counted."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

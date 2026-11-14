@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61241c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f524a525fdec9bb05e68d5526492ff6bf293da05688f14d4b8ff244d44d24658",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_031b3968897e6d5f016acbf03bc2e487d2ad42dd26156aa9d7",
+  "received_at": "2026-10-11T20:23:26.823718+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.76,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The fragmented premise does not identify a corn maze or establish that the speaker successfully exited one. \"A way out\" has an unclear meaning and referent here."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3420651743.jpg#3r1e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b1d9036ce8cd47f7d461275f11e914c869e282640757cf0fc970cadb96f53f1f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5KPQggRxgqyP9bSe8v",
+  "received_at": "2026-10-12T21:45:20.097186+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "A brick wall suggests an outdoor setting, but it could also be an indoor wall, so being outside is likely but not guaranteed by the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

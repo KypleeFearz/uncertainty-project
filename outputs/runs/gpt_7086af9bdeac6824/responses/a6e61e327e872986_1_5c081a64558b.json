@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142736n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "675888f77d2ca8e90900bae3d637dd00100b44011fa67342fa10c142317ad2bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa57330bfc3ff52016acd43e9aec487d2b7c6aa4ad3651a44",
+  "received_at": "2026-10-12T20:32:46.371625+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.9,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise does not specify what the listener is expected to know. The hypothesis could clarify the same question, but its reference to an answer is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

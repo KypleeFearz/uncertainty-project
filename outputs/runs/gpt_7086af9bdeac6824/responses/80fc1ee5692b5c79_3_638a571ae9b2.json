@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3b51db55dd257f1db223e5d7b914bc42c59c5d41d8bb15ac9cf5d8b2a7c0573",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078011991a2c51ca016acbefff390887d28c3ee8dd8cc9731e",
+  "received_at": "2026-10-11T20:22:27.110475+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.79,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the IRS would lack records of callers’ waiting time, but it does not establish an obligation to obtain those records. The hypothesis also leaves unspecified which time must be recorded."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

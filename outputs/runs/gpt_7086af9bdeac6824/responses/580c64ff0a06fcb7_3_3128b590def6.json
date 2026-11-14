@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130928n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9470185fbeaa1f88ee9cb820e725ccf3ccc34c25c963a94ad42c9273eb8b34e1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bdb23d2378d82c5016acd43095da487d28014280dd0e7f383",
+  "received_at": "2026-10-12T20:29:02.765714+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.82,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise tentatively says an unspecified issue can be overcome, not that anything needs to be ignored. Overcoming an issue might involve ignoring it, but that is not established."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

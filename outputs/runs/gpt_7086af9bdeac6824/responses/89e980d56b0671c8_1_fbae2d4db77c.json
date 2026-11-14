@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99547n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d02b101e4bff38d87aa6e5be57d3d92e9d3e26d7abcaa2dd05bb8d3d993c2b86",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df36d5225850886016acbf50614f087d29016034aabf43914",
+  "received_at": "2026-10-11T20:43:53.023974+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise states that windsurfing equipment can be hired at Tel Aviv's marina, but does not specify seasonal availability. It therefore neither establishes nor rules out year-round hire."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

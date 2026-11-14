@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145250n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee3498003480595f387b0a934bcd6aa982f64309bcce713081dbda7ee6354497",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d926bcd8008b18a016acd4414626487d2b1cf3c24f51af0b4",
+  "received_at": "2026-10-12T20:33:29.841196+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise expresses a necessity to think, whereas the hypothesis asserts an ability to think. That ability is naturally assumed in context but is not guaranteed by the stated necessity."
+  },
+  "usage": {
+    "input_tokens": 358,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

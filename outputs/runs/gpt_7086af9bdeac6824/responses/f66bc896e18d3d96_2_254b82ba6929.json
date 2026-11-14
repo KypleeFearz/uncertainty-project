@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "87332c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c353d5aadaea38f9fa6187ce3d2a052fa7ff8a673e93f26437643e786e9080c4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cfbc1eb548aad27016acd480f2a5887d29e6faa29b6a22122",
+  "received_at": "2026-10-12T20:50:25.976610+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.997,
+    "contradiction": 0.002,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise states that capital gains on existing assets do not count toward NIPA saving. It says nothing about whether cat fur is considered in defining savings."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

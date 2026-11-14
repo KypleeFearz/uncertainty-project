@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91541n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91df998eb00fdd11d94783d19e902d35601cfa54c254a1615e6979f9f95fe400",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a29d700c65e2b2b016acbfac7bd0087d280846fb8f65dc6bb",
+  "received_at": "2026-10-11T21:08:26.990858+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.57,
+    "brief_reason": "People loving its appearance in the monsoon, together with the evocative visual description, supports calling it beautiful then. However, saying it is especially beautiful implies a comparison with other seasons that the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

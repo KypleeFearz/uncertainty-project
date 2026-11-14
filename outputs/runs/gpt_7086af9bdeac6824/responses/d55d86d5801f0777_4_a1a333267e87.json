@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75276n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbbf2982827c97909fdbe8e616dd5f7f1f1e15fedc7244f5fb70e9cc83eda3d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b040908b0e69972016acbf206462487d2a2e1fc1718f45eca",
+  "received_at": "2026-10-11T20:31:05.270603+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.93,
+    "brief_reason": "Riding into smoke could soon obscure the rider, but the premise does not specify the smoke's density or whether Jon lost sight of him."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

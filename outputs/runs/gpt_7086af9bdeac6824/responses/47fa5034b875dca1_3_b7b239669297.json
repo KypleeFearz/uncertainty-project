@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46063n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2aeb4db69d810b7d6840df17e46572a5ef97e985cff506a17682f1714bb4ae3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0972e79da054e622016acbee445d7c87d2a5c42cb68a7c3036",
+  "received_at": "2026-10-11T20:15:04.498726+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Daphne Merkin’s quoted review strongly praises the book, supporting “a high rating” in the sense of a favorable assessment. No explicit rating is given, and “the woman” could also refer to Sarah Kerr, whose assessment is not quoted."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 570
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116176c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f4a1ed0a822d493d71c2e03066ddc4ae42a0957f8282aabb0e7830e8d010eb41",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0844f20ba2d8f166016acbf612561487d2b2d9976d68722e08",
+  "received_at": "2026-10-11T20:48:22.902434+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.74,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says students can savor the sadness, not that they will be delighted by it. Interpreting “savor” as delight supports a connection, but the hypothesis adds a definite emotional response that is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

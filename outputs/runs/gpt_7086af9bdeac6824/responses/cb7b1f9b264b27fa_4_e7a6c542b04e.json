@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116713c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a1a2e619bdc8627d13919caa9579687c3bc6265a6510d6ea8d5ab23018e03ce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e73bd5eccd5a8b016acbe5c760d887d2969ef965c28a446a",
+  "received_at": "2026-10-11T19:38:50.823447+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.039,
+    "contradiction": 0.96,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise identifies millions of auto-accident claims as the data studied, whereas the hypothesis says jello-ingestion data replaced auto-collision data in that work."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

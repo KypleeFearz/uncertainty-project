@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_371910695.jpg#3r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8ab15147326f95434dde0aca616b0ecd4ad99f33d35d78d75fd4cb23de282b80",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a185645bdf8aa2d016acd4bee11d087d28261deb60ac6f106",
+  "received_at": "2026-10-12T21:06:56.858723+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Looking at menus in a restaurant does not establish why the people are there. A birthday celebration is possible but neither stated nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

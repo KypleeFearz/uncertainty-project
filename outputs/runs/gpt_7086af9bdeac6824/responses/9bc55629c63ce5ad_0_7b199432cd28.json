@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1933n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "04078cec16e491c1d6336f97256c5ac74cb2e88dcdd5b3310d34b2082483ea7d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0befc85374934411016acbf78adca487d2b27bdd1f3e0ba6a9",
+  "received_at": "2026-10-11T20:54:38.959286+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.94,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise mentions projections of Medicare gross outlays but gives no direction of change. Rising costs are possible, but they are not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33822c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "169a6569274a7c6c72438e85cd1182171656401595c23f96d47b4fd5447e6989",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099a48106bc8ebdc016acbec89cd1087d2b4d51371b2d634c8",
+  "received_at": "2026-10-11T20:07:42.389335+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The question challenges why he should not be a certain way, but does not establish that he already is. A rhetorical reading may suggest this, while the omitted description leaves what “that way” refers to unclear."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

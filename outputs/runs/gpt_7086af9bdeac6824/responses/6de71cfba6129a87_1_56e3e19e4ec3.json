@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138530e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3516cbbcd2e02aedece1165e898993e5593322a3f7d6557cddbeac3aaa17b7da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08de5e95e086029d016acbe8ecaee087d298953e78fea7a11e",
+  "received_at": "2026-10-11T19:52:15.921037+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Vibration does not establish that the object made a quiet humming sound. Being under his hand also does not necessarily mean it was held in his hand."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

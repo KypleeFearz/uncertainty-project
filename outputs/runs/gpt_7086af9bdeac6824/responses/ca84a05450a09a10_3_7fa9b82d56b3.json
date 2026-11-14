@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8111n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94faa21f0a6e25625f04f4a81b32e67c9695ecdf8f331a428d7444e2e4c1e6e3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bb343eab4a464dc016acbf2dbc1bc87d291cad5a85312d159",
+  "received_at": "2026-10-11T20:34:40.681176+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise criticizes the good accomplished by most volunteers but does not explicitly say volunteers need to do more. That conclusion is plausible, but improving effectiveness rather than increasing effort could also address the criticism."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

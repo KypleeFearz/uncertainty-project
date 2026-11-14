@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124037n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64a5336c4a5239a92953e5359e1c63a0401bab277a731c985015d9d82f503e00",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0008d451370107e1016acbe6c8af4c87d2a06fc71bae94ef1e",
+  "received_at": "2026-10-11T19:43:08.396618+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.89,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise says the park received Corbett's name after independence, but does not establish that independence caused the name change. The hypothesis adds a causal connection to the stated temporal sequence."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

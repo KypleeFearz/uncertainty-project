@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81250n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "603982aeb599208200e24c11224e768587399d6e2e69c2ace5f923703ad8fc33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0784c836d3168297016acbfa0b8c9887d2ad52a83256adafbd",
+  "received_at": "2026-10-11T21:05:20.002946+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise places Andratx and the Cape of Formentor at the ends of a coastal stretch covering the northwest and north, but does not explicitly assign Andratx to the northwest or establish that Formentor lies farther east. Those locations are plausible geographic inferences rather than guaranteed conclusions."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 575
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

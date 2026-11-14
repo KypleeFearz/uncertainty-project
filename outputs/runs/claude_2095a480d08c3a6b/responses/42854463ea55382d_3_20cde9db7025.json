@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "57163c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8bc9b19d43cf1aaa141046d75e864b673692212c32951b7446a06b772a4a170b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCiMAwjuMtTNjZXDokn",
+  "received_at": "2026-10-11T22:01:08.667942+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.12,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says documenting the basis for judgments can be more difficult than documenting nonjudgmental information, which is the reverse of the hypothesis. The hedge 'can be' leaves a little room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 860,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

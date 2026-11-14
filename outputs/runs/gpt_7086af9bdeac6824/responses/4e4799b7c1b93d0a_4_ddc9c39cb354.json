@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116111e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "66a622a5797abdf3dcf924551208f26604be9026464177abeb3625226a71ad9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012c2ec195051fc0016acbe5b93bc487d29675e955086e7876",
+  "received_at": "2026-10-11T19:38:35.994209+00:00",
+  "parsed": {
+    "entailment": 0.998,
+    "neutral": 0.001,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.002,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The hypothesis directly restates the premise’s conclusion that section 330 did not supersede the section 32902 mandate for CAFE standards for model year 1998."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

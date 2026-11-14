@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41494n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fc65e273f62a40b8f7790edebcad6c1f0d4d43140b0a47249feae825f8a79812",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d39ad8687362d8016acbed8d977087d2b29ec16db8c39f29",
+  "received_at": "2026-10-11T20:12:01.344572+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.61,
+    "brief_reason": "The setting's consistently authentic appearance supports its looking convincing. However, the premise does not explicitly establish that anyone deliberately ensured this result."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112592n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0aad6273cffe8ba579b1a254a774aa8e9837836f2e0c089d43ceeea56add92ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_093a70e0deb887d0016acbf5db830087d2a4e5e05dd115c3e3",
+  "received_at": "2026-10-11T20:47:26.224723+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise states where hiking-trail maps are available, but does not specify whether they cover all popular trails or include biking trails."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129464c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "27cdcaa199fdd138542377b41fc1179d507a12b9c9af5ad7022c487e90317629",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0befb481d5202309016acbe765632c87d2a8ca4fae011d269b",
+  "received_at": "2026-10-11T19:45:44.816325+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise supports the use of prospective and retrospective designs but does not specify that they are for system redesigns. That added purpose is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

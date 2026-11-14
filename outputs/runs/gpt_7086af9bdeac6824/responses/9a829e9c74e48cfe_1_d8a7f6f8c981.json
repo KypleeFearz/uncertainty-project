@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137319n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f7c105ec2b2cc14f18265000dae8c53f7d159abcc3fcd4c014073bf8c50620ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0afe90bbdb19d929016acbd8d4d09487d2a0a66fcef80320b8",
+  "received_at": "2026-10-11T18:43:38.111042+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise asks whether she came to the addressee, but it does not establish that the addressee is male or is the person denoted by “him.” The hypothesis follows only if those references align."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

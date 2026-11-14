@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103431n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f22f3f5639d8fffb894c5508db77cdbb558426886aefac216d093b87bfe53134",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_022b5d6f4df19570016acd41b0a94887d2b6c7df59ec740cf8",
+  "received_at": "2026-10-12T20:23:16.007771+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the rewards recognize people who support improvement initiatives, but does not state that the system is expected to improve company performance. That hope is plausible but requires an additional inference."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

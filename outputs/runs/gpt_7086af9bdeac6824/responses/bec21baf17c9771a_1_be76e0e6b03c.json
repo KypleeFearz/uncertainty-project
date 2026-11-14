@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18189c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c993b6004472c12f8d58e8a4185c6b0d723bcf4e0d46058c09880ad439045cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ec365189f6bf7f016acbea58efa487d2982e58a879477572",
+  "received_at": "2026-10-11T19:58:21.492165+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.79,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says moving it is overdue, but does not establish whether moving it is possible. It suggests that movement is feasible without logically ruling out the hypothesis of permanent impossibility."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

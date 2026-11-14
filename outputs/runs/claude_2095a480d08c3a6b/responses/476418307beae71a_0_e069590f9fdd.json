@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_477774424.jpg#2r1c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "850359386352eb589b990be7c8b260c09c7582971ba3d0ab1f9ac43691958e85",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5fxpvQhySmV3vPs1td",
+  "received_at": "2026-10-12T21:49:59.237263+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.06,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise says the man sleeps, while the hypothesis says he is wide awake and trying to fall asleep, so the two cannot both be true."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

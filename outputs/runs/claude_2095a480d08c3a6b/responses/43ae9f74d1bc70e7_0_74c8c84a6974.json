@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "44861e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "22dd22f65b92a7d8a2a48cc33fcf27ea18672522e43c3e4dfa24d123d931e353",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Gbrb91s7GPPckkXB1",
+  "received_at": "2026-10-12T21:31:35.695480+00:00",
+  "parsed": {
+    "entailment": 0.5,
+    "neutral": 0.35,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Not caring what librarians do with the reporters suggests he sees them as unimportant, but this is an inference. He may care about the reporters' content and just not about their disposal."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_329835313.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bbbed16c3ca0b1703a3a3d88581e245b6f80744bcf2eb3bd9ce1ca44b06d60f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09abbce8aa8edcb0016acd4b20964887d298fa21bceed53df5",
+  "received_at": "2026-10-12T21:03:31.703853+00:00",
+  "parsed": {
+    "entailment": 0.995,
+    "neutral": 0.004,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.005,
+    "brief_reason": "The premise explicitly states that the baby wears a bib with fruit characters on it, which supports the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

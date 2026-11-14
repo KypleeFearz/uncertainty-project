@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53283n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58adbf68c6d268b44c90303c72f2bed2c934e7bf2b61c419ed79861b47785777",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0362a13a4e94ec00016acbef1fb42087d2acacb1eb9a51ff2b",
+  "received_at": "2026-10-11T20:18:44.896044+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.29,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise describes generalizing findings beyond the subjects actually studied, whereas the hypothesis says those outside the study are themselves being studied. The premise also does not explain the origin of the term's name."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

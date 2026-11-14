@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114988e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e39083da4b655706c9f382a103af60a9bf26b0efe134438983f913e174f04dc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5782e4106bf297016acd424f4d4c87d2af1f9b54231b09fd",
+  "received_at": "2026-10-12T20:25:56.875968+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise describes objects planting themselves in Stark's neck, but does not specify how many objects “each one” refers to. Exactly two hits is plausible but not established."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

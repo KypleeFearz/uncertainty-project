@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131261n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9bab5774a93e6d7946932366082a7a44ba039c60a3df6a783e98b6000f042be9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07ccfcf473a7bf20016acbe7f97b4087d2ae0cf6b62a610f10",
+  "received_at": "2026-10-11T19:48:15.273387+00:00",
+  "parsed": {
+    "entailment": 0.38,
+    "neutral": 0.61,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise describes giving a signal when a man exits the building, after which the listener should go. Following that man is a plausible purpose, but the premise does not specify where the listener should go or whom they should follow."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 590
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

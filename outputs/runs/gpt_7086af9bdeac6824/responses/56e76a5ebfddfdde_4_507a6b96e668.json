@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129690n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ce0760aba10ea7e8b0f20938df52a9d22651c8790891d7e76e8e8c7500fda97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_027c90ab6323a49c016acbf6a1037887d2b46c6c97245da580",
+  "received_at": "2026-10-11T20:50:44.148004+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise identifies Lakshmi as the goddess of good fortune but says nothing about her preferences or treating people to surprises. Associating good fortune with nice surprises does not establish that she likes to provide them."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

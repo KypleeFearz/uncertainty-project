@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123373n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "013dca8c9dab1e41ae215a5cf8fb3ee80dfb74ea8f1f12fb6403e3ac3782c4d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01e0042247ed67f5016acbe6ae96d887d29021c268461db9ba",
+  "received_at": "2026-10-11T19:42:41.620442+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise states that the sentences are inserted to distract the professor, but it does not specify that they force skimming or cause plagiarized information to be skipped. The hypothesis adds a particular mechanism and a guaranteed effect not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

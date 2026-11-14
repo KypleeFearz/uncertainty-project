@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50480n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a7de25f2f8e1b599b9454ca5815a9c2f7b9de8eac4671d0284a0cd9223a3215f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0902ee03708b8dee016acbeedb985887d28592fa1e4cdcd197",
+  "received_at": "2026-10-11T20:17:36.205988+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.78,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says you will find it satisfactory, but does not establish the stronger assessment \"more than adequate.\" \"All right\" can convey varying degrees of approval, making entailment plausible under a more favorable reading."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

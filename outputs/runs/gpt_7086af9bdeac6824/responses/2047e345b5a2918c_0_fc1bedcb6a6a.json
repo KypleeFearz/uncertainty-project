@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73278c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "96d834d3003dd2fa1c38358f894c3c1c88ff3bf66fc5b55bdee255929ecf3307",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a15442af16ef213016acbf1ac189c87d2aa2699d9572b9ade",
+  "received_at": "2026-10-11T20:29:36.805379+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.29,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise rhetorically suggests that something could cause an across-the-board decline, opposing the hypothesis that nothing will affect volumes across the board. Because the premise is a question rather than an explicit assertion, a neutral reading remains possible."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

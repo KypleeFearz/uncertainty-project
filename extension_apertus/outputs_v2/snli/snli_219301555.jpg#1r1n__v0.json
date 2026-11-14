@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_219301555.jpg#1r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.75,
+  "brief_reason": "The premise establishes the woman is extremely wet and wading near a waterfall, which aligns with the hypothesis that she is dripping wet and walking in front of a waterfall. However, the premise does not confirm she walked there after swimming, making that detail uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 339,
+  "output_tokens": 129
+ },
+ "seconds": 2.7,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:59:18.072847+00:00"
+}

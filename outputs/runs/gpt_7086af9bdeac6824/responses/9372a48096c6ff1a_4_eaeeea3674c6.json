@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67106n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "817b2d1a7c8cf0de07d410c503d74b8472ec7c1117783fa252c0d4899a8fc535",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08261eab8e45fd00016acbf112940887d2bd3029a8d2a9e2be",
+  "received_at": "2026-10-11T20:27:02.884364+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise establishes that control activities occur throughout the entity, but does not specify how many different kinds exist. Numerous different activities are plausible, but the same activities could occur across all levels and functions."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4920970731.jpg#3r1c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise describes their clothing and location but provides no information about their actions or whether they are kissing."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 91
+ },
+ "seconds": 2.39,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:43:16.403858+00:00"
+}

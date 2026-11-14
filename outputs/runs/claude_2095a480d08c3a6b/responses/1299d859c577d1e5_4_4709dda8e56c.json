@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "27076c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f075aff377cc2ca8aff112cc6f627943b4a3c102099c7ba9668590bd67a416d8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAKMKzq6RovydeXFNxM",
+  "received_at": "2026-10-11T21:29:43.401449+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The rhetorical question suggests the speaker thinks a lookalike should suffice, which hints at the hypothesis, but it is a question rather than an assertion. 'Them' and the context are unclear, so the speaker's view is only implied."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

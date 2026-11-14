@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13531e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b56f95f0b4d418075384311856356e39deda892d7e55d84209b2167a6a60267",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078cb7e58789956f016acd436b6f9887d2ae3e724d5063bc29",
+  "received_at": "2026-10-12T20:30:40.541482+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "“Felt like a rat” can mean feeling sneaky or disloyal, which could support “weasily” if it means weasel-like. However, it can also express shame or worthlessness, so the hypothesis is not established."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

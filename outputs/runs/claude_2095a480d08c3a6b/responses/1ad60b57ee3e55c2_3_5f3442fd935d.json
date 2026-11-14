@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4756089621.jpg#3r1n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9410b15ed0f049c0df1652ce13309b6f1eb2539bcd91f221a984dc9eeeff464f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5fEgdm3scwcSkfK9CU",
+  "received_at": "2026-10-12T21:49:51.261116+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.87,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise only says a man in a white shirt is riding a bike; it gives no information about whether he is working. Riding a bike could be leisure or work, so the hypothesis is neither established nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

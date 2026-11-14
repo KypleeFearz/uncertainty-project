@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91797c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58c39ecaf4114066bc17487b7c66359638acf49b955b374678fa47ab4f4da27d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03002c82f99155c3016acbfad1b03487d28db9eeb2d0123e42",
+  "received_at": "2026-10-11T21:08:37.748397+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.055,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise identifies the south as the attackers’ approach and says it gives them ample space to launch their attack. This conflicts with the claim that the south is totally protected, though the defenses are not explicitly described."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

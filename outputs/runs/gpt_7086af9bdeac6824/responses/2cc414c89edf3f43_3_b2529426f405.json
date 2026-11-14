@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138500e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5c296f8edadfe1849dc034511f38639d05be7b695b369cbd76492b9974ebf2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_066f4a02a4bf5f21016acbf70b438487d2bef610b1957ceaad",
+  "received_at": "2026-10-11T20:52:32.721208+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise expresses a prediction conditional on them getting someone else, rather than establishing that people will get the speaker. Coming for the speaker also does not guarantee successfully getting them."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

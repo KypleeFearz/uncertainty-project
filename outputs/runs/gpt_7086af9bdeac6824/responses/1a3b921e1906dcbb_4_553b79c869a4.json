@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89305n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f5bf54bde035b9ab2306cbabfd2c13373f3ac7b7aef8ad1420d21e51c2542734",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_087a73d544aa464d016acd481adc0887d2b89f06d0ec60ffb5",
+  "received_at": "2026-10-12T20:50:38.369722+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The speaker regrets taking a five-year note on the car and says they will never do it again. The premise does not establish that this was their biggest mistake."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

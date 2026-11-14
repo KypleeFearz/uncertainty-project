@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23414c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8071399d5e8ded1246fedb756758d5c5861abfa8c46901d301a293cdc5f4860",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06c72f5e5253db43016acbf7bae23487d2b75650ec4905c945",
+  "received_at": "2026-10-11T20:55:27.172014+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "Questioning whether people should sacrifice their lives does not establish that no one cares about those people. The premise also refers to slavers, whereas the hypothesis refers to slaves."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

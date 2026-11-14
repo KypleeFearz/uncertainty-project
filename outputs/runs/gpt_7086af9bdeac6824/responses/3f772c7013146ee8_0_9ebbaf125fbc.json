@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32196n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3824f1301d089f2b1c31a23cb27169d55efca10f6e0716f1cf69c9017a00554c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e0a416392758ecf016acbf80324f487d29ebe39e24abb92d1",
+  "received_at": "2026-10-11T20:56:39.030486+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Triple pig” is an ambiguous exclamation or description, not an explicit statement that a pig increased threefold. The premise neither establishes nor rules out that change."
+  },
+  "usage": {
+    "input_tokens": 360,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

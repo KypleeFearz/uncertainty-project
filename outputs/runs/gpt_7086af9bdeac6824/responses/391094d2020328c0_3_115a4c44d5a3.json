@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90846n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "efb6416e6d41f94e6b6683a9ef6c1b9e981d7bde94a50fdc91b940e19018e592",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c7f422848ccb6f6016acbf40bfed887d2ad16efe7226083c3",
+  "received_at": "2026-10-11T20:39:45.017571+00:00",
+  "parsed": {
+    "entailment": 0.38,
+    "neutral": 0.61,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Calling financial reporting only the first step suggests additional steps, but does not establish that there are many. The hypothesis depends on interpreting an unspecified number of further steps as 'many.'"
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

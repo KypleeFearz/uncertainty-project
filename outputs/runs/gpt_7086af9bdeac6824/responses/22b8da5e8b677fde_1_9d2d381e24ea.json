@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103354n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb5f2555d4d66d7ebced984ae224d45abb7cd4dd08b6c0217006bbd865a2ff2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ba250250751a78e016acd41a8b79887d2a2cdc73a368cee26",
+  "received_at": "2026-10-12T20:23:08.093326+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the museum’s miniature collection is considered superior, not that the museum itself is objectively superior. It also does not explicitly establish that the museum is on the university’s campus."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

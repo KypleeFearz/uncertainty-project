@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5507c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9442da74d1544f78011ba41db9ef8a74a5d75413bf9f96edf8d3e88693cffe73",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00262c1740e6aecd016acbf920d1c887d2b9ca5216064cb48e",
+  "received_at": "2026-10-11T21:01:25.139980+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.12,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise associates the Christian Democrats’ coalition with unusual stability, rather than great instability. However, it describes only a few years and does not establish their effects throughout the entire decade."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

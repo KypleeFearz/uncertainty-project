@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116356e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2551dbdd50314292140406ea6997ee9567d9b7ba7cc63098d014c7fa4f63eaba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05e3d096fa5c6735016acd42617fd087d286e5ab0a17851a1b",
+  "received_at": "2026-10-12T20:26:14.040539+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise names silverwork and pewter together but does not explicitly establish a relationship between them. Reading the hypothesis’s misspellings as those same terms and inferring a thematic connection requires assumptions."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

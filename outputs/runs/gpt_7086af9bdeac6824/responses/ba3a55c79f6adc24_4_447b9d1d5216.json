@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101981n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3590ff5066bc57cfcd8ecc28fe627fc80a90c96281763a45b74134dacc748220",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cda5d26ea8bf0f5016acd419733ec87d28706905205c97f38",
+  "received_at": "2026-10-12T20:22:51.284105+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.92,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise recommends Beaune for beginners and most others, but does not identify them as artists or establish that Beaune is best for every skill level. The hypothesis adds both an unspecified group and a universal claim."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18086n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "490391efbf60aa83d1943e2d66f58c9837a3112a4354ecbfd928e1f69aac3482",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_044e0b5f52175dd7016acbf762756087d2b8847b612de3c4e7",
+  "received_at": "2026-10-11T20:53:57.769380+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "Invoking freedom of speech does not establish a desire to make one's voice heard; the premise gives no motive for Miller's choice. The hypothesis's 'they' also lacks an explicit referent."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

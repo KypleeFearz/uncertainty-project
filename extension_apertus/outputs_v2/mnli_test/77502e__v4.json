@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "77502e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states that Thorn's sword was different from any Ca'daan had ever seen, which logically implies that no Ca'daan had previously seen a sword like that one. The hypothesis rephrases this implication directly."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 119
+ },
+ "seconds": 2.66,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:43:24.164027+00:00"
+}

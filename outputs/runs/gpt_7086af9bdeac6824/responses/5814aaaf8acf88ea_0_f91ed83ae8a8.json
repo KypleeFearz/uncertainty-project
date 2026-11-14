@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131623n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8ec90a3e8acc45a7be6c592a45e997466704856cdc40a70475cab5a8c7f071c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099d0124cee389fd016acd431c962887d28dcc2516d0a122a4",
+  "received_at": "2026-10-12T20:29:21.717329+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise reports Americans’ suspicions of Communist infiltration and impending subversion, not that interference actually occurred. The hypothesis asserts actual interference, although “messed with” is vague."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "40486n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2acba39d6f8e7353d44ff39ae0542a0f57919b3c9642bdd13daa40f61ecd1668",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAdVE1WveQsu215zcJc",
+  "received_at": "2026-10-11T21:33:48.993387+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the Haven provides shelter, outreach and has an attorney, which strongly suggests it is useful, but usefulness is an evaluative claim not explicitly stated. Nothing in the premise contradicts it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 800,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

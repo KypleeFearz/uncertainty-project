@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136752n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7573ec46930cb7ad9d96fb8cd0349bdb21512848dae9129962a0e1fa81b3df2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e4fbe6e2b8d3cbe016acbe8ae80bc87d2bfccfa39e636bbdc",
+  "received_at": "2026-10-11T19:51:13.742780+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says tailoring may be needed, without establishing that it will be needed or that a majority of questions require it. Both statements leave the target of tailoring unspecified."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

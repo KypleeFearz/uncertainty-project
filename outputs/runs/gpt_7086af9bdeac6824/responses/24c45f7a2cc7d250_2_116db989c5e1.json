@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62452e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6999f360c7cd0506524f96cbaf54912384be448c50ad566260bfc1a19c31de36",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05825bed5178b466016acbf087400887d28875bde153a2a562",
+  "received_at": "2026-10-11T20:24:44.651305+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "A lacto-vegetarian diet permits dairy products and excludes meat, supporting the hypothesis if “can consume” means dietary permission. It does not establish physiological lactose tolerance, so that reading is neutral."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

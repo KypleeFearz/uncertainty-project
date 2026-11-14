@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107399c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "593ed28113469d360609507f14d40c8380fef8c2f3d2509dfaa6c6aaeef0153c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_061367d14b5abccb016acbe49e386087d2920dac5d20fc7860",
+  "received_at": "2026-10-11T19:33:54.129269+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says New England Republicans led the party, which conflicts with describing them as politically weak. However, 'weak' could refer to a different, unspecified kind of weakness."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 118,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

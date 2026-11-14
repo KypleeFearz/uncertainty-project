@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79141n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5bea9f831dab4ffe9c040218d2604b55d59bc9be1be67951f6a0817db5a530b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d4f587f43f3705016acbf289363c87d295d0597e8e16e15d",
+  "received_at": "2026-10-11T20:33:17.655665+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.56,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The rhetorical question suggests that a woman's body belongs to her. The hypothesis additionally asserts that women should decide what to do with their bodies, a plausible implication but not explicitly established by the premise."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

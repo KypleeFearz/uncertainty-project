@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64831n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1742e83f2f39afd9972ae8922d056d86bdc1329ef99ab851cdc553338bb2ba3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0062fcde22ba8a27016acbd920ba1487d2a3e374f9e888bf64",
+  "received_at": "2026-10-11T18:44:52.609133+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise attributes insufficient enlightenment to denied access to information and opinions. It does not establish that proper research would overcome that barrier or make people better equipped to form opinions, though that is a plausible inference."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

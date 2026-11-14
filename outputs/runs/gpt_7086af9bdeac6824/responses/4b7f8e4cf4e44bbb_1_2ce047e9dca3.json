@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3974156067.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d0724ee879e93153fba057df660b24accba0d874873f2092905e0a4e99a64d2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06b7005073e1282c016acd4c1c8ca887d2a675cdc714288261",
+  "received_at": "2026-10-12T21:07:43.430332+00:00",
+  "parsed": {
+    "entailment": 0.999,
+    "neutral": 0.001,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly states that a young man laughs, which supports that a man is laughing."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 82,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

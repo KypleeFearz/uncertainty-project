@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49970c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f691491ab74aa086e148be152dde75bed8ed255042c6337102b5ba60a33025be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5764db6f35a956016acd460e740c87d281f8b55b54a8d756",
+  "received_at": "2026-10-12T20:41:54.768169+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "Despite the disfluent wording, the premise says that a lot of government spending goes toward health care. This conflicts with the hypothesis that the government spends very little on it."
+  },
+  "usage": {
+    "input_tokens": 442,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

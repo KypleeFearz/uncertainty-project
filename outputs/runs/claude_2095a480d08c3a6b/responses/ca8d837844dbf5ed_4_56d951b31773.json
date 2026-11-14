@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "129980c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5de950ef0d2eb0e6ec16713afa4e2edebe8b2f49c99e5fbe0251149b1ad6d12f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCFgPb9HqaB1SkbAfUU",
+  "received_at": "2026-10-11T21:55:06.700044+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The speaker says older people seek more convenience and comfort, such as a trailer or Winnebago, which suggests planned comfort rather than spontaneity. The hypothesis is not directly stated, so it is likely contradictory but not certainly so."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 837,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

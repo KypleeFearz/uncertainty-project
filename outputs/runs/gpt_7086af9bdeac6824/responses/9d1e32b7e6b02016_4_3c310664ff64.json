@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53415n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a2bf4e4d5c37ecf72cc5d5380f019f84d9da638f75f671e4149da518d492eb07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0772ae473978835a016acbf8fe1ec087d2a0d9f1c1c5947b8b",
+  "received_at": "2026-10-11T21:00:49.353145+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.89,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes reviewers' circumstances generally but does not compare specialist or senior reviewers with other reviewers. Tough times overall can coexist with some groups having an easier time."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

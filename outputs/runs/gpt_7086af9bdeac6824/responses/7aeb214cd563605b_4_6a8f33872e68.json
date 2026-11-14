@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59934n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "635d6f4ec70a6237fd26b1acdb398554636100d06ed24036d9f7ac96a6ae50dd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0af5576891502442016acd46dd181c87d29caea8a6f7de363e",
+  "received_at": "2026-10-12T20:45:19.685300+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise states that the programs failed to capture manufacturing and reliability knowledge consistent with best practices. It does not establish whether the reviews located an anomaly in the data."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143834n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7a73212c4c83a54d35727320d0b3a19ed54618d4ab831ecd693b964a65bf3a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_056252215ef1eb20016acbe9a9889087d2bfc279fca7883166",
+  "received_at": "2026-10-11T19:55:25.283703+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise establishes that multiple denominations can share a church, but it does not establish that this use benefits the community. That benefit is a plausible additional inference rather than a stated fact."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

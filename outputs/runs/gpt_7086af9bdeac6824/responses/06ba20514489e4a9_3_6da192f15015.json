@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139481e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d97509652febeb95683ec808620e6954a21d8c03a84f553ef0f3c999faf3fc46",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b2dd8ad5c2a127016acbe92607f887d2aa22834a02d4f250",
+  "received_at": "2026-10-11T19:53:14.905779+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The speaker says that he and his wife bought a car and want to take very good care of it, supporting the importance of caring for it. Calling the jointly purchased vehicle \"my wife's car\" is compatible with the premise, though not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

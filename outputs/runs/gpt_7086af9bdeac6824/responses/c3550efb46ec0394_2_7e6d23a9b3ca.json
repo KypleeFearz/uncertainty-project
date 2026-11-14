@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107608e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8e473311b53b244acdb214c515b3b017d2fdaabeffb38f0902649c199ced182",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcfd3442bdb8a33016acbe4ac67dc87d2bb3025cccb83e9d3",
+  "received_at": "2026-10-11T19:34:08.289695+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise explicitly mentions bank closures, supporting the claim that banks were closing. However, “left and right” suggests widespread or frequent closures, a degree not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

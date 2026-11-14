@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "103354n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise asserts superiority of the Varanasi collection over the Delhi national collection, while the hypothesis states it \"may be\" superior, introducing a degree of uncertainty. The core claim of having an art museum and potential superiority is preserved, but the certainty level differs."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 376,
+  "output_tokens": 127
+ },
+ "seconds": 2.66,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:40:02.242184+00:00"
+}

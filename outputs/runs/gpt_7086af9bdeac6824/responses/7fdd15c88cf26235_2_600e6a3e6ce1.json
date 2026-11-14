@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70711c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "39f47a9c2698e8b6b49e2a5fc148758c7b91339606d82ccf24b9332adfdcb00c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05dcf9cb450dd59e016acbf15aeb4087d2b3bec9185c4c4506",
+  "received_at": "2026-10-11T20:28:15.347024+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.12,
+    "contradiction": 0.86,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says that starting them in cooler spring weather leads to it getting too hot in summer, opposing the hypothesis's recommendation for keeping them cool. The referents of “them” and “it” are unspecified."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

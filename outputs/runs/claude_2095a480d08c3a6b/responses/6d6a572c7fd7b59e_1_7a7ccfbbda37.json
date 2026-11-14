@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3628059004.jpg#3r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c4260735e06e5642b548a17ec5de28ac404df6260a11147e91bb2ba93a3fdd59",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5NxxdwQ8e675bo7Rmx",
+  "received_at": "2026-10-12T21:46:08.546476+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.8,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The woman is posed with a guitar and a microphone and is smiling, which suggests she might be performing. Nothing in the premise says she is actually singing, so the hypothesis is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 778,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

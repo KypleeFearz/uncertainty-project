@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110528c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "890927de7303c2224b831215a885fab374d6b7f6dc68800da9e51e21004371ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04dd621f95b458a0016acbf5c79e3887d2a0d5ad07e1827d77",
+  "received_at": "2026-10-11T20:47:08.194456+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise suggests that the judge could dismiss a case, but does not establish what the judge actually did. The hypothesis describes a harsh punishment imposed quickly, which is neither supported nor ruled out by that possibility."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

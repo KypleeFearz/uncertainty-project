@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79013n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2bcf71b71835cf43e30242e36341281fcee9462732cda5facd104b17c1909ac4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd51575cca4154f016acbf27c438487d2b436f83e48f2204b",
+  "received_at": "2026-10-11T20:33:04.815517+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise presents his fear as a possible explanation, whereas the hypothesis asserts that fear definitely exists. The incomplete phrase “his No.” leaves the object of the fear unclear, but the premise neither establishes nor rules out the definite claim."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

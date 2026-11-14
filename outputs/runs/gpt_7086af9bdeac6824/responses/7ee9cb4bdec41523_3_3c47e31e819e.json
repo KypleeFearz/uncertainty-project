@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66689c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1a3e1fd9d5fbc125b6c23d3311f6d94d71a400266651a1c514384958a2df4f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0651b6a1b909bb2a016acd4723eea487d2ae18d69e1c14b77e",
+  "received_at": "2026-10-12T20:46:32.993184+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise attributes issuance of the guidance in Memorandum M0010 to OMB, whereas the hypothesis attributes the memorandum to INS. This supports a conflicting issuer, although issuing guidance in a memorandum does not strictly establish who issued the memorandum itself."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

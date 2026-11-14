@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129464n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb149ac1c9e570339e25bbadbaffe8c6285ccd0e60ec7b0176b0fe8008abaac8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026c829675c7b7f3016acbe7696c9c87d2bc585fac4e2f6501",
+  "received_at": "2026-10-11T19:45:48.318319+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise supports the use of prospective and retrospective designs and synthesis of individual case studies, but does not specify small businesses. It neither establishes nor rules out that application."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

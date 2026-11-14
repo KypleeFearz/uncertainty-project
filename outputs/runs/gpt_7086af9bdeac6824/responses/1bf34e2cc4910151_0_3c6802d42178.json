@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46675n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4fb68d888193e47148d50df840d7b6e78c522d1560c8a3f19cfaca67bb8d55f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0359ab3450404b2e016acbf8a901c887d28f7da03ece4ce30b",
+  "received_at": "2026-10-11T20:59:24.664414+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Describing the trip as worthwhile supports that someone obtained a benefit or positive experience. What “that” and “it” refer to is unspecified, and the gain need not be material."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112547n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "864b992ddc48997655bb4072c415a796419af88edc677056cd60d74d75ce27fc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01581037036372a6016acbe549149887d2a63f0c6a7d591dd4",
+  "received_at": "2026-10-11T19:36:44.140748+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "Having credibility may make Jim Lehrer more likely to be believed, but it does not establish that everyone would believe everything he said. The premise also does not explicitly rule out that universal claim."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

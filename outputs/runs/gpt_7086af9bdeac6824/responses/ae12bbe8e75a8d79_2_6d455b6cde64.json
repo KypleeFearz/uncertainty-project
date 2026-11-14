@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61767n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4cd9ea5955299d1853ca488da93393b1c0965a0d0ee594f5516fe8266150f93c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b98f8a5ca47e140016acbf0678d7087d29004579925f5851c",
+  "received_at": "2026-10-11T20:24:10.868755+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.92,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the FDA solicited comments and already evaluated and responded to them, but does not establish that most comments were criticisms or that the FDA plans to use them to identify flaws. Comments need not be criticisms, and the proposed future purpose is unstated."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

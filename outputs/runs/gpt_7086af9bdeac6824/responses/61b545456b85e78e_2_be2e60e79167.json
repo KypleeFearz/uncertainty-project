@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5988551357.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0fe0fabc6c7dc19b2e8fa9f180dc81283287c99a1e893780448e1438d3588c67",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_097d9fdd71874ed2016acd4e1b23a887d2a6df851e0651cd34",
+  "received_at": "2026-10-12T21:16:15.951799+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The clown finding its way into the action suggests movement and participation in rodeo activity. However, “in the action” does not explicitly specify what physical activity the clown performs."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

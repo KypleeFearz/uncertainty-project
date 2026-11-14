@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "837n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "45c917966b341d8c4fd2014a45579d3367b069c54871613235e385535f4a5e89",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03202c4d88e1e2b0016acbfa528afc87d2a908e61b45f75d00",
+  "received_at": "2026-10-11T21:06:30.005915+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly identifies strategic planning as a central feature of the Results Act and places it in the context of government. This supports the hypothesis’s characterization of the feature as applying to public organizations."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

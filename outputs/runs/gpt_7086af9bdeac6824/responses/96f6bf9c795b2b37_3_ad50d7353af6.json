@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134217e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad37fb4093b91f91aa967a83ec1f8375ed7bbb9bd337d74ea1de28def9b4b4fb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020558966b90d231016acbf6dc519087d2bff43e83833a81c3",
+  "received_at": "2026-10-11T20:51:43.108849+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise asks whether something is true rather than asserting that it is. The referent of \"it\" is unspecified, and \"uh-huh\" does not clearly affirm the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

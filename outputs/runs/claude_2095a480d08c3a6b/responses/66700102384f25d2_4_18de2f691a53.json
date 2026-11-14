@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "37660c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "560cd5652a94aa6fe7766ebe50059e804606e7d5e665e6d17984a4876f3aac67",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAZa6qQF9zgsT7bkLFH",
+  "received_at": "2026-10-11T21:32:55.373686+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise criticizes the paper for ignoring conflicts of interest involving journalists, which presupposes it has journalists, so the hypothesis conflicts with it. Some uncertainty remains because 'journalists' might refer to journalists generally rather than the paper's own staff."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 816,
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

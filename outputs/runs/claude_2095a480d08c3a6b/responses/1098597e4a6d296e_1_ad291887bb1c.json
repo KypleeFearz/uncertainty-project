@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4938916849.jpg#0r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "57e5d86bc33f7cc122ba4348f3210e22db4cbc8123940d074f5ab74069efdca2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5kJdu2ivwwcUzehUyD",
+  "received_at": "2026-10-12T21:50:58.330090+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says many people take pictures while a blond woman holds a sign, so photographing her is plausible. However, it does not say they photograph her specifically, and 'yellow woman' is an odd, ambiguous description of 'blond'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

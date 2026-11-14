@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137040e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe929a89034e81fc42943c84695e93ba279acabe7b2d99100124c088b338e9c6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078fa3a91b3d48b5016acbe8b7d7f887d288bd63ff9ef3be19",
+  "received_at": "2026-10-11T19:51:23.448877+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Looking forward to receiving readers' comments expresses a positive attitude toward getting them, supporting the hypothesis. The small uncertainty is whether anticipating comments necessarily means liking to receive them."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

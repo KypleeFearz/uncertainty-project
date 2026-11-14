@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "128832e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "61a7ebe8542d90017368d31399eb37e28d68290d6d701f3e059cee06772ebb7d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwtqFvLh6DkLvmWFCqT",
+  "received_at": "2026-10-11T18:46:48.035630+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.3,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "\"At the pictures\" likely means in movies, so the crooks always having a restaurant in the Underworld paraphrases the hypothesis. However, \"it\" is vague and \"always\" versus \"tend to\" plus the \"pictures about the Underworld\" wording leave some room for neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

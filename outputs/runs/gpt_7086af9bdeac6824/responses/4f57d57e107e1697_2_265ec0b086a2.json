@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66937n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b2b6fdc98b2ac80442776a8794061d5f1160c7285ad09fe184c6c03cf4b963aa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082800d498911f79016acbd92750a487d2b135ec041d23b054",
+  "received_at": "2026-10-11T18:44:58.072009+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise reports an allegation that Tokyo Joe omitted losing trades to exaggerate returns, but does not establish that this attracted more investors. The hypothesis also presents the alleged conduct as fact."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

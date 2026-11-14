@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50945e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7749e84f32858064798a8d4aeb05ef477cc0e7817d2adb1253cd81ff2bef8631",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d61b7c5a4652b48016acd463310ec87d28fa33e832352e9ea",
+  "received_at": "2026-10-12T20:42:33.062829+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise identifies the address as the speaker's office address but does not explicitly establish that mail can be received there. Receiving mail at that address is a plausible assumption, not a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

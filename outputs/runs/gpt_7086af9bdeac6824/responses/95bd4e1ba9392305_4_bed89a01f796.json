@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38925n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "08589b267e020fadba195173bed8e386470e4afda6c5d2cae949caace15f31c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053f6464ae4c947f016acbed490bdc87d28f8b9c37c56218e7",
+  "received_at": "2026-10-11T20:10:52.521880+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise asks whether his decision was sudden or already made a few hours earlier, without resolving either possibility. It does not establish an abrupt, unannounced departure, a later change in the speaker's assumptions, or a plan concealed for quite some time."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

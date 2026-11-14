@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105911c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9bcc9a0d03e58d2c395c0934969e9001d9f6066ce2ce8bf9314e18715739d7d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b2f9a2cd7c97723016acd41c5b87087d280af921c13b13a9a",
+  "received_at": "2026-10-12T20:23:37.994269+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.37,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Reading “day car” as “day care,” the premise criticizes childcare arrangements that prevent bonding with babies. This suggests opposition to daycare, but does not explicitly say children should never attend it."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

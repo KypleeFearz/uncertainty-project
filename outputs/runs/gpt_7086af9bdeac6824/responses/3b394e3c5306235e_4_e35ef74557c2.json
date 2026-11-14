@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132539c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e93f21e671a9f4af5a93473e7eb50658e10b2fcaf62a697e8442f78f1b3d98c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eaed8d229ceb363016acd4332d3e887d29bad06aecfd79a44",
+  "received_at": "2026-10-12T20:29:43.551869+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.3,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise labels the described route as moderate, which conflicts with an advanced difficulty classification. However, it does not identify a chapter or explicitly connect its category to the route's difficulty."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

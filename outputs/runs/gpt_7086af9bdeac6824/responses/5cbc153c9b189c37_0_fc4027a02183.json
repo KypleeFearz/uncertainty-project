@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4048n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a620a1af813b5ef9c4219c333d1e38f1ce2fd0356ec4efc7aece9a8484b7480",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e57948c003e8de1016acbed773b4487d29e69ed9e545935e8",
+  "received_at": "2026-10-11T20:11:40.161921+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise presents managing risks as part of an effort to develop new products and services. It does not establish that managed risks actually lead to new products, rather than merely supporting that goal."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

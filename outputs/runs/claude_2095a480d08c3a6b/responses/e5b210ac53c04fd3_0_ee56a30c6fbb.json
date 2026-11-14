@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "10080c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "932078fc0565b2ad62511d89af8ac9bce12d3bd7f60bea60977af3a017bec0ba",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8vjEch24Jx4Spinwzw",
+  "received_at": "2026-10-11T21:11:28.799281+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says price discrimination can survive in a certain case, which implies pricing flexibility, whereas the hypothesis says no leeway exists right now. 'That case' is unspecified, so the conflict is not guaranteed, as the current situation might not be that case."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

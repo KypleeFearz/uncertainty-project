@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4247c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a30c8e5a0b463ca4040d4d1d48d7491a8181f482be242e1e6c88eb0248c4f940",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec60b8b15e63ef5016acbeda63bf887d2862e654cc32ab8fe",
+  "received_at": "2026-10-11T20:12:25.722785+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise locates Savonarola's burning in Florence but does not establish that he moved there or made it his new home. Being in a city for an event does not imply residence."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3259992164.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b64b23228ecc4c19ce44f61eec9f2f9c72fd0a832ce4cdbc97ec9d841878f15f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0159ee0fe8ef4e9f016acd4b14922487d29640514fd2c4ad4c",
+  "received_at": "2026-10-12T21:03:20.235311+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise identifies the performers as dancing street performers, but does not establish whether they are mimes. They could be mimes, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

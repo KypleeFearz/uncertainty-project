@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2537596840.jpg#3r1n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "97dac39dc90e611a790185ab741ff1f005be04ccc619ce24dff05ef5f20cc711",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy54LCYox3zzrgb7cd8X",
+  "received_at": "2026-10-12T21:41:56.035280+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.9,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says only that a town worker is working on electrical equipment and gives no information about tiredness. The hypothesis is therefore neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 755,
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

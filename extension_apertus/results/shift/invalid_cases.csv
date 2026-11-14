@@ -1,0 +1,7 @@
+uid,invalid_variants,all_labels_zero,human_majority,human_entropy,human_status,excluded
+snli_2257099774.jpg#2r1c,1,1,neutral,0.3517043367110297,clear,True
+snli_244829722.jpg#2r1c,5,5,neutral,0.630201367881403,between,True
+snli_329835313.jpg#2r1c,4,3,neutral,0.6744454683101251,between,True
+snli_3380925719.jpg#2r1n,1,1,neutral,0.38379447338534295,clear,True
+snli_3692593096.jpg#1r1c,2,2,contradiction,0.6532432539753679,between,True
+snli_6526560433.jpg#1r1n,3,1,neutral,0.47665663606606284,clear,True

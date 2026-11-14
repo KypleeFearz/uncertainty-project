@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35622e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1bbb87713ee42e5f8f0c24e8400aade926695d00653dcfda84a8588a832c9d7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bebeef6a7ac53e5016acd4542619887d2b6c8c20a37e978a2",
+  "received_at": "2026-10-12T20:38:30.843489+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "“Provisions” can mean supplies, but it can also mean rules or clauses; only the supplies reading supports the hypothesis. The premise does not rule out additional inspection of supplies."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

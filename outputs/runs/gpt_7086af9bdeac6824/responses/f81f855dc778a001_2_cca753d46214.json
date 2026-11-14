@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113280n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a645e6df8b907cf96cb06749e8497c8cb04ebad1e06946ca1e6781cd6a10a5b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b80271fb2c8bde7016acbe55e996087d28f40600ff592f981",
+  "received_at": "2026-10-11T19:37:06.791204+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.87,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says fresh-cut flowers can be bought at bargain prices, but does not establish whether expensive flowers are also available. Bargain prices alone do not establish or rule out a cheap-to-expensive price range."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

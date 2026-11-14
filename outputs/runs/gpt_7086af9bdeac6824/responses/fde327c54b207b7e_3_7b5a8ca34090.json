@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104395n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e69527f058774e3838a189c209e58a20e219adcf595c169c3577514cba9c4cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a7b3747d37a64e016acbe440c1a087d29da37c68d862681d",
+  "received_at": "2026-10-11T19:32:21.486436+00:00",
+  "parsed": {
+    "entailment": 0.09,
+    "neutral": 0.9,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says routine screening and intervention require clinicians to develop a sense of responsibility for addressing substance abuse. It does not establish that routine screening itself is essential to addressing substance abuse."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

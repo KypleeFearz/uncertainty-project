@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130629n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "225ce61524a9228343f88e2cfd32669def6f376be0d1b7dae8535287563e9e68",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03d554d3c6a1dc1d016acd4301522887d281157e7f17e97d45",
+  "received_at": "2026-10-12T20:28:52.216536+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise attributes fluent Vietnamese and Mandarin to the people helping Tran, not to Tran herself. It does not establish which language Tran spoke."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

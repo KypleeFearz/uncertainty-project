@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131216c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e96ead1349fe441c61e9a88cd733298309e9559aab03ed9ff18376ad5b9bb7e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d90408d66630c1f016acd430a2a8c87d2955a1d741928a21c",
+  "received_at": "2026-10-12T20:29:01.984690+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise identifies Madame de Maintenon as Louis XIV’s mistress and describes her home, but says nothing about a marriage or its location. Calling her his mistress does not by itself rule out a marriage at another time."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

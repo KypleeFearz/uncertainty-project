@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "4552e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "09a212db9f0a88ef5b048211041a7603a08a41d569e97d9f5760d964086f8f69",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAk12pR5S6sHonesnm3",
+  "received_at": "2026-10-11T21:35:17.340727+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the countryside around the city has a scattering of small villages, but it does not say the whole countryside is scattered with them. The hypothesis broadens the claim to the entire countryside, so it is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

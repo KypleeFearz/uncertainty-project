@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2415402073.jpg#1r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4f73be1b9932430e9cc5ad4d4845c0931f01356619029d7a7c96a089205c5f58",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy522qTL8BtuahdHtNw6",
+  "received_at": "2026-10-12T21:41:24.896680+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "A young woman approaching stairs matches 'comes towards the steps', but the premise never says the steps lead to her apartment. That detail is an unsupported assumption, so the pair is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

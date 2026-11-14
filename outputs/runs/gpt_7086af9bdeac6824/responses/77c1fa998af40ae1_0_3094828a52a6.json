@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72389c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d31b361a99f37eea1b7a43abc6e35f08c945fc285cb13cd7225a93b86f497add",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c824d9ef0b9304d016acd475ff73887d28645aeb50fab254c",
+  "received_at": "2026-10-12T20:47:31.196435+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the NFL semifinals are set but does not describe anyone's ability to disclose when dates would be set. The hypothesis's \"they\" has no identified referent, and \"set\" could concern matchups or scheduling."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

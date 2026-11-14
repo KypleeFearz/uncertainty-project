@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82629e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6bd6f8ff8ea591cf6981fd5dba4c44bb9d34e3680ca30fea4e6029010154223b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBdxkM7ypf22bNWvC1m",
+  "received_at": "2026-10-11T21:47:02.359813+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says a written request follows only after a reasonable time has passed without the record being provided, which loosely suggests a fair time allowance. However, it says nothing about who \"they\" are or about writing a report, so the link is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 808,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

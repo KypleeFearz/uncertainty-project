@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56075n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "43962099c2e1571e3efa1c67ce4c7e3575200c4c4916a1e9e9c256611547df28",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9826a8d00c4738016acd469d9bb487d291f74781c88d016e",
+  "received_at": "2026-10-12T20:44:18.655026+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says more detailed implementation plans will be needed, but does not establish that the plans are complex. Equating greater detail or multiple issues with complexity requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

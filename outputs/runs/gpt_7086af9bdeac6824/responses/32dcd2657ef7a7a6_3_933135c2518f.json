@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86676n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "773eccbe0b1e6974c93704e00cd350966976b593cb40c845bd43632eef3f3696",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090e10670cbfb15b016acbf3b5244c87d29a6081fee1c95c8f",
+  "received_at": "2026-10-11T20:38:16.416356+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.73,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise describes identifying every legal problem as an approach, but does not establish that doing so makes helping the client easier. That benefit is a plausible inferred motivation rather than an explicit or necessary consequence."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

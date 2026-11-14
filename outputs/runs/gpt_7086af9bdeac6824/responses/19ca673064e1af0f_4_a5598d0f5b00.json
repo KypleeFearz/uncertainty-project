@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2370481277.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a8f71972b524fc9c55735abd8e70dcaaeeb41d75c4499572caac7658b0218d1d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_060b01eb9d397b68016acd499a980487d294ce69d3ca858f88",
+  "received_at": "2026-10-12T20:57:01.591804+00:00",
+  "parsed": {
+    "entailment": 0.38,
+    "neutral": 0.61,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "Kicking a soccer ball while other boys follow suggests a game, but the premise does not establish that the boy is competing rather than practicing or playing informally."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

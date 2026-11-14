@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "136752n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a9f93ba466b586e74c51a97a98812bf620eea265f011f833505a4add59f1bef9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9nBurBPeL7mttTk9Fn",
+  "received_at": "2026-10-11T21:22:40.204921+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise only says the questions may need tailoring, which is possible but not certain, and it gives no indication of how many. The hypothesis asserts a majority definitely will, so the premise does not establish it, though it does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 765,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

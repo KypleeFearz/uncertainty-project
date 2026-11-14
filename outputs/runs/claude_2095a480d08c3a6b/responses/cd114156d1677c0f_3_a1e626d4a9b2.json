@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "63013n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7bdbc5c565c181de7fd2a8bd1a19a996ddee3412f85ba612e9b49eef940cdbb7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Whjwf91QmN19FPxtn",
+  "received_at": "2026-10-12T21:34:46.845319+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.85,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says follow-up with patients is needed because alcohol-related events often go unreported to insurers. It says nothing about insurers wanting to cut payments or denying claims for intoxication, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 877,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

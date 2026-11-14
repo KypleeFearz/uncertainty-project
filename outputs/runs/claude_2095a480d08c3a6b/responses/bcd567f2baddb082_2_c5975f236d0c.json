@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "113908n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0da182103c4b6e96f90219d1138028a9b1a0629d027936e8275da0f6881834d2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC7ihn2manzy2urzwtA",
+  "received_at": "2026-10-11T21:53:18.963504+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.45,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Treat yourself\" and bill it to Si suggests indulgence at Si's expense, which loosely implies spending freely, but it does not explicitly state there is no spending limit."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

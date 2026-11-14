@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85428e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb8812e4890c4f26648526948aa06991a2f8cd314773caf19eb2b77e3e642366",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b36075a9300e73016acbfa6b025487d2a2c50b97026988d0",
+  "received_at": "2026-10-11T21:06:54.846678+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The rhetorical question portrays your support as persisting even in the face of extreme wrongdoing, supporting the description 'unwavering.' This is a pragmatic implication rather than a literal guarantee that nothing could change your support."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

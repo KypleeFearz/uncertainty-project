@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48557c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "827b2f0585f8cc43748598890a7fc5d471c17569691fc783377538767516b2c8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01320dfdf66546cf016acbf8c3a08887d29e5f90c83efaddee",
+  "received_at": "2026-10-11T20:59:51.643915+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.22,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The friend’s discovery that she had been made a fool of suggests distress rather than happiness, contrasting with the hypothesis. However, neither her actual feelings nor the speaker’s relief is explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

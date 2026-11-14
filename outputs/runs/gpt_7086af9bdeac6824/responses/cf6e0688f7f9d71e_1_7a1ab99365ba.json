@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69413n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50d5ce909e4129c8b88352b7b9e3650339b8d0d27798c3ce19d124713da747d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_065e8c2e67971123016acd47441d6487d2b1fd1cf34b2c6ab3",
+  "received_at": "2026-10-12T20:47:05.591716+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise describes acquaintances, who are not necessarily friends, becoming Orthodox. It does not establish whether this represents conversion to a different religion rather than a change within their existing religion."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

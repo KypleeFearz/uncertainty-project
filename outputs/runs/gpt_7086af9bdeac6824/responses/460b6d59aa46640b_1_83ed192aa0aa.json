@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42745e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f58e047ac6b52c6a70fa5f15183bc10364a1a144c608e506382c394d94ba8fd5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029eb621c3743822016acbedc175d887d2add70860e3e075b9",
+  "received_at": "2026-10-11T20:12:54.046396+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise confirms appearances by Santa Claus and the Rockettes and mentions a moment involving a heart attack. It does not identify who experiences or appears to experience the heart attack, so linking it to either named act is not established."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

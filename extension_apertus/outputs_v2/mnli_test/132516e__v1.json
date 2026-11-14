@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "132516e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.8,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The hypothesis paraphrases the premise's core uncertainty about whether a woman and child, or the cat and sheep, were left behind, making it a clear restatement with no logical conflict."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 353,
+  "output_tokens": 111
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:59:11.647866+00:00"
+}

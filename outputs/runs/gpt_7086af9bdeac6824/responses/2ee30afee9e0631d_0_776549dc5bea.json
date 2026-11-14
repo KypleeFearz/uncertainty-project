@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109510n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "28d42ba5665525cda3457fe83199b500232ea2b6732663b09f98bab440309d63",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0899d73ed43adfd2016acbe4ee368887d294f7735482f782cb",
+  "received_at": "2026-10-11T19:35:16.450024+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.79,
+    "contradiction": 0.19,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "“Heart burn” in the premise appears to mean misgivings about doing the work oneself, not a medical condition. The premise does not establish a plan to continue doing it as a remedy for heartburn."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 92
+    },
+    "total_tokens": 601
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

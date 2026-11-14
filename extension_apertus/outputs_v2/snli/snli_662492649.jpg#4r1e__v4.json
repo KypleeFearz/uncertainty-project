@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_662492649.jpg#4r1e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes a specific mischievous act (spraying a pedestrian), which aligns with the hypothesis that the man makes mischief. However, the hypothesis omits details like the umbrella and the pedestrian, introducing minor ambiguity and requiring probabilistic inference about the intent behind the action."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 131
+ },
+ "seconds": 3.01,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:52:11.319860+00:00"
+}

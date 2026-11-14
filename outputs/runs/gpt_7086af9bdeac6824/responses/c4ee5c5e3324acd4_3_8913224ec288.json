@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128360n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d4bda855420005f0091596eeeb818f47acd57bb79c63345ef9a0aa651f8335ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02cb4dc5dc016b31016acbe740f1ac87d2adccb9178df1b054",
+  "received_at": "2026-10-11T19:45:09.299271+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise supports his claim of being robbed and lacking money and a plane ticket, but says nothing about quickly solving the problem. Being described as stranded does not establish whether he later resolved it."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98410n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ccfb293e71d46259c77932036c3e5780dde3af09b63dc21e6552feb7ef27984d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBwHhLnG65JZwS2LVbE",
+  "received_at": "2026-10-11T21:50:57.248358+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "\"Same here\" most naturally means the speaker shares the experience just described, which supports \"I experienced something similar.\" The referent of \"same\" is not given, so some doubt remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 760,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

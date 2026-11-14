@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57163c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8bc9b19d43cf1aaa141046d75e864b673692212c32951b7446a06b772a4a170b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09819fade1677d7d016acbf93c576087d28c554b573aa9047c",
+  "received_at": "2026-10-11T21:01:53.948588+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.83,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says documenting judgments can be harder, but does not establish that documenting nonjudgmental information can be harder. Because both comparisons express possibilities rather than universal rules, the premise does not strictly rule out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 622
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

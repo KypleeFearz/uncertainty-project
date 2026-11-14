@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105566e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "107a6008e166cb25000051453b1e3c8d488a9c90b56c6a36bf63578b53fa07de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ac514288686619016acbe470f03487d2b476682bfc85701c",
+  "received_at": "2026-10-11T19:33:08.372136+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The same type of paint does not necessarily mean the same formula. The premise also does not establish that the paint is great."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

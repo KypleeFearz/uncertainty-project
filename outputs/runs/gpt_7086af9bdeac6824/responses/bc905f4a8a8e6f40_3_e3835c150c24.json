@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2879991421.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b62c3645dec30fef205730cfec3f035f37300401855eb6e795a7daf7f3ecfc5d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b4a559ce3ef93e3016acd4a54b48087d2b5a3a7e92c34ee03",
+  "received_at": "2026-10-12T21:00:07.612144+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "People wearing cowboy hats and riding horses at a rodeo may be cowboys competing, but the premise does not establish their occupation or whether they are competing rather than performing or merely attending."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

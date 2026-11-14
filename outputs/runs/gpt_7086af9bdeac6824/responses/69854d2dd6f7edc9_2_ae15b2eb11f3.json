@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111005e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8760f45e5a8f7acf3b783cf5201ad2d17dc4600670e7f5efe24800e6709da7ea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b83df148a600b97016acd41ff835487d2bbaed533564cb456",
+  "received_at": "2026-10-12T20:24:38.541012+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "Clinton said the agents withheld advance warning by instructing his aides to keep the information secret, supporting that they had not informed him. However, 'anything about the issue' is broader than the specific advance warning mentioned in the premise."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 203,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 610
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97141c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "69d5ee29f65cdc177676688979c29ab1b467e5de8810f0cf0a313f048d2e52d0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBv2ndSuLf98SXisFF3",
+  "received_at": "2026-10-11T21:50:40.158266+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.32,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Saying \"I tried to understand it\" usually implies the attempt failed, which conflicts with having figured it out. But \"tried\" does not strictly rule out success, and \"it\" is not specified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 774,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

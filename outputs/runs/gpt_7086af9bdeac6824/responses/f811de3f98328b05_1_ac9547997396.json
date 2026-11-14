@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_329835313.jpg#2r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5d13d480f810b6145a7f0534328d59d38828c7740132bb985284f81aa75ed02a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0da326159a372d91016acd4b25181087d2921b2fcc530d1e10",
+  "received_at": "2026-10-12T21:03:35.695665+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Making a funny face does not establish that the baby spits up, nor does it rule that out. The premise says nothing about the bib being soiled."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

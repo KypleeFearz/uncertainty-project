@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117102e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "049f147207a4a3ad358147f7fa86b1c397cf1be59af1c8fb35b8bdc88022234c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e7ef61f4137a21016acbe5d70a2087d29df87b3656736fbd",
+  "received_at": "2026-10-11T19:39:08.962351+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Snap judgment” ordinarily means a judgment made quickly, but the standalone phrase does not clearly assert that any such judgments occur. The hypothesis follows only if the phrase is interpreted as describing an actual instance or category of judgments."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52806n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5b535dc021f73c46f1a374e818883fada20ad8edc6b36bb078962c2b35be8dfb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a70ea33021540c7016acd465e0d3887d2b787f316fa944413",
+  "received_at": "2026-10-12T20:43:15.240847+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "The premise supports describing the film as macho, predictable, and going nowhere, but does not establish that it is loud or stridently macho. Those stronger descriptions require an additional inference rather than following directly."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

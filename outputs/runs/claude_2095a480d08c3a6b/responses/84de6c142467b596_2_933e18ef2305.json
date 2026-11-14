@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d3c86a9de00f1e8847d28654f2d09157f6e3e6a5cb65d0c406fb901b4970c60d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCneqSMYuXVVNxKRYWn",
+  "received_at": "2026-10-11T22:02:07.125582+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.1,
+    "contradiction": 0.86,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Being rarely indifferent means people usually do have strong opinions, which contradicts the claim that they don't. The stray 'She' at the start of the premise is a minor oddity that does not change this."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

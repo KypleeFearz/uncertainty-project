@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23901e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a392c152eb0986cd5451fa666b0e977c07fdd4b2eb109d6df1e6f961b843a2c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e633a7247d9de1016acbeb3d7bb887d29a0e5defda8597ee",
+  "received_at": "2026-10-11T20:02:09.425923+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "Shuman's claim that Linux lacks a graphical interface can be understood as an accusation about the platform. However, calling the claim an accusation adds a critical tone not explicitly established by the premise."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

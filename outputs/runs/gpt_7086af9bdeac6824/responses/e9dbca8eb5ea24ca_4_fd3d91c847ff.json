@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1408c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "56ee5cbf9109481f398092d6046c7a1bfb3405c753354b5947d69d460db32348",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e32ff31d444049016acd43ddf5c487d2bef0905cb197fdbe",
+  "received_at": "2026-10-12T20:32:36.409256+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.64,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.39,
+    "brief_reason": "The premise says several named high-end clothing stores are still going strong, but gives no information about a recession or widespread closures. This contrasts with the hypothesis’s general portrayal, without ruling out difficulties or closures among other stores."
+  },
+  "usage": {
+    "input_tokens": 446,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 657
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

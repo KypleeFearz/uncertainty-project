@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "17473n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The speaker expresses willingness to attempt removing the oil filter, implying that trying it is worthwhile, which aligns with the hypothesis. Ambiguity arises from informal language and unclear antecedents, while the inference relies on the speaker's intent rather than a logical certainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 363,
+  "output_tokens": 126
+ },
+ "seconds": 2.75,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:10:20.687995+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69481n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f5565573c33bd6922b157610ca1b9d836019967961494fe7c4feb783c662133",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_059c18c1245e5020016acbf1394a0887d2815f66dc226bc034",
+  "received_at": "2026-10-11T20:27:41.230682+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise directly states that it was deserved, supporting the hypothesis. “Definitely” adds emphasis or certainty that is not separately expressed in the premise."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

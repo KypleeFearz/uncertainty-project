@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11534n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30f96dfecb602b236ad95a0c60013d57206c70700cbf8e62559df3d6d4cfadd1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a76f8378ad8b934016acbf60511f887d282928f87c49e3260",
+  "received_at": "2026-10-11T20:48:08.330450+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "He redirects his attention to his problem, suggesting that staying focused matters to him. However, the premise does not establish that he could not afford distraction."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

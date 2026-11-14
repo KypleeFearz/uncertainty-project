@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "40179n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ce763412ebf4953010e6c27f74d3c563e7e48a1120095937f19ed5def90aaaa5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCYr8TYsdLL4wr72io4",
+  "received_at": "2026-10-11T21:58:59.515984+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.7,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.6,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise is a fragmentary conversational utterance expressing exasperation, but it does not clearly state a belief or disbelief; what 'that' refers to is unclear. The speaker might be incredulous, which weakly suggests the hypothesis, but this is not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 765,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

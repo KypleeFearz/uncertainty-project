@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "19c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fac79bc84fd952f2a4760d4212272910de1988a191acb596c5f1d9f05108facf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA858rdrraohFmUzE3p",
+  "received_at": "2026-10-11T21:27:10.004652+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.12,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the site is of the ancient capital of the island, not an asteroid impact; the hypothesis replaces 'capital' with 'asteroid impact', so the two conflict. Only slight uncertainty because the hypothesis is a fragment and the same site could in principle have other claims."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 836,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133842n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9f8b808804baba2aa7787993147b51910a756c07c08afda0f0eae57e9f748a60",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c711020cb4c437c016acbe83df3f887d2a0a6da0ef0768583",
+  "received_at": "2026-10-11T19:49:22.491894+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The speaker says they could handle going to bed at ten or eleven and getting up at five, which allows roughly six to seven hours of sleep. This supports tolerating six hours, though actual sleep duration and the frequency of that schedule are not explicit."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 574
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

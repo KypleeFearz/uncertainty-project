@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3031792444.jpg#4r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b49e4eaca75ef08ec31043d28b72ff23d8c72bcec4144fc9bb0ec34065518d6d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a771e0c9e320b60016acd4a98117087d2bb4a416e45f0c41b",
+  "received_at": "2026-10-12T21:01:15.088418+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "Giving a speech at a party supports that the man is speaking to an audience, which is public speaking."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 459
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

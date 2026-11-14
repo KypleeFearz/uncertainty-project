@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "116970c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ad37e51980717e298576b009bb3e8a86fa461fd53ed8973bb81616ddf5c07875",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3gyUeaZTnDJPUfFXZc",
+  "received_at": "2026-10-12T21:23:59.654729+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says park land is measured by quantity (parks, acres) rather than historical cost, which concerns how it is reported, not whether it has value. The hypothesis is therefore not established, though the premise might loosely suggest a monetary value is not assigned."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

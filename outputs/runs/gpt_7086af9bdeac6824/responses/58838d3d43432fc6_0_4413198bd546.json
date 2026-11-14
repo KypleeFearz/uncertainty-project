@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30139n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7fcd54db31326198ae8fe62c0319937139718179b5d7f64d911906977d5737b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08f7b34cf0ed4260016acbec1fca0887d285ad90947f62f20a",
+  "received_at": "2026-10-11T20:05:54.889272+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise says the van was bought from an estate and was almost brand new, but does not say acquiring it was lucky. Calling the buyers very lucky adds an evaluative inference rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

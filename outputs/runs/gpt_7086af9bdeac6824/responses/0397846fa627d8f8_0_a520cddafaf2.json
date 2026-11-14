@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81938e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a9127b64d3705b1bd33f8420dc70e7d86c381f7dc8f8921ca431479a1a9eea0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0140f9c696842e58016acbfa1432bc87d2a3b7ce641cd4f38f",
+  "received_at": "2026-10-11T21:05:29.330707+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.62,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise mentions all three items, but it is a sentence fragment that does not specify what they influence. Treating them as included factors requires inferring the missing context."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

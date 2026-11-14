@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "47756n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "604f6313ccb5ba0813cf65b1118b32b39cdabe147fbc2be97236d6adde4e36a7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAoaSKPGdwCEtPS6hEv",
+  "received_at": "2026-10-11T21:36:05.859240+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says she was quite young, which conflicts with the hypothesis that she looked older. The hypothesis also says she was barely eighteen, but the premise only says not more than eighteen, so some uncertainty remains about her actual age and appearance."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

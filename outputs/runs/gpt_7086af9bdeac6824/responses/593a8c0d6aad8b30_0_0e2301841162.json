@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2482588693.jpg#1r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1f84e47abb088f53d8653040226e0128327efc81f9c9eb44f695962becf0a97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07bfa223f1d69921016acd49e376bc87d2a72debb7930e55f2",
+  "received_at": "2026-10-12T20:58:16.205101+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise identifies the people as teenagers but does not establish that they are college students or adults. Teenagers aged 18 or 19 can also be adults, so the descriptions are not necessarily contradictory."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

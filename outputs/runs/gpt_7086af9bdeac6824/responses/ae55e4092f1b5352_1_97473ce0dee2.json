@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3192266178.jpg#0r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1f30aa0db3b6f2f371130558de5524974a23625a6de484d529891dd5bab6c0fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0704997785c72da5016acd4af3daf487d2a5af79701c71c106",
+  "received_at": "2026-10-12T21:02:48.947594+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.019,
+    "contradiction": 0.98,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise describes the dog leaping at the man, which conflicts with the dog sleeping beside him. It also does not establish that the man is sitting in a chair or owns the dog."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3494883f8690bf4564d2279c2b554b53ee7cbc5ba7e73ecc12dac653072a7c40",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b044abb7a1678dd016acbe9cf7e7887d2a72d4b73b54c73e6",
+  "received_at": "2026-10-11T19:56:03.667199+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise anticipates a major strike despite innocent people suffering, whereas the hypothesis says concern for innocents will prevent it. This is an implied conflict rather than an explicit statement that the strike will occur."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

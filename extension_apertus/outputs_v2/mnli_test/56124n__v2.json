@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "56124n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes a physical interaction with specific sensory details (dung smoke, cinnamon, mutton grease) and a formal context (prayer, saint), which does not imply romance. The hypothesis assumes a romantic motive not supported by the text, but the interaction could be interpreted in multiple ways, leading to uncertainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 457,
+  "output_tokens": 136
+ },
+ "seconds": 2.94,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:32:54.413403+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105561e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f689418d4692e581a5064ebdaa9083aba68a0c83934b6b9c5d0f13722fd087ad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce4e32491c82291016acbe469abc487d297e6b44f4c1d2b4d",
+  "received_at": "2026-10-11T19:33:02.359834+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.79,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise says participants receive armbands, not that armbands identify instructors. It also specifies approaching an instructor who is not busy, rather than guaranteeing help anytime."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 594
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_299181827.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bc5ff6a9fbe6c17070b001e174e20bdf4eabd1f26c1129f53674a0e6bd4987b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a2e4b3729271adc016acd4a74f49487d2807c2142f4c18294",
+  "received_at": "2026-10-12T21:00:40.711685+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.039,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "Trying to dump a bucket of water on another girl strongly supports an intention to get her wet, though the girl's desire is inferred from her action rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3789378919.jpg#4r1e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bc1fa13e1e63c7b3bf0d15b883231cde5cfdc3a36084bf49fb9d5b5332506585",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5RhdUMBwJQepF9HBFG",
+  "received_at": "2026-10-12T21:46:45.555399+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.46,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says people wait in line at a bus stop, which suggests they are waiting outside to board. The hypothesis says people are already waiting on the bus, which is likely a different situation, though the premise does not rule out a bus being present with passengers."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

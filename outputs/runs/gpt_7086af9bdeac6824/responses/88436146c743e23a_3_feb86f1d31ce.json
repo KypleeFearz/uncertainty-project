@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100349e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5374f7b08387f32b7c05c6ae45955e4eef39d02e0370d1d2d5af57206d88164c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c9f40a2db98bfa016acbf527aabc87d2bd73ecb38efb3aa3",
+  "received_at": "2026-10-11T20:44:28.343693+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.33,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "His skin growing hot and swelling supports 'burning' as a description of a hot, irritated sensation. It does not establish literal burning or a burn injury."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

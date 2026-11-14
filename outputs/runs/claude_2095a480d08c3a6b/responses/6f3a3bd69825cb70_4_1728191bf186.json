@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "24067e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0c7823655e4528b2b20968575af7c14f3f5135ac291f6425a3a0c1602c578987",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAEkzu2Xyq87mrkwLRW",
+  "received_at": "2026-10-11T21:28:40.241676+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.1,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says parents might spend much of their tax cuts, causing interest rates to rise, which matches the hypothesis's conditional claim. The hypothesis adds 'on goods', a small specification that spending plausibly covers."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56138c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d5bbeea11955d3b08f9434682f4c7308336da15dd04a8e344fd0fb64a1690616",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0207215636e8ef83016acbef88d7c887d2af05c69c4c16bb20",
+  "received_at": "2026-10-11T20:20:27.679011+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise describes case law, whereas the hypothesis describes criminal law. It does not establish whether criminal law is a whole body unto itself."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "56d12e57e54b49a17e286fe9353a9d155d4f2dfb74d1cf105c4307b6bc08fa34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052e5212a43284ad016acbe5ffc4d087d297a0e66220282fc5",
+  "received_at": "2026-10-11T19:39:48.116632+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise gives spring opening dates for many hotels but does not establish whether they operate or begin opening at Halloween. The hypothesis is ambiguous between being closed during Halloween and not starting their season then."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

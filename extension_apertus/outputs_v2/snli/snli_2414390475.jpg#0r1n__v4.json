@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2414390475.jpg#0r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 1.0,
+  "neutral": 0.0,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise describes a specific person looking into the camera, which directly matches the more general hypothesis that a person looks at something."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 96
+ },
+ "seconds": 2.32,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:03:18.297268+00:00"
+}

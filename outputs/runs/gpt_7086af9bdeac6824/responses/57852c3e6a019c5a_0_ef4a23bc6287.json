@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112402c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "755d87f638710a90345dc5eff19a191821a67d47de0cd2eff0028fc020a97f79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a7ea265856024c8016acbe545831487d2b6ac7f4143aa9f08",
+  "received_at": "2026-10-11T19:36:40.240632+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says the accounting and reporting model needs updating and the attest and assurance model is outdated. It does not establish whether an acquisition model needs updating."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

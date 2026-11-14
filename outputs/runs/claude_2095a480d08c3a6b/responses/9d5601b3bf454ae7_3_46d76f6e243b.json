@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4922677937.jpg#3r1e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f947bf8c19cc821cfdcafe127e5b75eb79e8ea8a14a0d1fe2cf546acdb12fecf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5jxRy3EV7oQ9EEY4nU",
+  "received_at": "2026-10-12T21:50:53.631226+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.42,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Walking upstairs usually implies being inside a building, but stairs can be outdoors (e.g., stadium or outdoor staircases), so this is a likely but not guaranteed inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

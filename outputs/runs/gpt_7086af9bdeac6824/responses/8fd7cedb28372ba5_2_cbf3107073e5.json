@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36924n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "300d38b85aaf108fefc8f6f8a07fab5dd23e04a40ec6cf0ede37278111a42bc1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02c338a96b8dea65016acbd90b4d7887d2939e897ae966e6ed",
+  "received_at": "2026-10-11T18:44:30.244916+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise only states that the speaker has never heard of an unspecified thing. It establishes neither that the thing was popular latex house paint nor that it was not."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66225e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "08dcdd1e640d1473f50b7ab0accf5b4289647df3565c627e9b4452ce40ef71dd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cca7ab8fc7d1409016acbf0fe8b4887d29451f595ab99e150",
+  "received_at": "2026-10-11T20:26:42.801437+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.16,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes advertising to buy wheat pennies and paying a dollar per roll, whereas the hypothesis describes trying to sell them. This reverses the stated transaction role, although buying pennies does not strictly exclude also selling them."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

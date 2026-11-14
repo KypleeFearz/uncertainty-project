@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2021602343.jpg#2r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4dafd270c5817dfe48eb6da85447ab6ac4d539e103b2240b71a386aad86c484",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d48174eb70460af016acd492edffc87d28d5d4eef355a0685",
+  "received_at": "2026-10-12T20:55:13.928661+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.025,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "“Glowers” describes an angry or sullen expression, closely matching “scowls.” The hypothesis refers to the same boy described in the premise."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

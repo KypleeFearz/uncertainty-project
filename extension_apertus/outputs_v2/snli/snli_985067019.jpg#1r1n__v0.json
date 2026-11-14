@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_985067019.jpg#1r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.05,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "Sliding and rolling are similar motions on an inflatable ride, but sliding specifically implies a downward movement along a surface, while rolling suggests a more circular or tumbling motion; however, they often occur together, making the hypothesis likely but not strictly guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 331,
+  "output_tokens": 128
+ },
+ "seconds": 2.81,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:59:28.972977+00:00"
+}

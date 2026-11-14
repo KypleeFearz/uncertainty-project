@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8111n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfc6274a28e04ca2bfe80e0ba53c6a5b6b4511b417a1b75a7b67a40528a074ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6a74f3b7782ded016acbf2dcd82887d28b91f9d03e3a1d4a",
+  "received_at": "2026-10-11T20:34:40.861986+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Saying that most volunteers aren't doing much good suggests a need for improvement, but does not establish that volunteers need to do more rather than act more effectively. The hypothesis also generalizes beyond the premise's claim about most volunteers."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

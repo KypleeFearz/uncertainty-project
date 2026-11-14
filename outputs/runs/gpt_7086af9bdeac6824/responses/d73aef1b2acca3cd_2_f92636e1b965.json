@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113570c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7dcffe72b3cdc5733a7c34d413c5041c7c0b6eb6593325e234811331f85d557",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090d5cdf0328ac85016acbe562d33887d2b3996a3a93f44858",
+  "received_at": "2026-10-11T19:37:11.533411+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.92,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise reports Harrer's denial of knowing, which does not establish whether Harrer actually knew. Both sentences leave 'she was' incomplete, and 'will aware' appears to be a typo for 'well aware'."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

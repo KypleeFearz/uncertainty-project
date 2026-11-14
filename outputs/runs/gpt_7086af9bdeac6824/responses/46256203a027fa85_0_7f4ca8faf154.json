@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2262n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c039fb0ac499d5f1dad447c62637a960fd43f65322ad7e71d718159d0c12ddd3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_064e0a292c4ef657016acbeaf6e09087d2ba656e120f559711",
+  "received_at": "2026-10-11T20:00:59.084976+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.81,
+    "brief_reason": "The premise says she wanted to spare her mother a gruesome sight, but does not specify that the remains would cause grief rather than horror or disgust. Grief is plausible, not established."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "75471e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2fa48fdd7bd9ce75d329027c7e5e7ff6ae90b72782b48db1a163fb0d285aa157",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4caBC3K9YCtD9BUGEf",
+  "received_at": "2026-10-12T21:36:06.946328+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.45,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise supports advocating enhanced reporting tied to projection information, matching the hypothesis's main point. However, the hypothesis adds a causal reason (a 'vital connection') and 'statistics' that the premise does not state."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

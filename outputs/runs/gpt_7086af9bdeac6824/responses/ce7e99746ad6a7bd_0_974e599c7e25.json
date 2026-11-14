@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9646n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "86205b2c4fe2e26f75d68ada6cb17f1e1065f71396dac574459a8469f5788e16",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0284e56927b58fbc016acbd9761c8087d2b8b70e90b05dbb2c",
+  "received_at": "2026-10-11T18:46:18.284499+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the preseason does not matter, but does not state that anyone plays poorly or that poor performance is acceptable. The hypothesis adds a plausible attitude toward poor preseason performance rather than something explicitly established."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

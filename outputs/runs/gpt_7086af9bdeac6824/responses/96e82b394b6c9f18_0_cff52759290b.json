@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67610c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79730a0238226b3402e8e008a0a9a520f570e320648fa850be21047a92b50c58",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf95c47c5ff9fd6016acd472b772087d2b1bddf4b8025007e",
+  "received_at": "2026-10-12T20:46:39.391800+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "Both statements say that things are as they are, but the premise explicitly says \"Sorry,\" while the hypothesis denies any apologies. This supports contradiction, though \"sorry\" could also express sympathy rather than a formal apology."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

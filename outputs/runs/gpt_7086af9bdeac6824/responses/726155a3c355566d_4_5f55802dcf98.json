@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_96056569.jpg#3r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b054138f96944395241fece8bfd320fe24e9e02bbeb85aab9cda7e41d709c6bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c42a8abda8dcb02016acd4f0ea73887d2906bd831f558dcf0",
+  "received_at": "2026-10-12T21:20:18.123798+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.88,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.94,
+    "brief_reason": "The premise establishes that a woman and a man are cutting a large cake, but not that they are newlyweds or that it is their wedding cake. A wedding context is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

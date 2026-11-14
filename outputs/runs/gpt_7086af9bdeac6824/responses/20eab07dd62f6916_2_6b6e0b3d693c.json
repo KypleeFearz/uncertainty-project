@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50480n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb0bddfd29586bf02b5cc15e938d34158387158ee07f1babb3abd3f664f941da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd889389fc449a3016acbeed918cc87d2a5be5391bd378f81",
+  "received_at": "2026-10-11T20:17:33.576300+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "“Find it all right” can mean finding something satisfactory, but it does not establish the stronger judgment “more than adequate.” It can also mean successfully locating something, which further weakens support for the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

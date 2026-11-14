@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123229n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aba57c36a6ccc1ad6c3ea8d45d5fe0f1fde8228dfd4e838bea98103fd0444692",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b37ba079e58f57a016acbe6ac917487d295454a16c65634d3",
+  "received_at": "2026-10-11T19:42:40.259504+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies certain practices as especially important but says nothing about whether any other practices were useless. Being less important would not necessarily mean being useless."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

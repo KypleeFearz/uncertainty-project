@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4795292403.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db26c6b1f640b15dfb784105946ebec6ecd678e858d445d5506c00d4c8c76fda",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009fa09c749a4014016acd4d5caad887d293a914047a22724f",
+  "received_at": "2026-10-12T21:13:04.585447+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "Being in a wheelchair does not establish that the man cannot walk; wheelchair use can have other reasons. “The person” also does not explicitly identify the man rather than the monk or whoever is pushing."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

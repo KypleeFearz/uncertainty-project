@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4854166267.jpg#4r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "96bd9a3f3053ef3e616efef034d3aa5af58121fe2e9c2d7d752ddebfe24d2b78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fbf8cff45fdd556016acd4d8134c087d2921051cd465c4995",
+  "received_at": "2026-10-12T21:13:41.052104+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise establishes that a girl is lying on a floating dock, but not that she is asleep. Whether the dock's surface counts as a deck also allows some variation in interpretation."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

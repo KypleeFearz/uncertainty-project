@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135449e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1087ddb098d58ced8b8137cea0ae639ec1125060cc86c713af953805bce6bb45",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f69505619617d8d016acd437470d087d29c7eae9e9885e547",
+  "received_at": "2026-10-12T20:30:49.695691+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise expresses concern about how quickly significant reductions are required, not necessarily about emissions actually decreasing too quickly. The hypothesis is a plausible paraphrase, but it drops the distinction between a required timetable and actual reductions."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

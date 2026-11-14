@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132516n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "344f550f6953dc7b74dc334879893e3338d449d62c6e9a83424e97ecb4936c35",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_023f817c79190abb016acd432d470087d29b533ed2f0aeb2ca",
+  "received_at": "2026-10-12T20:29:36.999233+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise appears to say that they left a woman and a child, but does not establish that they took men as slaves or acted mercifully. The fragmented wording also leaves the participants and action unclear."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

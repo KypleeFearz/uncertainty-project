@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123027n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "86512a9971f917bb55ad15a960ad0a32c8d15108bb3e68f974a5d381e331c05c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0316c28421d9c3ba016acbf663c5e087d283efb37b95966260",
+  "received_at": "2026-10-11T20:49:44.031133+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "High humidity does not establish warm temperatures or sweaty conditions, though these can be associated with it. The hypothesis adds conditions that the premise neither confirms nor rules out."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

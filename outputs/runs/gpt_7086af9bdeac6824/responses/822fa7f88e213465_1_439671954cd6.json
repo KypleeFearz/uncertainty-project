@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100231n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "42a92cb48f6cd8c3b36056913ab021decd4a22bd6654ce5d1c9e27390adf1ab5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c4ed446b9a0dcc016acbf511de7487d2aaf38576140a9a0a",
+  "received_at": "2026-10-11T20:44:05.939927+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise supports auctioning the right to a third bundle as an alternative to unaddressed mail. It does not specify that the post offices are rural, so that restriction remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115224n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "40a27c1268eb80652ba2658ea60188c73618e3bbca3f5e45b15d6f6d2f0c581c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d12dee554df695016acbe5960d7c87d29d8e00a808b708ba",
+  "received_at": "2026-10-11T19:38:02.103990+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise describes a plan to develop and administer a vaccine, but does not establish that development was already underway. Preventing illness is a plausible purpose of vaccination, though the premise does not identify a particular disease."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

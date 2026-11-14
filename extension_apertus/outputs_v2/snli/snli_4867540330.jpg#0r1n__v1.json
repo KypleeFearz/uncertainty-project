@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4867540330.jpg#0r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise describes a man and woman playing Nintendo DS on a couch, which aligns with the hypothesis about a couple playing video games together. However, the relationship between the two people is not specified, making it an uncertain inference rather than a logical entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 351,
+  "output_tokens": 129
+ },
+ "seconds": 2.82,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:42:21.366119+00:00"
+}

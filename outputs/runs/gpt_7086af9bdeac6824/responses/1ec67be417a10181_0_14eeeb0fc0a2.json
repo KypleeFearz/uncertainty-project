@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_241031254.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a3a1e2ec41307fb62e2353014078dbeab46c599de50ea0a0c41e87a0000f5d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05bed41a59e6e94f016acd49a660ac87d29e5c76fc9b40c848",
+  "received_at": "2026-10-12T20:57:15.769374+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The description suggests an upright man on a trail, but it does not explicitly establish his posture. “Standing up” could mean being upright or specifically standing rather than walking."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

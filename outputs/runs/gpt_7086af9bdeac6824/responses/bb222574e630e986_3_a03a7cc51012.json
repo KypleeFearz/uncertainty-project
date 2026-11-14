@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29936n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6f0cc2e72ce639bd36d72cd164bbe4e0ab38856106a112aae8477016fa26529d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a51f861ac32a3a9016acbec1cb22887d2b569d2c7eefc746c",
+  "received_at": "2026-10-11T20:05:53.003637+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.88,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise presents three months as a possibility, but does not establish or rule out two months. Treating two months as another plausible estimate requires an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

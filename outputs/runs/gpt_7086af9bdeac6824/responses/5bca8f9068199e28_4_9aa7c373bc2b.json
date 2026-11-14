@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113926e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "df1c7830cbe5ba88a8179b34fda02bcf303de8e8c13441a099f6e2e1ad5a692a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c8e2b580b9d637016acbe57d5ef887d2ab730aafe1e33103",
+  "received_at": "2026-10-11T19:37:37.491922+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise links experience to the CIOs’ ability to build a shared vision with business managers, closely matching the hypothesis. Some uncertainty comes from the unspecified referent of “they” and the hypothesis’s stronger statement of ability."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

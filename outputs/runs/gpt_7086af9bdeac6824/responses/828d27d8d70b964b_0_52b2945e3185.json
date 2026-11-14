@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91797c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25103f85099cd509b17ef870aebd973d35e50bf5f2f713f4d43b6bb5886e1927",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be916392378dedd016acbface5cf487d28d88e1653887264b",
+  "received_at": "2026-10-11T21:08:33.530496+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the south as providing attackers a town-wide space from which to launch an attack, which conflicts with its being totally protected against attack."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

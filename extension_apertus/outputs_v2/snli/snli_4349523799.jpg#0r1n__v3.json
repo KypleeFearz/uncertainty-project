@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4349523799.jpg#0r1n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The premise describes a woman interacting with a fake shark prop, but does not explicitly state she is demonstrating a shark bite; this is a plausible inference but not logically guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 353,
+  "output_tokens": 108
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:31:46.202468+00:00"
+}

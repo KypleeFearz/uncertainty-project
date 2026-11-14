@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110671n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29e285677c7bdcdf2120b050dd82a51d37ce095af57c910b69756e3a2d45342d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8739016899958e016acbe51cf24087d29501319eaf267f39",
+  "received_at": "2026-10-11T19:36:01.372999+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise reports a statement addressed to John but does not establish what John knew or whether he was uncertain. It is also unclear whether “they” in the hypothesis refers to the same entity as “it” in the premise."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42745e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fc147d22cf8feac10f0fdf4f7737be521f958a194fc4fce73bb32250b1b34d9f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAgHAp2ZzcHQQCcC8px",
+  "received_at": "2026-10-11T21:34:27.077906+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise confirms Santa Claus and the Rockettes appear, and mentions a funny heart attack moment, but does not say who appears to have it or that one of them does. The hypothesis adds an unstated link between the heart attack and the performers."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 858,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

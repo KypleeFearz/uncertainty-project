@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4710342117.jpg#2r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "20b9d307ac88021612c305485b74ab4dcaeb103ede56c68ee83b37666df0518e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0461e2c9cc59cdb8016acd4d1a5a0887d292c097afda48ebac",
+  "received_at": "2026-10-12T21:11:57.381936+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "Working with something that looks like a kite does not establish that it is a kite or that she is fixing it. Fixing is a plausible but unconfirmed interpretation of her activity."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "51347c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "10fe3015bd823aa80a359281cd69c4a394266313771942ca34f390d74f634909",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4N1L7ij34Ux7X1rF48",
+  "received_at": "2026-10-12T21:32:48.539456+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.75,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says royal tombs with bronze objects appear at Troy, but it does not say the tomb is full of treasure or that silver is present. The hypothesis adds details the premise leaves open."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 851,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

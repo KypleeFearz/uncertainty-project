@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4183609474.jpg#0r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise specifies a young man buying a car from his dealer after his old car was towed, which aligns with the hypothesis that a man is buying a new car from someone. However, the premise adds details about age, dealer relationship, and the reason for buying, introducing minor ambiguity and probabilistic assumptions about the car being new."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 351,
+  "output_tokens": 141
+ },
+ "seconds": 2.86,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:30:07.522035+00:00"
+}

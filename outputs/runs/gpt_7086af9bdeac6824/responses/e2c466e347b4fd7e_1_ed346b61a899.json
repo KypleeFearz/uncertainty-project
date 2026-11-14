@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18874n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62a51bc4c137284bcb9286b7b74a7a5955703d1754fc9543de78611f14821f92",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0063acf827a010e6016acd4468926087d29448966f8ed105bb",
+  "received_at": "2026-10-12T20:34:51.562098+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says that you wonder about your future occupation, but it does not identify a desired occupation. Smith being a lawyer does not establish that you want to become one."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

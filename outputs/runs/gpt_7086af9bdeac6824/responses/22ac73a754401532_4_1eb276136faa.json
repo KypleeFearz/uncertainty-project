@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_93922153.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e32bc57c3f200f8a1c18cacf31bd7a2f1f72dc8a97543202d7cb2d5dbaaa994",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b5940b5d2cb1e43016acd4f08d96c87d2b331db7ac7d60053",
+  "received_at": "2026-10-12T21:20:12.528004+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.03,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.0,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "Rock climbing is a form of physical exercise, so the premise strongly supports that the woman is exercising."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 84,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 456
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

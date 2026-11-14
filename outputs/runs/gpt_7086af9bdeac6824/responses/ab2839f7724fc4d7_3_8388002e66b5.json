@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55339c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a428e9569f3fee4685fb64daddfa1eb0eac8fb259c064e3fa5e745e7145675e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03ba3f209f796d18016acbef82d4c087d28a33be1e533086c2",
+  "received_at": "2026-10-11T20:20:21.517862+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.91,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.91,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise does not identify who “they” are or the standard of comparison for their inferiority. It therefore does not establish whether “he” was superior."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

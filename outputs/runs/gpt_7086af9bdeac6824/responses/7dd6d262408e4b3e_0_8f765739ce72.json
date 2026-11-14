@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126988n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c53cb755790310a31af4464bcf349e959a8f738ea326d568bfecd87600a63a9c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cc584350de9dbca016acbe71ea71887d2b20f7a44bc5f83de",
+  "received_at": "2026-10-11T19:44:34.082521+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker expresses sympathy for people upholding the law and support for restoring capital punishment. The premise does not establish whether the speaker would retire if tasked with upholding the law."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

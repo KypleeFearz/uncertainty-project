@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_306839655.jpg#2r2c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c7cbc5de2406bda8e959578bed30bb99dbbeb52ee028ef47c73dc9be18e3850",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ed2d78ec9e6f679016acd4aa447ac87d2831930a3187f3277",
+  "received_at": "2026-10-12T21:01:27.427610+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise does not specify that the people are friends, that the game is on an Xbox, or that anyone is waiting for a turn. Those details are possible but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

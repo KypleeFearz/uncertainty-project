@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_306839655.jpg#2r2c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a14a04a8d8dcf4ffef923ba10d805973b64ac9c90d626a4c7f8e231dd34d0a68",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Bmz2CjRtNHNg7sypv",
+  "received_at": "2026-10-12T21:43:36.535753+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.85,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only says people play a game on a living room floor with a TV on; it does not specify friends, an Xbox, or others waiting. These details are plausible but not established, though they are not ruled out either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_731443193.jpg#0r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes a cowboy riding a bucking horse, which implies active struggle rather than calming the horse. The hypothesis suggests an opposite action, making it unlikely but not impossible; the situation could involve a moment before or after bucking, introducing uncertainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 358,
+  "output_tokens": 123
+ },
+ "seconds": 2.69,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:55:33.749176+00:00"
+}

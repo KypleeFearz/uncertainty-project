@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "146129e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3c277336e903bc54ab8cd061fc095728e89ac6d95235f9ff34d0f8588103d84",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_068344b71fc785f7016acd442bc98c87d2834723371fe88770",
+  "received_at": "2026-10-12T20:33:53.694162+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The awkward phrase “it might be worked” could mean that joining can be arranged, which would loosely support trying to join. However, the premise does not clearly establish that you can try to do it."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

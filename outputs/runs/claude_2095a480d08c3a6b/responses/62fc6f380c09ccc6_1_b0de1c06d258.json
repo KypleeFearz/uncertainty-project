@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "32005e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "87799452afc6fe42f90bd7fa4804498f07f4ebf6b97aaab0a9bc6ad8c6157283",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwARaMk9a3aZr9u4a74E",
+  "received_at": "2026-10-11T21:31:07.395720+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.5,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise mentions 'petting zoos and things', while the hypothesis drops 'zoos' and reads 'petting' as an activity. The hypothesis could be a loose paraphrase or a distortion, and the premise does not settle which."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

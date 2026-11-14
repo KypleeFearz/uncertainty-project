@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77875e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb50b55919f1ed0ba97467a0872eab5597a7d9533895ac6666931a289fa8f2aa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03aa1d226a1b1ceb016acbf25bea3887d2974d2da2f2a85e6c",
+  "received_at": "2026-10-11T20:32:31.581252+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise makes a conditional claim about tolerating race as a factor, rather than establishing that race actually influences any decisions. It also does not explicitly identify those decisions as judicial."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

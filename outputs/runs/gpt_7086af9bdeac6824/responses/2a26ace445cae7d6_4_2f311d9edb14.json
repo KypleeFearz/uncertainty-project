@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136083e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "74145ae1a75dc3633b152a69adf325482d24f51fc30bfdd4164ca5e1d4317cea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ff10c34b567281016acbe8871d2487d28d3548eeb742a3c4",
+  "received_at": "2026-10-11T19:50:35.408478+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The hypothesis closely paraphrases the premise’s question, interpreting “then” as “after.” The premise is unfinished and does not specify what event the timing follows."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132716c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ebc05d9fb8a5a2501d6344e8a13439d5b7166d40fa6c3a3ed91be1cd8d74774",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca6ec7e1467a994016acbe8168ae887d2a85a2391a5e2f6bc",
+  "received_at": "2026-10-11T19:48:42.289223+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.19,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says he now does the activity entirely himself, whereas the hypothesis describes ongoing help and occasions when the speakers do it entirely themselves. The unspecified activity and the hypothesis’s unstated timeframe leave some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

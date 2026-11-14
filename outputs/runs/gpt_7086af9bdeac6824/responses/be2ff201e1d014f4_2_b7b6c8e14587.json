@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128542e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7b453eb83e6ef8f4d87afab974df59768a2a26522dc754157514ac42eff11f9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000bcabb4eacacf4016acbe748600c87d2b9954813c934df56",
+  "received_at": "2026-10-11T19:45:17.679734+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise suggests that he had some knowledge and expected someone present to know more. Describing that expectation as hope is plausible, but not explicitly guaranteed."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

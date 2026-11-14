@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "77299n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "83eed869321c4d49caa65d5c1ccd4f2dae0ade29337feb98a0842a523284d226",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4dLPFbBX3BUKREMLrZ",
+  "received_at": "2026-10-12T21:36:17.204029+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the inquiry broadened from technology failure to contextual influences, but gives no reason for the shift. The hypothesis's motive (thinking it may be something else) is a plausible but unstated assumption, and 'moved over from' may overstate a broadening."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

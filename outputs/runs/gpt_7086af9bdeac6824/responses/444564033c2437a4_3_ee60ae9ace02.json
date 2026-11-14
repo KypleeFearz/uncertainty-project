@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53211n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "164602fa90baa4b27bb1248806b495cdec72092a1065cecfd331eff24ae33620",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_083c35f8bce79481016acbef1e8b1887d28d365e1661c4a84f",
+  "received_at": "2026-10-11T20:18:41.747167+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.26,
+    "probabilistic_inference": 0.57,
+    "brief_reason": "The premise supports an astonished exclamation of “No,” but does not establish repeated refusals, a male recipient, or a change of events as the cause of surprise. It does not rule out those additional details either."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

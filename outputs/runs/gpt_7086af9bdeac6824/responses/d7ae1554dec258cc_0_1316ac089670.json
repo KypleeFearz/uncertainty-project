@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67632c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "66bcda197e43f6687d425081f774d12bd1a658fbfbff55f3e59a833d7074daf1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01415d4cfdf1acef016acbf118c44887d2bfc03f8fe31eadc7",
+  "received_at": "2026-10-11T20:27:08.982038+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise closes the conversation with thanks but does not express “good riddance.” A polite closing does not establish or rule out the dismissive sentiment in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

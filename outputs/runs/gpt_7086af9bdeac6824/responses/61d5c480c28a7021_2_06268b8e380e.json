@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47798n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d6232ce54ac02c1b39156c7806b0e0f8a2aead51b894e42a8f0d292d8f80bc04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_056c5113dda990a5016acbee7ba14887d28417de50c03113cf",
+  "received_at": "2026-10-11T20:15:58.869158+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise describes the house's construction, use as the governor's residence, and role in the emancipation proclamation. It neither mentions nor rules out a king being murdered there."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

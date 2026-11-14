@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16989c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "739b0733e1d104f41b427683d585fb5ea93322d548c74afb247d4a1b562390b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7a46d44b15deeb016acbea376f1087d2848116394e6d00ae",
+  "received_at": "2026-10-11T19:57:46.756480+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise specifies professional qualification standards for auditors working in another country, not whom auditors report to. Mentioning an international standards organization does not establish or rule out a globally managed governing body for all auditors."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

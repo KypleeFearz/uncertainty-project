@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_209604956.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f6917a903e5d6ea5426e8abcb2948a60ea69148c9bf45fad23631073437f15a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e36627f26d48af016acd493e815887d28bedf0742243cd71",
+  "received_at": "2026-10-12T20:55:29.388485+00:00",
+  "parsed": {
+    "entailment": 0.999,
+    "neutral": 0.001,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise describes the man as wearing a black shirt, which is clothing."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 79,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143024c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f41b1a875c918bc5dd370f78da199b661ff03e2bdc8681e1b6cba4165f24a2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03ecb7f9b0bed0a0016acbe993ccec87d28d027a233914acda",
+  "received_at": "2026-10-11T19:55:03.954053+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.65,
+    "contradiction": 0.34,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise calls the event traumatic but does not identify who experienced the trauma. The hypothesis contradicts it only if the premise describes trauma experienced by the person referred to as \"me.\""
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

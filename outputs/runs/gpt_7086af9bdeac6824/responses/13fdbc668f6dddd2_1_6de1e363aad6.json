@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4026n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b90cc1543763cbd5a4ce1672b9d45e9c8b63557ca98fbe5e5b8debee0721ebf6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04105bdf041b5ba7016acbed6a596887d2a70b242e2958f709",
+  "received_at": "2026-10-11T20:11:26.211665+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.075,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "An enduring need for an attorney to do general law supports an enduring need for lawyers to practice law. “Very real” adds emphasis rather than a clearly distinct factual requirement."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

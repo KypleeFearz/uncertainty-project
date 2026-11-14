@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111005e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7a8931ce3f061e9df57d63678bf089b31b4c234082c2b4eaee29e6e1ff5dad0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_050a539c72b1c219016acd41fdb06487d29159c734f2d87460",
+  "received_at": "2026-10-12T20:24:35.512197+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "Clinton's claim that agents withheld advance warning supports the interpretation that they had not informed him about the Chinese influence-buying efforts. However, saying they had not told him anything is broader than saying they denied him advance warning."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 597
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

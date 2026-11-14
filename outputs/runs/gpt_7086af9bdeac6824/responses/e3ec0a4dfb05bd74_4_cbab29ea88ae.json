@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9557n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e12ac9cdf9b5f8cd57e0b30b768a6b59f6180fdcfa91394584717a2a92979685",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03d7c749625251aa016acbf4a2c59087d2a6ab536c5d958958",
+  "received_at": "2026-10-11T20:42:16.083808+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Their lack of inclination to exploit research dismissing day-care quality supports the possibility that they care about day care. However, their reluctance could have other motivations, and caring about quality is narrower than caring about day cares generally."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

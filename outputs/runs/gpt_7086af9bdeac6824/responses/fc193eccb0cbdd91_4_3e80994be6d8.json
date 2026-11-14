@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95186n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "782f6edfa158d9fa9a70f1d90b3ae0d267d7a2f86be30d3c55574c7c15e90d2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039a148c7a011be5016acd483baee487d2b6c6c5516e69adbf",
+  "received_at": "2026-10-12T20:51:12.323986+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise supports the existence of a ready US market for the plantations' output, but does not attribute this assessment to economists. It neither establishes nor rules out that attribution."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

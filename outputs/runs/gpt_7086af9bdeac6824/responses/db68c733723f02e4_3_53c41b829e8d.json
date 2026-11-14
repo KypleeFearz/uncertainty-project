@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92774n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "816d60edb409bb18bde6df7a8c4a834fe81279d251d4e8abe1779b9942d58398",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_095268c4c857e23e016acbf446fc0087d283caa1d55cccca33",
+  "received_at": "2026-10-11T20:40:42.369200+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies capitalist policies and continued Commonwealth ties as broad aims, but says nothing about ties with the United States. Those stated aims neither establish nor rule out the hypothesized goal."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

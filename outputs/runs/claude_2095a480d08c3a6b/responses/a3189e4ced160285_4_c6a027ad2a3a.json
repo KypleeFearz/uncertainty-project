@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6979479436.jpg#4r1c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9326b480c18735a48360b4c1f40a002f8815083ae6d96c31b8e7b8d94e0bfc26",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5v8HpjvMWd9xoMszP9",
+  "received_at": "2026-10-12T21:53:11.764541+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Swimming implies being in water, which is usually incompatible with being on a beach, though a swimmer could be near a beach. Most likely contradiction, with some neutral chance since the location is not stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 765,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

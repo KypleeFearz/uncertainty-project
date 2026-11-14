@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3545n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95e79dda6f9ada96a4a455275a0098b96e72cefd73af840284cef31602ac4fba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ce8097f20d9b99016acbecc80d4887d28ffc13c7bc46135f",
+  "received_at": "2026-10-11T20:08:43.460230+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes staff supporting analysis and members' participation, but does not identify any bonding exercises or say that activities were mandatory. It neither establishes nor rules out mandatory bonding exercises."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3640407952.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "80a81e640818d202cdbb3cc209f4e1a0c759844561c6549d5419d5eb5eaf52a7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4f8223525e003f016acd4bcf816487d288bd1fac30e1170e",
+  "received_at": "2026-10-12T21:06:26.523161+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "Performing a stunt on a ramp does not establish that the skateboarder enjoys skateboarding on ramps. Enjoyment is a plausible assumption, but neither it nor its negation is stated."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

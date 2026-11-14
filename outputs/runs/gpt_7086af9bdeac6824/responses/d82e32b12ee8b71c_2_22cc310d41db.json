@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142298n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a7d9f83cd7873e7a638ea7059861d1059049dc2089c063cb45e211cba1094998",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c4471e2be1766b016acbe97fd9ec87d28c27621f586f7b22",
+  "received_at": "2026-10-11T19:54:42.611570+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise describes Buffalo as promising for the next few years but gives no results from previous seasons. Past good results could explain that optimism, but they are not established."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

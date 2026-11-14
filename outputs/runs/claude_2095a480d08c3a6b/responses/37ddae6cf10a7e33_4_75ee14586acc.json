@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "36480n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2e8c655fb7f0ae923ff194f3b76df99727e1c8f33015e8a6e0c6ff7ee818c34a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAWye7PH2UQKUNqoGTN",
+  "received_at": "2026-10-11T21:32:20.635276+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says they skipped child care and stayed home together, but it never says this was a good thing or that they had more time with a child. The evaluative claim and the causal link are assumptions, though plausible ones."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

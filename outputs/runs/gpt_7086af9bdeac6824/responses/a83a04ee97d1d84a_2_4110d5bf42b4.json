@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7189118835.jpg#2r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e2d966afa7f8beb57bcec2d10ffbac83fb077b0316b934cf316023cc949bc437",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080bbbbd4f931da4016acd4eabf9d087d2959df615c4e4ceea",
+  "received_at": "2026-10-12T21:18:39.561766+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.46,
+    "brief_reason": "The premise identifies three men but only explicitly says that two are doing construction work. It does not establish that all three are working on a new skyscraper or that the location is in town."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

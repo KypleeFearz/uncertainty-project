@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "10994e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "43eb56e1b5988800ed872e5cda5cf438ff43e1109ab74493b72908f717180778",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9B59pFzVA2o7Uh88fq",
+  "received_at": "2026-10-11T21:14:44.093899+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Quite, tetanic in character\" probably means they were spasmodic or rigid (possibly a typo for \"quiet\"), which loosely suggests tension but doesn't clearly establish it. \"They\" is also unclear, so the hypothesis is neither clearly supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

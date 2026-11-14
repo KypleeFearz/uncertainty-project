@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55864e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "84790abe9cba76cc4f75126ddf1770fe0114a0fab4217f9026989f13632d33bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b44c5db6ed95880016acbd91e412887d2bd61d6c2b63c42bb",
+  "received_at": "2026-10-11T18:44:49.857004+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.94,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise states that he lived in Kingston and describes a tiny village, but does not establish that he came from that village. His village origin requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

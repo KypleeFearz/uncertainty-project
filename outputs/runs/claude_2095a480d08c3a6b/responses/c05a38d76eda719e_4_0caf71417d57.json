@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "1364n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c8c4afe5c0acbda6801752f7c665c4c8976f50dd89a8674b997e8b75fce939dd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9moSVQqzj1FnsqEKY5",
+  "received_at": "2026-10-11T21:22:35.139384+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says a friend moved to North Carolina and is an ER nurse who does the operating room, but it never says she moved for a job or works in a trauma unit. The hypothesis adds those details, and the operating-room remark makes the trauma-unit claim uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

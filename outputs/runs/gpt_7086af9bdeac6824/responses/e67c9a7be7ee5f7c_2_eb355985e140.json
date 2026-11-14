@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91913n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "720cf58f1bfbeff2a4d2fe1ba4d2ef7d0e100ca27e0e8ce0c3e1f07bf5954a8c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0610e51e0803e3016acbf424408087d2a0bae518bfabd8fe",
+  "received_at": "2026-10-11T20:40:09.421248+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.78,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Dave asks about eggshell worship, but the premise does not explicitly identify it as the referent of “This” or as the cause of their growing weakness. The hypothesis assumes that connection and describes it as “the reason,” whereas the premise says “one of the reasons.”"
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 591
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

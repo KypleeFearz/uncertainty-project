@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91106n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "af3710518fe637bd554c9568ced1f7dc312223541a0ce6149faa92c83af34853",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c82c30dc89aec5016acbfac07f7487d2b2db50a24c8f81ff",
+  "received_at": "2026-10-11T21:08:19.682234+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says SSA seeks additional statutory tools to recover overpayments, but does not identify who received those overpayments. It therefore neither establishes nor rules out that they were made to insurers."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

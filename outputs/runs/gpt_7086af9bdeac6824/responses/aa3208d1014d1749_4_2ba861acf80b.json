@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7449e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69a88339f532ccb6fd624396e61b1d82f5993b52da263672533e488ae309cf4b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec955f51ab47cec016acbf1e50c4c87d2a0e534098e0431ee",
+  "received_at": "2026-10-11T20:30:35.980812+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says Wallace won a race for governor, but does not explicitly establish that he had previously been elected governor. Calling this a reelection requires that additional assumption."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 132
+    },
+    "total_tokens": 638
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

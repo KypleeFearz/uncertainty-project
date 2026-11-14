@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_442138526.jpg#1r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6ae057c3894f451038ef8b40a91c48858d4d8a645c021a0cf7248178450db705",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0db1ffb170f85021016acd4c8bf5d487d2ab0ec06fd5a5f36e",
+  "received_at": "2026-10-12T21:09:38.256414+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The woman's described shirt is blue, not white, so the hypothesis conflicts under the usual reading that it describes her current clothing. If \"has\" means owns an additional white shirt, that remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

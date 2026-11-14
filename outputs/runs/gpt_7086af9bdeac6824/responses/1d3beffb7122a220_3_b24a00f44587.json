@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135898c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "620dd3192d7a39eb7b73a585ab3cef7648987c4d56f7422117d811814d523279",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01cc3329a398ab9d016acbe8824c0887d2b0eaae696bccb2ec",
+  "received_at": "2026-10-11T19:50:30.448237+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.89,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise shows Hanson looking at the gears before turning toward the landing rocs, but does not establish that he whispered anything. It also does not identify Hanson as the speaker of \"The end is near!\" or establish that everything was already over."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

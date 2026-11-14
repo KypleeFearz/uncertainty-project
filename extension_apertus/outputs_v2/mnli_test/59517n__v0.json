@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "59517n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise only addresses enthusiasm for football in the World League, not other summer sports, so it neither confirms nor denies the hypothesis about other sports. The inference that disinterest in one sport implies disinterest in all others is a probabilistic assumption, not a logical entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 350,
+  "output_tokens": 125
+ },
+ "seconds": 2.69,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:34:27.859902+00:00"
+}

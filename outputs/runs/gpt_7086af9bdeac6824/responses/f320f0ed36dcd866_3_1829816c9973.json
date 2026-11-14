@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14126e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "59a517178b04312db0860406db138d72cff38c8892ec8a7ecab9161d6adeb3c0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002d36d859cf0aff016acbf7223b0c87d2a305fd93044fd659",
+  "received_at": "2026-10-11T20:52:55.180203+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says the speaker’s friends have particular programs they will not miss, but it does not name those programs. The hypothesis asks a question rather than asserting a claim that the premise supports or rules out."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

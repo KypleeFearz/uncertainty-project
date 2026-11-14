@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97974c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1658bb67c0c0d0ba5f6b400c68bee66b855c9e50bc9643801017687baa3e7fb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a4ee6314d3e112d016acbfb0c065887d2b87542508c11d7a1",
+  "received_at": "2026-10-11T21:09:38.780069+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.72,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.61,
+    "brief_reason": "The premise identifies the first horse brought out as a teaser horse but does not specify which horse was intended for the main event. Treating a teaser horse as necessarily distinct from the main-event horse requires an assumption about its role."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

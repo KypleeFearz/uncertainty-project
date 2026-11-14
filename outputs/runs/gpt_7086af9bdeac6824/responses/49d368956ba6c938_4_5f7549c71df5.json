@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93236e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3490f0cdbe5ece6213b07ea0625c21099b52ec5f7dd28bcb1546d23cb66e901",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0115a207cfe9f1a7016acbf457b35887d29a6c43e79d077234",
+  "received_at": "2026-10-11T20:41:00.475723+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.15,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise explicitly translates “tapa” as “lid,” not “a bite of food”; the bite of food explains the custom behind the word. It also describes the custom as old, rather than explicitly describing the word as old."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 588
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

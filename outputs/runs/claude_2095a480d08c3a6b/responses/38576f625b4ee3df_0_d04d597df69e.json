@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "138966n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "327687a4797201b7930e1edcf68936392ba42f96168b875d7dfcf1e51518b1ab",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9qmY1JV3KFvLJHVQBq",
+  "received_at": "2026-10-11T21:23:28.795223+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.37,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only says it is thought he used the Taj Mahal's architect, which leaves the truth open. The hypothesis asserts that in reality he did not, which many would read as conflicting with the belief, but the premise does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 778,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

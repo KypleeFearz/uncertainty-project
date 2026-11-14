@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_1796608106.jpg#4r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes a woman building a sand castle alone, while the hypothesis claims she is helping a child; these actions are mutually exclusive. The reference to 'a women' also contains a grammatical error, introducing uncertainty about whether it refers to the same person or a different one."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 329,
+  "output_tokens": 126
+ },
+ "seconds": 2.82,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:57:26.844876+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77893n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab77a945adc3f22cfac19786d66ce8bcc7d25e1d7f8d7c1016a8b78ad6081b80",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075335b7f831d219016acbf263b0a487d2baa74fad9fd12822",
+  "received_at": "2026-10-11T20:32:40.484612+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.9,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise does not clearly identify whether the head struck belongs to Tommy or another person. Even if it is Tommy’s head, injury is plausible from the forceful blow but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24789e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e4f3f82ce7a938d46ff251a544f77f5359ab1f6f87497f45c1bc21bb04f2442e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06970199fbbc66e1016acd44b81af887d280b0ef8858253b93",
+  "received_at": "2026-10-12T20:36:12.484526+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "A counteroffensive is an offensive response to an earlier offensive, so the premise supports the existence of a previous offensive move. The premise does not specify who made that earlier move."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

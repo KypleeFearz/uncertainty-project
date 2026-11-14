@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101470e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f47e3276171573363e3b4ad21cd241eba657fa1a6b6372d426e5e769ee53e0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0996baae79edf216016acbe3d0dd9487d29651fe34bf1d382b",
+  "received_at": "2026-10-11T19:30:29.400736+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise says that it sounds convincing when spoken by the white townsfolk, not that the townsfolk themselves find it convincing. Their own opinion is therefore undetermined."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

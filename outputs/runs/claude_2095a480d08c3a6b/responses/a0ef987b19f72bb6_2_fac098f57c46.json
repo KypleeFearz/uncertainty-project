@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82510e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6b97edec59e8c84831afc1d58d4f6060296976b4c6a8f5dddb5e0b5af6857c45",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4g3FhdvToHsY6CUGC3",
+  "received_at": "2026-10-12T21:36:53.916524+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.5,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says 'we almost one day we painted the house', which is garbled and could mean it took nearly a day or that they painted on one day. They also painted only the inside and left most of the trim, so 'painted the house in one day' is not clearly established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 874,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

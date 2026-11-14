@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3692593096.jpg#1r1c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.5,
+  "contradiction": 0.5,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes a controlled flight dropping a substance, which does not logically imply a crash. However, dropping a substance over a fire could be misinterpreted as an emergency, creating uncertainty about whether the action is intentional or accidental."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 335,
+  "output_tokens": 117
+ },
+ "seconds": 2.51,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:25:15.971622+00:00"
+}

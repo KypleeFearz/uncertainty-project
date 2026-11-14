@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45298e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ace0cd0c0080e4a235a25b729a9ebe03c8271abbd52484943c609d70e0eada24",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b631bb306b8f08016acbd912c7e087d2bb3ac50878b042e1",
+  "received_at": "2026-10-11T18:44:37.532697+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "Being sturdier than it seems suggests resilience or substance, but does not establish that the book is great. A positive overall evaluation would require an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

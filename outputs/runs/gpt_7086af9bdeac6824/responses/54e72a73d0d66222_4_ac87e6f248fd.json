@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32754e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "367e4d972028bc2719c9d4657f213dbfa1a58ea1a55fc85a17a7ac48523c3b53",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_051814a2a6be4332016acbec5bb9a087d285919f014d46cea0",
+  "received_at": "2026-10-11T20:06:56.589142+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says shuttering the DOE could let Clinton portray himself as opposing waste and bureaucracy. It does not establish that opposing waste was his actual purpose for doing so."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

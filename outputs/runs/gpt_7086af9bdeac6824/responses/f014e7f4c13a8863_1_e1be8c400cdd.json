@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77175e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b2fbaf07e3ba48605ca292ee879d419fd5da1c6bd983fbf7311816d428e225e1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9b1817a2214ef9016acbf9d1bf6c87d28b0d542df0807b10",
+  "received_at": "2026-10-11T21:04:22.119740+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The reply asks for a guarantee of results in response to a demand for money, supporting the hypothesis as a contextual paraphrase. The condition “with money” is implied by the exchange rather than explicitly stated in the question."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

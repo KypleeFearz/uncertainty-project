@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43094c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9869dd908d200dd77f72d4bc35d00390fd54e3a2c2123cd35d68d5f7c4a8abf8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_016ce93ef362f097016acbf871205487d29b039be5c902e8ea",
+  "received_at": "2026-10-11T20:58:30.129310+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says the cover package examines what makes a good school, but does not establish anything about college students or student loans. It also does not explicitly exclude discussion of loans."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

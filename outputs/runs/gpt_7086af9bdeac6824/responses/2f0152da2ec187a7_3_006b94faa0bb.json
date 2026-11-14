@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21212e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b0aa7fb5129832cae9eeaf577f5759923c9d5f5b69fb21d4efcbb21e79459077",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ecaf3b34a540d7b016acbf79a47c487d2ada4c5469ea03774",
+  "received_at": "2026-10-11T20:54:53.929183+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise cites Tom Shales of the Washington Post commenting on South Park, supporting that the press has taken interest in its jokes. The connection between the quoted criticism and the jokes is slightly implicit."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

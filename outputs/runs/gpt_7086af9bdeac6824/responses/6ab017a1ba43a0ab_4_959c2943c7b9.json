@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135449n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b00f78f72482a40c2a4e811f2c77f06fac94fba8243850b4371409407e0c2028",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0712028a4084c034016acd437ed8b887d28b0f73a19d84307b",
+  "received_at": "2026-10-12T20:31:00.085043+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "The premise expresses concern that significant reductions are required too quickly, suggesting a negative assessment of that particular pace. It does not establish that fast emission reduction is bad in general."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

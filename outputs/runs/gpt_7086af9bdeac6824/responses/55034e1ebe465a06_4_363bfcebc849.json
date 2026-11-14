@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72721e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8773f38bcecc0af1b63c9344f629ea9d89623567b18a36367abd71a7694ef7b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_005d62cfeea02ddb016acbf9c3f9d487d29ae3837c6c0d85a3",
+  "received_at": "2026-10-11T21:04:08.051393+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise supports having attended undergraduate education, but does not clearly establish an inability to remember. “Completely beyond me” could indicate lack of understanding rather than failed recall."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

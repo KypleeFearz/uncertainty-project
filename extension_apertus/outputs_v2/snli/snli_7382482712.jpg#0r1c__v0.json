@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_7382482712.jpg#0r1c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes a team gathered on a cold field but does not state whether they are running or playing; the hypothesis assumes active gameplay, which is not confirmed by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 106
+ },
+ "seconds": 2.46,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:55:44.803383+00:00"
+}

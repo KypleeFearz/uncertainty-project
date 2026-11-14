@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "83248c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fc3dbc58d0d2e8601dd021b5d01f2929d9a52df29cc6593846c98383189fb4df",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBecjrRn5wHKwPAmcw7",
+  "received_at": "2026-10-11T21:47:11.011107+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says she recovered her memory, which contradicts the hypothesis that she never regained it. The word 'probably' only hedges the cause of her state, not the recovery itself."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2156726763.jpg#4r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e571ee8c892bb67b45666334219d18b5b93105de4f0c8452eb9d0688e0217402",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4wJ47a1hRgfZniGv9F",
+  "received_at": "2026-10-12T21:40:20.708411+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "If the girl is currently walking, she is able to walk, so the hypothesis follows. A small doubt remains because 'can' could be read as permission, which the premise does not address."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

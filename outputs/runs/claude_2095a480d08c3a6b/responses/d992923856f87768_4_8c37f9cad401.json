@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "30592n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1288c0cbcf449c3970c4bad9bdc34dcfdb245dd61b727a24253660373aaf0e5b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAQWp9vzQ2AiB3gQQK3",
+  "received_at": "2026-10-11T21:30:52.769411+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.33,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Of course\" typically affirms a prior statement, which matches \"Yes, that's absolutely true.\" However, the premise has no context, so what is being affirmed is unclear, and \"of course\" can sometimes be sarcastic or merely polite."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

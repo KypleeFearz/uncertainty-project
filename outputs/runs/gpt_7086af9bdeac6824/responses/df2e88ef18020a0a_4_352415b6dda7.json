@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9047c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09a282c4832dae6e738fca5dccc479367a13a723dd72a3f441fe2b52ea1ab0e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090810f80e6ac69d016acbf3fad99487d290f321d00f928697",
+  "received_at": "2026-10-11T20:39:27.522109+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says that 'we' tried to help, but does not establish anyone else's attitude or make our caring conditional on theirs. Trying to help may suggest caring, but does not rule out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

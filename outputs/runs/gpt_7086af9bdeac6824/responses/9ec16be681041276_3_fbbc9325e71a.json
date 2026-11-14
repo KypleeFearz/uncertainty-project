@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3753827435.jpg#3r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8b50f182ee15356095efae49b81d81a28c7b1be2fa9644203d79c9f5178df2d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02c9625d6c52c6bf016acd4bf5600087d2913e93ddd426b872",
+  "received_at": "2026-10-12T21:07:06.678372+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise supports that a woman is targeting a carrot with blades, since daggers are blades. Her having athletic ability is plausible but not established merely by her throwing daggers."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

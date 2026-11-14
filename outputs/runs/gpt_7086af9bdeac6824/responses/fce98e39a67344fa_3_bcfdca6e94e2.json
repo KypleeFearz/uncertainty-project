@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57454e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94a3a228d23fd8d3fd3c189238c3cf53d2f566e84f76a8fdb104becdf4d4afb7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f82a08f5257acdc016acbefe159f487d29c0f9002249dd399",
+  "received_at": "2026-10-11T20:21:57.468287+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise asks whether Robin Williams has a funny part in the movie, which supports the broader question of whether he is in it. The fragmented wording and apparent name correction introduce some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

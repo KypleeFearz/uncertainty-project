@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "10994e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "12b75d1b07851324a35b3b612fd7b031461b7b3f636cd8a435876b0c277a29a0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9B7aRBpm3XgL5T4aJi",
+  "received_at": "2026-10-11T21:14:44.426627+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Tetanic\" refers to tetanus-like spasms or rigid muscle contraction, which loosely suggests tension, but the premise is likely about medical symptoms (e.g., contractions) rather than behavior or acting. \"Quite\" is probably a typo, so the link to acting tense is not clearly established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

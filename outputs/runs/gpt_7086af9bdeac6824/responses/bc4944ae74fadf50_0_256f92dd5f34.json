@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34573e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "134407eff548da8abb3235de111418a918de57f53e322d2bc3ea02b89053b20b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0754873558cb0c75016acd4522f75c87d2991723aa95a2d81f",
+  "received_at": "2026-10-12T20:37:59.574730+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "“Wasn't unlocked” ordinarily conveys the same state as “was locked,” and “us” corresponds to “we.” “Chaotically” is a reasonable paraphrase of “disjointedly,” though it can suggest somewhat greater disorder."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

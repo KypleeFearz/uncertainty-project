@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44747n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3dbc14450f8e93d67a564d4ca4745cfb62b41ee6663e867a048005bed7fd042d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f97dd7a4d9c2c11016acd45b99a6087d2bb769e5d8cfba5c6",
+  "received_at": "2026-10-12T20:40:28.303782+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise reports actual volume growth but gives no expected increase. Actual growth of 13 neither establishes nor rules out an expectation of 10."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

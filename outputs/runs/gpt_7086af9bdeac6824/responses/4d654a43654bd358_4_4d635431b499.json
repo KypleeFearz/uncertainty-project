@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4145746372.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fea2283e76a683f4ff26dafbb93fa1302232b8c35c5cb794c7ce9486d9b110e3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082f4cb0a9da8fc0016acd4c4fcb2487d2b721a6130d3a415e",
+  "received_at": "2026-10-12T21:08:35.333625+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.63,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "The costumes and poses suggest a musical performance, but the premise only compares their posture to a musical finale. It does not establish that the people are actors or are actually performing in a musical."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

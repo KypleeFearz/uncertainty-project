@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132344c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb3b976bc0da15da9c4f417cb4c43924afd3c6e3d12a451b8be2049c83b5f4b4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a241030d35cea46016acbd8ca53f487d294a0f1ed425baed7",
+  "received_at": "2026-10-11T18:43:25.299232+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise says that larger boats offer gourmet cruises but does not establish whether smaller, two-person boats do so. It does not state that gourmet cruises are exclusive to larger boats."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

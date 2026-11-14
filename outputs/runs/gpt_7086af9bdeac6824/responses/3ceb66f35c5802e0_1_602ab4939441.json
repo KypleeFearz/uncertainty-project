@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43440n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "88b3abbe9a186021a18ef2192e203225b6f1b2539e595ba75b7e56b0ac856a3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0215533fffdbafbc016acbede538a087d2a84e23eb922d65e4",
+  "received_at": "2026-10-11T20:13:28.682879+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.58,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise says that condemning an unspecified action or thing is wrong, but gives no information about how common or normal it is. Opposition to condemnation does not establish that everybody does it."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

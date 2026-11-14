@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26766c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "571e7f324b0c9e53049753cbf27e3c94c40ffcfda6415dddfa18c9445d168db6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d803d0c69fdbe43016acbf7df372487d287666ec3e8b9c0e0",
+  "received_at": "2026-10-11T20:56:03.005171+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says additional reagent is required when pH falls below the specified range, but does not state whether reagent is required when pH rises above it. The hypothesis therefore is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

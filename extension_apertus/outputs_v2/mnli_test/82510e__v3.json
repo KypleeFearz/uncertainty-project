@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "82510e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.05,
+  "neutral": 0.85,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise suggests the painting took longer than one day due to challenges with trim, contradicting the hypothesis that it was completed in one day. The uncertain phrasing and lack of clear timeline make the relationship between premise and hypothesis unclear."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 422,
+  "output_tokens": 119
+ },
+ "seconds": 2.58,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:45:40.111456+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "111167c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "793721d85471b4e12be6ac4dc44aa0e42a044cd3f3d195b1b145df481b5f6c74",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9CPqkKxtyHHNKsK3Re",
+  "received_at": "2026-10-11T21:15:01.499183+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.2,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise asks the addressee to speak on gum chewing, which presupposes they may have a view; the hypothesis asserts they lack an opinion, which conflicts with that expectation. It is not strictly ruled out, since the request does not state what the addressee thinks."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15197n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "24ebd3425c41ba5a6ec82373c96f08b28a6a52bbc2d7b2359df992c14accbbf9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c0f80c986ec7d7016acbf74dc5d487d2931ad30eb776f8af",
+  "received_at": "2026-10-11T20:53:37.781607+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.67,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "The premise expresses distrust of an unspecified group and alleges that they committed atrocities, but does not establish racism or a current threat. Connecting those statements to the hypothesis requires assumptions about who “they” are and what danger they pose."
+  },
+  "usage": {
+    "input_tokens": 446,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 589
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

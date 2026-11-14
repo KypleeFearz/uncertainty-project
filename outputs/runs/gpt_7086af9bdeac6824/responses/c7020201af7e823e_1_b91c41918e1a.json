@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65568e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c285e39ddab4ea8eb913b0dbfa096c72377ef00bcba5900e93be6e56f9718f51",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01aaaa1906aed700016acbf0f0b9e087d28627f04ab52f33e0",
+  "received_at": "2026-10-11T20:26:30.434592+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says the real dirty work was already completed, but does not establish that all dirty work was finished. Concluding that none remained requires assuming that 'the real dirty work' includes every remaining dirty task."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

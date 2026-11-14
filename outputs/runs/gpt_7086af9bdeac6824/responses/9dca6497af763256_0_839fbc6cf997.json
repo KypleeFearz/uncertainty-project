@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "87332n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dafa2044a7c65b7af7438163d438b947adb188a72bfb5d9c943fe1272058be6f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cacef94ef392bb5016acd4810c64887d2a0a993db1bed8348",
+  "received_at": "2026-10-12T20:50:28.965264+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.07,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "An increase in home equity due to appreciation is a capital gain on an existing asset, which the premise says NIPA excludes from saving. Home equity can also increase through mortgage repayment, but the hypothesis only says it may not count."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

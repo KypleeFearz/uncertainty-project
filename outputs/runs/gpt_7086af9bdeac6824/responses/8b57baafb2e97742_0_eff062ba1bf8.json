@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86008n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5680c91caf67e130d23d1bdb097948a37e3b1f92964d913c5d87f85014761f92",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1c2df53c829c85016acbf398bb7c87d28d85ef29d325a523",
+  "received_at": "2026-10-11T20:37:48.173934+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.36,
+    "contradiction": 0.62,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "The premise invites the listener to look for themselves if they doubt the speaker, suggesting that inspection could convince them. The hypothesis says inspection will not convince them, opposing that suggestion, although the premise does not explicitly guarantee persuasion."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2156726763.jpg#4r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "372c38d3e77be5d1307d2c9b2d51a3cdb2ca2691d2063139a2f1194912945143",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c8f5b3237b9539016acd4944b17c87d28a54b6629ca0d25f",
+  "received_at": "2026-10-12T20:55:35.935136+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise states that the girl is walking, which supports that she can walk."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 80,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 452
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

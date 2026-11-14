@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86886n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea1543b01c50b0381eb377f14f45ba3a29567f5f6d59d1f1facf19f5ab158eff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d20bd466ae30759016acbf3bc033487d29be60e8730085371",
+  "received_at": "2026-10-11T20:38:22.868209+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "A healthy and vigorous appetite does not establish when Tommy last ate. Not eating all day could explain his appetite, but that is only a possible inference."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "96956c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise only expresses doubt about his ability to win if he runs from the right lane, while the hypothesis claims he will not run at all. The premise does not confirm or deny the hypothesis, but the hypothesis makes a stronger claim that is not entailed by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 354,
+  "output_tokens": 126
+ },
+ "seconds": 2.8,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:50:46.358421+00:00"
+}

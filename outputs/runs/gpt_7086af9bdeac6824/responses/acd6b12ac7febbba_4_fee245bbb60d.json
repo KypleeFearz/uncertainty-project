@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118393c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1824c02ce95240372873fc4afbd65a8a9f4f24d0bbb2dcd6bbdcec9d43ddcadc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_019cca748787b354016acbf63886ac87d2b58f068890f7993b",
+  "received_at": "2026-10-11T20:48:59.455441+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.15,
+    "contradiction": 0.83,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise identifies a need to determine characteristic impedance as a potential basis for making an issue, opposing the claim that he had no reason. However, being able to make an issue does not strictly establish that his reason was justified."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

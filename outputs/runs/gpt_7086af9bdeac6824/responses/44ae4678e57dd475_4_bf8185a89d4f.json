@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90444e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2736ce0cdaf7a2e9a6d37119f097f4966db3cc67cbc8367239b5ca1aa9385127",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ccd5530cfed013016acbfabd0af887d2b8904b56c8178f89",
+  "received_at": "2026-10-11T21:08:16.864050+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise explicitly describes an imbalance in the volume of mail exchanged, which naturally supports unequal incoming and outgoing volumes. However, it does not explicitly identify the directions being compared."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

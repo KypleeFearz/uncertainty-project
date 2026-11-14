@@ -1,0 +1,21 @@
+{
+  "split": "shift",
+  "name": "SNLI (unbekannte Eingaben)",
+  "cases": 300,
+  "apertus_complete": 294,
+  "excluded": [
+    "snli_2257099774.jpg#2r1c",
+    "snli_244829722.jpg#2r1c",
+    "snli_329835313.jpg#2r1c",
+    "snli_3380925719.jpg#2r1n",
+    "snli_3692593096.jpg#1r1c",
+    "snli_6526560433.jpg#1r1n"
+  ],
+  "valid_answers": 1484,
+  "requests": 1500,
+  "invalid_answers": 16,
+  "clear_cases": 213,
+  "debatable_cases": 55,
+  "apertus_clear_deviations": 78,
+  "written_at": "2026-11-07T22:52:59.616533+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4540798718.jpg#3r1c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "78fe4d2644e89e6a7c33ccacb7f0755fd21508ac1a137726636f28f34c5cca6c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ZvMRsv257ux5MGvAy",
+  "received_at": "2026-10-12T21:48:37.846732+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says only that a man is crossing the road, not how. Walking on hands is possible but very unlikely, so it is not entailed. Some readers treat the usual walking on feet as ruling it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

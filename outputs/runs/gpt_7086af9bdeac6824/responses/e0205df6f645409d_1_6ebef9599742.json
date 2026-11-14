@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48970n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4c66abf14a01f620bcb86a4db70377942d8cc3e22c73dbea8449ee316aea48b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fc6f5aa57c48f31016acbeeac2afc87d2b98dcb4b243e97f3",
+  "received_at": "2026-10-11T20:16:50.985734+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.65,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The exact result is 474.4 feet, but 474 feet is correct when rounded to the nearest foot. Whether the equation counts as correct depends on an unstated rounding convention."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 229,
+    "output_tokens_details": {
+      "reasoning_tokens": 126
+    },
+    "total_tokens": 615
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

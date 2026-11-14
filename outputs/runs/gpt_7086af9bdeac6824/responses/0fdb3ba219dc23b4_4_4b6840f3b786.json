@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46257n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e44be58c16f0f185acc008391325c5a6aededd1ddc3330117516a272dda341a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be61ece707d63a0016acbee4aaef487d2b5b4b49e96c7a716",
+  "received_at": "2026-10-11T20:15:09.840808+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.075,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Not wanting to go anywhere supports a preference not to travel. There is slight uncertainty because 'go anywhere' could refer to local outings or a temporary mood rather than travel generally."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

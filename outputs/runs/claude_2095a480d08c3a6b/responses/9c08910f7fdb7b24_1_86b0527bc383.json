@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "59208n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9fbce1c56a88e57eb0a7a81356cd6e94297b526e9445657a95e6bb3ded9461df",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB5atJGv7oUDvbsZ5V3",
+  "received_at": "2026-10-11T21:39:43.100217+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says Meg Ryan was chosen, which fits a selection of 'Meg Ryan or Jon Doe' under a disjunctive reading, but it says nothing about Jon Doe or about whether the selection is merely possible. Readers may differ on whether a completed choice counts as a 'possible' one."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

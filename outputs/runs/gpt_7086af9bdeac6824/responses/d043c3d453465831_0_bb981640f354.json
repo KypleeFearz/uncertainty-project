@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58377n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c2388ac55aa92ca988963c28abeb213082f318e4e5a25b61d7c1d6e24388fc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0adeac343c2c4101016acbefee2d1c87d28d3d7042bd6a99d3",
+  "received_at": "2026-10-11T20:22:09.408193+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.47,
+    "brief_reason": "The premise recommends visiting Dublin's pubs even if you do not drink, but does not describe them as beautiful or evocative. It also does not clearly say that the pubs alone justify a trip to Dublin."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

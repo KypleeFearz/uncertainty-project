@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131681n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da260c914e4f6b2e453304e2725e970de0ff32d11d94f2f4488120a6319be41a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03d3f97f5624503a016acbf6c0b7d087d2bc17f87f43c9d599",
+  "received_at": "2026-10-11T20:51:16.360989+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise explicitly attributes people's colds to alternating cold and hot days, supporting a relationship with temperature changes. The hypothesis's word \"directly\" is slightly stronger than the causal detail provided."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

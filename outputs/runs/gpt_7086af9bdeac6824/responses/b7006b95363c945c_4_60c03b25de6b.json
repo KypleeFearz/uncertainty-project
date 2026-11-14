@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97011c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a359203d5510d858e777df7c03edf4e64eb38501f3fe3357b5f36a5597e42f4b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09d8d34c16049c9b016acd4868190487d28ab96e7c099da7c8",
+  "received_at": "2026-10-12T20:51:58.179064+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.83,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Unmet expectations about land reform and wealth redistribution do not establish that the ANC would not be in charge of land reform. The ANC could oversee reform without delivering the expected results."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

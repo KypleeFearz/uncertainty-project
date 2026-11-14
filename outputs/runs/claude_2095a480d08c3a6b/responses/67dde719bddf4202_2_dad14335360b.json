@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "29844c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0317f8c74ab8d2a7f213f7b5feb0d24eafd70b074b8b3a16a3ce42843cdf4df0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwANrntLFUU5CSW3sgyM",
+  "received_at": "2026-10-11T21:30:30.382863+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.4,
+    "contradiction": 0.55,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Jon says he is glad about something she wasn't, which conflicts with being sad, though the missing antecedent (what she wasn't) leaves it unclear. If she wasn't happy, Jon being glad contradicts him being sad; otherwise it is unrelated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "100349e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5374f7b08387f32b7c05c6ae45955e4eef39d02e0370d1d2d5af57206d88164c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwByth4h7EFDTKt2T1Bd",
+  "received_at": "2026-10-11T21:51:32.630857+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Swelling and growing hot suggest a burning sensation but do not strictly establish that his skin was burning; 'burning' could be literal or figurative. Contradiction is unlikely but possible if 'burning' is read literally as being on fire."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73278n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "883f76e2b5879d4fd5d1986f00593f9e807bed1c0efce7ea3f01736042631e38",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8cfb295552da01016acbf1b350e087d2be8d2ebc1e5464f8",
+  "received_at": "2026-10-11T20:29:43.723845+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.79,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise asks whether an across-the-board decline could occur; it does not establish whether such a decline might fail to occur. The negative rhetorical question allows some variation in how strongly the possibility of a decline is asserted."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

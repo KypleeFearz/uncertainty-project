@@ -1,0 +1,5 @@
+assessor_from,target,signal,minus,auroc_difference,ci_95_low,ci_95_high,valid_resamples
+gpt,debatable,learned_human_entropy (gpt assessor),model_total_entropy (Apertus raw),-0.09764168885507796,-0.17747917344585235,-0.02196705145306751,500
+gpt,error_on_clear,learned_epistemic_risk (gpt assessor),model_one_minus_confidence (Apertus raw),-0.36187084520417845,-0.43701307050833915,-0.28628428203177825,500
+claude,debatable,learned_human_entropy (claude assessor),model_total_entropy (Apertus raw),-0.08839863065804487,-0.1680409516574088,-0.012733012534680958,500
+claude,error_on_clear,learned_epistemic_risk (claude assessor),model_one_minus_confidence (Apertus raw),-0.06946818613485273,-0.13993090679247172,-0.0065195528811599806,500

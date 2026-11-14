@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4145746372.jpg#0r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "483f27aedbe9d7f2d7c69baf33f036c97f22d2cf91db65dd87218eb372a4ef86",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5VA3Z5nGdSzwJYyatt",
+  "received_at": "2026-10-12T21:47:33.777092+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "People in costumes posing like a musical finale suggests a performance, but they could be imitating one, such as at a party or rehearsal, so it is not guaranteed. The inference that they are actors in a musical is plausible but uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 794,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

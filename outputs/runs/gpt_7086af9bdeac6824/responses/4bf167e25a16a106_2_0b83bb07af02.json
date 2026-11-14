@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6906541132.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0dc0918729c9b7469efcdccede686bcebfa711938b7c1f2224e920771c17bb2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f36ea84d6d941f016acd4e7c672c87d2a1fa9d0668314b84",
+  "received_at": "2026-10-12T21:17:52.950016+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise establishes people walking near a leaning crane, but not their speed or direction. The crane's leaning may suggest instability, but does not establish that it looks likely to tip over."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

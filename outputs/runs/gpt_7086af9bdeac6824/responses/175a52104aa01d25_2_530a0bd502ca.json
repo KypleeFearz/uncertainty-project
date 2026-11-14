@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15110n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64364d4ca2657c53ce07a244310d9126d4a107d53fbcd46ee458935150d6e937",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b4c1e891798f392016acbea06a93487d2a8580389a1937bb5",
+  "received_at": "2026-10-11T19:56:57.925789+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise states that the narrator was bored and the room felt claustrophobic, but it does not establish loneliness or fear. Those feelings could coexist with boredom, so the hypothesis is not ruled out either."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

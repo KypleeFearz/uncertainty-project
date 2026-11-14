@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107693n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5d1c0eef0043779043d68dc8ccca1bf7bd02e9c45e3b6bb3cbef6f4605dd348",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ceeedbc677fe9d8016acbf5adb7c487d2806c5a9427ed3475",
+  "received_at": "2026-10-11T20:46:43.234456+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.92,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise attributes these actions to an unspecified “they,” without identifying that referent as the judge. It therefore neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

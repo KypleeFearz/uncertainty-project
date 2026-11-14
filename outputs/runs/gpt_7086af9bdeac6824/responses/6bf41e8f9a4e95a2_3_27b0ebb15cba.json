@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "20274n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "32ddbd54a22e6e959f9f01346d9c15ace062e7a0631fba406e878d1fd1963153",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf1ab1ffd2c561f016acbeaa590c887d29c00c6e18f015d13",
+  "received_at": "2026-10-11T19:59:36.869678+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says Sultan's Pool hosts rock concerts in summer, but gives no information about what proportion of rock concerts occur there. It therefore neither establishes nor rules out the claim that most take place there."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

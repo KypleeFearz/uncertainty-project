@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83722c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e9fdeadd207cd2db2407cd25c641f1714e5a8391ed3376173f7418105e3579c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_093b2f1419a046aa016acbfa45be1c87d285c2f98c97555464",
+  "received_at": "2026-10-11T21:06:17.180661+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.025,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise presents the postal service's ability to engage in the negotiations as an unresolved question requiring study. The hypothesis instead says that ability is already certain."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

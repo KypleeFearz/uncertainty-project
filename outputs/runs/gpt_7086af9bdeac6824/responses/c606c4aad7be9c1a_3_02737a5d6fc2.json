@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69481n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "54f03cded0940e03cf2da0a6da058fb0f2d81fb7016eef7a032b721b00d6fa04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08889fefa52a4ff8016acbf13abcbc87d2b35b5c7d8c65e451",
+  "received_at": "2026-10-11T20:27:42.190216+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Both statements assert that the same thing was deserved. “Definitely” adds emphasis or certainty, which the premise does not explicitly express."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

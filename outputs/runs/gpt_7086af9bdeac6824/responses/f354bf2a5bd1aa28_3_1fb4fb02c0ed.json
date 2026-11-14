@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_485184060.jpg#2r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "115c81004edb9bb444acceb1f2f2fb4f63ed0a9dbc17ee2a99c9834bebb0ab56",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09db9af9b885281e016acd4d7b04b487d29d002e2a1ecfb08b",
+  "received_at": "2026-10-12T21:13:34.632704+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Watering plants indicates that water is present near the man. If “near water” means near a body of water, however, the premise does not establish that."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

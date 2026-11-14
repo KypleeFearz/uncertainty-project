@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59757c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bff0a801790763d8df9f7a8ffad0276009b91b79b937794a883373a918ae3cc4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f6fbe89eda6221016acbf94b8a6c87d29561e35830331a78",
+  "received_at": "2026-10-11T21:02:08.554530+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.88,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise permits a petition for a finding that emissions will exceed the threshold, but does not say whether a petition for the opposite finding is permitted. The opposing requested findings do not themselves make the two permissions incompatible."
+  },
+  "usage": {
+    "input_tokens": 444,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 604
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

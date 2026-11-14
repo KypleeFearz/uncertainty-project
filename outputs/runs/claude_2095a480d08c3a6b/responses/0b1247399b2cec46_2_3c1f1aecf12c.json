@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "55864e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "84790abe9cba76cc4f75126ddf1770fe0114a0fab4217f9026989f13632d33bc",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwxxbpLQJEQpr9cXPSM",
+  "received_at": "2026-10-11T18:47:46.614977+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.8,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says he lived in Kingston and that the village is tiny, but it does not say he came from that village. The hypothesis's claim of origin is a plausible but unstated inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

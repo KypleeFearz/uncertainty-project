@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53628c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd1532bea0d1792f8f11f3e68cad978e6cfe3628c10a6d6145931a5191308b53",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_065e9e2dff0d693d016acd4672058487d2b5e6066f4c18c6d1",
+  "received_at": "2026-10-12T20:43:34.296325+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise refers to Clinton with the pronoun “his,” rather than identifying Hillary Clinton. It neither establishes nor denies that Hillary Clinton used the bully pulpit to speak out against drug use."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

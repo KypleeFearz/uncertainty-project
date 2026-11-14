@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144408n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8ccab8722d17aef3a9de6705706b84e4664ee7a81e3a2f99fb4b012f69f692ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c93aa154eea0c0016acbe9ba668c87d28287de2dccad38a7",
+  "received_at": "2026-10-11T19:55:42.989047+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.93,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise identifies The Pharaonic Village as a seller of some of the most authentic papyrus, but does not establish whether authentic papyrus is available elsewhere. The hypothesis adds an unsupported exclusivity claim."
+  },
+  "usage": {
+    "input_tokens": 430,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

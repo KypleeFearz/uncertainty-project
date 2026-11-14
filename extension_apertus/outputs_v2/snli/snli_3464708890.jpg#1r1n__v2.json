@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3464708890.jpg#1r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.75,
+  "neutral": 0.2,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes an unusual setup that suggests intentional action, but does not explicitly confirm a trick is being attempted; however, it is highly probable given the context."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 106
+ },
+ "seconds": 2.31,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:21:05.822491+00:00"
+}

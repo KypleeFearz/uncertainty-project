@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_306839655.jpg#2r2c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cc0719e6c873b769a8ac2ada5d7408adc2df7894232270c418731a1ae9e56d69",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Bw4yCh4uEuUSmXXPY",
+  "received_at": "2026-10-12T21:43:38.947660+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.88,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only says a group plays a game on a living room floor with a TV on; it does not say the game is on an Xbox, that the people are friends, or that others are waiting for a turn. The hypothesis adds these details, so the premise neither confirms nor rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 794,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

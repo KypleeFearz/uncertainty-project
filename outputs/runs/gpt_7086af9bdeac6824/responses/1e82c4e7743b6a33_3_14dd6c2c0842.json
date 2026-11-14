@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115391n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e376d5f86670654027c8a620bd950e2902e3958e876e2a603e290c2c8745762",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026327a6f1673eae016acbf60cf8f887d2914133dd38ae83ee",
+  "received_at": "2026-10-11T20:48:18.379290+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "Taking their time and aiming to decide by July supports the interpretation that further deliberation is needed. However, the premise does not explicitly say that more thinking is necessary rather than that the delay has another cause."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

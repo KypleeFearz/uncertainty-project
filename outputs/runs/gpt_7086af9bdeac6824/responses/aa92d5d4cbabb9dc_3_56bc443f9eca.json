@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4349523799.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf263a7e6f988bd8fd8b704d9ba040ac85f93c6dd8856dc6c386bb6e0ede91a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f35f25f7a82da64016acd4c84419c87d28e848564dd70a099",
+  "received_at": "2026-10-12T21:09:27.140413+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "Having her hand in a fake shark's mouth could be a demonstration of a shark bite, but the premise does not establish her purpose or activity beyond that pose."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

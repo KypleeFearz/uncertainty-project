@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49237c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69af43907bee2f61de2fa09389c7a74455309370544f987e3fe3edc8e4ac0b83",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0797829a5eb7544c016acbeeb982a487d296fb2a7dc0bf1ce7",
+  "received_at": "2026-10-11T20:17:01.025625+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.01,
+    "contradiction": 0.985,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says the house was burned down, whereas the hypothesis says the house remains in perfect condition despite an attempt to burn it down. These describe incompatible outcomes for the same house."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

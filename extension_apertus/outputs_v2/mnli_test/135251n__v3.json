@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "135251n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.03,
+  "contradiction": 0.02,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise mentions renting a car in Florida, which directly matches the hypothesis, though the pronoun 'he' is unclear and some phrasing is informal."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 352,
+  "output_tokens": 106
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:01:25.941900+00:00"
+}

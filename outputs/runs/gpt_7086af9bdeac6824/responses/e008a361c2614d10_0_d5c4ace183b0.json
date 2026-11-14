@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2232822316.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a6a1fe5d0216ee911c4b010f820d59157243a925b8ee6407c2abdbb9bd4691b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b665d16357fc8c016acd495fdfc887d28576e478eba77a01",
+  "received_at": "2026-10-12T20:56:03.409616+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The clothing and sunglasses suggest warm weather or an outdoor setting, but the premise specifies neither the location nor the season. Being outside in summer is plausible, not established."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

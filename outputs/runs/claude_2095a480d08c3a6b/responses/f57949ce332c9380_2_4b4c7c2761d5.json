@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "50484c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f4ed0af25a03cd857f8446c557fa7e73ab46e851c2af9b8a12cfc92a934b4d6b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4LqQYDWScKYoNQE7Et",
+  "received_at": "2026-10-12T21:32:33.079538+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says all experiments gave results at chance level, so they showed no predictive advantage, which rules out the claim that they proved a much better predictor."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

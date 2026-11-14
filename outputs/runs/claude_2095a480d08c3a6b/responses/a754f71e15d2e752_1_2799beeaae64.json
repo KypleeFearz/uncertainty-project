@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "44138e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "aefb490c5392904aab37d00e635d125ee3610d4d930c1defe930906b81abb280",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4GGaibGE5WHnmCfXoA",
+  "received_at": "2026-10-12T21:31:31.187293+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.45,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says 1820 was pivotal for Hawaii, which suggests lasting change but does not explicitly state that things have never been the same since. The hypothesis is a plausible but unguaranteed extrapolation."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123675n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "21e777e9cb1c0a655fb6735c13e8dec95f963e12d0d3c5996671430eaab0c065",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef9ecdac86ffacc016acbf6694c9487d2b8c70205f522c22b",
+  "received_at": "2026-10-11T20:49:48.708779+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.27,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says mutually beneficial negotiated changes may merit recommendation if procedural requirements are met; it does not establish their frequency or that they prohibit anyone’s postal services. The phrases “too regular” and “my postal services” are underspecified."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

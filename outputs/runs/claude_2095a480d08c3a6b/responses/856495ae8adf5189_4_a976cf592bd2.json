@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "57369n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f627a4aba07bdfe2919cd5ea69fbf7235fb0ed3ccaf64ef0f8d3832614637044",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB3f8jpKp3xXDr825J7",
+  "received_at": "2026-10-11T21:39:17.167975+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.72,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Test organisms\" could be animals, bacteria, or plants, so the premise does not establish \"trial living plants\"; plants are only one possible kind. Contradiction is unlikely but possible if organisms are read as non-plants."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

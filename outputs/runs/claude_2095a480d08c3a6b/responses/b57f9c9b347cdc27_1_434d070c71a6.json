@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "128996n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f19d122ee1c309b95170f511d55af31b7d0afb6a7536242d0fe95a4565178b84",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3mp8U9Pitng4Wd3BHL",
+  "received_at": "2026-10-12T21:25:05.320649+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.6,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise sarcastically calls tenure the 'noble goal of academics', which does not endorse academics itself as a good goal, and the irony may even undercut it. The hypothesis is vague ('academics' as a field vs. people), so it is mostly undetermined by the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "3476n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.75,
+  "brief_reason": "The premise expresses dissatisfaction with high taxes and implies approval of appraisers due to this context, which aligns with the hypothesis that lower taxes were desired. Ambiguity in phrasing and unclear pronoun reference slightly reduce certainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 120
+ },
+ "seconds": 2.6,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:18:20.378849+00:00"
+}

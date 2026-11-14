@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4046112444.jpg#2r1e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b40127a96b15c2c3ae611a996406eb2ad6f1d6de2406b8ec3598d5345b7cf683",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5UNeJgfJQtYP3KPMus",
+  "received_at": "2026-10-12T21:47:22.283759+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.33,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Premise says a young man uses gloves to control a wired device, which largely matches a gloved man working on a wired device. However, 'working on' could imply repairing rather than operating, and 'using gloves' may not mean he is wearing them."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

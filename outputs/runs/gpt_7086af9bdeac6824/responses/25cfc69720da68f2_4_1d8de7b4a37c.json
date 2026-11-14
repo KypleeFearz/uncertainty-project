@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3789378919.jpg#4r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "44a2d7dd8ecfcfe263721b1ee6a2589758f3b5fef590fc4544033e68d7ceaa55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b1cf0f414d472d8016acd4bfd2b0c87d294f23489fe3401d5",
+  "received_at": "2026-10-12T21:07:13.635605+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise places people in line at a bus stop, not aboard a bus. It does not establish whether other people are already waiting on the bus."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

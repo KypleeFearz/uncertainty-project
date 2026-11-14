@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5045062030.jpg#4r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d5aeead5d9853ea7449c2bdd6bdb23bcad365d2cf0fb4da423bc9c4106126b2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07671cc5210d1ba1016acd4dd2c38c87d297ab3f4516a49c4c",
+  "received_at": "2026-10-12T21:15:01.548145+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.08,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "Hanging laundry outside ordinarily means putting clothes out to dry. The premise does not explicitly establish that the clothes belong to the woman or that drying is her purpose."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

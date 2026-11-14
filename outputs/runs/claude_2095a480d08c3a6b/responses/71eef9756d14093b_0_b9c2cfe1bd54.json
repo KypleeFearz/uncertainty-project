@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_779266595.jpg#4r1c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "eeaa5279d5b0c24ac1729b3dea1464f93d70c3aaf9abe44d8345a9f5c9e83033",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5xKsPqfg7tvoZLH7R3",
+  "received_at": "2026-10-12T21:53:41.453114+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.57,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Hang out\" suggests being awake and relaxed, which makes sleeping unlikely but not strictly excluded. The premise does not say whether they are awake or asleep, so the hypothesis is neither entailed nor clearly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

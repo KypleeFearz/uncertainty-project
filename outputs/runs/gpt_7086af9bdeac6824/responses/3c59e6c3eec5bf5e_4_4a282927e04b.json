@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75471e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b56414ecd805b6e1587ee3882a2ef4beb386f4898ee17df0ee1fd4693e646a71",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0658762dba6fbd1b016acd47933da487d292e7d96ee0a8fd7e",
+  "received_at": "2026-10-12T20:48:24.999812+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.44,
+    "brief_reason": "Both statements support enhanced reporting related to projection information. However, the hypothesis adds a causal justification and describes the connection as vital, neither of which is explicitly established by the premise."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 571
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

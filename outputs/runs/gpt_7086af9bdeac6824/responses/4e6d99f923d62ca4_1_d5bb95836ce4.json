@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79141e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "467f83d63b646ed4c7e65a7d63972bdd197910fe1454a76056ee8c0bb3dfaa6a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_041ce1017114ae99016acbf284185487d2826fca5ebf24d04d",
+  "received_at": "2026-10-11T20:33:12.557274+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Calling a woman's body her most personal property does not establish that it is sacred, nor does it deny this. Interpreting “sacred” as deserving special protection could suggest a connection, but that requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

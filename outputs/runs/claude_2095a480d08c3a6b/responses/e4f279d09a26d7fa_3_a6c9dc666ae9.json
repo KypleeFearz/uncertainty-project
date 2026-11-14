@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "74858c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c95230613632a8cb050544afafab3781442c1624fa644dc702a1496ecb42000f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCp5bFd7gEPGAdLqgkh",
+  "received_at": "2026-10-11T22:02:26.166615+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.3,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Alexandria was founded in 322 B.C. (the premise's date, though historically 331), which is less than 100 years after the 5th century B.C. ended (400 B.C.) at best, about 78 years. Which wars count as 'great wars' and when they ended is vague, so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

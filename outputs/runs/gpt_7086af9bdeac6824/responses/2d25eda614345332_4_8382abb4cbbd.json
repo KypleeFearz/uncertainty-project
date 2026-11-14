@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111577n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63ba96b930e8254899bf25cf082ca039e8c8082bfea27c4a450343730391f832",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_073d8c8b265c0014016acbe53b43d087d2a377b5a3de28a29e",
+  "received_at": "2026-10-11T19:36:30.239989+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise distinguishes overinterpretation and misinterpretation from bias but says nothing about whether anyone is being interpreted that way. It also does not establish that a woman made the quoted claim."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

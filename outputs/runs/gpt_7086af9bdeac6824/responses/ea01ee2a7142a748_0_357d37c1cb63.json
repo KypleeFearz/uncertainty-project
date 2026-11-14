@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15537n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee8017c73c1c983e7348568d9f594baee017124b59262fba2401284f88ac8bdc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072c4f52d8669b41016acbea09265487d2b7750546afb4abc8",
+  "received_at": "2026-10-11T19:57:01.130089+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The premise suggests that the clients cannot afford alternative attorneys, but it does not state whether this provider charges them or whether they can barely afford its assistance. The hypothesis requires an additional assumption about the cost of the provider’s services."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134356n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b851b523f570aab9c224982dd5a4fa8e35707fe118c37101d962a00dd8e6ea8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd57ede0b47eced016acbe85427f887d29a2bc0c59911a782",
+  "received_at": "2026-10-11T19:49:44.880058+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise recalls a warning about people who do not tell the truth, but does not establish that such people might be in the location meant by \"around here.\" The hypothesis is a plausible contextual inference rather than something directly supported."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

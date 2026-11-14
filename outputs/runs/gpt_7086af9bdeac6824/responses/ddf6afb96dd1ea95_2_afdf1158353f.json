@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4794461173.jpg#2r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de909bb84fcb56fdf8d0586f4d8e6608825c26e0f23a79899524895cf19400ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_043b3b9df96b8641016acd4d55907c87d2865b2ddd492cc2a0",
+  "received_at": "2026-10-12T21:12:56.655163+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise specifies the girls’ location and that one is sitting, but says nothing about boys or what the girls are watching. Watching boys is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

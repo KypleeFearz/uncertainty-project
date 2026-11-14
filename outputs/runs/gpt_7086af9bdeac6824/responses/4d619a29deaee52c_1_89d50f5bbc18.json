@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44648e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e2f8afebbf818415ea5f2dbb5bd11a65bbb5351afe0a5558127b252421ab204",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_079b103f74ac0bb8016acbedf6d65887d2b3a4edeea4aed16e",
+  "received_at": "2026-10-11T20:13:47.456979+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise suggests Mexican people may be unfamiliar with taco salad and that it is gaining popularity as something different. It does not establish that the dish is nontraditional or is becoming traditional through cultural movement."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48222n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4730eb0373a8911f4155d725c8950015127f79f2f2169a1198557d07a613087",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c95663a1627af98016acbf8bd2b6887d295efc3b411aff857",
+  "received_at": "2026-10-11T20:59:46.332133+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Choosing easily cracked passwords and ignoring basic precautions suggest that both groups give security low priority. However, these behaviors do not conclusively establish their overall priorities."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

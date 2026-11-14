@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99791c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1f10e1ab236b00d0de0f357ef2a1dd971509c59dd0616b5094d3e1d89fced3a3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096ab7888368cba5016acd48c8f1d887d2ae144808fc45a7a7",
+  "received_at": "2026-10-12T20:53:33.924588+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise identifies analysts who favored loosening the standards, not making them tougher. It does not establish whether other analysts wanted tougher standards, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

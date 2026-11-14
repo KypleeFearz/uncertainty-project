@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68946c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "558d8881c050558fbc0026a82d3ef5d73501f60e58f2d5f2117e64b37ba7e1c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a65ccda41d3bbed016acbf13622b887d2a0b9e5d53714c949",
+  "received_at": "2026-10-11T20:27:37.324254+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says the fortress served several groups and contains layers of their masonry, but does not identify its builders or give a construction date. Earlier use suggests an older structure, yet does not explicitly rule out medieval French construction or rebuilding in 1173."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

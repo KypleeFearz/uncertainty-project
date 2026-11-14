@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93623e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23fd26fa79a36c3377d6f5038d5326377aa7cd94fa725707200c2b275e86773e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00909ed398261f57016acbd9696f5887d290b26452cbf0c749",
+  "received_at": "2026-10-11T18:46:07.985041+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes repeated betrayal in one afternoon, whereas “stepped over me” could mean literal stepping or figurative disregard. A figurative reading could support the hypothesis, but that meaning is not established."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

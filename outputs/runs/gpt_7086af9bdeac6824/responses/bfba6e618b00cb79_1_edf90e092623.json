@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120245e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a5b8a31027a9a2f0a99af50c6b5d818df9ee9577ef0e5f4c24f2930d89f00b5d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0391406635bbbbf1016acbe660ae1c87d28505bffdc9159b6d",
+  "received_at": "2026-10-11T19:41:23.831194+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says spring weather makes hiking extremely enjoyable, but it does not compare spring with other seasons. Calling spring the best time requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

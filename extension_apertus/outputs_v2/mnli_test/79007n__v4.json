@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "79007n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise directly states the speaker claims to be \"ten to fifteen pounds\" like any other human being, which is the same claim made in the hypothesis. The only minor uncertainty is whether \"could lose\" is logically guaranteed by the statement, making it a probabilistic inference rather than a strict entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 362,
+  "output_tokens": 133
+ },
+ "seconds": 2.74,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:44:01.002159+00:00"
+}

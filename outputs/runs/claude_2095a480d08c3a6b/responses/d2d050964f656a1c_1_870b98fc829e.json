@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "101809n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "781a454c92148664ed541748199a36b1c8e901a91afc1c2ff1614e65c77be41d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8xvdHMmMqZMBtSVuWc",
+  "received_at": "2026-10-11T21:11:59.231318+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise uses $100 million only as a hypothetical example ('say'), so it does not assert the deal's actual worth. It is not logically ruled out, but a flat assertion that the deal will be worth $100 million conflicts with the merely illustrative framing."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 863,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

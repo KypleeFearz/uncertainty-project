@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "74378526a02e48dc2b5437a9ffe7b42630304f42691a4fea78a356f04077efa0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c49ec7844a2b684016acbf8f1cbb887d29fd5c06f2b96828f",
+  "received_at": "2026-10-11T21:00:38.222878+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The speaker watches Knots Landing at nine o'clock after getting home from aerobics, placing aerobics earlier rather than at nine. The premise does not explicitly give the aerobics class's start time."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

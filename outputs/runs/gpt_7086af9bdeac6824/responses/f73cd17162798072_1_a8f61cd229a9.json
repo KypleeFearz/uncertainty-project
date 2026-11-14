@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6526560433.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d9dd6996bd45f3a568698227db7af86bbad8e921bb65034efe3c67d41b94eead",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cbfc6723572f7d9016acd4e5bf24487d28b5508f694b6f524",
+  "received_at": "2026-10-12T21:17:20.229827+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says the player in white has the ball and faces a potential tackle, but gives no location on the field or indication of an imminent touchdown. A touchdown is possible, but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

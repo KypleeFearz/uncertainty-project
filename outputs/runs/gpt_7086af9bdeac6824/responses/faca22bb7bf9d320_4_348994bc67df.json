@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37287n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "203eb00745ea3bb011dd7f372cbfffea6d912e7c9db6bc6146ee3bb30f5d3f51",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c2b3b351f40ef8a016acbed0e6a8487d299334f39528a0943",
+  "received_at": "2026-10-11T20:09:55.622056+00:00",
+  "parsed": {
+    "entailment": 0.58,
+    "neutral": 0.41,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports that men like it more than the other group. However, “way more” implies a large difference that the premise does not specify."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63751e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "42e980f779ebf225b2896b58640a799fa7bdafd27186290ba44392623f978244",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c65d0e8ae5c9c71016acbf975f92887d2b9bbd4567d5ac32d",
+  "received_at": "2026-10-11T21:02:50.853715+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.24,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "A bell and knocker are conventionally associated with a door, so the actions strongly suggest that both people were beside it. The premise does not explicitly locate these objects at a door, so this inference is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

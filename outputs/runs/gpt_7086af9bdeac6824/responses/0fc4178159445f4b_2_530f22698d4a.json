@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67571c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53c78109f02c9c5cb1093366b52710213a0fa7ae24d78fc54dee8e4500f704ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_017503346f1af7d7016acbf115d98c87d2a137c50dc2c0a1c5",
+  "received_at": "2026-10-11T20:27:04.789949+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The quote criticizes an apparent exception for NBA players but does not say that the commissioner hates them. Inferring hatred from that criticism would require an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

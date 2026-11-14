@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79245n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79a1b239cae91603c5a90afce4493306875dea84b85ea2b264d7c7e1025a720d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ddc42c9077d8170016acbf9fa790887d2b2cec9d137e3ae54",
+  "received_at": "2026-10-11T21:05:02.402977+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says dark eyes and eyelashes would have made her a beauty, not the most beautiful. Brown eyes may count as dark, but neither that specific color nor the superlative claim is established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

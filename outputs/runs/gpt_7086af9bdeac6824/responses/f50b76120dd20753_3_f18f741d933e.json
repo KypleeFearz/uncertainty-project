@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_8081167161.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf607b01482e0bd8937f673a7a15b03170c0582467853729f3ee571bf8156d2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea32b14558ba607016acd4ee5fbbc87d2b3cc34cfd33d304c",
+  "received_at": "2026-10-12T21:19:38.027286+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise describes the children standing behind bars but does not establish whether the bars protect them. Assigning the bars a protective purpose requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

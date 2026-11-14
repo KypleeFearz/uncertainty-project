@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118141n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7266b6bc33649988ef02b8e524250fd9ae2e88b202bc516f283b2a402c7b0f59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a825e1492ad26ff016acbf62fdc7087d2b70142e826c0be39",
+  "received_at": "2026-10-11T20:48:51.985336+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise explicitly says that 'it can't last seven years,' matching the hypothesis's duration claim. However, it does not explicitly identify 'it' as a new computer."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

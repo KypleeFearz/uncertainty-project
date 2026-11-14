@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47877n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e332455786fd58c49fc3e02e5ce165a057837a419cfad1a775f65984c3fd7433",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e82d7e9575b50a016acbee84b13087d291fedabc9f717501",
+  "received_at": "2026-10-11T20:16:08.231951+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.43,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise says many children share fears, such as someone being under the bed, but does not establish that the children find these fears amusing. It also does not mention someone hiding in a closet."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

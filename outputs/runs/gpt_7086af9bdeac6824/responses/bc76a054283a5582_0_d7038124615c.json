@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2414390475.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6166ac81b3d7e012048744c06ab67792775a337139120c98de6542815f31c5af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad9a3ecb71aa8bf016acd49ac258087d2a37be779927f7ed7",
+  "received_at": "2026-10-12T20:57:19.258413+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The guy is a person, and looking into the camera supports that he looks at something."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 82,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

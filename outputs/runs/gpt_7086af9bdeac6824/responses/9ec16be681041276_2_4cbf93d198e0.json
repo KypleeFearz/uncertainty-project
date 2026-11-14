@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3753827435.jpg#3r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "74232c703c263fc034289ba6eeedeeb29ef3563eca17dad3936208fb14fc7c3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ee89d6d473f49f3016acd4bf479a487d28193aef49176af31",
+  "received_at": "2026-10-12T21:07:06.157020+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Throwing daggers at a carrot supports targeting a carrot with blades, but it does not establish athletic ability. The hypothesis also generalizes from a single carrot to carrots."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

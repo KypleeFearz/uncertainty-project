@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3696246123.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "01a9bc2c51f8ebfc79a0dde4f203e18a3a6338bb5be7cc6905e8a64132e5a730",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4eb23d423a4e0c016acd4be0c78887d282cbdf8dfd731b34",
+  "received_at": "2026-10-12T21:06:45.924648+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.24,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Playing with a tennis ball in a field supports describing the dogs as romping. However, movement across the field is a plausible inference rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

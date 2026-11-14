@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13884n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15c7357343e6fd6dbf2bdace885651d06f7a71b4f034224a15e9579d7503b2ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f503c0fdf7de7b5016acbe8fc5d6887d29d0361f07afa08a8",
+  "received_at": "2026-10-11T19:52:31.657887+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise compares Americans’ opinion of morality with the addressee’s, without establishing how highly either values it. It neither supports nor rules out the claim that everyone values morality highly."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 16
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

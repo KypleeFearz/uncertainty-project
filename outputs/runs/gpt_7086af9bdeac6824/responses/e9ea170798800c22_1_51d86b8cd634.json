@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66260c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a329ad95633e71bf9bc8e6e3ea0ab85d126dc4f542863f9850d2ee832caabba6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08e6f4baf282131e016acd4719e1f087d2a54a980ff34b06a2",
+  "received_at": "2026-10-12T20:46:22.930995+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.63,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "“Finish it” calls for completing something, whereas “Keep going” calls for continuing. Completion may require continued action, but the premise does not establish that this was the message yelled."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63100e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5211a2ec2121d77b37b27e7d247131c4baf61f8e6f6c27f96b8a94bb2b821c06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0177196c1f2c76f7016acbf09c7fb487d2b1a2517bd0c85008",
+  "received_at": "2026-10-11T20:25:04.563376+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.88,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise mentions needing work in case the speaker must parachute out of a sports plane, but does not specify jumping out a window. It also does not clearly establish that 'needs work' means 'needs to function.'"
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

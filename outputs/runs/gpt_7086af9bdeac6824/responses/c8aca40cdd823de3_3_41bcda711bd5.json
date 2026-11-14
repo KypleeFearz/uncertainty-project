@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_89245315.jpg#2r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf59fda41b58f29d1c585cf367f4c2e8ff4fd1cd5882c1b4ed31b14aa8475c8b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03ff419dc733ad2b016acd4f01fc4487d2af55aeb8e21e53f5",
+  "received_at": "2026-10-12T21:20:04.611782+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.81,
+    "brief_reason": "The boy's laughter and the girl's possible tickling suggest friendly interaction. However, these observations do not guarantee that the children are getting along."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

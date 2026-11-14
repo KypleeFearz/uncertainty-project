@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114458n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "df0055c2d4e1516840738291b78fac0278539b4daa9bcec3e51f99edb6f574b8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e36fd555978fcc9016acbf5fb959487d288ad2abe8f82daec",
+  "received_at": "2026-10-11T20:47:58.546908+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise associates youth with laziness and formlessness, but does not establish that all young people have these qualities at all times. The hypothesis adds an unsupported absolute claim through “always.”"
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

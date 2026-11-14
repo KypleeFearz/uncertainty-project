@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61684n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "efdd57ca753cf09e87858cf568b16e757fbd7237364b568d6bdc83960ad95ce3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_095346db754622f6016acd46f29aac87d2b9bdc7d20d1c6774",
+  "received_at": "2026-10-12T20:45:44.453454+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Julius tentatively concludes that his group was wrong, but the premise does not independently establish that this conclusion was correct. The hypothesis adds that Julius was right."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

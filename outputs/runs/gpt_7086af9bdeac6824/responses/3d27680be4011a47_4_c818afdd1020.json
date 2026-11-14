@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69348e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "495272ecdf19d6c62ed4ddc447ef49e5a92d4f63fe05b0a1feb64a6eceb414cb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a1de83d9236982016acbd93449c087d2bb106c305e03f7d0",
+  "received_at": "2026-10-11T18:45:12.943896+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.53,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "“Fight for attention” can mean struggling to get noticed, without engaging in an actual fight. The hypothesis is supported under a figurative reading of “fight,” but an actual confrontation is not established."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 85
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

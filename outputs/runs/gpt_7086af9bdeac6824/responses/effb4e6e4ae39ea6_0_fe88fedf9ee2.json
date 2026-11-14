@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43178e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac5ca9cad012f5d4e369214b8998550cc40dc7e6b01c833fb1a4cb65c41fb774",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a80c09905335dc016acd45926ddc87d2a6d0f6aa29a9c27a",
+  "received_at": "2026-10-12T20:39:50.858088+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.76,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the speaker could not identify most of it, whereas the hypothesis says they knew none of it. The premise does not establish whether they could identify the remainder."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

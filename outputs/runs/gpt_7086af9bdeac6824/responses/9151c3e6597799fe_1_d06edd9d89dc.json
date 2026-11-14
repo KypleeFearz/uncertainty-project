@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11534n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd9ea7b239cae5415a9479cd7c60d5cb76df9a985b580e7c54f762c3d405301a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_021ee6e70840d329016acbf605c37c87d291ee4ae85a98a638",
+  "received_at": "2026-10-11T20:48:09.065678+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "He redirected his attention to his problem, but the premise does not establish that distraction was something he could not afford. That necessity is a plausible inference rather than an explicit consequence."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "395530552b0a7d32a8128a5548e36019074cf87bcb17f6016c3583f16fca74ee",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCneDk3YdjTNgzEufrL",
+  "received_at": "2026-10-11T22:02:06.881115+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.12,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Premise says people are rarely indifferent, meaning they usually have strong feelings; the hypothesis says they don't hold strong opinions, which conflicts. The garbled 'She' at the start adds slight noise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 794,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

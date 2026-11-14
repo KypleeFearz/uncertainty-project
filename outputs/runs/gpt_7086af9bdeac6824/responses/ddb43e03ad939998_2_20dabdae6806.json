@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112467n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a86d9e9f8c19eba265f42f328bc3bf5f37c96106f9a90c9ca5bd6545e6c9fc15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f188487e77af94c016acd420f987c87d28be180cf58b5b8b0",
+  "received_at": "2026-10-12T20:24:51.023388+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise says critics object to the miniseries’ historical accuracy, not necessarily to how much information it includes. Wanting more information is compatible with that complaint but is not established by it."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

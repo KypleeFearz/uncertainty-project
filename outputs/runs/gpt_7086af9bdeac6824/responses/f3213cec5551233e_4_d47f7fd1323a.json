@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92771n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "84647db85f5bea477d72619e674e811e3421a0b3f7b01fa8dac7f7711b9d9dc5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b1ec6b48961ef69016acbf443ca4487d2959e8b8e2618bc60",
+  "received_at": "2026-10-11T20:40:40.117094+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.67,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise allocates 80% of the allowances available for annual allocation to specified Acid Rain Program units fueled by coal or residual oil. It does not establish that the entire 80% is associated with coal alone, as the hypothesis suggests."
+  },
+  "usage": {
+    "input_tokens": 471,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 644
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

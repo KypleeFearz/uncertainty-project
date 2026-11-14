@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84092c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "81922ce214f077aab4ff169ba2a1fce9c7e5f74248b98814eeb45d4f648e9686",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b2b0eb4c5a0368e016acbfa552f2887d29c669415b1ab22cd",
+  "received_at": "2026-10-11T21:06:32.862156+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says terrorists could risk exposure when transacting with these institutions if they adopt key recovery; it does not establish whether the institutions support terrorists. Doing business with terrorists does not necessarily imply endorsing or knowingly assisting them."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

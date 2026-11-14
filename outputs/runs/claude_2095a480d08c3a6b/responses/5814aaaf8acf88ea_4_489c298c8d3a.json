@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "131623n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "256db1a4abaa5c3d4f0f7c1e7daef71a0e98840655406967bf475bb0b3b4cbfe",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3p34QoMhJy42WYPi88",
+  "received_at": "2026-10-12T21:25:35.105741+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise only says many Americans suspected infiltration, which does not establish that Communists actually interfered. The hypothesis states it as fact, and the premise's tone hints the suspicion may have been exaggerated, but it does not deny it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

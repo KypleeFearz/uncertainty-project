@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4695720306.jpg#3r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79044247d4c695f86e1a4a4d4aa31d0b6df655bbbb201ed181bc94ec2fc8112c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b5ccd47c65ab2b016acd4d10ef7887d28f97cfa690c6dd9d",
+  "received_at": "2026-10-12T21:11:47.542064+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.09,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Holding a shopping bag suggests shopping but does not establish it. The premise says nothing about men or whether they stay at home."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

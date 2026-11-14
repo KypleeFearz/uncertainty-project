@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "63469n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f3efd0b53e50669f459148513a0467189b99c879b4604117b8b030370bf51676",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCkgDF3WFgUe8wGEt4M",
+  "received_at": "2026-10-11T22:01:40.205387+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.68,
+    "contradiction": 0.22,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says 'it' lacked humor and was crass, so 'not funny' is supported, but nothing says the article was based on lies; the speaker only says jokes need a grain of truth. 'It' is also not clearly an article."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 835,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138285n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "04cb9ca580e6d24c8b2baf60618bcd1f1006d96c9ade203f25d28f4c631a7b70",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0595b1f493e4a822016acbe8e68bd087d2bd105854233fe861",
+  "received_at": "2026-10-11T19:52:10.716443+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Crying when both the horse and the wolf were killed supports the hypothesis that animal killings prompt a desire to cry. The hypothesis generalizes from two specific reactions to a broader tendency."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

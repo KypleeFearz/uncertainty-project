@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3439126534.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d80a746b4e52febb592f47569107a9c6d8c1a0a8bd3603d8399a288e5f5e4d55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0234619b30f3bd96016acd4b6a5fa887d2b18d23a63ebc6942",
+  "received_at": "2026-10-12T21:04:45.347817+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise supports two individuals pounding something on a table, but identifies the material only as possibly food. It does not establish that they are beating bread dough."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62238c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "42d891aa102681ce94f34ba67bbfc65e6a9331d393c0d524a698c7e6ac350c88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_041124ca69ce98fa016acd46f4404487d2acbc6acb3d522f3e",
+  "received_at": "2026-10-12T20:45:44.577053+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says GAO needs help with human capital challenges but does not specify application volume or hiring standards. A surplus of qualified applicants is neither established nor ruled out by those challenges."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

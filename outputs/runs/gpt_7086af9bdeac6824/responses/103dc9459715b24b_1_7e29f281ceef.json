@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139409e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "33c5a67537bc57fd3864b43024fbaf802bdc2892da1a4d97f8db62a4b399d470",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_042a63900e988621016acbe91876a487d288ec832e7297bd72",
+  "received_at": "2026-10-11T19:53:00.123456+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "“All the time” and “under our very noses” support the hypothesis’s paraphrase that they were constantly near it. The proximity is expressed idiomatically rather than as a precise physical distance."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

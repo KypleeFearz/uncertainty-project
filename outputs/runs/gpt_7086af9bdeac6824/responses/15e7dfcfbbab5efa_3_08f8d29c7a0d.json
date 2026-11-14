@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82049n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "104dd7cd17c42bc4e2bbce1d7ef50f6f4652705a0c7584cb00d217d50a586d79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ce1222a5b4b37c016acbf2fa6ae487d2a69ba47e1c9c42e8",
+  "received_at": "2026-10-11T20:35:10.676646+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The fragmented premise mentions having a prescription but does not clearly establish that something provides assurance of it. The referent of “That” and the relationship expressed by “because then” are unclear."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

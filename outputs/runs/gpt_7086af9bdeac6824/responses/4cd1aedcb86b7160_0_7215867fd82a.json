@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101253n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e5599e00462dad131794413b5be66ba77c7ee34b0288c3b490133ccdab77899",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b87779c36410c4f016acbe3c659b487d2af2199aede1ceb92",
+  "received_at": "2026-10-11T19:30:18.030500+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise states that the campaign began and continues today, but does not establish whether it successfully suppressed Kurdish identity. Continued campaigning alone indicates neither success nor failure."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

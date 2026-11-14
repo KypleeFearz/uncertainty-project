@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12870c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3d5d20daa851e31fbfc17b69a57e7909cea7d5aace7e75388723d28c04b03cf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03958abb46180dcb016acbf697b22c87d2991c8519e021c34c",
+  "received_at": "2026-10-11T20:50:34.802204+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.002,
+    "contradiction": 0.997,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly says he donates \"not everything\" and that the remaining material is bought. This contradicts the claim that he donates all of the material."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4183609474.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a37424faca24271ce1e4d92a8945711b8a8d39d07ec409c111c689f9c39ea4ab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037615a626eff5ee016acd4c5c6c2887d2b2cfd5d069fe4471",
+  "received_at": "2026-10-12T21:08:49.884868+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.125,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise describes a man trying to buy a replacement car from a dealer, who counts as someone. It supports 'new' as new to the man, but does not establish that the car is brand-new."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

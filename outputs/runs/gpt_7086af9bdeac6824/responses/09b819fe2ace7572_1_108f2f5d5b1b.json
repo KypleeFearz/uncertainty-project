@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138337e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c08ed306f768234d5a0e870423c5ccdee141e6a23d73cd7271b413e7e283a857",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bfa9c98adc52830016acbf6fd72b887d2b810307ffbf78b67",
+  "received_at": "2026-10-11T20:52:18.638419+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.78,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says the public cared more about empathy, not that they were more scared about it. If “scared” is a typo for “cared” and “they” refers to the public, the hypothesis would follow."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

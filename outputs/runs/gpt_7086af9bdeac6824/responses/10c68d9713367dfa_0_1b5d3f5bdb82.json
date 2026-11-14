@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143789n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec67edda916b6b86b844b6679476b3f705521e74e1b89c6196ce8f309b2f8208",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01274013d11a735a016acbe9a0846487d28bb166d57750f500",
+  "received_at": "2026-10-11T19:55:16.743549+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says the manipulator devised the metaphor to obscure his manipulations, but does not explicitly say it was meant to convince people of something. Concealment may involve persuasion, but that connection is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

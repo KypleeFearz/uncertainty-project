@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "86136e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise explicitly states that the guidelines do not apply to certain services, including therapy services, which directly supports the hypothesis that the policies are not relevant for therapy services. The main ambiguity lies in the scope of 'therapy services' and the specific context of Medicare intermediaries, but the core claim is entailed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 365,
+  "output_tokens": 137
+ },
+ "seconds": 5.99,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:46:46.623786+00:00"
+}

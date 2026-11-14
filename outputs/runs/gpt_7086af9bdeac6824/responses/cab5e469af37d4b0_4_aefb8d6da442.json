@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51353e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e5c3f0d9026dcd34d4c4bbceabb3d91afde589e2ac01b6ad1068a79affcf4334",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd2c7532993e7e2016acbeeebd3b087d2a8265cd5eb9b2467",
+  "received_at": "2026-10-11T20:17:52.009805+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Calling the idea of the devil running a corporate-law firm \"pre-chewed\" characterizes it as stale or clichéd. \"To say the least\" supports the hypothesis’s stronger description, \"extremely cliché.\""
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

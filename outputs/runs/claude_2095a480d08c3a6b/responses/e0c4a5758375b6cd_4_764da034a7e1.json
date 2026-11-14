@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3637966641.jpg#3r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d0b4e4b4b7fbfd3fcef0647f3fc259679cdf94608b187c9991bb5b4e6605c9e4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Pm5Y42WZ2kZg3UWia",
+  "received_at": "2026-10-12T21:46:19.685830+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.85,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Five boys playing baseball fits a group of young players, but nothing says it is a championship game; it could be casual play, so the premise neither confirms nor rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 774,
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

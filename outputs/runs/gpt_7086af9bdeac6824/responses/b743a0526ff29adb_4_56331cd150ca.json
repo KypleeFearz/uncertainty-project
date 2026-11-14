@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80808n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "26192a90a19609fbad8f2d73c6859d29620b48d054202d1066aedf79065331ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03a9b53bf1ac6f9d016acbf2ca82f487d2b285dfd5b7e7148a",
+  "received_at": "2026-10-11T20:34:22.022165+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The button is said to make participation easy, which suggests an interest in usability. However, the premise does not establish who 'they' are or a broader intention to make the entire site very user friendly."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

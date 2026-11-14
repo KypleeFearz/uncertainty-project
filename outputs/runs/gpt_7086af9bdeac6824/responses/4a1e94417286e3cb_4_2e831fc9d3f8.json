@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103169n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e0be15835b71bd4b3353e749da396c5cd5bc62a8ac51b796947e9b64e389ef4c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0447ad26f1cb08c5016acbe40f4dc487d2808903ee7dc8abb5",
+  "received_at": "2026-10-11T19:31:31.702431+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise explicitly describes an engineering and building task as nearly impossible. It does not establish that the task is almost impossible even for an experienced engineer."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40099c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c7e35ce15800fa3180a960c8f2c3f79ae879a820a0b8a784d2c483c2738ecab3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0daf6ae7cdb03d33016acbed5f1aac87d2a8c64ccefffd6104",
+  "received_at": "2026-10-11T20:11:14.226417+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise asks whether anyone knows what happened to chaos; it does not establish whether the speaker knows. Asking may suggest a lack of knowledge, but does not logically rule out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

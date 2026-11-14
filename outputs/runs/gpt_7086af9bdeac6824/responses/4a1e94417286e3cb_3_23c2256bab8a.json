@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103169n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1f5ef10f6f2b0cbd6cfef950613969e910239be5a23eaaedcd4a929477904c34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd00c57d2f2af37016acbe40d877487d2902814394bce5d59",
+  "received_at": "2026-10-11T19:31:29.296018+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise calls the engineering and building task nearly impossible, but does not specify its difficulty for an experienced engineer. That additional qualification is plausible rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

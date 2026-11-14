@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104755e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c5d15ed9545f263494e0d3caba61e01a73c85fc049416ab31eab600c87bf71e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9465338b8b3c35016acbe44b119487d2bb97fdd85ed5a2c1",
+  "received_at": "2026-10-11T19:32:31.134573+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says the Nileometer measured river height and helped priests time announcements of the Nile flood, supporting the hypothesis. However, predicting a flood is not explicitly distinguished from announcing one already underway."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

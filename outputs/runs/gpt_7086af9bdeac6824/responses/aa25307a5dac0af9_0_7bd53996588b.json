@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88050c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c4839de27f4c889e12246a020aecb08540230e103cd3e5ef3ed7355524ad2e88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bb66d3793022617016acbf3c36e6487d29b275ec44c4b1928",
+  "received_at": "2026-10-11T20:38:32.306860+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise lists (202) 512-8581, not the hypothesized (555) 512-8581. It does not establish whether Wray can also be reached at another number, so the hypothesis is neither supported nor explicitly ruled out."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

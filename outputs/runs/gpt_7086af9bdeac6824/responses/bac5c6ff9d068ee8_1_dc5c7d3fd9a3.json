@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100332e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "21b88e67107b3c30cf514edf2e517810208bb242186b756e20b222df97b94965",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_028f436c67fa2bbe016acd4188577087d29e3b8ef9678c3528",
+  "received_at": "2026-10-12T20:22:36.754773+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says he advocated maximizing good or benefit while minimizing harm, whereas the hypothesis says he disputed that principle. There is some ambiguity in whether “provide the most we can” means maximizing good or benefit."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

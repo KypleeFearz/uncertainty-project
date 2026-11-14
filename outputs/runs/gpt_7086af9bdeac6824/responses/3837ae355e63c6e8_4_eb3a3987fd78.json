@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125225e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eead309d20ab29df28c1ac039c0755f7570a4f1657623b99ede0ea1b62486cb0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02c952da1d038f9e016acbf67e262087d2a938d3e9e3dce010",
+  "received_at": "2026-10-11T20:50:10.412815+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise synchronizes online availability with availability to the highest-paid Washington lobbyist, not to loyalists. It neither establishes nor rules out a promise involving loyalists."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81579e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1625610b128c959dff45d4c4b28370df57a1fe2b8c0a7ff4281c68b857c5d39",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06da5bf5397fe83e016acbf2f0f12887d2a865d3002ef2e8ba",
+  "received_at": "2026-10-11T20:35:01.338509+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "“Prominent nationally known” supports “well-known.” Entailment depends on taking “All” to refer to the same identified organizations mentioned in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

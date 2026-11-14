@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77502e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be146120de2c8b163703a3217b37042e9c0a36ec703c79553bc013193877afa9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0c3a0158c0f5eb016acd47af1f0c87d2930998da1799526a",
+  "received_at": "2026-10-12T20:48:51.943613+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.83,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise establishes that the sword was unfamiliar to Ca'daan, not that Thorn's manner of holding it was unfamiliar. The hypothesis could alternatively mean holding a sword of that kind, which would favor entailment."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

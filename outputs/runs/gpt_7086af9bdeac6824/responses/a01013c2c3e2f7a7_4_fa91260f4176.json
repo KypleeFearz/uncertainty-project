@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4937650592.jpg#4r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8d6c47866cde1b820cbbb485aaf85a3b2e6ecb49625a1085583d47f6ed3e8dae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0905b22b39c72a51016acd4da77e2c87d2a1316b93c8b8acc8",
+  "received_at": "2026-10-12T21:14:19.197539+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The premise establishes that the man is riding on a racetrack, but not that he is participating in a race. He could instead be practicing or riding recreationally."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

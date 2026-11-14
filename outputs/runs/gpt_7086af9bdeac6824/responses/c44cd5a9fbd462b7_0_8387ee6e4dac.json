@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3707n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e88539a05341fbe19606d673cdb33ec5f74941483e3686e333e9ededee9d56be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5b6b5890dd2a36016acbed0420d087d29743a08d1b09083e",
+  "received_at": "2026-10-11T20:09:44.040600+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly describes the estimate as conservative, directly supporting the hypothesis. Interpreting this as lower than the actual number of cases is also consistent with that description."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100613n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0643c93544ac538740911f7ae95ac68f674d097db01ff43304967ad7a8c7054c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_041c2ec3a62547ca016acbf5338d3487d28ba8bd4a7ec10086",
+  "received_at": "2026-10-11T20:44:39.549006+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise explicitly mentions Coast Guard rules establishing bridgeopening schedules, supporting the existence of rules governing bridgeopening. Describing those rules as \"firm\" adds a small degree of interpretation."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

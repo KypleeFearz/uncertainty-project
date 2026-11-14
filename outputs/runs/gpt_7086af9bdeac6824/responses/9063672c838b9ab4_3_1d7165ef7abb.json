@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145573n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ddb2074026067998ce997e9853fdd0d26516c378e04d082dcd856c783e4122d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e45ee5dd059147016acbe9f5e24487d2855a92dfdb093cc9",
+  "received_at": "2026-10-11T19:56:41.766576+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The requirement for stealth supports remaining very quiet while tracking tigers. However, interpreting stealth as requiring a high degree of silence adds an assumption not explicitly stated in the premise."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

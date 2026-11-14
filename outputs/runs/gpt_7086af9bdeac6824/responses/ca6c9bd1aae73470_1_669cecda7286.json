@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128832c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "26627f3a7395a20ea72fb958cce353c0d1ce0e9c3e465a5eda04421979d40497",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_005ffd263770eed3016acbe74d1bdc87d286863cdc26f02650",
+  "received_at": "2026-10-11T19:45:21.560837+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.78,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "“At the pictures” most naturally describes how crooks are portrayed in films, not their attendance at a cinema. The premise does not establish whether the crooks spent the day at the movies."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

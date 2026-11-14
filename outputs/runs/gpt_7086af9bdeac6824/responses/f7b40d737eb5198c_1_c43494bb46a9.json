@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86429n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4d0a5b2085b0e10a1f4ef4048af8018674d8ba0987058e2f6d736e9073c2da4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_047fae5d6995acd1016acd4809a20487d2931dfa54a76041be",
+  "received_at": "2026-10-12T20:50:20.489642+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise describes when agencies may combine legally required analyses. It provides no information about whether agencies have gotten in trouble or how often."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

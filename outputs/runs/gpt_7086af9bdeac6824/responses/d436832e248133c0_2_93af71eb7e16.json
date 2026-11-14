@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41494n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b75bf14bc2dea5485e6adcb7847667a9a513fee62d3120f6f129cc8b5ee2412e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d44dee776541e0016acbed89e13887d2bedc23b8bf46a81f",
+  "received_at": "2026-10-11T20:11:57.964967+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise supports that the setting looks convincing, but it does not establish that anyone deliberately made sure it did. The hypothesis adds an unspecified agent and intentional effort."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

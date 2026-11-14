@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4592281294.jpg#3r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8ce89edc77c11739e84d9f9fd8a4b41b46b4dccfad4d5e572df3a702a23742b8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5acJ1DGVMdcaAjvaWi",
+  "received_at": "2026-10-12T21:48:52.543201+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.74,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says a woman smiles at a baby, but not that the baby is her child. That is a plausible but unguaranteed assumption, so the hypothesis is undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "59069c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0bf1589dd883dbe6bf7fbeaee7b2e131773b3db9a70dd1a47114fd07aef65cf3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB5PMXGujw87yCecG98",
+  "received_at": "2026-10-11T21:39:40.888350+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "\"Spooked\" means frightened, while \"spooky\" means eerie or frightening to others, so the premise does not support the hypothesis and they are likely to be seen as incompatible. Some readers may treat them as unrelated and call it neutral, especially since the premise specifies last year and \"spooky\" does not."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

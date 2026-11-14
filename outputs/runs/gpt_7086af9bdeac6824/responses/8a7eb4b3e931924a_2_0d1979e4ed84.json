@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3042381160.jpg#1r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "31fc1480c273d45ecc9f47875ca701f9895aa0643d86a34be18e0938c1ff7959",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f6c005ecfcca0c016acd4a9b7b6887d2b1463175bc99f231",
+  "received_at": "2026-10-12T21:01:20.041552+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise establishes that two people are talking, but does not specify that their conversation is about business. That topic is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

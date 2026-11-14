@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36715e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25ff27e9e9ca69f59d31ade23505d1d124fe4ad147bf82d485d40e40f6480dbf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0ac41644db60ee016acbece6814887d2b8cfa2b93b121924",
+  "received_at": "2026-10-11T20:09:15.665358+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Twisting someone's wrist ordinarily involves grabbing or holding them by the wrist. However, the premise does not explicitly establish a grab, and twisting could occur through another means."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

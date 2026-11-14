@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "61369n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6c89fe2f078d5e42fd87531d532527440583bcac17f6ffd0a79173ecb25dee46",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCk1YoAgf1C7UjrCzxQ",
+  "received_at": "2026-10-11T22:01:31.268477+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says dinghies can be hired from the listed marinas, but it says nothing about their quality, so 'excellent quality' is unsupported. The duplicated 'Akko' is a harmless typo, and 'for the marinas' is loosely equivalent to 'from the marinas'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 849,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

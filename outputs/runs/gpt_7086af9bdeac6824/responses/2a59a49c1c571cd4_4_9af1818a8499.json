@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71447e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4619d0b001065ab78aff13ca0f5a232548843945566d768632f2c5c34616bd5a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7819db52168f72016acbd93dec4c87d2a30f603409e652b3",
+  "received_at": "2026-10-11T18:45:22.322088+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly says the speaker plays softball a couple of times a year, matching the hypothesis if “they” refers to that speaker. The only notable uncertainty is the reference of “they.”"
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5262731925.jpg#3r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "06d43d9b133a95b48012340d09f65ad7facdb4f0cace14b6475e596de6aa5c4d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082c73e6e3c79029016acd4deafa1c87d2bb71f8cee3c82db6",
+  "received_at": "2026-10-12T21:15:25.988067+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.56,
+    "brief_reason": "Road construction with heavy machinery strongly suggests two people working outdoors. However, the premise does not explicitly establish that the observing man is a worker or participating in the construction."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

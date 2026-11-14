@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "6688e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "48c3b86ff871be2212fac091d765993a2984eec77e6f7196e0cf92f50bedc037",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCn1SuWhnKew3vpVsyb",
+  "received_at": "2026-10-11T22:01:57.944904+00:00",
+  "parsed": {
+    "entailment": 0.5,
+    "neutral": 0.42,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The title implies White House tapes spanning FDR to Clinton, which suggests many recordings were made there. But it does not state how many, or that they were 'taken' in the sense of recorded, so it is not strictly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

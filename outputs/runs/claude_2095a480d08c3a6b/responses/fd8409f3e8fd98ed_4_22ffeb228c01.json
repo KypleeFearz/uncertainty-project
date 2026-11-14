@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "61216c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7b5a960fad6b0eabb3ae523a99d978bc18447863594916a973107644577297e0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCjdcC5EdSytMkr8wGS",
+  "received_at": "2026-10-11T22:01:25.944405+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.2,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says packs hold only a few high-value cards, so buying them is like a lottery. That conflicts with every pack containing every rare card a kid could want."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 818,
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

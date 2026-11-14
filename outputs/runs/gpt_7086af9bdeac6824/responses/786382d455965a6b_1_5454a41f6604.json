@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120323n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4dc204ebe6fc6e854d171ef18f70873e017948799b0e7eb23f5c681b26a904cb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0589e825b46cc93a016acbe66af49887d2925cdb4d7cc43cd7",
+  "received_at": "2026-10-11T19:41:35.976989+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "Being \"set up by his host\" and then ambushed by a hostile questioner supports the interpretation that the host intends to undermine Reich. The host's motive is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

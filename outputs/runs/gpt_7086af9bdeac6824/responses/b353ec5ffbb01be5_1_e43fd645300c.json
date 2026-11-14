@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3168293517.jpg#2r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3841bb19a9a25dd2c34f6e45a5e01f4266bd47fbca5c9139d53f3f4c443e7415",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ba54b1db5b933f6016acd4ae441fc87d28ce2447a7ea27f25",
+  "received_at": "2026-10-12T21:02:30.948371+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise supports that the boy wears blue and holds a toy, but does not specify that he is carrying it to a toybox. That destination is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

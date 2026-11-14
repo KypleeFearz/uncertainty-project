@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3541474181.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "547f6af81c774a481b446b46a89f6dc6dd688e86c13ffd508bcaa1f9ace50e61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_061edd6a8684c78d016acd4b8e524487d2975de36dd9eb3aff",
+  "received_at": "2026-10-12T21:05:22.881662+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.91,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not establish that the snowboarder is a boy or that he is descending a large hill. Although “man” usually indicates an adult, the premise does not rule out a separate boy snowboarding."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

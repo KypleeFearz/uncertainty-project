@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6167795092.jpg#3r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4cdc8d5ca07be9a7bcf082936ecb059b624ea64748d387a4e9dc24775457a925",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04fc0356adb2e0f0016acd4e32d08487d2ac6a9f79c2c72e6a",
+  "received_at": "2026-10-12T21:16:37.602148+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Cyclist” ordinarily refers to someone riding a bicycle, which conflicts with the hypothesis that the rider is on a motorcycle. A broader interpretation of “cyclist” introduces some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

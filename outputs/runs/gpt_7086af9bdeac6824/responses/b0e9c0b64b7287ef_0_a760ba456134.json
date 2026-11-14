@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53723c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2fbcc6bafb3ca346e03e0681ce1411acb002f003901add8603a27172a7ddc82a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fad009690bf4e7d016acbef41ce2c87d28937fd1bebbf5061",
+  "received_at": "2026-10-11T20:19:17.911693+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.89,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.66,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise asks how someone likes something without clearly stating their attitude, so it does not establish hatred or its absence. The unpunctuated final word “well” could be a discourse marker or a positive response."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

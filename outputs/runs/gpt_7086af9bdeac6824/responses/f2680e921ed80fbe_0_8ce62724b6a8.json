@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2046222127.jpg#4r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "748ff534509ac5c601e7696a6a5b8f37f7f224958ee2cd010fc89112e222e43c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c7dd5def256f60b016acd49308c1487d2af6001455059b85d",
+  "received_at": "2026-10-12T20:55:16.981315+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the man moves a wooden structure but does not specify that it is a post. A post is compatible with the description, but identifying the structure as one requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

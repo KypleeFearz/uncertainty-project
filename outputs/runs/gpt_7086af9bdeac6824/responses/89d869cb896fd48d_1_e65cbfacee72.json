@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75471n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9e7ef9f7a9cf7929e94db8c5ada0952e118babd10e805f29488f62595aa9a56c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5394ebc591ad9d016acd4793da7887d2a2df235429602ae9",
+  "received_at": "2026-10-12T20:48:26.438234+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise advocates enhanced reporting related to key federal performance and projection information, but does not establish that either is necessary. Advocacy may suggest perceived importance, but necessity requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

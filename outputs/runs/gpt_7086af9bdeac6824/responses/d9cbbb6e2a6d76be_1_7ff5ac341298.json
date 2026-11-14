@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133075n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "03d222d35d16a64edcf006202e3d541b5c7d0556c65a3a524395f8fb2e04c45f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026df8e527ea3711016acbe827880887d2b9087c094e54f7ad",
+  "received_at": "2026-10-11T19:48:59.125948+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says the boy saluted with a stick sword, but does not establish how it was made or who made it. Hand-carving by the boy is possible but unsupported."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

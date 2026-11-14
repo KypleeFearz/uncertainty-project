@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82915n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cc1ddb4408c62c2f6f9a342daeb639f1c7a33ab7cf3c8201671d8b4395d13a38",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBeAVXtoVmpv5AJ8stf",
+  "received_at": "2026-10-11T21:47:05.030995+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.6,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "\"Starting from scratch\" often implies a fresh start, which may involve leaving things behind, but it can also mean simply beginning without prior progress or building something anew. The premise does not establish that everything was left behind, so the relationship is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 752,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

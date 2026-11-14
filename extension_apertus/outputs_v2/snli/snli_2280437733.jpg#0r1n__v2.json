@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2280437733.jpg#0r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "A life show is not necessarily a play; it could be a variety show, concert, or televised performance. The premise does not confirm nor deny a theatrical play is occurring."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 106
+ },
+ "seconds": 2.42,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:01:24.255264+00:00"
+}

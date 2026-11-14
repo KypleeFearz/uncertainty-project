@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106091e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d3561806f578cd997cb4a95c27db6fa5f8f64a619482c0a85c682bf1065b981",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_034322bb023614cf016acbe488cec887d2b5613855ea6087a8",
+  "received_at": "2026-10-11T19:33:32.849985+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.08,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The hypothesis paraphrases the speaker's opinion that this is not the time for an entrée, interpreting entrée as a main course. The principal ambiguity is that entrée can also mean a starter in some varieties of English."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

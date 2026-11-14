@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120855n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e07711b81750cb25b97e3ce8adba1b3854153d7aeb925effc9b2fed4ceda3bc7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0f617488d9124e016acbf65444e887d291ac3c075d83894f",
+  "received_at": "2026-10-11T20:49:27.578819+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.34,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise says that rights to a deck chair can be secured cheaply, not that you actually possess territory or that its extent is large. It also does not rule out your having a lot of territory."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

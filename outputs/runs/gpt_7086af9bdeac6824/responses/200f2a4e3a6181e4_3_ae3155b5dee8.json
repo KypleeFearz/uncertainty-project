@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4592281294.jpg#3r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e8673d52c057c91aa7e4fb460e2403fff5ca6b507f5c337a1535bdffa0daa1b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08508f20cca978f5016acd4cd4f99887d284c9d541a58fbc1d",
+  "received_at": "2026-10-12T21:10:48.540624+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The woman is smiling at a baby, but the premise does not establish that the baby is her child. Assuming a parent-child relationship is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

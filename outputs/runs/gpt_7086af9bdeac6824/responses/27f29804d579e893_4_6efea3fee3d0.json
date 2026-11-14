@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138563c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb8f01f70ae6e899b79d14a728a63b906c65a742f1b68c6ed2334a6a99e641f2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eb4766e0e168cef016acbe8f44a5887d2a29e5e64715a23da",
+  "received_at": "2026-10-11T19:52:24.472341+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.19,
+    "contradiction": 0.76,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Tuppence pauses to grasp the supposition fully and articulates it in a question, suggesting comprehension rather than inability to understand. The premise does not explicitly confirm that she ultimately understood it."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

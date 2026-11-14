@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82069e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f3620274189aa1886e20d9dfd235cf29f82c8d918b490ae837d38f329bc90259",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBbv16H7H47CdFDfjUn",
+  "received_at": "2026-10-11T21:46:34.676206+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.6,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise is a garbled question about whether there are enough jobs for people now, while the hypothesis asserts that jobs are easier to find now. The premise does not state that finding jobs has become easier, though it does not clearly rule it out either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110234e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5416268dc25b6d9b7e2dfa7e64e57f7b4b93a3f4cd2f3ddd7f74ab0fecb8ea5a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_062c0fb1e7bcaff6016acbf5c46e7887d2b1644a400cf3ccd1",
+  "received_at": "2026-10-11T20:47:03.533751+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Calling it \"great\" supports the positive assessment \"a nice experience.\" However, the premise does not specify what \"it\" refers to or establish that it was an experience."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

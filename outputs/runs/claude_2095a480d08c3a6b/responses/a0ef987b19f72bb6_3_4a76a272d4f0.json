@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82510e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b52fb9082ff3850a4ffd470ad7ea3ff2ed788aa40004062f54db39ad34afbed3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4g37mPv8NXZQ8hZpJo",
+  "received_at": "2026-10-12T21:36:53.920534+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.5,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says 'we almost one day we painted the house' and 'the whole inside' but left most trim unpainted, so a one-day timeframe is suggested but unclear and the house wasn't fully painted."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 874,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

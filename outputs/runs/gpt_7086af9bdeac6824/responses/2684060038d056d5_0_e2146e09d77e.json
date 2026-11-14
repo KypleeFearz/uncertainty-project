@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3541474181.jpg#4r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6f9445e11617908b4a519353f433e57693bfd4fc5f0bcf304f43b2321ed39314",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bcea68b69ecb6f8016acd4b8e1e5087d29f2e3f582d95216f",
+  "received_at": "2026-10-12T21:05:22.510361+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.79,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise does not specify a large hill or establish that the snowboarder is a boy. If both descriptions refer to the same person and 'man' means an adult, the age descriptions conflict; otherwise, the hypothesis is not ruled out."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

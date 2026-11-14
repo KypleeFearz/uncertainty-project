@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66689c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f9d54ea4064714c84336bd8ed6c4a73f5c0f540651f2da37d966d7d8dfb2780",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02564f266ba09c9c016acd4724a0dc87d283b1d5e0c4dd784d",
+  "received_at": "2026-10-12T20:46:33.457193+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise attributes issuance of the guidance in Memorandum M0010 to OMB, whereas the hypothesis attributes the memorandum to INS. This conflicts with the ordinary reading that OMB issued the memorandum."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

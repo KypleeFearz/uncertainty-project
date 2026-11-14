@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13607n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b60639f6ef7265be957349076c1ad7ebaafde5349829b40d2c9bfde575666aa5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c0b0e4027466cc016acd4384c55887d2a366ca6ece59564c",
+  "received_at": "2026-10-12T20:31:05.446109+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The speaker says it is their turn and that they can make their way afresh, supporting the idea of changing things for themselves. The hypothesis broadly paraphrases this figurative statement."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

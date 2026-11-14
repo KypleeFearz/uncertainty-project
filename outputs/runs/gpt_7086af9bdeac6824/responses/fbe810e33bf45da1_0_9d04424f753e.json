@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54383c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4fd54e6af3244b033bb97ceb8d912634654ce54ee2d66dac3227851251e86788",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0884cf9d9556b232016acbf90f59c887d2a6ae9af34ac1b3e2",
+  "received_at": "2026-10-11T21:01:07.810133+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.65,
+    "contradiction": 0.34,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise establishes knowledge about the Simulacra, but does not establish whether “Sims” refers to the same thing. If it does, the hypothesis contradicts the premise; otherwise, his knowledge about Sims is unspecified."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

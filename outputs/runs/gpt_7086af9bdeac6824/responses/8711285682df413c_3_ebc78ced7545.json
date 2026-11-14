@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49807n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3fb23cd7cc220f39d14043b0a46a71c6e4b5863c4dfae0353642efc7b61c54bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039ec4e4c917ce8a016acbeed0d38087d294570c3f0a2b1036",
+  "received_at": "2026-10-11T20:17:24.739837+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“The next year” identifies when the palace was built, not how long construction took. Even assuming “Lolani” refers to Iolani, the premise does not establish a one-year construction duration."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

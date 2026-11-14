@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80643e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "99ced00e7d142cb270fef467befbc26a5957baf339d4d0fc1a441d0dcac98d2b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a21b32aa3d5ee6d016acbf2bf5ce487d2827ec244d2f76f35",
+  "received_at": "2026-10-11T20:34:12.760094+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Dole's statement that Clinton had no basis for withholding the memo supports denying his claim of executive privilege in that case. If the hypothesis means Clinton had no right to any privilege whatsoever, that broader claim is not established."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 600
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4876504906.jpg#4r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f9942b735290a9667b92953192a08244b398e5cf83a17baba09b33bafeb0b0fc",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5izEb1LWYqjXLJR8un",
+  "received_at": "2026-10-12T21:50:40.580623+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.37,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Smoking a cigarette usually involves inhaling, so the hypothesis is likely, but the premise could describe holding a lit cigarette without drawing smoke in."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

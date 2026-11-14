@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "58357c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "aa575dd6289b0bb42e8f18fe470a83ac76caab9c1138abb9f62dacd6862db32c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4TpVunXqspN8eVhXiF",
+  "received_at": "2026-10-12T21:34:07.886085+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.68,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a question that asserts nothing, so it neither supports nor rules out the hypothesis. A question can presuppose that something changed, which gives some contradiction reading, and what 'changed' refers to is unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 746,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

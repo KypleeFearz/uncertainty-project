@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42983c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "02fef104a32f0245e0e05de564a1e67d720086a04efb28c04b73a6f56521a36b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_032ce4e5215bb472016acbedce970c87d2af83f5ff513bd360",
+  "received_at": "2026-10-11T20:13:05.603791+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The town is known for sparkling wine, which conflicts with the claim that it only makes red wine under the ordinary reading. Strictly, being known for a wine does not explicitly establish its production, and sparkling wine can sometimes be red."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

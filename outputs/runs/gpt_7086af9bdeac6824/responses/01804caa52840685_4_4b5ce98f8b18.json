@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145846e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "219effc3d69bdf4d7f2951fff0eb7430ef3804231e90be3fc4f3795618211422",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f7c5c7dddd908c8016acd4426c3dc87d28f98de114c3ff335",
+  "received_at": "2026-10-12T20:33:47.390256+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise explicitly identifies a condition that would improve the current account balance, supporting the possibility of improvement. It does not specify the size of that improvement, so “slightly” adds an unsupported degree."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61524e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ec9df5bae02455b8e1676a854b3635202ebeda91dab6a073b3f960ca2acec17",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcef0044a989f4d016acbf04c547087d2bc1188e93be750c1",
+  "received_at": "2026-10-11T20:23:45.156125+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "“Wrap-up” commonly denotes concluding remarks, supporting “Randy's Conclusions.” However, an anecdotal wrap-up could be a closing summary without explicit conclusions."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

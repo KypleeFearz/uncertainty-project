@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4920970731.jpg#3r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a0d2d0ca24e34e0716bca426d497f06bc1073f64f848018a5485c9003fe04473",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e4147a132d57a4016acd4d9f314887d2a04afa6c068d7c6a",
+  "received_at": "2026-10-12T21:14:09.708189+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes a girl and her boyfriend sitting on stone steps but does not say whether they are kissing. Sitting together neither establishes nor rules out kissing."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

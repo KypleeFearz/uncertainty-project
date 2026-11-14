@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3632197966.jpg#3r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.1,
+  "neutral": 0.8,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.3,
+  "brief_reason": "The premise only states that a motorcyclist is racing on a course, providing no details about a man, chasers, or direction of travel. The hypothesis adds many specific, unsupported details, making it neither clearly entailed nor contradicted, but largely neutral due to missing information."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 130
+ },
+ "seconds": 2.91,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:23:59.974970+00:00"
+}

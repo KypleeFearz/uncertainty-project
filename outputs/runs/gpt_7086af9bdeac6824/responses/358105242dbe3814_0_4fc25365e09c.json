@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72019n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5650f2186893f44bfe2fc5002715bc1a40a7bfab59ca3f2f8c162d85886a605",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0026a5212413062f016acbf1840c5087d2b3eea4b9ad45294d",
+  "received_at": "2026-10-11T20:28:57.068691+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.085,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The hypothesis appears to paraphrase the heading as a period extending from the Palestinian uprising to the present. Its incomplete grammar and the unspecified intifada introduce some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

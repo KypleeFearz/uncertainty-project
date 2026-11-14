@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122020n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61da29d8cc3f209c3985cc536dcbe807c34d3f3e325a964e382f6228583e6344",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7054c70637e472016acd42a4441887d2bcb13ecb6f5e00bc",
+  "received_at": "2026-10-12T20:27:19.917726+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise concerns avoiding an unpresidential appearance, which does not necessarily mean avoiding unpresidential behavior. It also does not establish that the four years were torturous or that Clinton only finally understood after that period."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

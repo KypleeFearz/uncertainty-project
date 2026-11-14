@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "114492e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ca151df75dce7c13e1f4f0d152e87dc51cf34f74140d41da46c80474aceacfab",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3f7kBFR3PNvMELAufp",
+  "received_at": "2026-10-12T21:23:33.988972+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says 'the same is true of the drug hangover', which suggests a comparison, but the referent of 'the same' is unclear and the utterance is cut off. The hypothesis 'just like a drug hangover' may or may not match that comparison."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

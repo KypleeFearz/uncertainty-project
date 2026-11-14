@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "133842n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dc076945eee05619628823e66ddd9e6ac03b8180c9066fe21e632c721a77951c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9i7jU96AtEa6iZF5bK",
+  "received_at": "2026-10-11T21:21:46.452405+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.45,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Getting up at five and going to bed at ten or eleven implies about six to seven hours of sleep, which the speaker says they could handle. But the exact amount of sleep is not stated, and 'every night' is an extrapolation."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

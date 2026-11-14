@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "134514n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7e0828106c3983bc133f471980a8c7497aba87b3db733d362448c3e668810351",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCJYJ1cACtSQEyy3grq",
+  "received_at": "2026-10-11T21:55:45.743191+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.15,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says co-requesters cannot restrict the timing of the product's release, and the hypothesis restates this with 'They' most likely referring to co-requesters. The only doubt is that 'They' has no explicit referent and the premise adds 'after it is issued'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

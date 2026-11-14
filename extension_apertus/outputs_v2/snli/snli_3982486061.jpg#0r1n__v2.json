@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3982486061.jpg#0r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise describes a boy diving to get a red flag while another holds the football, which matches the hypothesis that a boy dives to get the flag to end the game. The inference that the dive is to end the game is a reasonable assumption based on flag football rules, though not explicitly stated."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 366,
+  "output_tokens": 134
+ },
+ "seconds": 2.76,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:27:56.427620+00:00"
+}

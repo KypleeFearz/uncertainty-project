@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57163c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "850a56f983c683abcbdd048f60f13ede6884f67e0c9d14cc2c2cdc8f8314e3ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07315a5445a585ba016acbf939f60087d291a2c962dc4c49cb",
+  "received_at": "2026-10-11T21:01:50.668239+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says documenting judgments can be harder than documenting nonjudgmental information, but does not establish a universal difficulty ranking. It therefore neither supports nor rules out the reverse comparison in other circumstances."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 590
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

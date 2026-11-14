@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78660e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3eaec084befd64603fdb48098047756d5226c74f3ca20717e4bb1b74e4aff2db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d453f341dbb2fb016acbf9eb0fa887d284f1ad9e7c9ba32d",
+  "received_at": "2026-10-11T21:04:47.226271+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says an unspecified place or service is closed on the Sabbath, not that the Sabbath itself is closed. The hypothesis could instead refer to a place named Sabbath, but that reference is not established."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

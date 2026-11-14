@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10015e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1750f5a2ae9fc7472b45d824fd5d6b00066feddc95f4f1f5763b11c3c7a78312",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009cc15fb56a6f02016acbf508fb0487d2a50435fbea79d56e",
+  "received_at": "2026-10-11T20:43:55.981573+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The question naturally conveys uncertainty about what to do with them afterwards. However, it could be rhetorical, and the premise does not explicitly identify its speaker as the narrator."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

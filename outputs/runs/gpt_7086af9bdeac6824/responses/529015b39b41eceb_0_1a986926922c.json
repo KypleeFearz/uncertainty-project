@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62177e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f1eea0ec9e980cb9c9c88eb819f937f59dc242fd9c703dd8097a73a76e086cff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a049a3b1de6efd016acbf06fae5887d2b7a1ef1f8da970c0",
+  "received_at": "2026-10-11T20:24:21.615866+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise contrasts potentially recoverable stock shares with worthless options; it does not clearly assert that particular shares can never recover. The hypothesis’s reference to “those shares” is also unclear."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 222,
+    "output_tokens_details": {
+      "reasoning_tokens": 119
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

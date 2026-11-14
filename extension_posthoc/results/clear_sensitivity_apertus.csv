@@ -1,0 +1,31 @@
+split,assessor,target,definition,clear_cases,deviations,quantity,estimate,ci_95_low,ci_95_high
+test,gpt,apertus,frozen entropy definition,85,19,auroc_clear_case_risk_tree,0.35207336523126,0.22871336313959262,0.49663130440348174
+test,gpt,apertus,frozen entropy definition,85,19,auroc_raw_confidence,0.5526315789473684,0.372463921901528,0.7282225738396623
+test,gpt,apertus,majority at least 0.80,50,9,auroc_clear_case_risk_tree,0.3617886178861789,0.1364631873252563,0.6221114639037433
+test,gpt,apertus,majority at least 0.80,50,9,auroc_raw_confidence,0.5149051490514905,0.20279411764705885,0.8240887650085764
+test,,apertus,frozen entropy definition,85,19,profile_model_E_humans_N,6.0,,
+test,,apertus,frozen entropy definition,85,19,profile_model_N_humans_E,3.0,,
+test,,apertus,frozen entropy definition,85,19,profile_model_C_humans_E,2.0,,
+test,,apertus,frozen entropy definition,85,19,profile_model_C_humans_N,8.0,,
+test,,apertus,majority at least 0.80,50,9,profile_model_E_humans_N,2.0,,
+test,,apertus,majority at least 0.80,50,9,profile_model_N_humans_E,2.0,,
+test,,apertus,majority at least 0.80,50,9,profile_model_C_humans_N,5.0,,
+test,claude,apertus,frozen entropy definition,85,19,auroc_clear_case_risk_tree,0.6710526315789473,0.5228334065290587,0.7949053324182382
+test,claude,apertus,frozen entropy definition,85,19,auroc_raw_confidence,0.5526315789473684,0.372463921901528,0.7282225738396623
+test,claude,apertus,majority at least 0.80,50,9,auroc_clear_case_risk_tree,0.6300813008130082,0.3867118768328446,0.8444800135501355
+test,claude,apertus,majority at least 0.80,50,9,auroc_raw_confidence,0.5149051490514905,0.20279411764705885,0.8240887650085764
+shift,gpt,apertus,frozen entropy definition,213,78,auroc_clear_case_risk_tree,0.23266856600189934,0.1744858875779617,0.29751497854899
+shift,gpt,apertus,frozen entropy definition,213,78,auroc_raw_confidence,0.5955840455840455,0.5202091335894153,0.6723119765290222
+shift,gpt,apertus,majority at least 0.80,144,38,auroc_clear_case_risk_tree,0.19538232373386297,0.13499037366815606,0.2592028725033601
+shift,gpt,apertus,majority at least 0.80,144,38,auroc_raw_confidence,0.5959533267130089,0.4982853053946804,0.6957330729166666
+shift,,apertus,frozen entropy definition,213,78,profile_model_E_humans_N,52.0,,
+shift,,apertus,frozen entropy definition,213,78,profile_model_E_humans_C,1.0,,
+shift,,apertus,frozen entropy definition,213,78,profile_model_N_humans_C,4.0,,
+shift,,apertus,frozen entropy definition,213,78,profile_model_C_humans_N,21.0,,
+shift,,apertus,majority at least 0.80,144,38,profile_model_E_humans_N,25.0,,
+shift,,apertus,majority at least 0.80,144,38,profile_model_N_humans_C,1.0,,
+shift,,apertus,majority at least 0.80,144,38,profile_model_C_humans_N,12.0,,
+shift,claude,apertus,frozen entropy definition,213,78,auroc_clear_case_risk_tree,0.5250712250712251,0.4465733840038536,0.5968145592279964
+shift,claude,apertus,frozen entropy definition,213,78,auroc_raw_confidence,0.5955840455840455,0.5202091335894153,0.6723119765290222
+shift,claude,apertus,majority at least 0.80,144,38,auroc_clear_case_risk_tree,0.5004965243296922,0.3983150720243828,0.6010152672049138
+shift,claude,apertus,majority at least 0.80,144,38,auroc_raw_confidence,0.5959533267130089,0.4982853053946804,0.6957330729166666

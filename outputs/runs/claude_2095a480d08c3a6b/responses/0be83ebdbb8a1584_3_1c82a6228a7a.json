@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "66225e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "08dcdd1e640d1473f50b7ab0accf5b4289647df3565c627e9b4452ce40ef71dd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBFDcR7ycgKAK1yvueg",
+  "received_at": "2026-10-11T21:41:53.715267+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.07,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The speaker says they advertised buying wheat pennies, not selling them, so the hypothesis reverses the direction of the transaction. A small chance remains that they also sold some, but the premise does not say so."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

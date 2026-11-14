@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116059n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3d8fe42b66ccd2a259e8e78df4d234f9204b8e0bd5a5d2618a4ca4493af11d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d51936c028c137016acbe5b3a35487d286d73c17667254f4",
+  "received_at": "2026-10-11T19:38:33.198571+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Reduced journalistic license suggests that writers must be more careful and factual. However, the premise does not specify whether the restricted license concerns factual accuracy, style, or some other freedom."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

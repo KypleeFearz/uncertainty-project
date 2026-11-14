@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45298e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "accd3661756b2b6569daf3aa5c8a777aedf478bf47c7ba9129d38ce222757b1f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0962798e7e26bad6016acbd9159ff887d2a28921db906c7292",
+  "received_at": "2026-10-11T18:44:40.832690+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says the book is sturdier than it appears, not that it is great overall. Even if “sturdier” refers to literary substance rather than physical durability, greatness is not established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51356n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3497bc7740be73cab9e5ae593c0e169c02881e3afb06c70d13c9b6b5920d84af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a4e95ea8798c48016acd46417c5887d2bd336c29aa47aaa2",
+  "received_at": "2026-10-12T20:42:45.970011+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise states what happens to U-Turn and Devil's Advocate if Washington Square is underripe. It says nothing about whether Washington Square is sunny when overripe."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

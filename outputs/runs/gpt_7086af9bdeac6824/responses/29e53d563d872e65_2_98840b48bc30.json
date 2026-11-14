@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117894n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "960888127ded376c36d5db2b976029d1f35e969e16fae400062da82ffe4dd4e9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0024c4a4f263e3a8016acbe60bdf8887d289756ff67f4a02ad",
+  "received_at": "2026-10-11T19:39:59.835973+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "Denying that something was said does not establish that it was never implied. Also, “mandrake-man” and “mandrake” are not necessarily equivalent descriptions."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

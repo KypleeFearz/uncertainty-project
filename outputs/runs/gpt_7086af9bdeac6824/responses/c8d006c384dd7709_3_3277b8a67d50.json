@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4578161441.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd703052f116b29cb7bcb272e432b2d55bcd6410f7a1970217e4e29d08d63d7c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b42eaa05bbae21016acd4cd058f087d28c4e2226ae7475bf",
+  "received_at": "2026-10-12T21:10:43.220841+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise describes a boy looking out of a wooden enclosure but does not establish that it has bars or that he is waiting for a captor. Captivity and his purpose are unsupported assumptions."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "130315n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.3,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise is grammatically unclear and does not assert that Indian foods are kosher; the hypothesis makes a positive claim that is not supported by the premise, but the premise also does not explicitly deny it, leaving the relationship uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 117
+ },
+ "seconds": 2.62,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:57:48.715768+00:00"
+}

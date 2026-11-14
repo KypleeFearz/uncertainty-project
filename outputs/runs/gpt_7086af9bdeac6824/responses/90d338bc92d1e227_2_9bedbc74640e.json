@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4534889800.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12bb8570bcd9120345da811f250f125d2aac63f2e0c6fc2b7219a93e92c302d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_031e9ed0ace6e256016acd4cb64adc87d2a164450116cfcf10",
+  "received_at": "2026-10-12T21:10:18.234203+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "The premise describes two men and their actions but does not establish that either is a waiter or customer, that cleaning occurred, or that the departing man is the last customer. These details are possible interpretations rather than supported facts."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

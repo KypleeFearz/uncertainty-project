@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "86184c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9de710711fcaaa680ef0aa6bdeb54f21ce379a13aafbcd0a1c3fb947b43853ba",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCvxHuBA9xS62W2JLH9",
+  "received_at": "2026-10-11T22:03:59.460334+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Gingrich may have positioned himself to fill the role, which suggests he could fill it, while the hypothesis flatly denies it. The premise is only a possibility, so it does not fully rule out the hypothesis, and some readers would call the pair neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

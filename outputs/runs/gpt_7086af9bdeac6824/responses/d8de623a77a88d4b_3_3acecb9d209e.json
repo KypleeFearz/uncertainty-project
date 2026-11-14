@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88210e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "57b3ba3be9448004c126ec05f6f46e330982c31f23f69161473096df7a020a3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b821113fd3c13c2016acbf3da877c87d288f2429780d9a2aa",
+  "received_at": "2026-10-11T20:38:55.188983+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Calling them \"good\" does not establish the stronger evaluation \"excellent,\" but it does not rule it out. The degree of praise conveyed by \"good\" can vary with context."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

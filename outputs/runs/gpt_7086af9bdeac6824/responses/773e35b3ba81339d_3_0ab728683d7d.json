@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103400e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a87bb9ec4f037682aeee67acbda9791b2d65c43a5dd1e409f8df6f416550169",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0070e8263bb76773016acbe413bf9c87d286777155cffa3cb0",
+  "received_at": "2026-10-11T19:31:36.372159+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.79,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.64,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says a temple to Jupiter occupied the site before Saint-Etienne was built, not that the church itself had a temple. Reading \"had\" as referring to the site's earlier history could instead make the hypothesis seem supported."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

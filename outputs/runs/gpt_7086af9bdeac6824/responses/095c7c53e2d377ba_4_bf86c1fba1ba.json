@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139836n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4cfafb2806dbb4cb8fd157fc05208c83bc377a1aaae4e1eed40668b62e3b866",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f420186f82221f5016acbe935276487d2a8a0428d2e18d8e2",
+  "received_at": "2026-10-11T19:53:29.450561+00:00",
+  "parsed": {
+    "entailment": 0.89,
+    "neutral": 0.1,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Calling centralization “dear to” Louis XIV supports that he cared strongly about it. The hypothesis adds that this concerned his country and people, a plausible but unstated specification."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

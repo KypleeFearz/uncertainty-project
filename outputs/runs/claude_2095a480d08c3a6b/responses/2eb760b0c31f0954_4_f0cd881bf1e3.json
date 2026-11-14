@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "129601n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6fd6c87b2787505533232e4fb8b1fbb39c9f7912c31890409f37fbf4a79cd6b0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfvwu9JscZGnTBfv9kPtT",
+  "received_at": "2026-10-11T18:46:52.172387+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.82,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Took forever\" is a hyperbolic complaint about an unspecified event, so it does not establish a two-year duration, nor does it rule one out. The referent and the actual length are both unknown."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 760,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

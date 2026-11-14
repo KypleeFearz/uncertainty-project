@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135898c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0d1805e9ff01407efe604122d388059c087dcffdc03aba70424454a91fed9d00",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02b1e8491862c674016acbe880c1ac87d2be76da0679f7fd97",
+  "received_at": "2026-10-11T19:50:29.413458+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise indicates that Hanson had been looking at the gears, but it does not say he whispered or declared that everything was over. The speaker of “The end is near!” is unspecified, and that statement does not establish the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

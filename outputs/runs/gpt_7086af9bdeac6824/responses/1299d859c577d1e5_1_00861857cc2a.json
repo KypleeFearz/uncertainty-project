@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27076c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "036e1efc0cdf79de70c00425d725162535c78d31ebf271248570481ba82d8110",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b21cb45a59f9323016acbebb0c14887d28b5a8226d9e43f04",
+  "received_at": "2026-10-11T20:04:04.743362+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.78,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The question asks why a lookalike is not acceptable to others, without establishing that the lookalike is actually good enough. It could rhetorically suggest adequacy, but that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

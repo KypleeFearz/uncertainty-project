@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103559e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f389456bdcd7de14a97e1a5547d405268c7bf12b9207c3e7dc5b75d5c4fecc7e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_048194d6ebc9b3b7016acbe42c7eac87d2953d1306826c4fa1",
+  "received_at": "2026-10-11T19:32:00.900693+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.62,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise recommends gin and vermouth as ingredients, but “should” does not necessarily establish the stronger requirement expressed by “must.” The hypothesis does not explicitly exclude the twist."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

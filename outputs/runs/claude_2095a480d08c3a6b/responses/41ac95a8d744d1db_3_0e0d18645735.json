@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "66225n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "709d4ad22357fb93f7e16ea5bcef32fd1ff337e7c7f8a576e181b2a98e3808b7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBFP7R7BhNXdPtwDaMB",
+  "received_at": "2026-10-11T21:41:55.646483+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.35,
+    "contradiction": 0.62,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker advertised buying wheat pennies and paid two cents each, which he calls overpriced, so he was buying rather than selling and probably not profiting. The hypothesis is likely contradicted, though the premise does not say explicitly that he made no money."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

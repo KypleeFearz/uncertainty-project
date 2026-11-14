@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102817e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3ba0e776d562e531003ecba85de34ad32f05b71c78f97ec57e5cbe092dd391de",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvqcWD3uFJfjQ8TcqWRB",
+  "received_at": "2026-10-11T17:24:29.465249+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says the next generation would have it 'so much better' if this generation avoided debt, though 'wouldn't be perfect' tempers 'great'. The hypothesis is a mild overstatement of the speaker's view, so it is mostly entailed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1034,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

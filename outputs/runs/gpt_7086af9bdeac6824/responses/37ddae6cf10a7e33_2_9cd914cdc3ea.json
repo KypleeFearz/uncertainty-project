@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36480n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "acc36803df81a452431cca355ab6502d0de3b026bcd502183c852b667229a934",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09081a9c40cbde9c016acbecd3578887d2aba68545572744f8",
+  "received_at": "2026-10-11T20:08:54.953458+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says they avoided child care and could be home together, but does not say this was a good thing or that they spent more time with their child. Those additions require assumptions about who was together and the benefits of the arrangement."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

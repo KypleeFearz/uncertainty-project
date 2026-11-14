@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "121910e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "04f4386501e6721925bbcd45bbd634b93bfdd9d433dc628c6121516bde045d6f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3j5EEnxB7w8kfrMYKv",
+  "received_at": "2026-10-12T21:24:28.273338+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.2,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says that even if the writings are romanticized, they still offer a more precise picture of Indo-Aryan society, which conflicts with the claim that they show no accurate picture. The conditional framing and the comparative 'more precise' leave some room for doubt, so it is not a certain contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

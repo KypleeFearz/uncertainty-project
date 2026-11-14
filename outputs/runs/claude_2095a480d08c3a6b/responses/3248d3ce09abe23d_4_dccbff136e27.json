@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "62177n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b601c62cdddc531cf12a970123810736dcbbdd5e33f46cd0904a83e33ead06d9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB9wmXcyKV44VuobMWg",
+  "received_at": "2026-10-11T21:40:41.875871+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.4,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says there are no shares that might come back, only worthless options, and compares them to Cook's shares; it gives no causal link to Cook's alliance. The hypothesis asserts a causal 'because of' claim, which the premise does not support, though it does not clearly rule it out either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2214n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0482ad9e4738981aac3a2154eda06984856f8f73f326c81c5170b16af06a3484",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07abe934d169034a016acd44853b4487d2a8b1e158cd97bd8d",
+  "received_at": "2026-10-12T20:35:20.205566+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise states where the documentation is available but does not specify whether viewing it costs money. Free access may be plausible for an EPA website, but it is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37660c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "434644779ae7103297f61aa40e95f2dc219d64445fca6ab992628e3cb7c50b1d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_019b74d744701b02016acbed16e70087d2a9c82c651443f958",
+  "received_at": "2026-10-11T20:10:02.556886+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise criticizes the paper for ignoring journalists' potential conflicts of interest but does not specify whether it employs journalists. Assuming it has journalist employees is plausible, not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

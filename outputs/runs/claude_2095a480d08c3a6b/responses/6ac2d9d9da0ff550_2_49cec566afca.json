@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "133433e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4d6a5c6ded89272f71063f3df7ac53317a3d6dbe43b71482b4b4d35a21fd4654",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9hMHGjua8qQgVxMUwy",
+  "received_at": "2026-10-11T21:21:34.525685+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a title-like phrase about decline and decadence, and the hypothesis 'Poor and rich' is only loosely related by theme. Neither supports nor rules out the other, so neutral is most likely, though 'decline' and 'decadence' are vague enough to allow other readings."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

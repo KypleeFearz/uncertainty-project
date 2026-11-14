@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2046222127.jpg#4r1e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "748ff534509ac5c601e7696a6a5b8f37f7f224958ee2cd010fc89112e222e43c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4vLUBsANiw2DiMwVEM",
+  "received_at": "2026-10-12T21:40:07.800487+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "A wooden structure is not necessarily a wooden post, so the hypothesis is plausible but not guaranteed. The definite 'the' and the vague terms 'structure' and 'post' leave room for different readings."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

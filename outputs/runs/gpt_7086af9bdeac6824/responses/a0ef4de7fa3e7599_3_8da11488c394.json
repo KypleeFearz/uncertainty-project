@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3474176841.jpg#3r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e083a23d6274b08d4ebb9369a876e8c32f3a52c698135f525bfe1e167b101f0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6097c614ce1378016acd4b7b4e1c87d28a26ea11e1c3fa0d",
+  "received_at": "2026-10-12T21:05:03.082738+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "A cyclist riding down a mountain supports that the person is riding a bike. The pronoun \"he\" presumably refers to the cyclist, though the premise does not specify gender."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97624n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7abc5f5f5c65b78a6333802312dd920759cef8fc7038d34f1165222c55f65e25",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0409823dc5afbbf3016acbf4e048e087d2b1ee673e1b4a45af",
+  "received_at": "2026-10-11T20:43:16.932058+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The premise attributes significant foreign-policy advantages over the US to China's current leaders, supporting the hypothesis's broad comparison. However, having advantages does not strictly establish better overall foreign-policy performance."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

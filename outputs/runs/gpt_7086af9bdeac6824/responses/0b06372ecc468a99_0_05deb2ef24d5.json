@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9022c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cabd65dfa8b69284a3852e8b5125684428a944247a0aabeb816c164a136a2506",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5dec2025d3e8e3016acbfaace68887d2a37362c153af376e",
+  "received_at": "2026-10-11T21:08:00.794541+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise predicts that another person will return to work after a minor leg wound; the hypothesis concerns the speaker's own legs never healing. The premise establishes neither that claim nor its negation."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

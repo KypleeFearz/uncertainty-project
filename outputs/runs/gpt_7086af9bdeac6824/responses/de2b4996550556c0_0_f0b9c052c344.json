@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141321n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd0de92fc881094ed8764ede7ca35d729acff55599f5d0e4ad1d8130da16a136",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dba97a4b9df3b2e016acd43de343887d2a9cb754b1506b1cb",
+  "received_at": "2026-10-12T20:32:33.359820+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise places the show in the Maryland woods, which are south of Boston, not north of it."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 16
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

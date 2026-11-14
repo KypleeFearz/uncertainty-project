@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3045600419.jpg#0r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "538f482907f6b936604ebc5408f59c40a87ad3959b028d1077b0a8b48d37ebb5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5BdXHHRdiJAc2rpXju",
+  "received_at": "2026-10-12T21:43:34.674655+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.8,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says a lady vendor sells goods, but not that they are roses. It also doesn't say the man on the post is a police officer, or that the two men are shopping, so the hypothesis adds unsupported details."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

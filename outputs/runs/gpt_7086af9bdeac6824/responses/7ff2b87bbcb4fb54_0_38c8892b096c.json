@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5507n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a980d9acdb6c45de696e44b88754a9a97010290ffb12630437810d5d91d74633",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf3a629b15b0b83016acbf924a89887d2a50fb836711ed645",
+  "received_at": "2026-10-11T21:01:28.720572+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.91,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise describes a coalition involving the Christian Democrats that produced several years of stability, but does not say whether they subsequently retained or lost power. A limited period of stability does not establish an inability to maintain power."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

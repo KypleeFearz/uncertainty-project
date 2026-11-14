@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109443n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f871c3614909918db70923a4577a561d492d7ff304cb52ca551f3aa49de79c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02cf678a8a03be10016acbe4e7362c87d2ac2a5543a3481df6",
+  "received_at": "2026-10-11T19:35:08.935790+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "If “Waterloo” denotes the historical battle, it supports the description “the defeat of Napoleon.” If it denotes a place or a figurative defeat, that description is not established."
+  },
+  "usage": {
+    "input_tokens": 357,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

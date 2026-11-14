@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31775c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "99ad5553b80094baa2156b210090b894a2d529cdeee8e36646e886a078d992cc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0076f0131d277f33016acbf80043c887d2aae82b7386e5a68f",
+  "received_at": "2026-10-11T20:56:36.233880+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise asks which station plays an unspecified type of music; it does not establish anything about TV documentaries or space travel. 'Station' could refer to different broadcast media, and 'that type of music' has no specified referent."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

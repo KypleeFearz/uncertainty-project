@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4733464337.jpg#2r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1feca11d8a3c5ebe580d24a7c86938a3c316d9df1f63ad8556f7dedc4ea3d75e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02947668d7d14b51016acd4d259f3c87d29a3b7adba4a3156f",
+  "received_at": "2026-10-12T21:12:08.676486+00:00",
+  "parsed": {
+    "entailment": 0.64,
+    "neutral": 0.35,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The building and buses suggest an urban setting, supporting the hypothesis. However, these features could also occur outside a city, so the location is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35290n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "711d00674a17ecec89e14d7a17e0b9ed2665ff2eed4242e78739437f5d630aa5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039f0234db198f3d016acd453ce1e087d29bd4fd9856d5b1bf",
+  "received_at": "2026-10-12T20:38:25.970209+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise identifies two ways to put Emily out of the way, but does not establish that there are many. An entailment reading depends on interpreting “many” loosely or assuming further methods exist."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

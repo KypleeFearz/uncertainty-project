@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26443c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "99d3b4436e830cd3256f23f0d5b1c4fc421030db7a17d9c44f99cf93507b7d88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06f12514d654026f016acbeb90bfa487d287d82bf33b07698c",
+  "received_at": "2026-10-11T20:03:32.134206+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise contrasts Dior-era sloping shoulders with the vigorous shoulder padding of the preceding Joan Crawford/Rosalind Russell period. The hypothesis instead attributes thick, heavy shoulder pads to Dior, reversing that contrast."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

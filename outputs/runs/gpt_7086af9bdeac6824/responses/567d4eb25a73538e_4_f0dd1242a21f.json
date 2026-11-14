@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79507e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15bf2d0871a864622f16ed89f8d03f6d255cd5f4b02ed94cc34b92b7633c94fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1d0722307874d0016acbf291e77087d284f2cd7f7880f74d",
+  "received_at": "2026-10-11T20:33:26.384472+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.88,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise presents alignment as necessary to support the mission and help achieve goals, not as sufficient to guarantee success. The hypothesis adds that stronger claim, which the premise neither establishes nor rules out."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

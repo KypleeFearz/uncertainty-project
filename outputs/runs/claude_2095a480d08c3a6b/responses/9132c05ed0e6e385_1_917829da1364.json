@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "58357c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "95c50516897c0163ccbc8cfdd4f5f106a653acdb779d7d8a8053cdc8c106ea62",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4TqQExAumyxJd12qDP",
+  "received_at": "2026-10-12T21:34:07.696971+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.9,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is only a question and asserts nothing about whether anything changed. The hypothesis is therefore neither supported nor ruled out, though the question may weakly suggest that something changed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

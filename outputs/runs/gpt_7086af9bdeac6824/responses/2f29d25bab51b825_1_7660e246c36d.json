@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29632n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a82f7c78e5293289381dccfd3a77bc67bba79a71782e8ef0d6fc513ea4ae9409",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029cc234a72b2b5f016acd44f1239087d286cd5bcb2298ff89",
+  "received_at": "2026-10-12T20:37:10.360725+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "“Fiscal housecleaning” suggests financial problems requiring reform, but these could involve debt, taxation, or budgeting rather than extensive wasteful spending. The hypothesis is plausible but not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

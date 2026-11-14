@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3789378919.jpg#4r1e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "50f7e7110348fb7328cf8c091644062b82d094c8a3a5210e05b5fb2b7da58906",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5RpaRtx7Ss97hQJGMz",
+  "received_at": "2026-10-12T21:46:47.291996+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.45,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "People waiting in line at a stop suggests the bus has not yet arrived or loaded, which makes the hypothesis unlikely but not strictly ruled out. Some could read it as neutral since a bus may already hold passengers while others queue."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

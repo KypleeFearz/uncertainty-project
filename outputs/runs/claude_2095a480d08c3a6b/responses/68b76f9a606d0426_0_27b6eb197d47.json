@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102817c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "020620582d726fb174c9f6296db48257a4e583e41e5c1c8d67d7947ca58214af",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8z4rQRw6XPgpzKE9ot",
+  "received_at": "2026-10-11T21:12:14.552849+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker describes a hypothetical in which their generation avoids debt ('if we lived our lives and didn't become indebted'), which implies their generation is indebted. The claim that it has no debt therefore conflicts with the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1011,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

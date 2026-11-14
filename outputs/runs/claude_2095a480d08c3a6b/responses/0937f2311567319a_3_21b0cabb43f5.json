@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "125700n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "aaaf98cbbeae85deb5cdd6a0e764b7a99e1b7c7224c4e5f15972224d544adc03",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9YLW994bxuqBKJDUYq",
+  "received_at": "2026-10-11T21:19:32.354969+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.68,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise tells you to bring a change of clothing and a towel, which implies using what you already have, not buying new items. It does not forbid buying new clothes, so the hypothesis is neither entailed nor clearly ruled out, though a contradiction reading is plausible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

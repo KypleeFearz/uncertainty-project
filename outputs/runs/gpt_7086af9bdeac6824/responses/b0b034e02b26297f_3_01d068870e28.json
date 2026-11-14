@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3ae549cca26ad58ad48ae0a53b0d76940abe5b9056f13239f051233d107a0243",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e23fcd1b4af871016acbf8f28c2c87d288738007ebed99fc",
+  "received_at": "2026-10-11T21:00:40.336801+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise places watching Knots Landing after returning from aerobics at about nine, but does not specify the aerobics class time. It suggests the class occurs earlier, without ruling out a nine-o’clock class on another occasion."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 194,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 611
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

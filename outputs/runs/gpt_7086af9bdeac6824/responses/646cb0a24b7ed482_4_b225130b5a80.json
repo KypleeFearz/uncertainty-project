@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111805c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3fcdc1f22539710c24fb92af0a1bd0621bc74b4a8677dcd02437cfbe29486d01",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0385f4adfa5f5ae6016acbc2103f9887d28329fe54f1367c1c",
+  "received_at": "2026-10-11T17:06:31.334299+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says the organization aimed to replace whole life policies with term life and an annuity, whereas the hypothesis says it was prepared to fight to keep whole life policies. These describe opposing intentions concerning the whole life policies."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

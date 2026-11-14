@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69806c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0f6718f5d1f036f0c7407d0bddd8ed1e0a531f0268d6d4d8cf633cfe597fa51e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfvwz41XoEhWEaD7cJcyk",
+  "received_at": "2026-10-11T18:47:59.155982+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says liberal democracy fits 'us' naturally, while the hypothesis says it does not fit us well, and it also brings in communism, which the premise never mentions. The fit claim conflicts directly, though 'us' is somewhat unclear."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

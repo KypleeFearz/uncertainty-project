@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52806c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "051708c70192565feb3b139a1d0493eadcf0b61f09fdb1053ccb1562b43db375",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b74c4a0b90e00f016acd46510be087d2b0c6416d880a77d4",
+  "received_at": "2026-10-12T20:43:00.213048+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise disparages the thriller as stale, formulaic, and going nowhere, which conflicts with calling it a genre classic. A weaker reading of “classic” as merely typical of the genre introduces some ambiguity."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109278n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f15d77303ecfde84af8053a5903825a253587091dddb69eed951157296547fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052f44f9469da7dd016acbe4de7ef487d2869c7d596640e240",
+  "received_at": "2026-10-11T19:34:58.863559+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.76,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise specifies fees for certain categories of lawyers but does not say the fees are for directory inclusion. If the hypothesis is read as applying to all lawyers, the exemption for retired lawyers conflicts with it."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142120n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b7fc0fd32a3bd43534ae98cecd00f24cd185f18e9594d990f3c978e01a796249",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01973b50afc169b9016acbe97625b487d2b57b9d1818160535",
+  "received_at": "2026-10-11T19:54:33.430925+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise explicitly mentions a pause before his reply to her question, supporting the hypothesis. Identifying “his” as Julius and interpreting the unspecified pause as “for a while” require minor assumptions."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

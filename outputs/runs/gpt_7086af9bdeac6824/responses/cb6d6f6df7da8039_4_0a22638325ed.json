@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10994e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12b75d1b07851324a35b3b612fd7b031461b7b3f636cd8a435876b0c277a29a0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a93eedf99312d3016acbe506f80887d28403b4a86a779053",
+  "received_at": "2026-10-11T19:35:39.162455+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.55,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Tetanic” can describe sustained muscular tension or spasms, which is compatible with being tense but does not necessarily describe behavior. The unspecified referent of “they” leaves it unclear whether the premise concerns people acting tensely or physical phenomena."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

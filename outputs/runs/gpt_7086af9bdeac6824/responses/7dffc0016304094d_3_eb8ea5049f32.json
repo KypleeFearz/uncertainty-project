@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18991n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7de887e73780fd7d0cce34b69a21489bb19d8ca4ec73847744ae52bb5d2a6907",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06794d935ef9516a016acbea6c171087d2941334bfe6bde9c8",
+  "received_at": "2026-10-11T19:58:39.654073+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says Slate 60 ranks America's largest contributors to charity, but does not specify educational charities. It therefore neither establishes nor rules out the hypothesis's educational focus."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

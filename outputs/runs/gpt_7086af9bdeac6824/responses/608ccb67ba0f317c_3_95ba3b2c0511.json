@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91383n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29d7e92a9b9f973087edfa2d9457902a547494951064b237f3be555577c66e22",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6d1ae6c1d115da016acbfac4b76c87d28f5ffad7cb260f2d",
+  "received_at": "2026-10-11T21:08:23.450009+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise establishes that Government Executive articles are available in a searchable database, but does not describe their content. Profiles of notable government employees are plausible but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

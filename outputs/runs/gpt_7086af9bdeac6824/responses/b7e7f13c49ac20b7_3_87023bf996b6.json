@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73260n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5257389046bc9e51fc4de19b551f1546a6c8cf4a8d2a6a07c7fc7ed364b27f80",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02e1cf4e1f5761ed016acbf1aaa7b487d2888909d2f8b2360a",
+  "received_at": "2026-10-11T20:29:34.420975+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.965,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise says the disputes were not citizens' foremost concern, not that citizens had no concern about them. It leaves open whether they were a lower-priority concern or no concern at all."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14545e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d1648d43d1efebd04a19f8a220bdb4b77bf67aca6b159b56a8d6aa9b4453885",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8fc78ec460998a016acbe9ee9fa087d2b7562113f04dbfd0",
+  "received_at": "2026-10-11T19:56:34.403229+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The mouth returning to its familiar state after three days of gel use supports improvement within that period. However, interpreting a return to normal as feeling better requires a small assumption."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "100332e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states that he argued for achieving the most good with the least harm, which directly aligns with the hypothesis that he disputed providing the most with the least harm. The slight probabilistic inference reflects the possibility of interpreting 'disputed' as merely questioning rather than outright rejecting."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 362,
+  "output_tokens": 129
+ },
+ "seconds": 2.84,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:38:42.529470+00:00"
+}

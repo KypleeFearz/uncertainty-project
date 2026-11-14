@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36715e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7aec463a73c468ca8d4c474516c63efd23c2688c7137e2734896ac2033a4cf27",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef70b0d2cc24487016acbece3bb0087d28759b22427bfc276",
+  "received_at": "2026-10-11T20:09:11.591117+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "Twisting the man's wrist ordinarily involves grabbing him by the wrist, supporting the hypothesis. However, the premise does not explicitly state that Jon grabbed him."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

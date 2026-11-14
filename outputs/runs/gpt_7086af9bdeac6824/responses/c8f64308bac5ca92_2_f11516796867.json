@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57454c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3f4a87fdff222eabecd2eabcb277074cee068c0318032a83354f94ae40ba50d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b29193bae4a6413016acbefdca49487d2a74e922a52ab94bc",
+  "received_at": "2026-10-11T20:21:51.548351+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise asks whether Robin Williams has a funny role in a movie, while the hypothesis asks about the resources or effort involved in making it. The premise provides no information that answers or rules out the latter question."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

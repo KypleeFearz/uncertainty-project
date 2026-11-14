@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53088n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c6033605fc359c68fd30241823eeabb2e5b639b069e89d3fcda28c762d2b48b4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04fcc80175c7f037016acbef17a81c87d2a9b3fc950af336b1",
+  "received_at": "2026-10-11T20:18:35.475803+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise establishes that Jon gave the instruction to Adrin, but not that he also told others. The word “us” suggests a group without establishing who received the instruction."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3158680604.jpg#4r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc09e1ab55b8a0b3119e0cf8f8cbd7ca8fc13215ddfaceaf73615d08c91e0c36",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a644c56a896578e016acd4ada842887d2beb1e1e44ae9cf35",
+  "received_at": "2026-10-12T21:02:21.211030+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise places four people in a kitchen but does not say they are cooking. Cooking is a plausible activity there, not a guaranteed one."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

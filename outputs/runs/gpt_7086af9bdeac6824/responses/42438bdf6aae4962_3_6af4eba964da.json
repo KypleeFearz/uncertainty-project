@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70711n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe484f600f9b9571fa55c55bd1f353bd4d2dea6b00adeb4d07077c20e5ccf54f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0137490c1b554086016acbf1654ae487d2aa0d1836e5f3ab4b",
+  "received_at": "2026-10-11T20:28:25.658564+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.86,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says that starting them in cooler spring weather leads to excessive heat in summer, but it does not recommend June or establish that a June start avoids overheating. What “them” refers to and the intended timing alternative are unspecified."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

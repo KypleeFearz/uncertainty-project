@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "73235n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "55453e4db1e05668a69f91ed27a7a3da222e956d627f86d8c45ac9b4a9a33389",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBN94WuvKgA9VaJ5LFd",
+  "received_at": "2026-10-11T21:43:27.479855+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.9,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise only says the organization hopes to add 25 or 35 people when the new building opens, and says nothing about a waiting list. The hypothesis is therefore neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126847e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b48e857e10e2634e866dda1a9584a2ee5d8683290b3516615b8839d014a7949",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c43eba012e082ab016acbe717d0f087d2b665da7389b9dab7",
+  "received_at": "2026-10-11T19:44:27.360325+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says Tom won a year's supply of Turtle Wax, but it does not identify a contest or specify when he won. A year's supply describes the prize's quantity, not the year of a contest."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

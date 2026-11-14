@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127903c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eddd1f12b32822ddbc3cf3b1b4f62562c6a3e24990127cd1c38b7cdf292d3b81",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ec94214ea6d146016acd42e6e19487d2bcd7e0af38f55337",
+  "received_at": "2026-10-12T20:28:29.136582+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.25,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says Chinese managers ran the mines for the Malay rulers, rather than the rulers personally administering them. However, if 'directed' means exercising overall authority through managers, the premise does not rule that out."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "15791e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise explicitly states that per capita food consumption in less-developed African nations will scarcely improve or decline, which directly aligns with the hypothesis that they will improve or decline. The only minor uncertainty is whether 'scarcely improve' could be interpreted as a slight improvement, but the hypothesis's 'improve or decline' still covers this outcome."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 375,
+  "output_tokens": 143
+ },
+ "seconds": 2.97,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:09:11.544146+00:00"
+}

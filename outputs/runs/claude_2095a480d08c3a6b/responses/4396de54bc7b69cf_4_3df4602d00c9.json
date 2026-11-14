@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "14388c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "beb7e0da7418f20e5daa00ab0f0f2792af025a6c282a6828412d598b95b0e211",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3yK7Z9DeEMK2abTAF3",
+  "received_at": "2026-10-12T21:27:41.561808+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says to quit 'BSing with the system', which implies the system is not straightforward or fair, so the hypothesis of a fair system conflicts with this. The premise does not directly discuss fairness or desert, so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

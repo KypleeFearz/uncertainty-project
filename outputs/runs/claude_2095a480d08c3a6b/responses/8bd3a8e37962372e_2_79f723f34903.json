@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "103455e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dbb8c38ae9e1b5375a8cef5d9a70a44fae00cda5fd4861a3dcba67c3e1722706",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw91gQLqxsZSM2YCqmWf",
+  "received_at": "2026-10-11T21:12:36.524081+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.45,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says mothers are told to withhold night feeding once infants are a few months old, which implies feeding is allowed before that, but this is not stated outright. Whether 'first months' covers the period in question is unclear, so the pair is mostly neutral, with some pull toward both other labels."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

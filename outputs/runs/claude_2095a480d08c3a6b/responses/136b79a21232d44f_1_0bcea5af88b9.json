@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "141525e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5b1690bee9c75f9fb80f97d71db46e61a58752f82f03ddad8a91336657e462ff",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9uE3XgAwKNHdA8JNDQ",
+  "received_at": "2026-10-11T21:24:15.053802+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise states that 5 percent goes to educational lay programs relating to law and justice, so those programs deal with law and justice. The hypothesis restates this directly."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

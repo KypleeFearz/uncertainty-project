@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_263984805.jpg#1r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "142d48127a12d1319a9839cbaa3fd4b15ef2d6b4c7cb557f52d477ba1948584d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aed2eeb3bdd3a8f016acd4a0e2d1087d28082570d8fc56adc",
+  "received_at": "2026-10-12T20:58:57.368004+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.35,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Reading a manual suggests that he is learning something, but the premise does not guarantee that he is acquiring new knowledge."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

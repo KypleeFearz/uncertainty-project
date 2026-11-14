@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143751e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb057983a1505ed2a29fff22b2b9bb29553e34eed37d27b2c38f52e9cb1bec13",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_038f0e461b7dec57016acbe99e5a2887d28cc8a4ce77a5d756",
+  "received_at": "2026-10-11T19:55:13.349390+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "Sir James says Miss Tuppence knows the place better, but does not explicitly ask for directions or state that he expects them. Expecting directions is a plausible inference, not something the premise establishes."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "139635n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "71ef2fa1e45a7f6a4ac50bf9cc9e634c132220bf637f421fd5adfe0e3cade518",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3unRkg5saP7hzFofkQ",
+  "received_at": "2026-10-12T21:26:53.562438+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.3,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The speaker says many are on death row but few are actually executed, which suggests most are not executed and so remain waiting. However, they could die by other means or be released, so 'living out their lives awaiting execution' is an inference rather than a guarantee."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 821,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

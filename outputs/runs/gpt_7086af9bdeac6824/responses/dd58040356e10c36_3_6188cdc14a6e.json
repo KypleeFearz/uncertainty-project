@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24043n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79d826638d5d333c7984e2316fb6644a986616323e54fe73e124e96af8a545fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c91f0e2d456c9d0016acd44ab4dc887d2b7f45e5e6bffc729",
+  "received_at": "2026-10-12T20:36:00.354870+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise establishes that no people and no bones were there, but does not exclude other objects or non-bone remains. Interpreting this as total emptiness requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

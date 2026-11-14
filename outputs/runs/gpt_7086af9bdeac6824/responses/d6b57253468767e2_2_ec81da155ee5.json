@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42388e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f88084b650f38e188b4a5680cb92131d80894b5e1c6cba3d614203631df97eeb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0465824c36ca9b5e016acbeda20abc87d287f6e71b5417f4af",
+  "received_at": "2026-10-11T20:12:22.243738+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says Daniel undertook to explain a few things, but does not identify those things as what was happening. That connection is plausible but not established."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

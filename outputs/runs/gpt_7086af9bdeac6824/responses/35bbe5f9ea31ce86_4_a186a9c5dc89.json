@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107302e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6c4ccf7f762137623ffc09a3d9cf0dc1a11f720bc1ee9182d4d85bacaa5c7daf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0e5dad8ab0a0ef016acbe499a35487d2b889cffef2070d64",
+  "received_at": "2026-10-11T19:33:50.200033+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.46,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The hypothesis closely paraphrases a good profit-sharing plan with no profits available to share. However, 'no money' is broader than 'no profit' unless it means money available for profit sharing."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

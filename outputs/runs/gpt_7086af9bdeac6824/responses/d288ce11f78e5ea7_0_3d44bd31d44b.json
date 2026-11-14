@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_812196663.jpg#2r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0279354dcaa835bed479f1f75a37ecf1b255ad30be29716fb3ca3fafafc81210",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0813e0a6574256d1016acd4ee7b68887d28c078d5835d12748",
+  "received_at": "2026-10-12T21:19:38.674567+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "Standing in the ocean and hugging suggests a beach outing, but does not establish that the kids are enjoying it. Their enjoyment is a plausible assumption rather than a stated fact."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

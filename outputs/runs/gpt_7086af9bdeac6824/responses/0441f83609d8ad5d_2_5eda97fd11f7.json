@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46937n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "535ab44c9151b44dea683cd67b8e215a70a614994ab3eda820902f21d226fe59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fb823fb5d42f77b016acd45e9375c87d29aef32dc4f617b26",
+  "received_at": "2026-10-12T20:41:17.330189+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise requires an action above six hundred but does not specify what is required below two hundred. Inferring that a lower value means no action at all requires an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

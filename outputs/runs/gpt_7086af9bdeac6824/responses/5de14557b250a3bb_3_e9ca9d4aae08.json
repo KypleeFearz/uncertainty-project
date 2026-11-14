@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103482c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e25c1b2666e657004dc32e1d7b18eb4b5e14aa66c4f75f0bfcd18a8ed3dc9d52",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0051867c1e06070c016acbe426f94887d28860ea762f830349",
+  "received_at": "2026-10-11T19:31:55.204818+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.98,
+    "contradiction": 0.018,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says Asians constitute a significant part of the population experiencing poverty, not that all Asians are poor or remain poor at all times. It neither establishes nor explicitly rules out the hypothesis's universal claim."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3261712960.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13182671c8b9afb8910dc729f466a865b2f24b8d5d6c71557d16068fe3d7b40a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fed6845cf45cc8c016acd4b1d409887d2b1df253952fd77b4",
+  "received_at": "2026-10-12T21:03:29.621834+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.09,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise places a congregating crowd in the scene where a costumed person faces the camera, supporting that the crowd is in front of a camera. The crowd’s exact position relative to the camera is not explicitly specified."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

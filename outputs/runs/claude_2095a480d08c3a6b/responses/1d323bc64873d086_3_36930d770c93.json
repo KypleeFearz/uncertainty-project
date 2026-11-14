@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "25437n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "05805013c922f946b4609a44e4506b1863299822a79f377e37672102721e7875",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAGTwY6CpkDVKdbXmhk",
+  "received_at": "2026-10-11T21:29:03.557115+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.75,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker calls Dorcas 'the brave Dorcas', which may be sincere or ironic, but nothing says she is well known for bravery. The hypothesis goes beyond what the premise states."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 827,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

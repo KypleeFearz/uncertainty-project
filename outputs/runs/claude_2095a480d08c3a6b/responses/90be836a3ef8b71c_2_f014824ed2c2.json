@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "3627n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4b21d44bff1865f777e43b9edf1f1ccf9cd66297af0131ee9a395a1068439af3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCXdZ8tM5BALQUSgFyE",
+  "received_at": "2026-10-11T21:58:43.119341+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.09,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "\"Proving them right\" means showing that their view or prediction was correct, which matches \"guessed correctly\". Slight uncertainty because \"guessed\" may be a weaker or different notion than their belief or claim."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

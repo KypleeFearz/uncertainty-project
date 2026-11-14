@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "139481e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f150c23a87fc9da80ef2601cfed3b19d96d9c2c95f3468e7e4af3c186f2dc2cf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9rzFkdpmfQKX3uT5TV",
+  "received_at": "2026-10-11T21:23:45.022247+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.5,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker and his wife jointly bought the car, so it is not solely \"my wife's car\", though they want to take good care of it. The hypothesis partly matches the care concern but misstates ownership, so the label is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

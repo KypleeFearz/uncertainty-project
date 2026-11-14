@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "142816c",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise describes the Eagles as an underdog team that the speaker likes, which does not imply they are the most well known team; in fact, it suggests they are not dominant or widely recognized as the top team."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 115
+ },
+ "seconds": 3.82,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:06:40.638990+00:00"
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "70738c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise defines interest rate as a percentage of the borrowed amount per time unit, while the hypothesis incorrectly states it is the total amount borrowed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 353,
+  "output_tokens": 99
+ },
+ "seconds": 2.28,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:39:33.180501+00:00"
+}

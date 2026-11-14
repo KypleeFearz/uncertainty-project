@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11618c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dfa3ecd99f6a4514976221eb528e5f6f7b61f7e81c7574ee353202ce2a11f3b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e6bdbb459850ad016acbe5bad68487d2adddaf11fb3a4a80",
+  "received_at": "2026-10-11T19:38:38.716588+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.18,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Severn's desire for wealth strongly conflicts with the claim that he was happy being poor. However, desiring wealth does not strictly rule out being happy with one's current poverty."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

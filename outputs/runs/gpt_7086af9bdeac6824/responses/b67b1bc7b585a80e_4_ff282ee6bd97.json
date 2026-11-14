@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f6019b7fbd1c60132317dad6cf89d400d8287db43035326aa9fa4239c305872e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b33b0b44b2a852c016acbe3fc4c4487d2befbc22922bd99ec",
+  "received_at": "2026-10-11T19:31:10.871516+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.018,
+    "contradiction": 0.98,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise explicitly says that life for the next generation without debt \"wouldn't be perfect,\" contradicting the hypothesis's claim of perfection. It makes no claim that eliminating debt would end war."
+  },
+  "usage": {
+    "input_tokens": 577,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 679
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

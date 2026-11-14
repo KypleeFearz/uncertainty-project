@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_244367131.jpg#4r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e2b2de96485fbbf2dcbf4b33b367cb682ee60821b63a2533e79ca114ba9a92b4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06b15002a8009d39016acd49c1107487d29d18a4eb25eb09b3",
+  "received_at": "2026-10-12T20:57:40.252104+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise establishes that men are dancing outside, but does not specify salsa, practice, or an intention to impress their wives. Those details are possible but unsupported."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

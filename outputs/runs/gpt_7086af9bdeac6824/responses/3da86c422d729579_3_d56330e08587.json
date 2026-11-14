@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142729c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13226c59f116c84f1ab0cbe7ffd8cc373ebb1c7ecd673838a7c2e398472ea013",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_049949e77dd0ea53016acbe98accc087d2842230d527262e72",
+  "received_at": "2026-10-11T19:54:54.385825+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says Ellison, like Hemingway, equates becoming an artist with becoming a man, indicating the same comparison rather than different approaches. The hypothesis's phrase \"different ways to compare\" is somewhat underspecified."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

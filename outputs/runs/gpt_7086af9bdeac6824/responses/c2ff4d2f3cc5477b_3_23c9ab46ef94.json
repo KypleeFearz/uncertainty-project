@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11601n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "37b7bcfe9cbd6b04437f3d79e83e718234e9e7afa22a798af5e817a7e16963ea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06b9b39f2183a491016acd425a932087d2959bda6559d78d9d",
+  "received_at": "2026-10-12T20:26:06.284372+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says AC usage should be roughly proportional to the generating capacity of equipped coal-fired facilities, but gives no proportionality constant. It therefore does not establish whether AC usage is numerically higher or lower than total MWe."
+  },
+  "usage": {
+    "input_tokens": 430,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26744n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "133d02d2079dbd1dd4ea5c5f619d6783ac9b5b8f778bd3f14bc5fb35c1d227f9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096c626635c24f7c016acbeb94d7a487d28abfaf5a309c2856",
+  "received_at": "2026-10-11T20:03:35.880737+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise describes one film combining animated sketches with apartheid-era documentary footage, but does not say Kentridge created that footage or any other documentaries. It neither establishes nor rules out his having created several documentaries."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

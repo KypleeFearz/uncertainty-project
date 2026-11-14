@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139595n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1ebdad566c5b5f93055d7ccdb19141fd91c8316ea21cfc0bf4bb729c2ee87724",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0f4801d520f67f016acd43b3e17887d29253a7dc31584984",
+  "received_at": "2026-10-12T20:31:52.103991+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise asks about using whatever weapon is available but does not establish that anyone actually does so or that the weapons are in a cave. The hypothesis adds actors, an action, and a location not specified in the premise."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

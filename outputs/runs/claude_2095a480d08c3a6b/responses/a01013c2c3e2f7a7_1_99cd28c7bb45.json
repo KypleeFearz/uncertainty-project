@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4937650592.jpg#4r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3505ad5630f41a96870713b0cbe80715b470906be1427dd48989b65a6c15bc4c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5k6sEALUVU7BwQyvoo",
+  "received_at": "2026-10-12T21:50:55.063154+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.42,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "A man riding a dirt bike on a racetrack matches the hypothesis' man, bike and track. However, being on a racetrack does not guarantee that an actual race is taking place, since he could be practicing or just riding."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

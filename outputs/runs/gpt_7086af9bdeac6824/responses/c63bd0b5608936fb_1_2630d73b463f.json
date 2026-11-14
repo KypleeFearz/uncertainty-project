@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12ab27976a85edfbef41b968152134e0e967b48cb4458e958671bf7d058e6fb2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0151a747cd6cdc2a016acbea98cd4c87d2b90ee802f5e84b3f",
+  "received_at": "2026-10-11T19:59:23.743345+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise identifies Thira as an ancient island capital, not an asteroid-impact site. It neither establishes nor explicitly excludes an ancient impact at that location, and the hypothesis leaves its subject unstated."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

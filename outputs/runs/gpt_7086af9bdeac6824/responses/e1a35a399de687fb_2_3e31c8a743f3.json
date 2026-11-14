@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129081e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4872513e8f6af0e01cba5c1c4c5cd99bd8fafa6480b0869af5068b309d0d154",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b67f3c4283ce130016acbe752375c87d2a60258413fc28538",
+  "received_at": "2026-10-11T19:45:26.133057+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says others kept everyone informed and the speaker wondered whether the information was excessive. It does not establish that the speaker shared the information or that all information was shared."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29487e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "901437f8f4475b611eaf654f5d2100d13c96a922ee8832b43fa3561a8e3503a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03887a397e8d9941016acbec05ddd087d2a35e400a7ca92e2d",
+  "received_at": "2026-10-11T20:05:29.981154+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is a chapter heading, not an assertion that humans possess capital. “Human capital” typically refers to people's skills and knowledge, whereas the hypothesis may refer to ownership of financial assets."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

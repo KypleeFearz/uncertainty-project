@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "62238c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.65,
+  "contradiction": 0.35,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise states GAO needs assistance with human capital challenges, but does not specify the nature of those challenges or imply an oversupply of qualified applicants. The hypothesis introduces a specific cause (many applications) that is not entailed by the premise, making it neither supported nor contradicted directly."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 362,
+  "output_tokens": 131
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:36:15.275614+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62485n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "93edb4b8b9c41d617c2acc7095ae6845d25586e5237a30a249b05d5564c315e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08a12bc4152186a8016acbf08ec1bc87d29b4f550256dd1a10",
+  "received_at": "2026-10-11T20:24:49.780211+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.67,
+    "brief_reason": "The premise describes nearby UNESCO-honored cities as attractive day-trip options but provides no information about how many Madrid visitors take those trips. Their availability does not establish that most visitors go."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

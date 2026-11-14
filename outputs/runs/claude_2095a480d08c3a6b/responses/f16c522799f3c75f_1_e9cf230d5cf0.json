@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "54822n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1ed902d3f8ba1b5e4bb6f1a8242ae9e9d0eabc22d0d140f94641d11979d9063f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Qwku4DtxNkDEkGs6u",
+  "received_at": "2026-10-12T21:33:28.975045+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.9,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says grants targeted statewide legal-aid web sites and does not mention prison construction. It neither supports nor clearly rules out such grants, though the web-site focus makes them unlikely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

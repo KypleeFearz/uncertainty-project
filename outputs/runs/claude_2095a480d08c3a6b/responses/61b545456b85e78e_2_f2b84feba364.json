@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_5988551357.jpg#3r1e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0fe0fabc6c7dc19b2e8fa9f180dc81283287c99a1e893780448e1438d3588c67",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5pkLanScqpkizLjvf8",
+  "received_at": "2026-10-12T21:51:58.658703+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.55,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "A rodeo clown entering the action suggests movement, but the premise doesn't explicitly state physical activity; 'finds its way' is vague, so the inference is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

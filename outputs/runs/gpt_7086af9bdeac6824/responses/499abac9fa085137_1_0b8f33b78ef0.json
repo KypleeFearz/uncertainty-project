@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115821n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3ab3645806924183569eded5f341745ef1a6cd1d79af4e0672266163af935c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06e2550754f1cc9a016acbe59d7d3c87d2b8223ef7c4c147a5",
+  "received_at": "2026-10-11T19:38:08.631622+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise describes the method and cycle length used to calculate the foundation year, but does not establish the calculation's precision or accuracy. A specific numerical cycle does not by itself imply that the result was very exact."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9716e3aab00b4d0d26addaea57a814f2fa0e7fa89cb1ed7094828be8bb6b1613",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e8ed3de28ae549016acbf8f06d7887d29d25cb733692053e",
+  "received_at": "2026-10-11T21:00:36.701914+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.22,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The speaker says they watch Knots Landing at nine o’clock when they get home from aerobics, suggesting aerobics takes place before nine rather than at nine. The exact class time is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

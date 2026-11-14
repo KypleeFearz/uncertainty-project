@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52806e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12eed0595406a223e9841c74e75b92953cd9a25a57cd43b5906da27aa5fc28d4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dabd668bc6cf606016acd4657a97087d2a1e42360a358755d",
+  "received_at": "2026-10-12T20:43:09.645735+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "“Stale macho jokes” and “formulaic cliffhangers” support the characterization of clichéd masculine humor and a dull film. However, specifically calling the humor “male buddy” humor and the film “boring” adds interpretations rather than directly stated facts."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 612
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

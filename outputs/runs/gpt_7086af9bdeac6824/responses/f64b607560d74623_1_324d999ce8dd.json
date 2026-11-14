@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "94241e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d697e41a1e6da84d67e4e75e84630dc7cd8b5e3ca6db0247916825e9b31c53df",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f2679a4ad227275016acbf48b306887d291dd825f830624ec",
+  "received_at": "2026-10-11T20:41:51.621879+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise mentions not getting paid as wording on a sign in a hypothetical situation, rather than establishing that the speaker actually receives no payment. It also does not establish that conditions being the same here cause nonpayment."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143789n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c3ac4dbae6c3b5900b9ee352bf297a5b15ecd6c7ff09ecac3f39c36a49225a7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040a451d83b22b1d016acbe9a15a1c87d2a1c89ba421876eb3",
+  "received_at": "2026-10-11T19:55:18.527746+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise says the manipulator created the metaphor to obscure his manipulations, but does not explicitly say he intended to convince people of anything. Persuasion is a plausible interpretation of that concealment, rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

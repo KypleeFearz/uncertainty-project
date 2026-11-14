@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53545c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2269c041e7bc68e2f4ca8a63d6b4d238dc2b5ba6d043142d0b00c085952fc47f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e3e7159f31fc720016acbf9015e9087d2b3ecb043658382ed",
+  "received_at": "2026-10-11T21:00:54.443251+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.18,
+    "contradiction": 0.81,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise concerns emergency physicians’ attitudes toward alcohol-related interventions, which suggests their views were sought and conflicts with the claim that they were never consulted. However, the title alone does not explicitly describe a consultation."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

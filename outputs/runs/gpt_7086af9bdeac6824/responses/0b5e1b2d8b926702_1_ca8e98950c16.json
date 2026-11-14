@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91768n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "74f076ec83cf2b8dd62caf1d23d8bfe334e62d71750d210c27fdd1a6cfb2abde",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b60d1f96c2d514c016acbf41b1b5087d2aef45102d588224d",
+  "received_at": "2026-10-11T20:39:58.562770+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise supports that Mother asked whether the trunk was big to keep up appearances. It does not establish or rule out that she also asked whether it was shiny."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

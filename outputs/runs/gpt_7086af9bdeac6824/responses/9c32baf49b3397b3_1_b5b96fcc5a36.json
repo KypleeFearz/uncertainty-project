@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79952n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8e69cba92dc3b607d55567f3cde095894ba8a4da206e81156693ecb5fb56099",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ba4482c74eb9b2016acd47c22e2c87d2940460edb5c5035d",
+  "received_at": "2026-10-12T20:49:10.284937+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the book portrays Jesus as the ultimate businessman and was a bestseller. It does not establish that the book is known as the best example of that portrayal."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

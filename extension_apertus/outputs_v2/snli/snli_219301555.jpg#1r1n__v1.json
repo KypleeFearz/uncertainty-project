@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_219301555.jpg#1r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.6,
+  "neutral": 0.3,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise establishes the woman is extremely wet and wading near a waterfall, which is consistent with having just swum, but the premise does not confirm she walked there or that she swam specifically."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 112
+ },
+ "seconds": 2.5,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:59:20.576856+00:00"
+}

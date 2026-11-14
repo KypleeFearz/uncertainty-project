@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_8221794333.jpg#0r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.3,
+  "neutral": 0.6,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise shows the boy holding one leaf but does not confirm he is playing in a pile of leaves; it is plausible but not guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 366,
+  "output_tokens": 99
+ },
+ "seconds": 2.31,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:58:03.420998+00:00"
+}

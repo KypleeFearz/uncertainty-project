@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2232822316.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "990e233962e5f7b734c09d87307e2c7d2896ce76b0d2ea89fe5ea31bcf3f5b0c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce68901e02d5882016acd49605e1887d2af50db6d57f9edb8",
+  "received_at": "2026-10-12T20:56:03.743695+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The clothing and sunglasses suggest warm weather or an outdoor setting, but the premise specifies neither the location nor the season. The woman could be indoors or in a season other than summer."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

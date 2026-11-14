@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "13531e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise states the speaker felt like a rat, while the hypothesis claims they felt 'weasily,' a word that does not mean 'like a weasel' and is not used to describe feelings. The two statements are incompatible."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 332,
+  "output_tokens": 127
+ },
+ "seconds": 2.71,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:01:38.794294+00:00"
+}

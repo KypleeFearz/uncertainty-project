@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "94241e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15082d9e95a889b3ac6f9d3b91c2c3c3d24a982d058c2c2edff3f35259442f7a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a197d6a3aa0956e016acbf48cdd0487d2b40a23870875c07e",
+  "received_at": "2026-10-11T20:41:53.044108+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise presents “I don't get paid” as wording on a hypothetical sign, not clearly as a statement about the speaker. It also does not establish that payment is absent because things are “the same way here.”"
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

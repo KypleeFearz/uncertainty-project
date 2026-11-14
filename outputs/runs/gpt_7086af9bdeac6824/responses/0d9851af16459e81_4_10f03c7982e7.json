@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46359n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94d42a34db01c2183332e2a60f16bf45915dab72c27ea73f2551bbad492758f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029249d53b8b3e0a016acbf89f1e9487d2b113600281e10954",
+  "received_at": "2026-10-11T20:59:16.212997+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.18,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The contrast between substantial declines and achieving only 50–75% of the proposed cap suggests that the reductions are judged insufficient. However, the wording leaves some ambiguity about whether that percentage describes progress toward a target or emissions below a ceiling."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 588
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

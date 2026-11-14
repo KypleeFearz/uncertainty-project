@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "130482c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8cc7e845266ce2580bac6534e29b8a697065f695e1fa8a20424493baea2a07e1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9e5SBjBAEaT69DR2Fa",
+  "received_at": "2026-10-11T21:20:50.319826+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise praises trays as useful (wonderful portable tables) and says they come in all sizes, which conflicts with calling many of them small and useless. Still, it does not rule out that some small trays are useless, so neutral remains possible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

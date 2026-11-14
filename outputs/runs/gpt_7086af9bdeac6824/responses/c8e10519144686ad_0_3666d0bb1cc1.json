@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88994n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "32a0c4de46fde16bf9c844fdbd3df20efe4a16b93f08edd921da583c5ba2e6c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f7bebf53c3e5dd4016acbf3e60e7087d29536c4f91f99c62c",
+  "received_at": "2026-10-11T20:39:04.871727+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.52,
+    "brief_reason": "“Colossal” suggests enormous size or scale, but does not establish that it will exceed every previous example. It may also be figurative rather than a literal statement about size."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

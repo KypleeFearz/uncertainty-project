@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64123c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85cf7db2f0f3b2b2a163ee7b57bc38724c669398429b4f23905f228172c5580c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e0d34967b3f22eb016acbf97babb487d2a3e097a4b6a54bc6",
+  "received_at": "2026-10-11T21:02:54.380879+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise asks about a weekly basis but asserts no frequency, so it neither supports nor rules out \"Every day.\" The activity or quantity being discussed is unspecified."
+  },
+  "usage": {
+    "input_tokens": 355,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 451
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

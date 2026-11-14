@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "115173n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f30f8bd957fa3761b475041cddc7f8c33d734ed2e61ba28f3beb15bad8b77e6a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9HA9spe8n51WHsun3K",
+  "received_at": "2026-10-11T21:16:06.176604+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only names Practice 16 and says nothing about what Practice 17 is. The hypothesis could be true or false, so the premise neither supports nor rules it out; a small contradiction chance reflects the premise's focus on monitoring tools rather than intrusion checks."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

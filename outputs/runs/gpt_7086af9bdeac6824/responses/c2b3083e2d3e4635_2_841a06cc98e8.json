@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16835n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "99c842363117831e8fe6a146dedc9d368d1b29ccf107ab54f9afad605e491b2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9e5cce79c23356016acd444d7a6c87d29b7f73483478d482",
+  "received_at": "2026-10-12T20:34:24.387952+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says that current history adds a major point but does not identify it as American history. The hypothesis adds a geographic qualification that is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

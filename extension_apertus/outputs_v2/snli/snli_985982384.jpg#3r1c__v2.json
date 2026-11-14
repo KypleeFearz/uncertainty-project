@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_985982384.jpg#3r1c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise states that men and women in swimsuits are on the rocks above water, which logically implies that the rocks are above the water. The hypothesis directly extracts this spatial relationship, making it highly likely to be entailed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 118
+ },
+ "seconds": 2.56,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:59:46.003941+00:00"
+}

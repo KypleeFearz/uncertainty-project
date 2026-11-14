@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "80374n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0867cdc42928a2cd836e4f351947266cfecfdc3da1ad6cfa6fbf582589a452cd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4ec4rKEEFbXKf5MWxZ",
+  "received_at": "2026-10-12T21:36:34.407548+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.1,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise asks whether you failed to understand that he believed Cynthia guilty, which presupposes that he did and that you did not grasp it. The hypothesis restates this, with 'unaware' as a near-synonym of 'did not understand'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

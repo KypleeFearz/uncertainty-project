@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_890734502.jpg#1r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2a650a7028c29fe47f1356ce440395063a3ce825fc42863ffc2700397d1336b6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5z8QdU8qggRJxtFKJN",
+  "received_at": "2026-10-12T21:54:06.719803+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the boy is playing near the water but does not say what he is doing, so building a sandcastle is possible but not established. Some annotators may treat other activities as excluded, but that is not stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 780,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

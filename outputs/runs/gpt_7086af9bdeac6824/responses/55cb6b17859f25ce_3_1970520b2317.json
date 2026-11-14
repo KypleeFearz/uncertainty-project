@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4764082600.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f5cd8e6ed6531d15b86722175ad2969db2f3c25675dd10c8192d28583ec4ee96",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_003a4f29ef4fafb2016acd4d42bbf887d299d95e9bbf2a7274",
+  "received_at": "2026-10-12T21:12:37.480442+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise establishes that an elderly bus driver is opening a door, but it does not specify that the driver is Black. It neither supports nor rules out that additional description."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

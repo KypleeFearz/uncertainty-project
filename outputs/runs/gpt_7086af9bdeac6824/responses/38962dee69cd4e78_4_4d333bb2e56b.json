@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53499n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5cefc6df8366ee0ab7785f128064863ce9c2ea0eaed430fa5f251e6053d1c672",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b75eac5804ea50016acbef4116e887d2b809b9a3c42ea132",
+  "received_at": "2026-10-11T20:19:17.433403+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise expresses a prior belief that everyone in the country had seen the referenced item. The hypothesis matches that belief, but identifying the country as the US and the item as a movie requires unstated context."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

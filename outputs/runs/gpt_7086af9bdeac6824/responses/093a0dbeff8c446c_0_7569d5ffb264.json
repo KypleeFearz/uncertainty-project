@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19266e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9d47a7e0d880e5b3c4764f9fce16a9274c5e034400f3716193716ff0909b3d62",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e0b6487d48a3d91016acbea71ec5487d2a123f8ca2bceab98",
+  "received_at": "2026-10-11T19:58:46.550503+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Thinking about putting one of those in” closely paraphrases considering setting one up. However, “putting in” can mean installing without specifying an indoor location, whereas “inside” may add that restriction."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

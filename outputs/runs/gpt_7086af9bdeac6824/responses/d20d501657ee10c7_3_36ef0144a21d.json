@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_435054077.jpg#1r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "00923367fc68d37687fa8175864836a8eedd18493ebfe04537d360947b87fbd5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a25f66dc35f6ab7016acd4c87ff3087d2be26fa1fb381d8e0",
+  "received_at": "2026-10-12T21:09:32.576934+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise places a crosslegged woman on the grass among dogs, but does not specify whether the dogs are standing. Their standing around her is plausible, not established."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

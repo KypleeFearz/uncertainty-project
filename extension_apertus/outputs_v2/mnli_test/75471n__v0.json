@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "75471n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states that enhanced reporting is advocated for key federal performance and projection information, which logically implies that such information is considered important enough to warrant enhanced reporting. The hypothesis rephrases this implication as a claim that the information is necessary along with enhanced reporting, which is a reasonable inference from the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 135
+ },
+ "seconds": 2.85,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:42:16.495689+00:00"
+}

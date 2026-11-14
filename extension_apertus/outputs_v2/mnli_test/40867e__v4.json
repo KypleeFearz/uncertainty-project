@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "40867e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.25,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise suggests the speaker believes they have taken at least five minutes, which aligns with the hypothesis that they have taken the last five minutes. However, the pronoun 'I' in the hypothesis is not explicitly present in the plural 'we' of the premise, and the exact time frame is uncertain, introducing ambiguity and inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 141
+ },
+ "seconds": 3.01,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:21:06.208276+00:00"
+}

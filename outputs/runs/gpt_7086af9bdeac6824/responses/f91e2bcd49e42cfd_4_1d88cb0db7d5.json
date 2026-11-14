@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3560513546.jpg#4r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "097db04877ff65a289de69ca2d4d4e4f61ce954415d53c02039e8999999aacf2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c337283b8112777016acd4b9fbe7c87d29e997b4d62ccb402",
+  "received_at": "2026-10-12T21:05:39.204264+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise supports a woman smiling on a bicycle but does not establish that cars are driving past her or that she owns the bicycle. Those additions are neither confirmed nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "20010c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5f99c2e98b74890daebdd0656d7ade4743849986aed6d52b29ab39925827dc10",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089e3ac13f6c9c76016acbea9f544c87d2a754484f8e3575a1",
+  "received_at": "2026-10-11T19:59:31.133540+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.92,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is a fragment apparently naming an accounting or management reform act, not asserting that management is bad. “Great” appears within the act’s name and does not clearly rule out bad management."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133841c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "544ab09950841d57330aa8ac8863cf0e4aacf1909322aeb3c758b0fd0a8a5cc7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab89101bc54d21f016acbe839a6f087d2ab120a25ce50aed1",
+  "received_at": "2026-10-11T19:49:17.748313+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise reports sexual abuse, not explicitly mental abuse. Sexual abuse can involve psychological mistreatment, but that connection is not logically guaranteed by the wording."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

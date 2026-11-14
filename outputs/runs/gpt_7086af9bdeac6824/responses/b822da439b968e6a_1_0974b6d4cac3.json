@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92730e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "602be4b56d88ac6e4ed9b15b0af7d44352303a96bb3892c35e00fa35f98d66f9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8cb519f1426ef8016acbf439427487d2a226616363b60042",
+  "received_at": "2026-10-11T20:40:30.273768+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The fragment labels a third lesson associated with Adrin, suggesting a sequence of at least three lessons. It does not establish that Adrin actually received or completed three lessons."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

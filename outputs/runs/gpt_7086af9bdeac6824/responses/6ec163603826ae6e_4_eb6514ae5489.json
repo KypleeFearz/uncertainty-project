@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98197c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "27b014f3a28347ad2918298425afb917d1b3c6de6135254e52fc5a7dc94e4f0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002087c3bf2c2429016acbd9800c8c87d2a8d44bdf8a542046",
+  "received_at": "2026-10-11T18:46:29.474625+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.16,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Use by most major federal audit entities supports use by at least a few. However, “a few” can suggest a small total, and “GAO system” is a less precise reference than the named audit manual."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

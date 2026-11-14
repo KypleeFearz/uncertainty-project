@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "106390n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "673241e8e9cd1d104b9af21f4dc65272dbea272ac6472609385e9f6bbba32b05",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC3yG2BcSpoQteqrSEH",
+  "received_at": "2026-10-11T21:52:28.048655+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.33,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise implies diving was never banned in Mykonos because it has no ancient sites to protect, which suggests bans elsewhere stem from protecting such sites. This is an implicature, not strictly guaranteed, so some readers may call it neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

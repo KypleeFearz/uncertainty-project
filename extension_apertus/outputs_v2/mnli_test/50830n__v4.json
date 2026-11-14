@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "50830n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.6,
+  "neutral": 0.3,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise mentions loaning money with strings attached and acknowledges the recipient's potential changed attitude upon government change, but does not explicitly state feeling bad about it, making the hypothesis partially supported but not strictly entailed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 431,
+  "output_tokens": 113
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:28:07.473378+00:00"
+}

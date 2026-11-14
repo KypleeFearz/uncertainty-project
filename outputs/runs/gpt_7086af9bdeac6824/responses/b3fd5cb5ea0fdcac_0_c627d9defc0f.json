@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61216n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70622810d5da8b33ba735e4f5720a81062becc980facf8dbe31518e967924ea3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_034154b3b8aae4f9016acbf959b9c487d28f83d0a5139d2845",
+  "received_at": "2026-10-11T21:02:21.511117+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.81,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise supports using a few valuable cards to encourage purchases, but does not establish continued buying despite existing piles or that each pack contains a few randomly distributed rare cards. Those details are plausible additions rather than guaranteed consequences."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

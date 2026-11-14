@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10015n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "19187c78632a49b55a94a5215562c15e3832d6cf26185930d1e02cbfef2e946e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c61fa154f7ccc41016acbf50f608887d2aa8260b78774d45e",
+  "received_at": "2026-10-11T20:44:03.185018+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The speaker asks what to do with unspecified people or objects afterward, but does not establish a responsibility to care for them. Such a responsibility could be inferred from context, but it is not guaranteed by the question."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

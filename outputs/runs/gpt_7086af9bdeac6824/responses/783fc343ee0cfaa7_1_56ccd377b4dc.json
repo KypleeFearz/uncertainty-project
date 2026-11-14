@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100792c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8badb9d98a1d11e8f718e43a9449e553f9498c2b9a3306cbd3ee4c8e00d2bdd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa24ce133aa41f0016acbe39f31dc87d28336ea6312f8a2bd",
+  "received_at": "2026-10-11T19:29:39.889961+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise asks whether the listener has small children but does not explicitly say whether their involvement matters. The question suggests relevance, so a conflict depends on a conversational inference rather than an explicit statement."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

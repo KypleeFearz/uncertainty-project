@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5266n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b176c805996281f907bcc75c982ea515a8843abb92324961ce78f118d40d2ee1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef094245bf02cff016acbeefb974887d28496481abbe0eb6b",
+  "received_at": "2026-10-11T20:18:07.591494+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "“Might be kind of interesting” expresses uncertainty about whether it will be interesting, consistent with the hypothesis. The fragmented wording leaves some room for interpreting the speaker’s exact stance."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

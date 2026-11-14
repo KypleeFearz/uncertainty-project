@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65879c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eab9cf70a3cb2cdcb566fde2f2c4ed90ad2e4e8ab49683b734223824869e9db1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0241bf25b940b988016acbf98c256087d2a6c13b3df01f7eae",
+  "received_at": "2026-10-11T21:03:11.351500+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.055,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise describes Christian kings and warlords subduing the Moors after four hundred years, whereas the hypothesis reverses the victors and specifies only a decade. An earlier, separate Moorish victory is not explicitly ruled out, but the hypothesis conflicts with the described outcome and duration."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

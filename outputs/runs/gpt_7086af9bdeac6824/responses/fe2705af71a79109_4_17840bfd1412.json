@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8598n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e6ae10434f2340568571fcb63df85f60e75ac64a6f96b54dd40776cb4f091163",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07cb3228c99375db016acd4802163087d2ac21ae6fe36b1ad3",
+  "received_at": "2026-10-12T20:50:13.880306+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The incomplete premise says the contract provides for a firm price, but does not establish that creating the price is its primary purpose. It also does not rule out that purpose."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

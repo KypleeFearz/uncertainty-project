@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43094c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e7170a43885acfb44c2de1b5af9dd56e3880046ef999daa4f6c6e19b2569b3d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f54b58956248cb8016acbf86fdea487d2861e629884009e6b",
+  "received_at": "2026-10-11T20:58:27.397833+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.92,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies school quality as a topic but says nothing about college students or student loans. It does not explicitly exclude loan issues from the same cover package."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

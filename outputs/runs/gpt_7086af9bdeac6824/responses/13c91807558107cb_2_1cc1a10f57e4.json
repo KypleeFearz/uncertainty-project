@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98710n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "55c5a93a6190918b357df033e883aceaabab23f2b1ae7f7b4147ed2411105941",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b0d97cc627f3c6e016acbfb1859a487d2a68e377e4768ee5a",
+  "received_at": "2026-10-11T21:09:48.391918+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.81,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Asking whether Jerry has a favorite team does not establish whether he follows sports, and neither question asserts an answer. A sports context is plausible, but “team” need not refer to sports."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

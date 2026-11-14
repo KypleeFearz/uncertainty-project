@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "1408c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "56ee5cbf9109481f398092d6046c7a1bfb3405c753354b5947d69d460db32348",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3wWcYe7BejFUErdkyN",
+  "received_at": "2026-10-12T21:27:16.865955+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.3,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says classic high-end stores are still going strong, which conflicts with many closing due to recession. However, the hypothesis refers to unspecified 'our higher-end stores', so some room for neutrality remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 884,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

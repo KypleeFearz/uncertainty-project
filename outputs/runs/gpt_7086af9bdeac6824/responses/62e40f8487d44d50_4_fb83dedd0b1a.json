@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18027n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15f8592ca876b4e79c81797e788ee1778b69758e141b6289711f32d61d5c67a4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bc61abc1ed04a4d016acbd8ec90b887d28078f527e27b822f",
+  "received_at": "2026-10-11T18:44:00.451457+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.88,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.52,
+    "brief_reason": "The premise does not identify “they” as the authors of a recently introduced bill. It says agencies need flexibility to tailor procedures, not that each agency would be required to do so."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

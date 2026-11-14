@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "3707c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8d1774350f526000f8b25d4497433f6bca0737b867376b26f19517daa549b7e4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAYigkDQQy8Kg2CSWKu",
+  "received_at": "2026-10-11T21:32:44.345392+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.5,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise calls the number an 'estimate', which suggests it is not an exact verified count, but it is also called 'most reliable', so verification is not ruled out. The relationship is uncertain, leaning neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

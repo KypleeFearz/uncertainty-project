@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3974156067.jpg#1r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b64053d63d9694f037ca897d7592e97a86771ceb813aff4abd5de0e1515cf54",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_044f200b61af44d5016acd4c1a307487d28e1ecbaa6c69844d",
+  "received_at": "2026-10-12T21:07:42.466450+00:00",
+  "parsed": {
+    "entailment": 0.37,
+    "neutral": 0.62,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.89,
+    "brief_reason": "A grill suggests an outdoor setting, but grills can also be indoors. The premise does not explicitly establish that the man is outside."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

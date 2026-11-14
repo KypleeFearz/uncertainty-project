@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3042381160.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69c8562930de827125a3d0f257127e12b8b0e51950a6abc3c4482fff35c9fa08",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0444b3520addb6c4016acd4a9a34cc87d28a010f8de6be629a",
+  "received_at": "2026-10-12T21:01:17.153709+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise supports that a man works on a computer while two people talk, but does not specify their topic. Their conversation could be about business or something else."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

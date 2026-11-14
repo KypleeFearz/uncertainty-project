@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46937n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc95a8541ebae9e7b8f8e1074c96fce9a661c7cb2989e769efa044d9bf1f576a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd7e7c8f69d46e3016acd45e8f0b087d2914d22de276a9392",
+  "received_at": "2026-10-12T20:41:16.402725+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.74,
+    "brief_reason": "The premise states an obligation above six hundred but does not specify what is required below two hundred. Inferring no obligation from the lower value assumes the stated condition is the only trigger, and 'anything at all' is broader than 'do it.'"
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

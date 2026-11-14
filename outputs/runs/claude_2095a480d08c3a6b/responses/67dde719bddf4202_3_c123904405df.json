@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "29844c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "909f0e05dd5e46d9de4b43f1f5afce5c0f225e7212be24d4f734040c687c318d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwANuNQQL5Qvx3H4NKgK",
+  "received_at": "2026-10-11T21:30:31.191857+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Jon says he is glad she wasn't (something), which is a positive emotion, while the hypothesis says he was sad. What 'she wasn't' refers to is unclear, so it may not be about her being happy, which leaves some neutrality."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

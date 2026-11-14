@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2372763106.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d41619e1c049d9d9942751e85e9ad51c91db2ec996f076913b224828c2a43039",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0327eb321e75af3b016acd499c8d9887d2b10bc4df4ed4c59f",
+  "received_at": "2026-10-12T20:57:04.892694+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise identifies a race dog numbered six and says it is midair, but provides no color information. “The six” could refer to the numeral or the dog, and neither is established as green."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

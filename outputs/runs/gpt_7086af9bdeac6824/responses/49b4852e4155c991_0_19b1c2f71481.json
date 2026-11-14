@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116970c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e49595d7166a66ecf1abe9697e6ebf4e2da1f83f4f197048787b12e9b949c19",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0576e77aaf408f0e016acd42637ac887d28f754ebf41b36be6",
+  "received_at": "2026-10-12T20:26:14.832985+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.88,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.56,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The fragment contrasts reporting numbers of parks or acres with reporting historical cost; it does not establish that land has no value. The missing context also leaves unclear what is being measured and whether the land is owned by parks."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

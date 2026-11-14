@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133243e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd89a17ed8e716b6a6e6e5f8c4b0dac0c6e478cfe6d7defb406ce44624b031a1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c1dfddf28de74e016acbf6d7ab0487d29f2df30f12a07639",
+  "received_at": "2026-10-11T20:51:38.471496+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise establishes that the river flowed, but not that it made a roaring sound or flowed with the force suggested by 'roared by.' It also does not rule out those conditions."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

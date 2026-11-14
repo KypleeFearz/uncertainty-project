@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4938916849.jpg#0r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise describes a blond woman, not a yellow woman, and specifies she is holding a sign, which contradicts the hypothesis that many people are taking photos with a yellow woman."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 360,
+  "output_tokens": 107
+ },
+ "seconds": 2.33,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:43:47.741314+00:00"
+}

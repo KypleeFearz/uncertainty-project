@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "108624c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "19cd0f10ffc690ecc054e1e07a6ca786057315fec6d4b939410a8af794dd9d07",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3c2f1FQw9uWYaCvfw7",
+  "received_at": "2026-10-12T21:22:52.684802+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.2,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the emissions are national totals, while the hypothesis says regional totals, so the scope differs. A national total could be read as covering regions, but the contrast between 'national' and 'regional' most likely makes this a contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

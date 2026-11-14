@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124534n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d608de72b0387d917fb5e476ba67e49bcb5646b5ad22e8574430627167d92233",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d3ff6121b893c3016acbf6705e3487d2b8a00c0ac3e27ea4",
+  "received_at": "2026-10-11T20:49:55.727401+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.79,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Being \"on intimate terms\" can mean being close or familiar, without having an affair. The premise also says this only \"seemed to prove\" their closeness, not that an affair was proven."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_86901941.jpg#2r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6d53aa2bdd93b9085a3420b3de0234e16fcbaaf88ee37b5c9f81829f33abb3a3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5yqPC846HE2vD9uiwH",
+  "received_at": "2026-10-12T21:54:01.777440+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.9,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Selling hardware parts on a dirty sidewalk does not establish that the man is homeless; he could be a street vendor with a home. Homelessness is only a possible stereotype-based inference, not supported by the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

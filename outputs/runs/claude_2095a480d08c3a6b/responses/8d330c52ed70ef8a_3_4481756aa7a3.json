@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23774n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6feca2a5d5b1f8b4ade9e46c8bea9d7db1076bf549f0962205efdf5a756ed6fb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy44sQtxnkq4gfCQMSXz",
+  "received_at": "2026-10-12T21:28:56.919732+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"One letter\" tearing at his heartstrings suggests exactly one such letter, which hints against \"more than one\", but it never says how many other letters there were or that they made him feel loved. \"Tore at heartstrings\" may mean sadness rather than love, so the hypothesis is not clearly ruled out or established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

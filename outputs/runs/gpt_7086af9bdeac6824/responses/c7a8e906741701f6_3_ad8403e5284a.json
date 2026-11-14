@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112349c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5fd73036593ffb4b103fee60d1f9a74f383f596e346f7e4affa5fa16de16d063",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b623ef006cc5cb016acbe544bdb087d286e2f2bb8d313fd5",
+  "received_at": "2026-10-11T19:36:39.486110+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise rejects as historically shortsighted the claim that Clinton's approval represents something newly immoral. The hypothesis instead endorses that claim as accurate."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113913e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c1a7c0ba4b90ae3038a9fd1d90abe1d04135ea1e601fe31bf9fdd02be379419",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_008deed725d47b5e016acbe578746c87d2b46887bcbda582ae",
+  "received_at": "2026-10-11T19:37:32.175737+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise naturally suggests that Si pays for some treats but not all. Strictly, however, 'doesn't pay for all' allows paying for none, and 'such treats' may refer to a narrower category than treats generally."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

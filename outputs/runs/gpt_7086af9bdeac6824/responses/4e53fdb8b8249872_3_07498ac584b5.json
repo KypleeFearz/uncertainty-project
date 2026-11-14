@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48908e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0baa9f9b11887b945b27bf497ce722e9e7005cbdec1ec9c7b9a4af9b468b5cab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3e0f982635650e016acbeea9080487d2aa36b84192c06bc1",
+  "received_at": "2026-10-11T20:16:45.303183+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.02,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The town already existed and flourished in 6500 b.c., more than 8,000 years before the present. This supports the hypothesis when its age is measured from its historical existence, without requiring continuous habitation."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "103155e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise shows Sir James nodded, which can imply agreement or acknowledgment, but does not explicitly state his thoughts. Nodding can be ambiguous, making the inference probabilistic rather than certain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 109
+ },
+ "seconds": 2.42,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:39:47.286606+00:00"
+}

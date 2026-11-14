@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4830075359.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23a62d3473c83f24eb2bf9513cfcc9e8ac2850b610adc5bd5e65625295156c27",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a97b60b927f8acc016acd4d77a4e087d2b16f948913f39bb5",
+  "received_at": "2026-10-12T21:13:30.655800+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.039,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "An older gentleman is a man, and speaking at a podium strongly supports describing him as giving a speech, though the precise type of speaking is not explicit."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

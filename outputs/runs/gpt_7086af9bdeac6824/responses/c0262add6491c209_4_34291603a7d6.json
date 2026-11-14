@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61767e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8bef024b573bbf8ca1af427da5aa3a999964a1e90a383ab80af3cedc1284d06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077844e9ce1fdcb9016acbf063fce887d289c6e6782034295b",
+  "received_at": "2026-10-11T20:24:07.654550+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says the FDA solicited comments, while the hypothesis attributes that action to the FTA. It neither establishes nor rules out whether the FTA also sought comments."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26880c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b21b2cf95ba7f37ca54a7d7ece18220c9d598739563df4f4bc5e817ee0d0c064",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07069774db68f6e8016acbeb9f1ed087d29b86846ef502e722",
+  "received_at": "2026-10-11T20:03:46.046701+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.015,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.005,
+    "brief_reason": "The premise identifies Octavius Decatur Gass as one opportunist, treating the full name as referring to a single person rather than four people."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

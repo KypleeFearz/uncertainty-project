@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96121e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cef2d560c85067a49752ec9e7d88be6c01f83bea1fa501a8e32e7ae4494d08d4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBuAwEZqc3zeusGnmZb",
+  "received_at": "2026-10-11T21:50:28.010211+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says they went to Delaware along the ocean most years, so seeing the ocean is very likely. It is not strictly guaranteed, since staying in state parks might not mean they saw it each time."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

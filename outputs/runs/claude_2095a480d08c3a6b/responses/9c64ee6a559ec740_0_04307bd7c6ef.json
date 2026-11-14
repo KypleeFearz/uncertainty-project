@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "110061n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "01e8d712191cf061c4b6bea169741df68275a355f36deb5afba7f77b34702529",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9BQjYRXaUBq3yqJEuj",
+  "received_at": "2026-10-11T21:14:48.266970+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.8,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the south tower offers a stunning view, but it does not say it is the best view in the city. A superlative claim is not established, nor is it ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

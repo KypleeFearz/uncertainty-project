@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13964e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "82c668b3182122ddebb7b0eb77258962113b268512485545c97412f654221b94",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02b4a2d9cc7df6a4016acbe92aeb4087d29946d153d67a04c1",
+  "received_at": "2026-10-11T19:53:18.306880+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The speaker explicitly describes plastic as \"too easy,\" supporting the hypothesis as a paraphrase of their view. However, \"to use\" is implicit rather than specified in the premise."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

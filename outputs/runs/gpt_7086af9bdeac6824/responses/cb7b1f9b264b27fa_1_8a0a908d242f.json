@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116713c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64edb72248bd835ff6d8747f01328e13692a8170679019b40f5c11dad6fdb096",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013bb22edc25aa31016acbe5c4b16087d2a7dcc519f1381a89",
+  "received_at": "2026-10-11T19:38:48.765846+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise identifies auto-accident claims as the data studied, whereas the hypothesis says jello-ingestion data replaced auto-collision data. On the ordinary reading of substitution, these descriptions conflict."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

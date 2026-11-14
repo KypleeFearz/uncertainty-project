@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47756n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4da257e95b39ca5f7106e00c40827611aa1f4262cedb3bfed52afdf978109fa1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f411c3b08678a58016acbee78a69087d2871598fe7d98c647",
+  "received_at": "2026-10-11T20:15:55.643334+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise gives an upper bound on her age but says nothing about whether she looked older. It also does not establish that she was exactly or barely eighteen."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

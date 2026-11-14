@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4048692596.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be9c04e515eab5a81c2868d51768168702078106a6bf3f3b98900e5a28253e48",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0b26352ef86d41016acd4c3e694487d2af5c0eff097598e4",
+  "received_at": "2026-10-12T21:08:18.887146+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.25,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The dress, posture, and location match. The main uncertainty is whether “lady” broadly denotes a female person or specifically an adult, since “girl” does not clearly establish adulthood."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "13884n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6f5e7d136b819b0f0c26ee1a4cb779d572e93a4c369de6b714c3904f24a5b993",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9qN5cuM3vWQ1otB5Dh",
+  "received_at": "2026-10-11T21:23:23.273586+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.67,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only compares Americans' view of morality with the addressee's, implying the addressee values it less. It does not say whether everyone values morality highly, though it hints at some people valuing it less, which conflicts weakly with a universal claim."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101525c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1e18a20cc15e3e4308a770c549ba578f67b382c9038d927d4bd1cb67aad62fbf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_032213a8035c5c41016acbf533fe7c87d2894f18c78b33a7f5",
+  "received_at": "2026-10-11T20:44:39.123385+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The fragment mentions Monday's question but provides no information about whether there was a question on Tuesday. A Monday question does not rule out a Tuesday question."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 456
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

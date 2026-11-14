@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2480327661.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a0010e5ca0a4fbd458551dffd4cbf91a4885d3e1ed8485f140b0e931afefa66b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_032e6f2334e2d751016acd49d6a2bc87d29765462f830571f9",
+  "received_at": "2026-10-12T20:58:03.279355+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Posing while wearing a karate uniform supports the interpretation that the boy shows his uniform. The premise does not explicitly say that displaying the uniform is his purpose."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

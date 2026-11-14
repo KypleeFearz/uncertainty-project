@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118999n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8d17367713839e65430af9e39b2aee7205e5e92f7767c0fcc4caca0b3b32002",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053d8c934b25190c016acbe6234cb087d2bf5ad92f26b545cc",
+  "received_at": "2026-10-11T19:40:23.059127+00:00",
+  "parsed": {
+    "entailment": 0.33,
+    "neutral": 0.66,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise acknowledges a true point the speaker had not considered, but does not establish that the speaker previously held a different opinion or changed their mind. Attributing that change to the addressee requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

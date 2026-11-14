@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139640n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "936a4c044e5d18d36adda1a8f03f7c8094b07182975793a091160439deb236f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_007e87c41a480d4b016acd43bb823487d2bc1f19bb4ec5a372",
+  "received_at": "2026-10-12T20:31:59.313281+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Reading “Housed” as “houses,” the premise supports providing shelter quickly, but haste does not necessarily mean haphazard construction. “Conjured” also does not unambiguously mean physically built."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46820e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9070c8c199347e3c7705de9168b701fff20499a919ea3e45bc5deda002a92486",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fad4255847cca7c016acd45e6960487d2a67dd0d4d506f9e8",
+  "received_at": "2026-10-12T20:41:14.069126+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.34,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise associates the speaker's part-time work with a restaurant in Salisbury where meals normally cost under $14. It does not establish that this was the speaker's first part-time job."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

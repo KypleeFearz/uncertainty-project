@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10994n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "428bdcd9693f5c0a6d57ce84e89831f69098cc58db58c54700889a6b74361988",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02645fefa263c848016acbe50b3f3087d296c67da3ba125f8b",
+  "received_at": "2026-10-11T19:35:43.421467+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.49,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes an unspecified subject as tetanic, ordinarily meaning related to sustained muscular contraction, but says nothing about reactions to being spoken to. Its unusual wording and unspecified referent leave some interpretive uncertainty."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

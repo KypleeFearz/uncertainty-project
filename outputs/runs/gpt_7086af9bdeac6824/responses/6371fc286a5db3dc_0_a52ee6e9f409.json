@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3181322965.jpg#4r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "05ea6c5cfe68fcc34a9c7b13f5b42a59949fc06de390797a62797e7ef0e7cb85",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b880e602b4a236016acd4ae7684887d2bf5336a60e0b100d",
+  "received_at": "2026-10-12T21:02:37.051241+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Walks through the water” ordinarily describes wading, whereas “walks on water” describes walking atop its surface. These readings conflict, though loose interpretations of the prepositions introduce some ambiguity."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

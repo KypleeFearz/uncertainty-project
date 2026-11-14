@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2303609756.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.6,
+  "neutral": 0.3,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.9,
+  "brief_reason": "The premise describes a gymnast performing a difficult skill on rings, which strongly suggests professionalism, but does not explicitly confirm it; thus, the hypothesis is plausible but not logically guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 107
+ },
+ "seconds": 2.48,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:01:44.030085+00:00"
+}

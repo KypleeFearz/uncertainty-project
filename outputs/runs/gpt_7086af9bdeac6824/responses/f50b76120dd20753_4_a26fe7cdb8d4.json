@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_8081167161.jpg#0r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25e5f1430b3553c949f56d1d4cf9aa22b33b626bfd40d218750a881d0ad442cf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009dabc0eb5ea4e5016acd4ee67e7c87d28b89342d066609c7",
+  "received_at": "2026-10-12T21:19:38.710736+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise places the children behind bars but does not establish whether the bars protect them, confine them, or serve another purpose. Protection requires an additional assumption about the bars’ function."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

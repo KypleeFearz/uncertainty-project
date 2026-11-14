@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2133n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3306321c7db537c1ad85621695729cf0571c1be531573c4acc07f8a10c0fe78b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09249b4ab799cd41016acbeac21cd487d2aafcd9fc215b5d09",
+  "received_at": "2026-10-11T20:00:07.506338+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise describes a guardian providing access and a candle, not a thorough guided tour; limited visibility does not strictly rule out such a tour. “Tomb garden” also does not clearly refer to the tomb guardian."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 617
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

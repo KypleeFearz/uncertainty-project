@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2303609756.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "996967c6931cd0d0e5c25f5e58eba7fe9558305c1b7f8008dee5a4ebc49976eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b6051f1e84b35c016acd4986e83487d2934a52b0e42ee423",
+  "received_at": "2026-10-12T20:56:42.739729+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise describes the gymnast’s nationality, clothing, and activity but does not establish professional status. Performing a demanding rings maneuver may suggest expertise, but expertise does not guarantee that he is a professional."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

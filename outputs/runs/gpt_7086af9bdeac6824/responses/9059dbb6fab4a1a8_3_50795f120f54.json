@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26196n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd48d624353da4471f2c6a0a09ddaf2b80b9244935cc11951ade7ef41667ad5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a6782d836e5c4b016acbeb8b1f1087d2b110abd6052a2024",
+  "received_at": "2026-10-11T20:03:27.873625+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The townspeople are described as routed partly by the fury of Kal and Thorn, supporting that Kal and Thorn were furious at them. Identifying the townspeople as villagers and treating them as the targets of that fury requires a small contextual inference."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

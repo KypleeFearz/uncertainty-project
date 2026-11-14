@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "140278n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "70c5ae3808d4a147647428ce17d6845bf4e5e51804e29ce8fe56bb0f70736ec8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3vipVjrtsq3ny4EMFJ",
+  "received_at": "2026-10-12T21:27:05.585538+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.68,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says most productive operations are easier to study because few firms have many locations and a large outdoor workforce. It does not claim that productivity is directly related to the outdoor workforce, so the hypothesis is not established or ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

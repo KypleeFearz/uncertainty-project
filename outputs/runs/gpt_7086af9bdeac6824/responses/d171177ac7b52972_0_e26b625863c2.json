@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134356n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c54c57679041ded0180dbb3086502a75342499b814fd68df5f3a4a1012ddf5d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fe883f788612633016acbe851e1e887d2b3adaf126b190f23",
+  "received_at": "2026-10-11T19:49:42.328879+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise recalls a warning about people who do not tell the truth, but does not establish that such people might be nearby. The hypothesis is a plausible contextual inference rather than a necessary consequence."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

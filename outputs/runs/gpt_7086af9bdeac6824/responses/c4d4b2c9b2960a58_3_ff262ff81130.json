@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12815n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e650377a42964ad17910eea5187b464d808982e14283effd53390a0f1e139593",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dabd074f08a954f016acbe72a0ef487d28326de4907839fe5",
+  "received_at": "2026-10-11T19:44:46.646908+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise says a league is always bowling when the speaker tries to go. It does not explicitly establish that only leagues are allowed or that the speaker cannot bowl, although that is a plausible implication."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

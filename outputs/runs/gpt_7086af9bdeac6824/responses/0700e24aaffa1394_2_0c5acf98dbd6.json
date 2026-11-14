@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132084e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5bbb8c2f9cb6c0b8d022f95ff6f155337de4a28d0379bcd3482d8cb98edb1343",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0427ddc57da5bd8e016acbd8c5bba887d28896479661428002",
+  "received_at": "2026-10-11T18:43:21.635309+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The beginning of the eighth century broadly corresponds to the start of the 700s. However, arriving \"by\" that time allows an earlier arrival, so the premise does not establish that the migration occurred \"at\" that time."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

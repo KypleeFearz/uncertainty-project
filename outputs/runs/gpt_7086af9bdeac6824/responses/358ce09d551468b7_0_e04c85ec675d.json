@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80109e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b69615b6395152125fd7b810009829df166104e39e97452039497d5860cd2b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e432271b4df81ce016acbf298060087d2b13cb26a32cd2092",
+  "received_at": "2026-10-11T20:33:32.172598+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.65,
+    "contradiction": 0.23,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise imagines making a rice field if there had been more rain; it does not establish that the actual rainfall was sufficient. Its exaggerated wording suggests heavy rain, but that is not enough to guarantee the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

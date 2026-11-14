@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3560513546.jpg#4r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise only states that a woman is smiling while on a bicycle, not that cars are driving past her. The hypothesis adds extra, unsupported details about traffic, making it uncertain whether it follows or contradicts the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 116
+ },
+ "seconds": 2.58,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:22:44.132539+00:00"
+}

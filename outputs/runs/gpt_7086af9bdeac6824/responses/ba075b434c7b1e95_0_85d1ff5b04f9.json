@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93587c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c2c9c4305adaab54431e39c031e88f57b914af64f108ebbd602fb861a118b6a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_028bf13a5ffc4eea016acbf4672cd887d2b8669ccb40b2ee7c",
+  "received_at": "2026-10-11T20:41:15.342010+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.28,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise names personal parties and commercial phone-answering services, whereas the hypothesis substitutes public parties and doorbell-answering things. These descriptions conflict, although the fragmentary premise and interrogative hypothesis leave some uncertainty about what is being asserted."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

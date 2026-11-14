@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_219301555.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1e588d94db22fb3b184f065e66ae95018d509e35967060c6d32d2d5820abf5e9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011e5136d50e7111016acd494e66ec87d29a92ccb7b9f96728",
+  "received_at": "2026-10-12T20:55:45.745160+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Wading supports walking in water, and being extremely wet is compatible with dripping wet. However, the premise does not establish that the woman had been swimming."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_5262731925.jpg#3r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "06d43d9b133a95b48012340d09f65ad7facdb4f0cace14b6475e596de6aa5c4d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5nvCcDn3D2YYtYqTAV",
+  "received_at": "2026-10-12T21:51:33.882216+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Road construction is likely outdoors and involves two men, but the premise does not say the watcher is a worker or that both are doing construction work, so the hypothesis is only probable, not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

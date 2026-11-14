@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "111084n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e62f02d3112f1aea9b054014a2473d4d46f44d6ebe58098fa7b28d8c47c4bcc9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3dFXhCcfHcJDiCa5EQ",
+  "received_at": "2026-10-12T21:23:09.151000+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.82,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says 'where available' about criteria values, not locations. The hypothesis misreads 'available' as applying to locations and adds freshwater and saltwater, which the premise does not state, so it is undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

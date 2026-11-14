@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53283n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eefb61c89220160bcfd459a3f5389b39efd65e4188782ea9b2bb29015e61c319",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085e4a91569b0292016acbef21b91087d2a0c49082d1e83614",
+  "received_at": "2026-10-11T20:18:46.261901+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.22,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise defines external validity as generalizing findings beyond the subjects of a study, not as studying people or things outside that study. It also does not establish the origin of the term's name."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 590
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

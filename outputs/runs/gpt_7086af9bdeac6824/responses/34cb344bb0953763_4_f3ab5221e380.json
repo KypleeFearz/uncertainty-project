@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115593c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2445816c7aa2e1ac17f676ec093997e930ae1a3e9200e4a7f77b789e34d9852b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06727f60701596ea016acbe59ce6f087d2b69dd792f152f818",
+  "received_at": "2026-10-11T19:38:08.996556+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the tours are signposted and can be followed using booklets, but does not establish how easy they are to follow. Those aids may suggest ease, but that is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

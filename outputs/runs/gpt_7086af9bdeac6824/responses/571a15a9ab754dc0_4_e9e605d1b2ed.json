@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32889n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "177ecbdd2432dc5c0ab5c16eb7fd978153ef130b8ac22f33302b8f44eefcd0d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b681a41beb4041016acbec76b54c87d2b2fc7ff9e82956dd",
+  "received_at": "2026-10-11T20:07:21.878445+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise states that extremely limited exceptions are established, but gives no information about anyone's efforts or intent to eliminate them. The hypothesis's \"they\" has no identified referent in the premise."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

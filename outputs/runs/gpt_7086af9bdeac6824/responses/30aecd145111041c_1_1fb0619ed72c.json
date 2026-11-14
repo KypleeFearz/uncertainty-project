@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36783e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a60aebf8ab5db6506e8f1a24404128f63b18a71b04f889e55618b2e8e74f70db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0863b16c6444c012016acd454d548087d2900262a74f5cc042",
+  "received_at": "2026-10-12T20:38:41.509153+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.92,
+    "brief_reason": "Waiting for the Scotland Yard men suggests he expected them to arrive, but does not establish that they were actually coming."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100373c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6c38ffffb01f5d795fbd31e3a1182d53f47bd708b698c4d03efa35978104fd74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fbc5db8e32c92f0016acbe386efa087d2b162935a49f7fa0f",
+  "received_at": "2026-10-11T19:29:15.233287+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise defines a program account as an account from which subsidy costs are disbursed to a financing account, directly conflicting with the hypothesis's blanket prohibition. A small uncertainty arises because the hypothesis expresses a normative claim ('should') rather than describing actual practice."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

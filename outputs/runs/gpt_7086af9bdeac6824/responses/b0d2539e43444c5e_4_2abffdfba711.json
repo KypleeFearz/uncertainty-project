@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13017n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63462c62558031ae9b5f542dd5c747d36527df1ad2d422fa8e5e34247ea94712",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf0f7364bcbadd2016acbe77d841887d2b951856e50482637",
+  "received_at": "2026-10-11T19:46:08.380786+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise says a model estimates a change in demand for postage, but gives neither the direction nor the magnitude of that change. Demand for postage also does not establish how many postal items a household receives."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

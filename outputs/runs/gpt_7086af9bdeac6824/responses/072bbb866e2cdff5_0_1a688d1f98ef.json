@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74992n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "259e19955262ac98d012bedb2a48ce2f9b7d2e6015f6938e6a687d5e1fd4742b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a411aa4510f2365016acbf1f6a75887d28dbc87ec3147ed6d",
+  "received_at": "2026-10-11T20:30:49.376480+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says SSA will consider comments received by the deadline but does not specify how later comments will be treated. It establishes no legal prohibition on considering them."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

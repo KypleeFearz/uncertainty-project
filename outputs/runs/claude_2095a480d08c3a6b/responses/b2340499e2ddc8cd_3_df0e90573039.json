@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23414e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "203f26bc6c753f48a87fc2247bfedfa329a22976d84866a793c32916e13f8986",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCT9kCJV71tbNWwbu1n",
+  "received_at": "2026-10-11T21:57:42.070497+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.6,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The rhetorical question discourages sacrificing lives for farmers and slavers, but does not establish whether anyone actually does so. It may imply people are being asked to, yet that is not stated, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

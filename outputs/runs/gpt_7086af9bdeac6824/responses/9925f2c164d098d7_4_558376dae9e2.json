@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99708e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6ad3730eedd49ce2f143acc0861126b836763699d2ffca77276acb7db6a3046b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6c21136a5f487e016acbfb30b1fc87d2a1947c3a1999a63f",
+  "received_at": "2026-10-11T21:10:12.942353+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise supports an intentional resemblance to an old-fashioned train, but does not establish when the object was built. Also, “made up” may mean decorated or modified rather than constructed."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

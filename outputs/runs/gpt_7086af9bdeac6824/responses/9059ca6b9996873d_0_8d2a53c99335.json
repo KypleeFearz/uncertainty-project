@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117102e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c310bc64a1257e2dd35ead0276fe598142b2dfbad77c6761fde14401564bc25c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f2096a14b938461016acbe5d64ec087d2a33266f8c50936e4",
+  "received_at": "2026-10-11T19:39:06.651206+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.17,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "A “snap judgment” ordinarily means a judgment made very quickly, supporting the hypothesis. The premise is only a phrase, however, and could be a title rather than an assertion that such judgments occur."
+  },
+  "usage": {
+    "input_tokens": 359,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

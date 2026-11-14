@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28718n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b618387fc188af367aec433e50d8dff9c5065b859bff3416d946c92459927b2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a38162ab091aad1016acbebe5b95887d29ef8a301f0c22a22",
+  "received_at": "2026-10-11T20:04:58.620798+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.32,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.66,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "If “I didn't much” means “I didn't do much,” it conflicts with the possibility of having done a bunch. However, the premise is fragmentary and leaves the relevant action unspecified."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

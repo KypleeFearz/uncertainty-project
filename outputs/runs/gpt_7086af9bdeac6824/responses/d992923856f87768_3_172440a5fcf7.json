@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30592n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73710a705937a3f4af9bba72e001c585306453c503927a940c2a453ca32a4267",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef42a6a857787f4016acbec3b47fc87d2983f0a51697a7248",
+  "received_at": "2026-10-11T20:06:23.621762+00:00",
+  "parsed": {
+    "entailment": 0.73,
+    "neutral": 0.26,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "'Of course' conventionally expresses confident agreement, supporting the hypothesis as a paraphrase. Without context, it could instead express permission or willingness rather than affirming that something is true."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

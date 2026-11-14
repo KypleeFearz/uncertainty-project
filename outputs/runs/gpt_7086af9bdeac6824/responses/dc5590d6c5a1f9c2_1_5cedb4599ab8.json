@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31249e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e8eb38b4440d3d6f9ed13428492e3c25dccffc218d50944acd0ef070fe0263f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_014f303847512093016acbec4ebc7c87d294a88707c9251ca4",
+  "received_at": "2026-10-11T20:06:41.373816+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.018,
+    "contradiction": 0.002,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly says that construing his remarks as support for supply-side economics requires some effort, matching the hypothesis's 'some work.'"
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

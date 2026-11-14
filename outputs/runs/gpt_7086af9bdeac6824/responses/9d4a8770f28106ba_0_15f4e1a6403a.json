@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_219301553.jpg#2r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a259cbbee106868962f55f3190aab7e9094110349a2fee1c8aaabf9d8d10cedc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ac21aad0961396016acd4947e8b887d28d339d6da2fc6c0c",
+  "received_at": "2026-10-12T20:55:39.277462+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "Wading in a river establishes that the people are in water, but not that they are playing. Interpreting their activity as play requires an assumption about its purpose."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

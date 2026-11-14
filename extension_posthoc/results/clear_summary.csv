@@ -1,0 +1,5 @@
+split,model,clear_cases,deviations,clear_cases_majority_below_0.80,deviations_majority_below_0.80,median_human_support_for_deviating_answer,deviations_with_support_at_least_0.25
+test,gpt,94,32,41,19,0.24,16
+shift,gpt,216,19,69,14,0.26,11
+test,claude,94,20,41,12,0.255,10
+shift,claude,216,12,69,10,0.275,9

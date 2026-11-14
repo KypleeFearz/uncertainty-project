@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57369n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee24d6d6a36a67b289187b6f4b951d6d343ff83a72c8666432ccd706cc8d73cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cd4480ce274a341016acbefd81fd887d293bbdb32b092bc38",
+  "received_at": "2026-10-11T20:21:48.679269+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Plants can be test organisms, but organisms need not be plants, so the premise neither establishes nor excludes the hypothesis. “Test” and “trial” may have similar meanings, but these short labels leave their precise relationship underspecified."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36811c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ed3318ad4bc25b8989eaa8e4ac6e370d1a1a31ccdc5183611006c25b01230515",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05fd4b37f0f744f9016acbeceba3dc87d29c9dd360e60e2701",
+  "received_at": "2026-10-11T20:09:19.391882+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.9,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes an accusation and a quarrel on the afternoon before the stepmother's death, not the beginning of a love affair. What reached her ears is unspecified, and the timing is not established as just moments before her death."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

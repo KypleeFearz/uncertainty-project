@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135021e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a30f98612340f4b05a03887ae3dda5a7064b43d565b9c4c73e0751f0519a628e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04f01397ab68ca30016acd43543f4087d29d553b4698d9f1dd",
+  "received_at": "2026-10-12T20:30:17.199822+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.11,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says there is a monetary amount charged on the referenced items, supporting the broad claim that some money is on there. Some ambiguity remains because “money on there” could mean available funds rather than charges."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8005c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "efbf70ce7a16e6b3543fc88ff009f25085d0f57472ed185326eda6eb01cb31c3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0adb5762e793d97c016acbf292691487d29877702ec6d1388c",
+  "received_at": "2026-10-11T20:33:28.060312+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise describes funding hardship, a need for unprecedented state assistance, and a threat to nationwide funding, rather than a surplus. It does not explicitly establish the funding balance of every service nationwide or address local-government funding."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 596
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

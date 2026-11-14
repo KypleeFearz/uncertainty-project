@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114971e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "927070a78c89ee85cf1358d71b10b87df7d9077ccdf8a439c641fdaf6f8e10ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07ced6e202880c34016acbe585528c87d28644c1f230e54321",
+  "received_at": "2026-10-11T19:37:45.639238+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.8,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise says Clooney's character will be forced out rather than killed, but does not establish whether Clooney himself is being fired. A character's departure does not necessarily imply the actor's dismissal."
+  },
+  "usage": {
+    "input_tokens": 436,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 585
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

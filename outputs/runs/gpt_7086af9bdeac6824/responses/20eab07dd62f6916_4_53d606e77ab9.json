@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50480n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5f1232bf2b1f5067f2f1cc2786b6126925ad2aacfac01fce283b24b5c2dc6683",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_050f98f34a1dc45e016acbeedd1f0c87d2bead3b0a3d8c914b",
+  "received_at": "2026-10-11T20:17:37.794405+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Find it all right” can mean finding it acceptable, but does not establish the stronger judgment “more than adequate.” The phrase can also mean successfully locating something, creating another possible interpretation."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

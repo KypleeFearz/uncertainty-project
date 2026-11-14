@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_224998257.jpg#4r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17194fe73c190936a2641116fd34d9aa95e8cba15a2c489207df487e7609f7c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d9637df159cd1e016acd4972a36c87d2b452dc6e87d6013e",
+  "received_at": "2026-10-12T20:56:21.355938+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.49,
+    "brief_reason": "The premise establishes that young women are on a retreat but does not specify that it is a yoga retreat. A yoga retreat is compatible with the premise, but not established by it."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

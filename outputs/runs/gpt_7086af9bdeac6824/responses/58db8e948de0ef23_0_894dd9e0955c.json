@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10547c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "165198cf6743eb893f821be78a708cec03370e1658b3e9649957744b04220ae6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01bf669b7f85defa016acbe461660487d292a6f24d50adeda2",
+  "received_at": "2026-10-11T19:32:53.547813+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes him attacking the brute with an axe, whereas the hypothesis identifies the weapon as a sword. Under the natural reading that both describe the same attack, these weapon descriptions conflict."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

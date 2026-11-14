@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "47877c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5b37c971dfdd0bde0725315db7dd1344fc0b428c1887c42e35416ff2066785b7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAovoRHqZB3CiDo6H9A",
+  "received_at": "2026-10-11T21:36:10.307915+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The speaker says it's funny that many kids share the same fears, which suggests they find it amusing, so the hypothesis that most children don't find it amusing conflicts. However, 'it's funny' may be the speaker's own view rather than the children's, leaving some room for neutrality."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

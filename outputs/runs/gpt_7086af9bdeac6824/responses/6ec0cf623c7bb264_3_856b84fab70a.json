@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21702e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "390df1caef9ab181ef56a7fea04f84718b561bb62ef31d36201e04a24663cd82",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be96a8732278904016acbf7a9ea6487d2bf8232ec74219d19",
+  "received_at": "2026-10-11T20:55:13.175142+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "If “no what” is a typo for “no way” and “get rid of” means destroy, the hypothesis paraphrases the premise. If getting rid of it includes giving it away or abandoning it, the premise does not establish that those options are impossible."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 592
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

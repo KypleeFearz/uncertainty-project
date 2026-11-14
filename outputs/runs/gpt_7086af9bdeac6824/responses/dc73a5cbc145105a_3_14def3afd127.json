@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144207n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f17eef7c944bbb882efe6647d729632016ee11d0a07faeac797fe72e9f0f5692",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00694241b158ee8d016acbe9b2bdf487d29b73096cd2432686",
+  "received_at": "2026-10-11T19:55:34.948658+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.78,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The premise says the speaker likes music and does not usually listen to KCBI, but does not explicitly establish that KCBI plays no music. The hypothesis also strengthens 'don't usually listen' to 'don't listen.'"
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

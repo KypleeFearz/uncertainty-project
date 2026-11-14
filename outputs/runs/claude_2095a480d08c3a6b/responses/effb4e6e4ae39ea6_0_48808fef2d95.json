@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "43178e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ac5ca9cad012f5d4e369214b8998550cc40dc7e6b01c833fb1a4cb65c41fb774",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4EtPTMzQjLtbtwYv2y",
+  "received_at": "2026-10-12T21:31:12.577097+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.3,
+    "contradiction": 0.55,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says most of it was unidentifiable, which implies some of it could be identified, so \"didn't know what any of it was\" is too strong and conflicts with that. Some readers may treat it as neutral because the premise does not say what the speaker knew about the remainder."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 765,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

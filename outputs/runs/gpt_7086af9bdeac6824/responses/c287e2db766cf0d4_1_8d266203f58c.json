@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83248c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "16d87139c70c3764648ca2c2caa29be1ba9c4c1c9596b59d93f70335f612005e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcfc41d6274463c016acbf34850f887d29e39556a5715d20c",
+  "received_at": "2026-10-11T20:36:27.569576+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise describes her recovering her memory, whereas the hypothesis says she never regained it. “Probably” qualifies the cause of her state, not whether she recovered her memory."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

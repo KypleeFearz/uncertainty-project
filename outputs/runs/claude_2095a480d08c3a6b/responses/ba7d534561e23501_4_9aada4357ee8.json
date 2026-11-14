@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "109876n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3d1ebbf33617759f7110311e628e289bc5daf2e49ef07caeafc0a07c1af8e0c8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9Avadod6YLDFXhhPuk",
+  "received_at": "2026-10-11T21:14:41.765405+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise is only a fragment listing text box titles (one on GDP and GNP), which does not show that the text explains how they are calculated. It does not rule this out either, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

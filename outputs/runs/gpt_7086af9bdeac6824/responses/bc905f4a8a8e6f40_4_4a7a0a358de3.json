@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2879991421.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9a07078b0b0ce80a848fa1bdea96acff25023e553948b795acfd73bfc9574860",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bfa7adb3eb41541016acd4a5716f087d29e2eaf76a6a8c702",
+  "received_at": "2026-10-12T21:00:11.385620+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "People wearing cowboy hats and riding horses may be cowboys, but the premise does not establish that they are competing rather than participating in a noncompetitive show. The hypothesis is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

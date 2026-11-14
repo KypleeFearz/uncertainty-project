@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56759n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fdcacdfa7702646e53d0b55509dee0cbea830bfdd08f6e19e53627f7bae8bcf1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0154ca802320a02b016acbefb2de9487d2b2af11f542657fba",
+  "received_at": "2026-10-11T20:21:11.244037+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise identifies limited resources as the reason programs must turn people away, but does not establish that doing so with adequate resources would be unthinkable. That stronger counterfactual judgment requires an assumption about the programs’ priorities or obligations."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

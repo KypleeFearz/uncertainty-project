@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "3476n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e5418a47d14efe70431737dca6202445bac205295ea8a7f60e96cbb34b91ce33",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4AhJqyzWxiAJmdTmpk",
+  "received_at": "2026-10-12T21:30:15.632259+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The speaker complains that taxes are high, which suggests a wish for lower taxes, but a desire is never stated outright. Reading it as a wish is a plausible inference, not a guaranteed one."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

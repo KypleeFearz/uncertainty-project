@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4363b071892be7d3113866819cea31e11513599a679afc6dd0e6d4ac1e9c42b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_042d6a485a9d28f2016acbe3f833f087d2a825c9f3cd0fc9e1",
+  "received_at": "2026-10-11T19:31:08.512801+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker imagines the benefits if their generation lived without debt, but does not establish that it currently has no debt. Approval of a hypothetical debt-free lifestyle does not establish gladness about an actual debt-free generation."
+  },
+  "usage": {
+    "input_tokens": 564,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 700
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

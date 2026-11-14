@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "67610c",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise's apologetic tone contrasts with the hypothesis's definitive statement, but the core idea that \"this is how it is\" is preserved, making entailment likely despite the added certainty in the hypothesis."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 115
+ },
+ "seconds": 2.52,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:38:26.824913+00:00"
+}

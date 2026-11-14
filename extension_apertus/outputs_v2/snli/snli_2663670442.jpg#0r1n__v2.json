@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2663670442.jpg#0r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise states the woman is playing the violin but does not specify her posture (sitting vs. standing), making the hypothesis uncertain. The reference to the woman is clear, but the action's posture is not confirmed, leading to probabilistic inference about the hypothesis."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 123
+ },
+ "seconds": 2.57,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:06:58.715277+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27907n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2bcc2c7bc0d1064ad8b49fb397eeb6ecc37ffc7085e8cfc626f5db6585dc4b1b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08666d0e04cd8cb3016acbf7e834d087d28532f2932736116a",
+  "received_at": "2026-10-11T20:56:12.081394+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says the speaker will not stop the addressee, but does not establish whether the speaker wants to stop them. Inferring a lack of desire from a decision not to act requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122062n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4bc5188d9e98d482d3b4dc4c539be854f39cb58b1652574205592fb4c9d6b142",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_060cd85284c918a0016acbe68f22a487d29bf2eeff272df30b",
+  "received_at": "2026-10-11T19:42:10.113160+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise provides one example of a king founding an order that still exists, but does not establish that kings frequently did so. The hypothesis generalizes beyond the stated example."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

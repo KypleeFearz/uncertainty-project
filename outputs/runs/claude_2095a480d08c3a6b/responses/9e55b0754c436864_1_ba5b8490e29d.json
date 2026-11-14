@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "126918n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e862330a0cdc47b70476e52a3c3126e7c9b9d952491dbd22418bb101b153a67d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9ZiAtucQW7EaKp8PpY",
+  "received_at": "2026-10-11T21:19:50.834395+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says Rouen had a textile industry and was where Joan of Arc was martyred, but says nothing about her parentage or her father's occupation, so the hypothesis is undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 829,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

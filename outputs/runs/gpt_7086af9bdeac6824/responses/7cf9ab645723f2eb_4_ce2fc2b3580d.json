@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84079n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "323c92ca19ba74470405cc3953542b0e4b2b1f16d3d31fdbf2f29ae09049a386",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0beb399628f264aa016acbf360c3c087d2bfb5ceb071c8039e",
+  "received_at": "2026-10-11T20:36:53.584361+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says the vandals left the inlaid stones, but does not establish that kindness motivated their doing so. If “kind enough” is merely a rhetorical way of saying they spared the stones, the hypothesis is supported."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 590
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

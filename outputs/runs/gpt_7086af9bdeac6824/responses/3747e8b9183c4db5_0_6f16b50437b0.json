@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61285n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "555e58966926bd78fe3e4be6f4d3b50e309d5a77c428654eb1bba34265f65c9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05566543e26bc64e016acbf03d078887d295f60b14dbe64cfa",
+  "received_at": "2026-10-11T20:23:28.956841+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise says they were playing various sports but does not identify football, basketball, baseball, or soccer. It also says the addressee was not playing then, rather than establishing that the addressee has never played anything."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

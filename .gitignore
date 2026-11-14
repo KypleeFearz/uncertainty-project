@@ -1,0 +1,28 @@
+# secrets: never commit real keys
+.env
+.env.*
+!.env.example
+
+# Python and Jupyter
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.virtual_documents/
+dist/
+build/
+
+# operating system
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# raw downloads (notebook 00 fetches them) and the demo's cache of live inputs
+data/raw/
+demo/cache/
+
+# working notes, not part of the submission
+extension_apertus/TEXTE_BERICHT_FOLIE_MAIL.md

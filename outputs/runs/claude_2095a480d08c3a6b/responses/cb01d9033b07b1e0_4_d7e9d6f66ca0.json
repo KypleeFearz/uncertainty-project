@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2218907190.jpg#1r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b887d2a4d547a799b8b45dcb3a5527a5ae3bfdbd6859a539767f15bb0afec27b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4xTQTcv3jYGWPMLpqj",
+  "received_at": "2026-10-12T21:40:36.085141+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.11,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "A dog beginning to climb a staircase is naturally described as going up the stairs. Slight doubt remains because 'begins to' may mean the climb has not yet actually started."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

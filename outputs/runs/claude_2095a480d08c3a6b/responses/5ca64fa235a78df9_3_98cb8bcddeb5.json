@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "18086n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2ed360bedf4a965ffd115f806e150a28983bae87ee88aaf7634d3d4d7bb013d3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCPa5ouimSaJHjb2a3H",
+  "received_at": "2026-10-11T21:56:53.460400+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Miller invoking free speech suggests a wish to speak out, but the premise does not state motive, and 'They' has no clear referent (Miller is singular). The inference is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

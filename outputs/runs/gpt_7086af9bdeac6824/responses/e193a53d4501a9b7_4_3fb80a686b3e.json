@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111243n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f24858d4d147315c2b3df6cf5e370022a971065fc28ccd4906c6bfb4141c73be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec646e3c84fdcd2016acbf5ce0d0087d2b44955f843b8a9c3",
+  "received_at": "2026-10-11T20:47:14.167879+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise is incomplete: “suggesting that Gen.” does not establish that Gen is what the pope is suggesting. The hypothesis requires an assumption about the missing continuation."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

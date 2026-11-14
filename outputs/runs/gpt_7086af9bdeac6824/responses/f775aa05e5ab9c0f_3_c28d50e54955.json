@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4502489690.jpg#4r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1826ba3528bfbd93f97ec1cf9bc79557de9557e118b91d586e5c802c34eb1255",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d5c2cb681626727016acd4ca65ee087d2b0642dd1a7fb0302",
+  "received_at": "2026-10-12T21:10:02.173052+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.33,
+    "brief_reason": "A view down train tracks in a large city ordinarily describes an outdoor scene. However, the premise does not explicitly exclude tracks inside a station or tunnel."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

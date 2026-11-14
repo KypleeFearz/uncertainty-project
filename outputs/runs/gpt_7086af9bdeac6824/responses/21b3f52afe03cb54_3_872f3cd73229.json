@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120226e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3b10c9d60b4bd547d94be5a520817206174d56b35804d75060375195cf8ca86a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7aef3f6a9d23d1016acbe65dd70887d29f173676512b6e57",
+  "received_at": "2026-10-11T19:41:22.328686+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says cheaper sugar beets appeared in 1799 and threatened the cane monopoly. It does not establish that beets became the dominant crop or that cane actually began declining that year."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86201e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd5f05db6408db0c89136fc9f74d853bd5c1a00476ea6af1334e91226bde91cc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a64578ef9acead016acbfa7e820887d2adfbe0c6b1867a53",
+  "received_at": "2026-10-11T21:07:13.773341+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The speaker says they are satisfied with what they currently have and mentions using a gas credit card, supporting satisfaction with their current cards. Some uncertainty remains because “what we have” is not explicitly identified as cards."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

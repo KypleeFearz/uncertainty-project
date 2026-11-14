@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "45774c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "09b1f0542c0343286c1a641ff72b407b7fd66e919967bc22bbb1f6592c700ec9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCbYwBienK35xVeQxQi",
+  "received_at": "2026-10-11T21:59:36.680027+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise reports that routine processing consumes about 69 percent of finance costs, and says nothing about a 5 percent figure or whether finance would be fine without processing. The \"5\" in the hypothesis seems to come from the footnote marker, so the claim is unsupported, though it might loosely conflict with processing being a large cost."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

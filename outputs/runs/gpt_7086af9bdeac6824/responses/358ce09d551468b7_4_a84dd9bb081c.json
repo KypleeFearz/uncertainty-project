@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80109e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f4828c34da29ae7c92cf702112673ba9bdd91853a3ec61da7cad1e703784c8e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_064027e2fcabc950016acbf29c23a887d2b79ee32b0b0f6d95",
+  "received_at": "2026-10-11T20:33:37.580661+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.3,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The speaker presents a rice field as an alternative if there had been more rain, suggesting the actual rainfall was not enough. However, this humorous conditional does not explicitly establish how much rain a rice paddy requires."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 585
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

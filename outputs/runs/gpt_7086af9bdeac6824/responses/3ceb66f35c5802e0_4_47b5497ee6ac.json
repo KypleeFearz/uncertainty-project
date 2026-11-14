@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43440n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "feb5ae256d385bba2cbc82cd1b39a7224266b14467d457b15cb56dfd4a20cf37",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_056dd1fa7f5c8679016acbede818dc87d2b7da33ac1af8d8db",
+  "received_at": "2026-10-11T20:13:31.809284+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says condemning an unspecified act is wrong, but does not establish that everybody does it or that it is normal. Its unspecified referent and the possible assumption that acceptable behavior is common leave the hypothesis unsupported."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

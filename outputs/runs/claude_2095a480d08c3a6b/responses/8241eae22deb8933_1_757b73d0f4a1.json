@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "70711e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7cdb38131b08a94aa1097391d0d53b4631f1efe1ed37e345d048cbb1a13de32b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBKBajKijpJeMxJJRFP",
+  "received_at": "2026-10-11T21:42:47.446172+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.12,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says that starting them in the cooler spring means it gets too hot in the summer, which matches the hypothesis. The disfluent speech and the unclear referent of 'them' leave a little room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

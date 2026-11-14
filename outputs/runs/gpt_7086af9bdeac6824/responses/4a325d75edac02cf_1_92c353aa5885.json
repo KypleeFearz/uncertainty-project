@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28459c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f8067dafb52cf52a71bfa7e8341da1837885f5dd75ee9fdc5fa588d077eea462",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e3df7709090b82016acbd90405d887d2933b5b6d2b41b4fe",
+  "received_at": "2026-10-11T18:44:22.772760+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise is an unfinished question about textured paint and does not establish whether red bricks were used. It neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

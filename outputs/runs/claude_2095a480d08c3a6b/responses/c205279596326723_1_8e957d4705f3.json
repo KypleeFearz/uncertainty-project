@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "145053c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a8af6f9b59623e3da5da8b935fb8a956277538a52ddfa0b9673175c47c749b99",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9zmn8o8WJTWfxXJ1w7",
+  "received_at": "2026-10-11T21:25:30.860152+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.75,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise only says Jerusalem was divided between Jordan and Israel; it does not mention any war being won or Israel taking the whole city. The hypothesis is vague and goes beyond the premise, so it stays undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 796,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

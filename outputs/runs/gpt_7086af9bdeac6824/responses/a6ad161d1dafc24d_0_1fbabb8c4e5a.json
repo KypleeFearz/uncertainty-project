@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23725n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c85254702164177b1d054d9814dd7b30cf91061b93f3fa0568efce23b67a0fc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0980dbda1ed1ba89016acbeb20b54c87d281eb51360d66251a",
+  "received_at": "2026-10-11T20:01:40.041625+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.26,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise locates Cornwall Beach near Gloucester Avenue and calls it another private beach, implying at least one other private beach. It does not establish that several private beaches are off Gloucester Avenue."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

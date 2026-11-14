@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48970n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c14cbed249c49551b4dc1dc18b2b3729c6329c1b05d1702b0ae6c30af6479a0d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf3762d2db6cb8c016acbeead48bc87d292f44a116c8fe606",
+  "received_at": "2026-10-11T20:16:51.465486+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.2,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise presents the equation as valid, supporting the weaker claim that it might be correct. The exact result is 474.4 feet, so 474 feet is correct only if rounding to whole feet is intended."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

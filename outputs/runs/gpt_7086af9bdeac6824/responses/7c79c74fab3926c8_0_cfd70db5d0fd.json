@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49748e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a258ff927b3864661be0f6998299ee770ee93b98889e46f59dacd8f432626fa3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6fe233bd616d6d016acbeec51e1887d28c38ceaf15936fcf",
+  "received_at": "2026-10-11T20:17:12.637971+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise is a bibliographic citation naming the General Accounting Office and a publication titled “A Model of Strategic Human Capital Management.” It does not establish whether the GAO itself is such a model."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

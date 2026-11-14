@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27287c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "252ba8dd8bd3089f1bed1b8e4e9da6c66cd8d01b2c1339b0ae0e7499aaa41f71",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d916253d2388a11016acd44c2081087d2a8cd6e8c16d0d7f2",
+  "received_at": "2026-10-12T20:36:20.749383+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.88,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.57,
+    "brief_reason": "Talking and asking someone to behave do not establish an argument or a challenge to confront the speaker. The premise also does not explicitly rule out such a confrontation."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

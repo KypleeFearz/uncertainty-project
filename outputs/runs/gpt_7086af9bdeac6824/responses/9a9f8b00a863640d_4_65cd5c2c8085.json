@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43094c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bddc22ea46bc0dfada3a4cbb837874ab3083edcec06620eafa984809daf7bdd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c585bd7f4f4421d016acbf871f5d487d29ac3cbcb2bbc2627",
+  "received_at": "2026-10-11T20:58:30.182271+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.27,
+    "contradiction": 0.72,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise identifies the cover package's subject as what makes a good school, whereas the hypothesis assigns it a different central subject: college student loans. There is some room for neutrality because the premise does not explicitly exclude loan burdens from the package."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

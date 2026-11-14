@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "110671n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c4bfbab7b9f013419ce602db41c47bed89f1b60892c548c52530ba49ac008a00",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9C6RkYchgpRMEcR5QC",
+  "received_at": "2026-10-11T21:14:57.523070+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker flatly tells John that it isn't one of us, which says nothing explicit about John's knowledge. John's question or suggestion implies he may have suspected it was one of us, so he plausibly did not know, but the premise does not establish that. The label is therefore uncertain between contradiction and neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

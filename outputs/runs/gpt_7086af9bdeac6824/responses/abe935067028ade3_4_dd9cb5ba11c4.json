@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98065e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8e3a5c6991735bf5a56d2b4428765c36bb5c39a2c6b18d5846893f97b5b6319",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0364322ed8c01912016acd48924c7087d2a9d2ceb11f37e874",
+  "received_at": "2026-10-12T20:52:38.896540+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise is a fragment and does not establish that anything is located in a place called Loco Parentis. The shared wording alone neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3e461c56ac2c0b152c57962e8bc954007963d2b445713b463e9bee5d30c459e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a2825eedb1a2cc016acbe9d81e1c87d2a433246e1f9b2245",
+  "received_at": "2026-10-11T19:56:12.639426+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The rhetorical question suggests that a major strike will cause innocent people to suffer. However, it does not explicitly establish that many people, rather than only a few, will suffer."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 575
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

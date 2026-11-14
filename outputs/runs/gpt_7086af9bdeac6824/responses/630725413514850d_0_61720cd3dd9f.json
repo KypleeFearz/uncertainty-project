@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24043e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ae5ba30d7322b368030e0a0bf07f48dacd2bf0b1c212e20a6754cb34a087aea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a503b42c20f7ca016acd449ffcf887d2b44da685284e7170",
+  "received_at": "2026-10-12T20:35:50.114414+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.52,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise says no one and no bones were there, but does not explicitly exclude other bodily remains. Interpreting this as nothing remaining from a particular body requires an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

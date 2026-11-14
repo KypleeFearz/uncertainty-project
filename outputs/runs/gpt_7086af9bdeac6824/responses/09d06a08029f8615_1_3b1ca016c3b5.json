@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115173c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "404891099177d590d7e77e8abf92894f60f2116d142734190b5678e1fadd1fad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08793a1ffd52951c016acbe58d0a9c87d299645c3fed203ca7",
+  "received_at": "2026-10-11T19:37:52.314449+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise identifies Practice 16 as being alert to new monitoring tools and techniques, whereas the hypothesis identifies it as requiring secure passwords."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

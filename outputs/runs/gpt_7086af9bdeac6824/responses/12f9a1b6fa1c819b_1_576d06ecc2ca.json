@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_1463638541.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ef22abd9480c1385d39b00e56ed534a67e844d8778cc5f568aa591adecae87a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012def5b7c8e266c016acd491d468487d29cfb311ef26f2a98",
+  "received_at": "2026-10-12T20:54:56.179536+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise states that a person is climbing near a sign, but does not establish that the sign itself is being climbed or that the person intends to spray paint it."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

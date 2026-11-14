@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59934c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3eaf274761ea994159edba82dc90d042ce2edd91756f2a598bbcb4fa228cce6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07534a5e9892ceea016acd46d20b0887d2b49e4fc2bd00bc04",
+  "received_at": "2026-10-12T20:45:11.276481+00:00",
+  "parsed": {
+    "entailment": 0.64,
+    "neutral": 0.35,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.51,
+    "brief_reason": "The premise naturally suggests that the knowledge captured did not align with best practices, supporting the hypothesis. Strictly, however, failing to capture knowledge consistent with best practices does not establish that the knowledge itself was inconsistent."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

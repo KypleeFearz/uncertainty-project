@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35238n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a3f4492d7af7a8beedb45216afad5344afc42361adba0e5e3553cc27aea1983",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09606dda686d7bb3016acd4534c96c87d28921ebc27d4d36c6",
+  "received_at": "2026-10-12T20:38:17.090038+00:00",
+  "parsed": {
+    "entailment": 0.29,
+    "neutral": 0.69,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "Checking scores the next morning and finding that sufficient suggests the speaker may not usually watch games. However, the premise does not establish their viewing habits or specify games screened at night."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

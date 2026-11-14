@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56909n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50625c48fa3c5e3bacf8ab976d12778103a09113cc67785ffe389dc7fbd3bc6b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a04d5bec45839c016acbefbaaa7087d2b96aec5b10ac5413",
+  "received_at": "2026-10-11T20:21:17.712263+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise establishes Hawaii's ethnic and racial diversity but does not state that this diversity influenced food or culture. That influence is plausible, but it requires an additional inference."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

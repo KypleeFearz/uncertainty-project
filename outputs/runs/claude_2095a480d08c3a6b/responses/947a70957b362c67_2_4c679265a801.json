@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_453807108.jpg#0r1e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0acbfac76ea1b6ac96b829c670bf73356557c2346574434eefdbd26544bd4e75",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ZcBHLHeYoT8hcp4uf",
+  "received_at": "2026-10-12T21:48:33.202585+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says a man attempts to break free from a straitjacket, which implies he is in one. A small doubt remains over whether he has already escaped or is only starting."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 796,
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

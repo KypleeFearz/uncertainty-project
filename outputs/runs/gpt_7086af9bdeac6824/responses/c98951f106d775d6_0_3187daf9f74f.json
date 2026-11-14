@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33822c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "309cd979a4b37e911ee62b3341026fcf3a13fbd7a6c7e52082a31d3473ce6aa0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f49d9fef86b212c016acbec87d66487d292bb2515d1a27fdb",
+  "received_at": "2026-10-11T20:07:40.814987+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The question may rhetorically suggest that he is that way, but it does not establish his current state. Neither what 'be' refers to nor whether the question concerns an existing or potential state is specified."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

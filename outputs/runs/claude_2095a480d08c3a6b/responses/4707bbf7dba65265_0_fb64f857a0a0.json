@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "115247c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fe6043b43c7c50b7fdc557293df1ecdafcdc23c6dd8c8ad7da9d9696214398bf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC8WBF3a5icMVhypr9V",
+  "received_at": "2026-10-11T21:53:29.157559+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise portrays the player as likely going to jail and a burden on a guaranteed ten million dollar salary, clashing with the hypothesis's praise and approval of the pay. The salary figures also differ (ten million vs. a million), and the premise is critical of paying him."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 845,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12601n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e42aa35e2a9ee71560e72f0eab8d49b9adcec3e1016b13be4187a28b317ba7c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0292528a0114db1c016acd42c3260887d28bf6715cf2af5651",
+  "received_at": "2026-10-12T20:27:50.631047+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise establishes that his cheek was mutilated, but does not identify a bear or scratches as the cause. Bear-inflicted scratches are compatible with the premise, but not established by it."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

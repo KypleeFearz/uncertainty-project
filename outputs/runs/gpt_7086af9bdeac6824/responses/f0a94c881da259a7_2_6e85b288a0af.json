@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7438344154.jpg#0r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e61d0ec456b20bd4b360d85ca68047ef2d224a048c213e71cb5a3b32f28c2691",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05e22c55019e65ac016acd4ec497d487d299da93b17029f361",
+  "received_at": "2026-10-12T21:19:03.403139+00:00",
+  "parsed": {
+    "entailment": 0.998,
+    "neutral": 0.001,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly says a girl is getting ready to kick a soccer ball, which is a ball. The hypothesis simply omits details about her clothing and location."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

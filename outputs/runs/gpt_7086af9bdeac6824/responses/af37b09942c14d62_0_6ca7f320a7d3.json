@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43267c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3a84f852c7b8a2556a5458f97aeca5bb447de50032679e13a7cb3341b582100",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c0d3481bcce15f016acd459c49e887d28d2979eef3b07692",
+  "received_at": "2026-10-12T20:40:01.385467+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says the resulting length was about his forearm's length, whereas the hypothesis says it was only a couple of inches long. These lengths conflict under ordinary interpretations, although the object being broken is unspecified."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

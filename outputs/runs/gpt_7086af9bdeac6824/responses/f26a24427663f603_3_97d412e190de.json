@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114492e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be64f6318231abbfdb03f0f4d408e23d540b63f1a6c191b7430fb1bf96e817a7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08498e3dae8df998016acd423ba7b887d281a2772559b2bc7e",
+  "received_at": "2026-10-12T20:25:36.218307+00:00",
+  "parsed": {
+    "entailment": 0.64,
+    "neutral": 0.35,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says that something is also true of a drug hangover, which supports the hypothesis's comparison. However, the fragment does not identify what is being compared or in what respect."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

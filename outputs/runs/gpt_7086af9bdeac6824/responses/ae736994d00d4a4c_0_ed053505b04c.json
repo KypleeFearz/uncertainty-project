@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71273c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac05469b3833710de4783bec38569ca85ee10a653f5f229dad6cb6f50c2ee7b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084462fc86cbae46016acbf9b1326c87d29dfcb4dfa0daf3bf",
+  "received_at": "2026-10-11T21:03:47.919009+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says civil libertarians denounced the partnership and called it a diversion from the coalition's agenda, whereas the hypothesis says they celebrated it for supporting that agenda."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

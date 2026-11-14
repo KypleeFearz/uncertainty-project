@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99708e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4832756ef56f9a67f5a030fc7f040fd9e9a03cc91fe2cfefa0c5decf9b1390a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_038aed7bce7b27b0016acbfb2e9a2c87d28ec083c835181ee8",
+  "received_at": "2026-10-11T21:10:10.476530+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise establishes that it was made to resemble an old-fashioned steam train, but does not specify when it was built. A modern construction date is plausible rather than guaranteed, and \"made up\" may describe decoration rather than construction."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

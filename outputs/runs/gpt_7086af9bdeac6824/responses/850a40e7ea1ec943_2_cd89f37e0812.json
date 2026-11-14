@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95338n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "87bee58194b9f70602acb9f5e2dda1ba0349705ef7c7c0354dda614b11356362",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f80cc12709e0ee8016acd483e983887d29a6b431d7ba1a0f9",
+  "received_at": "2026-10-12T20:51:14.581489+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise reports a planned decision by March, not an actual decision in March. It does not establish that Trump decided against running or considered himself unsuited."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

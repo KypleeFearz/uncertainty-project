@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58053e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1b37a14f4fe8f4bf4689a08578dfede563507afd55899f77f26e2ae847e3a9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf8be1224ea1d0f016acbefeb3cfc87d2b8cb361c88fbfb1a",
+  "received_at": "2026-10-11T20:22:06.184042+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says people see \"too much crime on TV,\" which supports the hypothesis that TV shows a lot of crime. The unspecified identity of \"they\" does not materially affect this inference."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "43178e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1825d07f2e0444f4be82fd771a4a4f1b944dc11fa2990239ee135e90a2ce5b32",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4F4joKBqRvhNLnXXVH",
+  "received_at": "2026-10-12T21:31:14.948437+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.3,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says most of it could not be identified, which implies some of it could be, so 'any of it' (none) is likely too strong. Still, loose speech might make it read as nearly all, so an entailment reading is possible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

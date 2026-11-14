@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16989e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7d5da011ec6f73428800ebfd834bbc094fed69e41832d73003be35714f54966f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09cff4be3688fee7016acbea3ab7c887d2bcca44c15409ee8c",
+  "received_at": "2026-10-11T19:57:52.337206+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise contemplates auditors from another country conducting audits subject to professional requirements, supporting the possibility of working abroad. However, “their country” has an ambiguous referent, and permission is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 599
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

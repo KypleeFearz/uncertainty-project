@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16195n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "77e469fd25e3fb3cb5283d2faaa30b07aafbdf514c5e7c713c36fd6f5f4e5f0b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02f907ae0059f3ef016acbf75288d887d29f9515925cc9bdf0",
+  "received_at": "2026-10-11T20:53:41.449301+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise describes an ongoing cycle without a defined beginning or end, but does not say it began accidentally or without intention. The hypothesis adds unsupported claims about its origin and the need to continue."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61379c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3345b948ccd2b9b13b233cff4115bb0eaabcca6cf97d20c2c82829ecd48118f6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd273cfcca703c3016acbf041d13887d295a68149b56406a2",
+  "received_at": "2026-10-11T20:23:33.595878+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.91,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Big-game fishing does not establish commercial fishing, and boat trips do not necessarily involve ferrying. The premise neither confirms nor rules out those specific activities."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

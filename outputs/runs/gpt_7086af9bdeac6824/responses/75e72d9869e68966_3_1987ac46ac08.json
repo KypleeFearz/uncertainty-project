@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133841c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "147ed3ad6ea35ae71ebfb17bfd2582f25ed044aa635fa9514adfb98fdeca1624",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d97f0226a5de016016acbe839109087d28b682e314e8cb1c7",
+  "received_at": "2026-10-11T19:49:17.326092+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise reports sexual abuse, not mental abuse specifically. Sexual abuse may involve psychological harm, but treating that as mental abuse requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

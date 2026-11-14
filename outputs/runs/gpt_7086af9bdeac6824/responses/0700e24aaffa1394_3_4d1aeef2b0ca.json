@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132084e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c6ade3e1e1c3b38ba86f71c9fec41c3362177ca0fecb958b3bf874d5e07f346b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010b111bdb6d5311016acbd8c5dfa087d2ae52989a7b8bfa21",
+  "received_at": "2026-10-11T18:43:21.930928+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The beginning of the eighth century corresponds to the start of the 700s, making the hypothesis a close paraphrase. However, “by” allows arrival earlier than that point, whereas “at” specifies that time."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

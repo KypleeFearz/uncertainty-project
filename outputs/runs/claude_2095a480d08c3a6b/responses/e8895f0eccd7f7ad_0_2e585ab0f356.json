@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "2214n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1247b461d580eb427364646e54a3121528078f71a17714d85b55e148313aa0e5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy43uX7bWbNV4HPxVvsB",
+  "received_at": "2026-10-12T21:28:43.573798+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says documentation is available at a public EPA website, which suggests free access, but it never explicitly states there is no cost. Inferring 'free to view' relies on a likely but unguaranteed assumption."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

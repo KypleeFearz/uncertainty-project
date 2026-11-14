@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109876n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3d1ebbf33617759f7110311e628e289bc5daf2e49ef07caeafc0a07c1af8e0c8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0078f19392a3eed3016acbe501450487d2ac662e464933a45e",
+  "received_at": "2026-10-11T19:35:32.468334+00:00",
+  "parsed": {
+    "entailment": 0.09,
+    "neutral": 0.89,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise lists a text box about GDP and GNP but supplies no calculation methods. Inferring that the referenced box explains their calculation is plausible but not established by the excerpt."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

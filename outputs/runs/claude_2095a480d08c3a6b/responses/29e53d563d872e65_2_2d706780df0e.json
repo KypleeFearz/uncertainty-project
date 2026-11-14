@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "117894n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "960888127ded376c36d5db2b976029d1f35e969e16fae400062da82ffe4dd4e9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9NDzC6DDeJ6KXD9iQB",
+  "received_at": "2026-10-11T21:17:15.317073+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise denies saying 'mandrake-man', while the hypothesis denies saying or implying 'mandrake' and goes further by adding 'implied' and 'once'. 'Mandrake-man' may or may not be treated as equivalent to 'mandrake', so the hypothesis is not clearly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

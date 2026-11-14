@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44493n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f5dde07682bf1fdffe4df8c5f549d954acf915b157ab65d93f6df08498a3590",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08ef4c3313b06a0e016acbedea0b3c87d288084fbe42c849d2",
+  "received_at": "2026-10-11T20:13:33.203316+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.47,
+    "brief_reason": "Demanding unconditional surrender establishes the Allies' terms for peace, not whether they cared about peace. Their unwillingness to preserve the emperor's role does not establish indifference to peace itself."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33340e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fc717b0fa1576a506885209a538c68f17262297585f8a34be1b45ce1442472f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e2ee1dda4c87282016acd451f963087d2bb7840c056afcacf",
+  "received_at": "2026-10-12T20:37:55.810637+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.86,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says goods are priced in US dollars and must be paid for in foreign currency, but does not specify which currencies are accepted. It therefore does not establish that buyers should bring currencies other than US dollars."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54892n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "873919767d1091b3dc9f400b8ce418eae5c9b2c79db48d8aa1b45bf4b4c22ec7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3fa0995ae82858016acd4688c77c87d2a5e7885e3473bd14",
+  "received_at": "2026-10-12T20:43:56.955113+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise contrasts a possible $32,000 starting salary at indigent-service agencies with a $125,000 average first-year salary at larger firms. This supports the claim that larger firms often pay lawyers more, although it does not establish every individual salary."
+  },
+  "usage": {
+    "input_tokens": 462,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 607
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

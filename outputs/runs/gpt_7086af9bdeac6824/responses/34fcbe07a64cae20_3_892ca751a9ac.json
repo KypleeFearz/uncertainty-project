@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141041n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "976c66de7bf78ec2d624076019f27ce528a897d09fa12c20ad66f8291804da3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0934ee178529ddf3016acbe94e8c8487d28722dc7d5c35575f",
+  "received_at": "2026-10-11T19:53:53.259587+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise states that the empire was split between Theodosius's two sons and never reunited. It does not establish that the sons fought endlessly or that their fighting caused the lack of reunification."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

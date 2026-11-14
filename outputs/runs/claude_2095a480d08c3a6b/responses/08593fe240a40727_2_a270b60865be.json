@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "77654e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d217b66a8918e55c2194fad0a899430088e2306d632828d9a180bdeedd7a1190",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCppccWTvXT7Mo6PpaH",
+  "received_at": "2026-10-11T22:02:36.185643+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.07,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says there are no inscriptions, dates, or anything else, which directly implies there are no dates. The hypothesis is phrased as a question but matches the premise's content."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28078c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5d2a06c0df122d5c51c5ec8ecd0b641d03ba5882ffc6a819cee8312164fccbc2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_017cee72b34dd110016acbd8fce2fc87d29a1e69506ba3fdad",
+  "received_at": "2026-10-11T18:44:17.638669+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Jon's question establishes an interaction and a planned shared ride, but does not establish whether they had met previously. Assuming prior acquaintance from the shared plan is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

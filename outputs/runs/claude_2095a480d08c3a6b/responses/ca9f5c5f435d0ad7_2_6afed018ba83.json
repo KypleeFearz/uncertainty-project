@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "73518n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5028103840d0ee609762634c2683ea51cecda8c03336bf74f9688dbe73738193",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBP7M7FpWgP9XbWvkBG",
+  "received_at": "2026-10-11T21:43:41.111132+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.57,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise is a fragment ('no North Carolina State') that likely refers to the university or a negated state, and says nothing about whether North Carolina is a county. In reality North Carolina is a state, not a county, which could be read as contradiction, but the premise itself does not establish this."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

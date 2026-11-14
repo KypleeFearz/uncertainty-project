@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103455e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dbb8c38ae9e1b5375a8cef5d9a70a44fae00cda5fd4861a3dcba67c3e1722706",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010b056b3e92456b016acbe41fa0f887d2b264c3577e866098",
+  "received_at": "2026-10-11T19:31:47.972809+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise says the advice to deny nighttime food begins when infants are a few months old, but it does not explicitly establish that feeding is allowed before then. The hypothesis follows only if that starting point is taken to imply permission during the earlier months."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

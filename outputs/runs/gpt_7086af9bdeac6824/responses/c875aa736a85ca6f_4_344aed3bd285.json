@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128832e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "353eca090ec8eef8efd8f165aa6d636c0474dc414cba9769dd1db54f3be0b6b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0650b9f4df70a07e016acbd8bce6a887d28c7feb30c9ae02db",
+  "received_at": "2026-10-11T18:43:14.335445+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "If “it” refers to the restaurant and “pictures” means movies, the premise’s “always” supports the hypothesis’s weaker “tend to.” However, having a restaurant in the Underworld does not strictly establish that the movies are about the Underworld."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 215,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 602
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

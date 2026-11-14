@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4349523799.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d22ff07d7193834760f220ee6d6370a9feeab0381166017d519299c6847d711a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03b20edbe69c03c9016acd4c81624087d2b0a63f1b39c0b93a",
+  "received_at": "2026-10-12T21:09:23.911330+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Having her hand in a fake shark's mouth could be part of a shark-bite demonstration, but the premise does not establish her purpose or activity."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

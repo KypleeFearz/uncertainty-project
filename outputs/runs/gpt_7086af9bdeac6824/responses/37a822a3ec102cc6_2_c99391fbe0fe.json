@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40179n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aeba1b27baf90a3123343d984d23e1c1506e17faea42ef4ba090919735709ac6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a6463f0dcb4338016acbf84e402887d29e5608bdc3bb6494",
+  "received_at": "2026-10-11T20:57:53.839439+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.86,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The fragmented premise expresses a reaction and acknowledgment about drugs, but does not establish disbelief or its opposite. The hypothesis's \"that\" has no clear referent, and interpreting the reaction as disbelief requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

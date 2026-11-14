@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2796525620.jpg#4r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b9442a330201df5470a914e5047b1d02a4fde0e8735419bb4ec697ad421017ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fde402bd2584218016acd4a2bd48487d2b139c680e7d48c0d",
+  "received_at": "2026-10-12T20:59:27.480548+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The plural “toddlers” indicates at least two individuals, and toddlers are children."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 82,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 452
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

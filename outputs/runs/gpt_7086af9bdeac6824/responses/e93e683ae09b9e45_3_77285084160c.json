@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51410c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "baf09b0c382193f97eb4c4abb64efe1c3d041b1b57074f808b1301df204ae70f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ed60c043452a80016acbf8e8b70c87d29f9df12b2b684dc9",
+  "received_at": "2026-10-11T21:00:27.840299+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.13,
+    "contradiction": 0.86,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes backpacking as carrying everything on your back, which conflicts with bringing a wagon to carry your gear. It does not explicitly discuss whether a wagon might also be brought."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

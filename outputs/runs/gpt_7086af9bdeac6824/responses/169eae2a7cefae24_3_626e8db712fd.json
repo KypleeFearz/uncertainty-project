@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7091e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61f2341149e45bb84481209987436e0865f145545ecd2783de2fbf416295a82c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf71db1f13013d4016acbf16aac4087d286ff22f1aee8049a",
+  "received_at": "2026-10-11T20:28:31.394163+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.115,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise refers to people's own emotional distress, supporting that some people experience it. Variation in its degree is a natural inference, although not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

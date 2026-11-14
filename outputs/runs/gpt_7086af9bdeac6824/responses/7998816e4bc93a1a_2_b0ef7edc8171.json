@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6303553615.jpg#2r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "37a1d02f9d206220181e966d05bfbe2240f194f3da12db43bae8d7572a4fe6a1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf585544acdd149016acd4e49b56887d2b8d864112cafbd7d",
+  "received_at": "2026-10-12T21:17:02.461083+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise establishes that young players are playing water polo, but not that they are children or enjoying it. Those are plausible assumptions rather than guaranteed conclusions."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

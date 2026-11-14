@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4771381994.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73afb79d23a2b5558b256bbce6bcc56be3854379e4dba132ccca679feb01032a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0392c9076899486a016acd4d49f88c87d28544b7780bddafed",
+  "received_at": "2026-10-12T21:12:46.248699+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.2,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The man on the bike is naturally understood as riding it. However, the premise does not explicitly establish motion; he could be stationary while gesturing."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

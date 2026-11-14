@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28601n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f32c6012e96cba828f54504c053fa2d5499080903c0d03cbed49e94408d1f2b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05f9bfb3f7f9f516016acbebd6284c87d299e9631c5e08066e",
+  "received_at": "2026-10-11T20:04:42.269201+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Dreary inaction suggests that the days may have felt slow, but the premise does not explicitly establish their perceived pace. The hypothesis depends on a plausible rather than guaranteed inference."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

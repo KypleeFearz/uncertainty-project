@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40867e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ccdc3658573d48f9886ebbb95f129fb5c451e35fa314e725304e68449ab8680",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0e511bedd56e3e016acd457c74c887d29171806e0d69f4c8",
+  "received_at": "2026-10-12T20:39:28.793637+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.82,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says that “we” have taken up at least five minutes, not that the speaker individually took up the last five minutes. The hypothesis is compatible with the premise but is not established by it."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

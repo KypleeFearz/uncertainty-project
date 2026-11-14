@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66858n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7aacbc77f989cbd1f94095ccaad8de3666139badc94bcfca9bde53f7a8c137af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09cf9ff309829102016acbf106031487d2833a4d593ee14293",
+  "received_at": "2026-10-11T20:26:50.020022+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise makes sound information necessary for better management, but does not establish that relying on unsound information necessarily causes management problems. That conclusion requires an additional assumption connecting failure to improve with having problems."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

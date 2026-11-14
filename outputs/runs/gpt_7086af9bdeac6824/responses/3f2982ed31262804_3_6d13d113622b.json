@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18428n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f636c1d56e8968cd1d00dce8e8cabae52c5db4b941051dba949fed6f00a335f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bdace297476e584016acbf77b508c87d2b6f73cbbb67640a7",
+  "received_at": "2026-10-11T20:54:23.778566+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Required Indian financial participation supports the claim that foreign companies had to accept Indian money. Framing this requirement as a condition for operating their businesses is a reasonable inference, though not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

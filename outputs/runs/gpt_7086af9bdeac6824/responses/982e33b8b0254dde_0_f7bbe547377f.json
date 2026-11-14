@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69441n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9976626932fca345c6a8013aef298cca6ccdc465e2918db40fa60a39d2b95a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037a6709377c1b9d016acd4749fe9887d2a5d41aa2109053dc",
+  "received_at": "2026-10-12T20:47:09.932966+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.179,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise defines coverage in terms of electricity-producing units meeting geographic and emissions criteria, not television viewers. The hypothesis adds television viewers as a separate covered group, conflicting with the stated scope."
+  },
+  "usage": {
+    "input_tokens": 424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

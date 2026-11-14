@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38477c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4bf32b9b57f5aa552e287f057bda92cdf334bab7a7a7fe0bd3173d723d2e08c0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037a7882ee55e724016acd455f0c4087d2834ffdb0c1447a34",
+  "received_at": "2026-10-12T20:38:58.623026+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise does not specify garment type or establish that she wears short skirts exclusively. Short skirts could count as revealing or professional clothing, so the hypothesis is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

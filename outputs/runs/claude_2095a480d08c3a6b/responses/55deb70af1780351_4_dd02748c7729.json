@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "90548e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7bed2d9b347600eb87a9125e8cfd03bdf16a32209da92485a09f944505bfbf2d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBn86dffHzAuhSxV4vD",
+  "received_at": "2026-10-11T21:48:52.658189+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.45,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "\"Splendid!\" expresses enthusiastic approval, which suggests the speaker is pleased or excited. But it could be sarcastic or merely polite, and \"excited\" is stronger than \"pleased\", so the inference is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

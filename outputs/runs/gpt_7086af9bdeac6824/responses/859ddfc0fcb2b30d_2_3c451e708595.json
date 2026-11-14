@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24385c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "35e9c08027049d995286c959c68524e11b414442415cdb29bdd3054e7db8f3f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_086a4514bbfc9c3e016acd44b082d487d2a0e7babfeaf63aa0",
+  "received_at": "2026-10-12T20:36:03.607368+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The fragment mentions farmworkers and the U.S. but establishes neither rocket-fueling research nor employment of the brightest farmworkers. Its unusual use of “conducted” leaves the relationship between the farmworkers and the U.S. unclear."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

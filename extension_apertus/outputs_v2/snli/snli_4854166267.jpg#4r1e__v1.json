@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4854166267.jpg#4r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The premise states a girl is laying on a floating dock, which matches the core idea of a female on a deck, but does not confirm she is asleep; being asleep is an additional assumption."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 333,
+  "output_tokens": 113
+ },
+ "seconds": 2.52,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:41:53.763275+00:00"
+}

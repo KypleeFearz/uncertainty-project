@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79265n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc3cc68ba6e42699a8118175407e433772b0ed188db43420ace2349b224a60d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b60456153a86e4e016acbf9febb4887d2a19a157a5e40e31e",
+  "received_at": "2026-10-11T21:05:05.555657+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says tabulations for both funding categories can help assess an impression, but does not rank their insight or recommend marking either category. The hypothesis adds an unsupported comparison and recommendation."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

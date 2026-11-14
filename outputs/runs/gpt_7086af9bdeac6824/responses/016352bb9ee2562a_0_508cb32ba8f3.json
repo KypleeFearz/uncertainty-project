@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91541n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cca3ec011bdc02840dbe468eda9b34d82e0a2ed5382ddb81231168f070c203b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05655a85ee91cb57016acbfac73fcc87d29a578f017a7195a0",
+  "received_at": "2026-10-11T21:08:27.537545+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.17,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "People loving the sight during the monsoon, together with the evocative visual description, supports its being especially beautiful then. However, the premise does not explicitly compare its beauty across seasons."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

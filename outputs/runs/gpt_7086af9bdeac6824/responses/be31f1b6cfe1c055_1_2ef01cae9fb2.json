@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6199648902.jpg#3r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d9f95f493f4dc1d03c62a8932c3ef7111708cbc60ac1f2fefdcd53cfd1f72050",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075f83896b27e8b7016acd4e37ff2487d2bd2abb6d5b350de1",
+  "received_at": "2026-10-12T21:16:43.939730+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Jumping to catch the ball describes an attempt, not a confirmed successful catch. The premise does not establish whether the player catches or misses it."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

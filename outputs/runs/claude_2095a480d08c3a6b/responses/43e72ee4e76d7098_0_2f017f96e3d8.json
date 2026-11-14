@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21555n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d292140b105348dc324f24d4c1059c2d6b7c8809c6a8cecab26e16d0834e9211",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA9ucg4z6wKFd15Hszs",
+  "received_at": "2026-10-11T21:27:34.431231+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.22,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says 'they here' put him in a coma, which implies those people caused it, but 'they' and 'here' are vague, so it is unclear who is meant and whether they were around him."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

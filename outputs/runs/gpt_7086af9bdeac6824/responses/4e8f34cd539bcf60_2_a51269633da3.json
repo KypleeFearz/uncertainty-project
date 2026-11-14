@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3478471864.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0226a5c910e306bdddd8f01b472e670394318284f0fa54bf5ad9367bafb37e97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02433cdc9307f025016acd4b7f761c87d28db2b9ff77b41fd4",
+  "received_at": "2026-10-12T21:05:07.629849+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.71,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise supports four people creating the illusion that a red-haired woman in a bikini top has many arms, but only identifies the woman as young. The hypothesis's wording about lining up 'behind another' also leaves the arrangement and total number slightly unclear."
+  },
+  "usage": {
+    "input_tokens": 444,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 590
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

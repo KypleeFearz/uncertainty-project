@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131461c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91c8caa96b7644b002ccda30a03ba44fa07f21895a4ddf7c86f42f737ec6410d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_003fa49fcf3db40e016acbe806cf5087d2aee483e7ebc379f2",
+  "received_at": "2026-10-11T19:48:26.293047+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.019,
+    "contradiction": 0.98,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise reports approximately 72,000 evacuees, whereas the hypothesis reports 720,000—ten times as many. Both attribute the expense to the French government, but the evacuation counts conflict."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

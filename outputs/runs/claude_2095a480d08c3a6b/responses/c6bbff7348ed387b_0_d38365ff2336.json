@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4751394653.jpg#2r1c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cab73b27b3a54a44528da83866d6bd242e807197caef6878e121412d603ed17a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ecCApkU4pfrT9Aw27",
+  "received_at": "2026-10-12T21:49:40.444344+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.68,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says a woman is preparing vegetables for market but not where she is, so she could be at home or at a stall. Being at home is plausible but not guaranteed, and preparing at a market could conflict with it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

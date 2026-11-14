@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2889339134.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5cc17fb9d267dd322cd38c3dce4d0453e49bbc4018dd490deb5ab3fef29c1115",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0316b04f4b6a9c43016acd4a5d31d487d2baf1e0a2bfbbfbe7",
+  "received_at": "2026-10-12T21:00:15.763427+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly describes one of the two workers as bent over, supporting the hypothesis that one worker is bending over."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 457
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

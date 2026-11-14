@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145495n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "539bfc041072b20a8787a99f5509d3abd65f8a5c58502f2f2a0fe3ea7ad666f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0257c0244aaac2b3016acbf73d29dc87d2a833d370a2f246a4",
+  "received_at": "2026-10-11T20:53:20.327432+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Describing the students’ reaction as swift and contentious supports characterizing it as strong. The comparison to hurt feelings further reinforces that characterization without establishing that their feelings were actually hurt."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135021n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f44afe5d2f413422e37b9b955d4484b1ace9fa9640c532a89f1250d86852acb7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_095a1d03be928b30016acd4359a09887d285dfe441ec8db547",
+  "received_at": "2026-10-12T20:30:23.421479+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.7,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes a small charged balance as \"not too bad,\" but does not establish that it \"isn't great\"; those evaluations can coexist. \"Money on there\" could refer to the charged balance or to available funds."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

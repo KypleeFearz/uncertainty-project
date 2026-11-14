@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4525922214.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "594a3a8698246644c054e4a1b57dbe9b3f30ce5a82e04051197cf39b9041875f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0585d01c12bd3826016acd4ca7eb9487d28c4700681b71d09e",
+  "received_at": "2026-10-12T21:10:02.886733+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise establishes that a man is sitting in a lawn chair but does not specify his age. It therefore neither establishes nor rules out that he is an older man."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

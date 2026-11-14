@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19186c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7c3b4a872e9c97225b93347f9dfee8fffe35eeecc51607c1a5bcdf02dbd93d7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a98426ca5405ee1016acd446f4e6887d2815aa4d7cba4db52",
+  "received_at": "2026-10-12T20:35:00.436447+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the researchers expected the types of stresses they found, not how those stresses would affect people. It does not establish whether their effects differed from expectations."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

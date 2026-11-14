@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3799n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f5f9bb673f93c4198f5db1071ebc73866e67d0952d0cee9a2676646d6d29b83",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05f833d72f09db36016acbed218c4487d29a7add0c1ae90dc5",
+  "received_at": "2026-10-11T20:10:13.365110+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.96,
+    "contradiction": 0.015,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise concerns stakeholders interpreting principles consistently, not interpreting their own investment preferences. It neither establishes nor rules out the hypothesis about how they want to invest their money."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

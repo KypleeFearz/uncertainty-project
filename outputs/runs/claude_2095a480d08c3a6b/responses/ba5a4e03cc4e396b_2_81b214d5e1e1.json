@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102708c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8449b06d5204cfa999bc8bc78d3e146f640136f96aa0d9fb865fab65e0c87afa",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC125bdNdVDkady7HW4",
+  "received_at": "2026-10-11T21:51:48.167914+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.62,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a fragment, probably a heading, and \"Cases\" could mean legal cases or grammatical cases. It neither states nor denies that the cases are unrelated to law, so neutral fits best, though a legal reading would lean toward contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

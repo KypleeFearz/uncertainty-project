@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3478471864.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "724036d0929967cef85d0303f0d5ad08789504463b3bc39ee1815e5b06f89ee8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d742b77aff7ac73016acd4b812ffc87d28a3fd3916e81da41",
+  "received_at": "2026-10-12T21:05:10.468861+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.65,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise supports four people creating the illusion that the red-haired woman has many arms, but identifies only that woman as young. The hypothesis's wording about being lined up 'behind another' also leaves the number and arrangement somewhat unclear."
+  },
+  "usage": {
+    "input_tokens": 444,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 615
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

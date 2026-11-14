@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135876n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2316849d265252817b21b4c9c78d074ee48b5d8e6e20a203c93824c84ab154ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a78f7bd9fa5ab03016acbe879d43c87d28852e15fb133f899",
+  "received_at": "2026-10-11T19:50:21.624283+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise advocates releasing people with minor misdemeanor offenses, not all non-violent offenders. Equating those groups requires an unsupported assumption, since non-violent offenses can also be felonies."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

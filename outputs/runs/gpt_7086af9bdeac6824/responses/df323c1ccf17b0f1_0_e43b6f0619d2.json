@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_459538095.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2012bb4c4d3950dcbf29fcb9cfffe6051c3d0cb57d1bd155d0c96bc2db8a2522",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a389192184e911016acd4cd7788c87d29503c0e217798785",
+  "received_at": "2026-10-12T21:10:51.431952+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Working on equipment in an electronics workshop may suggest an interest in electronics, but the men could be doing their jobs rather than pursuing an enthusiasm. The premise does not establish their personal interests."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

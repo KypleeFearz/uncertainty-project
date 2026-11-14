@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19921c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b32b2d4cd930b0525d793d4b403ee032ff4b795525296b76d8d8a81091731a3a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_006281f3ee692561016acbea9177cc87d2a11862fb9a557652",
+  "received_at": "2026-10-11T19:59:16.603318+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.64,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise mentions a gap between women's and men's productivity but gives no values or indication of its size. Even if \"the numbers\" refers to those productivity levels, their similarity is undetermined."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

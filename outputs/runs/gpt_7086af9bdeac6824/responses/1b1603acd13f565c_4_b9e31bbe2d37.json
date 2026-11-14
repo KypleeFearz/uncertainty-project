@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3045600419.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "41554f060ea9af5aa60fd0698f090a9b47ad89c570434798a55b13f1274b84e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9bb9403efaf696016acd4aa2a10c87d29870cc5a0e30b43a",
+  "received_at": "2026-10-12T21:01:25.650607+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise does not specify that the goods are roses or that the man is a police officer. It also places two men in a wholesale store without establishing that they are shopping."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97394e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8c35a44ff01e60363f7752e2d05fe98373ef98a2eaf98aba53af116edeec0ea5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06cb6ee35160c6b3016acbfaf9a38087d29bc8df1733810a08",
+  "received_at": "2026-10-11T21:09:18.359466+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise emphasizes understanding the disproportionate overhead burden carried by First-Class mail, which supports the hypothesis's general description of a substantial burden. However, the hypothesis does not specify whom “they” refers to."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

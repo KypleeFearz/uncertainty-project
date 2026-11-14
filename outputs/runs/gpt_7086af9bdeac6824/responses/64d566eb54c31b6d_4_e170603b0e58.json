@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2021602343.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1e985d8bb6a3f7b950f884b16cf7527cd0497aabe9d71f7fcacc7635b62623f1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f9e43a5bcace98f016acd492fdc1c87d2bb4857991defcb02",
+  "received_at": "2026-10-12T20:55:16.177334+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "“Glowers” describes an angry or sullen facial expression, supporting that the boy scowls."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 458
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

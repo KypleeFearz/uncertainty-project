@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "109679n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "97bb38e10b5e5a2d60f09f07a297e66a76d94e4895463a3b203f84d32ca7394c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3cSwGH18TJ8GyDBZfY",
+  "received_at": "2026-10-12T21:22:57.555119+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.26,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says the palace is built around a square court with arches, so it contains a square court with arches. The hypothesis adds the evaluative word \"wonderful,\" which the premise does not state."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

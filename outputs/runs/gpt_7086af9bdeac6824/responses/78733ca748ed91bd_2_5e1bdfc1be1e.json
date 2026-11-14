@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54458n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09651187f5b68295d6bbe613d3d9714744ca61f9385b003409c8ee3697df157c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09cfdfa35862de9a016acbef5d8b2087d2ad63587b24b4dda6",
+  "received_at": "2026-10-11T20:19:46.505180+00:00",
+  "parsed": {
+    "entailment": 0.37,
+    "neutral": 0.62,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says an unspecified item was surprisingly easy, but does not establish that it was a question or that answering it was very easy. The hypothesis is plausible if “this one” refers to the question, but requires additional assumptions."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 194,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

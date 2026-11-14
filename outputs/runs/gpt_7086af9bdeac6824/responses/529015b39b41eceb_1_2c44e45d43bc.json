@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62177e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e09fad88fcab0213fb39ef7240e677244a13c07e73739fff6ad09275b642161",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8f1df399cc90b3016acbf070146087d289ce7a6ba354f412",
+  "received_at": "2026-10-11T20:24:22.833022+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise contrasts options with potentially recoverable stock shares and describes Cook’s shares as worthless; current worthlessness does not establish that shares will never recover. It is also unclear which shares the hypothesis refers to."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 155
+    },
+    "total_tokens": 658
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

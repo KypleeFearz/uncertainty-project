@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26990n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd33102bdda8f16369c531c47dab90446c4fd7f7c713323ff5d19f8642fa3506",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b1ba7934bdb2cb016acbeba2098887d2b83e23ed0f98cfcf",
+  "received_at": "2026-10-11T20:03:49.866566+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise states that Lincoln removed his hat, but does not specify that it was black or a top hat. Those details require an assumption based on the familiar image of Abraham Lincoln."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

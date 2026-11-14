@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_504413268.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6404da6c45274841e0a0d41b02197cd9a210ae30cf7839a713b648e920d61b00",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039be35067bf10b0016acd4dc6947887d2960317268c12ad89",
+  "received_at": "2026-10-12T21:14:52.713353+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Construction workers gathered around and inside a hole plausibly are working. However, the premise does not explicitly establish their gender or whether they are actively working rather than taking a break."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138359n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a30d9d34b91b923bfdad87fc855d39746bf28c81b259d2967bdb5acae74cdf03",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c5d64f672ac7c1a016acd439e4bf087d2b29178aaf72fc3ce",
+  "received_at": "2026-10-12T20:31:29.871421+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise describes Jon moving as a sword tip passes, but does not establish a repeated stabbing attempt or identify a male attacker. Inferring that the man tried again requires additional assumptions about the action and its participants."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

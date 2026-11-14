@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4665585666.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "35369f0a9aaec1000b13f00a92263f12ca555838e9f41656c74fa76fa169fbaa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c655a8ceca14229016acd4d002bfc87d299c35ece6f15049b",
+  "received_at": "2026-10-12T21:11:32.896740+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.88,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "The father and his two children establish three people, but the premise does not say they are indoors. A chair and cuddling do not guarantee an indoor setting."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116356e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0e67eb62be6605cdc3b961365142b2d62b0c658f8c7b82266dfaf0cfe0a0bc8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0633c26e6bbd0572016acd425d30e087d29c4839ff57c66eba",
+  "received_at": "2026-10-12T20:26:09.446056+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Assuming “Silvework” and “Petwer” are misspellings of “Silverwork” and “Pewter,” the premise lists them together but does not explicitly establish a relationship. Their grouping suggests relatedness without guaranteeing it."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

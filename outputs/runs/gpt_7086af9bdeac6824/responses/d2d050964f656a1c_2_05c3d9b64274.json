@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101809n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a08ea65e2e661cf8ebae81aae4c9adb0aa2d334a78a0c9fe13c888760270f8d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03320db2be78d579016acbe3dab6bc87d28881fe44e250fb58",
+  "received_at": "2026-10-11T19:30:37.924939+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise uses $100 million as a hypothetical example, not an established value of the deal. It neither confirms nor rules out that the five-year deal will be worth $100 million."
+  },
+  "usage": {
+    "input_tokens": 433,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

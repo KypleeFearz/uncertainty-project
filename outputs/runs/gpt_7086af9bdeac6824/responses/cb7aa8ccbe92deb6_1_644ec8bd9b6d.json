@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81579e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3f6556cf76b85872876e028b02ddbabc2a4fa623c767386d2c0de90a24c8eff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e3787eee113f22016acbf2eeced487d2a208b47410e7c259",
+  "received_at": "2026-10-11T20:34:58.603535+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Prominent nationally known” supports “well-known” for all organizations referenced in the premise. However, the premise does not explicitly establish that these were the only identified organizations."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

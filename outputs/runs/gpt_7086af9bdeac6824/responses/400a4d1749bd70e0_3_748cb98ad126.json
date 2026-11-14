@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73840n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f66cc65f509daa7b2490914b549b9ad26d52f6bbc6dc1ef00c8a880b4964faae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01fc0deebc3ce923016acbf1d4943487d28c3aa6b7868e09bf",
+  "received_at": "2026-10-11T20:30:15.886324+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.66,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Tuppence describes an unspecified situation as seeming 'meant to be,' which may suggest fate rather than luck. Her remark and Carter's nod do not establish that luck is real."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

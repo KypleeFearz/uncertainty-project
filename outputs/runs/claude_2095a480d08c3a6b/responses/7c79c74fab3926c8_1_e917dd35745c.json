@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "49748e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bcfb76ca56f66f78187c3451e28c06e318312c2611eb9c695ea781facce72682",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAriAzQ2vAPnJ72L7e5",
+  "received_at": "2026-10-11T21:36:48.419804+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise is only a citation of a GAO document titled 'A Model of Strategic Human Capital Management'; it does not state that the GAO itself is such a model. The hypothesis misreads the title as a claim about the agency, so it is undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

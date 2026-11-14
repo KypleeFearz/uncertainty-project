@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76957c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9731ddb0d3e48f2dd29147672df3339722cb712219a39e240836867ec6a46390",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c5462f32ee68561016acd47a1499c87d2ba5e32300c526702",
+  "received_at": "2026-10-12T20:48:37.618207+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise concerns invitations to comment on proposed rule requirements, not the value of following politics or the impact of voting. It neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

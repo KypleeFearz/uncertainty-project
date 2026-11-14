@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134769n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "43aa80c74b159ee818a32605230d5d3d9979a3b71bc722965f4a03f263231ff4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b7144a62060a2a016acbf6ecd47087d2a62bc81c22260dd5",
+  "received_at": "2026-10-11T20:52:00.963639+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.8,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says social values inform the DSM, but does not establish whether medical inputs or social values are its primary concern. Social influence is compatible with medical inputs being predominant."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

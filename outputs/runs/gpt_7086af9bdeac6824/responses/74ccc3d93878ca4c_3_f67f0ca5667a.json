@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28507n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de1af6dd340787e4ac1cb81d564e1ef27ff7daa938f73d50ab9ca8517451eb53",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0249c0e27ce76f21016acbebd33ba087d2bd0f2a8f18cc7583",
+  "received_at": "2026-10-11T20:04:40.691352+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“As you see” supports its being apparent to the listener, and “highly magnified” supports “amplified” in the broad sense of increased size or intensity. Some ambiguity remains because “amplified” can specifically refer to increased signal strength rather than visual magnification."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

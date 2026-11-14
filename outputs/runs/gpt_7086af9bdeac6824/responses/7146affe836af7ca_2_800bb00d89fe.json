@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13884c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d159a8174263161d4674fa819d59dbd7e92127387de36baf09c1eddf8862a4f3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072fa65d84bbe968016acbe8f7339c87d29061b7d8cd22afaa",
+  "received_at": "2026-10-11T19:52:26.709602+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.92,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says Americans regard morality more highly than the addressee does, but does not establish whether the addressee's opinion is unusually high or low. The comparative wording alone neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

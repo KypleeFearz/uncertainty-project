@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114492n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea4506f451f1af876808328a08bfc541590206a252e53061c60c14170d39986d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03014df372aca647016acd4240d53887d2bd1777556a906dcc",
+  "received_at": "2026-10-12T20:25:40.498313+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.83,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The incomplete premise does not identify what is being compared with a drug hangover. It also does not establish that anything is worse than a drug hangover."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

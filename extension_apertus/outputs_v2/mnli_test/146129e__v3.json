@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "146129e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise suggests a possibility of joining is still open, which aligns with the hypothesis that one can try to join if they wish. However, the premise is vague about what 'it' refers to and uses a conditional that implies uncertainty, leading to some ambiguity and probabilistic inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 130
+ },
+ "seconds": 2.78,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:08:51.544775+00:00"
+}

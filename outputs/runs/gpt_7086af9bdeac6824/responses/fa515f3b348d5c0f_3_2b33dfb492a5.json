@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54327n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0ba662d8432d09ed471b363d7a0c107d1a28fb14c8b4a18401d0238b5f9fbb3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_049bec50e7ab9b48016acbef4fea2c87d28170dcca8a053ef4",
+  "received_at": "2026-10-11T20:19:30.762376+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says the speaker's child can substitute for them for four or five hours this week. It does not establish that the speaker lacks time or that their job is the reason."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

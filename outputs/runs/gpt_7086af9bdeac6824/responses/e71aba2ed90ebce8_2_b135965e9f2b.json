@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99194c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d534b90d147cb037c343977b161f0fbe7accc7971df2f98c7fff8037cdf09bf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c162d9fd7302cac016acbfb1cc3f087d28cd2bb1e25d98f76",
+  "received_at": "2026-10-11T21:09:52.610422+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says the Marshall Plan aided post-war reconstruction but does not state when it was devised. It therefore neither establishes nor rules out the hypothesis’s date of 1918."
+  },
+  "usage": {
+    "input_tokens": 430,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

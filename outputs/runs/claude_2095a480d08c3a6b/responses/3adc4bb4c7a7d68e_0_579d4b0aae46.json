@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "49172n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dbf515fa6a742704e6c042740bd97aedc08fc77ad6a270cdeb7b0d46f9cc91ba",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4K9brqeMKaBUBmmZ9B",
+  "received_at": "2026-10-12T21:32:10.582965+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.12,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "If 'these' could have valuable uses, it follows that they may be valuable, as the hypothesis is a near paraphrase. Slight uncertainty comes from the vague referent 'these' and from 'valuable uses' versus being valuable themselves."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 754,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139028e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7be712f6002c41b363b8386fdc17c456a9ab3bef90889ef2cea400ae0b1d8574",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c49c2a45850b12016acbe90be86487d2ae10a4778ae022e7",
+  "received_at": "2026-10-11T19:52:48.383476+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.79,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise suggests shared concern about the care that goes into something, but it is incomplete and does not establish continued investment when the other person is absent. It mentions the speaker potentially taking time off, rather than the other person being away."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

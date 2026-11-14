@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26142n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "335658cdd2907cc7b491001db7de380b6da9fba6e48385f664e9b292980ffc4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01db36477cfaaa39016acbeb7f303c87d2bfc46698cb1658d6",
+  "received_at": "2026-10-11T20:03:15.390250+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "In the import context, “duties” ordinarily means taxes on imported goods, so the premise supports the hypothesis. It does not explicitly identify the taxed goods or establish that all imported goods incur duties."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

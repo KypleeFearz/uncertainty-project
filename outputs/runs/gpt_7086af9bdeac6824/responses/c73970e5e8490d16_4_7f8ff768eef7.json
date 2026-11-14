@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140615e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3374b93f7e2b37a12000c83976d5331844afda5c3fb8d53652de0175ab262f11",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b4088d7c702c0a4016acbf71b602c87d28e72538ddf6a093c",
+  "received_at": "2026-10-11T20:52:46.768949+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.87,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The premise supports considering economic theory in some valuation adjustments, but does not establish that it is the deciding factor. It also does not rule out economic theory having that role."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

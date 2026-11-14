@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53628c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a8e792628bbb47c6ee386b7b64efd48e17be27eec0d73c1efc09a0dd4462083",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009a81374396c3a4016acd466e845c87d2989d9ab84ccdc38d",
+  "received_at": "2026-10-12T20:43:31.168581+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise refers to Clinton using the pronoun \"his,\" rather than identifying Hillary Clinton. It neither establishes nor rules out Hillary Clinton speaking against drug use from the bully pulpit."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

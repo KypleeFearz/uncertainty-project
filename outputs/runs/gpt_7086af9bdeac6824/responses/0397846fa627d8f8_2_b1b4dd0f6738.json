@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81938e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "544f9a74af0e77ca3358f6a9a8f38d7f4524f37488b933132774f22e4d0ac2ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f47480613cd3f6016acbfa181c5c87d28898d58d0bed63d5",
+  "received_at": "2026-10-11T21:05:33.473150+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise lists the same three items but is an incomplete comparison that does not specify what they affect. Treating them as relevant factors is plausible, but not established by the fragment."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

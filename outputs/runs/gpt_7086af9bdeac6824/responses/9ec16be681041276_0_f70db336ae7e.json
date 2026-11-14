@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3753827435.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70105519b5458f03f5379f20e4671a998e1baade1cec83b4cb75e372101eb9bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5f6641d77ae9f6016acd4bf18cfc87d2b24fc6b8851a46ee",
+  "received_at": "2026-10-12T21:07:02.043749+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Throwing daggers at a carrot supports targeting carrots with blades, but it does not establish athletic ability. That description depends on how broadly 'athletic ability' is interpreted and whether dagger throwing is taken as evidence of it."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

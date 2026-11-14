@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119768n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6fd486fc0a86905349a8dbc1ee534d314798936a57c0505a0e5a460d76d15598",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020cfa066d83853c016acbf64a6bd087d2aba0944630d97eed",
+  "received_at": "2026-10-11T20:49:17.388509+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise establishes rejection and continued persistence, but does not state that the persistence was motivated by protest. The added motive is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "38784n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "79da314fb98e21e815734d8aea42c6b2f3d410393fd0609da1328be9788cdde6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAbZPF7WTcsdv3DFbs6",
+  "received_at": "2026-10-11T21:33:23.048546+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.72,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise reports his assertion about the area's beauty but says nothing about whether he believed it. Asserting something usually implies belief, so a contradiction reading is possible, but it is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 883,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

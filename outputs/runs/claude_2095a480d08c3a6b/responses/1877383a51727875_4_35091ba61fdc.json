@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88064n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "621176dbb8f0fcb75ebad87ee9efe55669683125f2faf38d1a15ab8c36b0c3ce",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBk2iPMQf1ZhrUySt8M",
+  "received_at": "2026-10-11T21:48:24.683204+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.62,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says there was 'a bit of Liberace' in this dandy, which is a comparison of personality, not a claim that the character was based on Liberace's lifestyle. It also does not rule that out, and 'Leonardo' and 'this dandy' may refer to different people."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 833,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

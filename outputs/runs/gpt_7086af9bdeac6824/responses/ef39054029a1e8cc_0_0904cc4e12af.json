@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4654662119.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "984753671456dc0729b8a8f868e4d6902c5796eb238a6b0e186bc9299595780e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bede3361739f1e9016acd4cec31b487d290fa52dd165827b8",
+  "received_at": "2026-10-12T21:11:12.344317+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The water is not identified as an ocean, and holding kites does not establish that the boys are about to fly them. “A couple” could mean two people or a romantic pair, adding ambiguity."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "114971n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7343a00fa180c8a8673d54d931ac7e49a50d9b2094eeb9e82a851cd2e127c850",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9GohocDwmGotriiFkK",
+  "received_at": "2026-10-11T21:16:01.108482+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.68,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Doug Ross gives an unauthorized painkiller to a terminally ill boy over the next two episodes, but never mentions episode 7. The episode number cannot be confirmed, so the hypothesis is undetermined."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 888,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

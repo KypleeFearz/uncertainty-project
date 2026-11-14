@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62177e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "709150f4ffc0c9a5ffd24738b0e6f9de18381b49bb5a629e720721b5a57d19d5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e403f765b5f6c9f016acbf0719b7887d2b566e94b1b6b3e66",
+  "received_at": "2026-10-11T20:24:23.659443+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.72,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.52,
+    "brief_reason": "The premise says there are worthless options rather than shares that might recover; it does not clearly establish that the referenced shares can never recover. The hypothesis’s “those shares” could refer either to the absent stock holdings or to Cook’s shares used in the comparison."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 231,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 626
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

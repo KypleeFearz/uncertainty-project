@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4104001356.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d31f5b75e699dfe1c9e492f6c5cf91c2c6644bb44a7bdf0079e7a8b8b1e03719",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072a697587baef7e016acd4c485bcc87d287bb0d7f281f65c9",
+  "received_at": "2026-10-12T21:08:27.959294+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise identifies schoolchildren with blue backpacks but does not specify their gender or whether they wear uniforms. The additional claims about female students and uniforms are therefore undetermined."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

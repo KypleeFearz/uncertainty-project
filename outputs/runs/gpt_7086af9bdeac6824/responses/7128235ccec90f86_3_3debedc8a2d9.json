@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5941e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73dfb4f03e8ec35365d88d42a24524cc0e94734942ea331a9446afcd0f3be91c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a91c73bcc358dd2016acbf015b75887d2a2c8f1da783a6b17",
+  "received_at": "2026-10-11T20:22:50.158715+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Organizing contributions and adding them to a searchable database supports describing the volunteers’ role as data entry to track contributions. However, the premise describes planned work, whereas the hypothesis may imply it already occurred."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

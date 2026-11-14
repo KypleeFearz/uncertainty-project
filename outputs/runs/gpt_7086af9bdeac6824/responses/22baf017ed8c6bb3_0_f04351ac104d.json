@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61735n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8deb704c3bd6bdec2a87b175cae244e71c44110148cc6432e37a92db2eefda8c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_033b8cb3c5ed873e016acbf05b64f087d28b1e823d7b036704",
+  "received_at": "2026-10-11T20:23:59.115952+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.16,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The plural “Guidelines” supports the existence of multiple guidelines associated with a case study. However, the title fragment does not specify their number, so “several” requires a small inference."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

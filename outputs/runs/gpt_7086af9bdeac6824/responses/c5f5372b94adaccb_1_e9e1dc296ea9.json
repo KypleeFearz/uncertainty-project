@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1854196fb0fb7e920a24e10ecd70d7069a6846c859a79aa13e24b201c97f2f0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e358e9a284374d016acbeff7c2a887d2864fea2ee8939fd7",
+  "received_at": "2026-10-11T20:22:19.627848+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says IRS would lack records of callers’ time before reaching an agent, not necessarily all time associated with calls. The hypothesis follows only if “the time for callers” refers specifically to that pre-agent waiting time."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

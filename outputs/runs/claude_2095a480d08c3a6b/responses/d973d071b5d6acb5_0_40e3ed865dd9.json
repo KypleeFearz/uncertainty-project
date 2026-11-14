@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "84918n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "30632ba5c221b2d9b72aabd3d06f4a04fa74228ebec16e85fa73d6d6d90a0aaf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBgZLm6Bk8sKLvjBNKb",
+  "received_at": "2026-10-11T21:47:37.742630+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.27,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise places Dionysos riding a panther on the floor (mosaic) of the House of Masks, not a painting of him on a dolphin in the House of Dolphins. This likely contradicts the claim, though the premise does not strictly exclude other depictions in the House of Dolphins."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4687453573.jpg#3r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc1378a24f183711ec1c7ef8e28b50039bb943281d3f1c2a529c1d0487cac5ad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_050eae74f8e411b5016acd4d0e23d487d2b2a1af55a1807c75",
+  "received_at": "2026-10-12T21:11:45.884239+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise places two women beside a table with food but does not say they are drinking. Having a drink together is possible, but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

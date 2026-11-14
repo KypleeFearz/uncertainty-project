@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "13760n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.6,
+  "neutral": 0.3,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise states that overestimation leads to an institutionalized underestimated CPI, which results in a 'stealth tax increase.' The hypothesis claims 'horrific consequences,' which is a broader and less specific claim that could include the stealth tax increase but is not explicitly entailed by the premise alone."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 369,
+  "output_tokens": 131
+ },
+ "seconds": 2.93,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:02:47.612655+00:00"
+}

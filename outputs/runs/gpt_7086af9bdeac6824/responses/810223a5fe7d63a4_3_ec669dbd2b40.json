@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46003n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94f93ace9976c11bbffd4b9f9ea488ba8aed2bfb0e3edbea523a8700f5422103",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a5b88469a6450f016acbf896f94887d29bf06ad831800799",
+  "received_at": "2026-10-11T20:59:07.433071+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise says keeping grass alive on a large plot during summer was expensive, but does not identify watering or fertilizer as the expenses. Attributing the cost to those activities requires a plausible but unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

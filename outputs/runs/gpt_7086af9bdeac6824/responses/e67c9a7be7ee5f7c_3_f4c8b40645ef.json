@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91913n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d0120afb8524ac8818d0ef0e553b181796839362c2f3722ad4b4613f636fcabe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0593a2335a0eb6e5016acbf4257c6487d2a0b6ee3b9c681d9c",
+  "received_at": "2026-10-11T20:40:11.239339+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.67,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Dave explicitly asks about eggshell worship, but the premise does not clearly identify it as what “This” refers to. It also describes an unspecified factor as one of the reasons for growing weak, rather than establishing eggshell worship as the reason."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

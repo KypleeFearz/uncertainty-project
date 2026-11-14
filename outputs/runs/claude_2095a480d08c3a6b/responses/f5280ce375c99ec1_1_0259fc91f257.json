@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "77116e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a31af46a1e786395ae3560ae695ffa3ce39baf9ee988bb13b2aff579b66e7e33",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBU4WaSnZfMqRGQgeC8",
+  "received_at": "2026-10-11T21:44:47.848990+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.2,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "A third row implies at least three rows, which plausibly counts as many, though 'many' is vague and the exhibit could have exactly three."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 789,
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

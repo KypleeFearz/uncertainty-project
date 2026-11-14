@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2837695157.jpg#1r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee2b20a68bc7ed78130ca42dc6c2eccc397f83341d2682e80ff2be71033ca399",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a02dd35b5ef0d92016acd4a3d897487d295b28b8963e87aa7",
+  "received_at": "2026-10-12T20:59:46.547706+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.079,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes the boy playing with a toy dump truck, whereas the hypothesis describes him swinging from a chandelier-mounted tire swing. These are conflicting descriptions of the apparent activity, although the premise does not explicitly exclude an additional swinging event."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

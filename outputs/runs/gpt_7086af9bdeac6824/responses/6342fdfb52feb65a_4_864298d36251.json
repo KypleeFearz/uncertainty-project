@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82156n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c52b411024dfe621a8cd87f03df96c56b6ecf307c2e2e58831e5dd46a67a30c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075a9cbe1ef47d0d016acbd9517ccc87d295ee3653c9210cfc",
+  "received_at": "2026-10-11T18:45:41.911734+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise describes the road as a breathtaking Italian adventure, supporting its adventurous and exciting character. It does not establish that this is what most people come for, or explicitly identify where “here” refers to."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

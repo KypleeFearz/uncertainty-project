@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38156n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "19d75ce16bcd4a2d24cb44e14fa5bbcfd0fac1039a9bd646477dfb8ee9d8f913",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f0b27a7c44ce84d016acbed25593c87d294c8af299c38dce7",
+  "received_at": "2026-10-11T20:10:16.035205+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise defines budgetary resources as authority allowing an agency to incur obligations. It says nothing about administrations' views on how those resources should be distributed among agencies."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

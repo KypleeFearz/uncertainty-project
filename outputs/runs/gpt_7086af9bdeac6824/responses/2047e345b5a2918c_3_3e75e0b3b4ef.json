@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73278c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a80026c7a723c39575e1ac2fd759a7a3508b91751adb62c5e0bf66b6068b805",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02a9234232611616016acbf1af779087d2bf2d3d2bd4eff41f",
+  "received_at": "2026-10-11T20:29:39.353724+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise raises the possibility of an across-the-board decline in Postal Service volumes, opposing the hypothesis that nothing will affect them. Because it is phrased as a question rather than a firm assertion, some uncertainty remains."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

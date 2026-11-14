@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45108n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0df05bf15e770f46f36f5be0d1644bb94daf68603c7d7a727e18315b1a99bab5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053d50967e885d94016acd45c80f3887d2b427dba22b5e9399",
+  "received_at": "2026-10-12T20:40:43.003532+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "He explicitly said not to worry, but whispering does not establish that he was very calm. His emotional state remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

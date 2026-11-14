@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "97011n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise explicitly states that expectations existed for the ANC to oversee land reform, which presupposes that the ANC was expected to be in charge of it. The hypothesis directly restates this expectation as a fact about the ANC's role."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 360,
+  "output_tokens": 120
+ },
+ "seconds": 2.62,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:51:11.622333+00:00"
+}

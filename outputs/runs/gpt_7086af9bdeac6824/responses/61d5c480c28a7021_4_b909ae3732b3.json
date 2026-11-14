@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47798n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a25d883526e8f0d6df732744b09c018fdf769092f5c9daadea7f120d9cc95a6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0194e70fc5c10c84016acbee7d8b5887d28cb750585d663061",
+  "received_at": "2026-10-11T20:16:00.281415+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.995,
+    "contradiction": 0.003,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise identifies Old King's House as the British governor's residence and the site of an emancipation proclamation. It neither mentions nor rules out a king being murdered there."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

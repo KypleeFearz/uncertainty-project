@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13387e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f25a31ce987df6aced629283a027f21f78a8032757878a6087581479dd39f03c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0350b53c9bcb5cbe016acbe845171087d28d86933123782e49",
+  "received_at": "2026-10-11T19:49:28.066003+00:00",
+  "parsed": {
+    "entailment": 0.66,
+    "neutral": 0.33,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.37,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "“Yeah, I can believe that” commonly signals agreement with a prior statement, but it can also acknowledge plausibility without endorsing it. The prior statement and the referent of “that” are not supplied."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

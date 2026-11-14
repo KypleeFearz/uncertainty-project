@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28078c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b5e4e7f7d08c6c9c6e7fcc2f25e277be886e8622a90766b6a1d967791375b4fb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a168bdb51cb9c4016acbd90033a487d2a4d0d49cb73572b9",
+  "received_at": "2026-10-11T18:44:20.328811+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "Jon’s question establishes an interaction and a planned ride, but does not establish whether Jon and Adrin had met previously. Familiarity might be inferred from the question, but it is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

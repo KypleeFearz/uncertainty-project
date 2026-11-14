@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96956c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1d42a17a89d5a81064477d4d411e230d1a08027bb32b6683ccc0f38b01b99ad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082e80f2248a1a81016acd485f890487d2b64cfdd5462358bb",
+  "received_at": "2026-10-12T20:51:46.844949+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise questions whether he could win a general election from the Democratic Party’s right wing; it does not say whether he will run. Even if “right lane” means conservative Democrat, uncertainty about winning does not establish that he will not run."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

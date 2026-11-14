@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120176c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a5caa5e45a3ad860800e84c702f5767fbdc9225e6cb6b07c70db81b1e8afeae5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02a706baac485dbb016acbe654087c87d290f6d7efbefcdc22",
+  "received_at": "2026-10-11T19:41:10.966354+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.04,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly identifies information required by GAGAS but not by AICPA standards, so their requirements are not the same. This assumes “GAGS” in the hypothesis is a typo for “GAGAS.”"
+  },
+  "usage": {
+    "input_tokens": 436,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

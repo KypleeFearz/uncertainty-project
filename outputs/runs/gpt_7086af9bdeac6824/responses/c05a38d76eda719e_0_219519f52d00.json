@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1364n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "82f9fc5f7af004d422222b4eb8ac16bf714740c3dca7c8d8a82d565fc0119dae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03d4c3c5538461e0016acbe89eddd087d2983e12c06dbe02d2",
+  "received_at": "2026-10-11T19:50:58.138968+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the friend moved to North Carolina and is an emergency room nurse who also works in the operating room. It does not establish that she moved to take that job or that she works in a trauma unit."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

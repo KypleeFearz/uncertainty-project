@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "49123n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cd534f0a0c017a1025d9928bb2c549ee51768f0755a55898fa37d6ab5f21ee17",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCdu5x5TMXUjnGb3pVE",
+  "received_at": "2026-10-11T22:00:08.365601+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.37,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says outside individuals and organizations suggested agencies adopt more consistent presentation, which implies current practices are seen as lacking. But these are others' views, not the agencies' own, so the agencies' belief is not directly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 844,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

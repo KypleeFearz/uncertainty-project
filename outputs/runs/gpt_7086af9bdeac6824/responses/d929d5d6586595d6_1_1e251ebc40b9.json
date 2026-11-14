@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4592e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc76baff13caed0f754ab0dfab306410c05352c22f4ae6954e840445560d7e75",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018e4b07b26c57b7016acbee31945487d2a0b8a3ddc025ef8d",
+  "received_at": "2026-10-11T20:14:45.074831+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise identifies Zelon as a member of the student-run chapter, not as the chapter itself. The hypothesis conflates the member with the organization."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

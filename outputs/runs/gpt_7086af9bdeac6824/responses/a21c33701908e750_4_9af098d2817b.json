@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47756e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "96963027f1278b164d88f8824480b2b2eac14edb62a9833613c65ebdec0a7362",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d7bfd3fee1b880016acbee74334c87d2be9fb08a137b0431",
+  "received_at": "2026-10-11T20:15:52.650023+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.84,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise gives an upper age limit of eighteen, whereas the hypothesis gives a lower limit of eighteen. Both can hold if she is exactly eighteen, but the premise does not establish that exact age."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

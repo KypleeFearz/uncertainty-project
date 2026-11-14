@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43245n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "01caa2569ffdc5c95a0fd08c2d48762bf4ea4c58c8531366c450e3a322484fac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082f7453afad5f1b016acbeddb006487d299871be4698e7bf6",
+  "received_at": "2026-10-11T20:13:18.940170+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise apparently identifies the city as a center of the national aerospace industry, but does not specify military aircraft design or its rank among local industries. The hypothesis is plausible but not established."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

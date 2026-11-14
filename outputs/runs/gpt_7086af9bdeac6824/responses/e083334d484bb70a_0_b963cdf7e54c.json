@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34094e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a5985682d214959452d8a89d7ff03cdc4810e01f491dc927d4a9a4c6c09571df",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ecc41b7d7290c85016acbec9b933c87d2a4520fbf15153847",
+  "received_at": "2026-10-11T20:07:59.603398+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“No, monsieur” naturally reads as a negative answer to a question, but it could also reject a statement or request. The premise does not explicitly establish that a question was asked."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

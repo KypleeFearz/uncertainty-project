@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98844n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ca3e8e36406029117d804fd39f854b92e3e928c7450f6d2adf199af93e7580ce",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBwtphTGwE5bv3Gymv2",
+  "received_at": "2026-10-11T21:51:05.678066+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.68,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the metro is fastest but buses are better for sightseeing, so it does not establish whether the subway is a good way to experience city life. It mildly suggests the subway is less suited to seeing the city, but does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

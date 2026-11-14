@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "25109e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "46416c301df40816fe0a5e059f6513f4376a05b2ee25e81aa87bb68f7d26300c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ed9e71c6cc8b012016acbeb63b63487d296c4fca94e254cd4",
+  "received_at": "2026-10-11T20:02:48.139678+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The speaker remembers their parents watching the Ed Sullivan Show during their childhood, but does not explicitly say they watched it themselves. Shared viewing is plausible given the show's importance in the household, but is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 432,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

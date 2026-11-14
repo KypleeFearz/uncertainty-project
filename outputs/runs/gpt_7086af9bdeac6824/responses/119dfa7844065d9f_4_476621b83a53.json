@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3ba0e776d562e531003ecba85de34ad32f05b71c78f97ec57e5cbe092dd391de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e8e5e546546c34016acbc2066a4887d28bc236dfc418712c",
+  "received_at": "2026-10-11T17:06:21.167998+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The speaker says that if their generation avoids debt, life for the next generation would be “so good” and “so much better.” The hypothesis broadly paraphrases this prediction, though it extends the claim from the next generation to subsequent generations generally."
+  },
+  "usage": {
+    "input_tokens": 569,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 682
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

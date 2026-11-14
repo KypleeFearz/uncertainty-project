@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81842c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "51920aba2c25a9703453273199f12f8253dda4b66ffadb66dedced562062b2b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa7e3421aac03d5016acbf2f54af487d2a938718e3a46f1f0",
+  "received_at": "2026-10-11T20:35:04.574580+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise reports Julius saying “Answer?” but does not establish whether he knew the answer. Asking or repeating a question does not necessarily indicate either knowledge or ignorance."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

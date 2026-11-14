@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "131235c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "14768293eba3823a69d9df70e85fcb5df5ed8e5c431ce415803429e00187fd24",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9epLdJVhxr52NYuzcr",
+  "received_at": "2026-10-11T21:21:00.196775+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.35,
+    "contradiction": 0.55,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says saving the whole surplus still leaves growth short of the historical average. Losing it would plausibly make growth even lower, so the shortfall would likely hold, but the premise does not state this. Contradiction is also possible if the hypothesis is read as a changed claim, so it is not a clear entailment."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 844,
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

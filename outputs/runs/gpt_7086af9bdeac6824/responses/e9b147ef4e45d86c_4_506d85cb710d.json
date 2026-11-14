@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26990n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3355b7c8045a1328ea6fb1a515b25f70365519fe54b163548d9c9c8e9d433470",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0417c47b64490a0c016acbeba5dc0c87d28dd5e2b929fcc2d9",
+  "received_at": "2026-10-11T20:03:53.617050+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise says Lincoln removed his hat, but does not specify that it was black or a top hat. Those details require assumptions beyond the supplied text."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "16469n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fccf789db04843b682ee2db4648c292b4e843c1b785ddb2682b67ee76901d4cf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy41NbTyYaUDpgcv5kdp",
+  "received_at": "2026-10-12T21:28:12.233725+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.6,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says they were amazed and that Douglas was the only place they played, which hints at a positive experience. The sentence is cut off, so it does not establish that Douglas was a highlight."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

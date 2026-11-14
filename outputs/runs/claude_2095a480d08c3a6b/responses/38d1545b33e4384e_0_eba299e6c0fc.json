@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "79265n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9cffa6e0713efe9c511e8b3d74bc9c895fac5076f895179ef233ee2f29b03348",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCr4ZHQpsCQve5R6Led",
+  "received_at": "2026-10-11T22:02:53.262127+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise only says tabulations can test whether an impression is reliable; it does not say same-agency services give greater insight or should be marked accordingly. The hypothesis asserts a conclusion the premise leaves open."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

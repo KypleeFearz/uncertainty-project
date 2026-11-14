@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82182e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e121cbf78bc587e5e5ac327e7b250c5aa4a6228af6f2e3d995623ec36353f404",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0da6397afe78768f016acbf30d94ec87d2a41100ff2969b65f",
+  "received_at": "2026-10-11T20:35:30.031084+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The premise depicts a Madrid resident staying out late before going to work, suggesting nightlife. It does not establish that Madrid’s citizens generally are eager to party or that the city as a whole is active at night."
+  },
+  "usage": {
+    "input_tokens": 437,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

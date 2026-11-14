@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11299e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "837c37da691b56926c3a1ab6ed4f43190fcfd747e9d1c5b93e3ec345a997ea7e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_008f68daf9de35f9016acbe54f1a5c87d2bc67cbffbd51179a",
+  "received_at": "2026-10-11T19:36:51.144898+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.79,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.91,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says an unspecified thing is not part of the addressee's biography, but does not identify it as what is being shown. It also does not establish that the hypothesis's 'my' refers to that same addressee."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125600n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da64ce77c3522a0383ee10b09045b740fa4f25e1464280744c3cb156c6c8a50f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca94745c7df526f016acbe6e9bc3487d2945084aa2ce07a51",
+  "received_at": "2026-10-11T19:43:41.694995+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Stinks” can mean either smells bad or is very bad, and the referent of “it” is unspecified. The hypothesis is supported if the premise negatively evaluates a situation, but that interpretation is not established."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

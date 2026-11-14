@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53438c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbaa75a9be39e45be1944baab75d19be72a23248d45b284808079ae5fbcd33f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c531ffd5d1e8505016acbef2c39ac87d2ace5ebe8e5eb190c",
+  "received_at": "2026-10-11T20:18:56.988141+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.77,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says the jury may or may not recognize that you're right, whereas the hypothesis expresses a belief that it would. The stated uncertainty neither establishes nor definitively rules out that belief."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

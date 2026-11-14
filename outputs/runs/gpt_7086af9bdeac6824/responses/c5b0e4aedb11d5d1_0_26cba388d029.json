@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142816c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ef71ff02c10c1c330c29697a2749804c273a1c34213f6201b449b11adb077338",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03052da186465c69016acd43ef830c87d28d6b7a0055ece79f",
+  "received_at": "2026-10-12T20:32:50.559233+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise describes the Philadelphia Eagles as a good team and an underdog, but says nothing about how well known they are. Being an underdog does not rule out being the most well known team."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

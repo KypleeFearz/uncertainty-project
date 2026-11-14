@@ -1,0 +1,5 @@
+comparison,estimate,ci_95_low,ci_95_high,valid_resamples,direction
+balanced_accuracy_decomposed_minus_risk_trained_all_cases,-0.023906071019473174,-0.07014388516923481,0.0191739695312741,500,positive favours decomposed over risk_trained_all_cases
+balanced_accuracy_decomposed_minus_single_score_risk,0.07627720504009161,0.0224471701434002,0.12442016008995095,500,positive favours decomposed over single_score_risk
+balanced_accuracy_decomposed_minus_single_score_confidence,0.12273768613974795,0.0650406733383253,0.17922811238483502,500,positive favours decomposed over single_score_confidence
+balanced_accuracy_decomposed_minus_calibrated,0.18031691485299733,0.12228218085684114,0.2319679877238786,500,positive favours decomposed over calibrated

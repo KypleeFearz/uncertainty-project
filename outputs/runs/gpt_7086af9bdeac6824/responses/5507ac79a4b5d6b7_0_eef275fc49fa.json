@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117329e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b35431824c69c032c1041eee6faac1cf7c35e1435c9ff67998d0fa4f59c8cc22",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a3931bd1b85635f016acbe5e1463087d297cb1d1af5a0fc33",
+  "received_at": "2026-10-11T19:39:17.917998+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "Both sentences describe his heels clicking together. The hypothesis slightly strengthens the premise by attributing the action to him and implying a reason, neither of which is explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19768e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a42210770682d4d25ac3994b76540250bfcda16b5f8094e3210ddb8b0d51122f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02114a63d59d2ecf016acbea89af6087d298ed1e16d35db492",
+  "received_at": "2026-10-11T19:59:09.714723+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The advice suggests that shade is available in the street, but it does not establish that there is plenty of it. Inferring abundant shade requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

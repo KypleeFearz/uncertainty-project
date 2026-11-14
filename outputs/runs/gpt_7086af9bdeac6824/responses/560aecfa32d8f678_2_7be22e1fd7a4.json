@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114971e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4c98fb41dfd728026294e3d66a2839a87fe04b398d8b82be5ad7e99a9ed2aef4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e7d7b69c63545f7016acbe584e8a887d284c38388eaf4e99c",
+  "received_at": "2026-10-11T19:37:44.818046+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.88,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says Clooney’s character will be forced out rather than killed, but does not establish whether Clooney himself is being fired from the show. A character’s departure does not necessarily imply the actor’s dismissal."
+  },
+  "usage": {
+    "input_tokens": 435,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 582
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

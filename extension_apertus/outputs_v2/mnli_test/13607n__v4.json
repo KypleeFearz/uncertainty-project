@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "13607n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.75,
+  "brief_reason": "The premise expresses a personal resolve to start anew despite difficult circumstances, which aligns with the hypothesis that it is the speaker's turn to change things for themselves. The connection relies on inferring that 'making my way afresh' implies personal change, which is a reasonable but not strictly logical inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 355,
+  "output_tokens": 135
+ },
+ "seconds": 2.77,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:02:32.312239+00:00"
+}

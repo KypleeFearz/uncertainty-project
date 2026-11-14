@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3478471864.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fc8c0be57b9b9f71bc47e82cd6905b0f5263aa1f65bd515e5cbd2fd7f40cf538",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06510d7950819a4e016acd4b80198887d2846d6223cbc52232",
+  "received_at": "2026-10-12T21:05:09.525910+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.74,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports the arrangement and many-arms illusion, but identifies only the woman in front as young, not the other three people. The hypothesis is also unclear about whether four people are present in total or four stand behind an additional person."
+  },
+  "usage": {
+    "input_tokens": 445,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 611
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66225e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "faada69107e38554329ba84db4a3895256e5892a511f505e6bc075b65b5e2629",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0220b84960c4ae94016acbf0fb234c87d2bcb380182cc3b71b",
+  "received_at": "2026-10-11T20:26:38.557846+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.9,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker says they advertised to buy wheat pennies, not to sell them. This does not establish whether they also tried to sell wheat pennies."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59208n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "362274218e3caacf222277d4e8055ff0342ed167aa79362c971668c346af4aa2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c45c6d182396df8016acbf00ad32c87d2855b40deb57599fd",
+  "received_at": "2026-10-11T20:22:38.860383+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Choosing Meg Ryan supports her being a possible selection, which satisfies the disjunction without establishing anything about Jon Doe. A neutral reading is possible if the hypothesis refers to a separate, future selection."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

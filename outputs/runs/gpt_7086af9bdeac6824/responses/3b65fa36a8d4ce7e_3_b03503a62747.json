@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "20181n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "edbbb482aa9b925003212243b74e38e6ced7034351a1669fc3c87caa23dbd49c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b1309eabbf19c7c016acbf7973aec87d2a26f1126ec44ba58",
+  "received_at": "2026-10-11T20:54:50.321541+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the judge's desire for facts and a good decision, not the decision he ultimately made. It neither establishes nor rules out that he imprisoned an innocent person."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

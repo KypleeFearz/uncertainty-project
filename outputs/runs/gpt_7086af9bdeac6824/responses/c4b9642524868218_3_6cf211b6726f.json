@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28827c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ed6cdf33bce37edef42943226d6a62dab64229845d8c87e379f15c64cf9d053",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0da95883c08fc2e6016acbebf455bc87d2a230b180c570d9b2",
+  "received_at": "2026-10-11T20:05:11.621881+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.39,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "Increasing risks from computer attacks suggest that they are not easily mitigated. However, the premise does not explicitly establish mitigation difficulty, so easy mitigation is not strictly ruled out."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

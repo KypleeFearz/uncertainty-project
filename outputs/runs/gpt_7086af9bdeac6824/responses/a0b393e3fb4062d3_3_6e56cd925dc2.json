@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2663670442.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da4070af81eb4443b11ceef8aa24e2e317f71b55e3e8ef3c45e843a5db8ae9a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b40ef398933901016acd4a139bd087d2a0cb76945d2f81eb",
+  "received_at": "2026-10-12T20:59:03.675508+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise establishes that a woman is playing the violin but does not specify whether she is sitting or standing. Thus, sitting is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

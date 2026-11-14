@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "112293n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise states that harder rock caused the artists to abandon the effort, which aligns with the hypothesis that problems arose due to harder rock. However, the premise does not explicitly mention disappointment, making that part an inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 368,
+  "output_tokens": 118
+ },
+ "seconds": 2.62,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:48:59.827478+00:00"
+}

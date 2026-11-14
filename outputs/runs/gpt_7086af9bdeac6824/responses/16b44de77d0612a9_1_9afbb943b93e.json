@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13133n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d6d324e221dd0347c4e6d527fc2c4c46851d7d32efd34702ea8fbeee4b716f5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08fcaf0f398b63e5016acbe7fd7d1087d2a887e29916a05d5d",
+  "received_at": "2026-10-11T19:48:16.453069+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise states that one reader letter is published each week, but does not specify how many are submitted. Assuming many submissions and a selection process is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

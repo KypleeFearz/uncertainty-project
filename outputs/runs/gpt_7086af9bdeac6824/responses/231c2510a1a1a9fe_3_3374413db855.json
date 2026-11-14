@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44834n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "68880bd9258ce254ab0ca2f4430442b1b18b747ad51b1dc4dba21cbc6224d886",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6d94ac06b3be4a016acbd910719087d29c4aaca2f82702c4",
+  "received_at": "2026-10-11T18:44:36.898581+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise describes fatigue with speculative analyses and a shift toward data collection, whereas the hypothesis includes data collection among the things people tired of. It also adds a claim that economists need to change their style, which the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

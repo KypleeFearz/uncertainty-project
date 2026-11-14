@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137499n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c08dd3cc4bb042720d9ca537ef6de64ea9b217bb120b436a2add133870d7af0d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09616965411e7c60016acbe8c68a9487d29d1410d138d47681",
+  "received_at": "2026-10-11T19:51:37.271689+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise states his intended route but says nothing about a roadblock or whether that route remained possible. Having a plan does not establish or rule out a later obstacle."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

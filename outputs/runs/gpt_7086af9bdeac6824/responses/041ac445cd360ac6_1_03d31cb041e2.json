@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73235n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e884becdcddaad56b8714e7bbec1de1b16b64ca35f7c9b23d8fa3be7024972d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e8e52b90924dfb3016acbf1a4845887d298082a0f9920ee85",
+  "received_at": "2026-10-11T20:29:27.673222+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise states a hope to add people when the building opens, but does not establish whether a waiting list already exists. Planned additions do not imply an existing waiting list."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

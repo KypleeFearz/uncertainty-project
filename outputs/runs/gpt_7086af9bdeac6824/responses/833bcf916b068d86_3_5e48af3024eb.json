@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88192n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2817b7704791511f1909b2302bdbbca8eef1d64bb88fb9e442f4a986dc22425d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_062c7f4961ab4e57016acbf3d4144c87d2a55bb398299be2f6",
+  "received_at": "2026-10-11T20:38:48.179909+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise establishes that she is smiling and her eyes are closed, but not that her eyes could not or would not open. Closed eyes are compatible with either being able or unable to open them."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

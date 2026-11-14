@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107608e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c66f5930fd0cdc7f353e92b0494fa8efe84a11583cd99758eae78079d69389d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02636a67a33641d7016acbe4ab78a887d2a167e3ed6f0f8f23",
+  "received_at": "2026-10-11T19:34:07.827367+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.18,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise explicitly mentions bank closures during an economic crisis. The hypothesis is supported if “left and right” is a colloquial paraphrase, but its implication of widespread or frequent closures is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

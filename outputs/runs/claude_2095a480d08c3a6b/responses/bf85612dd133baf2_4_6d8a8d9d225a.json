@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "52854n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2017bba050e80ed882c474c669b0a9b0307e8f9f6039b290d8779aa9eaf0171c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAuZEZpexyL4g7dvLkc",
+  "received_at": "2026-10-11T21:37:26.745529+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says statues of gods were carried to the river for journeys to the west bank or to the Luxor sanctuary for ceremonial purposes, which partly matches. It never mentions funerals, and the west bank (a funerary area) is only implied, so the hypothesis goes beyond what is stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

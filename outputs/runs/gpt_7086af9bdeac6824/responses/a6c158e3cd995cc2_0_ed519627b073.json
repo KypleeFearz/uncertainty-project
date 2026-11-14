@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58353c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1108b97894b001e560fcaa3b82a0c82c670546d81742e1fc4a2999fa29eb2a3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9a69384444ea85016acd46bfe02087d2835451b6c2dbeb61",
+  "received_at": "2026-10-12T20:44:51.320942+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker asks to add their own speculations to those of sociologists, without stating agreement or disagreement. Offering additional speculation does not establish opposition to the sociologists."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

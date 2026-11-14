@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4658483278.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1898dd5cb7ea2c2b6f12c4b673498512ad342fb39d39e2b21f67648c7fc150c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b239d36a3f3ada2016acd4cf15a0487d2801f931d12841539",
+  "received_at": "2026-10-12T21:11:16.453267+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise describes the man's location and appearance but does not state why he is standing there. His smile may suggest willingness, but it does not establish that he is there because he wants to."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

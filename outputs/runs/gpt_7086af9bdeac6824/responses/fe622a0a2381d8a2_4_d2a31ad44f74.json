@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80458n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ceef16048f754fe98fef3674cda572459b7433125e374e7e2cddf8768f17551e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0331ebed4812d0f1016acbf2b083f487d2bfd4e5894a8edb46",
+  "received_at": "2026-10-11T20:33:56.525613+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.79,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the analysts portray the removal as a heroic sacrifice, but it does not establish that anyone risked their future. The hypothesis also leaves unclear whose future “their” refers to."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

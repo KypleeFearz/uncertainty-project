@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "64831n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f099f221a591c66b5011fd1eb29524d2bab9d564b22cca2ac17e2614b574a57e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwyHkV9dFDstixtza7T",
+  "received_at": "2026-10-11T18:47:49.170690+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.7,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Fiss thinks people are denied access to enlightening information, not that researching would help them form opinions. The hypothesis is loosely related, but it shifts the cause from denied access to people's own effort, so it is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 863,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

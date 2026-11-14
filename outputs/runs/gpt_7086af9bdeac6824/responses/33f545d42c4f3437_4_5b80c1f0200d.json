@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119901e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9e139b278c8484ba4cb93ccf149e2da64e238acabbe3a45e5969fdc7aa96b01c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c574c4be90e3ae016acbe645820887d2a6ef9c561721b6a2",
+  "received_at": "2026-10-11T19:40:58.139169+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Most pundits agreeing with Stephanopoulos does not establish that he has a very large following or that his stance caused that following. Interpreting agreement as a 'following' requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

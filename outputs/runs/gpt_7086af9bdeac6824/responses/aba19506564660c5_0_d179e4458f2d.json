@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127410n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "878a8e007ffc67d24084b3ac6feddfdad80eb213a3d0897fdd07dfb001244bb6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e819a1831cf57c0016acd42d936c487d2bd7d71140908616f",
+  "received_at": "2026-10-12T20:28:14.321237+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.08,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Paying twice includes paying once, supporting the hypothesis if “once” means at least one time. If “once” means exactly once rather than twice, the statements can instead be read as conflicting."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

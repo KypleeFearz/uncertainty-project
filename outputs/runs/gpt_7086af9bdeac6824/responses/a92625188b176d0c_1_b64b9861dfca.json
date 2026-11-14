@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113967e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e476e4405cdf143b69052c0941ff718d0ee6fedce0eb936d15ee5c660856c723",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00bf39d0b53202d6016acbf5f195e487d2a45c8ba847f8ec4e",
+  "received_at": "2026-10-11T20:47:48.582625+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.61,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise reports the speaker's uncertainty about what happened, not whether someone's speech makes sense. It also does not identify whom 'you' refers to."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

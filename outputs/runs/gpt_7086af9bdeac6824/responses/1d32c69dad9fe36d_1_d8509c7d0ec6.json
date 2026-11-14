@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100409e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "af327a7e7394f8882d8b8af9deb545bbedbcacc8fee2db8eb2b1665a79153a98",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c253cbceade8329016acbe38a1cd887d288578fa4086503b8",
+  "received_at": "2026-10-11T19:29:17.789779+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says that the prize's value determines total expenditure in presidential campaigns and state lotteries. It does not establish that the prize's monetary amount was determined regardless of how the prize was used."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

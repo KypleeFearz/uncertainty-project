@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_219301553.jpg#2r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a52e0f0546ff1401d476b01b9476b4672f0d01c060dee16ad1bc4c0787283203",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018047a0f39d6e3e016acd4949c4a887d2a68bc4a5004532e5",
+  "received_at": "2026-10-12T20:55:42.010739+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Wading establishes that the people are in water, but not that they are playing. Their activity could be recreational or serve another purpose."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

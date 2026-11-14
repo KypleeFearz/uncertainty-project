@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135247c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee958573e1ad99b2ef27ce1fe97881c808ef415effc08520b37bb14e5f0d0975",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06c47373db449498016acbe869dbc087d2ba3812cd2ec0c024",
+  "received_at": "2026-10-11T19:50:06.111797+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.92,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise establishes that wax models are displayed, but does not establish whether clay models are also present. “They” is unclear; if it refers specifically to the displayed models, their stated material is wax rather than clay."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

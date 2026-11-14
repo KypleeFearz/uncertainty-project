@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80374n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "24f01ef3cd7612b73f2792c6dfcf385173f0bf5d7d20dad56d0be4c527058ba3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0321c4e2fbdc63d4016acd47ca10e487d28a1fa2768d7827ba",
+  "received_at": "2026-10-12T20:49:18.868401+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Both questions convey that he believed Mademoiselle Cynthia guilty and that you had not recognized this belief. There is a small distinction between not understanding a belief and being unaware of it."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43168c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d2fc7866c59070ba395071c29f98f73ad044964c79d2dce06c1edeba9e028244",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011037639489d2af016acbedd75a7087d29b6b97e3c61aa9b2",
+  "received_at": "2026-10-11T20:13:16.016991+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.79,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise discusses potentially beneficial but less effective treatment options, not an established all-or-nothing situation. The hypothesis’s “it” has no clear referent, and the premise does not explicitly rule out every interpretation of that claim."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_662492649.jpg#4r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.8,
+  "neutral": 0.15,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The premise describes a man who is already sitting, so the hypothesis that \"A man sits down\" is supported, though the premise also adds extra details about his actions. The slight uncertainty comes from whether \"sits down\" could imply a different action than the ongoing sitting described in the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 133
+ },
+ "seconds": 2.78,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:52:18.434342+00:00"
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "64123c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "59e763637978a685df0cdd4d03f86503a9d9a8a0a17e234572532c35157769ba",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCmC4LksFTUsXqkzfCy",
+  "received_at": "2026-10-11T22:01:47.409460+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is a question with no stated facts, so the hypothesis neither follows from it nor is ruled out. Any link depends on an unclear context, such as whether 'every day' answers the question."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 756,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

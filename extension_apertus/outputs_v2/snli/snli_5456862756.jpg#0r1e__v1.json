@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_5456862756.jpg#0r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 1.0,
+  "neutral": 0.0,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.0,
+  "brief_reason": "The premise describes a scene with a woman in a natural landscape containing rocks and tents, which clearly indicates an outdoor setting. The hypothesis that a lady is outdoors is directly supported by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 109
+ },
+ "seconds": 2.56,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:46:41.246882+00:00"
+}

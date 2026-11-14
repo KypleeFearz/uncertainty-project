@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91191n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d69a479b2e2bdbd3b890bba9abe68e7e6db22a2d8f043b894cf9ae9e37d764a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0020281bf8b57735016acd482e26b087d2887a82aa9dbd29e4",
+  "received_at": "2026-10-12T20:50:58.438043+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise discusses a high-school study of disparities in capital punishment, not something secretive or containable only in text. The hypothesis's referent for “it” is unclear, and its descriptions are neither established nor ruled out by the premise."
+  },
+  "usage": {
+    "input_tokens": 536,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 649
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138966n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "57d9a4443d3a2241de21a07c6c4b75809f427440a9dbc236189b8d6dfa1aeb30",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00250d1da879a0a4016acbe9064ec487d29ac9844bf7688ef8",
+  "received_at": "2026-10-11T19:52:41.602199+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise reports a belief that he used the same architect, not an established fact. It does not determine whether he actually used that architect or not."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

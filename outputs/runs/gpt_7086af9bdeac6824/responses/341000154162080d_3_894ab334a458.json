@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98844n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ca3e8e36406029117d804fd39f854b92e3e928c7450f6d2adf199af93e7580ce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0623f6501c747dd3016acbf4f8819887d2a2c59c5bfe7c57a4",
+  "received_at": "2026-10-11T20:43:40.481082+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.75,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The premise establishes that the subway is fastest and buses are best for sightseeing, but does not establish whether the subway is good for experiencing city life. That broader claim depends on what counts as experiencing city life."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

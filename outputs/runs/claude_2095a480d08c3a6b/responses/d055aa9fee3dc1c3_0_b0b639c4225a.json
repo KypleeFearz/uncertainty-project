@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "136770c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "48a478c86bd480fa51f4424d69cb65c40e5040c3bd7b44ac14d8e0546031a6c8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9nRVfHaMLDvW5Rg71Z",
+  "received_at": "2026-10-11T21:22:43.538812+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.67,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the area is quiet late at night, which suggests limited nightlife but does not say whether it is open or closed. A region like the Lake District is not strictly open or closed, so the hypothesis is likely neutral, though some readers may infer it contradicts it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

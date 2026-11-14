@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21229n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "48cc2fadf85e46f87b3bb484bf837d85c951d4806364f45660e76ebb871ff405",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9afce974bac839016acbeab5c1bc87d29e433cfc1face8e8",
+  "received_at": "2026-10-11T19:59:52.856007+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise mentions working with customers and frequent visits from government folks, but gives no information about their gender. It therefore neither supports nor rules out the claim that most customers are female."
+  },
+  "usage": {
+    "input_tokens": 424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

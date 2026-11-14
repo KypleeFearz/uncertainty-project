@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38477c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "10108718e95dc34a10b3ed2f6469248a23606fff5410fbcc7cbb23f1e4d7bd4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_092e673e3eaaf1c2016acd455c524487d296326121304e4b42",
+  "received_at": "2026-10-12T20:38:55.637466+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise gives broad clothing categories without specifying skirt length or restricting her wardrobe to skirts. Short skirts could fit those categories, but the claim that she wears only short skirts is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

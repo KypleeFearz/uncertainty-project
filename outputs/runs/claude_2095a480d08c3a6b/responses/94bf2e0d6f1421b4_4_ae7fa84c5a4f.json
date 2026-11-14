@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_310728631.jpg#0r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "26cb73caf29ff35143962606ffb44dbbc7f7d13f67a0ae6ce025bbd13fdd64b8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5DNPm1FKcvDDPWaDBE",
+  "received_at": "2026-10-12T21:43:58.799700+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says the birds are disturbed and in flight, but not that they are leaving permanently or relocating. Relocation is a plausible but unstated inference, so the hypothesis is probably neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

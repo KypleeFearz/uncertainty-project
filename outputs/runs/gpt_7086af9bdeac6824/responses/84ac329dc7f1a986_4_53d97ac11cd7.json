@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127073c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e0e155faa0ab19aa8660139ca575e7de9c20462996549d959fd121b4d7362e71",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00346a15df833187016acd42d2922887d29c97997ab1873b93",
+  "received_at": "2026-10-12T20:28:06.713005+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise considers volunteering in literacy, writing, tutoring, or homework help and expresses hesitation about working with more children. It says nothing about coaching sports or helping the speaker's children succeed in sports."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

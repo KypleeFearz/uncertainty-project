@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97624n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b072d2403dcac79f7142a70492400a429fa4b28cb83b9acc4912b8b0bf5915ea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb7062686542813016acbf4ddf3e487d29af6c4a5712a4cb9",
+  "received_at": "2026-10-11T20:43:14.654528+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says Chinese leaders have significant foreign-policy advantages, but does not establish that China performs better overall. The hypothesis follows only if those advantages are assumed to translate into superior foreign-policy performance."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

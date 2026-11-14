@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65199n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eaaf65de3d4a138388751655647be3b16c2f6e3797806cafc71ce59d24ef02ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06f64f45e554ce0a016acbf0e0de1887d29fbcad8e494a0975",
+  "received_at": "2026-10-11T20:26:12.565318+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The speaker regrets taking loans and mentions debt-free friends at church, but does not state envy toward them. Neither envy nor its absence is established, and the premise does not extend the claim to all churchgoing friends."
+  },
+  "usage": {
+    "input_tokens": 559,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 666
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

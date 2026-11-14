@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97520e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d932ad05e69729d39147c87c366e55037f5e64faa878e2d10cc22e297481a20b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d911ac2e4740e3016acd4874041887d28f9c4e5911831c07",
+  "received_at": "2026-10-12T20:52:09.352614+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "“Pretty good” closely matches “solid,” supporting the hypothesis if the assessment concerns playing ability. The premise does not explicitly identify AC Green as a player or specify what he is good at."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

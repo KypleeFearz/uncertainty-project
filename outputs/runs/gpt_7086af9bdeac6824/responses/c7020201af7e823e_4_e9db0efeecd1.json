@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65568e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4253619406bd2f62547a135685c36a0105482cc39c9e71bcb297140aa843945c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b523868de6cc01b016acbf0f3b95c87d2b88592f6b1ac4be8",
+  "received_at": "2026-10-11T20:26:31.631707+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says the real dirty work was finished, but it does not establish that no other dirty work remained. The hypothesis is plausible if “the real dirty work” encompasses all dirty work, but that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

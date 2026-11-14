@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71886e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0f9cd53a984d3074796c8b74072a5a798c09be1ed06fbb4c6b0253dca7b414ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07619bda42a95aab016acbf17a0c3887d28c6d597129d0bc54",
+  "received_at": "2026-10-11T20:28:46.290544+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.77,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise does not identify the country as the USA, and being preapproved does not necessarily mean being fully approved already. The hypothesis therefore requires assumptions about both the country and the approval status."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

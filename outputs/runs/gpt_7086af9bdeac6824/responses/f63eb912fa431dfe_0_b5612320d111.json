@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105561e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d7e05290bce4508edc5c28904b27b95c592740260a86cba942e1fedbb5f721d7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9c6439bcc19a7a016acbe46592c087d29cdf58bfad294058",
+  "received_at": "2026-10-11T19:32:57.650962+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.82,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.27,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise says that people signing up for instruction receive an armband, not that instructors are marked with armbands. It also describes approaching an instructor who is not busy, rather than guaranteeing access anytime."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

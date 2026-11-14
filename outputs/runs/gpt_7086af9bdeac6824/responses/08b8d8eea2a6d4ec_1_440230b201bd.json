@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139409n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4c74d6a5996dd04e0e71b1fea1bda329d249536298c6768914a99870159cd07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0302b1f7cd1e9d45016acbe91da7f487d2a09d0ee15e8c181d",
+  "received_at": "2026-10-11T19:53:05.459567+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise expresses surprise that the object was nearby all along, which supports the hypothesis's general sentiment. However, it does not establish that they searched far and hard or considered doing so stupid."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

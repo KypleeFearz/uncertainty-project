@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "808n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cf69bde8b5bd39639fdf59e5e9ce0aaa2dfe157e43d275e2ab3a0fe908c134ff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037de59e690d0ed4016acbf2cdfb8487d2aded0a214ee32733",
+  "received_at": "2026-10-11T20:34:25.369084+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.72,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.33,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise locates the dagger at his lower back and says he felt its weight, but does not establish that it was poking into him. Poking is a plausible interpretation of the sensation, not a necessary one."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

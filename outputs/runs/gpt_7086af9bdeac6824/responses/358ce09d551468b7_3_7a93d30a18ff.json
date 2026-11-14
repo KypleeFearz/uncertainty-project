@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80109e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a609e19952e08eb01db02fdd374bf04b971002a8e798f1d53694314bd4ef7785",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d5bba943af88c7016acbf29b2af887d287aea926731e496c",
+  "received_at": "2026-10-11T20:33:37.342582+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.24,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.56,
+    "brief_reason": "The speaker presents making a rice field as an alternative if there had been more rain, suggesting the actual rainfall was not enough. This is an implied threshold rather than an explicit statement, and the remark may be hyperbolic."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 605
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

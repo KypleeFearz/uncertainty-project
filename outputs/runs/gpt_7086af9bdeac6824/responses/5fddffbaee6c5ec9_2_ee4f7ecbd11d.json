@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84055n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aa7a9151e7eb311906aed020f78431b7ada8abff55d9c6a730bdb004cf7b81d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_045949cc6df95eff016acd47f117d487d2bbb9100b97e82f4d",
+  "received_at": "2026-10-12T20:49:56.476827+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.9,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says other standards and methodologies can guide auditors even when they are not followed. It does not establish whether GAGAS itself requires strict compliance."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

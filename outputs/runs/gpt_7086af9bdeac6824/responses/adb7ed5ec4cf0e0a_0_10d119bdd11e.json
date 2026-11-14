@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10724n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09b5002e3a74c18604f028207b7ec81acfb3b8638fae62104a8f7c9ff85afea2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02528d3d98238176016acbe490f32487d2a850a19d99b573ea",
+  "received_at": "2026-10-11T19:33:40.015173+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise describes who could access certain designs historically and who can access them today, but gives no price information. Royal associations might suggest higher prices, but that is not established."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

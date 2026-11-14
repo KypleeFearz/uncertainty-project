@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90461n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "55d598b04a76d208858126a0cf8f7cce7055ca2cb3a4084e241311cf56735b12",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07956c5e49dee8ba016acbd966098887d295ab763d183da116",
+  "received_at": "2026-10-11T18:46:00.994077+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.67,
+    "brief_reason": "The premise names medical and surgical expense coverage but does not specify its extent or establish that any expenses were actually paid. Full coverage is therefore an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

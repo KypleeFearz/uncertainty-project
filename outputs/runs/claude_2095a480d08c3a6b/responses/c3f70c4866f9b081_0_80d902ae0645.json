@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "68078c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "07dba39dbe9c79dc584d3941b681c27f8952d03d4a74457c701d808a4196d434",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBGpB4nSx11VnN9hbbb",
+  "received_at": "2026-10-11T21:42:14.978430+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.37,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise asks about the duration of his present position, while the hypothesis asks about the duration of his last (previous) position. These are different questions about different positions, which most readers would see as incompatible, though as questions they do not strictly contradict each other."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 756,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121360e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "98d257895c8960728fa951a964e71f5414845afd4b739887155da0656385cc85",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01964cc2ad768221016acbe685f7b887d296b17444a02d34f8",
+  "received_at": "2026-10-11T19:42:01.745625+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The premise compares the hooked tip to those of slaughter knives but does not establish that the described objects were weapons or used to kill. The referent of “they” is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

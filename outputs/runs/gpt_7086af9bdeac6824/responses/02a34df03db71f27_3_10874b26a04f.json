@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56759n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "207c969d3a903b13ee2ec77e9e80b9f41973ca799dead6442f8d2299f2576d60",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0050b86942fe8baa016acbefb5f82c87d288b478a3af7b4380",
+  "received_at": "2026-10-11T20:21:14.358051+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise identifies limited resources as the reason programs turn people away, suggesting that more resources could prevent this. It does not establish the stronger judgment that turning so many people away would be unthinkable if resources were available."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6199648902.jpg#3r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cbf2d80c6f83f7e8fdde9ea2fd20f4a02d968bc2a1b2a3824e7a50bcf91d0291",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5rFejgpnMDbj6rsMN8",
+  "received_at": "2026-10-12T21:52:18.901139+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says the player is jumping to catch the ball, which suggests but does not guarantee a successful catch; he could miss. Entailment is possible if the attempt is read as a completed catch."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

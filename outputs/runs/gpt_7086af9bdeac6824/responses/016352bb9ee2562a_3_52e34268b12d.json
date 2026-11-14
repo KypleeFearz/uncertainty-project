@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91541n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec2f36582ab1632776dec4a27f37523d79012b7a3e068376f4885424209df16f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03eb13ea75179e87016acbfac975ec87d281cc99df16242b9a",
+  "received_at": "2026-10-11T21:08:29.052887+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "People loving the sight during the heaviest monsoon, together with the evocative visual description, supports its being especially beautiful then. The beauty judgment is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54822c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1bc8fe47f685785ad9335828fe1733347f78c3594dc8b70b378524656e7d2d7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07272ce74bd2924c016acd467dba1887d2bdad65658be66f54",
+  "received_at": "2026-10-12T20:43:47.599681+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "In this context, “grants” ordinarily means financial support awarded for the statewide websites, conflicting with the claim that grants are unrelated to money. The premise does not explicitly describe the funding, leaving slight uncertainty about the sense of “grants.”"
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

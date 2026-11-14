@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23114n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb71e9d5b1b4fa0deab33d4381c8d41602c4706a7777250e40d288d327ddf949",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09cf84499232fef9016acbeb04f7d087d2810413c8155d93db",
+  "received_at": "2026-10-11T20:01:12.841674+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise states that environmentalists have occasionally attacked religion, but it does not establish that these attacks have occurred over a period of years. The hypothesis adds an unsupported duration."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

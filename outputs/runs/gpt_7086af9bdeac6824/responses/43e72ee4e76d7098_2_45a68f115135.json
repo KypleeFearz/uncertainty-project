@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21555n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f7290c2467496c22ccdbb5db1c16b751fab63118be9582e0710317734dd6cea7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd4adfd45fa39fb016acbeac9fab887d2bc32ae56c2319641",
+  "received_at": "2026-10-11T20:00:14.111617+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise attributes putting him in a coma to \"they\" who are \"here,\" supporting the hypothesis that those people caused the coma. Describing them as \"around him\" adds a small assumption about their proximity."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

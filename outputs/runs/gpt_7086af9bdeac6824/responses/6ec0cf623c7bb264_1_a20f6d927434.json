@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21702e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6af79ec6701b3884f762d0b4d0a118edd5cc88c9f43603a18f0b49579351a2d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000d61a983b2ecc4016acbf7a6478487d28f498671dce533da",
+  "received_at": "2026-10-11T20:55:06.628695+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.74,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The phrase \"no what\" is malformed and may mean \"no way.\" Even under that reading, having no means of destroying something does not establish that there is no other way to get rid of it."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

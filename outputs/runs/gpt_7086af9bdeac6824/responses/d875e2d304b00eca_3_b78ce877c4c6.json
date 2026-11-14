@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33764n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69f572a8242e4c5e10e4f8562e82d5bcf53574d45e2673f5a0b69fe30d4314f1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_046fb912374d5123016acbec866b5c87d2af566024786ff98c",
+  "received_at": "2026-10-11T20:07:37.791776+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise supports multiple discoveries about archaebacteria living in unexpected places, but it does not establish locations off Earth. It also does not explicitly rule out such locations."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

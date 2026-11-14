@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "60732n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5feb75dd12c578aedd6168b5a15f87be4cac096d7e4a4d4d6ce366605a167ce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c1591b14b9e303016acbf01f3d4887d28dca3d5f861d0efd",
+  "received_at": "2026-10-11T20:23:00.595180+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise links The Wild Bunch to making violence beautiful, supporting a more positive aesthetic portrayal. However, the hypothesis may imply a broader present-day approval of violence, which the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

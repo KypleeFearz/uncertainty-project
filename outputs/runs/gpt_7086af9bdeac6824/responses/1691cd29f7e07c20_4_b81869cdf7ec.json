@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2394e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b94e6dccf5ca44d9a0231dcccf8d0f2cbd490c9d0392f92f5c906c3c24da006e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8010cc14c122f8016acbeb42facc87d299f4b23c68234595",
+  "received_at": "2026-10-11T20:02:14.834026+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The fragment mentions conservative critics of Brown but does not establish that they wrote about the case; their criticism could have been spoken. The incomplete case name also leaves the reference somewhat unclear."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

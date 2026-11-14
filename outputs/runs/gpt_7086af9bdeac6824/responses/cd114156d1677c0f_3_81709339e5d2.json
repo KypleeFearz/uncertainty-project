@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63013n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bdbc5c565c181de7fd2a8bd1a19a996ddee3412f85ba612e9b49eef940cdbb7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e02319522e1f0ec016acd47076b2487d2b040d73c8fc8d3bd",
+  "received_at": "2026-10-12T20:46:02.792789+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says patient self-report follow-up is important because alcohol-related events often go unreported to insurers. It does not establish insurers’ motives for follow-up or whether intoxication can lead to denial of reimbursement."
+  },
+  "usage": {
+    "input_tokens": 437,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

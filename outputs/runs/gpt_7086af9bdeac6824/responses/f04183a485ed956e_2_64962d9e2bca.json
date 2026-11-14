@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_561940436.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d7583226b06abbf36df51dec148c4a011e4bb9f96200297c01b50582b684c46",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0368163b2c85bc82016acd4e0edac887d29b9ad28129203d56",
+  "received_at": "2026-10-12T21:16:03.285924+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.15,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "A couple consists of two people, and resting on a shared bench ordinarily suggests sitting next to each other. Their posture and proximity are implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

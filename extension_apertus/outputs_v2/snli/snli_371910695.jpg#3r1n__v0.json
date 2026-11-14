@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_371910695.jpg#3r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes people viewing menus, which is a common activity before ordering food, but does not provide any information about the occasion or purpose of their gathering."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 330,
+  "output_tokens": 102
+ },
+ "seconds": 2.34,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:25:47.436435+00:00"
+}

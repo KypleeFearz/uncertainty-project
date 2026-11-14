@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132752c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3683e4d6fb8882f7dc657b64d82d1e4daa63ac90aa5b4debc047ee391792ada8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_092012598421ea37016acd4341b95c87d2a18a924cd1e7e72b",
+  "received_at": "2026-10-12T20:29:58.560199+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.18,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The editors arrange for all of them to be written, suggesting they do not depend solely on the speaker to get done. However, what “them” refers to and what “I do” means are unspecified, and arranging completion does not guarantee it."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

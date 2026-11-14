@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27036c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aac75cd15c7cc43385f9a841f181c12cf3c6cd8b93291081708e1b30549e1aba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3d5f7d348dd748016acbebabdecc87d2922c0431141fae20",
+  "received_at": "2026-10-11T20:04:00.201452+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.91,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise does not identify the questioner as Jon or establish that the uncle is Gauve's uncle. Gauve's hesitation suggests a response to the question, but the identities and family relationship remain unspecified."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

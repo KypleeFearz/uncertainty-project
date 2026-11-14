@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111243n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70a3f0e6152984f29934042f2439ce27d39b569904e0dd7e950b6d574d7eb0a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0311827a1530f35c016acbf5cc264887d28151388915679f42",
+  "received_at": "2026-10-11T20:47:12.295891+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise is an incomplete fragment: suggesting something about “Gen.” does not establish that the pope is suggesting Gen itself. It neither confirms nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112800n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "788159aa8d3cf7d0f45fa606d01c153aaf59577311de0c791340a7de0d2ed6f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06896a259446b824016acd421ac5a487d2a42bc74a5b5600a4",
+  "received_at": "2026-10-12T20:25:02.859546+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.79,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise gives Leonard Franklin Slye as someone's real name in Chapter 1, but says nothing about a second chapter or its continuation. The phrase \"continues like this\" also lacks a clear referent."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

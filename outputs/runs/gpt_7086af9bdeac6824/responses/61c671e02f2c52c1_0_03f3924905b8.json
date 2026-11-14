@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143760n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "281f6b192e95fa39cd902f16e159ae54117d7da383e25b3a2bbd82f8400d252c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01dbaa709f28ec2c016acd44007a9c87d2bdf2a4c328d72098",
+  "received_at": "2026-10-12T20:33:08.096667+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise says most of the speaker's CDs are classical music but does not establish whether they own any CDs of Barney songs. The hypothesis is compatible with the premise, but its claim of owning Barney CDs is unsupported."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124037n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "801f8025cfd4ab769c1107b899999c777fea7ab81f824edd914c19c8cf6d73c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_038da2734fb52dbc016acbe6c5a44487d2b9bf2d6716672107",
+  "received_at": "2026-10-11T19:43:04.664823+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise places the naming after India's independence but does not say independence caused it. The hypothesis adds a causal relationship that is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

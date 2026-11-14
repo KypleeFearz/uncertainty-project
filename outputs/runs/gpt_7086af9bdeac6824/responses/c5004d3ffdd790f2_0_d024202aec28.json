@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63028e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "54acc040b4596099abcf564831774d6522c314bae4da74ebca20c57bb9de785c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078cf6a75e2ace7a016acbf0935b6087d2a3a54a623c9f5bd2",
+  "received_at": "2026-10-11T20:24:55.670693+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.82,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise establishes that someone told the speaker to wait, but it does not identify that person as male or as the person referred to by “he.”"
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

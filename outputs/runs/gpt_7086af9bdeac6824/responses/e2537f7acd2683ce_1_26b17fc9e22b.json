@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2870n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1ca317b952357fe3e7ea26cc1bf4f0c717e94be4c7909b9b1c268f0b04abb46",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ccd509293d475ec016acbebe24bfc87d28ce1827c4b27daf3",
+  "received_at": "2026-10-11T20:04:53.230071+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise describes tipping as customary when service is satisfactory, but does not establish that most customers actually tip. Inferring majority behavior from a conditional custom requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

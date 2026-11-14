@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23765e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8c17744a10e7c8838c443c0709a5978929b55be50de667268522d400b5ba6bf1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwADu9WVEmetGKn4XKVy",
+  "received_at": "2026-10-11T21:28:28.575935+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker says the Old Testament has a number of places where the Lord struck people down, which supports the hypothesis. 'Numbers of places' is slightly vague about how many, so 'many' is a mild inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 852,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

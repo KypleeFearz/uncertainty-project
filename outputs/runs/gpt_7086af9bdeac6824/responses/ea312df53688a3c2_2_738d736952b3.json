@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118460n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6ab62a5d2cfe6771e9fecce166a3511d2785c19f6cf8884668cd493c85816ea0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053a40c6522c63b3016acbe6155f0087d29204d950f1a4d5b0",
+  "received_at": "2026-10-11T19:40:10.021777+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise says the cost makes bringing it to a dealer almost prohibitive, supporting the claim that doing so is hard. Identifying that cost specifically as the cost of fixing it is a plausible but unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

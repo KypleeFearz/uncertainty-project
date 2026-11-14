@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116713c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70c77b281aec0be77ab5a1fc7890e7ca83d88fc4a37f22d6990a1f7e0fa96a41",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a9dc53ec702fc7016acbe5c382b087d2ac04a4f9c6b81df4",
+  "received_at": "2026-10-11T19:38:47.358504+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.049,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise identifies auto-accident claims as the data the economists studied, whereas the hypothesis says they replaced collision data with jello-ingestion data. These describe incompatible data sources for the same research."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

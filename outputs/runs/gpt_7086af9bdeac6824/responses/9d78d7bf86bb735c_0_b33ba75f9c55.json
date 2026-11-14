@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7096n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce0f3963b7f326a57a4295e4aa550de331afc4e25d9f4f4cf0e5cfb7659ccba3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06c67ee736aabf2b016acbf16daad887d2b3465b191e45c99f",
+  "received_at": "2026-10-11T20:28:32.560151+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says the island is popular with affluent gentry and celebrities, but gives no information about citizens who dislike it. Popularity among one group does not rule out dislike among others."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

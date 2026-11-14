@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26495e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7d83c58f0e3833dffee0b30a4b0a9e28e12a95d22a79baf4bc2190a8a160b5bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00277dcaefc11119016acbf7d95c3887d2ad05c6d62a120cd8",
+  "received_at": "2026-10-11T20:55:57.930110+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.62,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The hypothesis plausibly paraphrases the possibility that standard screens work less well for these subgroups. However, the premise describes screen performance rather than subgroup performance, and reduced performance does not necessarily mean poor performance."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

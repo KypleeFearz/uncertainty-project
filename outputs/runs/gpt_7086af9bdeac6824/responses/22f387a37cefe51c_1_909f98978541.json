@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98721e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fbd71642ab9e86e33a1e8cc8a70425c037748db506c107240b64e4786de3d317",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_079140e9a9e5f272016acbf4f21d4c87d2908e329743be5c69",
+  "received_at": "2026-10-11T20:43:34.687076+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.71,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise mentions supervision and security, but does not clearly identify who supervises whom or establish that supervision is their only activity. The hypothesis is plausible but requires assumptions about the participants and the scope of “just.”"
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

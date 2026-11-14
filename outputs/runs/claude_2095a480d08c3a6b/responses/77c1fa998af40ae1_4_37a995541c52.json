@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "72389c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bb627113c79569961ab9d9d6e9a146b5e6e4d194c58608a700e1835b76f03eed",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4adSqigqRiCZbk1nV8",
+  "received_at": "2026-10-12T21:35:40.245648+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.62,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the semifinals are set, which does not say whether anyone could disclose dates. The hypothesis could clash if 'set' implies dates are known, but 'They' is unclear and the premise is silent on disclosure."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

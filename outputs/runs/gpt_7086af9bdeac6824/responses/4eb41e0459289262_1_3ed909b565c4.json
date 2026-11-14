@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "950a16f86dcc88028ea76abf370b4adafb90a0e83ed897720c646a590d29b4f1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ed1a71b070c6961016acbe9dca72887d2aa7e6c3418c5742b",
+  "received_at": "2026-10-11T19:56:15.799359+00:00",
+  "parsed": {
+    "entailment": 0.31,
+    "neutral": 0.67,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "The premise anticipates innocent people suffering and quotes a justification for prioritizing the many, but does not establish his attitude toward that suffering. Willingness to cause harm does not necessarily mean he will not care."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

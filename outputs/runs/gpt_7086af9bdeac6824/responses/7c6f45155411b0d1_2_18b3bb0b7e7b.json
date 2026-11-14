@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118064n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cdce1635604c2ab93c3dc2f648ea1b2bbdff927bda1e239c33434de1e397205",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08875868cfded91d016acbf62d62b487d2b6801b777b2c7f2b",
+  "received_at": "2026-10-11T20:48:48.305991+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise says Ken Bode scolded the New York Times Magazine, which establishes that he criticized it. The past-tense account supports the hypothesis that this happened in the past."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

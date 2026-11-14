@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "104395n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "34c92d7acf852192b49da0268e5b1b8502f44f883594f9bbdfdfa51f54fcc5a2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw92vmZkgBuGWvi9nyhJ",
+  "received_at": "2026-10-11T21:12:53.532451+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.38,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise discusses what routine screening and intervention will require, which implies they are part of the approach to substance abuse, but it never says screening is essential. Reading 'essential' as implied is a plausible but not guaranteed inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

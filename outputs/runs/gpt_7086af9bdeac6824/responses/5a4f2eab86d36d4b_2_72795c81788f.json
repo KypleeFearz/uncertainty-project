@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115954n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4eb97f6ed50eb2862af35f7c447a9b9c6749fb9ac2797aae871dde3083f19cd4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e1ad2f79c4d7ea1016acbe5ac23c887d2a1cb4efc51920bcf",
+  "received_at": "2026-10-11T19:38:24.389512+00:00",
+  "parsed": {
+    "entailment": 0.33,
+    "neutral": 0.65,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says he chose a name meaning “Father of the Turks,” but does not establish that he actually founded or led the Turkish nation. Entailment is plausible if the hypothesis merely restates that honorary title."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

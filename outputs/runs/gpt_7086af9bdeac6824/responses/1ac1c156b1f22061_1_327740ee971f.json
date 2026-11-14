@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142950e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f980202f174b376367d727a15daa7c0a58899d008589c5a656415da2c0c92fc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aad8c3c4a7a1266016acbe98bdc1887d29c157f5457c7a5f5",
+  "received_at": "2026-10-11T19:54:56.651692+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.67,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise says Dave Fox and Tracy Rowlett came from Oklahoma City thirteen or fourteen years ago, not clearly that Channel 8 itself did. It does support that Channel 8 has improved remarkably and is doing well now."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

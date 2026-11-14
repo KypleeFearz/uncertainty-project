@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47408n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5936fe1c9453cacef3dfe08898bd06c3401beb9bb3a37e3441c29b2a8b89e10e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff8cd9a48e007c8016acbee64be3c87d29d2f5b9d61cd842b",
+  "received_at": "2026-10-11T20:15:37.914745+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.42,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The hypothesis appears to paraphrase the cost of operating something, which matches the premise's topic. However, its awkward wording and unspecified “that” make the correspondence uncertain, and it does not preserve the qualification “net.”"
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140278n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "16fbd31fae514ae1a107b87e498970198a498d69f9d528bc70842cf2dfdb562a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c069d01e6b805ca016acd43ccd06c87d2b63d45c9a0791964",
+  "received_at": "2026-10-12T20:32:16.060249+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.26,
+    "brief_reason": "The premise links an outdoor workforce and numerous locations to difficulty studying and understanding operations, not to their productivity. It neither establishes nor rules out a direct relationship between productivity and outdoor work."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

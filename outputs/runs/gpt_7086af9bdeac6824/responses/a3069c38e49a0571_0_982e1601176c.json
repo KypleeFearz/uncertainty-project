@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81812e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0aa28efe70c91f66271d162aa3c6836f310ec847046a792d5ab7d9919381181d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fba3978b87da1a8016acbfa0ff10c87d29d4c34e2c937bfc9",
+  "received_at": "2026-10-11T21:05:23.860138+00:00",
+  "parsed": {
+    "entailment": 0.89,
+    "neutral": 0.1,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise reports a claim that the judge had a prior run-in with Bill Clinton, supporting the hypothesis if “the man” refers to Clinton. “Run-in” commonly implies a conflict, though “altercation” may suggest a more specific confrontation."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

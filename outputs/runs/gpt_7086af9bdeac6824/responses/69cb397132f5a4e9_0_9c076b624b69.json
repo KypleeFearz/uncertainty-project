@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34103e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9db6592ab4e7bad60bef28a61fa46dff68f13426c69916fee094d850cbf016b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ae795fb48cb41f016acbeca06fc887d289a8f6dc3a2545a3",
+  "received_at": "2026-10-11T20:08:03.160843+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly states that in every major city, the increase of crime is escalating now. The hypothesis directly restates that claim."
+  },
+  "usage": {
+    "input_tokens": 481,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 571
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

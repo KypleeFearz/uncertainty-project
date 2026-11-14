@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28097c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7fa8e6d94ced3a9f543ba72a49f8947f8495a95f9a48610165afed26587d0d99",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00de0ce6acaeebf3016acbebc8534887d2bc518f09a8370c0e",
+  "received_at": "2026-10-11T20:04:30.700929+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise specifies another stab to the throat but does not establish a subsequent stab to the chest. Reading “again” as another throat stab would conflict with “once,” but the earlier stab's location is unspecified."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 105
+    },
+    "total_tokens": 591
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

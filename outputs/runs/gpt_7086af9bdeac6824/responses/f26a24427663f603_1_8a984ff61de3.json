@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114492e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8dd5de0ee322974f137e1bbb40d41897038fb2365f20bbf02e3cbc038f0406ff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07ab3e27ae9a72bb016acd4238990c87d28a8a726fc1228683",
+  "received_at": "2026-10-12T20:25:32.879191+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "“The same is true of the drug hangover” suggests the comparison expressed in the hypothesis. However, the premise is incomplete and does not identify what is being compared."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

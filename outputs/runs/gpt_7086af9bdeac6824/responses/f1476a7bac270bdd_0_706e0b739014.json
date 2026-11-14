@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107020c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc10e825b48c6e4ced8de6b89de3e45c8aab582b16ac781f3092cec2f9c09e88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03c005841910b2db016acbf5a0048487d28796152e63f665cd",
+  "received_at": "2026-10-11T20:46:28.449811+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.24,
+    "contradiction": 0.71,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise suggests that dealing with customers may be the only reason, whereas the hypothesis says customers were one of many reasons. The hedge “maybe” and the unclear description of what they do not do weaken the contradiction."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

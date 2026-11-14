@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89331e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b94505c6db4c25c0eaa3565da08042e85784cb9cff152607c9d307da179895a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cc2100445743365016acbfa9cda2887d297d8f443d8d16b2d",
+  "received_at": "2026-10-11T21:07:44.204991+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.029,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The question \"How did this man know?\" presupposes that the man knew something, although it does not specify what he knew."
+  },
+  "usage": {
+    "input_tokens": 360,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 452
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

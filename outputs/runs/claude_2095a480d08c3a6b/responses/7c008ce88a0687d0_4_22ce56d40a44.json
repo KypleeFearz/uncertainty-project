@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "95334n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bfe1ef03a390f3769c43c78f8cc21cabc1c1cb989aa3452d465a782205fe8ab1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBsxNRDTgAJsTbmVjQy",
+  "received_at": "2026-10-11T21:50:11.775680+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.72,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only says Buchanan announced he would seek the Reform nomination after criticizing the GOP; it does not say whether he got it or why. The hypothesis' claim that he was denied due to his comments is unsupported, though a reader might see a slight tension if he is assumed to win it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 821,
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

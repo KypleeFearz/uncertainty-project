@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51347c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "19f656125cac3bdcf2eb144d79f2abd07167e87075e35253b2f82e671d6a459e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015d26af07da1c3a016acd4637dcfc87d2831f258e9cdad322",
+  "received_at": "2026-10-12T20:42:34.783971+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise mentions royal tombs containing bronze objects at Troy, but does not establish that a particular tomb is full of treasure or contains silver. These additional claims are neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

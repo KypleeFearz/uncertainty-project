@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132009n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b6330dd58061fa64a65aa6a4c93383504ca769772e046d71dee6dcd91f802707",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0884ada40d50a153016acbf6c4b4c887d2b24e86b3e641fe89",
+  "received_at": "2026-10-11T20:51:20.970686+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise expresses appreciation for an attempt to help, but does not establish that the person tried hard or that the attempt failed. Those additions are plausible interpretations rather than guaranteed conclusions."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

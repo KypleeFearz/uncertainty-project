@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6804e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e9cc3d9bbb91f8168633e7886a0dac13677422c1e5785f8e4fb4c58abea776a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0265a967318adefd016acbf1232c2887d29174f5ad47ddbf95",
+  "received_at": "2026-10-11T20:27:18.891285+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise states what follows if someone takes it seriously, but does not establish that anyone actually does. It neither asserts nor rules out people taking the anti-abortion position very seriously."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

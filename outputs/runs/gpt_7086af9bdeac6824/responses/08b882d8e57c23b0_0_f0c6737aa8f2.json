@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128497c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc760df2af02e84d2fc06ec8cf2ca023250aecb0d5722f3ba0ee9367dbc9f5ff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0601b6bc2ff6e1e2016acbe741dc9c87d294dc5875f05174d3",
+  "received_at": "2026-10-11T19:45:08.862637+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the speaker's awareness of Americans in Peru, including many Peace Corps volunteers, but does not say whether the speaker knew every American they encountered."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

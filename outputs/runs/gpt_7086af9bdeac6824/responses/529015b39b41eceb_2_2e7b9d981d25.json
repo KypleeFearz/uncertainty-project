@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62177e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8dd8e131ce78da93c6a3bf74039c39415b0fd628bfed8cf69b36b617b57ef7ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0800a61711f027d7016acbf070564c87d29fab82d5365c3075",
+  "received_at": "2026-10-11T20:24:22.450966+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.58,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise primarily contrasts having stock shares with having worthless options; it does not clearly establish that any particular shares can never recover. The hypothesis's reference to “those shares” is also ambiguous."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 211,
+    "output_tokens_details": {
+      "reasoning_tokens": 107
+    },
+    "total_tokens": 605
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

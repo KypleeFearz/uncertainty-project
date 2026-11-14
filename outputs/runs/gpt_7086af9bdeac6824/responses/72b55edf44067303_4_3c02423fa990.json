@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109679n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7d49b160016c482d070e8d1c0aabfbbe053ed3cc479c577ba0e6da9c72c35c78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a669daf006f6c9016acd41f61c3887d28de0b75f79465252",
+  "received_at": "2026-10-12T20:24:27.789385+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise supports the existence of a square court with arches at the palace, but does not establish that it is wonderful. That evaluative description is compatible with the premise but adds an unsupported judgment."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

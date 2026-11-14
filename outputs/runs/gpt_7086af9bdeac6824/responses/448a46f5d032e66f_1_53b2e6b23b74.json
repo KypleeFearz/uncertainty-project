@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133966e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b7f019d71a6e7126103a8d0a6998a0c537616606924cd0245e2ad49dc91c5804",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b9fdeabf30d3de8016acbe8480cbc87d28c643c9aa0807b54",
+  "received_at": "2026-10-11T19:49:32.653098+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.12,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says sunlight caused her auburn hair to appear golden, whereas the hypothesis places the golden change before the sunlight hit it. If “then” were intended as “when,” the hypothesis would instead be supported."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

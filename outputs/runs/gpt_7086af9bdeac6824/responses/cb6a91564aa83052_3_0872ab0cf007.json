@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80220c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "beb541886fa8f83e009f8c2b30a380d0bab0b74c2597e58680b15fe350b640d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa397cc2575a848016acbf2a89af887d29bfe505bb8b65ce0",
+  "received_at": "2026-10-11T20:33:48.060971+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise describes vendors selling shrine offerings, garlands, and holy images, but says nothing about torches or fires. It neither establishes nor rules out vendors lining the streets with them."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_121335612.jpg#3r1e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise explicitly states a man is standing in a rowboat, which directly supports the hypothesis that a rowboat is out on the water with a man standing in it, though the water is not explicitly mentioned in the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 119
+ },
+ "seconds": 2.81,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:55:21.949702+00:00"
+}

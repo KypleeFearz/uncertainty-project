@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "81356e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ddfb57c5caa6ee5a7d70fcab6b92f95c0d0fc3461b2f296ee0bb6dff19c41a9c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBafadz7ojsbSvzZRmL",
+  "received_at": "2026-10-11T21:46:17.522883+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.1,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says there is a large gilded statue inside, which is presumably of Buddha, though it is not stated outright. The opening line about no figurative representation refers to early tenets, and the statue is from a later period, so the hypothesis is largely contradicted."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 870,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

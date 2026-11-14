@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55561n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8242cdff35f0bfa46a74c506e0dcf0f43be08f2066123a4334ea3110391b539",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06bb75837396cba1016acbf928fd9c87d296bdb9bdb49b4e51",
+  "received_at": "2026-10-11T21:01:33.556566+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise contrasts festivals with weddings or feast days, where performances occur in their true context, supporting the hypothesis’s authenticity comparison. However, saying festivals are entirely out of context and feel less authentic adds an interpretation not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "120144n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9f11663392d56707d9589b144447c42caa46229de553781706f299bfb50b3098",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3i4YXbwkndPm45nb3E",
+  "received_at": "2026-10-12T21:24:13.915028+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The hypothesis matches the core events of the premise, but it adds details (a big brass bell, an echo) that the premise does not state. Those additions are neither confirmed nor ruled out, so the pair is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

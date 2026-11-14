@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93357n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3fdeef1ec10aff3a4e66e5ad67d4e1fd229d8ec07c0c39e60990a73a2c72ede9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0670506c35b9c95e016acbf466f81887d28dc711ea8d42ef91",
+  "received_at": "2026-10-11T20:41:15.216052+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise states that salt is drying in pans at Las Salinas in the south. Future use is a plausible purpose, but it is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

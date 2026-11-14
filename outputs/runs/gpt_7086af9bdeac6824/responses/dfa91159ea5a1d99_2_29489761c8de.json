@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139028e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29668f7790321ff4b261a0941d7d7ad68a07b52b3cc004f4cc154b116b6b4e2f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a58dbc945d10d66016acbe9099a5487d2b53c715fadc3e80c",
+  "received_at": "2026-10-11T19:52:46.160962+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.79,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise suggests shared concern about the care that goes into unspecified things, but it does not establish continued investment when the other person is absent. It mentions the speaker potentially leaving, whereas the hypothesis refers to \"you\" being absent."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

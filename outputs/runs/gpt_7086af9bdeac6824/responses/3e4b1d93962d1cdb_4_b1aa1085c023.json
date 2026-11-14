@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110388n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "afbf282faad4dca94490a5ab7e2faaf81f2a27da03d12df00356f0d19338614e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037cd0823f81798f016acbe51a19cc87d2b934ea3783436387",
+  "received_at": "2026-10-11T19:35:57.619747+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise presents pro-choicers as criticizing images for excluding the woman, which supports interpreting the images as unfair to women. However, unfairness is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

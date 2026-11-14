@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4454997580.jpg#3r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b75ddf2b4177741ba2d34733731026cd67a0c8425d32f43d79b4e3b27cd4edf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d93537201a2848f016acd4ca1af9087d28016f70933717db7",
+  "received_at": "2026-10-12T21:09:57.969423+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise establishes that a child is with his mum, but says nothing about whether he is crying. Going home after playing does not establish or rule out crying."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135449e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "924a9915eafc0ed9e99423913de1c2e8eef0eaacb6961922f63d9ffa5d4b6a39",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094fdf44cb854d37016acd4375859087d295a2f7eb22d4f364",
+  "received_at": "2026-10-12T20:30:50.583842+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Both statements express concern about the speed of emissions reductions. However, the premise specifically concerns how quickly reductions are required, not necessarily how quickly emissions are actually falling."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

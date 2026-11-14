@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63218n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "211818e32f67a9e731f2ec84e121eff0e2a2bad92b66af6b878a471596d263da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e86176f83a29794016acbf0a45edc87d283e3e536b18b76be",
+  "received_at": "2026-10-11T20:25:11.065926+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise states that the speaker has become less experimental, but does not establish a complete loss of that nature or attribute the change to old age."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

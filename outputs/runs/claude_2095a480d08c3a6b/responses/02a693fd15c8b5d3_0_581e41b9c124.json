@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "13607n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2c68d1dca3dd7e383915d29b5cb28cb5cf1d37791a40c2e8dbc3884049f26aba",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3sjAkAxR3BDdm7FGW2",
+  "received_at": "2026-10-12T21:26:24.939425+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.38,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker says it is their turn and that they can make their way afresh, which fits 'change things for myself'. However, 'change things' is a looser paraphrase and the premise does not explicitly state any change."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

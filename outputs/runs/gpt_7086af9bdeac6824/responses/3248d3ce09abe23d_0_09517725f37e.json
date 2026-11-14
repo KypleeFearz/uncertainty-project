@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62177n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15e4b5d281c260b4e2412ef6aecb9a59aa6a820461c8486f3efd3f9df9998d6e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5b462074014a88016acbf0766a3c87d2843d783c85d052f8",
+  "received_at": "2026-10-11T20:24:27.100700+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes worthless options and compares them with shares of Cook's American Business Alliance. It does not establish that this company causes stocks not to recover, as the hypothesis claims."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

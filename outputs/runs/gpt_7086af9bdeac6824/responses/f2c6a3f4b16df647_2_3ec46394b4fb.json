@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55110c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63ee316d58113eaeda81ae02c3eb30994b4715e9bf8c1261a7b24b5b148d8328",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_086a6d8c74da9052016acbef6d62e487d2bbafc5edbd73391d",
+  "received_at": "2026-10-11T20:20:01.405456+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.26,
+    "brief_reason": "The premise favors Congress over Agency rulemakings for deciding certain key issues, whereas the hypothesis favors Agency rulemakings over Congress. The hypothesis's broader claim about judgment goes beyond the specific comparison in the premise."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4733464337.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a9b80b31ed3bc769ba4ba683e0bc76c82527eff736e7f079426c1b885f7eb34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05be5f73d712b2ae016acd4d284a7487d284ab8c376a22c2b1",
+  "received_at": "2026-10-12T21:12:11.058040+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "A long building and buses suggest an urban setting, but they can also occur outside a city. The premise therefore does not establish that the women are in the city."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130315n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b5a00666fe1fa01e18e75366338caec229724b281c0430a27b371c01e21e90eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072204c2b7d3f1c7016acd42fc65b887d2b21161cc6f1b71c5",
+  "received_at": "2026-10-12T20:28:46.959510+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise appears to ask whether Indian foods are kosher rather than assert that they are. It also provides no information about the speaker eating kosher Indian food yesterday."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

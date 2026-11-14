@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109443n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c903d2b6255b44bc6e9ab73b0aae848582710aeb7b2882dc3f168b85d0e93532",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c8d22671f35562016acbe4e88d5087d28dcdb4d996c24a59",
+  "received_at": "2026-10-11T19:35:09.925772+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.39,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "“Waterloo” commonly refers to the battle in which Napoleon was defeated, supporting the hypothesis under that reading. It can also name a place or other entity, so the fragment does not unambiguously establish Napoleon’s defeat."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 91
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

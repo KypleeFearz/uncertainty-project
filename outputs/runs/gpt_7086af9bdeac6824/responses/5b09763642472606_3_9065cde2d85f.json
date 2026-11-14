@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68558e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "46a328bc26347f6e76e699c3f08bb490758291909217282aae1b8d9d3735c1d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d9097fc9d3f9725016acbf12daf4887d2842d9e6e2e9bc0f2",
+  "received_at": "2026-10-11T20:27:28.778868+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly says the Legal Services Corporation recognized the need for change in 1995 and again in 1998, supporting realization on more than one past occasion."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

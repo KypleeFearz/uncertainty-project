@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139377c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "594e0953798fdc814095f8a927baf15a93dbcef341b558bbcf46c19960e3a8e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_087b13aaa2b727c9016acbe9164f6887d2867b44b49819fd77",
+  "received_at": "2026-10-11T19:52:59.667541+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.77,
+    "contradiction": 0.22,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise says U.S. credibility with its NATO partners is at stake, but does not establish its current favorability or degree of trust. This may suggest doubts, yet it does not explicitly rule out high favorability or complete trust."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2218907190.jpg#1r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "03ed6ad0f2d7d0c723abd58838b5f25346212659b0b09a78ca65a3f52c46199b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_060ee04f36ea06cb016acd495c301487d2a632e135d66e608b",
+  "received_at": "2026-10-12T20:55:59.425624+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "Beginning to climb a staircase supports that the dog is going up the stairs. The hypothesis omits details about the bricks and nearby plants without changing the described action."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

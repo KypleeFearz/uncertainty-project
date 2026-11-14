@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119901c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1067d7712470449428eca2065c39bc606f1d108b26d82b891f86a45b84a3b97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cec34e22b903341016acbe63d3e2087d291af06c792f26122",
+  "received_at": "2026-10-11T19:40:48.302871+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.997,
+    "contradiction": 0.002,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise concerns pundits agreeing with George Stephanopoulos about air strikes, not their views on George Orwell or his novel \"1984\". It neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

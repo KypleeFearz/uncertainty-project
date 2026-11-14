@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49462c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bf2d4214a3a27904ada0cc03bb339ece1b8ef53e5e218976bb46d68ad402c4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012ef0cd5eb1ecae016acbf8dab35c87d2966c95e2a17ca9ec",
+  "received_at": "2026-10-11T21:00:15.339725+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the explorer named the village, not whom it was named after. Sainte-Marie suggests a different namesake, but the explorer’s identity and the name’s origin are not established."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

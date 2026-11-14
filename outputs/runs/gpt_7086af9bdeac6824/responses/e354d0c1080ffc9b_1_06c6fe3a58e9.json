@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85863n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f58afda129cf47671437d9e501ab5f0a53b777bda5c1f4bc43d5705acebc7e58",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df195fc9d0776bc016acbf39428fc87d2948934a9a2068264",
+  "received_at": "2026-10-11T20:37:45.475287+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise does not establish whether “they” refers to the entity doing the flattening or to its beneficiaries. If it refers to the flattening entity, the stated purpose suggests intentional action, conflicting with the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

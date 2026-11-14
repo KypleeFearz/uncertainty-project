@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116293c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f5f04beb04db8e62d3d0607d5db82a862ce5a1cc27a1d08023a3d15804477a0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bbcc816437af746016acbf6165c5c87d2935fdbb3fdbaf5d4",
+  "received_at": "2026-10-11T20:48:26.782220+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Stopping at the store to buy cowboy boots establishes his intention, not whether the store had any. Assuming the boots were available would be plausible but not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

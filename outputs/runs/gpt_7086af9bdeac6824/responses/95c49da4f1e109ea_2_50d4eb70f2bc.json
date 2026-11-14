@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35238n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "530fdaa7b75d2e290441583d03f2e62a9740d57ed9244379375d5827afd2770f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02874ced684a95e0016acd453600f087d2882b480aba7c0940",
+  "received_at": "2026-10-12T20:38:18.254002+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "Checking scores the next morning and saying that suffices suggests the speaker usually does not watch nighttime games. However, not following a team and checking scores do not explicitly rule out watching those games."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

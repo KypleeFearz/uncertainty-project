@@ -1,0 +1,35 @@
+{
+  "chaos_mnli": {
+    "filename": "chaosNLI_mnli_m.jsonl",
+    "url": "https://huggingface.co/datasets/earino/chaosnli/resolve/bf8d66a1d3434ac8b90ffc392b1b5e44bdf7e439/raw/chaosNLI_mnli_m.jsonl",
+    "sha256": "8eb49b589488e7b1a9ec95fb8a864bd50f0509b4f808eed0aed3f8167617664d",
+    "expected_rows": 1599,
+    "role": "Community preservation mirror of the authors' ChaosNLI v1.0 data",
+    "authors_repository": "https://github.com/easonnie/ChaosNLI",
+    "provenance": "https://huggingface.co/datasets/earino/chaosnli/blob/bf8d66a1d3434ac8b90ffc392b1b5e44bdf7e439/PROVENANCE.md",
+    "limitation": "Release schema and content checks do not authenticate the mirror against an author-issued archive."
+  },
+  "taxonomy_round1": {
+    "filename": "taxonomy_round1_release.jsonl",
+    "url": "https://raw.githubusercontent.com/njjiang/NLI_disagreement_taxonomy/60268f44c2326d11a4842cdaa08aef395faead0c/taxonomy_annotations/taxonomy_round1_release.jsonl",
+    "sha256": "576aacbd3a93357829168a99d6622a53e2527ed1f5548be96b6474a473d47b47",
+    "expected_rows": 400,
+    "label_field": "a1"
+  },
+  "taxonomy_round2": {
+    "filename": "taxonomy_round2_release.jsonl",
+    "url": "https://raw.githubusercontent.com/njjiang/NLI_disagreement_taxonomy/60268f44c2326d11a4842cdaa08aef395faead0c/taxonomy_annotations/taxonomy_round2_release.jsonl",
+    "sha256": "9f0927ff6b2283831a1a134fafe61e4d79a054aab19f3fe66a269ff2288180fa",
+    "expected_rows": 110,
+    "label_field": "agg"
+  },
+  "chaos_snli": {
+    "filename": "chaosNLI_snli.jsonl",
+    "url": "https://huggingface.co/datasets/earino/chaosnli/resolve/bf8d66a1d3434ac8b90ffc392b1b5e44bdf7e439/raw/chaosNLI_snli.jsonl",
+    "sha256": "99f9015ddda7d85f66a087452bc30d53974314fe27e7d589e2f41ad44bd509c1",
+    "expected_rows": 1514,
+    "role": "Unfamiliar-input check only (different source: SNLI image captions). Never used for fitting or tuning.",
+    "authors_repository": "https://github.com/easonnie/ChaosNLI",
+    "provenance": "https://huggingface.co/datasets/earino/chaosnli/blob/bf8d66a1d3434ac8b90ffc392b1b5e44bdf7e439/PROVENANCE.md"
+  }
+}

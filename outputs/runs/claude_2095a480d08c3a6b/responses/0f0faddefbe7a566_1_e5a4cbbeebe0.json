@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "59517n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7213cadc84ff0b090295d7d7d74bb327d9b1c9c0842e12f59ff9291da3618c35",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4U1aQffVxPW6SMFVfy",
+  "received_at": "2026-10-12T21:34:10.322218+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The speaker says only that they never got enthused about summer football (World League); nothing is said about other summer sports, so the hypothesis is not established or ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

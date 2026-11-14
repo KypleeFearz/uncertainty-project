@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17753n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b83664622dc8e0e4b175dc998cdf03737d2f10faa84f9e1df34ea09741b860f4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a9eadb3ac40a73016acbea5087d487d2914989150cf8f17e",
+  "received_at": "2026-10-11T19:58:12.221295+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise describes luxurious hotels near the street’s endpoint, but does not establish that the street itself is luxurious. It is also unclear whether “lined with” describes the street or Taksim Square."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

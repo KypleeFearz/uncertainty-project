@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51356c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a4f845f86a188f1feb80386bb1a06553a03b823842432835a5d17cd8eeaecdd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a4a507e99ad48b016acd463b2ed487d2bcab59bcb15f2d8a",
+  "received_at": "2026-10-12T20:42:38.319500+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise gives a conditional consequence of Washington Square being underripe, but does not establish whether it is underripe. The hypothesis asserts the condition as a definite fact."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

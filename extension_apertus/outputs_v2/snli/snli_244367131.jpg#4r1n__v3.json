@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_244367131.jpg#4r1n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.8,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise only states that men are dancing outside, providing no information about the dance style, purpose, or audience, so it neither confirms nor denies the specific claim about salsa and wives."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 339,
+  "output_tokens": 109
+ },
+ "seconds": 2.42,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:03:53.150787+00:00"
+}

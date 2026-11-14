@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23780n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "001ba5c24853f5599675c2c18515347849d233e607f5dc82eacc47845219fae1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_048c57c779bffd72016acbd8f21adc87d2800792d290528be8",
+  "received_at": "2026-10-11T18:44:05.571506+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says Monte regains normality for another 363 days after the pious devotions, supporting the hypothesis. There is slight ambiguity in whether “normal” describes its usual routine or the location more generally."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

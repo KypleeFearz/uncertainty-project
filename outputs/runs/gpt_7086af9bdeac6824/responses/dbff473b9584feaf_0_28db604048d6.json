@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120274e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d75a835fb9336829ee4bdd116f73150930826e75eab05dc0c3c5b41bf345c3b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd9cf708cef78a5016acbe663dc2c87d282a02d747396bac8",
+  "received_at": "2026-10-11T19:41:28.480544+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.25,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The description of lush botanical estates suggests abundant flowers, supporting the hypothesis in ordinary interpretation. However, it does not explicitly establish that the estates contain many flowering plants."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

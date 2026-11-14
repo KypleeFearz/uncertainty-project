@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35670n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70cfe8de09a458e8593d575ca666c2e13cc2797faf967081ccf6fdb881bcf176",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd6477adf68b92d016acbecca6d5487d2a32100d0d60e935c",
+  "received_at": "2026-10-11T20:08:46.191248+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise identifies Lister’s and Simpson’s contributions but does not establish that no one else used these substances for those purposes. Pioneering or experimenting with a treatment does not imply exclusive use."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

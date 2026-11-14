@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74858c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d47e7e8d45c0ba116103a18beda494381ff2626c9afb6fab07fe82d7fe59f148",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6ba359f9a14aca016acbf9c800cc87d288394712033b315c",
+  "received_at": "2026-10-11T21:04:12.950725+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.86,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise dates Alexandria’s founding to 322 b.c. but does not identify or date the 'great wars' of the 5th century b.c. Depending on which wars are intended, the interval could be more or less than 100 years."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 602
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

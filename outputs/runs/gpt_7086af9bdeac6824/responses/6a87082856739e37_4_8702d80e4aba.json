@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137708c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ba9030e15be94826d1e5e8a1993186727fc2c14a9773c058d3f680b3e3da9964",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e299fbf1a2809e0016acd439e01a087d29ee97ab1f60f744b",
+  "received_at": "2026-10-12T20:31:30.144430+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise discusses a capital-gains rate cut potentially encouraging higher-income taxpayers to sell more assets, not a tax encouraging people to buy more assets. It neither establishes nor rules out increased buying."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

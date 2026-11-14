@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77875e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a368d4d3393c30f2572fe07a52a7137a00eb1666161ee6c633d3bfb8d5078fd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aec75d4f9a33d5b016acbf25c064c87d2bdbb65cbd45637d2",
+  "received_at": "2026-10-11T20:32:31.355383+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise conditionally discusses race being one of several factors behind a decision, without asserting that this actually occurs. It also does not explicitly identify those decisions as judicial decisions."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101195n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a8a474892afaf2b87d8ccf139d7b92ffbb1ca8935c937100d0ce0421b26f4ac8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d762cda9d84e50016acbe3b83db887d2a69fdc5770aba410",
+  "received_at": "2026-10-11T19:30:03.702199+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the craft as guided by experienced pilots, opposing the hypothesis that experienced pilots are lacking. However, having experienced pilots does not strictly rule out an overall shortage."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

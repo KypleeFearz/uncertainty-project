@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71832n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e981c34febdbc8d1e29d45b0458c9052bd4cc8fb1427576bc01691d965d399ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0860601943a4f166016acbf9b4a6bc87d2aecffccc25db453b",
+  "received_at": "2026-10-11T21:03:52.771047+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Asking whether one should be concerned can suggest asking whether something is a problem, but the two questions are not necessarily equivalent. The premise does not identify the subject of concern or establish what \"it\" refers to."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

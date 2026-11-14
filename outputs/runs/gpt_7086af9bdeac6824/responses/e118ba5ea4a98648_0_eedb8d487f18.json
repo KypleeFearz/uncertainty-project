@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95953n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "59794ff18f9e137f1f3d437007136fe7250060366568708ef44fa8fa2ec02efd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00641f1d6b4479d8016acbf4ac983487d2b6098298395c6eab",
+  "received_at": "2026-10-11T20:42:24.721001+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise confirms that AILA joined the ACLU in requesting information, but does not specify that they requested its immediate release. “Immediately” describes the lack of clarity about detention reasons, not the requested release timing."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47408n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bea015aebbcbc996d015a527f42efe0279bf0faa31744583b8be06a96f428dc3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09fcf032503e927a016acbee5f6ad087d2b82973efaa81cedb",
+  "received_at": "2026-10-11T20:15:33.189754+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.63,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Both expressions concern operating costs, so the hypothesis could be an informal paraphrase. However, the premise is only a fragment and does not identify what “that” or “it” refers to or establish how expensive anything is to run."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

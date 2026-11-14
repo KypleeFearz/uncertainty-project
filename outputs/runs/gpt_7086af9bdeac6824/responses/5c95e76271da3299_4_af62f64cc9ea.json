@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145485n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0758d260834ab2fbda961923f159f953bc90348a25827fb038fb0f8c5e6baece",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0439630849754c3f016acd442146a487d2acbe29ce871b952f",
+  "received_at": "2026-10-12T20:33:42.343269+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.9,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says some people eat large amounts of unspecified food and remain healthy, but does not establish that the food is unhealthy or that their health is merely luck that may run out. Those additional claims are neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54043c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "11fc550d64538d1c6a84078d68da2d1d58a44372bc50fb9e62fd392d80fcca8c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d3b74ee3fc9588016acbef49328487d29c1f2152c00fe546",
+  "received_at": "2026-10-11T20:19:27.761577+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.55,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the girl reported that the farewell activity did not go well, but does not establish that she is a little girl. “How well” can describe the degree of success without implying success; if it implies a positive outcome, the hypothesis conflicts with the premise."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 262,
+    "output_tokens_details": {
+      "reasoning_tokens": 142
+    },
+    "total_tokens": 654
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

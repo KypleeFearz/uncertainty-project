@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106431c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ecb450dee162b5c6d7692b617205000570c842253aa15498324e96056d98ad5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e363217a409de86016acbf59773ac87d299ece0d9afeb659c",
+  "received_at": "2026-10-11T20:46:18.670260+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.995,
+    "contradiction": 0.004,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise suggests that the behavior of the named individuals may be defensible, but does not identify their species. Their names alone do not establish or rule out that they are penguins."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

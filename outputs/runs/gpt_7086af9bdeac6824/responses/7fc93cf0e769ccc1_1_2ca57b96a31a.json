@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63729n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "988ed57569208d1ece5ccf7b2f66356d44d13424cc58fbc1280d0837851cf68b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0fd4250e2f718b016acbf0c5c4d887d2a350d19d1399e1c4",
+  "received_at": "2026-10-11T20:25:45.206187+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.39,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise is an incomplete title or fragment and does not identify a chapter number. A final installment could be the second chapter, but the premise neither establishes nor excludes that possibility."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

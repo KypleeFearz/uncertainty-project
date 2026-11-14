@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65130n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c417291ac873aefbe9030c0ac49cc620f7f864e57b5c8c547bf3f42f909893a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06f5b8ad6d89ffad016acbf985627487d2afc5ed328ea009ef",
+  "received_at": "2026-10-11T21:03:05.544951+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Calling Chennai’s beaches cleaner suggests that the named Mumbai beaches are relatively dirty, but does not establish that they are very dirty. The premise also names only two Mumbai beaches rather than explicitly describing all of them."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

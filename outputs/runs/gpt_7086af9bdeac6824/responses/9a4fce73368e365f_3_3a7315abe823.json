@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21152n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cf77813106d517f3149fb49fe3ec8fdcca54f24a8ed0cecaf2fb9fb91b29c66d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_022c20046ec74cde016acbeab266fc87d288e17b5567dbe21c",
+  "received_at": "2026-10-11T19:59:49.718004+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "A population over 23,000 could be 25,000, but the premise does not establish that specific count. The hypothesis also omits “Las Vegas,” leaving uncertainty about whether it refers to the same university."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

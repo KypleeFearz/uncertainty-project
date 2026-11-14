@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113926e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e94daa482e11361dce5e99cc5a08e63627fbec382f7a510f39daefa0a6e4d3de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0954ebf69d5c763e016acbe57c30d087d2bb9809492ef21e44",
+  "received_at": "2026-10-11T19:37:37.355612+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise supports the idea that prior experience enables CIOs and business managers to develop a shared vision. The hypothesis is a close paraphrase, though “they” and “previous involvement” are less specific."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

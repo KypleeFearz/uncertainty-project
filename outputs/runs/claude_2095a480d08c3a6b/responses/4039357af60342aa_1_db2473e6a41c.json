@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "8219c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "25fb0e9f2d108d8c896e0db0d810ed9b1a327beddd7dd6ee8146bbe0558bc93d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBcTwwyWuHKnBiQaxEu",
+  "received_at": "2026-10-11T21:46:42.237356+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says farmers believed the ground would filter out the chemicals, which is an unfinished thought and does not say whether chemicals are pointless. The hypothesis is not established, and the farmers' practice of applying chemicals weakly conflicts with it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

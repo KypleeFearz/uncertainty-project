@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40710c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8b4254c83da640cfc60b8db00390d4d033851869c2848f92c00080e22b62b807",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fe5935607c72cfb016acbf858456887d28a11b3a6ee2d0659",
+  "received_at": "2026-10-11T20:58:03.282759+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.9,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise urges writing but does not state whether writing is a waste of time. Interpreting the encouragement as a positive judgment about writing would require an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

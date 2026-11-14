@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "124853e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "eb44539a566a6c6e7783904ea08716104745bd166c8a47dc50095033776cc0be",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCDZiTT8FUHnRgKJDdX",
+  "received_at": "2026-10-11T21:54:38.256486+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.17,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "H-2A is an agricultural worker visa type, and the premise requires a foreign residence not to be abandoned, which matches 'permanent foreign residence' for some agricultural visas. Slight uncertainty over whether 'permanent' equals 'no intention of abandoning'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

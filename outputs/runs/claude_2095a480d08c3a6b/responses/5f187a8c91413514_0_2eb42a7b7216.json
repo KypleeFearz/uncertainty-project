@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "80517e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c0f27dbcda6154d18405dddf08f6ef3668afc33b2984fe1a7fa8f52590d04092",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4et9V3ZZ8zLsGSiAGJ",
+  "received_at": "2026-10-12T21:36:38.001858+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Doesn't look good\" usually implies something looks bad, but \"really bad\" is stronger and the premise could be a mild understatement. \"This\" is also unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 750,
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

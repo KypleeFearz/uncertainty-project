@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "395530552b0a7d32a8128a5548e36019074cf87bcb17f6016c3583f16fca74ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a6cc7052513c7da016acbf9a58f4087d2875a6a2465c8e387",
+  "received_at": "2026-10-11T21:03:37.461581+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.11,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says people are rarely indifferent to the magazines, which generally conflicts with the claim that they do not hold strong opinions. However, lack of indifference does not strictly guarantee a strong opinion."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

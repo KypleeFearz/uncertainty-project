@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "60436n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4d5f1c2539a917aa7df7d07edc91d652e3e5bf227bf9b7d3678b2671ecb9e8f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d6d0fe403b4b4ca016acd46e1a64887d2a3db2777a68d93fb",
+  "received_at": "2026-10-12T20:45:25.037119+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.75,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "The premise mentions greater independence and things to do, but does not establish that more activities become available as independence increases. That connection is a plausible inference rather than an explicit claim."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

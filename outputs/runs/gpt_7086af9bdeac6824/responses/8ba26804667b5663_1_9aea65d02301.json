@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108813n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dfb25bba0996a8975519d5c0a6e33e324e024c37f9ffd8a76fa44de41ff8fa5c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_049434127aadd36b016acbe4cb03ac87d2a6edbdfc6e2432c5",
+  "received_at": "2026-10-11T19:34:39.414987+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "“Jeweled” indicates some association with jewels, but does not specify that jewels lined the gears. The hypothesis adds a particular arrangement that the premise neither establishes nor rules out."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88994n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a7d1cc05a3be6723f664d467b1d5e2d98f36a0b53b0d8941c186d866e71a1a34",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBm9k5RCLF6VTo4Khw8",
+  "received_at": "2026-10-11T21:48:39.424969+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.5,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Colossal\" means extremely large but does not strictly establish a superlative like \"biggest ever\"; it may be read as hyperbole. The referent of \"It\" is also unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

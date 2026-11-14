@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82069c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "00aa389b25c2145f5b32f31fffec8d7b1fbaec62671baad1f22d34c127b11a34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0860780b03172158016acbf30196d487d2945670dcb98c55d9",
+  "received_at": "2026-10-11T20:35:17.713663+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise asks whether there are enough jobs rather than clearly asserting a shortage. The hypothesis asserts a continuing shortage, which is plausible in context but not established."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

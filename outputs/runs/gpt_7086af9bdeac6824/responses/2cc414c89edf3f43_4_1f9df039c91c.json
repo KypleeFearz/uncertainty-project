@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138500e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e2b79d9cf7e8da1baf1256d6f9b09a33d049e3161cae41d8a3b2403c3da424d9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b2c65359085188016acbf70f02e087d2af5ff113c97a86a6",
+  "received_at": "2026-10-11T20:52:37.705258+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise expresses a belief that they will come for the speaker after getting someone else, whereas the hypothesis states this outcome unconditionally. It does not establish that the triggering event will occur or that coming for the speaker means successfully getting them."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 219,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 596
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

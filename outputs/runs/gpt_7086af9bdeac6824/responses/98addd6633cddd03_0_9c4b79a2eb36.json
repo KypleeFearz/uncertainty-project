@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125013e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "54fe5681cc4fdddb7424c930772b1336a87e54b32e02aee7c53fc35f32f04e34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3145c34e83ae0e016acbd8ae9ae887d2bf7ee10adfc31564",
+  "received_at": "2026-10-11T18:42:58.856157+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise explicitly describes those games as fun to watch, supporting the hypothesis's positive characterization. The hypothesis slightly strengthens the degree of enjoyment and leaves unspecified whether the fun comes from watching or playing."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

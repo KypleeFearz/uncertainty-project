@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131623n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ae520aea75866e9ed2bf4c6dea6afa80565b56a6ac0e626d257e71cc5d5e8d3b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c48835178e7d834016acd43209b3c87d2b7a16aed0dab8a2f",
+  "received_at": "2026-10-12T20:29:23.629355+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise reports Americans' suspicions of Communist infiltration and impending subversion, not that Communists actually interfered with democracy. The hypothesis asserts actual interference, which the premise neither confirms nor rules out."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

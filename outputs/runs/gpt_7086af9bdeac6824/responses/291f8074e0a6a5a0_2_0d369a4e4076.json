@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56634c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f8e2c9d5a430859b7b43a54ce19c7d69d8815b396113caa50448f432ef73cabf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096c085b3056583d016acbefa1f9d487d2bf4a9f8d5851e0bc",
+  "received_at": "2026-10-11T20:20:54.717516+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.79,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise reports that someone said “we” were staying at the inn, but does not establish whether this was true or whether “he” belongs to that group. Contradiction requires assuming both the report's truth and the relevant identity."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

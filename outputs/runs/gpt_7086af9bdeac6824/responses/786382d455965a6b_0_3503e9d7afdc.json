@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120323n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6843e28a58c35d02e841f9000f8d9cd8808ec7f1838c41c6a624fefbff70e0e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d3350be0244c5a016acbe6687ff487d2b94a44a205571315",
+  "received_at": "2026-10-11T19:41:32.841980+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Being \"set up by his host\" and then ambushed by a hostile questioner supports the claim that the host intends to undermine Reich. Some uncertainty remains because \"set up\" can also mean arranging an encounter without necessarily implying malicious intent."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

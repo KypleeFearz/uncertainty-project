@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "8598n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4a5d6bb3917704583f4cecefd42a30129ae6ab51111dd5f393076c06919406cb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4go5hK2BpkzbM5y58B",
+  "received_at": "2026-10-12T21:37:04.052568+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.72,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is truncated and only says a contract provides for a firm price; it does not say the contract's primary purpose is to create the price. The hypothesis is therefore not established, though it is not clearly ruled out either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

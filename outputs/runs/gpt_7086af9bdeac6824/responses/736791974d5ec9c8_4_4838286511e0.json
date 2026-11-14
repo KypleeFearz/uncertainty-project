@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3552435734.jpg#0r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1f1540af5371887ed4335e444b2d43274d87abf6cecb4674f899405f954f997a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3fafd47af79d58016acd4b985ee487d2839a2a468eaa2251",
+  "received_at": "2026-10-12T21:05:33.577889+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.025,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes one black-and-white dog running through water, whereas the hypothesis describes two dogs. Under the ordinary reading that both describe the same scene, the dog counts conflict."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

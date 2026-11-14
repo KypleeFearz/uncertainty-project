@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102031e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c73153030efe4aafa683bc074fc82d5435a6710261becd691237b0f8f62f86ca",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_048f30dd44a8e0a8016acd419a1ba487d2ad7ce746c6452441",
+  "received_at": "2026-10-12T20:22:52.538894+00:00",
+  "parsed": {
+    "entailment": 0.995,
+    "neutral": 0.004,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.005,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly lists Legal Services of New Jersey among the defendants named in case 02-CV-3866."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

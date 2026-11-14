@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fb0096d7f87b2ee030aae28be9d3478894d094dfc62f88911d843217845d6008",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00569a902da2c64c016acbe600208887d28466fa253bf67948",
+  "received_at": "2026-10-11T19:39:49.336464+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.91,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise gives Orthodox Easter as the traditional opening time for many hotels and late April for some, but does not specify March 13th. It also does not establish which hotels the hypothesis refers to."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

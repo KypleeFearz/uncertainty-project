@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "45605n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "980a15ed91e6fe904a4bcd2afbe38ed551937fc6099a5605ce612c7833c6a013",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAkAoghV7UC5Z9gauVM",
+  "received_at": "2026-10-11T21:35:19.969115+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.78,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise only says they may have been named after redcoats, while the hypothesis states it as fact and adds a reason (same bright red body color) the premise doesn't give. The hedge 'may have' leaves this undetermined, though it is not a flat contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

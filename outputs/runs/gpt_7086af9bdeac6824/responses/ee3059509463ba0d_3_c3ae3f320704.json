@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4030022254.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "254ee8f33d0ce67d189637342cd9117bc38adbc823733e233931cbbd05a46d99",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099579811df82c14016acd4c2f8e8087d294d321f8c197576a",
+  "received_at": "2026-10-12T21:08:04.415422+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.15,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Waiting for dinner to be served supports being ready to eat. However, the premise does not explicitly establish that there are exactly two sisters or that they are adults."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

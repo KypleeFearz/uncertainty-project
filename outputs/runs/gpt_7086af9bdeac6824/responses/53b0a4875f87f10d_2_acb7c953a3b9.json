@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6149dc545bea303b9282da3e97c0a1be24543553f5b89269fa8372e2d2a3d3dc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075e4afb6961c0ce016acbeff4690087d2a3328cff03cb14ef",
+  "received_at": "2026-10-11T20:22:15.780126+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise says the IRS would lack records of waiting time and discouraged callers, but says nothing about encouraging repeat calls. Discouraged callers do not rule out encouragement to call multiple times."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

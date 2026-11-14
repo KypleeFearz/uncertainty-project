@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13531e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "68af38ee5e86f009f4649c5da2d83c113f2fdce902e8c405eb97fd94c517d78a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04682dbe1ee729da016acd4365951c87d2909e8b0873dfce17",
+  "received_at": "2026-10-12T20:30:34.965793+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Felt like a rat” can suggest feeling sneaky or contemptible, which overlaps with a likely intended meaning of “weasily.” However, neither that interpretation nor the hypothesis’s intensity (“very”) is established by the premise."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "127903c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a7408273416283098fa8b0f69d7298bf98eb77eec92c8c886c546a99a81f42c3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3mNzd4nQoFe7nJLshC",
+  "received_at": "2026-10-12T21:25:01.728358+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.3,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says the mines were run for the Malay rulers by Chinese managers, which suggests the rulers did not directly administer them. But the rulers owned the mines, so the hypothesis could be read loosely as true."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

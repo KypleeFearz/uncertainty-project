@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45749n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f1be57f9e1c9b2c8f88b07f2cdad28d1d26e694695b1fa0d0d319a22bce1285e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fdda2346faa283a016acbee2b4a9487d29c61ac570f89b643",
+  "received_at": "2026-10-11T20:14:39.489776+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes what great acting involves, not the criteria used to judge an actor. It neither establishes nor rules out performance quality as the sole basis for judgment."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

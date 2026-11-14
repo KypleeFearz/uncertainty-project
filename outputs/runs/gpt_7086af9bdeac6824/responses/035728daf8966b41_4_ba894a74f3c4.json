@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72875e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50e3d346d77741815c855e73afdf6e7868ff7d815e076f91d430d2108f5505a4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e851ff0ad4b0e2016acd477243d487d2a2730dd2fc950a2a",
+  "received_at": "2026-10-12T20:47:50.409941+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "The premise states that the policy succeeded and that the speaker had an opportunity to contribute. It does not establish that the policy's success caused or enabled that contribution, as the hypothesis claims."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

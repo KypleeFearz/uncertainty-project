@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111243n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e69f13b35df08e5d1760c87d6f8e2fa8a0f92d974f65db3c9d5da1aa11f6e2f4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002fedd36610a257016acbf5c90f3487d29135c3fe65fbee3f",
+  "received_at": "2026-10-11T20:47:10.094440+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is incomplete: “suggesting that Gen.” does not establish that Gen is the person or thing being suggested. It could introduce a proposition about Gen rather than a suggestion of Gen."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

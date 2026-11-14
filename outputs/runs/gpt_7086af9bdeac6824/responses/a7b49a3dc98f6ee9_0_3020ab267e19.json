@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136860c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2475ef1d77e1986642f6d78d3f96b1904746b4a1757131737401dc114a473130",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f58874eb58ddb30016acbf6f3e70887d2bcbfb26f7ec831a1",
+  "received_at": "2026-10-11T20:52:08.137792+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise recommends agreeing that someone else should do it, but does not establish whether there is currently agreement about anyone doing it. Inferring present disagreement from “ought to agree” is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

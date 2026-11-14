@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98445c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6a8a3ee099f2b3fd3a253fd34aa94f7b89c820cf780b6d3f6ecb98343173e439",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD37gcVH4czSLkuspyS",
+  "received_at": "2026-10-11T22:05:23.553801+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise lists many demands (free speech, free unions, prisoner release, debt relief), which conflicts with the hypothesis claiming the only thing needed is more power to presidential electors. The hypothesis is garbled (missing verb), so a neutral reading is possible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 902,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

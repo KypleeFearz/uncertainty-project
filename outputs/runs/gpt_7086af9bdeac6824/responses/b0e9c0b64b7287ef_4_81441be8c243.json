@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53723c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac23a7375793a7b271586ec9d3e5ca2f80a96a0561c7874ee0b8d2754e94419a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0724a2d097e6313e016acbef45e2a887d288f7f00fceaf558d",
+  "received_at": "2026-10-11T20:19:21.218172+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.9,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise asks how someone likes something but does not clearly state their attitude toward it. The fragment \"well\" is ambiguous and does not establish that they hate it or rule that out."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

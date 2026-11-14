@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83722c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "80683a52888f1b5689770438e0966d0781338d5a4c970906e4ef33d277c5ff44",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_071c1dad79013b71016acbfa485a5c87d2b00e193aef85ba12",
+  "received_at": "2026-10-11T21:06:20.997787+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise presents the postal service’s ability to negotiate as a question requiring serious study, whereas the hypothesis says that ability is already certain. The conflict depends slightly on interpreting the call for study as indicating unresolved uncertainty."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

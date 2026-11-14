@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139640n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd0d74490cd318467b329aa3dc78c5a1cd08981076b4d5846c2748b2f04f6ef9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ec63ae92a820a8016acd43ba336887d2a909ac3924a83c59",
+  "received_at": "2026-10-12T20:31:57.865380+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Reading “Housed” as a typo for “Houses,” the premise supports providing housing for people, but doing so hastily does not necessarily mean building haphazardly. “Conjured” also does not unambiguously mean physically built."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

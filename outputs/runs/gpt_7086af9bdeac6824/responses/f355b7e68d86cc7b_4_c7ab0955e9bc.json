@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22235n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89340dfd95ab18e43be6f3e3eabe007043432da29de6367bea0075a530c94ec3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00873e7e6ae7374a016acbeaf2324487d2bf9afd6afbc855b4",
+  "received_at": "2026-10-11T20:00:54.011134+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise expresses agreement or emphasis but does not establish that anything is crazy. Without context, it could convey surprise consistent with the hypothesis, but that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

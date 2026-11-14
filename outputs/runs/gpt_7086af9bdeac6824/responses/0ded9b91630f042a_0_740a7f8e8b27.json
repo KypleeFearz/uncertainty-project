@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135401n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "553f4f6160fa561bc8fd725e2f184748f18cc8289dcaf08d4fd82d71d156c38e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4d7d536b3c7871016acd436be1d087d2ac62553f86f69044",
+  "received_at": "2026-10-12T20:30:39.555268+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says the equipment did not need to be erected adjacent to an operating boiler, but does not state whether any equipment actually was adjacent. The hypothesis also leaves unspecified what the equipment was adjacent to."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

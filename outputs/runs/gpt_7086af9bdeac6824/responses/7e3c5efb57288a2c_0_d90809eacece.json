@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77875e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f81b3842bd89f37bd6c6eea83309c7346698b165cb9380ad3fe80842162b08b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015dac3ee160e6d4016acbf2581e5087d28f1a3fa9d9fff79f",
+  "received_at": "2026-10-11T20:32:27.943182+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise conditionally discusses what follows if race influences a decision; it does not establish that race actually influences any judicial decisions. The legal context makes that interpretation plausible, but not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

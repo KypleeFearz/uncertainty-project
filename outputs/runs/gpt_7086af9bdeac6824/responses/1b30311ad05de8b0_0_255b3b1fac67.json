@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130518n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f5f2828a261280c178de5fc52e81bcfcb2969bdbe7ac006b1cd4cf19472918e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd34ab5e57fda70016acbf6a6146887d2848db418a47aef64",
+  "received_at": "2026-10-11T20:50:50.600545+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.75,
+    "contradiction": 0.24,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise compares Manson now with Cooper in the past, while the hypothesis compares Manson in the past with Cooper now. The reversed darkness comparison is contradictory only if those time differences are treated as irrelevant."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

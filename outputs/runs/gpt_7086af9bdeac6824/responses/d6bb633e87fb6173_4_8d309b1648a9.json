@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67938e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1aecf6ff34fc889b38144442b43377bda8a0c845b01718e8fd9a274413d17bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085897d63980f086016acd4741696087d2bab3c37bbe29217f",
+  "received_at": "2026-10-12T20:47:02.601800+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "On the natural reading that “local” means local things or content, not showing local things supports showing only nonlocal things. The fragment leaves unspecified what kind of things are being shown."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

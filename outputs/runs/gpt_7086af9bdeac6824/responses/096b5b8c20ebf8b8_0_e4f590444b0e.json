@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32851c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d07fd262a898fa741953e9bfb30b991cb36c4913f66a11627c7937cf69fe592",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013423416fdda730016acbec674d8487d2bb6e31431047d6d5",
+  "received_at": "2026-10-11T20:07:08.766349+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.68,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The premise says few other cities offer this particular degree of costume variety, not that few cities have many costume types at all. The hypothesis could therefore be true, although it conflicts if “many different types” is interpreted as the same degree of variety."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

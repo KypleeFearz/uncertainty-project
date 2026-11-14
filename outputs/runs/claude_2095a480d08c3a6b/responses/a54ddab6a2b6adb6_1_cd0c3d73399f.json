@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6952893010.jpg#2r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2c853789a5a470257393b036d077eceaafb0809f147e914781a4853fb41b7c45",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ucjajmvszbkjZHQKG",
+  "received_at": "2026-10-12T21:53:04.259045+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.86,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise mentions a large sailboat and three small boats but says nothing about flags or their color, so the flag details are undetermined. \"Towering above\" is also not stated, though it is compatible with the size difference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

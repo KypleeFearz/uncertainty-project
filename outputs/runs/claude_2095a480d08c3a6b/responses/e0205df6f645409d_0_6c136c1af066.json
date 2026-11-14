@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "48970n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "be9a5b9943feb46a80f9ec01cd2b43f2d1e482806efc9194723756407472288c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAqdL1R7RNtt1NFf1Mc",
+  "received_at": "2026-10-11T21:36:33.266157+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "59 x 0.6 = 35.4, and 439 + 35.4 = 474.4, so the equation is correct when rounded to 474. The hypothesis 'might be correct' is weak and compatible with this, but whether it counts as supported depends on how rounding and the hedge are read."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

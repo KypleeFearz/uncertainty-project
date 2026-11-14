@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2401027304.jpg#1r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aed43f668dc7effe6fc2f19d458d658cd810682f439b79f74970b062a7264c8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0618075c1b6b615b016acd49a5cd7887d2bf4e160a195bb851",
+  "received_at": "2026-10-12T20:57:12.905334+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "The premise establishes that a man is taking photos at a golf course, but does not identify the event as a golf championship. Spectators suggest an organized event without guaranteeing a championship."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111167c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "793721d85471b4e12be6ac4dc44aa0e42a044cd3f3d195b1b145df481b5f6c74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0abdf260afd929bc016acbe524814087d2846454ca44df653b",
+  "received_at": "2026-10-11T19:36:07.507072+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise requests discussion of the social ramifications of public gum chewing but does not establish whether the addressee has an opinion. The hypothesis asserts a lack of opinion, which the request neither supports nor rules out."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

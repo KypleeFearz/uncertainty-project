@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7136105537.jpg#0r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe6841eef1f9b87c821b265d23b22917a1da79f7213d71787ea8055b6af9c348",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03db78c2f1a2acce016acd4ea30b2887d29c9dbd3d8faaf755",
+  "received_at": "2026-10-12T21:18:30.013097+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.16,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "Talking to the media strongly suggests giving an interview, though it could instead be an informal exchange or a statement without questions."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 88,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

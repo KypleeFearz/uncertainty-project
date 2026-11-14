@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32197e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "348a4494cab01cce7976cb3c1185ce49cfd369e1bcedb7787f7a6011ffbaa788",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d2eda5368a9db12016acbf80bd32487d29f416a1edb16af84",
+  "received_at": "2026-10-11T20:56:47.974054+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.03,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "State and Federal courts are governmental judicial institutions by the ordinary meaning of those terms. The premise identifies these courts and refers to their official duties and responsibilities."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

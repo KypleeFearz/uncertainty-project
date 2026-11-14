@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45443n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dacb9f1c36a185fcd36610080abbf44ac543ac872efdae956d5f160000892c9f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bcb8f6e27103628016acbee18d30c87d2a23a07d6b98fd155",
+  "received_at": "2026-10-11T20:14:20.962292+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies the bad tax and the $1 billion reserve as contributing factors in the I-695 victory. The hypothesis omits other contributing factors but does not claim that these two were the sole causes."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

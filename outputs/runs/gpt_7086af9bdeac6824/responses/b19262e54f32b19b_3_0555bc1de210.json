@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92664n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "abe2efc158025cc181b08ffb4a632c584afde4b3f99a7a8fa8dd2ceeffebc63d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad273613ba2b3ab016acbf436b0cc87d2994b8bf963a8f570",
+  "received_at": "2026-10-11T20:40:26.957854+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "“No problem” supports “no trouble,” but calling a policy “fine” does not establish that it is the best. The premise also does not rule out its being the best."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

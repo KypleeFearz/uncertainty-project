@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127410n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15222dec20aef790a9d43f0abf04a5c602ad61e5fe1657969b95a128e138316d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a84c3d579d088fe016acd42dc5d5887d2a17243740fdb6534",
+  "received_at": "2026-10-12T20:28:17.757710+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Being able to pay twice supports being able to pay at least once. If “once” means exactly once rather than at least once, that reading is not clearly established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

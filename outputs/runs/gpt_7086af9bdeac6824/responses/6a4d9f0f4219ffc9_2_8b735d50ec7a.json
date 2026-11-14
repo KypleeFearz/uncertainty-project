@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14191e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "651ad45162c7e0ee63f19e7c4593d523d52ac307aefa22176a7cad645c1bad45",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090d11a706a31d41016acbe9682fb487d286f0752d5575a49a",
+  "received_at": "2026-10-11T19:54:20.470660+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports seeing Adrin cocking two pistols, plausibly one in each hand. However, \"in the other sight\" does not establish that he saw this out of the corner of his eye."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

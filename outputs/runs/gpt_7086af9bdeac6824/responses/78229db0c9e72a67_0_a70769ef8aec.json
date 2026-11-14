@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6739582637.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1ba13c3fb76ff0d91428ad3484bef6df4c82e5c38bc569b62170615d0a63167",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e37ea95742091c016acd4e6ad50c87d2805baf6f1f8a97d1",
+  "received_at": "2026-10-12T21:17:34.730707+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.065,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise places three cyclists along the side of a road, supporting that people are on the street. A small ambiguity remains about whether the road's side counts as being on the street."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

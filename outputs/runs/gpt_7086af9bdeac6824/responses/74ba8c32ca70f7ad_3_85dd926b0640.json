@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81469n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d2ec2e72c02dc45dd4eb4645479dd98711f9ff824dd17689e36bf486d96f15a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ef2fb18b8bc3a5016acbf2e7d39087d28c0444ab0e3e3b1b",
+  "received_at": "2026-10-11T20:34:51.076271+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The speaker describes their own home as comparatively humble and small, but does not state the size of the wealthy guests' home. Inferring that the guests have a much larger home requires an assumption about the comparison and their wealth."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103863n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "443ac1b94cc414c9d73796dedece4a5a1cf9168e0e96d5858e690958e5f75053",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e95016c5cab7e72016acbe42ff8d087d298e69d3bedd53441",
+  "received_at": "2026-10-11T19:32:03.042729+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker dislikes winter because everything looks dead, but says nothing about how long winter lasts. The premise neither establishes nor explicitly rules out year-round winter."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

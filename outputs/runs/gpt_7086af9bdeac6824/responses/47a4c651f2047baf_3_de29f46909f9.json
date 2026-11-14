@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142238n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7238662a4270be3f27ecec2f679d4a05916fb9fb6416264190d8ceabde4b05e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00081a3d05c5dc68016acbe97c176487d2ac1efcbf17478b36",
+  "received_at": "2026-10-11T19:54:39.854545+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says most traditional reform options require higher payments or lower benefits, but does not identify plans currently in committee. Applying that general statement to those particular plans requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_504413268.jpg#1r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8af1a9181e19d145a087fb689609c6ebeccf9cd4531b6f7049e337dc5d62d839",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d907c486171e16016acd4dc9cd0487d28f664a2a5f987e1e",
+  "received_at": "2026-10-12T21:14:55.154154+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Construction workers positioned around and inside a hole suggest men engaged in construction work. However, their gender and whether they are actively working rather than resting are not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

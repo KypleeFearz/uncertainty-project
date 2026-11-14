@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108624c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d776bba9cb41db5b3128c9e3ef6281474f7b1640d12c74d46d5b10dde16733b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09501c491756355d016acd41e9131487d2a6850c279a6dac49",
+  "received_at": "2026-10-12T20:24:13.679657+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.26,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise describes national emission totals, whereas the hypothesis describes regional totals, indicating a different geographic scope. However, the premise does not explicitly exclude Exhibit 3 from also presenting regional totals."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119901n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "696cf69906e2afae3b531baa7b81a94a2b6a0de14f9021dcafdf8d14de4e2f58",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07bd048533d2c756016acbe64bcfdc87d2859353bbc61baafe",
+  "received_at": "2026-10-11T19:41:03.778267+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says most pundits side with George Stephanopoulos on the political acceptability of air strikes, supporting the claim of a large pundit following. However, it does not explicitly describe that support as something he has gained over time."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

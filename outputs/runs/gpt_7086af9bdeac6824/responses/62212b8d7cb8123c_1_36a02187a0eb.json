@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4710342117.jpg#2r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bc825770a825bffd358407f19ec324d83508e4f70d4a15715d0fd9b6f5f66c9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c801b9955c0f6d7016acd4d18aa4c87d2960499be081b4ba3",
+  "received_at": "2026-10-12T21:11:56.001572+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Working with something that looks like a kite does not establish that she is repairing it or that it is actually a kite. Fixing a kite is plausible, but other activities are consistent with the premise."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

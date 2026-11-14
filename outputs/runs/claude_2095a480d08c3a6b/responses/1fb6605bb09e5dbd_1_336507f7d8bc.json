@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82230e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "94019fc93dc40742b2c08010f5c53960cb68430e51fe4768ad5d1781e18833f8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBceJYze8GJxSTRx2TL",
+  "received_at": "2026-10-11T21:46:43.941198+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.45,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Being 'most kind' suggests a warm welcome, but the premise does not say the speaker was welcomed or that the young lady was present, so this requires an assumption. Contradiction is unlikely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

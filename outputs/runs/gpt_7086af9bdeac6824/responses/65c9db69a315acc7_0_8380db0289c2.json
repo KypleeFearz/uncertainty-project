@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13652n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfa5bcffbcf4a2d81746441678b20b8ee50512f605ac8cef4e830facfd9599a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d2855d25320d5fa016acbe8a311e487d2968fed747067e42e",
+  "received_at": "2026-10-11T19:51:03.319451+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise establishes that Whittington became more uneasy and Tuppence was pleased, but it does not establish that anyone was trying to avoid her. The hypothesis also leaves unclear who was doing the avoiding."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14280n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "412e1e07595fa3eb30cce43b57ce539609d148ccd8233aa6a9419d04e922f837",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052d11b9a1e00db0016acbf734f52087d28530c7e5ac7d2a12",
+  "received_at": "2026-10-11T20:53:11.943876+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the author began with hypotheses about agency management and considered evidence for or against them. It does not assess whether those hypotheses were realistic."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

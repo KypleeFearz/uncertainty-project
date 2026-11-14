@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137040e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4be6315274f43541a4143c5b3fedd06244635fab454853d1d5d441dce29cd56",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0daccd43822e1a2e016acbe8b7da6087d287daaae53073d0ca",
+  "received_at": "2026-10-11T19:51:23.139966+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.049,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Looking forward to receiving readers’ comments supports the paraphrase that someone likes getting such comments. The slight uncertainty is that anticipation of a particular event does not strictly establish a general preference."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

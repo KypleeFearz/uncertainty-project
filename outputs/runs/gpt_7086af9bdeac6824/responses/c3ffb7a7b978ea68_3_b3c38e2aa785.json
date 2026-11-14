@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1933c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8696fd072206aea9276b0a064e2972aa7e99be6096ac1c4f7b4d01342ec5f5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06b819c3fa40302b016acbf788e7ec87d2a4418d096b485a83",
+  "received_at": "2026-10-11T20:54:36.510573+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise mentions Medicare outlay projections based on assumptions in the Trustees’ reports, but does not specify whether those reports include economic forecasts. Inferring such forecasts from the assumptions is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

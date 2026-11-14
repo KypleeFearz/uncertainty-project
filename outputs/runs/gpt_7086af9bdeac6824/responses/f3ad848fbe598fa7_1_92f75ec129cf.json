@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96448n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2013d5c6755cb9ba36ee4fb96cb0017d645f5505f301360b94a40e15a97c7f3e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aecb297185c4e8d016acd4853a5e487d2b9e1cca7f0664a61",
+  "received_at": "2026-10-12T20:51:35.760688+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise supports the usefulness of knowing Social Security benefits for retirement planning, but does not establish that those benefits secure financial freedom. The hypothesis adds a plausible but unguaranteed outcome."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

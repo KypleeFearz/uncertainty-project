@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50484c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f4ed0af25a03cd857f8446c557fa7e73ab46e851c2af9b8a12cfc92a934b4d6b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_059f0a1263b9882d016acd461e7a8087d291d3f9d81e6cf31e",
+  "received_at": "2026-10-12T20:42:09.402502+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "Results in line with random chance conflict with the claim that the experiments proved substantially better predictive performance. The hypothesis leaves both 'it' and the comparison baseline unspecified, creating some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

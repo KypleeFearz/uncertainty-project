@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "27587n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.3,
+  "neutral": 0.6,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise mentions a 'thriving economy' but does not specify job creation, while the hypothesis adds the detail of 'adding lots of jobs,' which is not entailed by the premise but could be a reasonable inference about a thriving economy."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 350,
+  "output_tokens": 121
+ },
+ "seconds": 2.84,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:14:46.517332+00:00"
+}

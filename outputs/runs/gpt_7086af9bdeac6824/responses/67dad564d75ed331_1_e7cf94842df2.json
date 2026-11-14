@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23765e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1c6a630a8e90f2a61f9e7cb6e2726f8b027c52e8f3fae13994fd66f144a728c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077d7e79b5d07539016acbeb30eabc87d2bde442d6b0fb915a",
+  "received_at": "2026-10-11T20:01:56.024164+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise refers to the Old Testament and the number of places where the Lord went and struck down, supporting the hypothesis's paraphrase. The quantity 'many' is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 432,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

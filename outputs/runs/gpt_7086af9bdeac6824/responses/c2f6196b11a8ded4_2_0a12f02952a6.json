@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5698c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c0e0f274061a88253d68ee67b90a2ceeddc09805eec7396487a45679053b745d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_056b91f6d2b1abcb016acbefbdbc9887d2b41045ccae7f6c57",
+  "received_at": "2026-10-11T20:21:20.814419+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.99,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise expresses uncertainty about the overnight low without specifying a temperature. It neither establishes nor rules out that it was 37 degrees last night."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

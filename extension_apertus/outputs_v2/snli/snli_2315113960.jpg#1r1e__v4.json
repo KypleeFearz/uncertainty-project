@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2315113960.jpg#1r1e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.7,
+  "neutral": 0.2,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise describes a woman looking at a pamphlet while talking, which suggests discussion, but does not explicitly confirm it; the background activity is irrelevant to the hypothesis."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 104
+ },
+ "seconds": 2.31,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:02:18.045272+00:00"
+}

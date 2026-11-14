@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133005c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "644d82bcc090d47b585812e9e98bd11bfcfc9a75436379f69c8512733f4f22cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a053c7e7da2fe7016acbe81d5d9887d290d38f9a4c4b3065",
+  "received_at": "2026-10-11T19:48:48.723225+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise gives no comparison with Hamilton or politicians across that historical period. It also reports that twice as many people intensely disliked RFK as Johnson, which challenges the hypothesis if “most disliked” means the number expressing intense dislike."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

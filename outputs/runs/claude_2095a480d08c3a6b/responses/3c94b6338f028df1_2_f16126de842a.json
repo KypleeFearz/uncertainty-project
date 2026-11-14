@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "104399n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ad1c652f7b7db0d8b9e398a84fa769d05ab272c6d6fa8e11ac9419c9c55f0f64",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw933nzW9AMUJDzdqpWF",
+  "received_at": "2026-10-11T21:12:55.344472+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise reports only that perceived responsibility was the strongest predictor of screening, which is a statistical association. It does not say screening is guaranteed, and a predictor by definition implies imperfect outcomes, so the hypothesis is most likely contradicted, though some annotators may call it merely neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

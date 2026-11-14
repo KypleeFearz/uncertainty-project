@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2873n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd097c99ce7db2030e5a5bd4d30448820974a950315505afab728f33b126b7f1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d5cf77818f39e57016acbebeeed3087d2a79a8720bac2797a",
+  "received_at": "2026-10-11T20:05:07.381993+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The dinosaurs are alive and scavenging, fighting over scraps, which supports their trying to eat. Saying they had survived is consistent with this, although no particular event they survived is specified."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

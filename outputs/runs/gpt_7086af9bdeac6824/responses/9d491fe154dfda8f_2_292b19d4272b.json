@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130869n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "174183cf01660ef6c59b7d4c3d0ef44cf02c78280b2358fdd8233c4e6f720dc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013f53638e23fb1a016acbf6bd4ef487d281cdb6c96661e91b",
+  "received_at": "2026-10-11T20:51:14.912961+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Calling Castlerigg near Keswick the best example supports calling it a good example. However, the premise does not establish that it is in Scotland or specify another country."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

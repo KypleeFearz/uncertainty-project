@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17950c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f9fae6f914b4f540b78b6199dea84d969cf6037872bc8639b3bbd12963d6a012",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b366c5e64ef72b0016acbf75920c087d29bfd6359b48030dc",
+  "received_at": "2026-10-11T20:53:49.090259+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.22,
+    "contradiction": 0.77,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "“Not uniformly valued” ordinarily conflicts with the claim that adaptations are always valued. However, it could mean they are valued to different degrees, rather than that some are not valued at all."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

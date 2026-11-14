@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14937e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b46511c1731ea9403f9d16be50da786b2748e3bf99122f0aec614698309bcfee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd70c45d376f1bf016acbe9fd698c87d280a4710455b41523",
+  "received_at": "2026-10-11T19:56:49.167962+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The hypothesis closely paraphrases the premise’s statement of significant bipartisan legislative support. “Legal delivery” is less precise than “legal services delivery system,” but naturally refers to the same activity here."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

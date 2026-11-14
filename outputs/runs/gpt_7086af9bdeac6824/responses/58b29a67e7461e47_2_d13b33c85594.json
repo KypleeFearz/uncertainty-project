@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122928e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c370adf6b8704cbd5afc50167cce2a566d5f0ae98560dbae40200f780289640",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ddac91c16b1d73016acbe6a7f3d487d29a49819a7d89e01d",
+  "received_at": "2026-10-11T19:42:35.216238+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The page-boy is someone waiting outside her door when she returns, supporting the broader description of finding something waiting. Finding him is implicit rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

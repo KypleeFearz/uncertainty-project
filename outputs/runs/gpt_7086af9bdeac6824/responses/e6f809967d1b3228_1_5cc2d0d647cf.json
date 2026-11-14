@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_312788070.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "055f3f74c5806ac71ead83ad688397c508e8396f310253fc58665be024d24884",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d20a61e349140a016acd4acb715087d2be52238292016fba",
+  "received_at": "2026-10-12T21:02:06.044266+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.92,
+    "brief_reason": "Watching a soccer match does not establish that the crowd is cheering or that it has a favorite team. Those are plausible but unconfirmed assumptions."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

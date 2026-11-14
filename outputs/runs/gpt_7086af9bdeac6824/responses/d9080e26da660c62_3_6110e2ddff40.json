@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75320c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4228a1341ef015d7ca637365b7aa0f817080d336f3f6b0b0c78217fe551f2f05",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a7574f34465ab7e016acd478c147087d28d4469c41e35869c",
+  "received_at": "2026-10-12T20:48:14.920246+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise reports encouragement to indulge and concern about competence at work, but says nothing about whether indulgence has consequences. Encouraging an action does not establish that it is consequence-free."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

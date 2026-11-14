@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135449e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dad835e2bfd74cce77f9fe7fe5815c646531f52b0d6ec1b7c33ef5644aa823bd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07970b7eba847edd016acd4375020887d2a1b1603f9f10cca9",
+  "received_at": "2026-10-12T20:30:50.172732+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise expresses concern that emissions reductions are required on too short a timeline, not necessarily that emissions are actually decreasing too quickly. The hypothesis is supported only if concern about the required pace is interpreted as concern about the reductions themselves."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130178e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "659b9f473e8658f7727b7275f05bc7eb92916dca316de57cfd4d705466900a3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_060cf763932e184f016acbe77854b887d2875c4e91327707f4",
+  "received_at": "2026-10-11T19:46:04.589031+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise connects examining a company's internal environment with determining how a CIO can fit its management structure to guide technology solutions. This supports the hypothesis, though its prescriptive wording (“should”) is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

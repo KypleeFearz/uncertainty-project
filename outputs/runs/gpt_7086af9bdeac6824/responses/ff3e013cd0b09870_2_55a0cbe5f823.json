@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43897e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d35812907bb5e5130999a9c8f3f6d89f1c6caebc4215256f0796105d6ae11f87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04579cd2f2c8159b016acbf87d45c087d2806b6b440d73c400",
+  "received_at": "2026-10-11T20:58:41.371595+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "The premise is a heading naming the activity of receiving water samples, but it does not explicitly state that the samples should be received. Reading it as a required procedural step would add an assumption."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

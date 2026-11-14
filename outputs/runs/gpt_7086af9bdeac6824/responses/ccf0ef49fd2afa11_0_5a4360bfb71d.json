@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106091e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a21f7c53a251c883c4b1a57c5604342f80e5ff17e689029d9340ed0cd41abd3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c7a2cc7e9469ac016acbe4843cf087d28ce8e101ce7549a3",
+  "received_at": "2026-10-11T19:33:28.749609+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The hypothesis paraphrases the speaker's belief that this is not the time for an entree, interpreting 'entree' as a main course. 'Entree' can also mean a starter in some varieties of English, which introduces lexical ambiguity."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

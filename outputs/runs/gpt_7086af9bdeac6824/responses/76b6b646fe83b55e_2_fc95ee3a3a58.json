@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66973n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4511410eec4986c4e77ee02c412e6f858772bfa43db9bdaffd0aa2f7a5536e0e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fb8bf28407f34fe016acd4729632c87d28b77f1e740896b88",
+  "received_at": "2026-10-12T20:46:36.714705+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise describes the intended benefits of GAO's recommendations, not whether Americans look up to or rely on the GAO. It also does not establish that the GAO directly handles an agency's operations."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

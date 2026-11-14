@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82732n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "45351b5cb7e505a226a0016e4d475a58dbf733d00c06551030a71479846251e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ceb0212dfaadcef016acbfa2d3f3487d2967a553d12409525",
+  "received_at": "2026-10-11T21:05:55.346200+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.2,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise attributes to Lind the view that casualties would eventually force the United States to leave Vietnam. The hypothesis closely paraphrases this, but narrows casualties, which can include injuries, to soldiers dying."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

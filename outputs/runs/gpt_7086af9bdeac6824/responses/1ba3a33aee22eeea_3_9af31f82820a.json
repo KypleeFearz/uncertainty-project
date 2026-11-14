@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52806e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e95524ac57f856b4bcf4eaef1825d587dcebb1454d6cd656a8e160c9d0faafc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b5b2e99f4df6edd016acd465a207c87d2aea973959c2ae237",
+  "received_at": "2026-10-12T20:43:11.955295+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "“Stale macho jokes,” “formulaic cliffhangers,” and “chase-by-numbers” support the description of a clichéd, unengaging movie. However, identifying macho jokes specifically as male buddy humor and calling the film boring require some interpretation."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

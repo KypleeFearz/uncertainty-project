@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125641n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b057cbe9f967f8bb7f36f3041cceaa0cc41934a9f8251316eddf3b99b4b8d3d7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c5163e09d8cbe2016acbe6f402a887d284dd809079bb6482",
+  "received_at": "2026-10-11T19:43:54.637157+00:00",
+  "parsed": {
+    "entailment": 0.38,
+    "neutral": 0.61,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise describes being reminded that people remember as pleasant, but does not explicitly report a particular past experience or the speaker's feelings. The hypothesis follows if the statement is interpreted as describing the speaker's own experience."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

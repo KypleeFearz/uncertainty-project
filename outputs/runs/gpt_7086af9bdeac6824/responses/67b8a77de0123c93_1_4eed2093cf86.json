@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143834n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3213b4004425819deb84c5c927935eaa20e3b2e60ee2477aadde23b746800fc5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0814a6fa5e94f398016acbe9a6887887d29fc8f73583657868",
+  "received_at": "2026-10-11T19:55:22.859955+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.67,
+    "brief_reason": "The premise establishes that denominations sometimes share a church, but does not establish that they do so for the good of the community. That benefit or purpose is a plausible additional assumption, not a stated consequence."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

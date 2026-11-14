@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92774n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b66ab31bb9d815b04ccadc8d8a3b27aa20954911f9b144b751d390dc2535b7a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00142f208add2cc7016acbf4441d9087d2a9b036af31107720",
+  "received_at": "2026-10-11T20:40:39.030197+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise specifies support for capitalist policies and continued ties with Britain and the Commonwealth, but says nothing about ties with the United States. Those aims neither establish nor rule out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

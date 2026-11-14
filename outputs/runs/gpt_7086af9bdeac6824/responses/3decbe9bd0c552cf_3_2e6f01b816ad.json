@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96956c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5722837eb9351ec9bf47398600db7f0ed804dd8047241bb92019a5ded052e73",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b51227774d2f5c016acd48618f6887d2a81ecb0c7db63826",
+  "received_at": "2026-10-12T20:51:48.508874+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise questions whether he could win from the Democratic Party’s right wing, but does not establish whether he will run. Doubts about winning do not imply that he will not run as a conservative Democrat."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

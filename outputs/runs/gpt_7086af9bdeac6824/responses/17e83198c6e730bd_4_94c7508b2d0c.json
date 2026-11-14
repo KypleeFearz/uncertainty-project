@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65058n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2bec1ee9e71c3a078d71c085e0274cfc0a242b6721da0eed1ce49c46915da45e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0720e1cf642d9034016acbf0dbf4dc87d2907f46271d5a7f3a",
+  "received_at": "2026-10-11T20:26:08.027218+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Dedication to justice” paraphrases “commitment to justice,” but the premise does not establish that this dedication holds every year. The added temporal claim is neither confirmed nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

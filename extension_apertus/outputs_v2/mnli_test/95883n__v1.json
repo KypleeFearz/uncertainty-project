@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "95883n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise states that legislation was introduced to increase the Access to Justice supplement on filing fees, but the hypothesis claims the government increased the budget for court filing fees, which is not supported by the premise and may even conflict with it."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 360,
+  "output_tokens": 117
+ },
+ "seconds": 2.61,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:49:37.887568+00:00"
+}

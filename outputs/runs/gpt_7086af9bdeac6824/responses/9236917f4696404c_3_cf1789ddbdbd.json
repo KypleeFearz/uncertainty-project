@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2527829321.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1b7fcc6aa02985d3b349312b8325f5e85e667725d836eb2451eec5303a75b89",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0035dc9578c3bf1c016acd49ee071c87d28dcc176610cd83b8",
+  "received_at": "2026-10-12T20:58:29.825417+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.68,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise says the bikers cross a line while one raises his arm, but does not establish that the race is beginning. Interpreting this as a finish rather than a start is plausible but not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

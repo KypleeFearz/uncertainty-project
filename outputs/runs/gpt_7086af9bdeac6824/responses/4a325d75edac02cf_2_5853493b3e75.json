@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28459c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da2046775459980385fa25df926375a95551643effef08935ea3aecdad8467aa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020412cc6b522399016acbd904846c87d2b4035d3ea47ef279",
+  "received_at": "2026-10-11T18:44:23.207838+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise asks about textured paint and leaves an alternative unfinished; it neither establishes nor rules out the use of red bricks."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 88,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 458
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

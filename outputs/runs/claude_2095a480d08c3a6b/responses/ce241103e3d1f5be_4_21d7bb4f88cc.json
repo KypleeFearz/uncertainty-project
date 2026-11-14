@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "146129e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "92dd412fc53a5e3742680ecdc66ed8dd4f1f1844a9ccdc8f4e895d97e07afb14",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3zb4Gn3ytuvbCczM8z",
+  "received_at": "2026-10-12T21:27:58.818035+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.33,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says that if you still want to join, it might be possible to arrange, which loosely supports the hypothesis that you can try if you like. The pronoun 'it' is vague and the premise is hedged, so some readers would call the link only neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

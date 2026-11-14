@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81812e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f67c84bf2a8df05e4f4c2a7df7d7393e6415e7189f6a5618e5a63bbe15fdef2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f48c71d299652d3016acbfa0ffb2887d2b42304ba0bf4eec1",
+  "received_at": "2026-10-11T21:05:24.275362+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The WP's statement constitutes a claim that the judge had a prior run-in with Bill Clinton, naturally paraphrased as an altercation with the man. There is slight ambiguity because 'run-in' can describe a troublesome encounter without necessarily implying an overt altercation."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

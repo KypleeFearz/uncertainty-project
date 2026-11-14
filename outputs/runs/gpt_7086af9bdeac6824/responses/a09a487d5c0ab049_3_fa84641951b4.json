@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93955n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8bfb7e105f76aa590fcfcd94354bbdf56fd423f61b1091ef0f9f0a5876377f88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0128f8a69433c5e8016acbf480aa0087d282a50af28a61ff2b",
+  "received_at": "2026-10-11T20:41:39.934011+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise explicitly describes entertainment-film production as large scale, but does not establish that it is elaborate. Elaborateness might be inferred from the scale, but it is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67610e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "704500af0de1494ba9b5f17e9a90871b5cb9a4783b8231351e400b10c1ca4943",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b248eacf0b83ca016acd4733dbc087d2b8be2bb5cf540228",
+  "received_at": "2026-10-12T20:46:48.117314+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "“Sorry” supports an apologetic attitude, but “that's how it is” does not establish that nothing can be done. The hypothesis adds an inability to change the situation that is only pragmatically suggested."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

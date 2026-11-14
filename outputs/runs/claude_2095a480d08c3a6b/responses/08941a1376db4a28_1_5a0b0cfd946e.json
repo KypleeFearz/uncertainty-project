@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "27559n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ba36941c31355addc956d71446880d62eb65af77d6966a10c46a96c32b8482d5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAKsUTy3sBvdKNqqaPR",
+  "received_at": "2026-10-11T21:29:50.161212+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.9,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise only describes population growth by the mid-15th century and says nothing about illness in 1475, so the hypothesis is neither supported nor ruled out. A slight contradiction reading comes from the growth narrative, but it is not logically excluded."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "128832c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7f17338dbece01076440b2be5ffb72b4841c2a46494a74af3cd901f445c07572",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9bnYe8paCjj6RkyssQ",
+  "received_at": "2026-10-11T21:20:19.323133+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.72,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a generic statement about crooks in films (\"at the pictures\") having a restaurant in the Underworld; it says nothing about anyone spending a day at the movies. The hypothesis is therefore not supported, though it is not clearly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

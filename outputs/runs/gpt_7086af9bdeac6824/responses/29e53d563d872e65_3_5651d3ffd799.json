@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117894n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15fb898efe33bb7eca4f88d9792db5728c2b631c18a16e415ee7be3d0236ff72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0016b1ab736207a8016acbe60c9c9087d2a56c9b11b9ebbbc7",
+  "received_at": "2026-10-11T19:40:00.658170+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise denies saying you were a “mandrake-man,” but does not exclude implying you were a mandrake. It also does not establish that “mandrake-man” and “mandrake” mean the same thing."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

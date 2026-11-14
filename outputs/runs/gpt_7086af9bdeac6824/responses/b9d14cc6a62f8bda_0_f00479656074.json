@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_310401525.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce674fdbf706b2c1ce52cfeac64b1719b58d084af30a8931b2651976519f0e29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e0c7bf4f1b53957016acd4ab2364c87d2bcbc68375ce630a8",
+  "received_at": "2026-10-12T21:01:42.725029+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise locates the people in New York City but does not identify New York itself as what they are looking at. The hypothesis could describe the same scene, but that requires an assumption about the object of their gaze."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

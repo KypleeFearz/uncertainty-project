@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140428c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eeb01e4121dc7678eeee60b1fbea38ee84b2970ee1fd84eb162571b38e2edcb2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0439ba79acdd4e93016acd43d0e4cc87d2996029423f355a2f",
+  "received_at": "2026-10-12T20:32:19.866828+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise asks whether the addressee has their own kiln without establishing the answer. The hypothesis introduces an expectation that they do not have one, which the premise does not support."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

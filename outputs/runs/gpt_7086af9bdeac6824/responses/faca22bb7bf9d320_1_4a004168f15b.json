@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37287n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "78bfe6fd5a36ce5c3afea9065a1ca2283397806320dd175c40484aad80cafa3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3416722a9fe0e5016acbed0b0a0c87d29ae944cc54a52cd6",
+  "received_at": "2026-10-11T20:09:51.880956+00:00",
+  "parsed": {
+    "entailment": 0.38,
+    "neutral": 0.61,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says men like it more than the other group, but does not establish that they like it \"way more.\" The hypothesis therefore adds an unsupported degree of difference."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

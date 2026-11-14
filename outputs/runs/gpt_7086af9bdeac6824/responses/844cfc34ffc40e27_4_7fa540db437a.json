@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38336c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a896f89e8ff2c58795bb11480f328d29291b255e8cf021e2892319018543a39d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c36f1ea8f82be2016acd455a384887d2a99486d84e5411bb",
+  "received_at": "2026-10-12T20:38:53.836013+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise is an incoherent sequence of words that establishes nothing about ducks or a pond. It neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "522n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b35a41aca6d2fe1c1c70c9b83966f17f2d072bbdb3302632c373ebc22d84c988",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCfKApZNZrW58QLMjX4",
+  "received_at": "2026-10-11T22:00:27.412934+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the islands changed from colonies to part of France but does not say how, so a vote is not established. A vote is plausible, as with departmentalization, but it is not guaranteed and is not ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

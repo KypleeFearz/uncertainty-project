@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135251n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be8f02606d6fb697032c3756671b0cf333dafb4a4c6539b4968aea4c62764170",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0178a1622c989cb7016acd435f350087d2a7a35d1ebd5a8aba",
+  "received_at": "2026-10-12T20:30:25.934392+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says they went to Florida and needed to rent a car, but it does not establish that they actually rented one. Inferring a completed rental from the stated need requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

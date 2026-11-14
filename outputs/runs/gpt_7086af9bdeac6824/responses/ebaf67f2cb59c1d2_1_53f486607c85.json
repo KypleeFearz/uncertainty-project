@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30171n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea4b9ea6ce4989500c29b74e84eca5e1e26fb3ebc0ccaa1f0ba467d72d144f06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08149e8dc93f4a4f016acbec23d8c487d2b9d307f19792784a",
+  "received_at": "2026-10-11T20:05:59.243767+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.93,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says a government promise remains unfulfilled until everyone receives access, not that the government itself is flawed or unfulfilled. Those broader judgments are neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

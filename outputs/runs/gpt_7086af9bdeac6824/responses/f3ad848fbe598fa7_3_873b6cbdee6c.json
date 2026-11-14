@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96448n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c94b5acf6ea590ced3dbaaa36dbefba0ec361b3def9a417277a8519da1c2c84f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02137a5a4f348816016acd4855d73887d28d3c2733dc2fbb1a",
+  "received_at": "2026-10-12T20:51:38.222044+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise presents Social Security benefits as useful information for planning retirement income and savings. Their usefulness for achieving broader “financial freedom” in later life is a plausible inference, but is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

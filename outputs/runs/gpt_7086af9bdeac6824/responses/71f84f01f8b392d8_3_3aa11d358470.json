@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124590c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "18212e2241432a262e02f57416bb389fbae924f6416b5674d25d7dbfbe915553",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d4720492e53a097016acbe6cf203087d2a8e457788d6c618a",
+  "received_at": "2026-10-11T19:43:14.227069+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.004,
+    "contradiction": 0.995,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.005,
+    "brief_reason": "The premise describes the church's exterior as splendid and its great attraction, contradicting the claim that the outside isn't much to look at. It provides no information about the interior's decoration."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

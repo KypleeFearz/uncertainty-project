@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39303n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "19ec30f6e90a9744aecc77b5201240dc2b58cc4b9f0569dba2c007bc500331b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_046e9f891f0169f6016acbed504ef487d2b2f160f395b7cee8",
+  "received_at": "2026-10-11T20:11:00.021919+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.059,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "Calling the two main actors \"a treat\" positively evaluates their performances, supporting the claim that they acted well. The praise could technically concern their appeal rather than acting skill specifically."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142630n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "986d2d370d1076eee80f4bd539e17b2e33d5e273360ab4789f181436e241dcbe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fdd5c98a2fb54cd016acd43e583e487d292c5386d6b4fae67",
+  "received_at": "2026-10-12T20:32:41.265333+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the speaker asked in a low voice with curiosity, but does not establish an attempt to speak louder or fear preventing it. Speaking quietly alone does not establish the hypothesis or its negation."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

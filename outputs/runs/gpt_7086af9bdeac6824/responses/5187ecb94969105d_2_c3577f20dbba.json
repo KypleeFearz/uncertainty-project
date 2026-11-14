@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98410n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbd4818619d578490980abc8dc57727b367f3bbe2094a434d2faf2c3adad605a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07f5c9f3b506b6ac016acbf4ea247c87d2b42b3f37624a0898",
+  "received_at": "2026-10-11T20:43:26.387852+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Yep same here” ordinarily indicates that the speaker shares the experience or situation being discussed, supporting the hypothesis. However, the omitted context leaves what is shared unspecified."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

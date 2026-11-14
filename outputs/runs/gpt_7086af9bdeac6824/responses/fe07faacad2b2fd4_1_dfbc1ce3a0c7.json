@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136097c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab99321be3c706cc494c553e1df6db32156ceff1a97e5522140980360585455e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_047ff8b4af27d3f1016acbe88a89f087d2a7211f19ae9aeb13",
+  "received_at": "2026-10-11T19:50:40.177737+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.23,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise presents wealthy parents as a prerequisite for schooling not being prohibitively costly, which conflicts with the hypothesis under that reading. However, prohibitive cost does not strictly establish that wealthy parents are necessary to attend school."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71099n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d10cb90cf8bc7719cd0518d3310c878e7397d85ff9b383b86cf1268aa0f7c0a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d2e46c235f50c11016acbf17204b887d2a4c1d76f7ae663c5",
+  "received_at": "2026-10-11T20:28:37.308125+00:00",
+  "parsed": {
+    "entailment": 0.29,
+    "neutral": 0.7,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The premise recommends sundown or the off-season for fully experiencing the setting, but does not say that fewer people are present or that reduced crowds make it come alive. Those details require plausible but unguaranteed assumptions."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

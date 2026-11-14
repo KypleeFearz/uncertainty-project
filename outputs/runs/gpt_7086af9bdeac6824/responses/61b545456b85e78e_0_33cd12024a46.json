@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5988551357.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85c23c64b3013c638c630d7cceed83f59c8b5fc3323d91b368bbfbd4a9f70bbe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0abdfcd5219076d2016acd4e17ec5c87d28b95ce62c084721d",
+  "received_at": "2026-10-12T21:16:12.223407+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Finding a way into the action suggests that the rodeo clown is moving or actively participating. Physical activity is strongly implied, though the premise does not explicitly describe a physical action."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

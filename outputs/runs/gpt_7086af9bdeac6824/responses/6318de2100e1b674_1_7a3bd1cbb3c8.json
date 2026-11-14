@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4661188536.jpg#1r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "453907c16145816b5f1be3f4d0acf53ebbfb3e4826b161c470b18ae1a8a1ab0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0212c2c50de79e71016acd4cf5851c87d297aded0c19446cb9",
+  "received_at": "2026-10-12T21:11:21.932502+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Riding on the back of a garbage truck supports the ordinary meaning of catching a lift on that truck. The premise does not specify how or why the man obtained the ride."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

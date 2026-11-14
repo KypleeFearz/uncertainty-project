@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "27907e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "42534250e5dfd60ca32b396283689a52d6913255907d90b891d211dbea814c07",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCUYvFSRRgToDBpHCGn",
+  "received_at": "2026-10-11T21:58:01.803789+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.5,
+    "contradiction": 0.38,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "\"I shan't stop you\" is ambiguous: 'stop' may refer to the speaker not preventing the listener, whereas the hypothesis 'You can stop' means the listener may cease an activity. These are different senses, so the premise neither clearly supports nor rules out the hypothesis, though a permissive reading could weakly support it or a 'continue' reading could oppose it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 760,
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

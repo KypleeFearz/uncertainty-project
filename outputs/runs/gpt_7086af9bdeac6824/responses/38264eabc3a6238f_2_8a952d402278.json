@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4653329590.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "234e857d740952acbd30f043aecf398bf180588f156823bbbb9efd977bac434f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08196f361cf7ee8f016acd4ce80cd887d29a7bc35b0121be4c",
+  "received_at": "2026-10-12T21:11:08.642457+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.6,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The woman is painting a face, but this does not establish that she is an artist by profession or identity. If “artist” includes anyone creating visual art, the hypothesis is supported."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

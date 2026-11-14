@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "136360n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8cdae7db6512a681f65893651048ad0c63d8ef4a01dd0f428c80b3b89f4d2057",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9mPf1ATqbiE62QjY4Q",
+  "received_at": "2026-10-11T21:22:29.496173+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.5,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Feeling someone suggests a sensed presence, which plausibly implies nearness, but 'feel' could be figurative or emotional, or refer to a distant connection, so nearness is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 752,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

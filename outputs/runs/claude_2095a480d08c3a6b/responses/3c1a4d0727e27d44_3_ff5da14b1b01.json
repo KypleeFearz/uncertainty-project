@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "5507c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9442da74d1544f78011ba41db9ef8a74a5d75413bf9f96edf8d3e88693cffe73",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwChM9BbLGRbwMpaYcPJ",
+  "received_at": "2026-10-11T22:00:54.905524+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says the coalition including the Christian Democrats brought unusual stability in the 1980s, which conflicts with them causing great instability. Some doubt remains since the stability lasted only a few years."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

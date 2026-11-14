@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49123n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1bb5e178c3872f239db2122012a4f4f83948b773e2156b4638a073032b99bfb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb96a89863d6aad016acbf8cd344487d282889e9944a739c4",
+  "received_at": "2026-10-11T21:00:01.368097+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise reports recommendations from contacted individuals and organizations, not agencies' beliefs about their own practices. Recommendations for greater consistency do not establish whether agencies consider their current practices sufficient."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

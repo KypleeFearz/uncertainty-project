@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49227n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "96523b98621fb9238f1567ce71f1ae8622db34be822ca1a7e9c676b3c703be0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02a308a1b66af665016acbeeb65a1087d286c5f5958a39ceb9",
+  "received_at": "2026-10-11T20:16:58.107568+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports agreement that he lacked Montana's supporting cast, but does not establish that he did well. That added performance claim is neither confirmed nor denied."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98721e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "48d054d7fbe57b645a1853e071281f67cfda6f38f508c4a0008dd4c3b6bc361d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0b7176db3ba1f9016acbf4f524f487d2bad5d23d9b3eda78",
+  "received_at": "2026-10-11T20:43:36.458863+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.63,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise mentions supervision and security, but does not clearly identify who supervises or whether people are being supervised. The hypothesis supplies those details and may also imply supervision is their only role."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

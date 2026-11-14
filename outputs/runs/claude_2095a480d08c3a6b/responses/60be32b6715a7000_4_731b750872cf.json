@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34573n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4d6643ce6269ce05af4c0b307b5aa943702e2411723b81b744b0b4d59a37fccf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4AVPV1sfeiPJfvtxos",
+  "received_at": "2026-10-12T21:30:13.101908+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.36,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise quotes \"the door was locked?\", while the hypothesis quotes \"the door wasn't unlocked?\", which is semantically similar. The added details of jumping up in a frenzy are not stated, so this is not clearly entailed; the quote's polarity is equivalent, but the pair is ambiguous."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

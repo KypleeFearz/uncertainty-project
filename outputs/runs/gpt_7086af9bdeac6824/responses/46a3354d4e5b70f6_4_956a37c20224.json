@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93623e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "422f31da3219979e48e414f4fbba690e45055ea0824e9a64f15285ed551148f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026135587beac3a6016acbd9700e9c87d29e39aa8cfdbc3bbb",
+  "received_at": "2026-10-11T18:46:13.043172+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise establishes repeated betrayal within one afternoon, but not literal stepping over someone. The hypothesis is supported only if “stepped over me” is interpreted figuratively as betrayal or mistreatment."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83145n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5f91d5d6e75d72d2226e3aa44bdb85181ce5ff45fa3e4c9b6059dc274ae3e82",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a04604028898022016acbfa3cddc087d298b39118eb0bbf8a",
+  "received_at": "2026-10-11T21:06:08.967563+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise supports that Land of Lincoln provides legal help in Illinois and will be significantly affected by the cuts. It does not establish that its services are pro bono or reduced cost, although that may be a plausible assumption."
+  },
+  "usage": {
+    "input_tokens": 434,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

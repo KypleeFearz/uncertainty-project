@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102857n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "916239deb75a80f02e33718c399456ee4c6441b314b859f99552500268313b1f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_044b93f373210015016acd419c500c87d2a19bb8b7c45f875d",
+  "received_at": "2026-10-12T20:22:57.384620+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise discusses reporting expenses for education and training programs intended to support productive capacity, not calculating net cost as a means of increasing productivity. Treating college programs as covered programs is plausible, but the hypothesis's claimed role for cost calculation is not established."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

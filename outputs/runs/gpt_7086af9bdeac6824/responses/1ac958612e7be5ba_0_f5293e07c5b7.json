@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140278n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70c5ae3808d4a147647428ce17d6845bf4e5e51804e29ce8fe56bb0f70736ec8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0630fe4340572065016acd43cc506087d2a4963455d986ebc1",
+  "received_at": "2026-10-12T20:32:16.412761+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise links an outdoor workforce and numerous locations to difficulty studying operations, not directly to productivity. It neither establishes nor rules out the relationship asserted in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

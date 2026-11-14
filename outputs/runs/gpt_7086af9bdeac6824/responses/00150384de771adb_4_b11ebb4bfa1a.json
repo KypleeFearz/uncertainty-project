@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119637e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8d2ec31d5c3f905af6eb1c3363584fbc564aa95ae792e9f69f69ff58fa126acf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce67bb8b468afc0016acd427e792087d2895d31b5ec08d3b8",
+  "received_at": "2026-10-12T20:26:42.781571+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "“Hitherto rigid” and “brought a new warmth” support the description of earlier practice as rigid and cold. However, the hypothesis generalizes from Brahmanic ritual to Hinduism as a whole, and “cold” is an inferred metaphor rather than an explicit description."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

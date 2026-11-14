@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86472e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a2c03756cdbdb4161deaa381cb21a7525b63609ba333387b43b51fa57469c6e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e1ec70607b7732f016acbf3a4054c87d2b3da7d6aa84732a9",
+  "received_at": "2026-10-11T20:38:01.114930+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise naturally suggests that Slate writes about taxes and criticizes its choice of writer. However, \"could have\" describes an alternative possibility rather than explicitly confirming that a tax piece was actually written."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

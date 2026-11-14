@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "24043n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0bc589acf7c3e4bcf3ea9b651c91dde1bff348557eebb4057258e9a548b1922e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy45FbdR3KvTKLNv8K2B",
+  "received_at": "2026-10-12T21:29:01.222543+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says no people and no bones were present, which supports 'no remains'. 'Totally empty' is slightly stronger, since other objects might have been there, so it is not strictly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

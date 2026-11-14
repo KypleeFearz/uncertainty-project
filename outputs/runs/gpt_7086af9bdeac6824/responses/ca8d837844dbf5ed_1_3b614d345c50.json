@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129980c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3116b83ce257f89bcabf13cd68712e0803b67fc9a2cd060e2a0e11e69d4d888f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00feb531460c6b0f016acbf6a1b71c87d28ba5a416f420c97c",
+  "received_at": "2026-10-11T20:50:46.136136+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says that getting older increases the desire for convenience, illustrated by using a trailer or Winnebago. It neither establishes nor rules out an increased desire to act spontaneously."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

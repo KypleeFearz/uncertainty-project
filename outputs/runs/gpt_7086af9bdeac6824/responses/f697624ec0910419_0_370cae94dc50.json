@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74629n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5bcd8090b98d030841dd84b392b053185599bbc98f1e75b25d5e2043089bee43",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d83c48b0671d17016acbf1f01ef087d2b14d9a251f2bd0c2",
+  "received_at": "2026-10-11T20:30:43.840225+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "Considering taking one's talents to a market does not establish that one would perform quite well there, though it can suggest confidence in that possibility. The premise neither confirms nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

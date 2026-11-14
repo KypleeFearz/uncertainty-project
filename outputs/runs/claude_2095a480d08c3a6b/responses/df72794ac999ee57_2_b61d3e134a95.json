@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4183609474.jpg#0r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e1d546680ec0277ff4c8265253bb7132c40d92ab7b4e8d672123f45e1b3d6a7d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Vax1Gzq9tjFWFeu2M",
+  "received_at": "2026-10-12T21:47:38.799151+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.33,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "A young man buying a car from his dealer implies a man buying from someone, but 'new' is not stated; buying a replacement from a dealer likely, though not guaranteed, means a new car."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17056n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "38438ef3e201f5c99a54b3c5099686c571fb35b0d154162e31e2d2084a5a6ffb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0452c772af318aed016acd445082a087d2837a4ac22b9e7d71",
+  "received_at": "2026-10-12T20:34:28.446557+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the whole village knew that John was attracted to the farmer's wife, not that everyone shared his attraction. It neither establishes nor rules out attraction by the other villagers."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

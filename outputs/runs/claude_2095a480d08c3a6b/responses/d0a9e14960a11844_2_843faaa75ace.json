@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "71251n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "973b59aae820f8a2ba957050739394b68b6dcaac36a54901708f98a3fabf1ef8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCo2N13vw1xLRVGDMif",
+  "received_at": "2026-10-11T22:02:12.193955+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.37,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The core claim (Pryce said Ohio Legal Services will receive a $200,000 federal grant) is a passive restatement of the premise. The added clause that she 'could finally say it to the public' is unsupported extra detail, which lowers confidence in entailment."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 836,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

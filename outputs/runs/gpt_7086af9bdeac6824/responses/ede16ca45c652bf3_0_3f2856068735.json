@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30380c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a648daa04e58b7dcf3bc8f30a9ac7032ae68403607964405aaa0549af725133",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dde7775007a1577016acd44f5961c87d2b78056c48557e91d",
+  "received_at": "2026-10-12T20:37:12.246667+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.01,
+    "contradiction": 0.985,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.015,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise says the NYT reported that the plane flew below the altitude permitted by training-mission rules. The hypothesis instead says the NYT reported that flying that low was allowed."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

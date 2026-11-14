@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6502487823.jpg#4r1c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1385f62b603551804c89d37ce9630edaa8eb9b5b5ef3c57251cbfa93ef06c452",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5s7FjxXhjkTQgs49BJ",
+  "received_at": "2026-10-12T21:52:30.939453+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.55,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says both kickboxers are already competing, which makes one waiting for the other to arrive unlikely, but it could describe an earlier moment before the match. The premise does not rule it out, and it does not support it either."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

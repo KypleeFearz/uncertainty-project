@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ba0bb42bb8c62ad5ca786ffb24acfa432c3dbcbe9783ad1fcc68da035005f4b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ba6463049ce8ee1016acbf000974087d288cdb474bdd179d2",
+  "received_at": "2026-10-11T20:22:28.210484+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.86,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise says the IRS would lack records of callers’ waiting time in a particular situation, but it does not establish any obligation to obtain those records. Lacking a record does not rule out being required to obtain it."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

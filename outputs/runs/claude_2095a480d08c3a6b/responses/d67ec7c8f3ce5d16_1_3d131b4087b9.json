@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21147e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5825d0448f47117f260122f885111ff7eab70d2ab81a32042f53c418f052b6b9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA8jxyki8vdgTeyW29r",
+  "received_at": "2026-10-11T21:27:19.237996+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.5,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says lateness makes rational operation hard, which suggests punctuality helps but does not strictly say people must be on time or that work quality (well made) depends on it. The step from 'hard' to 'have to' and from 'rational working' to 'well made' is a plausible but not guaranteed inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

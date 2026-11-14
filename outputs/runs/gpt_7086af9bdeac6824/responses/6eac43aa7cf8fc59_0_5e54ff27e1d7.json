@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16989e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "57403d0543e9e143a3ae588fa72214997d7e2bb29b9a11b907a2b62c71764987",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c5b5158aae23694016acbea3968bc87d289cd2e010daaf889",
+  "received_at": "2026-10-11T19:57:49.912517+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise contemplates auditors from another country conducting audits subject to applicable qualifications, supporting the possibility of doing business abroad. The referent of “their country” is somewhat unclear, and “conduct business” is broader than conducting audits."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

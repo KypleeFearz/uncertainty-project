@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123703e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94a1f850a5e4de3447feadd0f66d73074d4384bb8b4005bed358a2382faa5b18",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e2fd1b3cff0ba41016acd42b2a41c87d2b084cd32aa354d1e",
+  "received_at": "2026-10-12T20:27:35.241750+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise presents operations expertise as one of several alternative CIO specializations, depending on organizational needs. This conflicts with the hypothesis that every CIO must be an operations specialist."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

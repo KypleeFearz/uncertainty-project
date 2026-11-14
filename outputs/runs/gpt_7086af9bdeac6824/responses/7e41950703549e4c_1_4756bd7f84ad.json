@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27539n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "27942b851d32f323898e48e3c7562117b19bbd44baa53bc94a0b01a300a01e61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c772375aaa84172016acbebbc405887d284ae8758b1308dfe",
+  "received_at": "2026-10-11T20:04:15.709144+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.78,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The hypothesis is grammatically unclear, but the premise does not establish whether the hall is known to many people. It concerns disagreement about the building's purpose, not its familiarity to the public."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

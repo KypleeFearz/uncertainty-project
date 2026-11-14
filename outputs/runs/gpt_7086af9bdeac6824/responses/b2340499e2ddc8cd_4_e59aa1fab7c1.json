@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23414e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8c82348ac623cc3f2a3ef2bb715ade1a020aa20420f2becf4ee44fc18e8482af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0493a6e2ea3a77b1016acbf7bf1bf087d28ee78f9a106db38f",
+  "received_at": "2026-10-11T20:55:32.214426+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise questions sacrificing lives for farmers and slavers, not farmers and slaves. It neither establishes that people actually make the sacrifice described in the hypothesis nor rules it out."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

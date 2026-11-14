@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63559n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a01007277aea0c364736c80c8ee754fcbb8fb6d75b3e60f5aac55bd03d8e112",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0143724c43761559016acbf0b6a39487d29ea4b1fc708612a7",
+  "received_at": "2026-10-11T20:25:31.241572+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.75,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.62,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise identifies energy-related activities as the primary source of man-made emissions, but does not specifically identify dirty-energy production or address all U.S. emissions. The hypothesis requires assumptions about the scope of both energy activities and greenhouse gas emissions."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

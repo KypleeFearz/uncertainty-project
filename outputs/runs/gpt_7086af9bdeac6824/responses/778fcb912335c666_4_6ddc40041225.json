@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72870c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "31a565fc50961d8822c19fb27eb7b3bb345ae68f4ff05652e5ba3a3f842b54c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ce75c72c2b0d7f016acbf195648887d299c97ad2060f2744",
+  "received_at": "2026-10-11T20:29:13.574167+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise gives a possible low price of 5 or 6 cents per piece, not an upper limit. It neither establishes nor rules out a price of $5."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63453n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4d81c6f1a4bebabb8dd77a70dcdd9b2ce55b46c3fb8c188a2e9a58ddb3e89a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c96cd477d9f099016acbf0acf0c887d2b682c8f1af3a8835",
+  "received_at": "2026-10-11T20:25:19.525226+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "Being off the tourist track does not establish that Puglia has no tourism industry. The premise also does not establish that it is slow-paced or relaxing."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

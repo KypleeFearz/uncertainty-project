@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80766n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a53c70df58dcec6e4d58d8a476d300768fbbf08dffeae7529964f4787642e5c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d1b36298a1aaa32016acd47d53d4087d2bb600171905c8b93",
+  "received_at": "2026-10-12T20:49:28.020548+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says something is scary but does not establish whether it is predictable. The referent of \"that\" and \"it\" is unspecified."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

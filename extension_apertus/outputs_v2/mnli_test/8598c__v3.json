@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "8598c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise mentions a contract that provides for a firm price, which suggests price details are specified, directly contradicting the hypothesis. However, the sentence is cut off, leaving uncertainty about the full meaning, leading to some neutral probability."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 339,
+  "output_tokens": 117
+ },
+ "seconds": 2.72,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:46:16.712613+00:00"
+}

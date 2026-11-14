@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4830075359.jpg#2r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "23a62d3473c83f24eb2bf9513cfcc9e8ac2850b610adc5bd5e65625295156c27",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5hxqyFAKUcpkwpVEpj",
+  "received_at": "2026-10-12T21:50:26.521519+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.12,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "An older gentleman is a man, and speaking at a podium typically means giving a speech. It is not strictly guaranteed, since he could be making announcements or a lecture, but this is the most likely reading."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 770,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

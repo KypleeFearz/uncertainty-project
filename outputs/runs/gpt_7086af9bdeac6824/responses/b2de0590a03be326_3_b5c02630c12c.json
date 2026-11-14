@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2482588693.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79856eb880bc13bdc2f5515e3b6d9dec8ac802cbf16ffe242374b08dc1e2108d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef0d418fb316f90016acd49e0099887d2bb640939879e87d0",
+  "received_at": "2026-10-12T20:58:11.594097+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise establishes that two men are posing, but not that their posing is part of a photography stunt. That purpose is possible but requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

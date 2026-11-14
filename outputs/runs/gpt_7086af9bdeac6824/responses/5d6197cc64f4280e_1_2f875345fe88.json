@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_300539993.jpg#3r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5deb7203de2e6e5095c5250a312f729bf602f400caed1642fdf70ec00e8b69b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0580a4becfeeff14016acd4a7d890487d2bf24489ba792b6de",
+  "received_at": "2026-10-12T21:00:49.316374+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise establishes that a dog is gnawing on a bone, but says nothing about searching for a hiding spot. Gnawing does not rule out simultaneously looking for such a spot."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55572n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a9e18f209b454bfacc36af235f502980f4f99775ae85ef599c314fc593137092",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b94bfb9405668c6016acbf92f85c887d2a2f73c5b2a5e541b",
+  "received_at": "2026-10-11T21:01:39.338293+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes a Zen temple rock garden as tranquil and disturbed by loud recorded announcements, but says nothing about gatherings or celebrations. Tranquillity suggests a different atmosphere, yet does not rule out that use."
+  },
+  "usage": {
+    "input_tokens": 475,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

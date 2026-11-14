@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57244n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e3cbdcd1a143c5b13ca11ace5a5ecb9f901126b28a6b82b7de8df20b3a342da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aaeb3d8df79922d016acbefd34c1087d29c975dc8799243bc",
+  "received_at": "2026-10-11T20:21:42.337904+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.84,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise identifies potentially limited innovation as a disadvantage but does not specify what causes those disadvantages. It does not establish that they concern a poorly educated workforce."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

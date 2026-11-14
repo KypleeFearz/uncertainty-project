@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "17110n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d293c5540c31cc9ec99e7e9fda1f9e3b40363d7189f114676f84eb722d5021bd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwvGnNPyfi69WVo39y8",
+  "received_at": "2026-10-11T18:47:07.953428+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.76,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says the central section has little of interest, which suggests but does not establish that few tourists go there. Tourist numbers are never mentioned, so the link is an inference."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

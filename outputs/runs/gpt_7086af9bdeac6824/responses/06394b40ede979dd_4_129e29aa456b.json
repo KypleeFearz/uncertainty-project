@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26143n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "51c2942c65aac75a737f393034eb2e8d2be5d1b6a21f2d0db3e9cdd829ac18a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aedfa8dacfd9604016acbeb83b6f087d28f40a0a604da8e49",
+  "received_at": "2026-10-11T20:03:19.323557+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.92,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies the associated cost as expenses of assessing and collecting import duties, not spending relative to another amount. The hypothesis leaves both \"people\" and \"this amount\" unspecified, so the proposed comparison is neither established nor clearly ruled out."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

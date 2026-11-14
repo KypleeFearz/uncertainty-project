@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88605e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b0969002ce6c4014aceb77950e81e2dcc301a8f7e86dee0908386f218b6f20d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01695b539c2c002a016acbf3df91a487d29c85897217f5d1fb",
+  "received_at": "2026-10-11T20:38:59.687416+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.08,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“The rest of the north” paraphrases “the remaining parts of the north,” and difficulty exploring it supports describing it as a challenge. “Steep challenge” slightly intensifies and generalizes the stated difficulty."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

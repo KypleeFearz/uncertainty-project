@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100792c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "207c96bfe7ac8f4ad10f48ea15637de06e9f0930d3cdc8f83604088daf6aaccc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a7958f607b84a16016acbe3a1c59087d2b5ccd991f441e74a",
+  "received_at": "2026-10-11T19:29:42.512091+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise asks whether the listener has small children but does not explicitly state whether their involvement matters. The question suggests that children may be relevant, which creates a pragmatic tension with the hypothesis rather than a definite contradiction."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

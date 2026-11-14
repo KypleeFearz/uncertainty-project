@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16835n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bdced5335a401641da02afd8e7e683d6ae65e026aa6863279954d7a4c5f83df1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e95747e66a52e4e016acd444dbb8c87d2b4d78c1933451b00",
+  "received_at": "2026-10-12T20:34:25.468796+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says current history adds a major point but does not identify that history as American. It neither supports nor rules out the added national specification."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

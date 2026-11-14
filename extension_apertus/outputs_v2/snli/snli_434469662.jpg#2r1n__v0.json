@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_434469662.jpg#2r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.04,
+  "contradiction": 0.01,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.05,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise specifies a 'working old woman' who serves a man in a store, which aligns with the hypothesis that a 'lady' waits on a 'man' in a 'general store'. Minor differences in wording (e.g., 'working old woman' vs 'lady') and the omission of 'red shirt' do not contradict the core meaning."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 159
+ },
+ "seconds": 3.39,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:31:25.430214+00:00"
+}

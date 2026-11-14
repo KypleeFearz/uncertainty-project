@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117809n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "332e7180965ad87d487293151ed5f7444b63d7eb6c69c1ec7b7374057d2674cc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dc03d0024f14ebf016acbe60574c487d29f33ae11a3b40626",
+  "received_at": "2026-10-11T19:39:52.934773+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says the step could reduce costs, but does not establish whether anyone wants to lower costs. The hypothesis's “they” also has no clear referent in the premise."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

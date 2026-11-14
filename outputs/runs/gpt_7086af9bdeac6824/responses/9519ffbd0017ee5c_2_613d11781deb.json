@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27022c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5346c73574f12a1bd9c4e24ab0f3ec571a717cabae65c1d058921748a0ffa39b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f7e3ade2a8f206d016acbeba9174887d2bfed7c8b8479c6a7",
+  "received_at": "2026-10-11T20:03:55.883207+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The stated recovery amount of $126,400,000 exceeds $126, so the premise directly supports the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

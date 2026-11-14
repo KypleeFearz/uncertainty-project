@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29936n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a12a4ca923aa6f0f937d54cc9f2b0a90c17a00dce9cdd6f1145a873cad230ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_071c15a80bbb30ec016acbec1cf36887d2befcb431b060abd5",
+  "received_at": "2026-10-11T20:05:52.803658+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise presents three months as a possibility but neither establishes nor excludes two months. The fragment does not specify what duration is being discussed."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

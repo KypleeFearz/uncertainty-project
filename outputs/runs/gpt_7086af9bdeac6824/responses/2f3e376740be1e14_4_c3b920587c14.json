@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80808e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3873b08e3a52d2cbb415cd0b435e70d5e400f487a36f1fae909cfe5f2aa4f020",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09fc832c0040ff07016acbd94742a487d2b9a8efea30d1015c",
+  "received_at": "2026-10-11T18:45:32.118900+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise establishes a button on the Chatterbox page that makes some activity easy, but does not explicitly say the button itself is easy to use. That is a plausible inference rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

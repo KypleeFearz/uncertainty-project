@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54489e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b2c9a069acd8532d01650e6efb3298401d0db2c7d7773fd94ac68fd0fbcd0c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fb89811be324021016acbef60ceb087d2a176f28a91477d35",
+  "received_at": "2026-10-11T20:19:49.588751+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Cost studies, reasonable estimates, and budgeted rates support describing the method as based on research and analysis. However, the premise allows estimates instead of cost studies, so research is not explicitly required."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

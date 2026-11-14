@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105191c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "08bdd95be3490ccbf48ca4dbbf944c776c4e84cde8fc931d9be61545e7300be2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b28c620cb2635e7016acbe45cb5fc87d2ad11e50f4c377c2e",
+  "received_at": "2026-10-11T19:32:48.604203+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise reports that the Washington Post called it the culmination of a political standoff, not a beautiful situation. However, it does not rule out the Post also describing it as beautiful."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

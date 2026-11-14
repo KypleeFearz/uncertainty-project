@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97394c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9fe1916f424b1adc16faffbc052aa9d866a2fd272fc95f7d8650ab4102508e1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00133c60d13a2bd9016acbfaf5159c87d2adeb455112c724e5",
+  "received_at": "2026-10-11T21:09:13.617801+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.76,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise says First-Class mail carries a disproportionate share of postal overhead, but does not establish whether that burden is manageable. The hypothesis's phrase \"enough ... to handle\" is also ambiguous about whether the burden is sufficient or within its capacity."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

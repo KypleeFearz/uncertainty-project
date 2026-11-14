@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138563c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29ae0064eec61cf9a7b02062c970d11c5a736a625ba68a7fda191f8ed0504f3b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa620a33d83c368016acbe8f28a7887d280a3156eb05f26c2",
+  "received_at": "2026-10-11T19:52:23.182695+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.12,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "Tuppence pauses to grasp the supposition fully and articulates it in a question, indicating understanding rather than inability to grasp it. The premise does not explicitly confirm complete comprehension, but it strongly opposes the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

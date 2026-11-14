@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114971n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d080493e9f7ec56b8b5c276bef99b121c011c5a89af2421cb861363c10f5bf2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3de2f434709c70016acbe589e86c87d2938125a85b705091",
+  "received_at": "2026-10-11T19:37:49.032510+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise states that George Clooney's character gives an unauthorized painkiller to a terminally ill boy, but does not identify the episode as episode 7. The episode number is therefore neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 441,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

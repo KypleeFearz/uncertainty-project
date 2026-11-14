@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4867540330.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5930b0e3928c411428c5faf1976cd3c85fd409605a7bd0b90830c5dc0e18a896",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00473c1270e195be016acd4d8a49dc87d2a4f762a77ccf5706",
+  "received_at": "2026-10-12T21:13:50.586868+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.82,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise supports that a man and woman play video games together on a couch, but does not establish that they are husband and wife. Their sitting close together may suggest a relationship, but marriage is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

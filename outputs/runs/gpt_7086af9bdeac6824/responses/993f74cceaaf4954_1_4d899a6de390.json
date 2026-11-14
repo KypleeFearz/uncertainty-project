@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9557e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3daad9479a308c2e5582c7c189c8ddccc44f119d71fda0e9b57f2957849fb1c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cffe9d48b4155e7016acbf499281487d2868dede92aa792b0",
+  "received_at": "2026-10-11T20:42:05.533285+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.79,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says Thompson and Giuliani show no inclination to exploit research questioning the importance of day-care quality. It does not establish that they do not want to care about day cares; declining to exploit that research could even suggest the opposite."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

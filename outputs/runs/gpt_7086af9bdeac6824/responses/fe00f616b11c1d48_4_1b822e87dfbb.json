@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92422e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e63c7c950cf6376b7510459389dd3d92bc3a79be61a36164761f4b3abaf2360f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072401efb74a9f20016acbfae0c77c87d2af8e30246cd74a66",
+  "received_at": "2026-10-11T21:08:52.462348+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise conditionally links choosing fertile-seeming women to having more offspring; it does not establish that dominant males actually had access to fertile females. The hypothesis’s malformed wording also leaves its intended meaning somewhat uncertain."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

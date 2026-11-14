@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46576e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "268bb0b5805465efb3b4d95adeb94ba20ff9f567a37a4b5b745b614cb39bdf92",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a33a95777b799a6016acbf8a4269c87d2891d321f5b812be3",
+  "received_at": "2026-10-11T20:59:20.897363+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise tentatively anticipates a requirement for proof of identity, whereas the hypothesis states that identity ought to be a minimum requirement. Treating that prediction as a recommendation, and identity as proof of identity, requires additional interpretation."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

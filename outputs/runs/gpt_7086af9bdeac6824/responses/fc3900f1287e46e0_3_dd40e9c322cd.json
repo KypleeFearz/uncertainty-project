@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53171n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b0054df6b0286ba655229106aeefc99818ae28e1e1b9852e31c503fa3871303",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039c0af876a0d76a016acd4667593c87d2895776b0e298f811",
+  "received_at": "2026-10-12T20:43:22.137709+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.81,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Calling something an honor may suggest feeling humbled, but does not establish that emotion. The premise also does not identify who “they” refers to."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

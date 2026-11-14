@@ -1,0 +1,22 @@
+|--- mean_n <= 0.496
+|   |--- mean_c <= 0.091
+|   |   |--- epistemic_mi <= 0.005
+|   |   |   |--- value: [0.022]
+|   |   |--- epistemic_mi >  0.005
+|   |   |   |--- value: [0.120]
+|   |--- mean_c >  0.091
+|   |   |--- epistemic_mi <= 0.004
+|   |   |   |--- value: [0.075]
+|   |   |--- epistemic_mi >  0.004
+|   |   |   |--- value: [0.489]
+|--- mean_n >  0.496
+|   |--- mean_entropy <= 0.429
+|   |   |--- credal_width <= 0.022
+|   |   |   |--- value: [0.196]
+|   |   |--- credal_width >  0.022
+|   |   |   |--- value: [0.466]
+|   |--- mean_entropy >  0.429
+|   |   |--- single_e <= 0.070
+|   |   |   |--- value: [0.581]
+|   |   |--- single_e >  0.070
+|   |   |   |--- value: [0.835]

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113644n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "45d1cb78f23bc714ec0f464928ec819932b8f195e21198cbbc824d0292a26e11",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020b7f0ffd627f92016acbe56ccf2887d2b6da44c0f0ca9fce",
+  "received_at": "2026-10-11T19:37:19.959514+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise asks about the length of a growing season and mentions being raised in New York. It does not establish whether the speaker is looking for a written guide to growing plants."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

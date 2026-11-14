@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "111005e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c554f976f767f760a74e3d34b3a051a9eb767e11dcc25bae8a4bb0293e346434",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3d5GJ89U363Smyivy8",
+  "received_at": "2026-10-12T21:23:06.716896+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.18,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Premise says Clinton claimed the FBI denied him advance warning by telling aides to keep it secret, which implies he was not told about it. 'Anything about the issue' is broader than 'advance warning', so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 832,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

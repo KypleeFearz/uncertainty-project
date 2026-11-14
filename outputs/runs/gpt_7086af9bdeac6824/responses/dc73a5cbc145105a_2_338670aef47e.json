@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144207n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c997191aefa58730d898dc5641e9279d878b0d1dbc954c5a50fb3058c661e6d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3ba40d616c3228016acbe9b1377c87d28573c643391273aa",
+  "received_at": "2026-10-11T19:55:33.143932+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.81,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise suggests that KCBI does not offer the music the speaker wants, but it does not establish that KCBI plays no music. It also says the speaker does not usually listen, rather than never listens."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

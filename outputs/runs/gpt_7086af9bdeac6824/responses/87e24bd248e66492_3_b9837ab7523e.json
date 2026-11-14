@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92062c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de9cfd52cf4ffd1fcdad811274d2e4854e1ba6c31bd8f392f8da03301806bc20",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef43a3d73279f1c016acbd9690e7887d2a535bd0b1fae330a",
+  "received_at": "2026-10-11T18:46:03.810465+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise identifies Krugman's column and its new name but says nothing about whether he also writes novels. Writing a column neither establishes nor rules out writing novels."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

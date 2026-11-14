@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8487n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58a77b560e9f784056dc9e6497ac0c9d13b824efc390cb0d26ef472ae8d5307a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7ac909ed24f210016acbf37338a887d29f657c240137f14f",
+  "received_at": "2026-10-11T20:37:11.228345+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "An \"outside chance\" supports knowing that the outcome was uncertain, but the premise does not specify whether the uncertainty concerned it happening in time. The hypothesis adds a timing condition that is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "83145n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7d20d8f2ac730f4071a1d9efbde59dffd035a583f3774aa2683ec51871e36182",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCtVUnj1JMq8HQD6HRp",
+  "received_at": "2026-10-11T22:03:26.429378+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.25,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Biggest bite\" implies significant impact, supporting the core claim. The added detail of pro bono or reduced cost services is not stated but is plausible for legal aid, and the premise specifies southern Illinois rather than all of Illinois."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 892,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

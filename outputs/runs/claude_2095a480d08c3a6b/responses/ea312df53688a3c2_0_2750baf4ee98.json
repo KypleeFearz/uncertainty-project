@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "118460n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "90ac815c2b7995b473c4245ad205bef597858c36686e6900dfe6723f5f2af9c3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9NYq288hfsPHiRuN29",
+  "received_at": "2026-10-11T21:17:18.920134+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.23,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "Premise says cost makes bringing it to a dealer almost prohibitive, which closely matches the hypothesis. The hypothesis adds that the cost is of fixing it, an assumption the premise does not state explicitly."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3375549004.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eabbbba0e133c31379078a1e6d45b6a6fbfbb1c122bfd02ddb3e544792a1f1aa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_030faa1ae2e929c6016acd4b4cac1c87d2911ce653a764c46d",
+  "received_at": "2026-10-12T21:04:15.718972+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise supports men walking in a line while carrying objects, but does not identify those objects as heavy sacks of flour or establish that they walked on a path. These additional details are possible but not entailed."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

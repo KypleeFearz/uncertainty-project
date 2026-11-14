@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34094e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0d28eed16a331cb9bc41b0817505e36dd9a2aad596c1c9ba40751dd5279e5b11",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_069c93a23e9e9110016acbec9bf61087d2a9b793365c4e81d2",
+  "received_at": "2026-10-11T20:08:00.550264+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The speaker says “no,” but the premise does not establish that a question preceded it. It could also reject a request or disagree with a statement."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

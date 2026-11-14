@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "76166e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c875c280b9771076628a40f43444dc8194a941d938e1937c18c0b7debc732bb9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBT4c1QrbUZm4m54J8o",
+  "received_at": "2026-10-11T21:44:34.318761+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.07,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "\"Sane world\" and \"world that wasn't insane\" are near-equivalent, so the claim that it couldn't happen in either maps directly onto the hypothesis. A small gap remains because \"not insane\" and \"sane\" are not strictly identical."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

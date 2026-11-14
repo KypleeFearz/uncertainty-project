@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30894n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1e9a04fccba6f9e06a1a55d7b3d7494ce2a1de75c9a60dae4d4bd2b39d93a73",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07592b945f08bebd016acbec431e3087d2923a588ac98d013c",
+  "received_at": "2026-10-11T20:06:30.208466+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says growers have not received promised compensation and plan to resume opium cultivation, but it does not state that they are angry or that the government is responsible. Anger at the government is a plausible inference rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

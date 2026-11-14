@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "11020c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b256c9ae739ceb785a1003b47fa34e76e0cb02aa477dc0eef4bc4c73d6ad1858",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3cs6pK1VoKa7dZnUBe",
+  "received_at": "2026-10-12T21:23:07.497326+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise asks how to contact prospective employers, while the hypothesis asks how to destroy their gardens. These are different questions, and the hypothesis has an unrelated, hostile presupposition, so it is incompatible with the premise's intent."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27539n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "863e978271a885433d0ec46969bb9e509ed360660e37e650adf865aa6ab0f428",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e7342235ca33bb8016acbebb9200487d2b974d8d8ac1e20f6",
+  "received_at": "2026-10-11T20:04:12.833522+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.79,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise concerns disagreement about the hall's purpose, not how many people know about it. The hypothesis is grammatically unclear, but if it means the hall is not known to many people, that claim is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

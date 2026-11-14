@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58053e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c2c2b2bb0f0e0d6720becbe0c076d6583e6bdafb7d02b50bbf08befaae9f7a4b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd030df4232c8e8016acbefeafba087d2bc298264bf9a1bb9",
+  "received_at": "2026-10-11T20:22:05.702096+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.025,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise explicitly says people see “too much crime on TV,” supporting that TV shows a lot of crime."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 86,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

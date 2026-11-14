@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "135021n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a2413e304a942ffd0d908254c68e9e11f26820e80d7a10c691063e96ac3d636b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3rPTJa2DSuBtFKf5xu",
+  "received_at": "2026-10-12T21:26:07.469866+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.3,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The speaker says the charged balance of a couple hundred dollars 'isn't too bad', while the hypothesis says it 'isn't great', which is a milder or opposite evaluation. 'Money on there' could also mean a balance owed on cards rather than money held, so the reference is unclear."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 795,
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_310401525.jpg#3r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3867e22cfa0866302eb3337cad2bc3afb607086594aa1c8700187933f94e31e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011407dda94f69bc016acd4ab41bb887d29411733a5a634842",
+  "received_at": "2026-10-12T21:01:44.679339+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise places the people in New York City but does not identify what they are looking at. Looking at New York itself is possible, but being in New York does not establish that."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

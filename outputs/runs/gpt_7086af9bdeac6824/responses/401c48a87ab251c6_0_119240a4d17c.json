@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30450c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff5871422fd288d7c7f517c86da6020e36d189c44664ac6d24d70a8e3a5724ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010ae3b10742287e016acd44fa378087d2841ac52effad518c",
+  "received_at": "2026-10-12T20:37:18.660041+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise asks where she might be and describes the lawyer shaking his head, but does not establish her location. His gesture may suggest uncertainty, which neither confirms nor rules out her standing nearby."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140005c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d274081c4a06c077d2e3ad3a7689286bb910567ae3b2a05ae3f803b192836f48",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04272f6af3bf9b0b016acbf717fea087d28ad71e1219c5e8c0",
+  "received_at": "2026-10-11T20:52:42.922493+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.025,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise explicitly warns that toxicity may differ significantly between the range-finding and follow-up tests. This conflicts with the hypothesis's categorical claim that the toxicity will be exactly the same."
+  },
+  "usage": {
+    "input_tokens": 456,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 575
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

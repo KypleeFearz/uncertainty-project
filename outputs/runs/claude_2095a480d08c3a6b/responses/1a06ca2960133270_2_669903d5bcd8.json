@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69815n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "318aebec33f15e6c51c4b93983ee5de3420d4aed71ffe50b08ccb753ab1ecf0b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCnUkiXngw6Ckv3eMHB",
+  "received_at": "2026-10-11T22:02:04.703124+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise is a fragment about a U.S. territory, and the hypothesis is about the speaker's declining memory. Neither supports or rules out the other, so they are unrelated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

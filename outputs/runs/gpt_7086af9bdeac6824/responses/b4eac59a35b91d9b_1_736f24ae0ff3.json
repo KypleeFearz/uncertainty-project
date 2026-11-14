@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105179c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aea97963aeb543822bfae24d16aa99db54668594fb770755761615f8cb93eefb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_067ab9cef5505936016acbe454017887d2a2208df3ba9e6faf",
+  "received_at": "2026-10-11T19:32:40.564041+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes an expectation to watch for an advertisement in the Times, not an actual search in a mailbox. It neither establishes nor rules out a mailbox search."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

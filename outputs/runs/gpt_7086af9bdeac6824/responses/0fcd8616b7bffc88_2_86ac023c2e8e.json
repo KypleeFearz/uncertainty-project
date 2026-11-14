@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47011e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b20aa4f2ee79c7fea09fe5a5cac29ea782a392e0d649ec229d52dbbedef32b18",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f329ee978d34d18016acbee5274f887d2829525076140f5c0",
+  "received_at": "2026-10-11T20:15:18.805622+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The speaker identifies a church as the wrong one, but does not explicitly establish that anyone entered it. Entering the church is a plausible contextual assumption rather than a guaranteed fact."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

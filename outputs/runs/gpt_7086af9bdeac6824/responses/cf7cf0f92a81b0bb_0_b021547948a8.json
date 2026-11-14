@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76947n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ca46afc624a164696146ebb73353771385f77008e8e1b763c083fdfe04df5208",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d679fa1fe2d62df016acbf231c34887d2a42989bd4e30bc55",
+  "received_at": "2026-10-11T20:31:49.999465+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise expresses thanks and a farewell, but does not establish that the thanks are for help or that no amount of thanks would be enough. The fragment \"I think we have too\" is underspecified."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26495e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c26c73f669e73f6297e146dc5daf0fd33151c71ec01ebacfa1204fb5a166a2c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eac5bdb20c12e90016acbf7d3f45087d2a4c17906276821c0",
+  "received_at": "2026-10-11T20:55:53.424386+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The hypothesis plausibly paraphrases the possibility that standard screening works poorly for these subgroups. However, it shifts performance from the screens to the subgroups and changes relative underperformance (“not as well”) to potentially poor performance (“not well”)."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

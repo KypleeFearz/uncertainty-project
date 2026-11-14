@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_6502487823.jpg#4r1c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise states that two kickboxers are already competing, which contradicts the idea that one is waiting for the other. However, it is possible that one kickboxer arrived earlier and was waiting before the match began, making the hypothesis a plausible but unconfirmed inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 335,
+  "output_tokens": 127
+ },
+ "seconds": 3.09,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:51:09.843897+00:00"
+}

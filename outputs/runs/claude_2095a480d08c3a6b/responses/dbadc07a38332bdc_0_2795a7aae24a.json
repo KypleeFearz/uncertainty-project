@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4809864612.jpg#0r1n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5e4cc7e5e0b3f91919470584c7286dddd0e6580c3aa5dcc3cc97e5f34f3595f3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5h8b4qgu7zV1vkW8M3",
+  "received_at": "2026-10-12T21:50:15.396525+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the men walk in front of a trashcan, but never mentions a boardwalk, so the location is unestablished. A boardwalk setting is plausible but not guaranteed, and nothing rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

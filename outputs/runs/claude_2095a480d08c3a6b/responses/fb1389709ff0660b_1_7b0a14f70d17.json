@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3948003394.jpg#1r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4bd62a91de91cd1280673c68ae54fe0fb3e979b64eb7ed986567db81d605183d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5SXMNi1hGXs6jqKUfA",
+  "received_at": "2026-10-12T21:46:57.302820+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.85,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says she is doing a cartwheel but never mentions a fall or a head injury. The hypothesis adds an event that the premise neither establishes nor rules out, though a successful cartwheel mildly suggests no fall."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

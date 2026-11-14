@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142643c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "77929251f3c8c1cbd95d44a8c9c7357097e4d94e62b0617c38df5ad1f49053bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e8e45a41a46a5ea016acbf730465087d280fc6d2a3b9578e9",
+  "received_at": "2026-10-11T20:53:07.904966+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.055,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise says EIA used the assumptions to develop the AEO2001 projections, whereas the hypothesis says it used them to eliminate those projections. These describe opposing purposes for the same use of the assumptions."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30648e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3920789a82a4f00b60463c8892cfee71404e38d0fa2eba3b87471d6fc3233f2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c41f7fb8e7918ab016acbf7f35a4887d29917fe4b9cb6ba9d",
+  "received_at": "2026-10-11T20:56:24.211908+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Annulment by the jury” is a plausible paraphrase of “jury nullification.” However, the legal term refers specifically to a jury declining to convict despite the law and evidence, rather than formal annulment."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

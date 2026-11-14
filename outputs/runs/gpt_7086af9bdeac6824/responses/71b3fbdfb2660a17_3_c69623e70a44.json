@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93150n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be8489f0b5f8361a7d18b95168f8344d91d45fc06fbdaa7ed8af459b9ce95285",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ccc8dbb343b9d7016acbf44a509c87d293bac3db9e1612d1",
+  "received_at": "2026-10-11T20:40:45.790200+00:00",
+  "parsed": {
+    "entailment": 0.79,
+    "neutral": 0.2,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The speaker says none of their favorite people in music are recent, which supports enjoying older music. However, older musicians can produce recent music, so the preference is inferred rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

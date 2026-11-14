@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17473n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30f0f038c40a726730532293ae9ccdf900dbf4d54a8a2eacf0315a8a32c8522c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8151464ccfdace016acd445a308487d2ab998b680c24b4e3",
+  "received_at": "2026-10-12T20:34:38.242305+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The speaker intends to try and emphasizes that the oil filter is visible and reachable, supporting the view that an attempt is worthwhile. However, the premise does not explicitly say that the intended task is removing the filter."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

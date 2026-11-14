@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3912076502.jpg#0r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b393623f730d55a0bb246626a03cee62dd91d67abc1108e68a8b86de74a16b2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a07ad33280293b5016acd4c00f0b087d2a0a599eee44b2e97",
+  "received_at": "2026-10-12T21:07:18.180017+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The women described in the premise are standing, which conflicts with sitting in a chair if the hypothesis refers to either of them. A different, unmentioned woman could be sitting, but the premise does not establish that."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

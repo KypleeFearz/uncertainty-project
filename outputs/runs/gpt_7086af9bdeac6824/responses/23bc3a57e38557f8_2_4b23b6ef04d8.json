@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31054n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da2d7c0e90992b2f72c93ff8ee34ad7335527dcd5791852b41a42a062f6ae848",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df0f4b0d1591977016acbec49a3d087d2a184d95758bd142c",
+  "received_at": "2026-10-11T20:06:38.588817+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "If “silent” means not responding, the premise supports the hypothesis. If it means making no sound at all, she could have spoken without replying, so the hypothesis is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

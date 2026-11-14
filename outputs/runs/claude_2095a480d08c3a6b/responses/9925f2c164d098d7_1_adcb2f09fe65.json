@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "99708e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "67fc66ae887c0c04e5de1e8c0345e1cd16d67642a737da618cd90874587d2787",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD3xBtjj9gdzE4C4Z23",
+  "received_at": "2026-10-11T22:05:34.674264+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "Being made to resemble an old-fashioned steam train suggests it was built later to imitate an older style, but the premise doesn't state when it was built or what 'it' is (it could be a disguised vehicle or a set piece)."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "66260c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85f78ebf00187c5af2c96cfbcdbbc03f6ae35ba0708d42673c87e5e455cacad3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d34361092ce5f9016acd471d5b8c87d2a04c842b82bece05",
+  "received_at": "2026-10-12T20:46:27.512713+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.6,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Finish it” often encourages continuing until completion, but it does not necessarily mean “keep going.” The unspecified activity could instead require a final action that ends it."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

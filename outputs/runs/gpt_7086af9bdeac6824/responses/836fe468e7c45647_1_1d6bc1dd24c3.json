@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81038c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "055e46afbf00b8535348b7b60bd464e83ef575fe3ac8a2f1be3501c513d5cc07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b0706f46f5cf815016acbfa07375087d2bb6ba5fd8c05dad0",
+  "received_at": "2026-10-11T21:05:14.010964+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise establishes that cruises are available from Bhansi Ghat near the CityPalace, but says nothing about cruise availability in Phoenix, Arizona. It neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

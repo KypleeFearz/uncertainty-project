@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7531e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fdfcd3c881824114b921dbbabc778ae4e7f9543d2232d3cdf06222a486f0510e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_041e4531c830e9df016acbf20bb81487d2b3e8d8b753655091",
+  "received_at": "2026-10-11T20:31:11.914153+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Both statements conditionally direct killing the same unspecified group. The hypothesis is supported if “the situation is that” refers to the condition expressed by “if you do,” but that reference is not explicit."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

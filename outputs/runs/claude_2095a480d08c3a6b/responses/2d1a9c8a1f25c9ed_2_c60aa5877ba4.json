@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_415657941.jpg#3r1e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e75d28fc8ba631c807fd3a431518b6bc173fd5c1d97d296446f23cdae80ce62c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5VSt586DDhweJWK2z9",
+  "received_at": "2026-10-12T21:47:36.293637+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.05,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "A playground is typically an outdoor space, so children playing on one are very likely playing outside. Indoor playgrounds exist, so this is a small probabilistic assumption."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 762,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111167c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab0704fafb05f6f89d5d7555595bf6ec0fb2dec042e7f1eaa8ab7e10c9d1e539",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06f629dcfea319c3016acbe525781087d2befb5e1390d8bf9a",
+  "received_at": "2026-10-11T19:36:08.021126+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise asks someone to discuss the social ramifications of public gum chewing; it does not establish whether that person has an opinion on it."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

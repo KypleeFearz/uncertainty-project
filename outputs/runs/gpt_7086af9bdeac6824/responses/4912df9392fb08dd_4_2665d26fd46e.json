@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102075c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3a0166de0707eb1243e9005e1c654f9489f67d845212a69e6fd7ecb30bfcc74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010e4dc525b9d807016acbe3e097e087d28c442cb31fea0193",
+  "received_at": "2026-10-11T19:30:43.969076+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise mentions ice but does not establish sunshine or a heat wave. Ice can coexist with hot weather, so the fragments do not clearly contradict each other."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97974c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "99994f821fd363b254384a120494e260361c6b36323dc7b054c0309864522f72",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD2mLkVFgKNUXUHvkFY",
+  "received_at": "2026-10-11T22:05:17.944545+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.3,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says a teaser horse was brought out first, which suggests it was not the main-event horse. The hypothesis says the main-event horse came first, which conflicts with this, though a teaser horse could conceivably be the main one."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

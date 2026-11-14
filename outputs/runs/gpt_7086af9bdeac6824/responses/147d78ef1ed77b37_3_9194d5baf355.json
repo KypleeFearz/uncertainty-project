@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54454c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "616a765c512b3504d6b826ec3b79aef7ad6014a350913415e2a74c59fe6082e9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_033dcf34a0f8683a016acbef54555887d2b078fe49c54ed023",
+  "received_at": "2026-10-11T20:19:36.993029+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise calls for participation in a postaward audit, whereas the hypothesis says nobody participates in that audit. Because the premise is an instruction rather than a report of actual participation, a neutral reading is also possible."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "138500e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d2d0d307f4f79352d201d0e953a8116902ec532f2207f01d452d2c57005f2cb1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCKp4pRp3Srr8o58dR4",
+  "received_at": "2026-10-11T21:56:02.992077+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise predicts that \"they\" will come for the speaker once they have the addressee, which largely matches the hypothesis. However, it is hedged with \"I think\" and is conditional on the addressee being taken, and \"they\" is vague, so it is not fully guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

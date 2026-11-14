@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33291n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "609c09f6ec178b61b93fbee4d4b4c5e93b935013e9887abdd5151021d7beb91d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04637cbebc11715b016acbec7d269487d2947b828b2a26393a",
+  "received_at": "2026-10-11T20:07:28.759608+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise lists hot springs, a market, forests, and ski slopes, but says nothing about beaches or their beauty. The list is not exhaustive, so it neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

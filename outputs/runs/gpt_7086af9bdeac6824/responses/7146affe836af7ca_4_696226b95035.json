@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13884c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "40863527cc4c68c4140bb3cc37d71f68bb9abc54441a321fee9c087652cd385a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ebf4bf534c5688b016acbe8f9255087d2bf97b3bab38e9859",
+  "received_at": "2026-10-11T19:52:28.811459+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says Americans have a higher opinion of morality than you do, but does not establish whether your opinion is unusually high or low. The word “even” may suggest a high opinion, but that implication is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

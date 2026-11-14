@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93354e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1b35c78ea27187dcc9f4db16d99bfeec2eb1ccc3da1ed05b10cdd5dda82e8b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a6989654b3a4e8e016acbf4580c8487d29bcd831697879ab3",
+  "received_at": "2026-10-11T20:41:00.464116+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.25,
+    "contradiction": 0.71,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise says the speaker previously always had to do the work and now pays someone else, rather than always having someone else do it. It also describes new landscaping as a tentative plan, not a definite commitment."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "128832e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "353eca090ec8eef8efd8f165aa6d636c0474dc414cba9769dd1db54f3be0b6b2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwtwsJQ2izUNkz62LbH",
+  "received_at": "2026-10-11T18:46:50.062961+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says that in films (\"at the pictures\") crooks always have a restaurant in the Underworld, so the hypothesis's \"tend to\" is a weaker match. \"Underworld\" and the referent of \"it\" are ambiguous, so the hypothesis could be read as a loose paraphrase or as a different claim."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

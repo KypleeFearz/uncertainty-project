@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "71974n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise praises descriptive abilities and understanding of familial dynamics, but does not specify whether Goodman is a real person acting as a father or a fictional character; the hypothesis assumes a specific role that is not established."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 360,
+  "output_tokens": 113
+ },
+ "seconds": 2.44,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:40:02.434751+00:00"
+}

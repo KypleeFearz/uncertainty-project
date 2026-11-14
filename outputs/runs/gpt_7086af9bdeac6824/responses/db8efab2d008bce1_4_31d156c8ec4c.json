@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3366424545.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e0af9bd02adcf1837bc161c135a8ea870127b60d5f97eafc5a765afa989068b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c1156c1f7a1eb3016acd4b4bb5c087d2aa27f289e3396e5f",
+  "received_at": "2026-10-12T21:04:16.361748+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise places three people outside having coffee, which is a drink. This supports the hypothesis, though \"trying to have\" can suggest an attempt rather than the ongoing drinking described."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

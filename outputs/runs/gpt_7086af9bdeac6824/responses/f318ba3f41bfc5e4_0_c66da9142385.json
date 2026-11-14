@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5964395383.jpg#1r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ebf25e4badfd2f753d3271e1f69d5dce1096478119b961bbbdf3587f5669183b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f7e19d051f93d48016acd4e13aa4087d28f5879f6f48f5f02",
+  "received_at": "2026-10-12T21:16:06.742093+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise does not specify the gentleman's hair color. Finding the situation humorous also does not necessarily mean he laughs."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

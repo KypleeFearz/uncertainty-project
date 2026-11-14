@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19578n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0166fb97c09ef169f483c14295c429bc0e47524d8c76fbf048ba01aedef98c2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0535a2e03170e2f0016acbea7a385c87d2bf402997ef6d6b78",
+  "received_at": "2026-10-11T19:58:54.768629+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Recently showing signs of cultural maturity may suggest room for further development, but it does not establish that Las Vegas's culture has a lot of room for improvement. The premise also does not rule out that assessment."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

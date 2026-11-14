@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69761e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0550ff25ed7f798842a42fc25088a7e77fbcc43b2a29a8a7c68df70666cffb34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_066a21de9081dba9016acbf140fe0c87d2bcc9a9fa33835fd3",
+  "received_at": "2026-10-11T20:27:50.192730+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The rabbit metaphor portrays neglect of the speaker’s body through missed feeding and lack of attention. Describing it as crippled, unwanted, and useless suggests shame or rejection, although shame is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 589
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

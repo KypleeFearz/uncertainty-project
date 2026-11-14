@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "120896n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "954b0d5b979ea63306a346d5db8233b457b718c3eb75a2edbf83d70349a3bea9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9SmpyxVoRWV3xyBNdJ",
+  "received_at": "2026-10-11T21:18:16.627271+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise asks how the scribbled words on the envelope helped discover a will was made yesterday, which closely matches asking how one worked out from the text that there was a new will. Slight uncertainty over whether 'a will was made' equals 'a new will' and whether the text is the same."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

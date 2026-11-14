@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59934c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e68c7ec07611509959807ca7031984d98a846e9d4428e0ae74949c988434a72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08ce113d8e922dc8016acd46d382c087d285f6b296f99a2870",
+  "received_at": "2026-10-12T20:45:13.641543+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says the programs failed to capture knowledge consistent with best practices, not necessarily that the knowledge itself conflicted with those practices. The hypothesis follows only if the failure to capture compliant knowledge is interpreted as capturing inconsistent knowledge."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 111
+    },
+    "total_tokens": 613
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

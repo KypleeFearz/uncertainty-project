@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129185n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "80557c36b49f25149c982cf4e70308b31656d11ee50df42d4d387375b25e9eba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07693a0c65766c76016acbe75be71487d290300efcf6420a0a",
+  "received_at": "2026-10-11T19:45:34.890127+00:00",
+  "parsed": {
+    "entailment": 0.69,
+    "neutral": 0.3,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.27,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Glaring commonly suggests anger, but does not guarantee that emotional state. The premise also does not explicitly establish that Lincoln is the man referred to in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

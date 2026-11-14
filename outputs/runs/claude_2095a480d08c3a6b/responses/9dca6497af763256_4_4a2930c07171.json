@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "87332n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "49204e8b4094c9f1a32df85942a56ea28d23bda26684ab0e6178092c1ee6cf10",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4hondv3YpzCegrnCvM",
+  "received_at": "2026-10-12T21:37:22.101511+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Premise says capital gains on existing assets are not counted as saving in NIPA; increased house equity from appreciation is such a gain, so the hedged hypothesis follows. Slight uncertainty because equity could also rise via paying down the mortgage, which is not a capital gain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

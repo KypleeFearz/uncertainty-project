@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112800n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "44b689c233ffb383c93e6786c8e8f5c1292ba1cf5cac7df5adb428a818e53fce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020eb44820e8e90d016acd42199e5487d2bca3c370cc0f75e2",
+  "received_at": "2026-10-12T20:25:02.079520+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise names Leonard Franklin Slye in Chapter 1 but provides no information about a second chapter or how it continues. The hypothesis’s references to “the second one” and “like this” are underspecified."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

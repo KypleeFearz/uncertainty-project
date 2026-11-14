@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "145846e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "219effc3d69bdf4d7f2951fff0eb7430ef3804231e90be3fc4f3795618211422",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3zP1yeh6Nsn42GrxjR",
+  "received_at": "2026-10-12T21:27:55.770048+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.38,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says such saving would improve the current account balance, so it can be improved; 'slightly' adds a degree the premise does not specify, which leaves some neutral probability."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

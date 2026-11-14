@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89995c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1bbc400d13435f208a8625e8fd7fd228cc6d54d3b110de7f6407f0810e03c9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094c65e841a38877016acbfaa158f487d2bd285111b0fadaa6",
+  "received_at": "2026-10-11T21:07:50.473100+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.71,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise suggests that using oil-based paint avoids a particular cleanup mess, but it does not establish that such paints are typically easy to work with or clean up. The hypothesis generalizes beyond the specific, incompletely described situation."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

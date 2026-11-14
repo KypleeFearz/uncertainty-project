@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139802n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9759fc8afe78b1d92cf952b9aff71b429a07e3417863d3fe7c45c65db361b97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a8862220e355ac016acbf71212a487d2a6a23c68d9be880d",
+  "received_at": "2026-10-11T20:52:36.974741+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says he tirelessly pursued celebrity and popular history, but does not identify him as a movie star or specify a goal of leading box-office earnings. Pursuing celebrity does not establish that particular ambition."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

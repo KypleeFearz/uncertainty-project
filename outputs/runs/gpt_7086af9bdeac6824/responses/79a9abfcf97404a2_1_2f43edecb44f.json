@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9698n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "05ffcc14177f72efc1f7071067bc1e9527809ef28d080078d7581a6d67c06320",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03b1a1d28e4e2a5d016acbf4c82c6087d2a6701dc8e8772ea1",
+  "received_at": "2026-10-11T20:42:51.110203+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise states that nine Jews were executed in the Scafeld Room but does not describe the execution as an important historical turning point. Its inclusion at the end of the account does not establish that significance."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53468c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b28b66fa39d2b594da7a268599594763a22800283353fc7dacfd82b87a3db045",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b77d0c6609ff964016acbef31f33487d282f1d5c5a9aa058d",
+  "received_at": "2026-10-11T20:19:01.106730+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise questions whether Gross can attract advertisers' spending, not whether he personally paid for advertising. It establishes neither that he had to pay nor that he did not."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

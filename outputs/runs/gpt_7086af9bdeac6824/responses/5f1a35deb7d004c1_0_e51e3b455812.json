@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2833560457.jpg#4r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e2901d76198a0ff027d808ff49e8ec8c56c47d7c6a4d9c6ce8382da90a0e953",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b29453c2291678016acd4a32fec487d293d66d9e7361899b",
+  "received_at": "2026-10-12T20:59:33.995150+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.28,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "Running on grass suggests that the dog is outside and playing, but running does not necessarily constitute play. The hypothesis is plausible rather than strictly guaranteed."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 454
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3caaf2764c9d927b7d4b6f0ccc981cf0505ab08ca85fc4b730e84f440394b58a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cc5b93867942e21016acbf8f9745887d2b60ababce1846c0f",
+  "received_at": "2026-10-11T21:00:44.696099+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise gives Thursday-night viewing of Knots Landing as an example, but does not say that frivolous shows are watched exclusively on Thursdays. It also does not establish that the speaker watches them on other nights."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

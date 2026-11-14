@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34920c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d97f57f3627e78770e4edb0a24bbcba4bbe813ba92c6a14579ddfdcda2ae8a94",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCXFQNFFFWUGG55Rgrs",
+  "received_at": "2026-10-11T21:58:37.538579+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.38,
+    "contradiction": 0.5,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says she used a phone modem and it was like sitting in the office, which suggests little difference and conflicts with 'very different'. The speech is disfluent, so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

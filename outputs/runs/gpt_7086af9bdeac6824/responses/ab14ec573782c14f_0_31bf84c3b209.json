@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102983n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0096321f19527263590da9a5190b36f89f17ae244b1352a3e1941a2acdc26333",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ac01678896fae6a016acbe405f19487d2888c1c4262258201",
+  "received_at": "2026-10-11T19:31:21.561705+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.88,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not identify what would be impossible or mention an assistant manager position at Hardees. The hypothesis assigns a specific meaning to that unspecified impossibility and omits the condition that he must support his mother."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

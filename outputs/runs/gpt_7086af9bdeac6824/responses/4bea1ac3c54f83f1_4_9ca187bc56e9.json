@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97011n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "671e720291c7b998c474298be9e3eaff97aeb80842bd6661b21d9f3351da6b8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e53a7906f3ecf05016acd486f9d6087d2b93b33d24b3fb80b",
+  "received_at": "2026-10-12T20:52:05.149291+00:00",
+  "parsed": {
+    "entailment": 0.33,
+    "neutral": 0.65,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the ANC was expected to oversee land reform, not that it actually would be in charge. The hypothesis is supported if read as describing that expectation, but actual responsibility is not established."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

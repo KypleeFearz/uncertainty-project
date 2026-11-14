@@ -1,0 +1,33 @@
+{
+  "protocol_id": "3942fc496262a9b3bc0436181356edc134b3df98b713570f3911029300be3a58",
+  "at": "2026-10-12T21:55:50.635180+00:00",
+  "split": "test",
+  "n": 327,
+  "premise_groups": 272,
+  "models": [
+    "gpt",
+    "claude"
+  ],
+  "human_thresholds": {
+    "clear_max_entropy": 0.6243943715625421,
+    "debatable_min_entropy": 0.6828639224630875,
+    "clarify_cue_threshold": 0.5
+  },
+  "interpretation": "Empirical results for this split and these models. Prompt variation is a proxy, not a proven identification of epistemic uncertainty.",
+  "unfamiliar_inputs": {
+    "split": "shift",
+    "n": 300,
+    "premise_groups": 290,
+    "models": [
+      "gpt",
+      "claude"
+    ],
+    "human_thresholds": {
+      "clear_max_entropy": 0.6243943715625421,
+      "debatable_min_entropy": 0.6828639224630875,
+      "clarify_cue_threshold": 0.5
+    },
+    "source": "chaos_snli",
+    "note": "Same frozen method; no refitting or threshold changes on this source."
+  }
+}

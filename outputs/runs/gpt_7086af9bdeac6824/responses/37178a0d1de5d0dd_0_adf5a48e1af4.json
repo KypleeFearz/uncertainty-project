@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75572n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e95f19772ce81a6e3b5473ef8481ed683c366c4e7cbf7b1e48e2effc7ec9907",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d340bb0bbb5415016acbf20d018087d2abc6c70b7b49e635",
+  "received_at": "2026-10-11T20:31:12.884238+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says marriage is important, but does not establish that it is crucial specifically to society. Entailment depends on treating “important” as equivalent to “crucial” and assuming a societal context."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

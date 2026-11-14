@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124839n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "87da90b2218d7cf69b3194d4e88b05601d9cdc4f792de95c629528396911f2e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_050e569e9158635f016acbe6dc7e4487d2b754e7718b3a8e42",
+  "received_at": "2026-10-11T19:43:27.781781+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.96,
+    "contradiction": 0.015,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise hypothetically mentions a liberal proposing the argument, but does not establish that any liberals opposed it. The hypothesis also leaves the referent of “it” unclear."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

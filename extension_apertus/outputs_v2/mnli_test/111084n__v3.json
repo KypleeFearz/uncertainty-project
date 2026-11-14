@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "111084n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.95,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.9,
+  "brief_reason": "The premise states a regulatory limit but does not assert or deny whether freshwater and saltwater locations are available for that limit; it is neutral on the hypothesis."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 104
+ },
+ "seconds": 2.39,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:48:54.849364+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_890734502.jpg#1r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a650a7028c29fe47f1356ce440395063a3ce825fc42863ffc2700397d1336b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_027c1b71dce5ab1e016acd4efe835487d2b07631e6bcb72dec",
+  "received_at": "2026-10-12T21:20:01.781038+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise says the boy is playing near the water but does not specify building a sandcastle. Building one is compatible with the premise, but not established by it."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

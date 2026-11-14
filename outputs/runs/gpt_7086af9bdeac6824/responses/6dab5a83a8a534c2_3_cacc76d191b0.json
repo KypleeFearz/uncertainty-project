@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1735n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4333e0d0761efd75e54afa4b73f27ef1cf61dfcfb1a0288813f17dec0215958a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ce7038e3955741d016acbea48e0e487d2a390cb7afeb69a12",
+  "received_at": "2026-10-11T19:58:05.377757+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says that something does not seem fair, rather than establishing that it cannot be fair. It therefore neither establishes nor rules out the possibility expressed in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62982n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2c2fadb751123e91103c75cc0a0ca1c4966891e6323c1925316b3382059ea221",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca8721838b6e8ef016acbf091c39087d2aeac763eaa91d3fe",
+  "received_at": "2026-10-11T20:24:52.679624+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise states that the Oregon Law Center runs the Indigenous Project, but does not establish that the center or the project is in Portland. It also does not rule out that location."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

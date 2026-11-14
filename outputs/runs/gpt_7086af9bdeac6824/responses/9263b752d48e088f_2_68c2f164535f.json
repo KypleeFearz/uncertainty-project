@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3259992164.jpg#3r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee72a1e3cca78f32650f5636b6558c7cd66a6f80a69ace6d14dc98056d9b9820",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0269de96b6e781b9016acd4b170bd487d29e9dd7cb58800b77",
+  "received_at": "2026-10-12T21:03:23.537741+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says people are watching dancing street performers but does not identify the performers as mimes. They could be mimes, but that is not established or ruled out."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

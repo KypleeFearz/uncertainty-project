@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31312e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1e9c3543bd5879cccd701ae66a3fa78fc7af6317df04dc3ce9956432bcdf8294",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0af4d47a315c2dd4016acbf7fb08f887d28bb077d49b593274",
+  "received_at": "2026-10-11T20:56:31.164262+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise explicitly describes books containing each serviceperson's name, supporting the hypothesis when “each person” refers to those servicepeople. A broader reading of “each person” is not established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126583n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f8a4f02d2b09b3ce68a7383bc0ab9e6477193a604b7d609a0927d6e8491ea460",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f9ddc964d826f7c016acbe714105087d291056391e571b2a8",
+  "received_at": "2026-10-11T19:44:23.813637+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says that a woman advised the speaker to take zinc, but does not identify her as the author or state that an author recommended zinc for health. The speaker’s concern about possible harm does not rule out such advice."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

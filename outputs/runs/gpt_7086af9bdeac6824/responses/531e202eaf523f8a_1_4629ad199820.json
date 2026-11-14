@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142630n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e91dc3eff26070e098a0f604d20de5d1a2e0489dcc12b5fa7d86a4dda36504fc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0526a4b890a254b1016acd43e4cee487d2ab20f38920be388f",
+  "received_at": "2026-10-12T20:32:41.176157+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says the speaker asked in a low voice with curiosity, but does not establish an attempt to speak louder or fear preventing it. A low voice alone does not determine the speaker's motivation."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

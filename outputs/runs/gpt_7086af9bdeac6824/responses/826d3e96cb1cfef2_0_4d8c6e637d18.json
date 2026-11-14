@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27956e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b84ff383e1aabaff5cd1aff903b973275faf28f7a5abf05755989e29f6b1ebb4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a865b495c443a9016acbebc3a46c87d2a66c2cf9dc11985c",
+  "received_at": "2026-10-11T20:04:23.625880+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Growth” commonly means expansion, supporting the hypothesis. However, the malformed fragment “&amp” and lack of context leave the intended sense somewhat uncertain."
+  },
+  "usage": {
+    "input_tokens": 355,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

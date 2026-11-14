@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "103155e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ed3b2a501421dcf2b0cb6cb7e9f3b5c66601d5b67a8fb6c8319053f97ea853c2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3ZZaHaZRhHoMCxi58C",
+  "received_at": "2026-10-12T21:22:19.064642+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.62,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker of 'It's absurd but I can't help it' is unclear and may not be Sir James; he merely nods, which could signal agreement or just acknowledgment. His view of absurdity is not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

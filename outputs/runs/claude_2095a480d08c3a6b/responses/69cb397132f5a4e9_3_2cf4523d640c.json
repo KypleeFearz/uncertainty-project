@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34103e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "65f4a577c4739d0ae84ddc6a0b974d8ba5c2115d126ebb00828e54cbdc1b3318",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAUqioBvie6Aq1xZZaH",
+  "received_at": "2026-10-11T21:31:51.292033+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.1,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker states that in every major city the increase of crime is escalating, which closely matches the hypothesis. The speech is informal and a bit loose, so there is slight room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 928,
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

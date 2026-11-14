@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132716c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff62be06263b5dad02b95e3bf93c55287687caf1e172a07314d3321035e75353",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a4f437c022a9804016acbe814485c87d2a4b30d9bbe3f4928",
+  "received_at": "2026-10-11T19:48:40.191301+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.12,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says he now does the task entirely himself, whereas the hypothesis says we sometimes help him and sometimes do it entirely ourselves. Assuming both refer to the same task and current arrangement, these descriptions conflict."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

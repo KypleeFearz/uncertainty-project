@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3091962081.jpg#1r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3536168acd327185704350a5b8dfb31a7abfa9a3a543ce26b1488ab5b9ee9ca6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fbd43191078a6c7016acd4aae827c87d2a7910ef0bf778035",
+  "received_at": "2026-10-12T21:01:39.707828+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.72,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise establishes glasses and black clothing but does not specify that the clothing is light in weight or shade. The meaning of “light black clothing” is ambiguous, so the added description is not clearly supported or ruled out."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

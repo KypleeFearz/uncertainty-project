@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136860c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6cad375df8e9e0c74b906bb1421c2302f97a685631b6349d06c220ee3235cc11",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08231156b69f022f016acbf6f8154487d2a084c803370a07ca",
+  "received_at": "2026-10-11T20:52:13.218244+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.83,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Saying that we ought to agree does not establish whether we currently agree. Moreover, proposing that somebody else do it does not establish a lack of agreement that anyone should do it."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

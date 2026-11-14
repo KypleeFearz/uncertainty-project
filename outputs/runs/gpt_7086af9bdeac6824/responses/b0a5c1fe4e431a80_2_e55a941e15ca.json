@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30282n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d9e64a2318bb09dc580c2c795218f9a3857c30238c3ba662ee6fda53075febd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0581fb7483242701016acbec2e765887d2a5d88716850ac310",
+  "received_at": "2026-10-11T20:06:11.528573+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise expresses amazement at affording multiple missed days and explicitly says the speaker cannot afford even one. The hypothesis closely paraphrases this, but assumes the days are missed from work and that some people can afford them."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

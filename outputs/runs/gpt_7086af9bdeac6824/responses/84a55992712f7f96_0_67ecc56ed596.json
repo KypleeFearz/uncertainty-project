@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142430c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f95ce5e0590616e80ebbe84ce88750c2571e8c08adca7ed3a8fc92d848943b02",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09cab7e42b34565c016acbe981a15487d29dce01d1b994073c",
+  "received_at": "2026-10-11T19:54:46.684751+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise associates discounted flying with greater danger, whereas the hypothesis declares it totally safe. Some uncertainty comes from whether \"should\" expresses an expectation rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

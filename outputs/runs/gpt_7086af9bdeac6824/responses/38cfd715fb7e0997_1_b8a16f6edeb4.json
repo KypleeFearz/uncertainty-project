@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_495340319.jpg#0r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8ab2e5c279bc03c6657a202bb3c792f12a39cd32ba31ee338dc14761adb421c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b76903a5c1a4697016acd4db4c79887d2b6d14e52d03fff6d",
+  "received_at": "2026-10-12T21:14:32.952338+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The second child is described as close behind the first and reaching for his flags, suggesting pursuit in the same direction rather than running in different directions. Their exact directions are not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

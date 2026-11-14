@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26990n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b7964f051354899ea3d2a2672bc3b68e50236d890ecb82e7f7cbf013a633221e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAJdkCcL9Z8NRfheVCu",
+  "received_at": "2026-10-11T21:29:32.712954+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.65,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Lincoln removed his great hat, but never states its color or that it is a top hat. The hypothesis adds those details, which are plausible given Lincoln's famous image but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 795,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4795292403.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89025944819fde26a725f2f32f0c0742ccb2e806d3cca195b8d83d25e1cc1ef9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_065dce604e80256e016acd4d5a86ac87d2b800217ddc363afe",
+  "received_at": "2026-10-12T21:13:03.372719+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "Being pushed in a wheelchair does not establish that the man cannot walk, although it may suggest limited mobility. \"The person\" also does not explicitly identify which individual is meant."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 474
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

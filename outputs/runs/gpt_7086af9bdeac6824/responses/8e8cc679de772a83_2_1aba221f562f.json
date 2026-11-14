@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2508n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3c596282930184ee79be18cf794f8d589747d80a54cfe3e0bfac9dc80c275ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_055a7c900c3d975c016acbeb5d3b8087d2b6ae1179ce45b4e2",
+  "received_at": "2026-10-11T20:02:40.637018+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.69,
+    "brief_reason": "A calm voice without rage does not establish an absence of concern; he could be concerned while speaking calmly. Inferring that he was unconcerned requires an assumption about his internal state."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

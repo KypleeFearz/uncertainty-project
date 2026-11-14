@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61767n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1771b42729bc308a27981ded9df9e4117b75e2262cebe8e5d9aed47a28efc6c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb56d71b90f6d45016acbf0642ea087d2a8eaf2a9c8698dc8",
+  "received_at": "2026-10-11T20:24:07.782699+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.86,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the FDA solicited, evaluated, and responded to comments, but does not establish that most were criticisms or that it plans to use them to identify flaws. The hypothesis's prospective wording also contrasts with the premise's description of a completed evaluation."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

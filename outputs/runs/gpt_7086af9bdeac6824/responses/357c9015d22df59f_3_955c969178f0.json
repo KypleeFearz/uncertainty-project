@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52171c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8f6833ba9ec8c3053ddeeaf1a2e04ca9e84055dcb8045bd99fb86a5e19b77a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0340da117aa0c9f1016acd464851a087d29b32ec48f2543e44",
+  "received_at": "2026-10-12T20:42:52.234278+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.79,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says entrance conferences are generally held with applicable central agencies, but does not establish whether those agencies count as specialized. Central and specialized are not necessarily incompatible descriptions."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

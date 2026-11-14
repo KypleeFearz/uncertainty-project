@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3344632789.jpg#0r1e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise explicitly states that several other people are behind the man performing the trick, which implies they are watching. The hypothesis generalizes this to 'people watch on as a skater does a trick,' which is a logical inference supported by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 124
+ },
+ "seconds": 2.85,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:18:55.005180+00:00"
+}

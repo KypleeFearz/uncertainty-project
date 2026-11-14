@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62414n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "72e8dc02aa29646a4787db3c3d8a8bdfe56206c25354cee96fb489a3a4fee094",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0594020a7fd83b85016acbf96bc8e087d289a94fa203756126",
+  "received_at": "2026-10-11T21:02:39.117564+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise mentions a dispute over conflict of interest but identifies neither a president nor a nominee. It also does not establish the existence or magnitude of a conflict of interest between them."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61216c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0680ca413038312afe3be2e23baff1fbf9abfde4fca8ae292735993b0b2502de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d363d80c0b75c0016acbf955a7d487d28b17497a70cdbe65",
+  "received_at": "2026-10-11T21:02:16.706991+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes a few high-value cards seeded into packs to create lottery-like purchases, rather than every pack containing every desirable rare card. The hypothesis's universal claim conflicts with that limited, chance-based distribution."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

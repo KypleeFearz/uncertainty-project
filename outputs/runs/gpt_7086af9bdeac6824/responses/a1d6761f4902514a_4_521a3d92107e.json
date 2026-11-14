@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18264e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d387e2a3bef877e487ab633c6054431957649e3d3224b84a21ae759b465b315",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0535ea4df4689673016acbf76ceecc87d2acfbc0d88a657b48",
+  "received_at": "2026-10-11T20:54:08.835254+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says most of the whale cannot be compressed, which supports the claim that whales cannot be compressed well. A small uncertainty comes from generalizing a statement about 'the whale' to whales overall."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

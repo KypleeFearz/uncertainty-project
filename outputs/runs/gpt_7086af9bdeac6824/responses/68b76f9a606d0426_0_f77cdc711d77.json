@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "020620582d726fb174c9f6296db48257a4e583e41e5c1c8d67d7947ca58214af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff6f4f525042552016acbe3f3c0d087d2acda0ec000cfa70e",
+  "received_at": "2026-10-11T19:31:04.171487+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker favors a hypothetical generation living without debt but does not establish that their generation currently has no debt. The hypothesis turns that conditional aspiration into a statement about the present."
+  },
+  "usage": {
+    "input_tokens": 557,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 694
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

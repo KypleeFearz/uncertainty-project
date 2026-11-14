@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61369n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23ea809fa141920aada6b18b7b14c8e9fb4455f7603bf2e80fc2cc94cf40d5ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06aeae9e114d8fac016acbf96238fc87d2a0aec79ce32be173",
+  "received_at": "2026-10-11T21:02:29.594445+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise establishes that dinghies can be hired at the listed marinas, but does not establish their excellent quality. The repeated Akko does not add a substantive claim, while 'for the marinas' is less clear than 'from the marinas.'"
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102983n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "be54f30025907524fbab371cfc57a033bd2b92da71c19d2701a98076c79afaaf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8zsCCn6U9aFVK6QPR7",
+  "received_at": "2026-10-11T21:12:25.185864+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.8,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says it would be impossible for an assistant with an ailing mother to support, but it never mentions Hardees, a manager role, or why it would be impossible. The hypothesis adds specifics (assistant manager, sick mother as the cause) that the premise does not establish."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 816,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

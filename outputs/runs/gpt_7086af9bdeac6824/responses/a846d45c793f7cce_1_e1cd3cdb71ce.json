@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102923n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab38aaaf9c1b9c5ae50a8fcc7c66589b23beab7c3f637f868e909964503e0535",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df2f920f9b2f16d016acbe402b43487d2bdf412ccef9dd50f",
+  "received_at": "2026-10-11T19:31:17.893400+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise gives a negative assessment of the movie but does not specify the speaker's expectations. Even an unimpressive movie could exceed sufficiently low expectations."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

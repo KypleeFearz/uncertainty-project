@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137399c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1842dd397bf0a0ce1598e97ec43fc2d29a096d800ad024a67921cd79c7f8d5a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e1ff5f4e7086584016acbe8c26cdc87d297d70f787033f9ee",
+  "received_at": "2026-10-11T19:51:34.541590+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.79,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "TDY indicates temporary duty at Bent Waters, but does not establish whether the position was full-time. If 'full time position' is intended to mean a permanent posting, it conflicts with the temporary assignment."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

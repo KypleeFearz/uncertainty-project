@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "100637e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bb96918b0d5eee16fd70224e2bb93198b1d077e40304eb7f549f163f44584396",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8v8DT5bbmdW2EfGHfp",
+  "received_at": "2026-10-11T21:11:21.245967+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.3,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The speaker says the venue is not large enough but that about forty thousand people were squeezed in, which suggests a large capacity and conflicts with 'doesn't hold many'. The complaint about size leaves some room for reading 'many' relative to demand, so it is not a certain contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

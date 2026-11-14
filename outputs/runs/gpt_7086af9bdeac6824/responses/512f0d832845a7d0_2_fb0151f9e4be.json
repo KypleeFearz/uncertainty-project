@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118415n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4d90c9a40368af0f121897d04f655751c15412f41f1e198254f8a87b1414f833",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080fa26e1533e1e6016acbf64537f887d2b0429531ffc731b7",
+  "received_at": "2026-10-11T20:49:12.459698+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise attributes a cost advantage for single-firm street delivery to Panzar, but does not establish his support for nationalization or consolidating all postal services and couriers. An observation about delivery costs does not by itself imply that policy preference."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

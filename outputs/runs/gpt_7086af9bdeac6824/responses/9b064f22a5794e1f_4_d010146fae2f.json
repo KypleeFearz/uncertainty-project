@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63462e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a3fb6d4291fa99b1dc00279a240ebae7de2d722d8dc680d313b9ca5e0017b03",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07121367fdad94f0016acbf0b410b087d2a9dd8232fbd18c4c",
+  "received_at": "2026-10-11T20:25:27.900292+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Both utterances express a farewell, but \"all right thanks\" does not establish the stronger positive evaluation \"that's great.\" The premise neither confirms nor rules out seeing the other person later."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

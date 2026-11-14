@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "36764n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "32839e19a68117be0b074010973b8de0114c29bc21a7605f57ed81806d50cc95",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAXcxBX8p2dYXW5CAH6",
+  "received_at": "2026-10-11T21:32:29.407428+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.6,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says cold air and plentiful water cheered them, but it does not say the air was fresh or mountainous, and it credits water as well. The hypothesis adds details and focuses on the air alone, so it is neither entailed nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

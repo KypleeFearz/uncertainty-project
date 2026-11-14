@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34185n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c9c5dc17b0a4e7152e6ce845205c6be97551cef775456e9a19866811bdf5165c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ea826974f77963016acbf822053087d2a223276f8713ff5c",
+  "received_at": "2026-10-11T20:57:11.186166+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise mentions a spoiler kit, a big engine, and unspecified similar features. This suggests additional auto parts but does not clearly establish that there were \"a lot\" of them."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 574
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

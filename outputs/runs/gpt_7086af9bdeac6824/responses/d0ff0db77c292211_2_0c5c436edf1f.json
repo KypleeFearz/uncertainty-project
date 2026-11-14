@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_985982384.jpg#3r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "996a755e0fbbc2751560e7edb3b66e54a24cbbddfe0fa8f499ad1329362e4916",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0335e4d63b21e54c016acd4f16d60087d2a65e6076714f584f",
+  "received_at": "2026-10-12T21:20:28.515614+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.18,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise places the rocks above water, supporting the hypothesis if “hangout” loosely means being situated there. If “hangout” requires social activity, the premise attributes that activity only to the people, not the rocks."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

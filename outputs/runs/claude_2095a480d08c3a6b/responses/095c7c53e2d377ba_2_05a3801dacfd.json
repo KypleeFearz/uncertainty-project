@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "139836n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e5a2e69df035b596afde9fab7a733fd3716b995951ab7dfc9d7814d367f79c82",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9sesU36HMqcUqRDi9Y",
+  "received_at": "2026-10-11T21:23:54.364495+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.24,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Dear to Richelieu and Louis XIV\" means they valued centralization, which supports the hypothesis. The \"of his country and people\" detail is a slight extension, but it is a reasonable reading."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

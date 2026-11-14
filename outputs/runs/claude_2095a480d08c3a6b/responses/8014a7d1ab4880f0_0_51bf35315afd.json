@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53074n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2e3c75be65d221a95579e5f0508552ed811d76258b0f8d85897dba4718268e88",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCfcVrytyBnWvRhyBVU",
+  "received_at": "2026-10-11T22:00:31.593154+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.66,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says they watch frivolous shows like Knots Landing on Thursday nights, but also mentions \"some of those frivolous things\" and \"the others,\" which suggests they may watch others at other times. The premise does not state that Thursday is the only time, so the exclusivity claim is unsupported, with some chance it is read as contradicted."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

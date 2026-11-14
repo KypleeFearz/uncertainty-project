@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53619c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "348f1f7f32923288ebafef70c41c715e5356d3b9c90a8cb514d891729b536993",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4PsX7vH3s63xHXNCSG",
+  "received_at": "2026-10-12T21:33:14.149214+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.1,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise calls ne.weather an 'even more specialized' group focused on Northeastern weather, which conflicts with it being a general discussion group not only about weather."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 837,
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

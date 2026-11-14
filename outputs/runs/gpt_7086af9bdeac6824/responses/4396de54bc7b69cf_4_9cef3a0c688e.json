@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14388c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "beb7e0da7418f20e5daa00ab0f0f2792af025a6c282a6828412d598b95b0e211",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03dfe62b2215e492016acd440b179887d2817149b9d13d3eb2",
+  "received_at": "2026-10-12T20:33:20.106665+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.3,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The speaker criticizes a system in which a small sentencing difference changes parole eligibility, which conflicts with the hypothesis's endorsement of fairness. However, the premise does not explicitly say the system is unfair or establish whether he will receive a deserved sentence."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 102
+    },
+    "total_tokens": 621
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

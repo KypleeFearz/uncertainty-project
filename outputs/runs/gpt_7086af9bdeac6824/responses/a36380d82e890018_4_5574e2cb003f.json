@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59934c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a9b63032c37c29a416e2b4c4618c0bafd7a0493c0a95a64d99e7d4e9a31c0023",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ebd45ae1ccb1505016acd46d7aebc87d2ba598d259452888f",
+  "received_at": "2026-10-12T20:45:16.645059+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says the programs failed to capture knowledge consistent with best practices, not that the knowledge itself was inconsistent with those practices. The hypothesis therefore requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

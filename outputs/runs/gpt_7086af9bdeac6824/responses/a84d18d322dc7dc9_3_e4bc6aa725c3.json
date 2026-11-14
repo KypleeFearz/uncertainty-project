@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121360c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c99b77b2753d7a456e156276aaa422e13b9b3d190f6db73106bf5a9d51adef1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00468cbebb5cd98a016acbe68336a887d29359f559ab41e611",
+  "received_at": "2026-10-11T19:41:57.959416+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise describes a tip's shape and compares it with slaughter-knife tips, but establishes nothing about fragility or the ability to scratch. The referent of \"They\" is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

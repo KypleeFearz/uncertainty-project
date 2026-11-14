@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "142950e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d8aa69a55eae50dc69849cdf0cda68676d7c81cb5548a2d02068a265a155df91",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9wTxVxhbaiUcoUoVu8",
+  "received_at": "2026-10-11T21:24:46.230429+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the anchors Dave Fox and Tracy Rowlett came from Oklahoma City 13-14 years ago, not that the channel itself did. It also says the channel turned around and is doing a remarkable job, which loosely fits 'doing great', but the hypothesis shifts the subject and fixes the time at fourteen years."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 854,
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

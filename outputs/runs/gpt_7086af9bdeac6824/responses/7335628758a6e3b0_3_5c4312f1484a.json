@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42563e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d04ccd24dfd8b5b05608ace1d7c105bfea8506a05e5faebe5a6c0ed559d68749",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_007bb5456bba1560016acbedb2a90887d2a9307fed65c587bb",
+  "received_at": "2026-10-11T20:12:38.837582+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The speaker hoped Inglethorp would lead them to a hiding-place, but this does not establish that it was where Inglethorp himself hid. The hypothesis is more supported if “where he hid” means where he hid something rather than himself."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "101253c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "99aa389a658c004ac7a303e955a23cab2f4cfbd742da5bce30d7a8ab24ac3bf3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8wpyRNVAWXyEdtBQr3",
+  "received_at": "2026-10-11T21:11:43.856375+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.55,
+    "contradiction": 0.33,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise places Ataturk's nationalism-building in the 1920s, and says nothing about 1942. Ataturk died in 1938, which would make the hypothesis false, but that fact comes from outside the premise, so neutral is most likely, with some weight on contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120149c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ffff34b02133891356b055b4ce33157331dc2e4ae4f78f6ae835f3f89672e76",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d7cb9cc32e9b8a4016acbf64d5f3487d2ba13571e52aa0185",
+  "received_at": "2026-10-11T20:49:20.525802+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.03,
+    "contradiction": 0.96,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise describes many villas that gradually became sparse, whereas the hypothesis says there were only a few throughout. It also substitutes a small village for the final villa described in the premise."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

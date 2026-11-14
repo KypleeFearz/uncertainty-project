@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10004n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1532d39ca8bb6313dab4534730884892ecd8955b440458406df291fbb9feef2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d0c7786d358056016acbe37ed8f487d297999ec752398941",
+  "received_at": "2026-10-11T19:29:07.591107+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.44,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.56,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "If “that” refers to sentiment, the hypothesis plausibly paraphrases the premise. However, the premise does not explicitly establish that the reason is that sentiment is inconsistent with who the person is."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_310401525.jpg#3r1e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.9,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise specifies that the people are in New York City, while the hypothesis says they are looking at New York, which is ambiguous about whether they are viewing the city itself or something within it."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 337,
+  "output_tokens": 110
+ },
+ "seconds": 2.45,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:13:43.334895+00:00"
+}

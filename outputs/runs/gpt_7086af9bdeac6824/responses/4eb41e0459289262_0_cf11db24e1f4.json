@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144753n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1a0d57ee8cb68a39ebfdb15475107868243120207c775c17f9770335c06b3b8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c2c9c159a9bf27016acbe9dc60f087d2aeb49f3206942ec4",
+  "received_at": "2026-10-11T19:56:15.845469+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise anticipates innocent people suffering from his strike but does not state whether he cares about them. The quotation may suggest willingness to accept casualties, but willingness does not necessarily imply indifference."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

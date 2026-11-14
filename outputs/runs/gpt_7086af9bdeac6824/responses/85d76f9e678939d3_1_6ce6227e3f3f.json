@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56258c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea2891993da2f6beee93526cc70121f9512fdefde7ee0c33e923bd1e1551e028",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf9e2e10223436d016acbef91feec87d2ad13ab711504eeaf",
+  "received_at": "2026-10-11T20:20:37.838253+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.12,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The speaker wants to emphasize the risks, which conflicts with wanting to forget about them. The premise does not establish any desire to join the other person’s course."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

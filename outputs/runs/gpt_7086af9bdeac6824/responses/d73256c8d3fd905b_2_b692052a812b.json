@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10229n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89ef9ff83e332b2538496243a55b9b374de6fe68b59fad0f32e9658dfbc96d19",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0d2246cc82b2da016acbe3ec4fe087d29b5359df5d4d12ba",
+  "received_at": "2026-10-11T19:30:55.573311+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise describes the committee and its appointment recommendation role, but provides no information about the process's duration or future reforms. A large committee might suggest complexity, but neither claim in the hypothesis is established."
+  },
+  "usage": {
+    "input_tokens": 433,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

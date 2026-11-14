@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61198n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7964df0d1e55f84dafacfaec45d0b9b4609140c81e3170fb76fec65774cb6f4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e9de1523b8eca32016acbf037ad8087d2846a30124d50dcfd",
+  "received_at": "2026-10-11T20:23:24.222942+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise criticizes how income taxes fund schooling for families with different numbers of children. It does not explicitly establish that income tax laws need changing; that is a plausible inferred recommendation."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

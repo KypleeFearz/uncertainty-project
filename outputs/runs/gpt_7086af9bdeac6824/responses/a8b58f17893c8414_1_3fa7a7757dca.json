@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2924825127.jpg#4r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "01c9cdba1e0c989a103cd893fa97d76ef8fac0bb585552929690879fa8050b61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0421f17eac1047e3016acd4a6a8ccc87d29d18537969383697",
+  "received_at": "2026-10-12T21:00:32.580185+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.85,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise establishes that spectators watch a man tumble, but does not establish that he is running or on a field. Tumbling could occur during running, so the hypothesis is not ruled out either."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

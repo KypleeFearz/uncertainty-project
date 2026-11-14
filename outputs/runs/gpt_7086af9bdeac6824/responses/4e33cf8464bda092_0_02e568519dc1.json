@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75259c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "78745fe68148e931bdbe49bb416ee25bdfc27cfa6b0663b2855d0d2d2a3c1171",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb1a2602a9efb7d016acbf1fddbac87d2be73146974fb122a",
+  "received_at": "2026-10-11T20:30:57.708709+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "The premise offers buffet and à la carte options but does not specify how food is served. À la carte dining often involves table service, but that is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

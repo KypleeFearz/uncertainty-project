@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50415n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d4e9f6e6f71bce19d07ac6e99798bdd1ea5fd3e9ab39de92e91eac15090b1bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dfea52419526d46016acbf8dfef0887d2baddfd1fd96d1a4b",
+  "received_at": "2026-10-11T21:00:20.869632+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise mentions living in an apartment but does not specify what follows from that condition. It neither establishes nor rules out the hypothesis’s exception for living in a house."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

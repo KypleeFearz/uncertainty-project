@@ -1,0 +1,8 @@
+comparison,metric,estimate,ci_95_low,ci_95_high,better_if
+apertus_minus_gpt,majority_agreement,0.06774193548387097,-0.012987012987012988,0.14264240506329112,positive
+apertus_minus_gpt,js_divergence,0.046407465325589765,0.024335361487415913,0.06703007142477214,negative
+apertus_vs_gpt,same_answer_rate,0.43870967741935485,,,descriptive
+apertus_minus_claude,majority_agreement,-0.0032258064516129032,-0.07385576625785839,0.07078025477707003,positive
+apertus_minus_claude,js_divergence,0.11611110654409816,0.09502138315591616,0.13735426018300834,negative
+apertus_vs_claude,same_answer_rate,0.5548387096774193,,,descriptive
+gpt_vs_claude,same_answer_rate,0.7483870967741936,,,descriptive

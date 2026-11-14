@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93839c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e035e54ae5a77fb4698710f6b7457bb0f22c59dd2e279d7a3e33d48ad98d0e17",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_034974c8e5132a97016acbf475200c87d2ae8a081ece374f70",
+  "received_at": "2026-10-11T20:41:30.358793+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.21,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise describes her as smiling, whereas the hypothesis describes tightened mouth corners and a furrowed brow, suggesting a contrasting expression. These facial movements are not strictly incompatible with smiling, so some uncertainty remains."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

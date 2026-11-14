@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6105e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b4cee16641bcc73fa15bb14d4ae208a8bf603a092fafa34f078195742513df32",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a06aaf8772edfa7016acbf02331c487d2997923294714ca50",
+  "received_at": "2026-10-11T20:23:02.742296+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says Nicholson invoked what was apparently the party line when asked about abortion on CNN, supporting the description of a standard party answer. The qualifier \"apparently\" and the awkward phrase \"party-line inclusive party\" leave some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

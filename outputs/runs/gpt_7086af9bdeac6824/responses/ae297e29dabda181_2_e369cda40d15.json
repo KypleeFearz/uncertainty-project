@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49396e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a83db9f09595afede7b72f2e952418598c7a1cd450d8d46c6532ca0d07499ffd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a2e5ec71a73549016acbf8d49c1c87d28c9d78da7f933614",
+  "received_at": "2026-10-11T21:00:07.844264+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "Being untouched by tourism does not establish that no tourists travel on the road. The premise describes the places' lack of tourism influence, not the identities of people using the road."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

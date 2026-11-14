@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78013n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "291ff56821c48e79cd62d546dcfca06cd2ff02bafe72d79ab3bf619a38b720d5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_088b1b6ccc703d3b016acbf269cb8887d2b1a154a46b90ea77",
+  "received_at": "2026-10-11T20:32:46.033555+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.75,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise supports preferring a nearby restaurant, provided its food meets a minimum quality standard. It does not establish that the speaker is unpicky about food types or that avoiding travel is their only concern."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

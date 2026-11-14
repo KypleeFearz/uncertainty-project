@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68946c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c2c856e9e81512f4fe981fda2fe15c24bc1604ef72154930350fab02e8470ada",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_083e194d2496eb0d016acbf136f70487d28470d84af4daf081",
+  "received_at": "2026-10-11T20:27:38.635050+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise says the site served as a fortress for several groups and contains layers of their masonry. It does not establish who built the fortress or give the date 1173."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75084n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c32875b55ce657507c47469c6ac2fd979480900e43c1349507c5ddce4b906ae3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09bf9092ab7e613c016acbf1f9e83487d2b1d19fcad94889db",
+  "received_at": "2026-10-11T20:30:53.893651+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise establishes a rampage and communal violence, but does not specify that Sikhs were killed or brutally slaughtered. Slaughter is a possible escalation of the described violence, not a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "111693e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2af192e0ec9488baee0e68d72c3d0f587b4eb88459bfe7da851766132e6a99d7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvqcgadvLBUtVHpaxjRt",
+  "received_at": "2026-10-11T17:24:32.080848+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is about book chains persuading publishers to favor blockbuster books over moderate sellers, not high-budget films. The hypothesis changes the domain to films and says publishers want this, whereas the premise says they are persuaded, and the claim is only alleged. It also mentions badly selling books rather than moderately selling ones, so the hypothesis mismatches the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

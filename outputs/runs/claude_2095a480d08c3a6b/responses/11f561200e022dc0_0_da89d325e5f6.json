@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "15791e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d23484733683d240ed940a10ae8d84e346250ee34b3ec0b05818d4a7703229d1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3zrt2xkn6hxLHiSENi",
+  "received_at": "2026-10-12T21:28:02.986136+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.25,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says per capita consumption in less-developed African nations will scarcely improve or will decline, so the hypothesis's 'improve or decline' is broadly consistent. It is vague about what changes (consumption, not the nations), and 'scarcely improve' weakens the 'improve' option."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

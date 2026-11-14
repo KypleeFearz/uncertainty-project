@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6796767853.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "689899b490c42b363e74a2edcbd2f0432dc7632673be22c1dc02decce89fe379",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040744e17c94d9a5016acd4e71642887d29e00b7a19d224f7b",
+  "received_at": "2026-10-12T21:17:41.747445+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise states that an athlete performs a judo throw while a judge watches, but does not establish that athletes are required to perform particular moves for the judge. Such a requirement is possible, but not guaranteed by the observed action."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27287c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e9beacf634fff55237552da6943493eaeddfd3f0e36311c35d9f9e05b4dd1109",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035be01cc5931140016acd44be4a8887d28730daabd629d482",
+  "received_at": "2026-10-12T20:36:17.629522+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.91,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Talking and asking someone to behave do not establish an argument or a provocative challenge. Inferring a confrontation from the admonition is possible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

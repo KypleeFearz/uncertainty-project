@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4757587296.jpg#2r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e0427e69dc791e551fe74508ed65a81cdb4e2796563f8fd737d8872895a417c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08cf26dcc43f7690016acd4d3941d887d29fbb5ff257c9a12a",
+  "received_at": "2026-10-12T21:12:30.330131+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise does not establish that the girls are friends, are heading to their house, or decided to skip. A decision to skip does not necessarily conflict with their currently walking."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

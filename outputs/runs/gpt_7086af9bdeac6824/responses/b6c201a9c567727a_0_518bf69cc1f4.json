@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36655n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6ffe300d781018fd0be6840a19e088ebb1bd0df118681dddf747e2236134ba05",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ac37d194d969081016acbecd6efec87d295060236e1f7d1c5",
+  "received_at": "2026-10-11T20:08:59.636904+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise identifies Napoleon's nephew as the leader of the Bonapartists who triumphed in the 1848 revolution, supporting the hypothesis. However, it leaves France implicit and does not explicitly state that their victory resulted in his ruling the country."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

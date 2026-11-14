@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105769e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce4a893e621703c3ca5056ae6f80d756f29fbf6e6accf3005889298ac7c611a5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c1ba80e60dea67016acbf5826eec87d283fbb81154d28b0a",
+  "received_at": "2026-10-11T20:45:58.114631+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The speaker intended to become an algebra or French teacher and unexpectedly did well in chemistry. This suggests a possible change in academic interests, but does not establish either the intended major or that the speaker fell in love with chemistry."
+  },
+  "usage": {
+    "input_tokens": 464,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 598
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

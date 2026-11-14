@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135251n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5edd4ecbc649f7454cb079269f0325edde6a224f5c85af602a4d3a8c0b0afdcf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c9b71af1aaf217b016acd43639f4c87d2b55e4566acb3ec99",
+  "received_at": "2026-10-12T20:30:33.776281+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says they went to Florida and needed to rent a car, but does not state that they actually rented one. Completing the rental is a plausible assumption rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

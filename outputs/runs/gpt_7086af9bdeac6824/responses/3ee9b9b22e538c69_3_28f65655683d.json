@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "25304n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "81c7f5431901d9ed88739f840db97eba8964c33c52365bf6b8a5593dc564a678",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dc1c19e787d8ba8016acbd8fcbad487d2b362c9c9051b9669",
+  "received_at": "2026-10-11T18:44:17.136650+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.09,
+    "contradiction": 0.89,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says the item was bought on credit and found on clearance in Memphis. Clearance ordinarily indicates a sale item, conflicting with the hypothesis's claim that the items were non-sale."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

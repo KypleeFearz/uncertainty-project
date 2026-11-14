@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135401n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "793b6aacabf86fa2be25b55bc27f510e14e0dba60eb6d2dbdc1a1eec070d363e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_073c83baeaa61a8d016acd436d881487d286432373889f26ff",
+  "received_at": "2026-10-12T20:30:42.043110+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says adjacency to an operating boiler was not required, but does not say whether any equipment was actually adjacent. The hypothesis also leaves unspecified what the equipment was adjacent to."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

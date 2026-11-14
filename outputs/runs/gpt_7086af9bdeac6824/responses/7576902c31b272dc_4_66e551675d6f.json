@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117892n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a89181b0138d61abef2402490ac14833e92155c133e450ebe39066b817ea8421",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01587c3526c231c7016acd426bfec087d28feaf4aa0d1ca4cc",
+  "received_at": "2026-10-12T20:26:24.585015+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says Dave Hanson was too important for an unspecified action, but does not establish that the action involved risking his life. The hypothesis is a plausible interpretation of “that,” rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

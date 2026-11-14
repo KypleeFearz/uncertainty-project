@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2862481071.jpg#4r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f47aee367b34a9dfc0822936cbcd284cc5945c0580aba6c1c12fed54197d660",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08309856679db288016acd4a508adc87d28a420e1f7ab8fa60",
+  "received_at": "2026-10-12T21:00:04.321451+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise establishes that trucks are racing, but does not specify four trucks or a relay. Those additional details are neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71457n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d666483cea43eb99f846c199a9db6afd4eb84f43e9e6c572dca0c0cc60e2e50a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e02a2218350c74a016acbf1754c0087d292c23e139689a4d4",
+  "received_at": "2026-10-11T20:28:40.734334+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says they abandoned the matter and hoped it would turn up someday, but does not report whether that ever happened. Hoping for a resolution does not establish that the problem was solved."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

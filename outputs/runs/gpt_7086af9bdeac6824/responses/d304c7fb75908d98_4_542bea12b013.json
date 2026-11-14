@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4913618813.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7cc50e742735b6a2616f4a6bdea8e17aae2136578d4a135aba922bb7b3ab0a3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b27d36a11094e9d016acd4d9a352087d285fb088753316e02",
+  "received_at": "2026-10-12T21:14:05.336656+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.79,
+    "brief_reason": "Orange cones could mark a construction area, but they could also be used for games or training. The premise does not establish that the girl is in a construction area."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

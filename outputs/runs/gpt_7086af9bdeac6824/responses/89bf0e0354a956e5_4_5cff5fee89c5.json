@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53468n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1af3fb398f6245bdb7fe7da970798f617ff63d0b16177dbc298c8e6817a438ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0899536e3a126b50016acbef3772ec87d2893f8b1d7b602e50",
+  "received_at": "2026-10-11T20:19:07.263362+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise questions whether Internet advertising could enable Gross to capture advertising spending or attract additional spending. It does not establish that Internet advertising saved him money, nor explicitly rule that out."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

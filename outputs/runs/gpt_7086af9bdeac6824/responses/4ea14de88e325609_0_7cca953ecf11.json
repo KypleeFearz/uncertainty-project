@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108027e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c0f087b36b8047e64de7f5d0bc0ee1d59dd1c743ce980ebe3330f659700197fc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09bd44f83d5713a1016acbe4b7099c87d2b7ed7ccfa6ff1b62",
+  "received_at": "2026-10-11T19:34:19.664361+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says that Severn stepped out after the door opened, but does not establish that anyone approached while it was opening. The referent of “they” is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

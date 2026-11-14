@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3186338070.jpg#2r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fb794c8e5b4dc39e089c36190d164c661408760c4ee7c0f7a3f5897910544a1c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_032747cd770c3566016acd4af0183887d2be8567c594151ac6",
+  "received_at": "2026-10-12T21:02:43.050946+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise explicitly describes a person performing a snowboarding trick, which supports that a human is snowboarding and doing tricks. The plural “tricks” is naturally read as a general description of the activity, not a requirement for multiple distinct tricks."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

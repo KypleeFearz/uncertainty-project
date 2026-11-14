@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89995e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aaceded380f24307c4345e426bdfdf08eeaf0f7eaeb36e308fc6fdbe3ad26d09",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ae3f1ab2545d197016acbfaab1c6c87d28f3561e710731994",
+  "received_at": "2026-10-11T21:08:00.286293+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.56,
+    "contradiction": 0.32,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.52,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says there is no particular mess to clean up when using oil-based paint, but it does not establish whether such paints can be very messy in other circumstances. The referent of \"that mess\" and the fragmented phrasing make a broader contradiction reading possible."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 97
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

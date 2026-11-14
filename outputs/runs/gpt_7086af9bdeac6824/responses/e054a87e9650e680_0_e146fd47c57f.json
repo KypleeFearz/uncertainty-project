@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39957n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be00c22fa0cdc549d8142b3a87cc0b41f422c3a7aa51c559b41183fd71d4d021",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1684d88dcfdb9a016acbed54014887d296f7269b65b7b8d3",
+  "received_at": "2026-10-11T20:11:03.052083+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise gives the road distance from Luxor to Esna, but does not specify a required means of transport or exclude other routes. It therefore does not establish that car travel is the only option."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

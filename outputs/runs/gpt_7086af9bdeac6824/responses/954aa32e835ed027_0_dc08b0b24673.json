@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13760n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c67b8460d344659aa63f020cbe7ee108158c556d7074b5fe6ac5e0f627d83dbe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0653d9f99d0063be016acd438e327487d2be903a2f4ae1262c",
+  "received_at": "2026-10-12T20:31:15.119350+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "The premise warns of a possible underestimated CPI and resulting yearly stealth tax increases, but does not establish that these consequences will occur or qualify as horrific. The hypothesis strengthens both the certainty and severity of the warning."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

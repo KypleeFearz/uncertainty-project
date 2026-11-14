@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "139595e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.25,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise suggests considering a philosophy that applies to any weapon, which aligns with the hypothesis that they go with any weapon. However, the premise is phrased as a question, introducing uncertainty, and the pronoun 'they' is unclear, making the inference probabilistic rather than certain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 327,
+  "output_tokens": 132
+ },
+ "seconds": 2.88,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:03:50.881829+00:00"
+}

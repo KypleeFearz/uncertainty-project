@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "130869n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "174183cf01660ef6c59b7d4c3d0ef44cf02c78280b2358fdd8233c4e6f720dc9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCGXWpycRm49Z4bMadH",
+  "received_at": "2026-10-11T21:55:18.552336+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.1,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Castlerigg near Keswick is in Cumbria, England, so the hypothesis's claim that it is in Scotland conflicts with the premise's location. A reader unaware of the geography might see the location as unstated, but the premise's mention of Keswick fixes it in England."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113570c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5ce8db73ed4ada312b85c54a20c31660ce68db3bd5fba763eba4ce1f22af1536",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b96d5f21c2571fa016acbe562226087d2b486effc942cbd15",
+  "received_at": "2026-10-11T19:37:10.615299+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Reading “will aware” as “well aware,” the hypothesis opposes Harrer’s reported denial of knowing. However, a denial does not establish his actual knowledge, and neither sentence specifies what “she was” refers to."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

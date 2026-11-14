@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6087966524.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d163c3f270b36a90848b53bae069c1eb7fffdf8ebdcb3cdbdf0ac8caa97d1379",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01bc9b07453accfd016acd4e2c7e8087d2b26a8e5c53335b8f",
+  "received_at": "2026-10-12T21:16:32.484881+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.73,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.89,
+    "brief_reason": "Sitting on motorcycles is compatible with waiting, but the premise does not specify what the officers are doing beyond sitting. Waiting is a plausible assumption rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

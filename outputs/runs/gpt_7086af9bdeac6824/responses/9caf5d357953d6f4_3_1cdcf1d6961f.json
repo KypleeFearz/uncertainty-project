@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86184c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c49b21bd36f5e376a543cbb52a907a1a75a862b116c8de331ad4b394679ef1a0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0010a29457ab6a85016acbfa79c40887d2b6558a18430b2e95",
+  "received_at": "2026-10-11T21:07:09.485400+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says Gingrich may have positioned himself to fill something, not whether he ultimately will or will not fill it. The referent of “it” is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

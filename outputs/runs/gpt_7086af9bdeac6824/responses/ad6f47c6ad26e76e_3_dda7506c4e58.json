@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95883n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3926c0104ad8dc88b238e752f4cd745ab5033a7d55c138ed1fe15248201f1986",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5b5373173679d6016acd484ad70487d290deff1c20cedaa6",
+  "received_at": "2026-10-12T20:51:26.842495+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "Introducing legislation does not establish that the government enacted an increase. The premise concerns a supplement charged on filing fees, not a government budget for those fees, and does not characterize the change as fortunate."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

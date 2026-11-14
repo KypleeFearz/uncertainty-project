@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97394c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a4c7f8136920b4de82f575ceba8e149c0b18662d57523e631d0e4356bf8bf9c7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD25qy59iCtg8oZCbtS",
+  "received_at": "2026-10-11T22:05:09.452106+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.4,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says First-Class mail already carries a disproportionate share of overhead, which suggests but does not state that it should carry no more. The hypothesis is vague (\"enough ... to handle\"), so it could be read as agreeing with the speaker's implied stance or as an unestablished claim."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

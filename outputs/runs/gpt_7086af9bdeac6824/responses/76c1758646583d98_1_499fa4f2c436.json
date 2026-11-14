@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131623c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "07cb4b25b80ae76c4edde689c97b455b8bc506deca9c0167c5ba378c8b7a2a79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a187b8060c5e37016acd43180fe887d2bebd59f29ed416db",
+  "received_at": "2026-10-12T20:29:16.178120+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.92,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise reports Americans' suspicions of Communist infiltration and subversion, not established Communist actions. It neither establishes nor rules out Communists assisting America's government during the Cold War."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106390e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f37e39630682d9ee583f344edab77e1c04dbfe5095dcb19764d76ba75d60809a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0028f43a923afce7016acbf58bb99487d2b1304d31a6c3c3d2",
+  "received_at": "2026-10-11T20:46:08.093631+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise explicitly says diving was never banned in Mykonos, but does not explicitly establish a ban elsewhere. The explanation for its head start strongly suggests such bans, without logically guaranteeing them."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

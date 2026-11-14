@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23765e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a1c6a630a8e90f2a61f9e7cb6e2726f8b027c52e8f3fae13994fd66f144a728c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwADswqPiXHMsZ6mbsVw",
+  "received_at": "2026-10-11T21:28:28.298105+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.11,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker says the Old Testament has a number of places where the Lord went out and struck down people, which matches the hypothesis. The vagueness of 'numbers of places' versus 'many' leaves slight room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 859,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4534889800.jpg#0r1n",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.3,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.4,
+  "brief_reason": "The premise describes two unrelated actions without indicating roles (e.g., whether the apron-wearing man is a waiter or customer) or temporal order (e.g., whether the gift-bag man is the last customer). The hypothesis makes specific claims about roles and events not supported by the given information."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 367,
+  "output_tokens": 131
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:33:47.529539+00:00"
+}

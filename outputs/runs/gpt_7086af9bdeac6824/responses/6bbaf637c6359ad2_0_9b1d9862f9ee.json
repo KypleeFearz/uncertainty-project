@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65353n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e0bc973f33fdf55f36bd5139622fe6d1af7b72a70ee3462d73adb711ddd5add",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04753326c5bd41aa016acd470ec67887d2b39071b7d7f7e1bb",
+  "received_at": "2026-10-12T20:46:10.205514+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Kindly telling the lad not to take something to heart strongly supports an attempt to console him. The speaker’s intent is inferred from his words and manner rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

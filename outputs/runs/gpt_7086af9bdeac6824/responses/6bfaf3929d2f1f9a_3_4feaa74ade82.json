@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3982486061.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c2a7b5236e74a04f853af787c9d4966dd864b104f2ec797ddfda027707c734e3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d14ecf18219b2e1016acd4c2263e887d29659d95abe4dd6d7",
+  "received_at": "2026-10-12T21:07:49.934212+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise states that a boy dives to grab another boy’s flag, but does not say that doing so would end the game. That purpose or outcome requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

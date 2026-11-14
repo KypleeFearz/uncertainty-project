@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43247n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "15c7eff9b0a8b93a233e65db35ee736d59d91cfaea632e1a6c4452a8c16efbf6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010d77af5ecba2dd016acbede4037c87d28c4491a91e071f0e",
+  "received_at": "2026-10-11T20:13:28.115922+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The question suggests that one of the ladies is expected to go first, but asks about willingness rather than stating that someone should. The hypothesis therefore requires a plausible pragmatic inference rather than following directly."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

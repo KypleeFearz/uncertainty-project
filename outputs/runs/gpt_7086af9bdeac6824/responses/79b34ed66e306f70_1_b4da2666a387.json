@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17660e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "39ac9aa107630216a70dd94caf3d0cada9104557e85f5818447509de47f41042",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08b774326ed9612a016acd445b08dc87d2b56926a68128dbec",
+  "received_at": "2026-10-12T20:34:39.260026+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Phone solicitations ordinarily include marketing calls, so the hypothesis largely paraphrases the premise. The unusual phrase \"move marketing calls\" introduces uncertainty, particularly if \"move\" is not a typo for \"more\"."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

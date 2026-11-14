@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21147e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ce90c56d5838c6b1f9062b180875d19341eb788b8cf52a5bf99831f529fab14",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0123142187edb1ad016acbeaad129487d2a98ce36df1d5aa85",
+  "received_at": "2026-10-11T19:59:44.937202+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says lateness makes orderly functioning difficult, not that punctuality is necessary for well-made work. The hypothesis strengthens difficulty into a requirement and shifts from rational functioning to work quality."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

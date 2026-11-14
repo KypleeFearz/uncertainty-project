@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "27022c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5346c73574f12a1bd9c4e24ab0f3ec571a717cabae65c1d058921748a0ffa39b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAJsn494BfVw8xQPdvp",
+  "received_at": "2026-10-11T21:29:36.509806+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.07,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "$126,400,000 is over $126, so the hypothesis follows from the premise, though the hypothesis likely omits the 'million' and a reader might see a unit mismatch."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 823,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

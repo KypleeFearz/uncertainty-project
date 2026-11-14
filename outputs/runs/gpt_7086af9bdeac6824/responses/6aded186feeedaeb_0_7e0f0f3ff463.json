@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45306n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "086bfd6fee788c69f2bf972da696312c050e8ad967b38b635470a3cdf4d612fc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_031cc941c06e94bf016acbee06d18c87d284e813c466e2e3b7",
+  "received_at": "2026-10-11T20:14:01.395851+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says each option serves a specific crowd and recommends finding a suitable one. It says nothing about marketers or whether anyone has advocated broader appeal."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

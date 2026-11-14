@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45769c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e25a40d08b91e1ee16ffd4942f8fbe1f28a376d41378e3de4dbd61c563b1b02c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09539644b0b52549016acbee2f920887d280414ddc3733410a",
+  "received_at": "2026-10-11T20:14:42.963980+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.9,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says that finance organizations calculated and compared percentages, but it does not specify that the underlying data came exclusively from finance departments. The hypothesis adds an unsupported restriction on the data's source."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

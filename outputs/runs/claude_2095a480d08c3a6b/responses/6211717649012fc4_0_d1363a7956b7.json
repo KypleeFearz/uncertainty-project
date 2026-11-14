@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "56895c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1daa5c514c78041d775953d0c14cbf18538554faf6195c6b43a2ac64e8d6df6b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCi11WJq4Sg11SfqRzP",
+  "received_at": "2026-10-11T22:01:04.214819+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.3,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says Japan supplied an army it had fought fiercely a few years earlier (likely the US army), not Korea, and does not say Korea and Japan were at war. The hypothesis is ambiguous about timing and which armies are meant, so it is not clearly ruled out, though it fits the Korean War context better than a Japan-Korea war."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

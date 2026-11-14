@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5262731925.jpg#3r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd6cc0f6865635b90612f93bf73dcac9ca396b65e02b5dd4384618f8aabfb0f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_095ecf5b81b875e2016acd4de944e887d287a6896ad2f8cf55",
+  "received_at": "2026-10-12T21:15:27.555585+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise describes two men at a road-construction activity, which strongly supports an outdoor construction scene. However, identifying the man who is merely watching as a worker requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

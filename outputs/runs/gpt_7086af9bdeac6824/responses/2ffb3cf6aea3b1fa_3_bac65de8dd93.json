@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132525n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "68639d66c81e6c331559c98250c45128a1a7f75bd188d6c1e0720ddb5c29fa07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3091d99c9daa79016acbf6d193bc87d283b842447de98cf6",
+  "received_at": "2026-10-11T20:51:32.447354+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes Bunt's perception of a woman's aggression, not his upbringing. It provides no evidence that he was motherless or raised in an orphanage."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

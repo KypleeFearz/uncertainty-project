@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79141e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4857adf4e11d21a592b5210d33c0e0ce47b8dc37fc8e9a382926ae2fb61db39c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0013a72d84e657fb016acbf285321887d28809c3ac34b1c200",
+  "received_at": "2026-10-11T20:33:14.044429+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "Calling a woman's body her most personal property does not establish that it is sacred, nor does it rule that out. Interpreting \"sacred\" as inviolable rather than religiously holy could make the statements seem closer, but requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

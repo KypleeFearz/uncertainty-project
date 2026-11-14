@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121910c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "76b5668a8812dd1f28970d7e4ed2cefc2b3e76c637ba5661ac2189f480a17c5c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e95b9bd85dfef93016acd4296466887d2aaaf35f54b833eeb",
+  "received_at": "2026-10-12T20:27:07.898780+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.32,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Offering a more precise picture supports the claim of accuracy, although relative precision does not guarantee an accurate picture. The romanticized framing and the conditional wording leave some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

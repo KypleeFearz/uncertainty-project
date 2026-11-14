@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26443c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "647e5ad3f9869a46200a4923e24a96ac5cfa256c6d1cf341ac1ffac56cd51e5e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAHmjPL5cbGt18xcKHz",
+  "received_at": "2026-10-11T21:29:21.970596+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says Dior's era was marked by sloping shoulders, in contrast to the heavy shoulder padding of the preceding period, which conflicts with the claim that Dior was known for thick padded shoulders. Blazers are never mentioned, but the shoulder claim is still contradicted."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 857,
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

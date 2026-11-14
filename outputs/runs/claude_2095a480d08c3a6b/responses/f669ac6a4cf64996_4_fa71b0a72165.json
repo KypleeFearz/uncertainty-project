@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "43225n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f4cbf104d95ba9d7d6b2e4fef7cfa8b5d617bb95be53bab3f5fd2c3e1d94b2ec",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4FJ5VhAVJ2RBtk4Yz9",
+  "received_at": "2026-10-12T21:31:17.866413+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "'Sue me' is a defiant challenge, which loosely hints at annoyance, but the premise never says what Royko was reacting to or that he was fed up. The hypothesis is therefore plausible but not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 770,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

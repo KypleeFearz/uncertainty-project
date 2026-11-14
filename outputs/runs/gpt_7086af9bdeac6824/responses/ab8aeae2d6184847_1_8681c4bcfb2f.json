@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3574378184.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eaaa76f178fdad73899ffdce2e85161db546d37fa446cdbfd1147f971c5fc4d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3fc06c2f7614f4016acd4ba0820887d2bec325a53af49f8e",
+  "received_at": "2026-10-12T21:05:42.798351+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.18,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise identifies the baby’s holder as a man, which conflicts with the ordinary reading of the hypothesis’s holder as a wife. It also does not establish that the two adults are married."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112800n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cca6019f5cfe7999f3e88c83033ab88bf891eb0e246ec24e3cd1aae4ead65901",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01cd9c8e031db649016acd421dd6e887d2be5941b86958187d",
+  "received_at": "2026-10-12T20:25:05.458427+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise names Leonard Franklin Slye in Chapter 1 but provides no information about a second chapter or how it continues. The phrase \"like this\" also lacks a clear referent."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

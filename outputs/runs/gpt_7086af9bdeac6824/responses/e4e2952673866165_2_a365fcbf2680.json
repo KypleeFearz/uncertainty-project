@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90219e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61dd23215473c20e856b6654f97cb26dcb3713cfcc1c51ac762325c100581d3b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0b0cd80806e038016acd481ec4ec87d29216eba5aec4fd5f",
+  "received_at": "2026-10-12T20:50:42.864525+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.03,
+    "contradiction": 0.96,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise identifies low income, approximately $22,000 annually for a family of four, as a basis for eligibility for LSC services. The hypothesis reverses this by claiming that income below that level disqualifies families."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

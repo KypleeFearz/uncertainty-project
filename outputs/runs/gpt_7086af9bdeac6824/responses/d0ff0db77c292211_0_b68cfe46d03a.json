@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_985982384.jpg#3r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f7e48df80dba713f4a0851ada914165b8e0d22529adb6a703930911547f7b42d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0afa0268eae21279016acd4f154f6087d29601cacbaeeb200a",
+  "received_at": "2026-10-12T21:20:28.417982+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the people hang out and the rocks are above water; it does not attribute hanging out to the rocks. If “hangout” is loosely interpreted as being situated, the hypothesis could instead be supported."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137715n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c29e6b906eb2fdc276a2804df760bc6673be41ed0e447d53570c98836b2bb34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c0e6fce7eeb57c016acbe8ced23c87d29054c4be2f2f3d96",
+  "received_at": "2026-10-11T19:51:47.851478+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.52,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise expresses a belief that humans have a right to use the environment for their benefit, supporting the hypothesis if “entitled to” means entitled to use it. It does not establish ownership of the environment or independently affirm the quoted belief as fact."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

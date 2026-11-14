@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "47714e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f3aa0744ec410aa1abadd8f35cc0611ae14c899c056919b324bcda557a64d09e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCdCuyb2j3aRR1rpmiB",
+  "received_at": "2026-10-11T21:59:58.779301+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The speaker says they could afford a swankier place with more space but the space would encourage clutter, which matches the hypothesis. 'Would have clutter' is a slight strengthening of 'encourage me to clutter'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 813,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

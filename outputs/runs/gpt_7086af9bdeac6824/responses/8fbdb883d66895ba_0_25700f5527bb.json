@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65650e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92371e6ba7a6b319fbbc1cfdcd30b4f1bdfd672a60e5e373a04a1c2aa8cd6e56",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d1534acbd8e7fc6016acbf0f64ce087d28d50cfacee123ff8",
+  "received_at": "2026-10-11T20:26:34.919791+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not specify what she failed to listen to, whereas the hypothesis identifies a noise. The hypothesis is supported only if the unspecified listening in the premise concerns that noise or listening generally."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

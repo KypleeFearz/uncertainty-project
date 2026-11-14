@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88210e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70a5e28665923bbb1d2d50b8f9ccdf975b652d99445059816c603070cabe2bfb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b41a60541ed6d65016acbf3db38bc87d28176b362705dad2c",
+  "received_at": "2026-10-11T20:38:55.566801+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.82,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise describes them as good, which does not establish the stronger evaluation 'excellent' or rule it out. Interpreting 'good' as sufficiently enthusiastic praise could support the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

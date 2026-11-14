@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "74377e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e2c5cc70fbf9d0f532171ad37c1835fa4fa6d2513b857b70ba76aead68fef4ea",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBQEdBMTz1fsdq3WAQx",
+  "received_at": "2026-10-11T21:43:56.323956+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.5,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The speaker praises something chemical-free as a fertilizer, which suggests a preference for avoiding chemicals on lawns, but they never state that they or 'we' hold this desire."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 818,
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144408n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cab804fc0103633a4922e78961eb4f315fc621bcb45653c774ea2bbfc51c4439",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000b98042ba88b4e016acbe9bb681087d2adfd7880e9bad185",
+  "received_at": "2026-10-11T19:55:45.002138+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.74,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says some of the most authentic papyrus is sold at The Pharaonic Village, but does not establish that it is the only authentic source. The wording suggests authentic papyrus may be available elsewhere, without explicitly guaranteeing that."
+  },
+  "usage": {
+    "input_tokens": 430,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 629
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

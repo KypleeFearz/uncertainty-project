@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34094e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8757046e70d663dabfbd85658a214bc06f0bbf708cb358b117c892e729211286",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAUfPhJ4GMRucuK7yRG",
+  "received_at": "2026-10-11T21:31:48.848533+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "\"No, monsieur\" is a typical negative reply to a question or request, so it most likely answers one. It could also be a refusal or a correction not prompted by a question, so entailment is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6167795092.jpg#3r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "144da63a4460030daabb35fb175a428185c549d7f1fbe2f88ec13813aff0ec59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0360aba50110806d016acd4e31160087d2876c5b1ac925fc5a",
+  "received_at": "2026-10-12T21:16:36.514898+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "“Cyclist” ordinarily describes someone riding a bicycle, which conflicts with the hypothesis that the rider is on a motorcycle."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23414c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09ada26c813f57c7d6c71543fe5aa1e712eb517ba2145cfffd4fbf9412fdf4b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ba96bd84fa9e24016acbf7b8e2c087d2a706fcef63183134",
+  "received_at": "2026-10-11T20:55:25.274276+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The rhetorical question challenges sacrificing lives for dirt farmers and slavers, but does not establish that no one cares about them. The hypothesis also refers to slaves rather than slavers."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

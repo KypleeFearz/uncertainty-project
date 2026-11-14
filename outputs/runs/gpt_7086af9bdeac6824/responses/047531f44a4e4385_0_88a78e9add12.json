@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82349n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e223aa371bd2f7d6e2645bb993c696c06f4c2304873ef753449279a5bd7d551",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052e53f7e09389b2016acbf319742887d2ac1c1f17006f3970",
+  "received_at": "2026-10-11T20:35:40.466718+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise is incomplete and only indicates that funding is secured. It does not establish that proceeding would be impossible without secured funding."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

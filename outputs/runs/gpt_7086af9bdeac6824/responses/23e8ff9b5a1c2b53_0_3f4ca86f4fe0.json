@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110234e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bb04228d61da2edaa6fcbf58873d2a7e92e5e8877aed0528dffa294cd7e31fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_081a5d8b6353e361016acbf5c0377487d2bd16dd204a197a60",
+  "received_at": "2026-10-11T20:47:00.425206+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Calling something “great” supports describing it as a nice experience. However, the premise does not specify what “it” refers to or explicitly identify it as an experience."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

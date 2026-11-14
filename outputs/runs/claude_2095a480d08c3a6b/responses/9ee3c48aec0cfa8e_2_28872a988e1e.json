@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42860n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "67c5c13d46d173c10a68f053506b1cf62ccb7eac811ad6c84dc0467d6ffff7aa",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAgTDYSTJzGEVu5x5x6",
+  "received_at": "2026-10-11T21:34:29.723297+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says 'that' is the reason they tried to kill the listener, which implies they wanted to kill them, and 'one of the reasons' is compatible with that. However, 'that's why' may indicate the sole reason, and 'tried' versus 'wanted' is a slight shift, so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123953e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "636539b6aa7bd1db63d99ea40bf7e745ee25329c914dbcb02502ac4a33c17449",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_023e1aba6606be62016acbe6be91d487d28e153384e4abe454",
+  "received_at": "2026-10-11T19:42:59.020850+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.93,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies the lives as human but does not establish whether they are associated with Hunan. Reading “Hunan” as a typo for “human” would instead support entailment."
+  },
+  "usage": {
+    "input_tokens": 359,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

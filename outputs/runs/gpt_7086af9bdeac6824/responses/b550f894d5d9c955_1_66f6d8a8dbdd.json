@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125083e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "32859e43da0fcd54cf232c2455e861e837d5686aae6fe98a831045d19adb7927",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aecb6181376452c016acd42b7c24487d2bebc2e3e17d5fce6",
+  "received_at": "2026-10-12T20:27:39.791879+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.03,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise names two establishments in Funchal and presents them as alternatives, supporting the existence of other places there."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

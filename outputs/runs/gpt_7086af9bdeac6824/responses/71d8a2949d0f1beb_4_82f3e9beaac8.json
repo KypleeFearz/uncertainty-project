@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49703n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9d528a0bedb9bdf12b162073f1d41af0ee3ac31cf28e47e62888571f7c0544fd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3bff61c77964f9016acbeec4735487d2ae40dece313d9103",
+  "received_at": "2026-10-11T20:17:11.137954+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.21,
+    "brief_reason": "The premise reports similar conclusions in twelve U.S. states, not across the world. It neither establishes nor rules out comparable conclusions elsewhere."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

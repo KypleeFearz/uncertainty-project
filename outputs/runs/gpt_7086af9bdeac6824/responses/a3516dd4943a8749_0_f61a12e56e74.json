@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85838e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b80dd898606bc291690b98f6b0d2f2fee22c8cd5eed8140f96534a518ad5933",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0161b9a3637b64d2016acd47f486d887d2bbaddad2089b29f4",
+  "received_at": "2026-10-12T20:49:59.720947+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says Allenby accepted the city's surrender, not that he surrendered it. The bed-sheet served as the surrender flag of the city surrendering to him."
+  },
+  "usage": {
+    "input_tokens": 432,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

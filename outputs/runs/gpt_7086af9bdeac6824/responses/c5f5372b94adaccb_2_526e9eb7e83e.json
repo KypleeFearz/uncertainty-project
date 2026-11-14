@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "05295475bed0748de46a9c5ee53f55bfe477f281d530e0401b6da9950d9f2ee5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bb167afe856275b016acbeff82c5087d2a2de1eb8981e3f46",
+  "received_at": "2026-10-11T20:22:20.320414+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says the IRS would have no record of callers’ time before reaching an agent, supporting the hypothesis if “the time” means that waiting period. The hypothesis could also refer more broadly to all caller-related time, which the premise does not establish."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

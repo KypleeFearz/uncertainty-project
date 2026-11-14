@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "89331e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c36beb3c954f4efd3701bcc7952e881a63c1b06a2b728046b995d4473a776ffa",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCxWdMe3uTCaeyfVJWt",
+  "received_at": "2026-10-11T22:04:20.262851+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The question 'How did this man know?' presupposes that the man knew something, so the hypothesis is likely entailed. However, a question is not an assertion, so some may judge the presupposition as not strictly established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

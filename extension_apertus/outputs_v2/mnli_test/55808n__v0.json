@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "55808n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.05,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise states the FBI has been seeking a specific person linked to the bombing, which implies they are pursuing new leads, but the hypothesis is broader and less specific than the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 357,
+  "output_tokens": 111
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:32:10.623285+00:00"
+}

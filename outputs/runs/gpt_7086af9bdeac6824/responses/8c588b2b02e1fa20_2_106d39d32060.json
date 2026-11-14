@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13387e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "587dd0b6dcc24267b2318043fef0ba273ff893994bd1da691dc97916a9de1c31",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089e97381a23e52b016acbe842852087d2837dbf54fe2bf1db",
+  "received_at": "2026-10-11T19:49:27.999000+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Saying \"I can believe that\" expresses plausibility or acceptance, but does not necessarily express agreement. It can function as agreement in conversation, depending on what \"that\" refers to."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53499n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "da02a3eaa549bc1e05c9d80ffdc9ce05d6f9dbc56b4f230323afde79030cd240",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAwabice3ZfQEiey9EJ",
+  "received_at": "2026-10-11T21:37:54.048316+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker says they thought nobody in the country hadn't seen 'that one', which closely matches thinking everyone had seen it. The hypothesis adds that 'that one' is a movie and that the country is the US, which the premise does not state."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 796,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

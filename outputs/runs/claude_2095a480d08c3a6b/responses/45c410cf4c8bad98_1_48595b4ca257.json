@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "37131c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "24e36e128295936d03acb81a7a4c3ca8318a65909c038c5e97b06fad09524d23",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCYPECHMTmFX98CKi11",
+  "received_at": "2026-10-11T21:58:53.154906+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.55,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise only says Saddam could emerge strengthened, which is a possibility and does not rule out his turning out weaker. Some readers may treat the two possibilities as conflicting, but 'could' leaves the hypothesis open."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 796,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

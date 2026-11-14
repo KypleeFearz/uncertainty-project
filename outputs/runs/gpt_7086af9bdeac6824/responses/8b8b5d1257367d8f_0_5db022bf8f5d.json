@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1925n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5edd8fb311e3645e48f92e215ea1150685180c4ea4c2650db93dfffce7722fc4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018e612dd223d8ab016acbea6dcdfc87d2b1edb3bec19c0a2c",
+  "received_at": "2026-10-11T19:58:41.750576+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "'Reaching all over' suggests widespread extent but does not establish that most of a particular space has already been covered. Both what 'it' refers to and the relevant space are unspecified."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

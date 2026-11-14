@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "11601n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "919f07a11c57638ba58c72a2e26aa5677c8ed99b38a954bf7512399ccca2591d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3gV95EuH1uJq37qwW5",
+  "received_at": "2026-10-12T21:23:52.683955+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.6,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says AC usage should be roughly proportional to MWe of equipped coal plants, which says nothing about one being higher than the other; the units differ, so the comparison is not meaningful. A proportionality claim loosely conflicts with the hypothesis, but it does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 865,
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

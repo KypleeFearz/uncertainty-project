@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "56634c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f8e2c9d5a430859b7b43a54ce19c7d69d8815b396113caa50448f432ef73cabf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB1UppXiBe1yiKwyW3y",
+  "received_at": "2026-10-11T21:38:47.036825+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says 'we' were staying at the inn, so if 'he' is part of 'we' or the speaker, the hypothesis is contradicted. But 'he' is not clearly identified, and the speaker may be reporting for a group that excludes him, so it is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

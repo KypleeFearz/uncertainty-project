@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93236e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b01f7d7de8fb8909c8150156ce56006299d8952c752da47fee11bcc73e8467a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_083141d78ad03948016acbf453472487d2ba7236d568e0b4b4",
+  "received_at": "2026-10-11T20:40:56.086997+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.19,
+    "contradiction": 0.79,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise translates “tapa” as “lid,” not “a bite of food”; the bite of food explains the word’s origin. It also describes the custom as old, without explicitly dating the word."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 591
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

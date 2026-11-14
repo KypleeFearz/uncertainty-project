@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "90760n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c1612a710aacb8a3c709cb03dba9fbb147a2f512737697b8459ee722a5514bb2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBnZU83tLm9EmEbFNiR",
+  "received_at": "2026-10-11T21:48:58.814335+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.86,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only says sensitivity calculations use other data sources to supplement the Base Estimate; it says nothing about their relative accuracy compared with primary data."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 824,
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

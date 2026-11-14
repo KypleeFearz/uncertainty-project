@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128542e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c033df75a5596bc15de281661efde4004fc3709066353d93223601d470689479",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00f0a93578085098016acbe74a485487d2925258d04b90e706",
+  "received_at": "2026-10-11T19:45:18.547770+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise suggests that his knowledge was limited and that someone else might know more. Describing this expectation as a hope, and explicitly saying he knew things, requires modest inference."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

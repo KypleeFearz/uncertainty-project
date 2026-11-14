@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "8219c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5224adc5d9a077d1797c8515ffd45813c86d1906135bc5286b109b0356dd32d4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBcZ621rf1A8fA441xQ",
+  "received_at": "2026-10-11T21:46:43.249368+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.55,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says farmers assumed the ground would naturally filter out the chemicals, which implies they saw a reason to apply them, though the speaker may be about to say this was wrong. It is truncated and never states whether chemical use is pointless, so the hypothesis is neither supported nor clearly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

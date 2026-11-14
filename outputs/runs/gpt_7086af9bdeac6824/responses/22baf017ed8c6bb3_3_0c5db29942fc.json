@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61735n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "807f1a6b9af35b6d92ae46241ea25f5c7f1297f22a4106204d7dee0a3fb12b68",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0332b7a95752e37e016acbf05c335087d2b35ff404c721b0e8",
+  "received_at": "2026-10-11T20:24:00.723500+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The title indicates multiple guidelines associated with a case study, supporting the hypothesis. However, it does not specify their number, so interpreting them as 'several' requires a small assumption."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

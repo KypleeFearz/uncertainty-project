@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8257n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "584373d6f3d725134f153dc0fa2e30c5e4b9fd959fb14b9a830da67adaaf7c6c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e7096019803cf5016acbfa219f6087d2b86a236fe6e7f082",
+  "received_at": "2026-10-11T21:05:42.351420+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise implies that proximity to Little threatens White's survival, supporting the idea that he should fear returning. However, that danger and the prospect of a return are implied rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

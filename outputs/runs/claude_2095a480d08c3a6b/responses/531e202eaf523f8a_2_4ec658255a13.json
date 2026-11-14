@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "142630n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "986d2d370d1076eee80f4bd539e17b2e33d5e273360ab4789f181436e241dcbe",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3wrkGAfHDq3czZKwuU",
+  "received_at": "2026-10-12T21:27:21.456114+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The narrator asks in a low voice out of curiosity, which conflicts with being prevented by fear from speaking up. Speaking softly could be deliberate rather than fearful, so a neutral reading is possible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

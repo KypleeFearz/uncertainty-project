@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107430n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7fb8c1560a0c00827f5ab8c34ba5287c01c8bd1b21970fa9754c5baf41516c55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00aa79045bf7c013016acbe4a31e3887d2917d753ee7f97b49",
+  "received_at": "2026-10-11T19:33:59.678708+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise appears to ask whether someone saw something, rather than establish that the hypothesis speaker saw it. The identities of “you” and “I,” and the referent of “that,” are unspecified."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

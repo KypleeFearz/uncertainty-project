@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4771381994.jpg#2r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9898e166b3c17266e8f2e92b9e570f8fd2bf4b75fdf9bff237b72c03c4c38897",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5fpnj5W7CGhJkPhp5C",
+  "received_at": "2026-10-12T21:49:57.186832+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.24,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "A man on a bike is very likely riding it, and 'guy' matches 'man'. However, he could be stationary while gesturing, so riding is not strictly guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

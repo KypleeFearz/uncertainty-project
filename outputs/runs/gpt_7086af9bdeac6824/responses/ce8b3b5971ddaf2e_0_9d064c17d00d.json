@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103155e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de949d064a1f6125df32a99e9308d68c790bbee3257a72d807399d7a5ec48658",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_024763dce43376cc016acd41a1fbc887d28fe718371e3722a5",
+  "received_at": "2026-10-12T20:23:02.964798+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.82,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise does not identify who says \"It's absurd,\" and Sir James's nod does not necessarily establish agreement with that judgment. The hypothesis is plausible but not established."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

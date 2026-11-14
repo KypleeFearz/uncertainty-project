@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76219n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "968fbe93b61a5e8acb6707ef53b9567a3a1faf1463d461dda7dfa899ddb2f47e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5f638517fa30e1016acbf22b044887d29da93d3224531c03",
+  "received_at": "2026-10-11T20:31:43.241308+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.065,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker says they did both, contrasting this with the Dallas mentality that one had to like one and hate the other. This supports liking both rather than following that mentality, although the premise does not explicitly identify the two as teams."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

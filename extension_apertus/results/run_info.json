@@ -1,0 +1,9 @@
+{
+  "bootstrap_repetitions": 500,
+  "seed": 2026,
+  "model": "swiss-ai/apertus-v1.5-70b",
+  "prompt_fingerprint": "37d7e209e7fc9178",
+  "frozen_protocol": "3942fc496262a9b3bc0436181356edc134b3df98b713570f3911029300be3a58",
+  "status": "post-hoc extension, exploratory, not in the frozen analysis plan",
+  "written_at": "2026-11-07T22:53:00.359797+00:00"
+}

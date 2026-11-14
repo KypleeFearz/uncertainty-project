@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26196n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "819df88d34268e7730e078dea28e97146e8099f602068021fb36f45e5f1a3d26",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04f6c708659d6025016acbeb88f7cc87d29f63ed42afe97416",
+  "received_at": "2026-10-11T20:03:25.600494+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise explicitly attributes fury to Kal and Thorn and connects it to the routing of people from the town. That fury being directed at those villagers is strongly suggested, though not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

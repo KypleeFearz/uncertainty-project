@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14545e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f7104903ce8755f7ed38e64baf900083e953e2f7a3d2137394c2309f51c863d9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ada705a466cf4bd016acbe9f15d8887d29200c9cddea847fa",
+  "received_at": "2026-10-11T19:56:37.867026+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Returning to its familiar state after three days of gel use supports the mouth feeling better by that time. This assumes the familiar state was better than the condition that prompted gel use."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

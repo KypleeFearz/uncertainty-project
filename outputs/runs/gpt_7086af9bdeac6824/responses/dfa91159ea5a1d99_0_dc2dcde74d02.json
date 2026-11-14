@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139028e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbcbca1a0f979d9192734d8640ae809e17dc96fd9510731f81f824e4a82786f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089591aaee6252aa016acbe9070d3c87d29f2d0ea1bd179d39",
+  "received_at": "2026-10-11T19:52:43.887092+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise mentions shared reasons and the care that goes into unspecified things, but does not establish being invested when the listener is absent. Its unfinished departure clause concerns the speaker taking off, not the listener."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

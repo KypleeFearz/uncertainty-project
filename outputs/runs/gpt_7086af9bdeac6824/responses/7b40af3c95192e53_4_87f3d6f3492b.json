@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23280e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dac4ca90bb78088ce3144626d5ae574b9b36b271df390cc968626695394a1936",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d29df10edfe0ed3016acd4492500c87d2bca2855e029d82bb",
+  "received_at": "2026-10-12T20:35:35.616134+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise describes sphinxes as guardian deities providing protection, but does not specify whom or what they guarded. Guarding people is plausible, though not established."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139635n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e86eda940e54cb0bcee163d7e1245541f7b6fbebb8f70d1c3f485dc10e6c9150",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02b1679ffaa57349016acd43b8809c87d2b1f03f9a723d61f0",
+  "received_at": "2026-10-12T20:31:56.731866+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise says that few people on death row are actually executed, but it does not establish that most remain there for the rest of their lives. That conclusion assumes they are neither released nor transferred off death row and that the low execution rate persists."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

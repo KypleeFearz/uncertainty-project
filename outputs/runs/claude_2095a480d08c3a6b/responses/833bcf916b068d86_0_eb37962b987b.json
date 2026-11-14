@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88192n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ed5307ec3658e6eb09921dbb25bc59a00c2b9d48dd718c500198be7b54ae50d6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBkDyJTdgxPDdVQ6LAn",
+  "received_at": "2026-10-11T21:48:27.413608+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.72,
+    "contradiction": 0.23,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says she smiles with closed eyes, but gives no information that her eyes cannot open. The hypothesis adds an inability to open her eyes, which is not stated, though a reader might infer it or read it as conflicting with ordinary closed eyes."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31054n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd497af0f7365365a3791f3fe139e0f0b1912836f329090972724aee02ae6281",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_006a1786c73a2b1a016acbec49054887d2afec148c9fe83e15",
+  "received_at": "2026-10-11T20:06:37.407108+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Not replying commonly implies remaining silent in the relevant exchange. However, she could have spoken without replying, or failed to reply to a written message, so silence is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 358,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

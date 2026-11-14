@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_434469662.jpg#2r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise states a woman is servicing a man in a store, which matches the hypothesis that a lady waits on a man in the general store, though 'waits on' is a more colloquial phrasing than 'is being serviced by'. Minor lexical differences and slight ambiguity about 'general store' do not undermine the core match."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 348,
+  "output_tokens": 142
+ },
+ "seconds": 3.07,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:31:36.748163+00:00"
+}

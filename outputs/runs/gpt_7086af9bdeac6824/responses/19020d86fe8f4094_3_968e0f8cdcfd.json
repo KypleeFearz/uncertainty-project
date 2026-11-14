@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50830n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "abfe134204c93567ca9f1bc9619c96e7487185535af5eb450f0fc866f109f75c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1ce7b6b6a3e734016acd462eb1cc87d29855795dd274bfac",
+  "received_at": "2026-10-12T20:42:27.311659+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says money is loaned with strings attached, but does not establish that a lot is loaned or that the speaker feels bad about it. Understanding why a new government might resist repayment does not necessarily imply feeling bad about the loans."
+  },
+  "usage": {
+    "input_tokens": 463,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 594
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

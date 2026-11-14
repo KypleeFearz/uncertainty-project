@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98116c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "792f45235b82f4ac63432a92417546672ffeea3ec8be72aadcc13e59bee30832",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04cd537d27c2ac5a016acd489c8b4487d2850173da3331542e",
+  "received_at": "2026-10-12T20:52:50.182470+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise asks about what someone actually ended up pursuing, while the hypothesis asks about a possibility under different circumstances. Neither question establishes or rules out that counterfactual possibility."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

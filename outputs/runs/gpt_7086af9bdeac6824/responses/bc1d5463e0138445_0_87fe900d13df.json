@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96338n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9a4dea9d469a2b8eeb4e737b5941312282d6523a37d9a610a759ad2303f95dc8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_070d410d32cc40c9016acbfae5bfe887d286ab098fbec02783",
+  "received_at": "2026-10-11T21:08:57.718594+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise explicitly calls it anti-democratic and says it replaces executive branch decision-making, supporting the hypothesis’s paraphrase. The location “in DC” is implicit in the governmental context rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26495e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "36fa4b533f83225720e6148125016bd6107c14365e170bde56763c678966ba03",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03b4c257ad2d99a9016acbf7d74e3887d285e216e144812c31",
+  "received_at": "2026-10-11T20:55:57.410161+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.37,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.68,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The hypothesis can paraphrase the possibility that standard screening works poorly for these subgroups. However, subgroup performance can mean patients’ test results rather than screening effectiveness, and performing less well does not necessarily mean performing poorly."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 210,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 600
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

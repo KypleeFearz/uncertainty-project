@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100895c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f68a4c815c224556afd7b8f4b5d229211c5d8ed912b9887ef92769137e4ba85b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a68f85a113a277016acbe3b1a37887d2ad47fc23d7502c91",
+  "received_at": "2026-10-11T19:29:56.191059+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise asks whether information is adequate to judge generalizability; it makes no assertion about outputs or their resources. It therefore neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

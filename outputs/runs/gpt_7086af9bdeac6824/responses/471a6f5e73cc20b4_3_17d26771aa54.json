@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122020n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ed853b13aef93f3bba6e86f9d9ae6ef7891bde827ee00bd560228e7581ac324",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00d032c6efde2ba5016acd42a85a4487d29b6f1930fb9e7010",
+  "received_at": "2026-10-12T20:27:23.639350+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says Clinton learned to avoid looking unpresidential, not necessarily to avoid unpresidential behavior. It also does not establish that the four years were torturous."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22587e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9aef7b474062ef69fdd5f249c3480087e9c4052f78d131930c06853446002fd4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072cedd1186882dc016acbf7aadc6487d28a52936568998c0c",
+  "received_at": "2026-10-11T20:55:10.890426+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Describing the restaurant as “Classic Castilian” supports the hypothesis that it follows a classic Castilian style. The premise does not specify whether this refers to its cuisine, décor, or overall character."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

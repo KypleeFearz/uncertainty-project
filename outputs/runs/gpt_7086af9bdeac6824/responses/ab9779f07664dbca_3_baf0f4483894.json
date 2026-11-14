@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42621c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4f596b20716e6593b7c6ab0b743afd593e48b082cfcbe5bfc85fcf1e13e38ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015cf0f377818b0a016acbedbdeb4c87d2b82cb08e1fa0e819",
+  "received_at": "2026-10-11T20:12:49.742983+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.04,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The few foreigners who remained were strictly confined to Dejima Island, which contradicts the claim that they were left free. A less likely reading of 'free' as merely not imprisoned creates some ambiguity."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

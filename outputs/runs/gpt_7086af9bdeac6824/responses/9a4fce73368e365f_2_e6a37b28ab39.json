@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21152n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a62525dcdab2b4fed7870f5a684f5685a40340fb16075bbceb9a1b82bfc4b0c7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04147b8cb0cf5790016acbeab203a887d29b0c1a4853fcbacf",
+  "received_at": "2026-10-11T19:59:49.761034+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "A population over 23,000 is compatible with 25,000 but does not establish that exact count. The hypothesis also leaves unclear whether 'University of Nevada' refers to the Las Vegas institution named in the premise."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114458e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "176799f72db490a38154c7060428a23f8c7312ec287256be936ba3e764fa119f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad4817d442c99fc016acbf5f7b0cc87d2896e6ea2bc0de3dd",
+  "received_at": "2026-10-11T20:47:55.976776+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise associates laziness with youth, but does not explicitly establish that many young people are lazy. “Youth” may refer to a stage of life rather than a group of people, so the hypothesis requires an additional generalization."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

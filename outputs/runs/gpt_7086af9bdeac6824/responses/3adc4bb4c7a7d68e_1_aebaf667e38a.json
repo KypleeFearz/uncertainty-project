@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49172n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "937c0b1befd1041ef5da589c23d201a836930615d484bf624b021d7fc2c4eabe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0644eab771428f70016acd45fc0ec487d294a3d8420e47502c",
+  "received_at": "2026-10-12T20:41:36.141863+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Having possible valuable uses supports the claim that these things may be valuable. The hypothesis preserves the premise's uncertainty rather than asserting definite value."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

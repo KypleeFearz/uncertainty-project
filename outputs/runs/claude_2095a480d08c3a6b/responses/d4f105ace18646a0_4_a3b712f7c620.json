@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "143024c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "56409b256de2d9ac1251db5519f8421bb43c5dc452b0f8c37fd8f38204bbe664",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9wjhJ4btULDdmUMmSD",
+  "received_at": "2026-10-11T21:24:49.333585+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says it was traumatic, while the hypothesis denies this for the speaker, which likely conflicts. It is not certain, because the premise may refer to other people's experience or an unspecified 'it'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

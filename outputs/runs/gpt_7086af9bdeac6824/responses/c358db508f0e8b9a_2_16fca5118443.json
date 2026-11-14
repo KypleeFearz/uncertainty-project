@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113193c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a77c995da0f62e801fea58f6142f29058ffb4787cd7f7c190c641cc5cf58959",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff29c552860ad3a016acd422c492487d29a5d8267eac39421",
+  "received_at": "2026-10-12T20:25:19.103619+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.79,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.57,
+    "brief_reason": "The premise says annexation is possible and would be disliked, but does not explicitly judge whether it is a great idea. Treating that opposition as a rejection of the idea requires an additional inference."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

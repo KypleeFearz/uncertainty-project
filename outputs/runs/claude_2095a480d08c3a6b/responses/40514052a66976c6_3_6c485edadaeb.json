@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "129185n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b375b692bd2b4d373dcffb40a96538706e3718f2d5ddf001fe5ac63f0eb50853",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9cNgDqK3L2i9Y19UQu",
+  "received_at": "2026-10-11T21:20:26.952989+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Glaring usually signals anger, but it is not guaranteed. \"Lincoln\" might also not be a man (could be a place or a car), so the hypothesis's referent is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 759,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

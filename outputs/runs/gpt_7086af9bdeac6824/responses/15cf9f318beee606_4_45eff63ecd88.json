@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "94454c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c90fbd6d67f13a172a079238bf599dc477adf1520b6e0da50ef13f08f759ae23",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0abb931e41e400bd016acd4834ac3887d2922dd0b90d249237",
+  "received_at": "2026-10-12T20:51:05.819941+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise identifies Annette as the speaker but does not identify Annette as a dog or establish that a dog spoke. It supports that you escaped, but neither confirms nor explicitly rules out the hypothesis's speaker."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

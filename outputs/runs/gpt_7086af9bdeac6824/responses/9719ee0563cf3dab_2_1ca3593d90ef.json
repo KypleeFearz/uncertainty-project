@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8713n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d66d0268bc50b86dee930cb3bf40867227ee3216c9bdd109311470a2abca0004",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05f63333dc2ec493016acbf3c1342887d2b680e13fdfece690",
+  "received_at": "2026-10-11T20:38:28.288460+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise confirms that the data models access-cost behavior but says nothing about worldwide standard status. The hypothesis also leaves somewhat unclear whether the data or the resulting model is claimed to be the standard."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

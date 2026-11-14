@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71251n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "973b59aae820f8a2ba957050739394b68b6dcaac36a54901708f98a3fabf1ef8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04f3181810f99d7b016acbf9ae7c8c87d2ae557c9735819d3b",
+  "received_at": "2026-10-11T21:03:45.568751+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.95,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports the grant amount, recipient, and attribution to Deborah Pryce. It does not establish that she could finally announce it to the public, nor does it rule that out."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

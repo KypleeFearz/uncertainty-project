@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9047c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91306025d59491609acd075fa68a1a0d50d82556d69065a7252267057a30346a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06be7d7f66552cea016acbf3f65bb887d29e1a78c0acf60027",
+  "received_at": "2026-10-11T20:39:23.731841+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.89,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says that the speakers tried to help, but does not establish whether anyone cared or whether the speakers' caring depended on others. The hypothesis also introduces an unidentified \"they.\""
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

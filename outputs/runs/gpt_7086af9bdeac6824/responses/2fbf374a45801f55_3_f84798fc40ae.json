@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117487c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "00b5939120f4a5f9aa70430ab4c537d98c4b6345f430cdf3e009606923644640",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d2fd9acd261159016acbe5f42a7887d2ab69a9728991b484",
+  "received_at": "2026-10-11T19:39:35.462435+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.33,
+    "brief_reason": "The premise challenges someone to rise to an occasion and reject rules, but does not establish whether they would passively watch destruction. Both statements are questions, and the contrast between action and passivity does not establish a contradiction."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

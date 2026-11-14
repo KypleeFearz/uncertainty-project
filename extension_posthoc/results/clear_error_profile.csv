@@ -1,0 +1,26 @@
+split,model,definition,clear_cases,deviations,model_answer,human_majority,n
+test,gpt,frozen entropy definition,94,32,E,N,1
+test,gpt,frozen entropy definition,94,32,N,E,26
+test,gpt,frozen entropy definition,94,32,N,C,4
+test,gpt,frozen entropy definition,94,32,C,N,1
+test,gpt,majority at least 0.80,53,13,N,E,13
+shift,gpt,frozen entropy definition,216,19,E,N,5
+shift,gpt,frozen entropy definition,216,19,N,E,3
+shift,gpt,frozen entropy definition,216,19,N,C,10
+shift,gpt,frozen entropy definition,216,19,C,N,1
+shift,gpt,majority at least 0.80,147,5,E,N,1
+shift,gpt,majority at least 0.80,147,5,N,E,1
+shift,gpt,majority at least 0.80,147,5,N,C,3
+test,claude,frozen entropy definition,94,20,E,N,1
+test,claude,frozen entropy definition,94,20,N,E,15
+test,claude,frozen entropy definition,94,20,N,C,2
+test,claude,frozen entropy definition,94,20,C,E,1
+test,claude,frozen entropy definition,94,20,C,N,1
+test,claude,majority at least 0.80,53,8,N,E,6
+test,claude,majority at least 0.80,53,8,C,E,1
+test,claude,majority at least 0.80,53,8,C,N,1
+shift,claude,frozen entropy definition,216,12,E,N,2
+shift,claude,frozen entropy definition,216,12,N,E,4
+shift,claude,frozen entropy definition,216,12,N,C,4
+shift,claude,frozen entropy definition,216,12,C,N,2
+shift,claude,majority at least 0.80,147,2,N,E,2

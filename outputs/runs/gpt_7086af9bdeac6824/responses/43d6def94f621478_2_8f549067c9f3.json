@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132516e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb469da309016c9631037880d119c621660335c05bd72d218f9ccff3b3a4aa74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011e350ca98515d2016acd43240fa087d29835cec004539c81",
+  "received_at": "2026-10-12T20:29:28.390495+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The hypothesis closely paraphrases leaving a woman and child behind, with the cat or sheep offered as alternatives. The fragmented wording and the possible meanings of “left” introduce some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

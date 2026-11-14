@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47090c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c3cb5f11f7e02ce5a1fef2579b31d401f66bb69f13c2b5df9efd52c1b6a196c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012624a167d8926f016acbf8b2973087d2b83442bb2aa73196",
+  "received_at": "2026-10-11T20:59:34.788839+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.78,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "“His body” suggests a body exists, but the follow-up “What body?” questions that assumption. The premise does not clearly establish either that he has a body or that he lacks one."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

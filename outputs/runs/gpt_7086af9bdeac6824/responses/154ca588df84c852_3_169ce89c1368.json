@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134827e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3d32d28479e7a0eb844f4990f8f17c1c1d20f24d20b9846500c49e69d49030d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07bc5201dd9aef74016acbf6f2473c87d28ee4555ead756eb6",
+  "received_at": "2026-10-11T20:52:04.968936+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise explicitly calls the question a \"divisive issue,\" supporting the hypothesis that it is controversial."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

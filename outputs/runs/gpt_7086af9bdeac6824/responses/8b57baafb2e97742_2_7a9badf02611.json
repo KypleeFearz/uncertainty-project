@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86008n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e019068fb7370d59c63c82517570c52f0a9beac619947b38273cb51ac5b911c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_069fc04e94526d8c016acbf39af85887d290155a7be0e537a7",
+  "received_at": "2026-10-11T20:37:51.108423+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise invites the listener to look for themselves but does not establish whether doing so will convince them. The hypothesis adds a definite prediction that they will remain unconvinced."
+  },
+  "usage": {
+    "input_tokens": 424,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

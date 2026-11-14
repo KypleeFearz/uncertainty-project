@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27417n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c27d6130be276c09b978e2b577a8f1c15f46f131d575383fa5b95c17a9b49b3c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09d62d2238551fff016acd44c9ef0c87d28b691383926412b5",
+  "received_at": "2026-10-12T20:36:30.985083+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "“Trying Your Luck” suggests taking a chance, but it does not establish a strategy or outcome. Although this contrasts with calculating a certain victory, the short phrase does not explicitly rule that approach out."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

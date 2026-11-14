@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119758c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ee6da88cb1cf646ec46594cbf175af1fcd484bc2ffd20c43a3f3ed13c19639f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5a2c1765a92dd8016acbe634119c87d2bd8638e42ca79e75",
+  "received_at": "2026-10-11T19:40:39.944903+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.74,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise asks about obtaining shade-tolerant grass rather than stating what all grass seed requires. It suggests that some grass can grow without full sun, but that implication is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

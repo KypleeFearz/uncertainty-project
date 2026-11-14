@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14545e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "047bd9857f0d17c5c8902035be1aad17df5260dd7355a4db08338a235c4e7c4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082a9be98967593c016acbe9ee8b7087d2b249c27e48b55104",
+  "received_at": "2026-10-11T19:56:35.712381+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.64,
+    "brief_reason": "Returning to its familiar state after three days of gel use naturally suggests the mouth felt better by then. However, the premise does not explicitly describe improvement, and 'after three days' is not strictly identical to 'within three days'."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

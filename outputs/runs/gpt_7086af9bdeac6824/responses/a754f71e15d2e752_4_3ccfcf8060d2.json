@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44138e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "283f407a039c8658d624726c41f735bfa237c3b071f437943357f85914665f33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d41b191c6a793da016acd45b59f6087d2b6e4b823d333a9f0",
+  "received_at": "2026-10-12T20:40:26.317594+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Calling 1820 a pivotal year supports interpreting it as a turning point for Hawaii. However, the premise does not explicitly establish that its effects persisted ever since."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97974c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "99994f821fd363b254384a120494e260361c6b36323dc7b054c0309864522f72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eaddd6dc2655780016acbfb0ad8cc87d2a61c315d306c93f5",
+  "received_at": "2026-10-11T21:09:36.794374+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.33,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "A “teaser horse” suggests a preliminary or supporting role, contrasting with the horse intended for the main event. However, the premise does not explicitly exclude that horse from also being intended for the main event."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

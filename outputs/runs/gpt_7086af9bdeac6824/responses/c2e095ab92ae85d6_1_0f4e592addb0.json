@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22436n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "90989c9ba955190e188effb3f0795e97e92841e014af8b38be71443189e84fb6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3bb23166f1c3c6016acbeaf33db487d2b9c9bd90dcf924e4",
+  "received_at": "2026-10-11T20:00:54.865036+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.89,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise attributes over 260 years of combined experience in LSC-funded programs to two staffed units. It does not establish that this experience is specifically with lawyers, though that is compatible with the premise."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

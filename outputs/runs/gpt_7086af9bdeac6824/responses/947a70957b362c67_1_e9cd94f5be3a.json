@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_453807108.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a792e4fd88113bb536b1d3f0948a2b2cf62de10b4d64f2f65b972c30be948136",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ef7787fc0dedcd016acd4cba9b6487d2994fe9400d83d53b",
+  "received_at": "2026-10-12T21:10:22.435394+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.005,
+    "brief_reason": "The premise explicitly describes a man attempting to escape from a straitjacket, which supports that he is in one. “Straight jacket” is understood as an alternative spelling of “straitjacket.”"
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

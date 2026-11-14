@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12789n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5def46693303409145cac26b8baa94dcecd59f4a636c23360e46860493d001df",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df5eef8b8c43805016acbe726d31487d2a83e9d043fed9748",
+  "received_at": "2026-10-11T19:44:42.038982+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise identifies the Sinai as a source of turquoise for the Ancient Egyptians, but says nothing about gold. Being a source of turquoise does not rule out also being a source of gold."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

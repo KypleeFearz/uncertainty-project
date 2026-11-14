@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3045600419.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b604c98039d227790a8f88ba3cca7e167ae2f68e7820ba8bc0db644ebd62250f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d488203ac93c9f016acd4a9ef65887d28cb819eefdaf513d",
+  "received_at": "2026-10-12T21:01:23.908620+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise does not specify that the woman's goods are roses, that the man is a police officer, or that the two men are shopping. These details are possible but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

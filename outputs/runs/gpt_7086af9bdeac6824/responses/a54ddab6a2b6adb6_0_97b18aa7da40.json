@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6952893010.jpg#2r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "faad90ddffd52d4b45b8c2e77b0fbbe3111c52b95dd05b6c1b51abf2e5306675",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b47fce8c3ae9ce6016acd4e936e8887d2a1697b077cc9085e",
+  "received_at": "2026-10-12T21:18:14.849105+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise establishes a large sailboat surrounded by three smaller boats but says nothing about green flags or matching flags. It also does not establish that the large boat towers above the others."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

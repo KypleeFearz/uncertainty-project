@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109443n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da617cad158d50a04079331afd99cfb0ad87da3183beda2f9fc4ccf7b1b61eac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a17df0b59c2ac3c016acbe4e831ac87d2806c882349416394",
+  "received_at": "2026-10-11T19:35:10.397943+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.39,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Waterloo” commonly refers to the battle in which Napoleon was defeated, supporting the hypothesis under that reading. However, the isolated word could instead name a place or another entity, so that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

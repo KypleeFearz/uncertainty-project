@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125910n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ae41828319c2f4b309ff7d9648caf1d90b9d71ffa0914965d5c1b49fa1375f2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad5ca787b918f4b016acbe701a34c87d2883b81f40ad1d81a",
+  "received_at": "2026-10-11T19:44:05.644093+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The speaker suggests that the listener probably has a place similar to Service Merchandise nearby. This does not establish the broader claim that similar places are usually available anywhere one goes."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

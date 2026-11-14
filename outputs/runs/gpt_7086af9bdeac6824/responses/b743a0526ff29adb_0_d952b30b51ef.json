@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80808n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b5e2fd09bde08e0b2b1371d1ef25240ffdaddbd82c34a065efff098cdc843555",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f90dc415ae6eb49016acbf2c64c0c87d291f27d99878a29a1",
+  "received_at": "2026-10-11T20:34:18.560784+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says a button will make joining in easy, suggesting concern for usability. It does not establish that anyone intended to make the whole site very user friendly."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

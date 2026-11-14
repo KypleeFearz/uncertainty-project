@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "50415n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5547026a02ba08b8dcedee6e3f521bf232cf7e06d4b99037370922a4b84a180b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCehL3TgL9euNYrw4zQ",
+  "received_at": "2026-10-11T22:00:19.494759+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.55,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says something applies definitely if you live in an apartment, while the hypothesis says 'unless you live in a house'. Apartment and house are usually exclusive, which could make the hypothesis a loose paraphrase or a conflict, but the fragmentary premise leaves what 'it' refers to unclear."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 774,
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

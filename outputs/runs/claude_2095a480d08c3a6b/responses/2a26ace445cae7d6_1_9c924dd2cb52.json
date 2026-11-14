@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "136083e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0eff7c5415477833411af2f3848615f5880e67df198514cf20101e9c5b524ab8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9kjJvQcCuJ38YgJSTi",
+  "received_at": "2026-10-11T21:22:20.585927+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is a disfluent question that asks whether 'you put it in the refrigerator then', which closely matches the hypothesis. 'Then' could mean 'after that' or 'in that case', so the temporal reading is not guaranteed, and 'it' is never identified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

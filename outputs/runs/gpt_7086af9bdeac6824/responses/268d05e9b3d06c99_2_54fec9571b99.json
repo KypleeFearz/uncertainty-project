@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53953n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9122b10d50dbe07977cbabbbf7dfb2691cbabb07e5c173dc56f3f5099dfd96d7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c2b45769bee3d6016acd4679b55087d2b4fb90458832650a",
+  "received_at": "2026-10-12T20:43:41.305085+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes the added sales tax on a vehicle as a big chunk of money that must be paid, supporting a substantial increase in the car's total cost."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

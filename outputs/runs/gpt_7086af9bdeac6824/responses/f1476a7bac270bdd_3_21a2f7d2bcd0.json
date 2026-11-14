@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107020c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da057d16b7831ab34ba7098fa8dbd269ec35385d9b629718ded0b2237bf126bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_093839003162fbf3016acbf5a05b2887d288657d82ac607c01",
+  "received_at": "2026-10-11T20:46:28.076905+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.19,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise suggests that dealing with the customer may be the only reason, whereas the hypothesis asserts that customers were one of many reasons. The tentative wording “maybe” makes the conflict less definitive."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

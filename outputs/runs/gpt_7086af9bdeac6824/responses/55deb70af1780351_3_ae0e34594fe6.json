@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90548e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89114f7c21adc7f1f8f455658365a7d6c32d540b593a417155d81e2f99c98adf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a08ef251cce5a7f016acbf3ff374087d2abd0892bd5504eaa",
+  "received_at": "2026-10-11T20:39:31.662049+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "“Splendid!” expresses positive appraisal and may suggest excitement, but it does not establish the speaker’s emotional state. The speaker could be calmly approving or speaking sarcastically."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

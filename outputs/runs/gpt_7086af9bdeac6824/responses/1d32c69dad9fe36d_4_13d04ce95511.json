@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100409e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eadea9e3124be4e2af5e7b56219a5456a12c0468fd2925cca0c6eaa0a77221ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_003954a069128929016acbe38b410887d2b5a23201db0d25af",
+  "received_at": "2026-10-11T19:29:19.377214+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.88,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says that the prize's value determines total expenditure in campaigns and lotteries. It does not establish that the prize's monetary amount is determined independently of how the prize is used, nor does it rule that out."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

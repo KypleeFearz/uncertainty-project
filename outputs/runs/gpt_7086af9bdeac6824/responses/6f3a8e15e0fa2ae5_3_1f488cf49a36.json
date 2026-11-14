@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29843e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0b858bcf12ab087f9368c3933a225722eda4b187cb6efcd96a2ffc4255e444a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b4d4637f9ea4b5016acbec0a739c87d2ad9707926d8fc7f6",
+  "received_at": "2026-10-11T20:05:35.462177+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Wicked” can describe a fierce or menacing-looking blade, supporting the hypothesis under that reading. It can also mean evil or dangerous without specifying appearance, in which case the hypothesis is not established."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

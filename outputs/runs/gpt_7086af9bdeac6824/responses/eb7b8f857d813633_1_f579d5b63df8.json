@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7852369036.jpg#2r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cabb0c4ac6daee5177060486ca525048a4f9bd2aecd3bb6cfcb9f23d2373f8a4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01707e2a42a91067016acd4edc296887d2b560be1f65b5c201",
+  "received_at": "2026-10-12T21:19:27.055192+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "Being sprawled out on the court does not establish that the player is asleep. He could be napping, resting, or lying down for another reason."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

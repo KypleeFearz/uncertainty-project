@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3104490502.jpg#1r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e02313880edd6100816b20893440ea69c8a579b45056bf3d0f626fb310bfadea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05de760beed675df016acd4abb51e887d2b7af5850d59b7efa",
+  "received_at": "2026-10-12T21:01:49.993466+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "A traffic jam implies stopped or slowly moving vehicles, which conflicts with cars zooming past the people."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 84,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

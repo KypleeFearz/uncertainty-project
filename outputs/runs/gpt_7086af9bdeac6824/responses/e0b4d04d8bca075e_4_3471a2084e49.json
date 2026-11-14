@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_342872408.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a7b5a1624228a73d68a75cf10f1f50683e293cf3430d335b3c3096ee637beb59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05988231fa8570de016acd4b64b03887d2a408b1d5fa0b82d3",
+  "received_at": "2026-10-12T21:04:39.509468+00:00",
+  "parsed": {
+    "entailment": 0.998,
+    "neutral": 0.001,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly states that a man climbs a rock and that other people are behind him watching, supporting both parts of the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

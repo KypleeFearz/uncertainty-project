@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "105051c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "acdca25ae53e5ed97b6111cdadd5baab6663518f6d2c62f4f795e93246e2fd21",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC27cWLFaSuf6MEvdsC",
+  "received_at": "2026-10-11T21:52:02.940215+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.35,
+    "contradiction": 0.55,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise (garbled, likely contrasting with earlier family-oriented marketing) says Las Vegas was the place for unbridled adult fun, which suggests it was not billed as all-ages. However, the text is incomplete, so the contrast is inferred rather than guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

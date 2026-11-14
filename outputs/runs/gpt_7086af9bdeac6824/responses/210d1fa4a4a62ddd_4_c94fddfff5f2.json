@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b16694d9b3d65df9c2b8c949ecd6226dc4ce62609e6e139dd0fb9071ab36b5ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf788a3b1585266016acbe605595c87d2affd503c13ed2c31",
+  "received_at": "2026-10-11T19:39:54.656761+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.87,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise gives Orthodox Easter and the end of April as opening times, but does not establish March 13th. If “the hotels” means all the hotels mentioned, those opening only at the end of April conflict with the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

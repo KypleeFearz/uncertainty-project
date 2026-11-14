@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89331c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5b6eafe41e22f64e4d86d6f44e77237b4bf623973a79a5f0187629ffc0c9ca9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0691768ef634d511016acbfa99269487d2aa52458c5e2ac75e",
+  "received_at": "2026-10-11T21:07:40.707179+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The question ordinarily presupposes that the man knew something, conflicting with the claim that he knew nothing. However, it does not explicitly assert that knowledge."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

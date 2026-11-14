@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108062c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5b8460b985d97ff971889b0ce49b389afa73d2793cfaa63439f6edc2fb3a0755",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02f628a7444d8583016acbe4c1a1b487d2a06805a994f7c7a7",
+  "received_at": "2026-10-11T19:34:30.544543+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.12,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise describes an extremely pronounced contrast, supporting the reading that the contrast was easily noticed. Some ambiguity remains because “marked” can mean either pronounced or identified."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

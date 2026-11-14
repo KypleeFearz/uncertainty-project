@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69761e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3cd205865e1b003f75346253d3c447c128047c2da69dfd433f7e1582aa9564b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f52c636a771edc7016acbf13d411487d2ab71a314f7c5c4e4",
+  "received_at": "2026-10-11T20:27:45.165143+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The rabbit metaphor supports neglect of the speaker’s body and a negative attitude toward it. Shame is a plausible interpretation of that attitude, but it is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

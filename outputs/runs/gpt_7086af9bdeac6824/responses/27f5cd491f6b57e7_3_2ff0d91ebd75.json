@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112621n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3cb4c438da06593146b33a17c245d36735828a975a03d376d4e083f13dd8b76",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8e68cc648c9493016acd4217bf7c87d2a13af4b66fc2eeb6",
+  "received_at": "2026-10-12T20:25:01.404292+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says malls offer everything you are looking for, not necessarily everything without restriction. The hypothesis is supported only if “everything” is understood as the same contextually limited range of shopping needs."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "37407n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9e06a0837dc3944de5b3ae86990e6095b697f30f245d1c3d523f67a727c3a233",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAZK5iHPu4F5kP59Pu9",
+  "received_at": "2026-10-11T21:32:52.133991+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.67,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise concerns \"5\" and summer; the hypothesis concerns \"Six\" and winter, which are different referents and seasons. The premise neither supports nor rules out the hypothesis, though differing numbers could read as a contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122645n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c23f15ea3efa5567c3c38b877261e5b4b864fb88f4a50ec12134dbc9e9247b4e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4bf5a81afc396b016acbe6a3675887d292c2ec2fc5cadafe",
+  "received_at": "2026-10-11T19:42:30.260091+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise describes great bazaars as bustling and gives examples, but does not establish that every great bazaar is bustling at all times. It also does not state that any bazaar is ever not bustling."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46675n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b642c62cb8051af06060af1c95f59a43df5cabd2478feefc61c3c437c85f7be1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b38377d70c4346016acbf8ac9d3887d28fd379c152358c3c",
+  "received_at": "2026-10-11T20:59:29.234887+00:00",
+  "parsed": {
+    "entailment": 0.89,
+    "neutral": 0.1,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Calling the trip worthwhile supports that someone obtained some benefit or value from it. The benefit is not specified, and “gained something” need not mean acquiring a tangible object."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

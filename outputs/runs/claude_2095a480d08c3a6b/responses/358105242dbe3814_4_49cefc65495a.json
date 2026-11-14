@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "72019n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "548bc9858be3c06c2843c027ef16c9756f2aa2d15096bdd7dbc3162a068abd1e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBLuDnocB4NDsf1pNMb",
+  "received_at": "2026-10-11T21:43:10.930266+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.33,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Intifada\" means the Palestinian uprising, so \"Intifada to the Present\" roughly matches \"from the Palestinian uprising until today.\" The hypothesis is ungrammatical and lacks a clear subject, and \"Intifada\" could refer to either of two uprisings, which leaves some uncertainty."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14388e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe82b23ff674c646fc39531d59a119cd70b52b092bee26b0fee3dd3483da3f8f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07361db47405d8bf016acd440bdf1c87d2b7995627250cba45",
+  "received_at": "2026-10-12T20:33:18.517568+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise says a life-and-a-day sentence makes him ineligible for parole and expresses frustration with the system. It does not establish that the system is corrupt or that parole ineligibility is the reason for corruption."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6105n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4eb37bceb229ee179dd4cdda3324892e940196367601449f569311c00201b662",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a6dedc4c8476cd3016acbf0291e8087d2ad4baa6d21b10780",
+  "received_at": "2026-10-11T20:23:08.633214+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise reports Nicholson invoking an apparent party line when asked about abortion, but does not establish a general practice among Republican politicians and spokespeople. It also gives no evidence that constituents insist on that position or cause their reliance on it."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

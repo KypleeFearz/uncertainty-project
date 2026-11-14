@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117420n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea470f621c9d13929a827b0f3628b9398b036af21d9642c8af00a0d4cd347d07",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a750025b607c6e016acbe5eaba0887d299f86041bb5031e8",
+  "received_at": "2026-10-11T19:39:27.194263+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.54,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "“Get my groove on” commonly means dancing, matching the activity in the premise. However, liking to dance does not necessarily establish the stronger claim of loving it."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

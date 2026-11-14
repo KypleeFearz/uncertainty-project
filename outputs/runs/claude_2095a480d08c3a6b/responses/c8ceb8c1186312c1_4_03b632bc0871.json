@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_86901941.jpg#2r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6a0f2b6734e132bc94842cfce16493d5e0dcdcb899b296e1d6ac94ca71fd7eca",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ywBT7KfCMSSrM4rZX",
+  "received_at": "2026-10-12T21:54:03.402034+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.86,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Selling hardware parts on a dirty sidewalk does not establish that the man is homeless; it only makes it somewhat plausible. He could be a street vendor with a home, so the premise neither confirms nor rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

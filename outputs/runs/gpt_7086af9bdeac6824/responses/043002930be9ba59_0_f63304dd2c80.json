@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124839e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e66888ac5b7e63cef3bf5ff369c2ae34d9bcd5f89ef3c45611d9c63f1ca7323",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c3484411f5ed14016acbe6d5cca887d2a9086055bd62aa16",
+  "received_at": "2026-10-11T19:43:21.637233+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise says Justice Thomas would reject a particular freedom-of-association argument, not whether he wanted freedom of association himself. Rejecting that argument does not establish his personal desire or its negation."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

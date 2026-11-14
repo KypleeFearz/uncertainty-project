@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26766c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4c84cbafe0f7a21c4084cd317f067ceaf3d961962593ccc5a8ad2bde2cf0df21",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCUMwSXi1GxJGdW85W4",
+  "received_at": "2026-10-11T21:57:59.304306+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says additional reagent is needed when pH falls below 5.0-6.0, whereas the hypothesis claims it is needed when pH rises above that range, the opposite direction. This is likely read as a contradiction, though the premise does not strictly rule out reagent being needed at high pH."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

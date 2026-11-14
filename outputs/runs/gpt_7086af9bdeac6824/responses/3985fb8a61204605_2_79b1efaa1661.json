@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116176c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "160a6e3959bd62a0c9f20d77663687a425b845885927b92f0348041b23367199",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fcbd1d147f50264016acbf610b8f487d2b43b2a10eb286b9f",
+  "received_at": "2026-10-11T20:48:21.233344+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says students can savor misery’s sadness, not that they will necessarily be delighted by it. Interpreting “savor” as delight supports a possible connection, but the hypothesis strengthens both the emotional response and its certainty."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

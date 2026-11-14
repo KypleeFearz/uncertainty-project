@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39678e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c6bdbf3fbbbaea72d9c1e8ff7f84ca205dad048130ce600056145bcb9c4103d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012b28fc8fa93a79016acd456ab8f087d2b21ee7d12db5a08c",
+  "received_at": "2026-10-12T20:39:11.360124+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise dates the poll to 1994, whereas the hypothesis dates it to 1984, conflicting if they refer to the same poll. A separate 1984 poll is not ruled out, but is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

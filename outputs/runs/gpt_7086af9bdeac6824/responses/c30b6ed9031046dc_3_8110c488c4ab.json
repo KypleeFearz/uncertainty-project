@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104837e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "18f1b86a2221cd00dcacee752b114ae3c3cdff19cba0cee7b4bad9ebbb879d0a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b0446600e74a9fd016acbf5592b9087d2ae1f1c371580028d",
+  "received_at": "2026-10-11T20:45:17.700296+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says consultants describe some workplace interactions as value-subtracting, but does not establish that the value reduced is specifically value for consultants. The hypothesis is plausible, but requires an assumption about whose value is affected."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56582n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1cf8f5cab55a58b96d4176e497e8bcbcf4904160fe4b3f169bba0d4ccdc6f2e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0116353b5020d028016acbef9df4ec87d291bafe3b6648a57b",
+  "received_at": "2026-10-11T20:20:49.653621+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.67,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise describes mail volume displaced by alternative bill-paying methods, not mail physically going missing. A small displaced volume also does not directly establish how often mail is lost."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

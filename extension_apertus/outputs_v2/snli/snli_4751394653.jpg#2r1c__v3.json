@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4751394653.jpg#2r1c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise specifies the woman is preparing vegetables for the market, which suggests a commercial or public setting rather than a private home, but it does not explicitly rule out a home location. The reference to 'a woman' is underspecified, leaving open whether it refers to the same woman or a different one."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 333,
+  "output_tokens": 132
+ },
+ "seconds": 2.76,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:38:42.023106+00:00"
+}

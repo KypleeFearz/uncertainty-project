@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "33764c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e4c03a10e57e83814e459c56f2edfedf000cbeaf926b2c6a602a2037be71da9c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwATKpSSSVEfs8HuKVue",
+  "received_at": "2026-10-11T21:31:31.900330+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.3,
+    "contradiction": 0.66,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says a series of discoveries revealed archaebacteria living in unexpected places, but it never mentions Mars. Whether this contradicts or is merely neutral depends on whether the hypothesis is read as a claim about Mars or a loose extension; since no Mars discovery is stated, it is not entailed, and the claim reads as an unsupported or false addition."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

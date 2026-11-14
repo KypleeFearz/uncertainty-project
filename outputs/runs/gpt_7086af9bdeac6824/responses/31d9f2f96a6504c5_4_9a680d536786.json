@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111680e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "20dc416287c132662e2181192e75206ad35e083d675df651e6d4f5fbc5b23fb5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_004228b514acbe63016acbf5da5da887d2af8c8291298386bd",
+  "received_at": "2026-10-11T20:47:26.689030+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "“Smaller than the rest” plausibly means shorter than the others, but it could instead refer to overall build or size rather than height."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

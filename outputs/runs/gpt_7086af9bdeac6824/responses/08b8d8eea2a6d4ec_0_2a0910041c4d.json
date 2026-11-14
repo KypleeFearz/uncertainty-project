@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139409n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6247c2ac6e8e420d04ac1ea07b03cd07b1536ba9ca7b599faa9c4d22a1a65818",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e733009bd478fd7016acbe91c21fc87d2b90f0ddd6e343508",
+  "received_at": "2026-10-11T19:53:06.026669+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.37,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise expresses surprise that the object was nearby the whole time, supporting the hypothesis as a conversational paraphrase. However, calling the search stupid and saying they looked far and hard adds judgments and details not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 594
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

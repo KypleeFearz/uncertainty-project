@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10289n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "49df9daf2bbcb84e099fa885aec07107003ca3b9897cf56823bbf5615ab53e6e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c5669317f05cb4e016acbe3fee7f087d2b2027f8ae730eaf2",
+  "received_at": "2026-10-11T19:31:15.499753+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise supports that most produce is local, but ownership of an organic garden does not establish that it is inside the restaurant. The garden's location is unspecified, so indoor growing is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

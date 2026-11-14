@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103400e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7b7e349c915df1cc46089e8cd3d5a875d204bb03c51c23bd0eae0ea3af4dea70",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e2cfe68efeaaf5a016acbe410a4d487d289d2f4e4ad503ed0",
+  "received_at": "2026-10-11T19:31:34.357632+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.65,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says a temple occupied the site before Saint-Etienne; it does not say the church itself had a temple. If “had” means that the church’s site previously contained the temple, the hypothesis could instead be read as supported."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 221,
+    "output_tokens_details": {
+      "reasoning_tokens": 106
+    },
+    "total_tokens": 614
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

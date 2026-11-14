@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_7595435150.jpg#4r1c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise describes a ritual with colorful dress, while the hypothesis mentions hunting animals; these activities are not logically connected, but both could plausibly involve Indian people, making the relationship uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 332,
+  "output_tokens": 108
+ },
+ "seconds": 2.43,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:56:27.151101+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1682n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7af2fa599a4a0e54cbdeeac83379bde3aa86dc5e044070c284d256af6488b4a5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bf70eb9c2878f27016acbea32ed4887d286dbe98daabfda63",
+  "received_at": "2026-10-11T19:57:43.189576+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.63,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Building more effective relationships with the audit committee suggests greater collaboration, but the premise does not establish that participants wanted auditing to be less confrontational. That interpretation requires an additional assumption about what makes those relationships effective."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

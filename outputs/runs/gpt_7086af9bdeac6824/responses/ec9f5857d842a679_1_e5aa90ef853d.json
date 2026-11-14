@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "51299n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "af6efc5ec06ce5679d120ede5775dd1444987035a93b709ed1ddc170dd403765",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a6df71c7c8879a016acbf8e1c07887d2869a38053b3c00e4",
+  "received_at": "2026-10-11T21:00:21.582655+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.82,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise expresses hope that the listener likes their office, but does not establish that the office is new. Newness is a plausible contextual assumption rather than a stated fact."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

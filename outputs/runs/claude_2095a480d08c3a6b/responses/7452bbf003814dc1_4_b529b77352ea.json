@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "18264n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3fadf67002b376f4f492e8c440f41695897a63f37f08b1495c9dd5dba0816a2f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCQ3aXnugVBQTMMjWoU",
+  "received_at": "2026-10-11T21:57:00.698469+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.4,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Most is incompressible\" implies a minority may be compressible, which supports the hypothesis, but it does not strictly guarantee it since the rest could also be incompressible or unspecified. Some readers may also treat the hypothesis as conflicting with the premise's emphasis on incompressibility."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

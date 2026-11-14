@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "100332e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.05,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise states he argued for maximizing good while minimizing harm, which aligns with the hypothesis that he disputed providing the most with the least harm. The slight difference in phrasing ('seek to achieve' vs 'provide the most') introduces minor ambiguity but does not contradict the core idea."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 360,
+  "output_tokens": 132
+ },
+ "seconds": 2.91,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:38:39.690410+00:00"
+}

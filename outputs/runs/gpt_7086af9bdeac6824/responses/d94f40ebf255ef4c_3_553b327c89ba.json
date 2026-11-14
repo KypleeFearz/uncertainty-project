@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78105n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89d98e0cad8899e478af41eb351f6e40456bc9f9057878af6f2123194b8cbd5d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01bc63cf44f843f7016acd47b9373c87d29c343023a60feed7",
+  "received_at": "2026-10-12T20:48:59.957143+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.985,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise states that they abandoned the fort in 1858 amid scarce supplies, a meager harvest, and broken spirits. It neither mentions nor rules out a preceding zombie outbreak."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

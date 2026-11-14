@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47639c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b7607e3d90da7a119f36ac55cce386c6549e2054db2b4b9dab1083a965881e5c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e0f0bf08221a486016acbee6cacfc87d29295655c1ab49244",
+  "received_at": "2026-10-11T20:15:44.132001+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.77,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise expresses acceptance and an expectation that it will happen when the time is right, but does not establish eager anticipation. Its relaxed tone may suggest less eagerness, though it does not rule out being excited."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

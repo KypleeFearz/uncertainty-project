@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75276n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c85b3c21f1f49d945bd97dea06c139fdd82124dd7f48a16c844044806fd6d3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b644e731d904abd016acbf20617d087d2ba6434eb75b37cb2",
+  "received_at": "2026-10-11T20:31:05.244076+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.94,
+    "brief_reason": "The premise says Jon saw him enter the smoke, but does not establish that the smoke subsequently obscured him. That is a plausible consequence, not a guaranteed one."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

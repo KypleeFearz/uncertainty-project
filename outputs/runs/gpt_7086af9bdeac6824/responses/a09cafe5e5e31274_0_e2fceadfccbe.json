@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108243e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f57060e122ab476198d52bc049793988eb6e0d251b477d757154a9d07d683c2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04f0384c374a4801016acd41deb53c87d29923eb223f8e7eb3",
+  "received_at": "2026-10-12T20:24:03.098352+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "“I believe that” and “mine would say the same” support the hypothesis’s expressions of belief and agreement. What “mine” refers to is unspecified, but both statements can naturally refer to the same thing."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

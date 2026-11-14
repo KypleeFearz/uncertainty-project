@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122531c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8ddaa3e06f1a509dbae0466db843598adf6d85f0e03465103e7b5eb9444d1da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ae81130af995651016acbf65d0e6087d2bba5af05d226f13a",
+  "received_at": "2026-10-11T20:49:36.204904+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise supports Funchal having a strong shopping selection, but says nothing about it being a giant ski resort or that being the reason for its shops. It does not explicitly rule those claims out."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4859795235.jpg#1r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9f955b432d073eb504aea88a673f8899e50745551aeaed4a3850133cbed36384",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ccb4b759bd59877016acd4d827c0887d28dd9dffd75969e11",
+  "received_at": "2026-10-12T21:13:41.346563+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Holding cloth does not establish that the man sells handkerchiefs, and a wooded structure does not clearly establish a grove of trees. The premise neither confirms nor rules out these additional details."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

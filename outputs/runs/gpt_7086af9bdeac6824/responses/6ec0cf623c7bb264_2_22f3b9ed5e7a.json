@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21702e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5a4a0ad1f11391b9ba5993fa91683bfec7d5b6b540f606083fa4d1a027742181",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_059352a0f53456ae016acbf7a8034487d2afcbf9486965e612",
+  "received_at": "2026-10-11T20:55:10.148717+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "If “no what” is a typo for “no way,” the hypothesis approximately paraphrases the absence of means to destroy it. However, getting rid of something can include methods other than destruction, which the premise does not exclude."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

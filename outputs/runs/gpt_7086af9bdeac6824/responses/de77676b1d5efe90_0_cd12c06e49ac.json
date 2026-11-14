@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44834e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d48cd787fa41e392db2e711dae6ed09e194891bab6d9129c56b528d9b0439de7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053cb93f0972cdd3016acbedfb8d6487d2bef0294052731092",
+  "received_at": "2026-10-11T20:13:54.189778+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes fatigue with speculative analyses and a shift toward data collection, whereas the hypothesis extends that fatigue to data collection itself. This conflicts with the implied contrast, although moving toward data collection does not strictly rule out being tired of it."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

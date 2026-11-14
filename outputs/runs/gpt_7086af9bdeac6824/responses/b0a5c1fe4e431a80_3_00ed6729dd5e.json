@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30282n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6842213b81741314ff5c97a62589e666dac6a36ac26172d2314834e7c1ba3ae8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3242f2dba20ae7016acbec2e9b4c87d2aee8828eae5cbe9c",
+  "received_at": "2026-10-11T20:06:11.433449+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.17,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise expresses astonishment at affording multiple missed days and explicitly says the speaker cannot afford to miss even one. The hypothesis plausibly paraphrases this, though work and the existence of people who can afford such absences are inferred rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4771381994.jpg#2r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9898e166b3c17266e8f2e92b9e570f8fd2bf4b75fdf9bff237b72c03c4c38897",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078a0a4de7fddb82016acd4d45dac087d2aab466ede2a1f8a7",
+  "received_at": "2026-10-12T21:12:43.523641+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.65,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The man is on a bike, but the premise does not specify whether he is riding it or sitting on it while stationary. Riding is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10080c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "932078fc0565b2ad62511d89af8ac9bce12d3bd7f60bea60977af3a017bec0ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5b23c8e85e27a2016acbe3a9d93c87d2ac9fdeb05ab09759",
+  "received_at": "2026-10-11T19:29:49.265898+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.86,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says price discrimination can persist under an unspecified condition, not whether price flexibility is possible right now. Interpreting price discrimination as pricing leeway could suggest tension, but the condition and time frame are not aligned."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

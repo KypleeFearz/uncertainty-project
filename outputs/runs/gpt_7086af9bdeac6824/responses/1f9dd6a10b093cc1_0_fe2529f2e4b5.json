@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59757c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53f9437725f5ca6848e5e4482d5bd4dbbb09645edcc79e0afa95427da63b851a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8106bbc1d527b1016acbf94b128487d2af0693b19fb7ab66",
+  "received_at": "2026-10-11T21:02:07.486131+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise permits a petition for a determination that emissions will exceed the threshold. It neither permits nor prohibits a petition for the opposite determination, so the hypothesis is not established or ruled out."
+  },
+  "usage": {
+    "input_tokens": 437,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 596
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

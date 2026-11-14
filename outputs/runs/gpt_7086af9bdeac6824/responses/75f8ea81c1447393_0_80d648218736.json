@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97926n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7db28dabbb69388878c1eca49725bd007267777fa2a1b9b84ab172cc0ca4d829",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d746288ec91e145016acd487f5f4487d28e8df061efcfbf20",
+  "received_at": "2026-10-12T20:52:18.620299+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.33,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.39,
+    "brief_reason": "The premise supports substantial losses from labor disputes, but investors disregarding those losses does not establish that GM ultimately won the disputes. 'Victorious' could instead refer loosely to a favorable financial outcome, which is also not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

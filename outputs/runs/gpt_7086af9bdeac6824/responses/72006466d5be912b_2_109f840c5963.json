@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80930n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c82df183898e3de16a00f4162e844f6a19b3d5a9d77941b5cc17e5595b326997",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0424f08978a2213d016acd47dd7d2487d2b911137478e51355",
+  "received_at": "2026-10-12T20:49:38.237558+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise asks whether someone thinks the issue comes down to education or something similar; it does not assert that the issue depends entirely on how much education that person has. The hypothesis adds certainty and a specific interpretation of education."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

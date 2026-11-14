@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26460n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2108794ffb0a9fbde0c30cb2ac27ec6261c3190bfd2254ad58e4f3785ca1b901",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCTmxYA9CnvByZNeASD",
+  "received_at": "2026-10-11T21:57:50.425545+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.35,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise grants that democracies are probably unlikely to go to war unless attacked, which matches the hypothesis, though it adds that they sometimes strike first. The hypothesis also narrows 'attacked' to 'on their soil', which the premise does not state."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73260n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5d919fa30bc3ed21a9e2008084a677d4f9154240542056ab35de5d9dc0f0c297",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_009c8c19d51d6dda016acbf1a88b7487d280f4df4790eecc2d",
+  "received_at": "2026-10-11T20:29:31.577821+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Not being citizens' first concern means the disputes were not their highest priority, not that they had no concern about them. The premise leaves whether they were concerned at all undetermined."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

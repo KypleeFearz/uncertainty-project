@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29929n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0c47f4455a17e9289aec60ae5a86bb150785099d6c4ecf3349a73f34d1c4f8d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03cac97932acbd84016acbec148bf887d282760d93afc228e0",
+  "received_at": "2026-10-11T20:05:44.391398+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise says that some categories of control activities are common to all agencies, but does not identify safe business practices as one of them. Thus, the hypothesis is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

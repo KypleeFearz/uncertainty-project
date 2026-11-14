@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "61379c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3345b948ccd2b9b13b233cff4115bb0eaabcca6cf97d20c2c82829ecd48118f6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB7ksNoUJDqe7rukEAC",
+  "received_at": "2026-10-11T21:40:12.589170+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Big game fishing is recreational sport fishing, which differs from commercial fishing, and boat trips (tours) are not necessarily ferrying. The premise neither confirms nor clearly rules out the hypothesis, though the mismatch leans toward contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

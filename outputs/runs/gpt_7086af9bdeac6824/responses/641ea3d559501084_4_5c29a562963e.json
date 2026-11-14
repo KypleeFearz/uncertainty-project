@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2237363031.jpg#0r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd134fdd4d217c2eaa630ceaca8fafc03e3fd8f06e94049c78d5d613ccb58730",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a770e1c7aec1001016acd4967681487d292514d467fc0f120",
+  "received_at": "2026-10-12T20:56:10.037385+00:00",
+  "parsed": {
+    "entailment": 0.999,
+    "neutral": 0.001,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.0,
+    "brief_reason": "The premise explicitly describes a short-haired man and a frizzy-haired woman, so it establishes that a person has hair."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

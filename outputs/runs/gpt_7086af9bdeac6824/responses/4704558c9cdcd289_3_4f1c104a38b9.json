@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70738c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cbd2816324bc5b5142904efc8544133dc24aad9f45040e426ae6dd98a0e2378c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a3a7961a2dffd31016acd47525a6087d2a73ef527cc1afc45",
+  "received_at": "2026-10-12T20:47:17.342448+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise defines interest rate as the price charged per unit of borrowed money over time, not the total amount borrowed. The hypothesis gives an incompatible definition."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

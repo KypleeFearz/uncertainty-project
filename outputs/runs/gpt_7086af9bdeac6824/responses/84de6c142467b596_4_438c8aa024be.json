@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b6c7e3a75c5dd3cc9a2ddcb29ff91c2a312eb72a938c49843c9e1eb9a53bcaaa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07405f4cd5a2d4e3016acbf9a7c5f487d2a872d858d393c4d9",
+  "received_at": "2026-10-11T21:03:39.656816+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.09,
+    "contradiction": 0.89,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says people are rarely indifferent to the magazines, whereas the hypothesis says they do not hold strong opinions about them. These generally conflict, although a lack of indifference does not necessarily imply a strong opinion."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

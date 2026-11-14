@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "60436n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da17fac6c48f4883a7bc97ca0d0d70ba82f36b6efda4e4a211f81148675af4f0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ebe35bcef2a330c016acd46e3af8c87d2b20a6b327772cc79",
+  "received_at": "2026-10-12T20:45:28.709268+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise associates independence and having things to do with attending programs, but does not establish that becoming independent increases the available activities. The hypothesis is plausible but not guaranteed by the premise."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

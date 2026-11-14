@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54892n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91e5f5c50ee2f713a1d2255bdace0346f35844e8ac9ba23884b15366c31c686a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e4cfb6167ec3e5016acd468a8f4887d2bbc2c553a2e9172b",
+  "received_at": "2026-10-12T20:43:58.044432+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.049,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise contrasts a possible $32,000 starting salary at indigent-representation agencies with a $125,000 average first-year salary at larger firms. This supports the hypothesis, though extending the comparison beyond first-year lawyers involves some generalization."
+  },
+  "usage": {
+    "input_tokens": 462,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 575
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

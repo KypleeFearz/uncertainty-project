@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73840n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "018a2f72cc5124e48ccec976d3772f5ac121d915efbc0874467c2af85fcb6fa0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fffb63fb00f7d05016acbf1d5a85887d29bccbc8a6cd13122",
+  "received_at": "2026-10-11T20:30:17.334387+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.43,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.74,
+    "brief_reason": "Tuppence says an unspecified situation seems meant to be, which suggests fate but does not establish that luck is real. Connecting this remark to luck requires an additional interpretation."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

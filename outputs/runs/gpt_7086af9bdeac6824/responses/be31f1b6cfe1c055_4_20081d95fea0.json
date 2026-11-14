@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6199648902.jpg#3r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cbf2d80c6f83f7e8fdde9ea2fd20f4a02d968bc2a1b2a3824e7a50bcf91d0291",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0143c6c60160e1f3016acd4e3b133087d2b56d04505bd5c87a",
+  "received_at": "2026-10-12T21:16:46.272111+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "The player is jumping in an attempt to catch the ball, but the premise does not establish whether he succeeds. Inferring a completed catch requires an assumption about the outcome."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

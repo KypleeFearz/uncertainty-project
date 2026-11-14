@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4938916849.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a9d3ef950fd9c9348854ab9cd29732326e152cfaa95188645e87dcde557a66e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08807712cd44787b016acd4da7c53c87d29d00494cb98d6fac",
+  "received_at": "2026-10-12T21:14:22.943840+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.82,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise describes people taking pictures as a blond woman holds a sign, but does not establish that they take photos with her or that she is a \"yellow woman.\" Interpreting \"yellow\" as referring to her blond hair would make the descriptions more compatible."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

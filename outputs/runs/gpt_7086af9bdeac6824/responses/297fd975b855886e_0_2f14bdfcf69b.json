@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13714e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b1d571f99cf3ceb50e2f0490515fea16a69b732538feb05101a1345a3a71832c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08cf1432d19f3d4d016acbe8bb289087d28b3deb75c3feee22",
+  "received_at": "2026-10-11T19:51:26.995100+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The premise says the movies show up at the dollar movie theater \"right after they ... come out,\" supporting the hypothesis's timing. There is slight ambiguity about what counts as release and how literally to interpret \"immediately.\""
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

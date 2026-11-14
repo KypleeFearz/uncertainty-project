@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "115247c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "91af7bc83cab492d17ab007aaaa8538057039adf782ac614f9cd7e90eaf89804",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC8aEKgRbXfvHk6Wtjp",
+  "received_at": "2026-10-11T21:53:30.526486+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.6,
+    "contradiction": 0.38,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says he may go to jail and is owed a guaranteed ten million regardless of play, implying a negative view of the pay. The hypothesis praises him and says one million is fine, which is a different stance and amount, so it is not clearly ruled out or supported."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 855,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

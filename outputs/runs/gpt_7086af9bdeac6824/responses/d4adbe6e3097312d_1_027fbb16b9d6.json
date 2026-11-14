@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44957n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "96e4ee477803c541c97450902440f78887c7312ed3b6623f3865945ecce4ece9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fc86068ef50e917016acbee029f3c87d2bd0d33472a15b834",
+  "received_at": "2026-10-11T20:13:58.077839+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise mentions Postal Service data but does not specify that it is delivery data. The hypothesis adds that unsupported detail, while its reference to costs and drivers broadly matches the premise."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

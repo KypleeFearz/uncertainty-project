@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "36514n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7f2f016d9247d577b60c4a6b7e558a65987e7da55ec60f19b6e7f9fbb33f7228",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCYDucV9F1Ax9gfFNEt",
+  "received_at": "2026-10-11T21:58:51.285021+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.62,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise matches the alternating cooking and outdoing each other, but says it was really fun and never mentions fights. The fighting claim is unsupported, though 'really a lot of fun' might be read as suggesting no fights."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

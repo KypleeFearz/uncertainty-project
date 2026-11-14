@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42321n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5f65042c318d2143210a59739895f77853252a63ca555c0cf66c839ae503c32e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0727826832c78b3e016acbf86dfe2887d2b8e2bc60e173aaec",
+  "received_at": "2026-10-11T20:58:25.153126+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The speaker explicitly wishes for death and describes life as wretched and filled with unending grief. This supports the hypothesis, although wishing for death does not necessarily imply contemplating an act of suicide."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55561n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95a85b9ca43c882be220c3d92f6ce79f3c72091929ed5adfed302ac390b2d826",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cd197256cef085f016acbf92d003487d29930d1f8af39d4c5",
+  "received_at": "2026-10-11T21:01:36.873262+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise contrasts cultural festivals with weddings or feast days, where performances occur in their true context, supporting the hypothesis’s authenticity comparison. However, feeling less authentic is an inference rather than an explicitly stated experience."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

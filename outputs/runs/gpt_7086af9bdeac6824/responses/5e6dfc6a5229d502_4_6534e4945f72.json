@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80630e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8521fc3db68c43136b42417d8dbe060e68d7b35132f5284a78903b6ad8591ecf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_058763ac5be9d706016acbf2bbbe9087d29899b61da6fc283c",
+  "received_at": "2026-10-11T20:34:07.363376+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise places the sea less than three blocks along the avenue, supporting the hypothesis's distance claim. The hypothesis leaves the starting point implicit."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

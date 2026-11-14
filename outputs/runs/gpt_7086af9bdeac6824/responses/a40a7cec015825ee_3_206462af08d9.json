@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57345e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e691a8b4044c20142878f5a8498e7e376ad8afac1734b8118401a072619c095",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03cb50572d9cac08016acd46ab88ac87d295b87a87a9de7690",
+  "received_at": "2026-10-12T20:44:31.477007+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.115,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "As an ordinary request, 'Can I get a drink?' conveys that the speaker would like a drink. A literal question about permission or ability does not strictly establish that desire."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

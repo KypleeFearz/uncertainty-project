@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77175c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6ef58271a1f0902a1e30d8760fc1d04fbcca213cd175c606f3fe8852db493bd3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9c1eaf90b981fa016acbf9cce67087d285faee5a2e77445f",
+  "received_at": "2026-10-11T21:04:17.589277+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The reply asks whether results can be guaranteed; it does not establish that a guarantee is impossible even with money. Reading the question as skepticism about such a guarantee requires an inference beyond what is stated."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

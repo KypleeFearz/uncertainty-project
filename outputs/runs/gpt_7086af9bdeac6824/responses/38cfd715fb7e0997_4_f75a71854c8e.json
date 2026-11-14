@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_495340319.jpg#0r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e8407900ce7b7323fb929ea264ffc0087dae334e23f5a9577e5f593bce7dacc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05dc08643c3dee43016acd4db9860887d2a1739d976352aa7f",
+  "received_at": "2026-10-12T21:14:38.933967+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The second child is close behind the child carrying the football and reaching for his flags, indicating pursuit in the same direction rather than running in different directions."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

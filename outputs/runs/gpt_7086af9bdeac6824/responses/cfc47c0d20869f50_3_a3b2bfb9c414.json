@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101470e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "84f2b961ae4ceb32b545710a9050f38ebe9678cae4e9833e9f311d674898044f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d4cdee016830a8016acbe3d1a87087d2a5e084db1df2919f",
+  "received_at": "2026-10-11T19:30:30.782775+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says it sounds convincing when spoken by the white townsfolk, but does not specify whether the townsfolk themselves find it convincing. Inferring their belief from how their speech sounds requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

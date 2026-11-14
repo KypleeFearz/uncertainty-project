@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32197n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30850951d3fba0e7bd5a5cd9b08a68358a337da2cd9d57f5849ce80eb1795621",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6d8edb46cf656d016acbf812ff7887d2b94a2da9d23f6ec0",
+  "received_at": "2026-10-11T20:56:55.418272+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.82,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise distinguishes State and Federal courts but does not define their governmental levels or say that their duties differ. Federal commonly means national, while describing State as local is imprecise; variation in responsibilities is plausible but not established."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

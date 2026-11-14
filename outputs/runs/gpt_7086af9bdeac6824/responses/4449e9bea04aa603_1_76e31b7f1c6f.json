@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14191n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "18e3a64c6980db633ef8403caf1b395b511fa97d7b022a0fd6959991e02b1169",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_086d53270109e79c016acbe96c781087d2ac444b02e67a5b24",
+  "received_at": "2026-10-11T19:54:24.577217+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Seeing Adrin cocking a pair of pistols supports the description of spotting him preparing to fire. However, cocking the pistols does not strictly establish that firing was his intended next action."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

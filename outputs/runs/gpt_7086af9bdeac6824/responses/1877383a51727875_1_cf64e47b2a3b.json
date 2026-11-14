@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88064n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "00544aeeedd16b04f669ee8892b2e097041ff2496f29998fa6ec46ba8558cae1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6b5b45331ba844016acbf3c9559487d2b9a7e42c265b6baf",
+  "received_at": "2026-10-11T20:38:37.098912+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise compares Leonardo's theatrical, lavish style to Liberace's, but does not establish that Leonardo's character was based on Liberace's lifestyle. Resemblance does not imply influence or derivation."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

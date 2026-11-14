@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143024c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "321c0c47a5e470f0e0ace2a863c6638779b04fe8131f2580c64de4d12deeb951",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03c75fe51c68d634016acbe990a86087d2b405b635c3baa777",
+  "received_at": "2026-10-11T19:55:01.087032+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.6,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes the event as traumatic, while the hypothesis denies that it was traumatic for the speaker. They conflict if the premise concerns the speaker's experience, but the premise does not specify who experienced the trauma."
+  },
+  "usage": {
+    "input_tokens": 360,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

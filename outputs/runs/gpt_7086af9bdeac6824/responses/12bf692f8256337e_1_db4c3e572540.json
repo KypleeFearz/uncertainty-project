@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43897c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "baa9462dc7306c31d91d9dca5bb4a4e7b16b85e084ed99e7f4acdfcdbd3faae9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d55165608f50c5a016acbf8795e3c87d2bc9613b6c57eee8e",
+  "received_at": "2026-10-11T20:58:37.320410+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a section heading about receiving water samples, not a statement that samples were actually received. It establishes neither that they were received nor that they were never received."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

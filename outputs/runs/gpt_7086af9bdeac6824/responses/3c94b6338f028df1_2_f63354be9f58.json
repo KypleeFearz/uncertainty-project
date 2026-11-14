@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104399n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad1c652f7b7db0d8b9e398a84fa769d05ab272c6d6fa8e11ac9419c9c55f0f64",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fbcc0fd2e34878016acbe4435d1c87d2ae104dfd375b9bbc",
+  "received_at": "2026-10-11T19:32:23.344270+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise identifies physicians’ perceived responsibility as the strongest predictor of screening, not as a guarantee. It does not establish whether screening always occurs when a physician feels responsible."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105196e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2db2e0a45e3e9b3b020dcbe527258d04d595ca3ff792635e825a0986985d2b7e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b133a464f89f8fe016acbf56ae40487d2ab4d4410a20faca6",
+  "received_at": "2026-10-11T20:45:34.839869+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise states that San'doro said “Indeed,” which supports the hypothesis if “they” refers to San'doro as a singular pronoun. A plural or different referent for “they” would not be established."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

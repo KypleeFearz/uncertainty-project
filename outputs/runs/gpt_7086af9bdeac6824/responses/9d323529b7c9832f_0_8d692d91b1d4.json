@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37660n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f421867ced36f9cb7d3e74b23e52d74cf9988f9179dbb068465bcc18e9a56b72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab963cf0abcf01f016acbed180f3087d2a25bbc57392d3fd8",
+  "received_at": "2026-10-11T20:10:05.041379+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says the paper exposed potential conflicts involving politicians, not that it established multiple actual conflicts over its operating history. The hypothesis is plausible but requires assumptions about the number and actuality of those conflicts."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

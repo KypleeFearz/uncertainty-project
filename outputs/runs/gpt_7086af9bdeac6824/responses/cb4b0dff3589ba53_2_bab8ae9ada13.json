@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47714e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a658a1da83a0b17dbc50ccc44219c43bbfbf8997d94aa520b64a4c39a5c9efb4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094470caedcf2547016acbf8b6b93887d2a01709d38776409c",
+  "received_at": "2026-10-11T20:59:39.015622+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.065,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says the speaker could afford another place and that its extra space would encourage clutter, supporting the hypothesis. A small uncertainty remains because being encouraged to clutter does not strictly guarantee having clutter."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

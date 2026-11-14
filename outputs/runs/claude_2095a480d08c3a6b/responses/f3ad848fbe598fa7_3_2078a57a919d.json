@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96448n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c94b5acf6ea590ced3dbaaa36dbefba0ec361b3def9a417277a8519da1c2c84f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4kW6r66aAcr95bBoDE",
+  "received_at": "2026-10-12T21:37:54.182117+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.6,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says knowing Social Security benefits helps workers plan retirement savings, which suggests the benefits are useful. It does not explicitly say they secure retirement or provide financial freedom, so the claim goes beyond what is stated."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 837,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

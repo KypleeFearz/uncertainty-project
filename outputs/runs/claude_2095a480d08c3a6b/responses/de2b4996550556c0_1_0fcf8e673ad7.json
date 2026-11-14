@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "141321n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "198d67c37e27eb4dad94f8359668274bc6c8dc0881e081a20aae9b83d973794b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3waHZdqa8SgagnDCM5",
+  "received_at": "2026-10-12T21:27:17.757683+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise places the event in the Maryland woods, which conflicts with woods north of Boston (Maryland is not north of Boston). Small uncertainty remains because 'It' is vaguely referenced and the show could involve multiple settings."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 834,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

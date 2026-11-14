@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35809n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de52ae0e1e3300f5971ce1890a1fdb2e954d1b3794a63f0bc13de1b86b3ea428",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c33c4e7fd33559016acbecce422087d2bc83b75106878ea3",
+  "received_at": "2026-10-11T20:08:49.262360+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise groups six principles into three sets called critical success factors, but does not state that all three must be fulfilled for success. That requirement could be inferred from the label, but it is not established."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

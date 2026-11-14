@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105911c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2d40d3d9d60b729d6a4c536c828c629dfb87e5e2461891ecc0c1d6c4ab51877c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3a1beb5a6453c4016acd41c906a887d296749ddb9da2b9ea",
+  "received_at": "2026-10-12T20:23:42.562032+00:00",
+  "parsed": {
+    "entailment": 0.67,
+    "neutral": 0.32,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise criticizes using day care instead of bonding with babies, suggesting that children should not go to day care. However, that recommendation is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

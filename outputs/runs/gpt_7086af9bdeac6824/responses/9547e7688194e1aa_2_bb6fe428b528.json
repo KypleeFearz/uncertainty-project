@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14459n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff8e5f403ed0273167832fe505188d213e06b2424e603bbcf519db657f7b7814",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_076afccfe6d641ef016acbe9ce7ff487d2958794c397e93bf3",
+  "received_at": "2026-10-11T19:56:02.346286+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise specifies meditation, not mediation, and does not say the warriors learned it from monks. Even if “mediation” is read as a typo for “meditation,” learning from monks is an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

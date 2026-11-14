@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80957c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2212e0d3e9b6cc0f27d67617a693e518e20675b90a92ca669b90360f92cc624e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f40701090501ddd016acbf2d1527487d28b8b52de0d15b0b7",
+  "received_at": "2026-10-11T20:34:28.397820+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise asks whether Mary has visited any new restaurants recently; it does not establish a shared restaurant visit yesterday or that it was fun. Such a visit is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_504413268.jpg#1r1e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "The premise describes construction workers (men) engaged in an activity around a hole, which implies they are working. The hypothesis is a general statement that is supported by the premise, though it omits specific details like construction."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 336,
+  "output_tokens": 118
+ },
+ "seconds": 2.7,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:44:52.787507+00:00"
+}

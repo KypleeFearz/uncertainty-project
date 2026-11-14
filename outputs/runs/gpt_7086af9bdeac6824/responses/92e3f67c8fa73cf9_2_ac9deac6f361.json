@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78322e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b716436d8594c62c3897e8bbd1ac58de45441b2be171045cc2ccb3481aa24d36",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a233c9162d94fe016acbf26feb2c87d2875dc2e14cd29a16",
+  "received_at": "2026-10-11T20:32:52.859705+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.3,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "If “tourist officers” is a typo for “tourist offices,” the premise supports visiting them even when traveling adventurously. Read literally as officers, the hypothesis is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 73
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

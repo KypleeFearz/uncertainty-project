@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_434469662.jpg#2r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8af9edabdd18e06c46ac3d2fd64299afd36eaacabdf975c199f15fee3c07001f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_057f816915e4c55a016acd4c7c46b087d2bcd04fb2656a1e4c",
+  "received_at": "2026-10-12T21:09:21.013040+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports that a woman waits on a man in a store, but does not specify that it is a general store. Entailment depends on treating “general store” as an ordinary store rather than a particular type of shop."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

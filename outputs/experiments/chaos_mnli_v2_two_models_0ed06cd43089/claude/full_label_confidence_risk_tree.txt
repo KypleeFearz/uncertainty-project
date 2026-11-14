@@ -1,0 +1,19 @@
+|--- answer_is_e <= 0.500
+|   |--- mean_confidence <= 0.707
+|   |   |--- mean_confidence <= 0.577
+|   |   |   |--- value: [0.754]
+|   |   |--- mean_confidence >  0.577
+|   |   |   |--- value: [0.527]
+|   |--- mean_confidence >  0.707
+|   |   |--- mean_confidence <= 0.825
+|   |   |   |--- value: [0.264]
+|   |   |--- mean_confidence >  0.825
+|   |   |   |--- value: [0.084]
+|--- answer_is_e >  0.500
+|   |--- mean_confidence <= 0.698
+|   |   |--- mean_confidence <= 0.562
+|   |   |   |--- value: [0.040]
+|   |   |--- mean_confidence >  0.562
+|   |   |   |--- value: [0.091]
+|   |--- mean_confidence >  0.698
+|   |   |--- value: [0.000]

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138272n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a2136ce53c4e47a203aee4c0da8a3f4766add1ee7568f9abfbfc9a6ac8c8693",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020b537d77ff2414016acbe8e4de9887d2b913f0b7f582881f",
+  "received_at": "2026-10-11T19:52:08.502320+00:00",
+  "parsed": {
+    "entailment": 0.21,
+    "neutral": 0.77,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "Calling something an investment in the future suggests anticipated later benefits, but does not establish that no results will be noticeable sooner. The hypothesis adds an exclusive timing claim absent from the premise."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

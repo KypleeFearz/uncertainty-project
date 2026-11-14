@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74254e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "19e55114a6ea772da2e333ab00e558235233ee73d24335a9c301aac4b1a26e27",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bbd798876854929016acd477abf5c87d2a4e6897164626717",
+  "received_at": "2026-10-12T20:47:59.821160+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "“Keep his finger on the pulse” means staying aware of current developments or preferences. Matching customers’ wants is a plausible interpretation in a tourist-season context, but the premise does not explicitly establish that requirement."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 90
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

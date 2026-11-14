@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_7136105537.jpg#0r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e88e89f46c705fba032d3bce381f34c9d7f581aa744bd4382267dffea56d67a1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5vKNLWbH9UyBUrfv14",
+  "received_at": "2026-10-12T21:53:13.908863+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.55,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Talking to media plausibly means giving an interview, but he could be addressing reporters or making a statement without an interview, so it is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

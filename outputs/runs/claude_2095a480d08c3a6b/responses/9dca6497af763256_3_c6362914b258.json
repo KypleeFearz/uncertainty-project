@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "87332n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "80fd39af1884fcce08f781e113cc6953d3117aa545c2de66d87d774323662b7a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4hm9eSGiGjBcdEeFhm",
+  "received_at": "2026-10-12T21:37:16.713449+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says capital gains on existing assets are not counted as saving in NIPA, and a house's increased equity is a plausible example of such a gain. The hypothesis's hedge 'may not' is weaker than the premise, but it still fits; the remaining gap is the assumption that equity increase equals capital gains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 808,
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

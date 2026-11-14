@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16494c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5842c4ab9a4053c4e4d4e2b1ba8efeb374cb4a980aaee8735d581720e461f81",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d8c95a142ba144b016acbea27dc8c87d2aa69422da2c75f8f",
+  "received_at": "2026-10-11T19:57:32.088140+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "“Outlawed” means made illegal, so the premise denies what the hypothesis says must happen. A less direct reading could distinguish inability to outlaw something from an obligation to do so."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

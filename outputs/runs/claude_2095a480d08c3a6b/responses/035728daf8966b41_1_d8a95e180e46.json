@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "72875e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "25bbef5d8ef22b10e69de8f8774b3636471976193af306d70672ce8ad5e41a87",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4b9QA46L9NfwkGevSn",
+  "received_at": "2026-10-12T21:35:47.182490+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.55,
+    "contradiction": 0.33,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the policy succeeded and the speaker contributed, but the hypothesis reverses the causal order. The contribution was probably the policy itself, so the success did not enable it, though this is not stated outright."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69975e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "88186b76b795ae914d4e68c0f14a1b4fb3cde89f24450b42013ccfbf074ad0fd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBJKwWDhZuzk6cAr7cd",
+  "received_at": "2026-10-11T21:42:35.940800+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.07,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise has a speaker saying they are not interested in tactics; the hypothesis attributes this to 'the author', which fits if the speaker is the author. Slight uncertainty exists about whether the speaker is the author rather than a character."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

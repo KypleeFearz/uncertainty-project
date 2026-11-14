@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98944c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ac020810e9d240385a35c86a9fa2ea6287decec7dc06e2e98b66bf0de2e3c49",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d530969dd72e0d5016acd48b245bc87d2b30e00bb2d51e3c9",
+  "received_at": "2026-10-12T20:53:10.672274+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.78,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The fragment mentions evaluation questions but does not establish what is available or restrict availability to statements. A contradiction would require assuming those questions are available and distinct from statements."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

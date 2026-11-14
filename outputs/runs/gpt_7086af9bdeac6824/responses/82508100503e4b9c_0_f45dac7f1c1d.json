@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5266n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c78c3503ac371ddcc06a739e5423aef9fd6a5d276401994c692080f417d615f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06f7f83532965584016acbeef9ddb887d2aee2c6c731a86725",
+  "received_at": "2026-10-11T20:18:06.042620+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Might be kind of interesting” expresses uncertainty about whether it is interesting, supporting the hypothesis. The hypothesis makes that uncertainty explicit, though the premise does not clearly specify a future time."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

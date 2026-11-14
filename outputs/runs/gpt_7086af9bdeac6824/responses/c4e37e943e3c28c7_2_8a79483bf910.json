@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123038e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94f1163f480ae07bdb5b5dac3e8bd7a69cd8ae909f14cac6d2e33d64d71515ef",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03f1559f674c16d1016acbc216067887d2a3716e9783bbb651",
+  "received_at": "2026-10-11T17:06:39.731913+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.56,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.79,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The hypothesis resembles a paraphrase, but “validation engagements” and “government evaluating guidelines” are not clearly equivalent to attestation engagements and government auditing standards. The premise therefore does not firmly establish the hypothesis, though it does not rule it out."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 232,
+    "output_tokens_details": {
+      "reasoning_tokens": 117
+    },
+    "total_tokens": 631
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

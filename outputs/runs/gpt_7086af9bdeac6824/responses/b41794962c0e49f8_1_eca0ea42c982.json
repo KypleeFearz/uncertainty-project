@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48223n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b2bd3acb81095dc2d4ec1fe3f785da032ace1fde8dcbbd485cf9a7c3fa487e65",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_010df1562322f629016acbee8f69f487d2ac722189b1d64167",
+  "received_at": "2026-10-11T20:16:18.252705+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly expresses worry that the ease of the event might be a bad lesson for younger people. The hypothesis closely paraphrases this, though “kids” is slightly narrower than “younger people.”"
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

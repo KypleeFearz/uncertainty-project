@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9698n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d6295f0b7a774f922fcaaec5d329d2426e290736a28684e7a937a732401f56de",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c39eaddd2dddeb016acbf4c84ea887d2972a91a2dfca57d2",
+  "received_at": "2026-10-11T20:42:51.766964+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise identifies the execution site as the account's endpoint but does not state that the executions marked an important historical turning point. Narrative placement alone does not establish their historical significance."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76483n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4c54cbc4bd02cd91f8c64041fa412c340e66085801fe824d5ec875eb631faa58",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02fa206053d5c34b016acbf22d5d4487d28284ab917e402475",
+  "received_at": "2026-10-11T20:31:45.768083+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise only suggests that good schools might accompany incoming industry, whereas the hypothesis asserts that industry will foster better schools. That outcome is plausible but not established, and bringing schools does not necessarily mean creating better ones."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

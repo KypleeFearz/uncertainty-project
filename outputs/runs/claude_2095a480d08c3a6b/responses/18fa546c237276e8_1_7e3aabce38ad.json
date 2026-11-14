@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "65879c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "eab9cf70a3cb2cdcb566fde2f2c4ed90ad2e4e8ab49683b734223824869e9db1",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCmh66mGKyZfALJSZWU",
+  "received_at": "2026-10-11T22:01:54.046305+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.04,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise says Christian kings took four hundred years to subdue the Moors, which conflicts with the hypothesis that the Moors subdued the Christians after a decade. Both the direction of victory and the timescale are contradicted."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 847,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

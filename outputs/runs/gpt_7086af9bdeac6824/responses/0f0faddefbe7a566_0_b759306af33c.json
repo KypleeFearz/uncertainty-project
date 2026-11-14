@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59517n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c54cc1e6a2394a2424de159fa05dd0383b9c3d4064d663097dc5774092b36611",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06e52e3ed90e2ceb016acd46c9e64487d28c98eef4f6d6d574",
+  "received_at": "2026-10-12T20:45:00.778581+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise expresses a lack of enthusiasm for World League football in the summer, not for other summer sports. Extending that attitude to other sports is not supported by the premise."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

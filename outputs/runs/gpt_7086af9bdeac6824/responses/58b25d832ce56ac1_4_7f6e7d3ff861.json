@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130482c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e4dfe7ea386830a9ac53b376fa526abcfaa1476fc6d0bab96a28686ecd5e0730",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0af4182abb8fbb016acbe7e3445887d2befd443045c0a375",
+  "received_at": "2026-10-11T19:47:51.706894+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise says trays come in all sizes and that those with wooden stands are useful as portable tables. It does not establish how many trays are small or whether many other trays are useless."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

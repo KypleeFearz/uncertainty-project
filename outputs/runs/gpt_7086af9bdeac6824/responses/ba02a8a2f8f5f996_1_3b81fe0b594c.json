@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2043e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd5142620abc5361b7e6b87b133350cd17a19280238fb6e01d634239f981a943",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09b5690786a30e7d016acd4472cf6887d2b9fe3a299076cd4f",
+  "received_at": "2026-10-12T20:35:03.167743+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise naturally suggests that moving out there brought an understanding of what “nothing” was. However, saying the speaker knew this then does not strictly establish that they newly discovered it at that time."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

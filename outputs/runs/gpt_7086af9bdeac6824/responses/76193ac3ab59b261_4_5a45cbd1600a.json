@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23583e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95a0088b7e1e1594912ce3b93afba6d5a6dec1033b636ac01f0daa71689e0d5b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ff41975c5cf002016acbeb18154c87d2b6283cde9ed39478",
+  "received_at": "2026-10-11T20:01:32.380161+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.87,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise identifies bondage as the constraint and folk tales and traditions as elements of a rich culture; it does not establish that those cultural elements constrain anyone. The hypothesis also omits its subject, leaving the reference somewhat unclear."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

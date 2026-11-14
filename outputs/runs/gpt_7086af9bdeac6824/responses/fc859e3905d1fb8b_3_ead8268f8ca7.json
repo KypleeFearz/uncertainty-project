@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121677n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "396d1c356cb5794b1401a9ec42d15baa86f062e73c5e745bd9f6f87477938db2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0833bc864bee66d4016acbc2145d6887d29f5cdd58d752daae",
+  "received_at": "2026-10-11T17:06:35.700478+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise states a requirement, not whether the concentration actually fell below a limit. Both statements also omit the threshold after “below.”"
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

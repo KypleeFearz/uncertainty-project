@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99791n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a77ffcef10b23859dc5a29690035dbd2ba228aae07b01495b91c285ddd5322d4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f4b8e65c16e6c69016acd48ce43e087d294cb4c3e87a2a984",
+  "received_at": "2026-10-12T20:53:39.785100+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise says some analysts argued for loosening the old standards, supporting the claim that they wanted less restrictive standards. That those standards were restrictive specifically for investors is implied by the market context rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135449n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0861059e3c1ec577ed4574d3f45e6ce7b841949c6c106cbf26e0866e66d4cda7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_017bb027abd04668016acd437a160087d280d46a4b2a8e4730",
+  "received_at": "2026-10-12T20:30:56.675957+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Concern that emissions reductions are required too quickly supports a negative assessment of rapid reduction. However, the hypothesis generalizes beyond concern about the pace of these particular requirements."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 81
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4265806100.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ceaece39762eba765f20de04ee38304ceb8c3ec5a939d8d8c75157c4e3796e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07fb3a4dc82e776e016acd4c66d45c87d28a8a8ed2641bdbe6",
+  "received_at": "2026-10-12T21:08:57.378107+00:00",
+  "parsed": {
+    "entailment": 0.999,
+    "neutral": 0.001,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly describes two men sitting on a subway, which establishes that there are people on the subway."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 85,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

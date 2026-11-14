@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97569e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5715abfb23a6019cb209ceb9af42c8b908a448d50e3e3a85152e9b35fb105f88",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011cadb39ab7f6ea016acbfb06652487d2a681aed1c13dc901",
+  "received_at": "2026-10-11T21:09:30.930257+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.12,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Candle grease?” naturally functions as an abbreviated version of “Was it candle grease?” The premise leaves the referent and tense implicit, so the expansion is plausible rather than fully explicit."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

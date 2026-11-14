@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91993e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bcdf3d44ff3f60c1170c34afb9f3981e4de5bf6ea27a379241516da77c36de65",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d5c0ef9338b092b016acbf42ca84c87d29c35311c6e01e3bd",
+  "received_at": "2026-10-11T20:40:16.320519+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says most of Slate will not be published next week because of a summer week off, supporting a change from its usual publishing schedule. Although the break is traditional, it still represents a temporary alteration to ordinary publication."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

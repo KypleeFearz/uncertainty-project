@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125700n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f427797dbebe04e07d9477a5d38575eed67dbafce23ea058174aac7ba5b2da6c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5dc22333f1c7d1016acbe6fac22c87d293ef63345503add9",
+  "received_at": "2026-10-11T19:43:57.903968+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise advises bringing spare clothing and a towel, not buying new items. Whether any purchases are needed is unspecified."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 457
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

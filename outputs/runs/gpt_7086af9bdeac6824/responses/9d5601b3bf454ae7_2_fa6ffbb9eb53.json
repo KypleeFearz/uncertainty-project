@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4922677937.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe455f2d0f37931fee1f8b37207ed0dc9635c1ece9eb3a4b40137622e1c6201f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fac55e76ebe010d016acd4da0f2dc87d2994371feaf641fbe",
+  "received_at": "2026-10-12T21:14:11.837478+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.23,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Walking upstairs” ordinarily suggests moving to a higher floor inside a building. However, the premise does not explicitly exclude outdoor stairs, so being in a building is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

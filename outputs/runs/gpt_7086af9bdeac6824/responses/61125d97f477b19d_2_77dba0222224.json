@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132716n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "515ebf1576d441afaabb5ffaf094871e082cca3353553a5325cfb955c43b37ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f64d9bbc32a3df8016acbe81a50a487d28e034b04ca1e09d5",
+  "received_at": "2026-10-11T19:48:45.675486+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.84,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says they tried something, were unhappy with it, and he now does it himself, but does not establish that they tried valiantly or that only one person's unhappiness prompted his decision. Those details require assumptions beyond the premise."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

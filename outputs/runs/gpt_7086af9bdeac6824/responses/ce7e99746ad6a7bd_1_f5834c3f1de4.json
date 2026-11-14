@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9646n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e93c80afb67ee7076168561ac9b86bae6a1d7856628b7fbda030232af19841ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02a43e85470bbb61016acbd9775ebc87d29e71e6106ee669a8",
+  "received_at": "2026-10-11T18:46:19.413259+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the preseason does not matter, but does not establish that anyone plays poorly or that poor play is acceptable. Accepting poor preseason play is a plausible inference rather than a guaranteed conclusion."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

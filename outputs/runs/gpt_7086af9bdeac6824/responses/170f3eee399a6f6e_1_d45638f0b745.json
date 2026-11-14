@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21340n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "90ba67406fafe29c4b559cc26f56b2b204ea59f5e31981a1bda07056a7240eda",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05e3de7abcd321a0016acd4480f83c87d29e38388832e3e346",
+  "received_at": "2026-10-12T20:35:16.547256+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise states that the team is not the speaker's favorite and that the speaker is somewhat familiar with them. It does not establish whether they are the best team in the league."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

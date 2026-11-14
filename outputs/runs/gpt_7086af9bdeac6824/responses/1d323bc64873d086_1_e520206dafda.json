@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "25437n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "02578d033cb81abd53e738d45ce73455021fba19c4bc07ec95fc640872156bdc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b06a404f527f89d016acbeb6f34b887d292ec8106741538bd",
+  "received_at": "2026-10-11T20:02:58.419930+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The speaker calls Dorcas brave, but the premise does not establish that her bravery is widely known. Inferring a reputation for bravery from this description requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

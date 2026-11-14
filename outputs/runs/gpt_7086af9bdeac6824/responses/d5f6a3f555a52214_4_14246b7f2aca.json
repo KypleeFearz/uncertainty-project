@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73156e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9553fd9d4c508d9d685390f775fbb17f9a8e92e0595487c4eb42d4362eda0e02",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_020e771be32f6b20016acbf19d69cc87d2a3d999d39f812705",
+  "received_at": "2026-10-11T20:29:21.960288+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.76,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.42,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The speaker says they missed being around different people after coming here and describes that experience as exciting. The premise does not establish whether arriving here was itself exciting."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

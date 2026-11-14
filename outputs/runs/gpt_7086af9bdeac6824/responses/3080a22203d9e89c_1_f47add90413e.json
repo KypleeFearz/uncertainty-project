@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132019n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53f901f4a4d3a3eb9f35239ac8de966482c9f342c9b74c9d635d0decdd7b79c8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_027ea8991b0c1afb016acbe80dfb9487d28dc3736782a8d414",
+  "received_at": "2026-10-11T19:48:34.392968+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Describing Williams as Tarpley's intended replacement but saying he lacks the offensive skills supports the comparison. However, Tarpley's offensive ability is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

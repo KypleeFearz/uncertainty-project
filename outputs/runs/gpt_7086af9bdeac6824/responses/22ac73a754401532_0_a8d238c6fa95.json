@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_93922153.jpg#2r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0169215c098efafb43afbd5bcd77a49d2eb1ed1a9995238984ebe934b04c5b8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6d70a3941d77a6016acd4f0552e087d2a918b5a249ee1562",
+  "received_at": "2026-10-12T21:20:09.975734+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.049,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Rock climbing is a form of physical exercise, so the premise supports the hypothesis. A narrower reading of exercising as deliberately working out introduces minor uncertainty about her purpose."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142643c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64d20b386a289ed0e5ae58a479699c7fa1dc80afe25e07e24ad5228c8a28d857",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096652f36753ac61016acbf733dd8087d2920b538c7edd6eb3",
+  "received_at": "2026-10-11T20:53:11.963441+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.028,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says EIA used the assumptions to develop the projections, whereas the hypothesis says they were used to eliminate those projections. These describe opposing purposes for the stated use."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

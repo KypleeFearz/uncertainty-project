@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81356e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eef9e42fa936213547e3333494d4e5588fb5e7d8e231544cdb63c9f0907f060d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cc0a9d0eeb05647016acbf2e0d7c087d28a254ea6a5b3c745",
+  "received_at": "2026-10-11T20:34:45.493159+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.15,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise explicitly mentions a large gilded statue inside, which context suggests is a Buddha statue, contradicting the hypothesis. However, the statue’s identity is not explicitly stated, and the scope of “here” versus “inside” is somewhat unclear."
+  },
+  "usage": {
+    "input_tokens": 441,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "25670n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "142283e2610ab13969351ad75a331f056e677629d30b858960716597743e1d8c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b6fae13d78f111016acbf7cf368087d2b08f6a045784bd7b",
+  "received_at": "2026-10-11T20:55:47.249936+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the speaker soon became strong enough to move, but does not specify moving their legs. Leg movement is a plausible inference, not a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

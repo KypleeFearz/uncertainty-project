@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123751n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "548214d2366ef74824f381ae8761c906197deb31d1a1302004cc1f3fa13a8360",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_045665c61043ebc8016acbe6bc955487d2a61d4ea5815542d4",
+  "received_at": "2026-10-11T19:42:57.679465+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise associates lower income with lower education, supporting the hypothesis's general connection. However, it attributes the equation to “you” and does not clearly assert that lower income causes someone to be less educated."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "reasoning_tokens": 74
+    },
+    "total_tokens": 571
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

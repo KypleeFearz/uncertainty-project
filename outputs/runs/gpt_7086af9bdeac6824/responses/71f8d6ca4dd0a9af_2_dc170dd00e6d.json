@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "94674c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "35e7a69f0484593f71b0932eeb9ed976e829d5dc6431a0f3110047dd39b0d469",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3eeb74bed4b068016acbd971ac3087d2b42210264e924512",
+  "received_at": "2026-10-11T18:46:15.295189+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies the event as WorldAid '96, indicating 1996 rather than 2002. A neutral reading is possible if the hypothesis refers to a separate WorldAid expo."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 88
+    },
+    "total_tokens": 611
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

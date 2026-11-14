@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118393c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fa4c4b4a06782552561076ea30e8a3256dec63f8a21abe34a0bd417f1b7d7ebe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_022f3386e5bc04e8016acbf637560487d29790388968359830",
+  "received_at": "2026-10-11T20:48:59.482112+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.12,
+    "contradiction": 0.86,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise identifies the need to determine the sky’s characteristic impedance as something he could make an issue of, suggesting a reason contrary to the hypothesis. It does not explicitly state that this need was a justified reason."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

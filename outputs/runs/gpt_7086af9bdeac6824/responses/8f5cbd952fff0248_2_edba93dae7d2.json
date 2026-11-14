@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113913e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a665fb56c34c5f68cb4d31fad5a72f30f44a3217d9964f6a452066c2a75f26e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_049b2e954d5c4d72016acbe57439e887d28ac7df2e14d3d096",
+  "received_at": "2026-10-11T19:37:29.251528+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says Si does not pay for every such treat, but does not explicitly establish that Si pays for any. The hypothesis is supported only if we infer that Si pays for at least some treats."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

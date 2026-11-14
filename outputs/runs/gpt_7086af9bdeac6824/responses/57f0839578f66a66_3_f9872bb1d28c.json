@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28987n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e74267aa76c3054da351105f4cb15c78e61ef37e789bb29a93e2e85768c4d638",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b76a931203e68fa016acd44e98b8487d2a20a3e24e36c35fc",
+  "received_at": "2026-10-12T20:37:00.654800+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes past failures to plan a departure correctly, but says nothing about the speaker's current intention. A new attempt now is compatible with those failures but is not established by them."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

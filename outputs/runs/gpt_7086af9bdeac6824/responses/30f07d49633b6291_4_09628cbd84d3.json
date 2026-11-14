@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99279c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dde13c59ce45e398ae05843e669cca8ddce601549d76fde894f8087ab919572c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ee3b273a46753b8016acd48c1fc9487d28ed833fc6c94ec20",
+  "received_at": "2026-10-12T20:53:26.225022+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The reference to Title IV indicates a fourth title within the Clean Air Act, conflicting with the claim that it has only a single title."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

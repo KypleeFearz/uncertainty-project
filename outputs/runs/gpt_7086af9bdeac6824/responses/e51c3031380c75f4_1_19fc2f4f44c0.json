@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122397c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a646cc507462262810f85fe2c375169cf36f638a4a79a5e1e0d849b6c7647bd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b29d25ea2a522e016acbe69e8d2c87d2a14ebef66a663f0e",
+  "received_at": "2026-10-11T19:42:25.771147+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise specifies what the speaker wears to the office when the weather is cool, but says nothing about hot days. It neither establishes nor rules out wearing a flannel shirt on hot days."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5456862756.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de27fb2246bab12f0b5f705a8516921eaa59c9dda7812c7695f3fe0ab57b4c52",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0291bce6bc6b4d59016acd4df8bc2087d29b23de779c999610",
+  "received_at": "2026-10-12T21:15:40.819595+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The woman is described in a natural pool amid rocks with tents in the background, supporting that she is outdoors. “Lady” refers naturally to the same woman."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

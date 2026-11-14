@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54454n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "01412343f6c0395d3cf594a15bf50fdc687b970e1f9f360c4a31a99495b692ad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b642bbb84e15639016acbef5af85487d2bd3c83a66757c39d",
+  "received_at": "2026-10-11T20:19:41.556770+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise calls for a postaward audit to assess an acquisition's success. It says nothing about annual awards or whether recipients differ each year."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

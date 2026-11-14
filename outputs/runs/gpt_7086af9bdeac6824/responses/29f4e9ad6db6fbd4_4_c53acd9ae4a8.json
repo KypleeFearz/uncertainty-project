@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11020c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b256c9ae739ceb785a1003b47fa34e76e0cb02aa477dc0eef4bc4c73d6ad1858",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000d28fc933ba24f016acd41fc363087d29742544ea38520b6",
+  "received_at": "2026-10-12T20:24:32.092117+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.99,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise asks about contacting prospective employers, while the hypothesis asks about destroying their gardens. The premise neither supports nor rules out the action mentioned in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

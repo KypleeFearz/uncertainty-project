@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52854n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "616e81e50410d45a2bfec502b9d0af4f462a790efd8f1a5710a6dc62ee690b04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d570ca987a3922016acbef09823c87d2bb258c0729c3eb36",
+  "received_at": "2026-10-11T20:18:21.014402+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise supports transporting statues to the Luxor sanctuary for ceremonial purposes, but it does not specify funerals. Funeral use is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97444n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bc89ab55bf2b09b223fae10397a4433cadf590f1ae106ce8fa7c18b531bce26f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3d0dd50dc3fcdd016acbf4d887d887d2b75601014e86f315",
+  "received_at": "2026-10-11T20:43:09.897606+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise describes sales of goods and services during undercover operations, supporting that they are sold. Identifying the sellers specifically as undercover agents is plausible but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

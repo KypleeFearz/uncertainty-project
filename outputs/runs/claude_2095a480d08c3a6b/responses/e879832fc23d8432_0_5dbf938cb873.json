@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21297n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c3b06cfd933d67a2a4f2c1985764bd54881bbca04b64f70d0502e031d4d076d0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA9S11sASiakSByTeTJ",
+  "received_at": "2026-10-11T21:27:28.394601+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.8,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says he cried as if his mother had just walloped (hit) him, but it does not say she used a spoon. The instrument is unspecified, so the hypothesis adds a detail that is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

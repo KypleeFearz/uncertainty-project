@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137715c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62e0dfebdb125cc241f0da70f22c6b842081e0694eeec3db04f587cc4c625e96",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_088dae61f3b1cbe0016acbe8cc680087d2b7a573243566d968",
+  "received_at": "2026-10-11T19:51:42.949332+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise attributes an environmental belief to Barrett Duke and associates him with the Southern Baptists. It provides no information establishing or ruling out that he is a terrorist."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

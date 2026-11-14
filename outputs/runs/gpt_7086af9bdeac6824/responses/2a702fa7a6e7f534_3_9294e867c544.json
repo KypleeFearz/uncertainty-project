@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6272230270.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "55f42f6bad1e3ec3f5b07b251b33ebe1258ffc88ebf8fc141d51c67ba146acdf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d858a575b47474016acd4e3eacb487d2a341a46e14aa3e95",
+  "received_at": "2026-10-12T21:16:51.106502+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Riding a bike in a colorful sports uniform does not establish whether the man fears falling or spoiling his uniform. The hypothesis's awkward wording leaves some uncertainty about whether it describes actual damage or fear of potential damage."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

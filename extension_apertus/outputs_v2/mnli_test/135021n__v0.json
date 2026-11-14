@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "135021n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.25,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise mentions keeping 'a couple hundred dollars' and describes it as 'not too bad,' which aligns with the hypothesis that 'We have money on there, which isn't great.' The slight mismatch in tone ('not too bad' vs. 'isn't great') introduces some ambiguity, but the core fact of having money is preserved."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 153
+ },
+ "seconds": 3.05,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:01:04.357010+00:00"
+}

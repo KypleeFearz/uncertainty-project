@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74377e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e2c5cc70fbf9d0f532171ad37c1835fa4fa6d2513b857b70ba76aead68fef4ea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aef8af0b05cdb78016acbf1dc604887d2b03f210f86d29168",
+  "received_at": "2026-10-11T20:30:24.561659+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise presents avoiding chemicals on the lawn as a benefit, supporting a preference not to use them there. However, that preference is implied rather than explicitly stated, and the hypothesis's “we” is not clearly identified."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

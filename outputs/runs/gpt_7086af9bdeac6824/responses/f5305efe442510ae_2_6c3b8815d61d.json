@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80220n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1245d4394eacc263c4316a0d8c25c1edc85ca09c099c0c07f6a6eecdf4e6aa08",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04bc7d9f96ca6a75016acbf2abf93087d29653e42c98d7bc0e",
+  "received_at": "2026-10-11T20:33:50.929289+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise describes crowded streets and the goods vendors sell, but does not say they are competing to sell the most. Competition might be inferred from the presence of many vendors, but it is not established."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

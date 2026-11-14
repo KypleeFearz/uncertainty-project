@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "93623e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "23fd26fa79a36c3377d6f5038d5326377aa7cd94fa725707200c2b275e86773e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfvx2Hg7fRNK8ALW17V3M",
+  "received_at": "2026-10-11T18:48:29.293639+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.4,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Double-crossed\" means betrayed, while \"stepped over\" is a literal or loosely figurative act that is not clearly the same. If read as betrayal, \"more than one time\" fits \"about four times\"; otherwise the premise does not establish the hypothesis."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

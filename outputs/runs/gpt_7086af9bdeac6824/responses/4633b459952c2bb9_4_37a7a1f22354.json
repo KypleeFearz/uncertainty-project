@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7856c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cde61821180ac0f625fc7e915b01b7026efe2ade611636d9b4e050b3d76a8c52",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08aa7f3a4e3600f0016acbf276f5d087d29194bd31dcad3a0e",
+  "received_at": "2026-10-11T20:32:58.375820+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise asks how to distinguish good from bad, while the hypothesis asks why that distinction matters. Asking how does not establish either caring or not caring about the distinction."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

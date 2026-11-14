@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111662n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ccf7669c96f968528dd997d147dab9b9403b8e1651c7bd2693cc8a0e661b568a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b537459b4b2dedc016acbf5d224a087d2999fb66fd0ea7b34",
+  "received_at": "2026-10-11T20:47:18.389194+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.11,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Sacking Rome indicates that the Visigoths succeeded in that attack, contradicting the hypothesis on its natural contextual reading. The premise does not establish whether they were successful in a broader sense."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

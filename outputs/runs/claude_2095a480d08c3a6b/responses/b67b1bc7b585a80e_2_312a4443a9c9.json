@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102817n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ae5199731229cd1b91371506709a639630071e63cf7b63cdd644d93a68a13ee0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8zKv2nwEpH47eKGtN1",
+  "received_at": "2026-10-11T21:12:17.626216+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The speaker says that living without debt would make things much better but explicitly 'it wouldn't be perfect', which rules out the hypothesis that society would be perfect. War is never mentioned."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 1038,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

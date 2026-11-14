@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105196e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1733a677e339469ba8873fcd6ef4a60ffe2cdb907beaf1b44f1126646258e4aa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f01495c5affd0b016acbf566dcb487d299ab53545d80f6b3",
+  "received_at": "2026-10-11T20:45:30.949702+00:00",
+  "parsed": {
+    "entailment": 0.91,
+    "neutral": 0.08,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.42,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise attributes “Indeed” to San'doro, supporting the hypothesis if “they” refers to San'doro as a singular pronoun. A plural or different referent for “they” is not established."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

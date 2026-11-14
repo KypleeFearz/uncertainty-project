@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79130e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "34e6910d71d54a13a101860b4176718aae7deeb496aa72ccc1df577f4adbbc1b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089dc34ddafc7832016acbf9f5c7a087d285a9ba5fe4925fd2",
+  "received_at": "2026-10-11T21:04:58.529672+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.065,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The chest is described as \"full to overflowing,\" which supports the claim that the garments exceeded its capacity. A less literal reading of \"overflowing,\" or inefficient packing, leaves slight uncertainty about whether its size was actually insufficient."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

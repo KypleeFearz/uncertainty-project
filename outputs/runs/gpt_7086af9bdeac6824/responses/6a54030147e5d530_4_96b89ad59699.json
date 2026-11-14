@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43891n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6b40a913f8ff06fe60949b28d57adf96f21466bba780439c22ac21b3e72cd732",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077516e5d13be2a1016acbf8768d6487d285acb17335322def",
+  "received_at": "2026-10-11T20:58:33.379766+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.989,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise concerns a recommendation to the Secretary of Defense about policy and guidance, not dietary advice. It neither establishes nor rules out a separate GAO recommendation to eat five servings of fruit or vegetables daily."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "135247c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f7038a907cc5569607d90d293f284a4d6d257a7f47560f12c113a4fdbea4aa75",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9jgNXYsH3iMnhgaXaM",
+  "received_at": "2026-10-11T21:22:05.816611+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.6,
+    "contradiction": 0.36,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise mentions wax models only, so clay models are neither stated nor clearly ruled out. Some readers may infer the models are wax and not clay, and 'They' is ambiguous."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

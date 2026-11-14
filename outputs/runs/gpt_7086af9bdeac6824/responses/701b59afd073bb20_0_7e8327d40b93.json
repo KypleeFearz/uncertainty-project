@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16996e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dcba336c1cfe8f42bf696af134d186859505520ba6730e5e687c1c656c1766d9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0db19fede42ad8c5016acbf753d82087d28c209d4978bbaa53",
+  "received_at": "2026-10-11T20:53:43.444202+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.965,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says U.S. consumers and U.S. multinationals benefit from cheap imports, not that East Asian factories benefit. Benefits to those factories might be inferred, but are not established or ruled out."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

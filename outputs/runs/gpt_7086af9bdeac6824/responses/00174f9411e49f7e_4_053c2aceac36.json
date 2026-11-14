@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107468n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c061c5870538fbcee3fa418f8df51c516389fee34f28651685e95f6398e52d79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06b6644d543dcd83016acbf5aad5c087d2b49fce33e98de017",
+  "received_at": "2026-10-11T20:46:37.757120+00:00",
+  "parsed": {
+    "entailment": 0.31,
+    "neutral": 0.67,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says walking through it is required, but does not explicitly establish that walking is the best way. Interpreting a required method as the best method adds an assumption."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10916n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b5dfee2535588d66df51c84998dd4e3f473aa2b4aae6f7f9001fb6d2d555f744",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02c935060159d264016acbe4d570f887d29fd74d59c331f587",
+  "received_at": "2026-10-11T19:34:50.074203+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "Having 'gone a long way' using the book's contents suggests that he learned substantially from it. However, the phrase could describe what he achieved with a small amount of knowledge rather than how much he learned."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

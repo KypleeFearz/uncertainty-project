@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100373c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "82083bc2b65cefb4b99d9e7e300e0fcbeb7d796bf53aec3f2c3565b64acb476c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05351845d63f95a5016acbe3839d4887d2bcdec9bf9438e4d2",
+  "received_at": "2026-10-11T19:29:10.853172+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.05,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly describes subsidy costs being disbursed from a program account to a financing account, opposing the hypothesis’s blanket prohibition on such transfers. The word “should” introduces a small descriptive-versus-normative distinction."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

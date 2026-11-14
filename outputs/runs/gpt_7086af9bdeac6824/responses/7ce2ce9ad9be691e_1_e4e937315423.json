@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19768c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d99f148f9bb4475ffbdcd9edf4473818fcab3162420a24bfd5bbfe6f61ce7796",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_001e7a1f7f672a05016acbea827b4087d2a6b11ea27ef9d515",
+  "received_at": "2026-10-11T19:59:02.123596+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The instruction to keep to the shade in the street presupposes that street shade is available, conflicting with the hypothesis that there is none. However, an instruction does not strictly guarantee that its recommended conditions exist."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80766n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1a8e9ae6fa1029cd3b1aabaf0791d6c5837c983181b7ac7f3e6f80dd5e75cc7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06daf8539c059cd2016acd47d4a53487d2b151a4d03259b81e",
+  "received_at": "2026-10-12T20:49:27.590318+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise describes something as scary but does not establish whether it is predictable. Inferring unpredictability from scariness would require an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

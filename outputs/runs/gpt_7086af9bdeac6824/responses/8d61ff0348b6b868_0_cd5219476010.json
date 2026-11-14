@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77299n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bce6fc7609209c5a311271c20739d16e5d752f5400b42625ff22715bf3d567e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cb62f4427d6a12e016acd47a4502087d2b9e7873f465e3a43",
+  "received_at": "2026-10-12T20:48:42.168614+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise supports broadening the inquiry from technological failure to other contextual influences. The hypothesis additionally infers a motive and may imply replacing, rather than expanding, the original inquiry."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

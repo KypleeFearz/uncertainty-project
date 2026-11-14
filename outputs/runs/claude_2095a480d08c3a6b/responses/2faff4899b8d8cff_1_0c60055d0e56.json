@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3160531982.jpg#0r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b03d939b0879129d8f11c2ed59a03b5eb5117f4599aa75e516206affcc953ccb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5EPEdvMFDmNt7umKHp",
+  "received_at": "2026-10-12T21:44:12.107488+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.6,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Gliding with a parachute could be paragliding for fun or a descent to safety; the premise does not say the person is falling or in danger, so the hypothesis is undetermined. Some readers see a parachute descent as falling to safety, others see recreational gliding as conflicting."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

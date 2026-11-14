@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102174e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3e2e7c5582536b0f03cd4ca4c43d27fd320f2f77a6e64ddb73109c273ec4e9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e21314783dac7e2016acbe3e4030487d2bb1396d66804fd8a",
+  "received_at": "2026-10-11T19:30:47.727148+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.09,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explicitly raises the possibility that they are \"not hitting that night\" or are \"low,\" supporting the possibility of poor play that night. The fragmented wording leaves minor ambiguity about the precise performance issue."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

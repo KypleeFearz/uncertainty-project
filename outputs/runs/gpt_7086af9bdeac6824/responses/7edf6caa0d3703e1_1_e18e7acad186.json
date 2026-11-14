@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90760e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69fb7b6f67cec7d1c8326f278ff3f48cccd15a8fd57ecef9f8cc251e22554bb6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0241332862449f53016acbf401118087d2acb5b03f11ede7eb",
+  "received_at": "2026-10-11T20:39:33.618183+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.65,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says additional sensitivity calculations use other data sources, but does not explicitly say those data replace primary data. Replacement within those calculations is plausible, rather than established."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

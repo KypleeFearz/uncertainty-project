@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13714e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3efad71c3eb5db57c626a710437db6d424849728ba8547c3b41679c1052c351",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b1ad1a58f0de55a016acbe8bb77f887d283afb00051efca13",
+  "received_at": "2026-10-11T19:51:27.396949+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The premise says the movies appear at the dollar movie theater \"right after\" they \"come out,\" supporting the hypothesis. There is slight uncertainty because \"right after\" need not mean literally immediately."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

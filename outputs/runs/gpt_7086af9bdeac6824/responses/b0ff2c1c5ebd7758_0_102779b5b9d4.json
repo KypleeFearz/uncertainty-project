@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139635n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "014ccd3c8d889048fa079c782d96c5958e37d4787576ecff5b7f932936c94aa3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00e96762534a2afa016acd43b5310c87d2bc7da524b7b26b5f",
+  "received_at": "2026-10-12T20:31:53.394791+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says that many people are on death row but few are actually executed. It does not establish that most remain there for the rest of their lives, rather than eventually being executed or leaving death row."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

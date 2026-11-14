@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_62964059.jpg#2r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes a playful action with a pillow, while the hypothesis refers to making a bed comfortable, which is not logically implied by the premise. The connection is weak and relies on an assumption about the pillow's purpose, making the relationship uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 335,
+  "output_tokens": 120
+ },
+ "seconds": 2.62,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:49:35.172493+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12092e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d4137cf7c972c3392018f2f19a896790ed318e6881f3a319a0e7caaf7977f8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c947c69994864ca016acbf65786f087d2b776855ba6f4d90e",
+  "received_at": "2026-10-11T20:49:30.500853+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.92,
+    "brief_reason": "A statue depicting John Knox holding a Bible suggests an association with it, but does not establish that he actually read it. The hypothesis is plausible rather than logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

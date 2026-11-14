@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36435c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "900855a35b0a0460ad67a23e4765d3a61cfa8d39e8758cbdc0c4a56cb275dda0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c646b0313f4a74016acbf835907887d2952b0459c57f3fef",
+  "received_at": "2026-10-11T20:57:28.631993+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.005,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.005,
+    "brief_reason": "The premise describes a 91-acre garden above the Wag Wag River, whereas the hypothesis describes it as 900 acres above the Nile River. Both the stated acreage and the river differ."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

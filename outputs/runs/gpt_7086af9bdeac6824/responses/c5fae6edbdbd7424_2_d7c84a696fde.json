@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100768n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aa52042546694f6ec60a535f9e3063961f95ba243c1dd08c3375347215195a8d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_065fa5a52f477d13016acbe39b675c87d28402722d5628f470",
+  "received_at": "2026-10-11T19:29:35.859723+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "“Travel light” ordinarily means traveling with little luggage, supporting the claim that little packing is needed. However, “in a way you can” is more qualified than the hypothesis’s definite statement."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

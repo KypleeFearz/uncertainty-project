@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132934n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7410fc4eb20caee9abd256f75c38c6c78adfc617cffebd8797af0aaed6716706",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_066e4b70c3a60016016acbf6d3a82487d280501a56c4c8e545",
+  "received_at": "2026-10-11T20:51:34.618601+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise supports that most plants need to install control equipment to meet requirements, but it does not state how long installation takes. Potential obsolescence as additional requirements arise does not establish a lengthy installation process."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

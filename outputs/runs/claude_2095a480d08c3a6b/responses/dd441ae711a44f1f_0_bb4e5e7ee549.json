@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "18142n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a757cffc212c52d0c0b4d94da1dc26d8174a72dfa680551d1020c7c4da057518",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA5DovZfvSHpzHUUwxk",
+  "received_at": "2026-10-11T21:26:31.151414+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.5,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The speaker is unsure whether the buffaloes grazed, saying it seemed they moved fast but grazing 'wouldn't have been a problem'; this neither confirms nor clearly rules out a long period without grazing. The unclear 'they' and 'them' and the speaker's guesswork make the label ambiguous."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

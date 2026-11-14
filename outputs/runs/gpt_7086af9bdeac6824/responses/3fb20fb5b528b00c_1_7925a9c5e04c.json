@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79130e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5613c3698690d902d8b1d36534ddce5b99ce554131c5a9aa5983021e30740d90",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0555f66f7dc412016acbf9f57a3087d2ab21fc1ac60bcd4b",
+  "received_at": "2026-10-11T21:04:57.575377+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The chest is described as full to overflowing with garments, supporting that it could not completely contain them all. A figurative reading of “overflowing” would make this less certain."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

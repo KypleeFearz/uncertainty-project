@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102857n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ba0d6b5ed288d2b8f92c41bb71244353fde0c56adc2417572fe69c451bc6182",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ceb8170b94f2bf016acd41a1cc2487d284e360d23e70ca24",
+  "received_at": "2026-10-12T20:23:01.534260+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise concerns reporting expenses for education and training programs intended to maintain or increase productive capacity. It does not establish that calculating the net cost of college programs is itself a way to increase productivity."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

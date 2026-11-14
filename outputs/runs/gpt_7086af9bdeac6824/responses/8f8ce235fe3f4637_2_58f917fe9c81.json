@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106431c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "38fdddc9de76e54262994743d51dd87059b99218ecd9ca47cbf78567d5cb5c33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012be9f6d61235f3016acbf596bfbc87d28fa7f9bd39c6755f",
+  "received_at": "2026-10-11T20:46:18.103774+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.969,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise discusses whether the behavior of the named figures is defensible but does not specify their species. Interpreting the names as familiar people could suggest contradiction, but that identification is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132752c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2c7308a2e34f419d3bd64558cc8795113056810ae088097f4abf00fd9ca287b1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6026ef9b2082f8016acd4341867087d2a405f6bc69c00cd0",
+  "received_at": "2026-10-12T20:29:58.131829+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The editors arrange for everything to be written, suggesting completion does not depend solely on the speaker. However, the omitted action in “I do” leaves some uncertainty about the relationship between the two statements."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

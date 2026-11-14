@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32814n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "74c72aefb34533adc02053339280b94ee85bf83992facdf7d97e610d2de6b787",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_024d7353c98764c0016acbec6192cc87d2a7dd0cd421bb1ecd",
+  "received_at": "2026-10-11T20:07:01.463715+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.92,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise asserts present existence without identifying what exists, while the hypothesis asserts past existence. Present existence alone neither establishes nor rules out past existence."
+  },
+  "usage": {
+    "input_tokens": 355,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

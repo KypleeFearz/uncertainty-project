@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91797c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4b71d66c553ee0c567fb46214b65da6907850e3b8aa853298a3cd6e2dd4e9da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011607b0322bd4ff016acbfad179a487d29c122c6e2fb2a5b2",
+  "received_at": "2026-10-11T21:08:36.750102+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise identifies the south as the direction from which an attack can be launched, with a town-wide space available. This conflicts with the claim that the south is totally protected against attack."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

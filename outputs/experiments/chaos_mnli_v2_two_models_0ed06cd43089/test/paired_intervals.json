@@ -1,0 +1,74 @@
+{
+  "gpt_human_js_tree_minus_prompt_mean": {
+    "mean_difference": -0.09408781669860042,
+    "ci_95_low": -0.10586118334368838,
+    "ci_95_high": -0.08363255988131811,
+    "groups": 272,
+    "bootstrap_repetitions": 500,
+    "direction": "negative favours the tree"
+  },
+  "gpt_balanced_accuracy_decomposed_minus_risk_trained_all_cases": {
+    "estimate": -0.023906071019473174,
+    "ci_95_low": -0.07014388516923481,
+    "ci_95_high": 0.0191739695312741,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over risk_trained_all_cases"
+  },
+  "gpt_balanced_accuracy_decomposed_minus_single_score_risk": {
+    "estimate": 0.07627720504009161,
+    "ci_95_low": 0.0224471701434002,
+    "ci_95_high": 0.12442016008995095,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over single_score_risk"
+  },
+  "gpt_balanced_accuracy_decomposed_minus_single_score_confidence": {
+    "estimate": 0.12273768613974795,
+    "ci_95_low": 0.0650406733383253,
+    "ci_95_high": 0.17922811238483502,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over single_score_confidence"
+  },
+  "gpt_balanced_accuracy_decomposed_minus_calibrated": {
+    "estimate": 0.18031691485299733,
+    "ci_95_low": 0.12228218085684114,
+    "ci_95_high": 0.2319679877238786,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over calibrated"
+  },
+  "claude_human_js_tree_minus_prompt_mean": {
+    "mean_difference": -0.02771397588640351,
+    "ci_95_low": -0.03573269237734491,
+    "ci_95_high": -0.020573035733055377,
+    "groups": 272,
+    "bootstrap_repetitions": 500,
+    "direction": "negative favours the tree"
+  },
+  "claude_balanced_accuracy_decomposed_minus_risk_trained_all_cases": {
+    "estimate": -0.04615651570362661,
+    "ci_95_low": -0.09623435980087348,
+    "ci_95_high": -0.0023999735213385987,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over risk_trained_all_cases"
+  },
+  "claude_balanced_accuracy_decomposed_minus_single_score_risk": {
+    "estimate": -0.04269670503402928,
+    "ci_95_low": -0.11053410440090931,
+    "ci_95_high": 0.025274393046975974,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over single_score_risk"
+  },
+  "claude_balanced_accuracy_decomposed_minus_single_score_confidence": {
+    "estimate": 0.05430138623787767,
+    "ci_95_low": -0.02677743105880134,
+    "ci_95_high": 0.1281102155159336,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over single_score_confidence"
+  },
+  "claude_balanced_accuracy_decomposed_minus_calibrated": {
+    "estimate": 0.04840168122312838,
+    "ci_95_low": -0.03632859369631243,
+    "ci_95_high": 0.12417175428951711,
+    "valid_resamples": 500,
+    "direction": "positive favours decomposed over calibrated"
+  }
+}

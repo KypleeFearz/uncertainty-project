@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "116356e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f0e67eb62be6605cdc3b961365142b2d62b0c658f8c7b82266dfaf0cfe0a0bc8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3gVg5NtJ4XKRauQdhT",
+  "received_at": "2026-10-12T21:23:53.348503+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only lists 'Silverwork and Pewter' as a phrase; the hypothesis misspells both words ('Silvework', 'Petwer') and claims they are related. Misspellings may be read as typos (suggesting relatedness via the conjunction) or as different, unmatched terms, so the relation is not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 757,
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

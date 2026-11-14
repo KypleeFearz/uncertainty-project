@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138227n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73823a3d524ab78da24c4c9cdd07d927e663b01709321100223261c09e1926bc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_032f0d7e6e188718016acbe8daf4a487d2b485d2c7850ab4b1",
+  "received_at": "2026-10-11T19:51:57.765959+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.27,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise says alcohol problems among ED patients warrant consideration, but gives no proportion and does not establish that a vast majority are affected. Alcohol problems also need not amount to alcohol dependency."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

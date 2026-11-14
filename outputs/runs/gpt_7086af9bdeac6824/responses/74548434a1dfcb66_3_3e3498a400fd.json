@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7136105537.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "70e22f25cada0e51348a9e845300331ad6cfe7a5519e847796ecf0f97f2c3eed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c1b26719f33669d016acd4ea3393887d282d5f2a2ead556f0",
+  "received_at": "2026-10-12T21:18:31.003359+00:00",
+  "parsed": {
+    "entailment": 0.81,
+    "neutral": 0.18,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Talking to the media during a protest strongly suggests giving an interview, though it could also be an informal exchange or a statement rather than an interview."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

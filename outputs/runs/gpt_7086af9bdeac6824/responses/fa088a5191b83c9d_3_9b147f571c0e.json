@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88188e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2f13d792026f975772233d10878005563aff3a2e8ae9eb8d328a577069f1c3cc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f550058f390b071016acbf3d08a7087d293318923176b1cc9",
+  "received_at": "2026-10-11T20:38:43.558645+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise establishes only that the air is warm, not that it is arid or permeates the surrounding land. Warm air can be either dry or humid."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

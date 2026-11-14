@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117392c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4107304f0aeb94493bd976e9ab006a14e84c74a6033b0c6b7e9f21cbd407a02d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08b2dbf05f464bf5016acbe5e9c09887d28db14854f23aa839",
+  "received_at": "2026-10-11T19:39:25.644291+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.91,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise asks where the real Japan lies but does not establish whether it is obvious to everyone. Reading the question as implying uncertainty could suggest a contradiction, but that implication is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

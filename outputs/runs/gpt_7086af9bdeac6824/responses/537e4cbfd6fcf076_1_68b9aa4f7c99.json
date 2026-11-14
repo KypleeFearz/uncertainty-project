@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2460799229.jpg#1r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7e1bb6adb2310d16fe29eee0c06e4b514947ea1461969ea15029e80778bd08a4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d59ce38fc74ada7016acd49d21cf487d2ac4a796383724f52",
+  "received_at": "2026-10-12T20:57:57.941628+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Being on an inner tube in the water does not establish that the boys are swimming, though it does not rule out swimming during the outing. The hypothesis requires an additional assumption about their activity."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

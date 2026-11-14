@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97569e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "728b849c5788f17d0623f4c7487bcde0d7913994e0796a036390ad4ed93bd82a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d4f524cbdd70c82016acbfb09a89c87d2b4ecd26a4e671959",
+  "received_at": "2026-10-11T21:09:34.392232+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The hypothesis is a natural expansion of the elliptical question “Candle grease?” However, the premise does not explicitly supply the referent of “it” or the past tense."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

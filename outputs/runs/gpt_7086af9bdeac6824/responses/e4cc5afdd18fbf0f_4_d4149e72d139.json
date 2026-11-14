@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "143608n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8076cfa4279909d62b6c8fa831fb2a081ffa084e082aa79c00874cba715b2db6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_078bd27bef951d96016acbe99acf3487d2a7d549b8d757a4d7",
+  "received_at": "2026-10-11T19:55:11.213707+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.89,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise discusses research designs based on statistical inference but does not specify organizations. Their use in different organizations is plausible, but neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

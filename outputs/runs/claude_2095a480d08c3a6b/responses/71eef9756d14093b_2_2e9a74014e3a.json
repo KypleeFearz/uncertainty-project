@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_779266595.jpg#4r1c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "042851f918aedd6a8c0409381c24edcadbc4d8948269c200d699ef186a659d1b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5xU6Fvu9ZspyNmK7h2",
+  "received_at": "2026-10-12T21:53:42.867349+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.28,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "\"Hang out\" implies being awake and socializing, which makes sleeping unlikely, though it is not strictly impossible since someone could hang out while dozing on the beach."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

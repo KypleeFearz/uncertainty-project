@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "120166e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8c87f011c8f72d8a35352ec7289c26dfb0d9254c1fc87d4ccb905897539b2423",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3iBAPrqDEEn1N1cGqT",
+  "received_at": "2026-10-12T21:24:15.892050+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The speaker says that things may seem a certain way outwardly but a lot is going on inside, which fits the hypothesis of a deeper layer beneath the surface. The referent of 'they' is unclear, and 'another layer' is a loose paraphrase."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

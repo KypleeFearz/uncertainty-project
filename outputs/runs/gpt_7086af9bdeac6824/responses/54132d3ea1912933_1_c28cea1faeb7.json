@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130680n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2422272178287b198950f87e992dbcc2b9b285043f3c248b4b4443f975d9554f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0683d79cf6aaa920016acbf6b1277887d2a1ccb305cb1e7811",
+  "received_at": "2026-10-11T20:51:01.204775+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports the claim that leading organizations seek effective processes, but does not establish that this can be obvious to most people here. Neither those people nor their understanding is identified in the premise."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

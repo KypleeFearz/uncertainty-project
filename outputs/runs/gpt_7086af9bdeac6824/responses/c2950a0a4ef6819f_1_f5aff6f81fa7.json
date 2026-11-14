@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29068n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "27ddf993ed1bde5027e4ad7c3f7debacf987a88b18123b9e825a9a6b9a459764",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03056bce8df61fc3016acbebff429c87d2950a2c4ee341b18d",
+  "received_at": "2026-10-11T20:05:22.024217+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Understanding someone's feelings does not establish that the speaker has personally undergone the same experience. The premise neither confirms nor rules out such shared experience."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

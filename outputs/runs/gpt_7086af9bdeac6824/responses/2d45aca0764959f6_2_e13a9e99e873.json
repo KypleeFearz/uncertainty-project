@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82528c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "348bff938f5790f7c5ad146e9e42eee2fead3e76b6accea1e0179c0abbb40007",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03eb1fb981e4fe90016acbf32aa3b087d297702451e26a9ae3",
+  "received_at": "2026-10-11T20:35:59.380867+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise suggests that avoiding new taxes was not possible given the economy, whereas the hypothesis says it is possible. The hedge \"maybe\" and the unfinished sentence make this less than a definitive contradiction."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

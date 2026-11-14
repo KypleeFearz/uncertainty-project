@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10119e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58bb3b1ff6aaf5e2b380e9be2f845ef67be067ac84b1ef15c6980945418b9077",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06317009e4bd14a3016acd418d326887d28eec604e29d1c938",
+  "received_at": "2026-10-12T20:22:41.022822+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says he is very certain but does not specify what he is certain about. Being sure of himself is a plausible interpretation, but it is not established."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

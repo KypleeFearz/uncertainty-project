@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139677n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6faaa528ddb85859c8c724c8fcf1cdab03ef26d0a4138aae6f900c50731885c4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c8009303c48040016acbe92f7c5487d2964c7d92cec2bbfd",
+  "received_at": "2026-10-11T19:53:22.600189+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise indicates that he has feelings about what was done to the Voth, but does not say whether he expressed or concealed them. Thus, keeping those feelings mostly inside is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

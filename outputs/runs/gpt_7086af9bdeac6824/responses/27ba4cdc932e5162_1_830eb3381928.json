@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11303n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9704cd7f21b579b978119211de2ff34307a6d1941709f37a9e3d62f6d8dbaea6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_098e5bb4472da834016acbe5572da087d28ca11babb7bdba18",
+  "received_at": "2026-10-11T19:36:59.271440+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.71,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "'I see' may acknowledge understanding or refer to literal vision. It does not establish that the unspecified 'it' was clear, though that is a plausible inference under the understanding sense."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

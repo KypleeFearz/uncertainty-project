@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61216n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a6628d0dce68eaeea49bfe63383c348077335a53b629bc4605bd3eb81d9a99e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07231d2068d62ace016acbf95cf3d087d28593a968afb4b1c8",
+  "received_at": "2026-10-11T21:02:25.446123+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise supports the idea that valuable cards encourage purchases, but does not establish continued buying despite accumulated piles or that every pack contains a few randomly distributed rare cards. Calling the strategy clever also adds an evaluation not stated in the premise."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

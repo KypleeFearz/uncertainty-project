@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "8545c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "15775c0375954e79ef3c4b0d6f46347329ed5bc58094b3353db6ac710473703b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCvkvHo7UsqDGksDgQk",
+  "received_at": "2026-10-11T22:03:57.134219+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.1,
+    "contradiction": 0.87,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says he hasn't seen even pictures of such things since some old silent movies, which implies a long gap, so seeing them recently is ruled out. Some ambiguity remains about how recent 'recently' is and what 'such things' refers to."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

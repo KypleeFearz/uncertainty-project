@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22852n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "adf7ba39ed0260956c0f017d82b6d773d5d62619a0f9bdc268f9344c51002697",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f4462b719060836016acbeafe228087d29eb32795234c7227",
+  "received_at": "2026-10-11T20:01:06.070977+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise states that Professor Rogers began her career clerking for Thomas D. Lambros, but does not establish that this benefited her career. Such a benefit is plausible rather than guaranteed."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

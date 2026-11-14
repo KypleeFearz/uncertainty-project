@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4726714032.jpg#2r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e03dd32c434d899f04360aca44da74e55ee16347a92f41a6350968119f2120b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b670ddec12cdd0016acd4d216e3887d2ad03d4ad0b85f561",
+  "received_at": "2026-10-12T21:12:04.147318+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise places people near a fountain but does not establish that the fountain is new or located in city hall. Those details are neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

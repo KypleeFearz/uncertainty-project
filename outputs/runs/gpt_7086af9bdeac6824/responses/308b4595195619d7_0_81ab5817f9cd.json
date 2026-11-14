@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140005c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "df444f731ef432e8d3b831abddc664232da511b6ac8c7731403167bdb52fe97a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0333fb766608629b016acbf714ed6087d2bd288e360e4cbaa3",
+  "received_at": "2026-10-11T20:52:40.025398+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.025,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise explicitly warns that toxicity may differ significantly between the range-finding and follow-up tests. This conflicts with the hypothesis's assertion that toxicity will be exactly the same."
+  },
+  "usage": {
+    "input_tokens": 449,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 118,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

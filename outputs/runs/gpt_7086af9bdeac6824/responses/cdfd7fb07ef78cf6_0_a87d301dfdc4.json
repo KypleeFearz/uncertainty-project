@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125391e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d4e7f79ba23d8afd8db21d40e2737f990ec8f6eb7eef5c8c1fe43c800ed4a78e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06eb2888bac6b4fa016acbe6e4808087d294d5bdb554a577cb",
+  "received_at": "2026-10-11T19:43:37.281508+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise compares working on Liddy's campaign with working on Bob's, but does not establish that Liddy's would be the speaker's favorite overall. Interpreting 'better' as 'more enjoyable' and treating these two campaigns as the only options would support the hypothesis, but neither assumption is guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

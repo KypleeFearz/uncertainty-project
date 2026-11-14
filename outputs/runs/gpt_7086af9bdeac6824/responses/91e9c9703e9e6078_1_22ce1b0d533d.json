@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72315c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f51e42998e53a211a464d39b6b9086d0cde25e167bddbdc806c7d453e228c416",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04dd5658687bd0fe016acbf189dff087d290d6d60be6af2983",
+  "received_at": "2026-10-11T20:29:00.586748+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise explicitly says the Postal Service did provide as much detail as was collected. The hypothesis denies that provision, directly conflicting with the premise."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

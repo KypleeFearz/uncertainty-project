@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130067e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3a19f375ea021c869ff4bda89ac3fe25a0a4f07aa12b7d1157496518a23991d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b36b84df7d93887016acbe7738c8887d2b5c1251ea6413468",
+  "received_at": "2026-10-11T19:46:00.317807+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "Faint daylight near five o’clock suggests early morning and sunrise. However, the premise does not specify a.m. or explicitly establish that the sun was rising."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

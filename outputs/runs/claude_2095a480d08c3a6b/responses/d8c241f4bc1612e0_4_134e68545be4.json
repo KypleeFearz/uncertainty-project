@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26142n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "335658cdd2907cc7b491001db7de380b6da9fba6e48385f664e9b292980ffc4f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAH3mFtzzDSaB2v3RGa",
+  "received_at": "2026-10-11T21:29:11.250411+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.33,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says importers pay legally required duties, which suggests imported goods carry duties, but it doesn't say that all imported goods are subject to them. Reading it as a general statement supports entailment, while a strict reading leaves it neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

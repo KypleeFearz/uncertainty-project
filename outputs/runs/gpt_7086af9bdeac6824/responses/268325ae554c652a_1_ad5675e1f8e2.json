@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121910e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3fc0718b049feb0d2ce31a8d58debde81e2828c3b86d3ec6bae1db57c2777040",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0712a83f1ab77e0e016acd429c0b9c87d292433ac4e57fa661",
+  "received_at": "2026-10-12T20:27:12.456679+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.64,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise conditionally describes the writings as offering a more precise picture, but greater precision does not necessarily establish accuracy. Thus it does not clearly establish or rule out the hypothesis, though interpreting “precise” as “accurate” favors contradiction."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 610
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

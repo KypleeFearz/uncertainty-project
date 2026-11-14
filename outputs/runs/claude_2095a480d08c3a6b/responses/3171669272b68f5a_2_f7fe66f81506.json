@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "54892n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "873919767d1091b3dc9f400b8ce418eae5c9b2c79db48d8aa1b45bf4b4c22ec7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4RANfEVQTmRAWTECk7",
+  "received_at": "2026-10-12T21:33:32.320894+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.24,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise contrasts $32,000 poverty-lawyer starting pay with a $125,000 average first-year salary at larger firms, which supports larger firms paying more. 'Often' is a generalization beyond this single comparison, so some uncertainty remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 932,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

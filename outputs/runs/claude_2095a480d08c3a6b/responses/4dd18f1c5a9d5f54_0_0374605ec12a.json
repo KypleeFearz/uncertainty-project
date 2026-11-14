@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "112688n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "51f7fb8f57a2b9dcb9bfe35077db87ec68ddcd62f8063a3ac0e1a4dee5b5dfe5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC728VaZ7y9qEavg8Mt",
+  "received_at": "2026-10-11T21:53:08.787626+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.85,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise only points readers to an appendix (\"app.\") for more information on BLM's senior executive performance plans, and says nothing about online availability. The hypothesis is therefore neither established nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

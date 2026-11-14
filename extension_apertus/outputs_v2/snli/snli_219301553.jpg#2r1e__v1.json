@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_219301553.jpg#2r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "Wading in a river often implies being in the water, which is consistent with playing, but wading can also be for crossing or exploring without play. The reference to 'several people' is clear, but the activity beyond wading is not guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 340,
+  "output_tokens": 126
+ },
+ "seconds": 2.77,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:59:07.832269+00:00"
+}

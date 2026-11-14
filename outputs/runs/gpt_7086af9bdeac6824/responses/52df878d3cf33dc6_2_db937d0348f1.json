@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5722n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cce27dd13fc67d05bdb0a0da3b1b1bbbf69aa3a4c1bd9b5af9b6d8e8c003c17",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a5ffb07ddb15a05016acbefcfa72487d29f53232db8250b8c",
+  "received_at": "2026-10-11T20:21:39.323507+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise expresses the speaker's belief that the Bible says \"an eye for an eye\" in connection with punishment for heinous crimes. It does not establish that preventing such crimes was the purpose of that teaching."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

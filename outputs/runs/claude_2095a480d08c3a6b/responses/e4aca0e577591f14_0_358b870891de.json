@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3912076502.jpg#0r1n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "80bf99933d6298adef2d9c75281d455138192ed3d2c97047186c9365f7c02f2d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5S8gMbTUeq9ChRvnTv",
+  "received_at": "2026-10-12T21:46:51.902335+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.87,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says the women are looking at a fountain but says nothing about tossing pennies. Tossing pennies is possible but not stated, and merely looking does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,44 @@
+{
+  "status": "ok",
+  "uid": "29843e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f115a22a85b0bd712c02b4b62723baeace4a9121255b948527d8660d894b79a7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwANwBJeipyrjmAe9ULT",
+  "received_at": "2026-10-11T21:30:31.701887+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.42,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Wicked\" could mean evil, sharp or dangerous, or simply cool, so it may or may not match \"fierce looking\". The shared action of taking the blade holds, but the descriptor is not guaranteed to be equivalent."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 770,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 2,
+  "failed_attempts": [
+    {
+      "status": "schema_validation_failed",
+      "usage": {}
+    }
+  ]
+}

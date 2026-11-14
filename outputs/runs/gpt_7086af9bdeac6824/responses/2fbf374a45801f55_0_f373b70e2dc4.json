@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117487c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3a769301569782795ae0ef1cb725362b0391f702ff6510ff5cb391aa7a3b090e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_055d63bdeb1c050e016acbe5f11fe087d28b430b809fde9817",
+  "received_at": "2026-10-11T19:39:32.493831+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise challenges someone to rise to an occasion and reject rules; it does not establish whether they would passively watch destruction. Both statements are questions, and any connection between rule-breaking and letting the world burn requires an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

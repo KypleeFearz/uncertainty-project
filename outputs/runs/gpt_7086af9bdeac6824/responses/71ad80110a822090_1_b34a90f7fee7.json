@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145047e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea0e870fd1b797de691859cc5505ea1ee95bc52a720825ca9bfe4c5bee6784b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09f416bd6362d867016acbe9e13cd087d28966540c8130561c",
+  "received_at": "2026-10-11T19:56:20.205960+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "Establishing rules does not establish that management is strict about enforcing them or managing the cafe. Strictness is a plausible assumption, but the premise neither confirms nor rules it out."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141110n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "052e8ce47b554256d4fa6c652c05cdc199f32500aedcde6e16a2c455c37d9c63",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039805e3c007668b016acbe950321887d2a10797f7ab7e408f",
+  "received_at": "2026-10-11T19:53:55.661105+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise says some small colleges are struggling, but does not establish that small colleges usually struggle or that their difficulties include resources. The hypothesis generalizes beyond the stated existence of struggling colleges."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

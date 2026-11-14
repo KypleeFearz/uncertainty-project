@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9797n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d6c3ded43bd4169539c3acc0aa6315f76b1c3e9906297398e1ab1922f9700238",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f46cf52961b538a016acd4885c40c87d281dafefd8b8a42c7",
+  "received_at": "2026-10-12T20:52:26.201617+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says the meeting occurred recently at a party, but does not specify Saturday night or identify the venue as a club. A party could have been held at a club, so the added details are neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

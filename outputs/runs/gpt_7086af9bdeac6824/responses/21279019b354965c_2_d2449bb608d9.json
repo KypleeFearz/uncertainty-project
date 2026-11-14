@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137499n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cded2cc893a6e92b5d15b227925d81982dc3d02224bd47ec4146e575f83b4120",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ebac524b8651dd016acbe8c8f15087d28f9fe8a27bb586b1",
+  "received_at": "2026-10-11T19:51:39.879288+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise states his intended route but says nothing about a roadblock or whether that route remained possible. A plan to drive directly to the house is compatible with either its later obstruction or its continued availability."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

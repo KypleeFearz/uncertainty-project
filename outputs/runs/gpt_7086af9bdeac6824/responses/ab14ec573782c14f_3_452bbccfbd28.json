@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102983n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "38215a8751a4e9b35b4c9a8332b4bad444d03fa34d2e663b00a0358f8bc7a8bb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6a5898a5be3aac016acbe408dfec87d2a2677fe6144e6396",
+  "received_at": "2026-10-11T19:31:24.952004+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise does not identify what would be impossible, and it does not mention an assistant manager position at Hardees. It therefore does not establish that his mother's illness would prevent him from holding that job."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

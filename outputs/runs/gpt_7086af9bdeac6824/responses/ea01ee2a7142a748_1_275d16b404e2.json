@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15537n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e7d7bb548f140d7190da6b4fa2e0cc3a568b72c2edd6ae6f31bd06ac96e4d845",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05f733dda7d0f9bc016acbea09ed2887d2beb4a01bae9bffc3",
+  "received_at": "2026-10-11T19:57:02.378526+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.88,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the clients depend on the speaker for access to the legal system, but does not establish whether that assistance costs money or whether they can barely afford it. Inability to afford other attorneys does not establish affordability of the speaker’s assistance."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

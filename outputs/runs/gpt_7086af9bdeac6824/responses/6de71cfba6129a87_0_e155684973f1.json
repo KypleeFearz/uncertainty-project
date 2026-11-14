@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138530e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2f440f3739bed4194253e7363645a25701e301b7cdb19a44691305c26652c935",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040f41996343aaf4016acbe8eabb2887d28ef6666ce1901a58",
+  "received_at": "2026-10-11T19:52:14.613348+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "Vibration does not necessarily produce a quiet hum, and being under his hand does not establish that it was in his hand. The hypothesis is compatible with the premise but adds unsupported details."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

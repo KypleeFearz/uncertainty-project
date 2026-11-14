@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90548e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6fa242801ba68d0770a0e6f71b762b85b19c3d82413a641ac07479ae498e92ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aff4bd672b5ee11016acbf3fbb47087d28eb5220e61c6c11f",
+  "received_at": "2026-10-11T20:39:27.271323+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.33,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“Splendid!” with an exclamation mark suggests an enthusiastic positive reaction, supporting excitement. However, it could express calm approval or sarcasm, so excitement is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

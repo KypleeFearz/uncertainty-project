@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "74561c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2f5bff750543974c4acd07cb0a8b7035e9e80d0456ee1e793b106d13d2751b72",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4bw9jdn2jsCydm9nYF",
+  "received_at": "2026-10-12T21:35:59.427592+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.77,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Greuze asks Natalia whether she is sure, which shows his doubt but does not reveal her answer or her certainty. The hypothesis may be plausible but is not established, and the premise gives no clear conflict with it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132084e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a6efe75f32d41cbcf0401a720e73058e5f1490027766566034a8f86fa6043e2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0288c3b68a4583bb016acbd8c5686487d2b9ce27f0471351a2",
+  "received_at": "2026-10-11T18:43:22.228151+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The beginning of the eighth century roughly corresponds to the start of the 700s. However, arriving \"by\" that time allows an earlier arrival and does not establish arrival specifically \"at\" that time."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

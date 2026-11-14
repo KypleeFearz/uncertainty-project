@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93623e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50af7027f7b9b8a93f2de7a31fa332b15e027ac24293a442236d81f7c69bdd06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0875f0a1fd33d3e8016acbd96c103487d289781825b1f47fad",
+  "received_at": "2026-10-11T18:46:09.455155+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.44,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.88,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Double-crossing someone about four times in one afternoon supports repeated mistreatment that day if 'stepped over me' is figurative. If it means physically stepping over someone or surpassing them, the premise does not establish it."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

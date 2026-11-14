@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34185e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "811d8e4aa6284d53d9a0beaf5effdcc69d63a071b1fc11a785280e1941d80a50",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f94f69c99e8a755016acbf81ac34c87d293477bb764c8379c",
+  "received_at": "2026-10-11T20:57:04.860475+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise explicitly attributes a spoiler kit to the Taurus Show, supporting the hypothesis's broad claim. A strict reading of the plural “kits” and past-tense “had” adds details not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 595
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

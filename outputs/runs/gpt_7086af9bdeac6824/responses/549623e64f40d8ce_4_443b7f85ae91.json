@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3327487011.jpg#0r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5500a25cf8030349df5ed1fa2f35cddc33a901321c15e42e3d3ad9de818e3bfc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b653c15c84bb2da016acd4b30791887d2a1bb8312aca46334",
+  "received_at": "2026-10-12T21:03:47.938574+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise places students inside a bamboo structure looking in the same direction, but does not establish that they are taking a tour. A tour is possible, as are other activities such as attending a lesson."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

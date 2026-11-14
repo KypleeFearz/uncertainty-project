@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7852369036.jpg#2r1c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bad0f78e8707b97d8ebc86fd17f7dcac6cc5fcba17154cb2ff78c243658cbea",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_070b0af39241968d016acd4edca1b887d282f96b34ce556692",
+  "received_at": "2026-10-12T21:19:27.773543+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Being sprawled out on a badminton court does not establish that the player is asleep. He could be napping, resting, or lying down for another reason."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

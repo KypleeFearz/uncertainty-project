@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124853e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb44539a566a6c6e7783904ea08716104745bd166c8a47dc50095033776cc0be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad1077d63cf2977016acbf675fa5c87d28b41bf6c9d06c214",
+  "received_at": "2026-10-11T20:50:02.527940+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The requirement that H-2A agricultural workers maintain a foreign residence they do not intend to abandon supports the hypothesis for that visa type. Some uncertainty arises because \"permanent\" is stronger than maintaining a residence with no current intention of abandoning it."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

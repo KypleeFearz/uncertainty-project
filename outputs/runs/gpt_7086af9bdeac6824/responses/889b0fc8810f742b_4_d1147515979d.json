@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4552e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09a212db9f0a88ef5b048211041a7603a08a41d569e97d9f5760d964086f8f69",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00f2bf3f4b295d86016acbee1e80d087d29b050d7839a3d30d",
+  "received_at": "2026-10-11T20:14:29.554471+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise describes scattered small villages in the countryside surrounding the city, not necessarily throughout the whole countryside. It neither establishes nor rules out the hypothesis’s broader claim."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46382n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fcf7886384b681d656e977f03c49113a2538792bd548c5c49c7c45bfe468e7d0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dcc7176f8be5f3e016acbf8a1406087d295dc234fa28d2c66",
+  "received_at": "2026-10-11T20:59:16.512717+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.36,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The morning meal could reasonably be described as a hearty breakfast, but that characterization is subjective. The premise does not establish that they headed out for the day afterward."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

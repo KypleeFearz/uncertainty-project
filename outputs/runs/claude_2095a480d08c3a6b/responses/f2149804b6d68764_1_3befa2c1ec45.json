@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "62273n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e2a5fd5076c9cf2a12c852ff10ce309f843820ec15f85b8f45bb9b6588fb0c7e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB9ycu83Vn6ggG1j6Qq",
+  "received_at": "2026-10-11T21:40:42.971862+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the book quotes Lincoln, Jefferson and Roger Rosenblatt (not a president), but never names the author, so it is unclear whether it is Bill Reilly's book. The claim about 'various presidents' is only partly supported, since Lincoln and Jefferson are covered but the range is not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

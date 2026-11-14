@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82510e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b52fb9082ff3850a4ffd470ad7ea3ff2ed788aa40004062f54db39ad34afbed3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cdcdaba666db3d8016acd47eca58087d28e397bded3535d56",
+  "received_at": "2026-10-12T20:49:52.693282+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says they painted the house's interior and mentions \"one day,\" but its disfluent wording does not clearly establish that the painting took one day. \"One day\" could identify when the event occurred rather than its duration."
+  },
+  "usage": {
+    "input_tokens": 456,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 598
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

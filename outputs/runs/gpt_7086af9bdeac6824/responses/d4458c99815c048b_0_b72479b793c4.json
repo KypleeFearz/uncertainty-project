@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89995e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b7b7794931ea0b2addee7332feb7d3f6100547fe5c7bc56d0a79211e4422ae80",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d91ed349b8baa6016acbfaa6c01c87d2ac6656382c09b0e4",
+  "received_at": "2026-10-11T21:07:56.970285+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.62,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says there is not \"that mess\" to clean up, but the particular mess and painting situation are unclear. Avoiding a specific cleanup mess does not establish or rule out whether oil-based paints can be very messy generally."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 112
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

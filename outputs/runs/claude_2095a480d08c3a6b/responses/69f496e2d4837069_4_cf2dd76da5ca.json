@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "103400n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ce9d47f4cab7a08ceb766843da009b61ef53d71aa8b9cd85aaca8bdb6beb2255",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw91Z5aAsSBrRFNZUxgv",
+  "received_at": "2026-10-11T21:12:35.005892+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.27,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says a Jupiter temple stood on the site in Roman times and the Christian church Saint-Etienne came later, in the fourth century. The hypothesis has the church itself housing the temple and performing rituals in Roman times, which conflicts with this sequence, though the site-versus-building reading leaves some room."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 828,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

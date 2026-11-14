@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97011c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5bd72d7d9f537a85b720e0cb4daa5f0d05de9ae433fafe8840e02b73ce2c2577",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4kvdyg6T8V5iX1qDB6",
+  "received_at": "2026-10-12T21:38:00.253782+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says expectations that the ANC would oversee land reform were not met, which suggests the ANC did not carry it out. That is close to the hypothesis, but the hypothesis is about whether the ANC would be in charge, and the premise only says the expectation was unmet. This could mean the reform was not delivered at all rather than that someone else ran it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

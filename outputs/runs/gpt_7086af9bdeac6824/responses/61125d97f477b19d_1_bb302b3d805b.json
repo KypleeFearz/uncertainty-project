@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132716n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b91f430039a387f740775e022cbf0455b5c8d3e939d182cebc1ad0b866e79dd0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_093b686cba798c98016acbe81879f887d29d5b08577a7b50c8",
+  "received_at": "2026-10-11T19:48:45.350059+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.84,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says they tried, were unhappy, and he now does it himself, but it does not establish that they tried valiantly or that he explicitly decided to take over. “One of us wasn't happy” may describe at least one dissatisfied person or suggest only one, whereas the premise uses collective dissatisfaction."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90846n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf77be827481d9261c22a3efd44fdb7d8bff76f0ad4d5dfef58413684b797759",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075db87116cf9ab3016acbf40b8f5087d284362a44bd6d8bce",
+  "received_at": "2026-10-11T20:39:43.937527+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.35,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Calling financial reporting 'only the first step' suggests that additional steps are needed to build a more effective Texas government. However, it does not explicitly establish that there are 'many' steps."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69348e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bb38762d4d3f5953a03d1c43bf6544ca10edf06da525582f7cc7da5beae86e1c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwypEJQi2VnVCDnXHTV",
+  "received_at": "2026-10-11T18:47:56.029253+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "\"Fight for attention\" is most naturally a figurative idiom meaning to compete or struggle to be noticed, not a literal physical fight. The hypothesis's \"engage in a fight\" can be read literally or figuratively, so the premise does not clearly settle it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 782,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

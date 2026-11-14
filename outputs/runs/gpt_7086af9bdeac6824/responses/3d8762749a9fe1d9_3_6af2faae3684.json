@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101525c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "14e21a152032ab10c235f1a9ac13e25136ffbca885305b89f67908dbcee1d341",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c5600b33800b3b016acbf5378a1887d2a12af0f54ed30e01",
+  "received_at": "2026-10-11T20:44:42.369807+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The incomplete premise refers to Monday's question but provides no information about whether there was a question on Tuesday. Mentioning Monday does not rule out a Tuesday question."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

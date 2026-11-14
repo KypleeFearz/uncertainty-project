@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137399e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9543c785b63bce4d905b83471300181faf01c1898ab75e1291bca3efc71101c7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aec3972ece732cd016acbd8db8c8487d2a5768c793b0db300",
+  "received_at": "2026-10-11T18:43:43.337997+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "TDY ordinarily means temporary duty, supporting a temporary work assignment at Bent Waters. However, describing its duration as 'only for a little while' adds a shortness judgment not explicitly established by the premise."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

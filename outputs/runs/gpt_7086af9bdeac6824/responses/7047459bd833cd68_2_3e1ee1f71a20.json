@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85860e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0bcaf946f9aaec05072d55a7dce10d13281fc355c7a885317429c106afe491cc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_086603991b968db3016acbf38f275887d2b1d5ca704150fec1",
+  "received_at": "2026-10-11T20:37:39.816886+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.55,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The reconfiguration takes effect in January, but the premise does not establish that the Passaic office will be reconfigured then. The hypothesis’s “It” could refer to the office or to something affected by the reconfiguration."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

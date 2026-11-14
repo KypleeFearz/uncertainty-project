@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36469e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5d16bc90561a7235514bcefa833371c27cdb6bffc0048aa71a9f1f9d339d0c6b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f1eb53d550ccbfd016acbf83aa93c87d29d066dbf6e0718cd",
+  "received_at": "2026-10-11T20:57:34.966963+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "“I should put it this way” commonly introduces a reformulation, supporting “I should phrase it differently.” However, the premise does not explicitly establish that this phrasing differs from an earlier one."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

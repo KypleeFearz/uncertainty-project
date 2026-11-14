@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136860c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b8a7595d16bb94a90d8912e365e61e40a789b678e80a2f3d86d8ddaa57aa7ea7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bd2090e43f922b7016acbf6f4e89887d28548e0de7f336aaa",
+  "received_at": "2026-10-11T20:52:09.318369+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.91,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise recommends agreeing that somebody else should do it, but does not establish whether there is currently agreement. It also does not establish the broader claim that there is no agreement that anyone should do it."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

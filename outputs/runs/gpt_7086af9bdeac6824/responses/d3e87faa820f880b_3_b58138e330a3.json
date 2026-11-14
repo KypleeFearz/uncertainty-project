@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22996n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a97f07b26048c3088b7745987379c10d9f52abbb321d729a093583f4e3e66b0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c1b7a7b69d1b482016acbeb020ff087d295757b6f05072a94",
+  "received_at": "2026-10-11T20:01:08.945240+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise specifies eligibility and the award’s purpose, but does not establish how many attorneys receive it or whether it is awarded annually. The number 10 refers to years in practice, not recipients."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

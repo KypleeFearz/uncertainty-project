@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4751394653.jpg#2r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "56950b5aa7c295954c1eaffc3c2308f0f537351e96ecfd13f2a3f44e3db85f6e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d9256372a6d70ed016acd4d2b7c0c87d2ae5574b2be4810ec",
+  "received_at": "2026-10-12T21:12:14.419152+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise identifies a woman preparing vegetables for the market but does not specify her current location. She could be at home or elsewhere."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

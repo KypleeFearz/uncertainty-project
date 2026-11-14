@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145053c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a8af6f9b59623e3da5da8b935fb8a956277538a52ddfa0b9673175c47c749b99",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089dae5c23bc9f5a016acbe9e5ac4887d283f4ae38eac86edb",
+  "received_at": "2026-10-11T19:56:24.975255+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.33,
+    "brief_reason": "The premise states that Israel controlled west Jerusalem and Jordan controlled east Jerusalem, but says nothing about a war or its winner. 'Won Jerusalem' could imply control of the whole city, which the stated division does not support."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63462e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e5333f8fdab665c476cc8c49f5432e9743391ed0c432cc76117d500dc99222e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00336fe9218f1e72016acbf0af7ffc87d2819347f3ad2be3b7",
+  "received_at": "2026-10-11T20:25:24.276250+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Both statements express a friendly farewell, but “all right thanks” does not establish the stronger positive evaluation “that's great.” Neither statement rules out the other."
+  },
+  "usage": {
+    "input_tokens": 360,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

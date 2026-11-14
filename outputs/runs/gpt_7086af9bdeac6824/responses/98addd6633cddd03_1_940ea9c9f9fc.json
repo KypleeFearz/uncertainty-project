@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125013e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0876ed253b749dd3e2960e27bb8ba3dc2626d7e652dee6a3aebd7e3fc964a343",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08dd2ccfc7b08824016acbd8aeb40087d2a2b09ceb38afbcb2",
+  "received_at": "2026-10-11T18:42:59.441093+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise explicitly describes those games as fun to watch, supporting the hypothesis's general positive assessment. However, being \"a lot of fun\" is stronger and does not specify watching rather than playing."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133005c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a4e597744109ea60680df2e0936ad0ecae71318a774cd26a4eb411408e82a74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094735435ddbf60c016acbe820bd5087d2ba2bd4219e4fe0ef",
+  "received_at": "2026-10-11T19:48:52.515586+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.91,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise compares intense dislike of RFK and Johnson in May 1967, but makes no historical comparison involving Hamilton. RFK's higher intense-dislike count also does not establish a ranking of overall dislike."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

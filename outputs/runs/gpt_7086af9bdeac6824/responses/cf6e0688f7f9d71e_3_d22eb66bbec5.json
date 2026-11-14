@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69413n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89514907f372778b652d8cc9d3e85737784798f6e498de236ee3c27bbd8cb64b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c3720969d1f397016acd4746fea487d2bf2fe1a25a956ba0",
+  "received_at": "2026-10-12T20:47:07.950659+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.56,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "Becoming Orthodox suggests religious conversion, but the premise does not establish that these acquaintances are friends or that they previously belonged to another religion. The hypothesis is plausible but depends on those assumptions."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

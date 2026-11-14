@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134446n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ca68d544a5686b17ab1c1b69e6f88d066cdf24dca7a667479dde8fd06352c38",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ffd251480bf8d36016acbe85c689887d28c0ea0087a7e2e95",
+  "received_at": "2026-10-11T19:49:51.700395+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Judge Newton says he has heard the complaint repeatedly, but does not state whether he finds it convincing. Interpreting his remark as dismissive requires an assumption about his attitude."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

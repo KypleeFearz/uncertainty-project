@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61466n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "530168e782b2433e2121e00bae8cadd3fed05b9664d1ffa57c39e480eeeb4763",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e0d7dda139b2a6016acd46ea7c0c87d28a8a09a99c282593",
+  "received_at": "2026-10-12T20:45:33.430751+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Not being a starter may suggest entering a game later, but it does not establish that he plays at all or always plays in the middle or near the end. The premise also leaves the meaning of 'starter' somewhat underspecified."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

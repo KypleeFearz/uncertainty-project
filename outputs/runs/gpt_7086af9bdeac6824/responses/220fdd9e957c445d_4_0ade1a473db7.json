@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65199e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a54538e80b97f7fad5cbfc1bd8166a15ed4696e0c44b24bfbae09595a49a56d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1ba5f99a440f44016acbf0e0947087d2b943328ff03571ff",
+  "received_at": "2026-10-11T20:26:11.605017+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "The speaker repeatedly says the borrowed money was unnecessary, describes the burden of repayment, and advises their son not to take out loans. These statements strongly support regret about taking out loans."
+  },
+  "usage": {
+    "input_tokens": 559,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 659
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77152e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfe213c1d50c976bb5a19250996430b4e67475ef05944a251e4ac200988089c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a34b617295d64a2016acbf24a004487d29400064316d2e7f3",
+  "received_at": "2026-10-11T20:32:13.556983+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise identifies some people who can afford a lawyer but does not establish whether others cannot. Inferring that other unmet needs arise from inability to pay requires an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

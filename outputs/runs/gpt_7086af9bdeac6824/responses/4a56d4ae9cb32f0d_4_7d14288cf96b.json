@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114458n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d27cc4d8856bba225fe7033c44d3407506f72c100101ff2dd08761dbb0d7ac29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e51e8e9c5b9f668016acbf5fe7dd487d292d24edd1d844ad9",
+  "received_at": "2026-10-11T20:48:02.582983+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise associates youth with laziness and formlessness, but does not establish that all young people always have these qualities. It also does not explicitly rule out that universal claim."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

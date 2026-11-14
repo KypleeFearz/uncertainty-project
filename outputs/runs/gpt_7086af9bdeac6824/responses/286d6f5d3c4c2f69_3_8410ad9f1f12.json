@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105561n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5dbaa62e87293c80b7b3fd1327cfb43374aef6d667a8db70f62fd566a83fa2cd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00601651ab9bcb40016acbe46e616087d2a22fea6baec9acb7",
+  "received_at": "2026-10-11T19:33:05.832676+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.89,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says idle instructors can answer questions and demonstrate things, but does not establish their quality or that they are always available. Conditional access to an idle instructor does not rule out constant availability, either."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4591c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cae0db4f9177c4e6ab56bedb0dbb9fba99f988d3e502ac2c046c8c0b586b437b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00f79b81b2952bbd016acbf892833887d2baca6f83fd48ffd8",
+  "received_at": "2026-10-11T20:59:03.023204+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.23,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise denies a tradition of clothes criticism involving serious analysis, which weighs against describing clothes criticism as serious. However, lacking such a tradition does not strictly exclude individual instances of serious criticism."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

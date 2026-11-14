@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85279n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4d252be9aac28e674974e960894a6a2a9e8443732ed2350b88431a0cd05a635",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eed6468d08742a7016acbf386d5b087d2994ed3f160b70c71",
+  "received_at": "2026-10-11T20:37:30.217606+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.74,
+    "brief_reason": "The premise describes Massabielle as picturesque but says nothing about tourist numbers or tourism infrastructure. Picturesqueness might attract tourists, but being very touristy does not follow."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

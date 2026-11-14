@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83722e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e60b37a7cfe3d28e59c565604cf4a55ae8b76d9789a56e24ee7ecfc0eeb2cb2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_045580e4e035ea8e016acbfa4ced2487d2bf05f2df5774490b",
+  "received_at": "2026-10-11T21:06:25.097487+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.42,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise calls for serious study of whether a government postal service can conduct such negotiations, supporting the hypothesis that serious study is needed. The hypothesis leaves unspecified what needs to be checked."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

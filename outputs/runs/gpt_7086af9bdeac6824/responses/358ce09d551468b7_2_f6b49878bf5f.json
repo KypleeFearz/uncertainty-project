@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80109e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c21f11ad8da928e26aa4e551715b3969da2e8ed8fe3ee23fda92fcefbfe6d4f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f2c32794bbdf600016acbf29b1a4087d287455baf7a685fc6",
+  "received_at": "2026-10-11T20:33:37.034634+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.58,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise imagines having a rice field if more rain had fallen; it does not establish that the actual rainfall was sufficient. Reading “rice patty” as “rice paddy,” the hypothesis depends on interpreting the speaker’s exaggeration as a claim about actual conditions."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 197,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 601
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

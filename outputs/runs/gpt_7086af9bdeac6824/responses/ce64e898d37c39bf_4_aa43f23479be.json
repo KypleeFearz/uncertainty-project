@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99194e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f2a4528d4e995b0a6d5f88cc9201be727a0d5885a8ec19a9c07e750c9450abb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02b77ececf836188016acbfb25bfbc87d2828cd745c88a360b",
+  "received_at": "2026-10-11T21:10:01.465984+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says Marshall Plan aid boosted reconstruction and that the wartime political alliance broke down. It does not establish that the plan aimed to help the Communists or failed to fulfill its purpose with them."
+  },
+  "usage": {
+    "input_tokens": 439,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

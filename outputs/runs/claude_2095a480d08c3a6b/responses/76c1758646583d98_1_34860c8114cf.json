@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "131623c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "07cb4b25b80ae76c4edde689c97b455b8bc506deca9c0167c5ba378c8b7a2a79",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3ocSp4u83osA1Emaf3",
+  "received_at": "2026-10-12T21:25:29.795146+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.57,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise reports American suspicion that Communists infiltrated Washington to subvert democracy, which does not say they assisted the government. That makes assistance unlikely but not strictly ruled out, since the suspicion may have been unfounded or partial."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 810,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

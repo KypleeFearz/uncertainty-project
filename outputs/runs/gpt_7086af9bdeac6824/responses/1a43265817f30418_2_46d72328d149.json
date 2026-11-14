@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126286e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b242e09c85b572b5a23e5e78dc13563e40aade4c51b9c9b5c63392970ea5a45f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0400af9a38337ba8016acbe709d26087d29069bb6ddc79eec7",
+  "received_at": "2026-10-11T19:44:12.820285+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.26,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise identifies cost as a major factor in decisions; 'this day and age' refers to the present era, not age as a decision factor. It does not establish whether age also matters."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7248c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb110bf0dc1684f1c73b4444ca09a7a78aa5cce4967f0732f01e18ca0018ca44",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03ffaef06ff672d5016acd4767bdc487d2865353703607c0bf",
+  "received_at": "2026-10-12T20:47:39.959558+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.995,
+    "contradiction": 0.004,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise reports speculation that the Ramseys used their absence to devise a story explaining their innocence. It neither reports speculation that they ate their daughter nor explicitly rules it out."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

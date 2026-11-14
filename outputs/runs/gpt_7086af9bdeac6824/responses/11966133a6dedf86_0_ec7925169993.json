@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101245n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1db78888ea0a2b51ebd8bee902970eb25c8c58f4de23a12e43f547280567478d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_088216be9e433e39016acbe3bd477487d28ec1b1795f0c2b09",
+  "received_at": "2026-10-11T19:30:08.842306+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says she had a stroke and afterward had limited awareness, but it does not specify the stroke's severity. Calling it very serious is a plausible inference from the aftermath, not a guaranteed conclusion."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

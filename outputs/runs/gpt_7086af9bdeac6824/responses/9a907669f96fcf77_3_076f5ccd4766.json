@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3601978895.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c20990a64780652578c1e5802c78f4a8403dc1f971383a2ee00966f4ca7d4c52",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_007ad120b2dffee3016acd4ba9f6c487d2bbf703b897516fe7",
+  "received_at": "2026-10-12T21:05:48.764571+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.93,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise establishes two men near a metal structure and a brick wall, but does not identify the structure as a water fountain or say the men are standing in line. Those details are possible but unsupported."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

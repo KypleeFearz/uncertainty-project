@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2892992529.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c363067ec038bc73f58d102150bff55efa2ea2a7da6fa9c53f4c1b006ea5b099",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ffd149c3cf5fe3b016acd4a63c25087d2bf17c6bcebc7075e",
+  "received_at": "2026-10-12T21:00:22.653286+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise establishes that the dog is catching a Frisbee with a crowd behind him, but does not say the crowd cheers or that the catch is impressive. Catching it in its mouth is plausible but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

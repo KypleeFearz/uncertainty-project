@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65066n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a75463ee2398bce70b249e3b6c208f801e01e6ee9f8ce7c90f3bfcc2f7116d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04afd485bba5ca41016acbf985489c87d296c77d0378f1fe8c",
+  "received_at": "2026-10-11T21:03:05.610136+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.24,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "If the largest resort belongs to the larger ski resorts mentioned, its being 100 minutes away conflicts with the stated 90 minutes. However, the premise does not explicitly identify the largest resort or establish the comparison group."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

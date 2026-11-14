@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103616e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "692e02d2751756b408fef04d725d581bf1783853e9cd25a4f666b978464d6c73",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3b83266e8b0870016acd41b46e4c87d2afb20ac5c9745286",
+  "received_at": "2026-10-12T20:23:20.116633+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise says there may be small savings at the factory showrooms, not that they are definitely cheaper. The hypothesis turns a possibility into a categorical claim."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

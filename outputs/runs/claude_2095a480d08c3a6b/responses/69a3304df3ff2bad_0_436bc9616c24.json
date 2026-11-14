@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96410e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c73df169c9c9c76ec3c5ee93e9e1198829020decd176688e841919eb5d416efb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4kAYc8ctgqFe8Sv9mH",
+  "received_at": "2026-10-12T21:37:49.558906+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.12,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says magnet schools began the undoing of desegregation, which matches the hypothesis that desegregation was being dismantled because of them. 'Thanks to' implies approval, which clashes with 'unfortunately', but the causal claim still holds."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 795,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

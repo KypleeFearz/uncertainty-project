@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "130315n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.3,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise is a confused question about whether Indian foods are kosher, while the hypothesis asserts they are and claims to have eaten kosher Indian food. The premise does not confirm the hypothesis, but the hypothesis is not directly contradicted either; the relationship depends on interpreting whether the premise implies kosher status or merely asks about it."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 137
+ },
+ "seconds": 3.06,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:57:40.028832+00:00"
+}

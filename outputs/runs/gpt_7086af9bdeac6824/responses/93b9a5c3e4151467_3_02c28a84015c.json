@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67610e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0d8fb7d02365632940f242b43945b82b787cd2c845395979ba4c5472ad468eec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a23dcfdf5075d2016acd47350d4887d2a769f208cbaa86a4",
+  "received_at": "2026-10-12T20:46:47.888991+00:00",
+  "parsed": {
+    "entailment": 0.56,
+    "neutral": 0.43,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "“Sorry” expresses an apology, and “that's how it is” suggests resigned acceptance. However, the claim that nothing can be done is implied rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

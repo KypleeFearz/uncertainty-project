@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "1925n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3c6ee751313c6cd0c421257667b785ebda695d72fe5a971916c5e5ae838de74e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA6MxLy7W2DKgiSt81z",
+  "received_at": "2026-10-11T21:26:46.322242+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.7,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Reaching all over\" suggests wide spread but does not clearly mean it has covered most of the space, and \"it\" and the space are unspecified. Reading the premise as widespread coverage is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

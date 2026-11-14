@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23261n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7b8be7a9260db21431a3aa3a56e0f87212dd92bb15acc698a37570f2a409a56d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_033a9f319c65ffdc016acbeb0930d887d2a2c776d535144993",
+  "received_at": "2026-10-11T20:01:16.843759+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the transformation and smoothing process takes a lot, but does not specify spirit, motivation, or resolve. Interpreting the unspecified requirement as spirit would require an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 430,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

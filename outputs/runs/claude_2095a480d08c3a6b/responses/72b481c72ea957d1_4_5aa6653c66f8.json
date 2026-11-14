@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "111011e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "80b4d55c546d1e989d943474bfb8019120558fbdf8633f36a5838458e7828f6a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9CM4KZ8prqVmMPrXxG",
+  "received_at": "2026-10-11T21:15:01.317241+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.5,
+    "contradiction": 0.4,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says lilac bushes grow fast and spread and sprout across lawns, but never says they wrap around trees. The hypothesis adds that unstated reason, and it is only loosely tied to the speaker's worry, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 840,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

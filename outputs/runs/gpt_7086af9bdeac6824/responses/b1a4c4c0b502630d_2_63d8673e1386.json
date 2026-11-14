@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57151c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a479e94fe67a152ac0f5ca733b8f96daae297807e45d5e57f8a0ebfbf6947128",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03691454273107a6016acbefc4d60887d2a2f9192285c01ce5",
+  "received_at": "2026-10-11T20:21:30.083358+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says Part III will relax the assumption, but does not say it will raise concerns about it. Relaxing an assumption may broaden the analysis without questioning the assumption's validity."
+  },
+  "usage": {
+    "input_tokens": 431,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

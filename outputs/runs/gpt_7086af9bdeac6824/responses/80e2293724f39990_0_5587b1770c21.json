@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67836n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8709713e6e69119ce5f1f3167317bead66599455d9ef3c5f9ae81896329f9185",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0004b2df5f9ab1ad016acbf11cf5ac87d2b5fee3096577821d",
+  "received_at": "2026-10-11T20:27:12.176640+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise asks who the 'sons of eggs' are but expresses no wish that they were daughters. The unusual phrase 'sons of eggs' is open to interpretation, but it neither supports nor rules out the stated wish."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 472
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

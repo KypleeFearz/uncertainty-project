@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82491e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a7ad2248f83203fc4a687f77e1fe7e68545846aace312a431e0602bc4abb2e5a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037780ff00174252016acbf324dd9487d28bda550a47c60be6",
+  "received_at": "2026-10-11T20:35:54.647205+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise explicitly says Michigan programs received one-year grant terms for 2002. This supports the hypothesis as a general description of that award, but does not establish that the practice continues beyond 2002."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 95
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105453n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "03a7103c11a56438990305f8842665376363997c1587a21875fe950e1b2c3411",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bc45f12ab349571016acbe46099e087d29d708e04970c828e",
+  "received_at": "2026-10-11T19:32:52.463355+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise identifies Princes Street as Scotland’s premier shopping street but does not specify how many high-end retailers have stores there or whether they own them. Inferring those details requires assumptions about a premier shopping street."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108847e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "09c91fafc324b257ad2ef264bdc14cb3670384c4f15956443744986fb9446ca2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c34a12532ec9abd016acbf5b6d9c887d282beaf4dc67f52ea",
+  "received_at": "2026-10-11T20:46:51.083540+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says welfare recipients could qualify, provided they are competent to give informed consent. It does not establish that women on welfare actually qualify or that welfare status alone is sufficient."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

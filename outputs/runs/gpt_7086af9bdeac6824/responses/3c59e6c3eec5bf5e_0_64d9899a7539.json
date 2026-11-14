@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75471e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "356284dd7ccd99b59ed03303b70df87a001b28ba9076b21769828198f8b4b442",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b8495716c93e29a016acd478dc17c87d2bfab1db820a597d9",
+  "received_at": "2026-10-12T20:48:18.854875+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise supports advocating enhanced reporting related to projection information. The hypothesis additionally frames that connection as vital and as the reason for enhancement, which is plausible but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

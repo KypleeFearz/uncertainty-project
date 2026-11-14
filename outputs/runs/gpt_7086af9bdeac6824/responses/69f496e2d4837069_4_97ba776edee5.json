@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103400n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce9d47f4cab7a08ceb766843da009b61ef53d71aa8b9cd85aaca8bdb6beb2255",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0deb327e4da95896016acbe41b46f887d29e40bb91cb7d8295",
+  "received_at": "2026-10-11T19:31:44.016793+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.77,
+    "contradiction": 0.22,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise says a temple to Jupiter preceded Saint-Etienne at the same location, not that the church possessed that temple. It provides no information about rituals performed by the church during Roman times."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_731443193.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5b60584a67e1b54c74eb2f696c92c4bcc98323f456df77514cf0a5205242bad1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04abc3b8216f97e2016acd4eb7471087d2b73576ff874a89c1",
+  "received_at": "2026-10-12T21:18:51.652689+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.88,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise describes a cowboy riding a bucking horse but does not establish that he is trying to calm it for competition. The horse's bucking also does not rule out an attempt to calm it."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

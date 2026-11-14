@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2837695157.jpg#1r1c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3f55c46c85569597810b8f60b289bdf04ed94cc7ba5cd015623c0dd754c6f61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0828744467d3730a016acd4a3f56e887d29bf097946bc4f405",
+  "received_at": "2026-10-12T20:59:46.787733+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.068,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.025,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes the boy playing with a yellow dump truck, not swinging from a tire swing. Treating both descriptions as the same ongoing activity makes them incompatible, although the premise does not explicitly rule out a separate swinging event."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

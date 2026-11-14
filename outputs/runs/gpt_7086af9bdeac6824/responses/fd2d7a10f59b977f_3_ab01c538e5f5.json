@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128160n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bbcdbf785b4d45e1a3bf4551f9a76c2939731f39387fd3933c3f3c86d8167386",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4e8a185ef84f38016acbe72ec69c87d2aac8e32982483f9a",
+  "received_at": "2026-10-11T19:44:51.921241+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.62,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "“Her face blanched” supports her face becoming pale. “She started” commonly means she made a sudden startled movement, supporting swift motion, although the verb can also mean she began an unspecified action."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

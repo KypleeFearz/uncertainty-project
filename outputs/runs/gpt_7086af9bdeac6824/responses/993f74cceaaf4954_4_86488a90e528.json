@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9557e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6fc933ad5997fb2a346b6b7d614c52b4e51b8f51592a147190eef0821cc2283f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e54ecb6c4782b37016acbf49c9d7487d2a403ccd26e5bd9de",
+  "received_at": "2026-10-11T20:42:09.454565+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.78,
+    "contradiction": 0.14,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Thompson and Giuliani show no inclination to exploit research that downplays day-care quality, not that they themselves do not care about day care. Their broader attitudes toward day care are not established."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

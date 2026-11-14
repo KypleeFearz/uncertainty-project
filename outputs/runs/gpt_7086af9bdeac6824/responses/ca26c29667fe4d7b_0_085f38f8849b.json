@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77152e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a8124715f2f713781b8806e16e93109f436df845351a5f6ae055c5191d7ca78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec7f9cb46bd06f3016acbf246863087d2a86acf0180fde123",
+  "received_at": "2026-10-11T20:32:10.015668+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise identifies some people who can pay but avoid lawyers; it does not establish whether others cannot afford legal services. The hypothesis is compatible with the premise but is not entailed by it."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

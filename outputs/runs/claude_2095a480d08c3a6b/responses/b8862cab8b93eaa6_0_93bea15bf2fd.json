@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "21420e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ad8578dd8b9fd5d0a8d1cb179a5ee00438d683a9dfc5b5ec833fcbabd9c721c9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCS5VBUcPRdhEop1B6L",
+  "received_at": "2026-10-11T21:57:27.779107+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.22,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The speaker says they like the Lakers, Milwaukee and the Atlanta Hawks, so the hypothesis matches, with Milwaukee read as the Bucks and Lakers as the LA Lakers. The \"i like them too\" is ambiguous and may apply only to the Hawks, and \"Milwaukee\" is only implied to mean the Bucks."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 201,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

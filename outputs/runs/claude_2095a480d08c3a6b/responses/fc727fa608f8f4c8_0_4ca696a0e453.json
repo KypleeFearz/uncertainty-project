@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88605n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4f72691da55256a8b81e7c56e4782dd85be676e579381d49b232b8fbfa9199c2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBkqJ4jGEeDtLwitMWS",
+  "received_at": "2026-10-11T21:48:35.535132+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.8,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the remaining northern parts are difficult to explore, but it gives no advice on caution or on danger for inexperienced explorers. The hypothesis is a plausible but unstated recommendation, so it is neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 784,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

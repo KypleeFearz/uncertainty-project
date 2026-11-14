@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "79356n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6489c77e3c0f391176f7b02a0e0e4325419d2acdb22db64e5f975ba16905e291",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCrNeiZBy5EPMA6u1b5",
+  "received_at": "2026-10-11T22:02:57.520232+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.24,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The table title says certain federal tax provisions influence personal saving, which suggests some are intended to promote it. However, 'influence' does not strictly mean 'meant to stimulate', so the inference is likely but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

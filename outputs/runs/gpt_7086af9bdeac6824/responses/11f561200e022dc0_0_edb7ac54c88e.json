@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15791e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d23484733683d240ed940a10ae8d84e346250ee34b3ec0b05818d4a7703229d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00fa6c7b4bf6ec6a016acd4436acf087d2bc7f3277afd29519",
+  "received_at": "2026-10-12T20:34:03.955683+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "If “will improve or decline” refers to per capita food consumption, the hypothesis follows from the premise’s prediction of slight improvement or decline. The hypothesis omits that measure, leaving ambiguity about what aspect of the nations will change."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

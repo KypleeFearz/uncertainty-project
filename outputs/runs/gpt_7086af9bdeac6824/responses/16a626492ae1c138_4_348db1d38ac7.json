@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4876504906.jpg#4r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "04daf84a112dc7c977c67a54ecea0874435e77fd41c67dd68a636e4a73540ee0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ed5230af65f2b5016acd4d90522c87d285e952b992049632",
+  "received_at": "2026-10-12T21:13:56.780318+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Smoking a cigarette commonly involves inhaling, so the premise supports the hypothesis. However, smoking can involve puffing without inhaling the smoke, and the premise does not specify inhalation."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

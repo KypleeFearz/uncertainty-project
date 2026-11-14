@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4658483278.jpg#0r1n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise describes the man's appearance and actions but provides no information about his motivations or reasons for being outside the structure, making the hypothesis unestablished but not contradicted."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 355,
+  "output_tokens": 106
+ },
+ "seconds": 2.33,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:36:10.030856+00:00"
+}

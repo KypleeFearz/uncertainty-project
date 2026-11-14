@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2218907190.jpg#1r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ba3ace4bf68967688293d665160ee425d13c1b4b01c37a9b2382747a450f30b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085e04b85ac40731016acd495b9a2887d2ad2f08c714e5903b",
+  "received_at": "2026-10-12T20:55:58.909294+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "Beginning to climb a staircase describes a dog starting to go up the stairs. The hypothesis does not require that the dog complete the climb."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 91,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

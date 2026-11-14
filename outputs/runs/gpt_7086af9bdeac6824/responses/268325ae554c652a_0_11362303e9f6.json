@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121910e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "efb9caf6ac76cbf3067a6d881cf60f1e1916b2ddfd9e707297415592c6bb27d0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a8dc2bf1b05671016acd429aaf2c87d2a75dbed033a03827",
+  "received_at": "2026-10-12T20:27:21.073921+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.6,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "A \"more precise picture\" need not be an accurate one, so the premise does not clearly establish or rule out the hypothesis. The reference to a \"romanticized view\" supports an inaccuracy reading, but its conditional framing limits that support."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 235,
+    "output_tokens_details": {
+      "reasoning_tokens": 119
+    },
+    "total_tokens": 623
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

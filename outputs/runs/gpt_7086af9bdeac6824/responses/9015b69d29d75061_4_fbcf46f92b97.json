@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130869c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf9e208e14d71e3cd3e6fa145897dde2e2ea690ed95edb52332ecbdac9ea3e50",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00113b6b5d903252016acbf6b9542c87d2891c8054ca0de732",
+  "received_at": "2026-10-11T20:51:09.356851+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.87,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise identifies Castlerigg, not Keswick, as the best example. Although their proximity may be reciprocal, it does not establish whether Keswick is also a good example."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

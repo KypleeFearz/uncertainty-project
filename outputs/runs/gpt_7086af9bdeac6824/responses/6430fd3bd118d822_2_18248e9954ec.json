@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141642n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c0da28a4b8aebf3f7112717c6f87cefd00e475db9794c46185c079535fdf89e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea3c569cab3b774016acbe95d864c87d2893646fffe5ad178",
+  "received_at": "2026-10-11T19:54:09.893733+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "France's enthusiastic entry into World War I supports the interpretation that most people were supportive of the war. Patriotism is a plausible interpretation of that enthusiasm, though it is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8713n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2c0efcfc2a2caa4f102d3f218183abf783ea3ead4b36dca555ec4e2242b37801",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084070a565cbe5fc016acbf3c1a18c87d2ac0344c15e04a823",
+  "received_at": "2026-10-11T20:38:29.488798+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise supports the use of this data to model access costs, but says nothing about worldwide standard status. It neither establishes nor rules out the added claim."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

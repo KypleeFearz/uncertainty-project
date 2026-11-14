@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140440c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3eec2afb60cf0500251b0e89b634c58498a878972b208f6174a804221b60467",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_096ddf73a0d82436016acbe93d82c487d29903b820d1d6ee45",
+  "received_at": "2026-10-11T19:53:36.559405+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.92,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise identifies customer satisfaction expectations for senior executive performance, but does not establish executives' personal attitudes. Having such expectations does not guarantee that executives care about customer satisfaction."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

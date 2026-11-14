@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5b375d63f6d89ffce0cb5ead9c73c4c6e72999a2f7e02bc90be75a01e0369c3a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8d54c7558d5e53016acbf8f001fc87d2b8efd0b30b69e5b8",
+  "received_at": "2026-10-11T21:00:38.514448+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.28,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The speaker says they get home from aerobics at nine o'clock and then watch Knots Landing, suggesting aerobics occurs earlier rather than at nine. This conflicts with the hypothesis under the ordinary interpretation, though the exact class schedule is not stated."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 216,
+    "output_tokens_details": {
+      "reasoning_tokens": 101
+    },
+    "total_tokens": 625
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

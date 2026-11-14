@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80517e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30bb06b6987554658568e5bcf72ebe5e9a849e81d03f0bb829536f6e80851a1a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099bb3903a9de666016acd47d0d1c887d29725e7684a24a993",
+  "received_at": "2026-10-12T20:49:26.270314+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "“Doesn't look good” suggests a negative assessment but does not establish the stronger claim “really bad.” The hypothesis is plausible if the premise is interpreted as an understatement."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

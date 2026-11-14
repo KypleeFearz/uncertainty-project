@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3478471864.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce4d0992aef8c18b4271edd6707cd3a301ddbb41217f5fa814162e2c34aeaa0a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00099ac77bb34458016acd4b7cd9e887d2acea222c575af791",
+  "received_at": "2026-10-12T21:05:06.706673+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports the four-person arrangement and the illusion that their arms belong to the red-haired woman in front. However, it identifies only the woman as young, not the three people behind her."
+  },
+  "usage": {
+    "input_tokens": 446,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

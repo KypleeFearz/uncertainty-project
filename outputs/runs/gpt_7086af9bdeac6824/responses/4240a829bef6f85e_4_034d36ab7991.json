@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119758n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ce86c63afb6a3c9a02f593ae14ba45f477a14a00d99ab0677fff4881528cd10",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0de5942d4dde1398016acbe63bcc3087d2bda4332fbc27d37f",
+  "received_at": "2026-10-11T19:40:48.332457+00:00",
+  "parsed": {
+    "entailment": 0.79,
+    "neutral": 0.2,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "Both texts ask whether shade-tolerant grass is needed for shaded conditions. The hypothesis makes growing grass from special seed explicit and changes the speaker perspective, details not established by the incomplete premise."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

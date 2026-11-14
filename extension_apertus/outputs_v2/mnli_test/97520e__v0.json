@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "97520e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.05,
+  "probabilistic_inference": 0.75,
+  "brief_reason": "The premise suggests AC Green is good, which aligns with the hypothesis that he is a solid player, but the terms are not logically equivalent, leaving room for neutral or contradiction based on interpretation."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 325,
+  "output_tokens": 115
+ },
+ "seconds": 2.6,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:51:16.769544+00:00"
+}

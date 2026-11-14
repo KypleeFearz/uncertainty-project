@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6952893010.jpg#2r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "43e92cdd2f54c2aac9ccca3d85355a70da1eb140b86cf10d6c4cd49b5175cbbb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0364f037e40306bd016acd4e8fb6dc87d2860c3d98e4916cc8",
+  "received_at": "2026-10-12T21:18:11.045799+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The large sailboat plus the three small boats makes four boats in the water. The premise does not exclude additional boats, but the hypothesis naturally states the presence of four rather than exactly four."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

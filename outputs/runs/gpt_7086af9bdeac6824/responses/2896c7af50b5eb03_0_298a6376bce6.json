@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_329835313.jpg#0r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d568e005edabc0d8778b92f26e65da551a64138ec16ea46a2f232605916c10b4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c039714f8a8eba2016acd4b202d2887d28010b0a210c59cc4",
+  "received_at": "2026-10-12T21:03:30.904101+00:00",
+  "parsed": {
+    "entailment": 0.998,
+    "neutral": 0.001,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.002,
+    "probabilistic_inference": 0.002,
+    "brief_reason": "The premise explicitly states that the baby's bib has fruit characters on it, supporting the hypothesis that they decorate the child's bib."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 88,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

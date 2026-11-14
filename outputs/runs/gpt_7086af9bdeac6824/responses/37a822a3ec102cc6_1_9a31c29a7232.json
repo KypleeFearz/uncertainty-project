@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40179n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e4a7eb849b1d9f795433bfdd860f6cc1820bfa30da670dff7c73beee664948f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d1ffac21494297016acbf84dc72487d2868d96d73791a546",
+  "received_at": "2026-10-11T20:57:52.546071+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.86,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.66,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The fragment expresses an exclamation and apparent acknowledgment but does not establish belief or disbelief. The hypothesis's 'that' has no clear referent in the premise."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

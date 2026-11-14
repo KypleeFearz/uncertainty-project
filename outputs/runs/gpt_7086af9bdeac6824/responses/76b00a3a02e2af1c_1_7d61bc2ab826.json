@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67412n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd1387b7ebc20a2b302eb6f6de2dee0ed0999e0f80a7d279b71d1fe81040faad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e68671cb2d1d13d016acbf99d813487d2925091facfcad936",
+  "received_at": "2026-10-11T21:03:29.552915+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Reading “is” as a typo for “us,” the premise supports being taken away this morning, but does not establish that it will happen very early. Morning includes times that are not very early."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

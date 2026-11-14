@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2537596840.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "97dac39dc90e611a790185ab741ff1f005be04ccc619ce24dff05ef5f20cc711",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011b2c47143f7420016acd49f04fe087d298c76832efe21f65",
+  "received_at": "2026-10-12T20:58:28.285273+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes the worker's activity but provides no information about whether the worker is tired. Working does not necessarily imply tiredness."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 452
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

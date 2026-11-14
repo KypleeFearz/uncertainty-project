@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74078e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1a9cd4775b7aa0eb97384c0f460af0d10a756f71f1ff8a1a9aca3c1047af6ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00e999be448c5473016acbf1db5a9c87d2a1fdf3ad8bd7e7db",
+  "received_at": "2026-10-11T20:30:23.203844+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise explicitly describes advertising local businesses as an ugly backdrop for baseball, supporting the hypothesis. The hypothesis is broader, however, because it omits that specific setting."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "105904c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "68ac99ce8acf5749d4d6af1b40d8436d7ffec4eedba0862ac85238493d31c288",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3aqYzhZ42YdzfVKJCb",
+  "received_at": "2026-10-12T21:22:36.033352+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.62,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says skipping nighttime nursing can cause engorgement or infection, which suggests long gaps are risky but doesn't say whether they are possible. The hypothesis about going many hours without nursing is neither established nor ruled out, though it is somewhat in tension."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

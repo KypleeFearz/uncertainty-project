@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63100n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "71cd25038bd547fe77958316cf0f1db0d6db05010d7d963e6b7902b7e872313e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01e134968abcf2ac016acbf0a0860887d2b7dba858eb0cc298",
+  "received_at": "2026-10-11T20:25:08.409917+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise mentions potentially jumping from a small sports plane with a parachute, but says nothing about jumping through a small window. Also, 'needs work' may mean needing repairs rather than 'needs to work' meaning needing to function."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

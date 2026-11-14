@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49396e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "79e19dbcb06ab8ab6f752d3a1c2e9d3026c72882ab47da79ea0657faac9efb66",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b346bbfdbb1ca12016acbf8d2523c87d28c0b0d0c3bf92ea7",
+  "received_at": "2026-10-11T21:00:05.238179+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.33,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“Untouched by tourism” describes the towns and villages, but does not establish that no tourists travel along the road. Inferring an absolute absence of tourists would go beyond the premise."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

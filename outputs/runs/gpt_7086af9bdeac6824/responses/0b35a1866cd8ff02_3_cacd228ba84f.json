@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62238e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "628708ca6519df0726b8dccad8df95e1b256823b29e11330eae8f1b5975f77a5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_072325ae3dd543e8016acd46fc9d4c87d29a33046046bebf24",
+  "received_at": "2026-10-12T20:45:52.382834+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise establishes impending human capital challenges, but does not specify a shortage of qualified personnel. Such challenges could instead involve retention, training, or workforce management."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

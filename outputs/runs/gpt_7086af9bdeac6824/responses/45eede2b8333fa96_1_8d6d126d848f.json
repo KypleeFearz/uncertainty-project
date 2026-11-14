@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140782c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f270d53c572525504a0dc5474af4f27b7df78e26313c4e5f8af500cb2a461c47",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0ae98fb18a2d18016acbe944dd2087d2a62c6d1f69d42e5c",
+  "received_at": "2026-10-11T19:53:44.022390+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise compares the typical construction heights of FGD systems and SCR retrofits, not whether one replicates the other. A difference in height neither establishes nor rules out replication in other respects."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

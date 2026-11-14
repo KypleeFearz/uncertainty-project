@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120496n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9be4b906225fd87a35c488e9ef7238ba56be35c8fb6da4fe0aaee03ff4168c83",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00631208b5a29584016acbe66f537c87d2a555181099cf213c",
+  "received_at": "2026-10-11T19:41:38.931035+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "Saying human capital management must be at the center of the transformation supports its being extremely important in that context. The hypothesis leaves that context implicit."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

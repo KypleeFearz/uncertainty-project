@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55888c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4013f8696801ef53073646977e47181c4b08cd98231300ba5739f60dc27fab1f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ee2c013c0ccc83016acd4695b70887d298e2e36d43ff9a49",
+  "received_at": "2026-10-12T20:44:10.307497+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The narrator asks whether Poirot still has the keys, but the premise does not establish whether the narrator has any keys in their pocket. Assuming Poirot has them does not logically rule out the narrator possessing keys as well."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

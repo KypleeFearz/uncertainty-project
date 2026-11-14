@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59208n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "33b0f4ea6ee2a83e15af6fd120f989525c075dafed5e3229bbad3717f2799585",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b3bb1a27501d34016acbf009220887d29c59aea091433854",
+  "received_at": "2026-10-11T20:22:36.824291+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Choosing Meg Ryan supports Meg Ryan being a possible selection, satisfying the hypothesis’s disjunction without establishing Jon Doe as an option. A reading that requires both people to be available options is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

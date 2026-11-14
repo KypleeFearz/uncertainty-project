@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80109n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eca72b7d654686e8535b7fe3b9de2026fa30f6bc5489b637000590d499c1839c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_087f50c8279c9b93016acbf2a0fd0c87d29406ea8450790858",
+  "received_at": "2026-10-11T20:33:41.546605+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.77,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise suggests substantial recent rain but describes making a rice field only if it had rained more. It does not establish that everything actually flooded or that conditions were already sufficient for rice paddies."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2924825127.jpg#4r1c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.2,
+  "neutral": 0.7,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise only states the man tumbles while being watched, not that he was running beforehand; the hypothesis assumes a prior action of running that is not confirmed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 336,
+  "output_tokens": 103
+ },
+ "seconds": 2.42,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:10:39.115766+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97926c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "255a5609932e39e700029bcce6df5baae4d38487518b9a41a0ca6ae037c0f33e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_067cd13cee672887016acd487bcc0487d2a04059b8829c7b81",
+  "received_at": "2026-10-12T20:52:16.806651+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.08,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says GM lost $460 million to strikes, not almost $1 million. Although strikes are labor disputes, the hypothesis's awkward wording leaves some uncertainty about its intended amount."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

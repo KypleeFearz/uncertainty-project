@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119901e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea5a501fab390b71b855f359718fe0401e121aaf76e4e00f2f014304f620bb38",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_007ee44fb48ee5ce016acbe642159087d2a90d330407bc6d7d",
+  "received_at": "2026-10-11T19:40:54.167765+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says most pundits agree with Stephanopoulos about the political acceptability of air strikes, but agreement does not establish a very large following. It also does not establish that this stance caused such a following."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

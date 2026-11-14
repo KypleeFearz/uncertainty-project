@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18428c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c77ba3c33e88a425b28fc514d68912f71333202d8048c4b76e1a402a6beda32",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05efdce7bebd316b016acbf774d04887d2986d038261cc56d0",
+  "received_at": "2026-10-11T20:54:16.574345+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.97,
+    "contradiction": 0.025,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise requires Indian financial participation, not Italian money. It neither establishes nor rules out an additional requirement to accept Italian money."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

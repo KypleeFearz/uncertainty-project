@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114988e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "77a1ddae7c8abc149b6701dae7a4cc733ae122c87ee41686e1981315ae23bd74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0ec893eca4395b016acd4253d10487d29a61437ee11ac9c0",
+  "received_at": "2026-10-12T20:26:00.411661+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise describes multiple unspecified things planting themselves in Stark's neck, but does not establish that there were exactly two hits. Reading the plural 'sides' as implying two impacts requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

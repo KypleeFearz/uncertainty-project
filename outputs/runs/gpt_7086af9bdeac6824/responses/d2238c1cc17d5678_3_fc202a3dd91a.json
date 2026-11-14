@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16521n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6131bc3f9c7f94cf0791b054f3b5918e2cc4ab69168f5f831100d20fd65cd81e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c70cfe88d4d67a016acbea2ce42c87d2842a50547581863b",
+  "received_at": "2026-10-11T19:57:37.767852+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.75,
+    "contradiction": 0.24,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise reports officials’ statement that both analyses were submitted, but does not independently establish that the Chief Counsel actually received them. Submission ordinarily suggests receipt, creating tension with the hypothesis without conclusively ruling it out."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 588
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

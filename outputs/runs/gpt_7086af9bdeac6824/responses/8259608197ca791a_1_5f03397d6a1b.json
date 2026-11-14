@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27907n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "87e27282c91eef87b9203ea4bbaa524913a1e97744571802eb1deca1c3b43698",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094ce6f408e75812016acbf7e5347487d2b4ab542fd6e7d966",
+  "received_at": "2026-10-11T20:56:08.236076+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise states that the speaker will not stop the addressee, but does not establish what the speaker wants. Inferring a lack of desire to stop them is plausible, not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

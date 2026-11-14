@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33822n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab5392ceb0a175d083a1085536fe44c6a3cc13ac782ee0df366c4779eb939ab5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef20092b1e16ad7016acbec96631887d2a23fa1a0cc89b013",
+  "received_at": "2026-10-11T20:07:53.216672+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise asks why he should not be in an unspecified state; it does not establish whether he wants that state. The referent of \"he\" and the meaning of \"be that way\" are unspecified."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

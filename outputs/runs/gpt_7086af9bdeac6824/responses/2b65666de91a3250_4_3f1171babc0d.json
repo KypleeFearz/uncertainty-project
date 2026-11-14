@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2529c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58df6ff0a91fc8dd18e887ba8b2e2fd50f743a31d88ca8fd45cf5348a758c564",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b1cf6a8c128955016acbeb6808a487d2a733b1738dd38a97",
+  "received_at": "2026-10-11T20:02:51.701059+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Engaging employee unions does not establish that agencies can eradicate them, nor does it rule that possibility out. The premise describes engagement, not elimination."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 15
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

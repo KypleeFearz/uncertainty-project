@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_306839655.jpg#2r2c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7e799b3ad94c571c2f2da3179df98d8e4a8909504e8cbf48639a01308ea49987",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Byru569wfbMhNPkQ6",
+  "received_at": "2026-10-12T21:43:39.649186+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.8,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says only that people play a game on the floor with a TV on; it does not say they are friends, that the game is on an Xbox, or that others are waiting for a turn. These details are plausible but not established, and the game could be a board game, which would conflict with the hypothesis."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

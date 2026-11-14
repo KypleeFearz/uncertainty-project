@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82436n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1757d4384233cca6686c6ed62d6322b2d852194a954246156d64f384b06d947f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBd1ewNGEQm5JAa4TNC",
+  "received_at": "2026-10-11T21:46:49.529581+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise praises the aging job except for the last actor, but it gives no ages (5 to 20) and never says the last actor was recognizable. The hypothesis's 'you totally knew who that actor was' may reverse or misread the criticism, so it is not clearly supported."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 855,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

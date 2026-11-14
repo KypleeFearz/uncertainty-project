@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77502e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "72b636f98ae42b8036f3041bb0694046997df738ae2222b7a6099e0cb638e71e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0903000cf9d5178a016acd47aacc8487d2ac6f16afb098c4d5",
+  "received_at": "2026-10-12T20:48:46.956663+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise describes an unfamiliar sword, not an unfamiliar way of holding it. The hypothesis is therefore undetermined on the manner-of-holding reading, but supported if “like Thorn held it” means holding that kind of sword."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

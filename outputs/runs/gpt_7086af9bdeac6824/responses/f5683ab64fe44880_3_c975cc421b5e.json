@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117420n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "08790070b64889b92b7bd6b46737dd8fc1dbde4845bb41569409171bf7d841f6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01eed1ed8258bdba016acbe5eeacd487d284c2a785dbd90d32",
+  "received_at": "2026-10-11T19:39:30.918400+00:00",
+  "parsed": {
+    "entailment": 0.42,
+    "neutral": 0.57,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "“Get my groove on” commonly means dancing, but “love” expresses stronger enjoyment than the premise’s “like.” The hypothesis is a plausible colloquial paraphrase, though its stronger preference is not strictly established."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

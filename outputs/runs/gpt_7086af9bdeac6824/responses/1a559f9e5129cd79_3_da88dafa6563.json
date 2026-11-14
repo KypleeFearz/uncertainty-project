@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44648c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a0d4057d1c386d96f1ae53543d64ae79ad7090dbb36f491e83bd7c98f8460df9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_041e6993b83cffc1016acbedf3212c87d2b7c075c53d3876a5",
+  "received_at": "2026-10-11T20:13:43.005349+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The speaker tentatively suggests that Mexican people may not know what taco salad is. This does not establish the stronger, categorical claim that it is completely unknown throughout Mexico."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

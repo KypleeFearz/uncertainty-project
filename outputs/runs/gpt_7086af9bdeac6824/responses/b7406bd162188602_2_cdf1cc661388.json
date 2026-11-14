@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73817e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bee7486a8b1eca4f8d3d0694e475a09c14c2d9db35b0bb764c17807c52311b9c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd7457ba6c69613016acbf1cac1c487d2bad1733f54f2f0a5",
+  "received_at": "2026-10-11T20:30:07.122195+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.24,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Enjoying it and getting more for one's money supports the claim that it was worth the money. However, the phrase \"for the time\" is ambiguous, and the premise does not explicitly discuss time."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

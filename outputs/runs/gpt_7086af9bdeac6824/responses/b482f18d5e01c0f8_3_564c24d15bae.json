@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95155e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c2701a18d14ce82601ed47c91a76a3a040f9d9f0d74b33f1e280ddcc5da7f662",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f0b3bdf80d499df016acbf49273b087d2b6fe21cda22161ae",
+  "received_at": "2026-10-11T20:41:58.453098+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise describes a reporter asking someone how they feel after their house burned down, which supports an example of a difficult question about an event. It does not establish that reporters often do this."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

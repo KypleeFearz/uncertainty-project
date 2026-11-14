@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1925n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a20c4f9ddd051e7dfa5b585c5f31845d8ffb2342759d4f5659c360d61022413",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd6c18c195106a7016acbea6faec087d2b7b09d64e4af7948",
+  "received_at": "2026-10-11T19:58:43.760084+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.79,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.58,
+    "probabilistic_inference": 0.81,
+    "brief_reason": "“Reaching all over” suggests widespread extension, but does not establish that most of a space has already been covered. The referent of “it” and the extent meant by “all over” are unspecified."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

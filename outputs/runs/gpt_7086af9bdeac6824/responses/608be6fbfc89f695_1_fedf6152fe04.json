@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111084n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e62f02d3112f1aea9b054014a2473d4d46f44d6ebe58098fa7b28d8c47c4bcc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0308d53122c4b04b016acd4206466487d2b44cf8786d700ae0",
+  "received_at": "2026-10-12T20:24:41.529877+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise specifies pesticide concentration limits where chronic criteria values are available, but does not identify freshwater or saltwater locations. It neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

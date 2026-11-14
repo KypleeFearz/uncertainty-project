@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "42860n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "de572ca5566a3c441e704162764c2f92ae9fa8615fddf1b559ea73833a37a164",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAgZBiWmzidLxowjx6V",
+  "received_at": "2026-10-11T21:34:30.455458+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "\"That's why we tried to kill you\" gives that as the reason, which suggests wanting to kill, and \"one of the reasons\" is weaker than the full reason. But \"tried\" versus \"wanted\" and the sole versus partial reason leave some room for doubt."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

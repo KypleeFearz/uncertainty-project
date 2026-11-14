@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "122322e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2b3d7331c7c652ad2b3da402c9ef3b9d8b581f422de8a92dac9e8646cf1ae213",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9UD8GtwHHjF9r2Euu8",
+  "received_at": "2026-10-11T21:18:36.339570+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.28,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker says they prefer boat fishing and try to catch anything swimming because of trouble catching any fish. The hypothesis narrows this to trouble with certain types, which is a slight mismatch but broadly consistent."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 856,
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

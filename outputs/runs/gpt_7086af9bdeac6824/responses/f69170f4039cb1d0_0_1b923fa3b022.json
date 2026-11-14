@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120070n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "264f5882b7dfdaed44fa0b4f65a4235a2d2bf4a6b9b2b1b8c78c7be3263155b0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00713fccf27c9fcb016acbe64c305c87d2833c3a789f33b88a",
+  "received_at": "2026-10-11T19:41:03.932691+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise states a ten-minute limit and a five-second goodbye warning, but does not say the warning comes before the ten minutes are nearly over. Being told to end early therefore requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

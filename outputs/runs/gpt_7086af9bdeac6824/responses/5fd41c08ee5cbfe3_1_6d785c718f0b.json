@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108846e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b954012446c3701d4281656308823f828b69f276bfc2d8b61e675b3881159e26",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09c237d65eba2ffc016acbe4d1784087d289f5d735f0b9cf78",
+  "received_at": "2026-10-11T19:34:45.423296+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explicitly lists restricting eligibility to those over age 13 as a possibility. The hypothesis follows if “quite possibly” expresses that possibility, though the premise does not establish an actual restriction."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

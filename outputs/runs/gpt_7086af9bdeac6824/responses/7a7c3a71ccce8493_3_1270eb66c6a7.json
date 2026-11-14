@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "145495c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d4b0ad69b08863c09d40845361e55a1a7412a3f8cde551d1ef46eb0895e9c609",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0317b23b0fe1c672016acbf73a8a5087d2a549fb4b1828dd42",
+  "received_at": "2026-10-11T20:53:18.163679+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.89,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "A swift and contentious reaction does not establish horror, though horror could accompany it. The comparison to hurt feelings suggests offense without specifying the students' actual emotion."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

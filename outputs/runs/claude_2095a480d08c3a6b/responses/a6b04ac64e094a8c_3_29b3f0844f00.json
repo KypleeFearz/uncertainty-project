@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "45769c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e25a40d08b91e1ee16ffd4942f8fbe1f28a376d41378e3de4dbd61c563b1b02c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAkgKSr7UjjNqwQvaGj",
+  "received_at": "2026-10-11T21:35:27.600923+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.6,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says many finance organizations calculated percentages, but it does not say whether the data came only from the finance department. 'Only' makes the hypothesis a strong claim that the premise does not support, though it is arguably in tension with organization-wide business objectives."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

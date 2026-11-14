@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73278n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fca3d0a5f2b0a075651befc4d94b47b02f12b33a369aa1cc39e3b7b070b1dfcf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0df9562165649b41016acbf1b5e53c87d298d8d285067e0669",
+  "received_at": "2026-10-11T20:29:46.205744+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.78,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise asks whether an across-the-board decline could occur; it does not establish whether such a decline might fail to occur. Reading the question as expressing general uncertainty could lend some support to the hypothesis, but that is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

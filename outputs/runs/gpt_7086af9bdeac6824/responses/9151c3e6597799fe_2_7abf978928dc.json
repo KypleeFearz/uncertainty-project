@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11534n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7bb46e081809afcfba7001f2b5e99f75b2e2edb24d1e8911454cc965ca1efb1d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_058735ed19a0bc23016acbf6065d1487d2b3a1ec8ef4a57636",
+  "received_at": "2026-10-11T20:48:09.544857+00:00",
+  "parsed": {
+    "entailment": 0.29,
+    "neutral": 0.7,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.79,
+    "brief_reason": "The premise says he redirected his attention to his problem, but does not establish that he could not afford distraction. That urgency is a plausible inference rather than an explicit or necessary consequence."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

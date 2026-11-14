@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80374n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63e9ced70c53a3a8cf75c3190ababdac98f61de7e2ae0b7e802e724780017397",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a846635e7fac947016acd47c6b21487d28cb56263417897a6",
+  "received_at": "2026-10-12T20:49:15.828170+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Both questions convey that he believed Mademoiselle Cynthia guilty and that you did not realize this. The missing space in “guiltyand” does not materially change the meaning."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

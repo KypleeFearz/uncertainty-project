@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27076c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "feedd496b35341886a8eb4a66343f86dead01e077fe0427e473532dfb72d47e7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dbc71fed46300c1016acbebb0ef6487d2be303fd50e503086",
+  "received_at": "2026-10-11T20:04:05.871366+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.72,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The question suggests that a lookalike is not considered good enough by some people, but does not establish whether it is actually plenty good. It may rhetorically imply the speaker thinks it is sufficient, though that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

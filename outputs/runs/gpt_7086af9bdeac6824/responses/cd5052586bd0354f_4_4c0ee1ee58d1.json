@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3476n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f551eba3478801f1233a9a57addb014d33ad8262abbb0acd65f9b16868be746",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cdf6a28f3b50683016acd453260b487d2a0c081275fdac8a1",
+  "received_at": "2026-10-12T20:38:13.795924+00:00",
+  "parsed": {
+    "entailment": 0.39,
+    "neutral": 0.6,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says their taxes are high, with wording that suggests dissatisfaction. Wishing for lower taxes is a plausible inference, but that wish is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61466n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "411483b18014e0a37fd178a45a23bfd7ef0b24c79d76fbf38e3c04491885ef3c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08083ea9e33dfa82016acd46ea79fc87d29672070f8bfad334",
+  "received_at": "2026-10-12T20:45:34.833428+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "Not being a starter suggests he may enter play later, but does not establish that he always plays or when he enters. The hypothesis adds an absolute timing claim not guaranteed by the premise."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

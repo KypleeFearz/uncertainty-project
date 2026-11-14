@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "103155e",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise shows Sir James nodded, which can indicate agreement or acknowledgment, but does not explicitly state his thoughts about whether something is absurd. The inference that he thinks it is absurd is plausible but not logically guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 114
+ },
+ "seconds": 2.47,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:39:44.862588+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83657c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cf56f69346cb2dbe37f2880fc4ad87d05a5c3630b85a0692bcf2c85a6a8a101",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_052c3c984465832e016acbf35115a887d29b5e28c8a4412627",
+  "received_at": "2026-10-11T20:36:35.685589+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise describes accumulating coupons as an analogy for declining consumer confidence. It says nothing about whether coupon collecting is permitted in US stores."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

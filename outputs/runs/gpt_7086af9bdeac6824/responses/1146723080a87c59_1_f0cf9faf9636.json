@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59069c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "75df25f4c64cb4df297092e3d4e95ca646968b9b56c8be2d7b52be27ad04dc25",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0089858f9c365c7a016acbf0063d3887d2a1ca77ebd30ae161",
+  "received_at": "2026-10-11T20:22:33.158474+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "'Spooked' means frightened, whereas 'spooky' means eerie or frightening. Being frightened establishes neither that they were spooky nor that they were not."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 464
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82069c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2efbecfe1b739fd4010818afbdf09254cb151f524891760494285ff792d477e7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBbf3B6cxVgJMF8fuTf",
+  "received_at": "2026-10-11T21:46:31.147202+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.6,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise is a garbled question asking whether there are enough jobs now, so it does not assert that jobs are lacking. The hypothesis states a shortage, which is only suggested by the rhetorical tone, so the relation is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 770,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

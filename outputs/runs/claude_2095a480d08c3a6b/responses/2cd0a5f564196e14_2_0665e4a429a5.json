@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "77893n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "90e89b04129d606615d5b02fba464bd9a1640509a53596f36f9378df27129b99",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBVignChSiw5nWqremF",
+  "received_at": "2026-10-11T21:45:10.641498+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.35,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"His head\" most likely refers to another man entering, not Tommy, since Tommy brought the picture down on someone as that person stepped across the threshold. That makes Tommy hurting his own head unlikely, but the pronoun is ambiguous so it is not strictly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 792,
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

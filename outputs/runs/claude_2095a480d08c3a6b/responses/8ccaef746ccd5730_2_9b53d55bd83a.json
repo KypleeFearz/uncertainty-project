@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "47408n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f89c53119fda6fed147271fd5ec81edec4911809bf59c9a29d71997fa0f6b21e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAnndm9gRG6wy7FjvRL",
+  "received_at": "2026-10-11T21:35:55.507799+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.55,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise is a fragment naming the net cost of operations, and the hypothesis says that is how expensive something runs, which loosely fits but depends on an unclear referent and an assumed link between cost and expense."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

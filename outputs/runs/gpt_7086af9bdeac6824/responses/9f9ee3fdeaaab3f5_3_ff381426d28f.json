@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_662492649.jpg#4r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "438db351af7888d877d425fc456b129aa86460370089df785cd67e8559d6d170",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a17b52d4e8416ca016acd4e68b22c87d2a16ddace13196ded",
+  "received_at": "2026-10-12T21:17:33.865996+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise explicitly describes a sitting man, supporting the ordinary reading that a man sits. If “sits down” specifically means the transition into a seated position, that action is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

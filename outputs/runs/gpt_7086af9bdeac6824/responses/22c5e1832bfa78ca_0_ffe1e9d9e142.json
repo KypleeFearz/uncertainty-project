@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59688n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "49af6e2e50b292c432a86e8d460e171bf55ebceb6cd50f50e3ebe19e1f2d71ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_022cdb8a3603c9c2016acd46cd2c2487d28830224bce12dcca",
+  "received_at": "2026-10-12T20:45:03.759604+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.029,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "Poirot calls out “Eh! Monsieur Lawrence,” which naturally functions as a request for Monsieur Lawrence’s attention."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 86,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 454
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

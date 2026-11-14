@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101245n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8187192c8adc88d58b3fc625c471100fe893486fabd6d8126423752b97ee90b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b03a53a0d9f1420016acbe3bee23487d282493a80b7a593f7",
+  "received_at": "2026-10-11T19:30:10.231528+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The premise states that she had a stroke and was not very aware afterward, but it does not specify the stroke's severity. Reduced awareness may suggest a serious stroke, but does not establish that it was very serious."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

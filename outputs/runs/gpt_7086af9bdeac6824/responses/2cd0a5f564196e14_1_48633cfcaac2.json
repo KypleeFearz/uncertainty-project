@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77893n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c2b92e26d73691bf359398552bedde2d73a3efa5d83f31ef4f7b72de62e32617",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085a5097867b63ed016acbf262222087d29e50e9fb0c8f5af4",
+  "received_at": "2026-10-11T20:32:39.594515+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“His head” could refer to Tommy’s head or another person’s, so the premise does not establish that Tommy was struck. Even if it refers to Tommy, injury is a plausible consequence of the force rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

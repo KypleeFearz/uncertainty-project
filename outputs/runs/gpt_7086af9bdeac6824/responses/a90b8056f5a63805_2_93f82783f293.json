@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_121335612.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e814cc0b96da23c3eb90de0f6a0bb919c6e36e8d2ec65e9a88330aae4202fa8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a688078c827ad38016acd491242bc87d2af4fbf7792301e7e",
+  "received_at": "2026-10-12T20:54:48.086337+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "The premise establishes that a man is standing in a rowboat, but does not state that the boat is on the water. That location is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

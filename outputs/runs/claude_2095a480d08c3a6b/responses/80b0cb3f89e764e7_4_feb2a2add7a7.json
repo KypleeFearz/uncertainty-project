@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "97974c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8e7ddb3bead63cf84f2a94b70c0cfae20ee45dd2e3a6e305becda8f82f61e6c7",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD2tNBMEgHQBW7XMMso",
+  "received_at": "2026-10-11T22:05:19.706399+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.25,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "A teaser horse is a stand-in used to excite the mare, not the main-event horse, so the hypothesis likely conflicts with the premise. Some doubt remains because the premise does not say what the main event is or whether the teaser was also the main horse."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

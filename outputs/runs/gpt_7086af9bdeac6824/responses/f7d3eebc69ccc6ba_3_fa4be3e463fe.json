@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15100e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "847f82ff03ad39f8d331b25153cb9ff69b6511b0cfce05c15c4f73b65be74f7b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06766d8cb1b9a455016acbea02842887d2b7d88ed133941b40",
+  "received_at": "2026-10-11T19:56:54.647497+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The speaker reports doing only a little gardening on the patio and waiting for rain to subside before mowing. This supports the hypothesis, though rain is explicitly given as the reason for delayed mowing rather than for all limited gardening."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131623c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "afa4226555c6a1ac80cd18c66289a699b8b044bbcca432c589a85acf3d82db0c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fded05e6828141016acd4317c42887d29709f1dcb6c55c68",
+  "received_at": "2026-10-12T20:29:15.150151+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise reports Americans' suspicions of Communist infiltration and subversion, not whether Communists actually assisted the government. Suspected hostile activity does not establish or rule out assistance during the Cold War."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

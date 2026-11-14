@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18086n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ed360bedf4a965ffd115f806e150a28983bae87ee88aaf7634d3d4d7bb013d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea21b913d269aa6016acbf7671b9c87d293055db0e8e4f69c",
+  "received_at": "2026-10-11T20:54:02.369762+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.52,
+    "probabilistic_inference": 0.74,
+    "brief_reason": "Invoking the First Amendment does not establish a desire to make one's voice heard, though that motivation is plausible. The hypothesis's “they” also does not clearly refer to Miller."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

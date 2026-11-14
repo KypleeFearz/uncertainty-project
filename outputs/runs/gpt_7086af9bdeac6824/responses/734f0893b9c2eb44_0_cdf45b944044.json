@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124839n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "94cbec8b46a92c83b90768a33c1e19abc999e6a24994ffda2f634c5238c739c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b78bb1a59bc2c06016acbe6d999f487d284103faf26bbfe9b",
+  "received_at": "2026-10-11T19:43:24.974264+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.96,
+    "contradiction": 0.015,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise imagines a liberal proposing a freedom-of-association argument but does not establish that any liberals opposed it. The hypothesis’s “it” also has an unclear referent."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

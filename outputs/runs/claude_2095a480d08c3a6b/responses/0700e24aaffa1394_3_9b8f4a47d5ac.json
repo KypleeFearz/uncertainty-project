@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "132084e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c6ade3e1e1c3b38ba86f71c9fec41c3362177ca0fecb958b3bf874d5e07f346b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwuJpdE1ck8siNB7yUv",
+  "received_at": "2026-10-11T18:46:54.873153+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.07,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "\"Beginning of the eighth century\" equals the start of the 700s, and the premise says Arawak peoples arrived in Jamaica by then. Slight vagueness in \"by\" (at or before) leaves minor uncertainty."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

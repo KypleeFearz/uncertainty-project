@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "97926n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.7,
+  "neutral": 0.2,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise states GM suffered financial losses from strikes but investors ignored them, suggesting a positive outcome despite the losses. The hypothesis claims GM lost money in labor disputes but was victorious, which aligns with the idea that the company emerged unscathed in the market despite the costs."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 371,
+  "output_tokens": 127
+ },
+ "seconds": 2.7,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:51:42.874094+00:00"
+}

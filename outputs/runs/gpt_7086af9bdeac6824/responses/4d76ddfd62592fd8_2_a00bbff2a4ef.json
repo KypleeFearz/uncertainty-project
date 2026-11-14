@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28306c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "90d55be074f5c524b89e35644d4e2b2b9372481c1f145e792f05d1c248b73f31",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013122095126910e016acd44d7d8e887d2905dc3737dabf4c8",
+  "received_at": "2026-10-12T20:36:45.388350+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.79,
+    "contradiction": 0.19,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.58,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise states that little effort was made toward conversion or territorial expansion, but does not establish whether the Jesuit presence helped either outcome. Little effort does not rule out some success, and the referents of “they” and “them” are unspecified."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 575
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

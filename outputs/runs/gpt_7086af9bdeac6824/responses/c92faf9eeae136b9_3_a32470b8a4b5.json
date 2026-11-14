@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131059e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "76f3bc0fdf36f37465c049f55e743a5f4670000b143ceb5d7de0e648193bc69b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0de37a8b44cfb9cd016acbe7e7289087d29cca9389ac054bdb",
+  "received_at": "2026-10-11T19:47:55.333863+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "A quarter of an hour is 15 minutes, and Tuppence going to the hall to show the visitor out closely matches going to escort the visitor out. The house setting is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

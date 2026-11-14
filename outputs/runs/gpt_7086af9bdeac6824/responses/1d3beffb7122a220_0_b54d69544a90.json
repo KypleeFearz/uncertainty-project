@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135898c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0f925b26cf864eb8ca9df52cdaeaba71f4250caf0f2c3711f439a43e17490c6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_058be2ccbc5cd2bc016acbe87db5e087d28b8b9f88f8ecd75b",
+  "received_at": "2026-10-11T19:50:26.286247+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.87,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise does not identify Hanson as the speaker or say that he whispered \"It's all over.\" It describes him looking away from the gears toward landing rocs, but does not rule out an earlier whisper while looking at the gears."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6952893010.jpg#2r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "075c3175527184b768ad2fb6a6430abfefd90f0ff7370bb7c45fab5a18b09e5c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5uacLb6gjuN6TULEQf",
+  "received_at": "2026-10-12T21:53:04.348328+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.15,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "One large sailboat plus three small boats makes four boats in the water, so the count follows. A small doubt remains because the premise doesn't say these are the only boats nearby, or whether the sailboat counts as one of them."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 787,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

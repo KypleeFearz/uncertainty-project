@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82415n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7cff646f0120a9a3eb3e90f11198369e74caa7510878fdd669ffa2acb46fe896",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f3d551edf92d2f8016acbfa19e78487d2a694d25e62a274a6",
+  "received_at": "2026-10-11T21:05:34.574299+00:00",
+  "parsed": {
+    "entailment": 0.58,
+    "neutral": 0.41,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.92,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "“Sobered” can mean becoming sober after being drunk, which supports the hypothesis, or becoming serious or composed, which does not establish drunkenness. The premise does not specify which meaning applies."
+  },
+  "usage": {
+    "input_tokens": 358,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

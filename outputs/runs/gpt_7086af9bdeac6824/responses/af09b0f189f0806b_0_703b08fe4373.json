@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131216n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a97083b9aa676563fab7554278f9ab8e3060e079e5f9c49eb919b4ddb37b478d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_001ec3add3fa2c1f016acd430f382c87d283d90417de81d1c9",
+  "received_at": "2026-10-12T20:29:07.544672+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise identifies Grand Trianon as Madame de Maintenon's home and says Louis XIV increasingly took refuge there, but does not explicitly establish it as his residence. Taking refuge there could imply residing there, depending on how broadly 'residence' is understood."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

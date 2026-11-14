@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "22938e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "02b779efaaab567729334eef914eb4cdc3bcb935df938a40807d4141da9f0d43",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00652b97c4be9b30016acbf7b3dd1487d289bbad3efe6fc206",
+  "received_at": "2026-10-11T20:55:19.314156+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "Being the least appealing of three malls does not establish that Meadows Mall is unappealing; all three could be appealing. The hypothesis requires an absolute judgment rather than the relative ranking given in the premise."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

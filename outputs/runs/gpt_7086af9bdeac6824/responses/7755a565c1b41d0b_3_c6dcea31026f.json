@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118403n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4bca2766c1d6a278f6c15fafb01ba8c0a7dcc96c90761e9b05e7a5ead8f4d10c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0695ac349e760655016acbf641345087d2abd4e7d548554d06",
+  "received_at": "2026-10-11T20:49:09.281950+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.67,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says planting as it gets warmer would not matter, but does not explicitly compare planting in warmer and colder conditions. Reading this as ruling out a benefit from colder planting requires interpreting “wouldn't matter” as a general claim about temperature."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

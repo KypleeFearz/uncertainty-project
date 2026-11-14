@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39960n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "27efb0b91693cc4eac29011a5cf0f7dd02bba25ea41c20456eb5e824b4cf2375",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d5e9f62040e9f80016acbed5a05fc87d2856409ef6b095bc0",
+  "received_at": "2026-10-11T20:11:11.111187+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Simplifying the household definition supports the claim that the Act specifies what counts as a household. However, the fragment does not explicitly call that definition legal or say whether the Act creates rather than revises it."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 184,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

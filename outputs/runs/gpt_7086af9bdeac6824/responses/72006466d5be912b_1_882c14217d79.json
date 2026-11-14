@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80930n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a8be27ce61bf75d235854f6ffc6f2be99bb41ecbddf91a8487825e255c1643fd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f438c2378cfaf1b016acd47dbf4fc87d2b128edb73485e089",
+  "received_at": "2026-10-12T20:49:35.902531+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise asks whether someone thinks education or something similar is the deciding factor; it does not assert that conclusion. It also does not specify that education means the amount of education an individual has."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 120,
+    "output_tokens_details": {
+      "reasoning_tokens": 16
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

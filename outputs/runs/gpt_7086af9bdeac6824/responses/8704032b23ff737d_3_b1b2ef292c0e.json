@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13531e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "83a9015429bca09fdb2f532b9948fc9a92f9eecacb58f74b69840bf6389966fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a1c454010a2f05016acd436a324c87d282105cc99bc95910",
+  "received_at": "2026-10-12T20:30:39.902115+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Felt like a rat” can mean feeling sneaky or disloyal, which overlaps with “weasily” if it means “weaselly.” However, the premise could instead express guilt or another feeling, and it does not establish the intensity “very.”"
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

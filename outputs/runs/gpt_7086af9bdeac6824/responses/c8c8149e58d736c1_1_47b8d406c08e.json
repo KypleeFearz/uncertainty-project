@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4270956712.jpg#0r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfc82fed3743487dba2a35d5897987a4a7acf6305409398ddfdecf878d7b5479",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0afa4b7bafb6ecb5016acd4c6c0d8487d2b5dc486a231b1e91",
+  "received_at": "2026-10-12T21:09:02.958896+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.009,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.002,
+    "unclear_reference": 0.008,
+    "probabilistic_inference": 0.003,
+    "brief_reason": "The premise describes the man's socks as white, while the hypothesis describes them as blue. The otherwise identical description indicates the same man and clothing, so the sock colors conflict."
+  },
+  "usage": {
+    "input_tokens": 436,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13760c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c22da0b43b5c329c8742308ea15b64f32fb571cb6d931510aec3544c74594c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01da5d9241e11e8f016acd438aedbc87d29fb2015166c6faf6",
+  "received_at": "2026-10-12T20:31:10.140511+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.92,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise conditionally describes the consequences of overestimating the CPI error but does not establish whether that overestimation is possible or impossible. The hypothesis's claim of no chance therefore goes beyond what the premise establishes."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

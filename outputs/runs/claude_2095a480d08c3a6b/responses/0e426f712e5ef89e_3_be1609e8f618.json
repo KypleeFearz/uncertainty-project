@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "74078e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cc3386a51f9584a6d4b2742129d10c2fa04e93b169f66a1f184f676abe8ebae4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBQ4pKYsmKLMEXoLbWp",
+  "received_at": "2026-10-11T21:43:53.909810+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.28,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says advertising the local bank, Chevy dealer and chain retailer as a baseball backdrop is ugly, which broadly supports 'local advertisements are ugly'. However, the ugliness may attach to the backdrop use rather than to local ads in general, so the support is not airtight."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 825,
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

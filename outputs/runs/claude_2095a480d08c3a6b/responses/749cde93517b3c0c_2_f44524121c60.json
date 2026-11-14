@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "139362e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a8d485160e2356fa9063843fa464fa90b1e4c4aa8898f0ddb7af3f8ce6e96178",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3uAWWRHy43PswbyPZM",
+  "received_at": "2026-10-12T21:26:45.099224+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.62,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise does not say whose endorphins were flowing, so the hypothesis's 'my' is not guaranteed. The speaker might plausibly be the one meant, which leaves some chance of entailment."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 765,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_299193125.jpg#4r1c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c34b2473146b10ffbcb1bba78db98b834c9f6940c9a04d25d3e43e585ba45d70",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e9b44a5ccc59060016acd4a7913a487d2a9597421323913df",
+  "received_at": "2026-10-12T21:00:48.646868+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.43,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise says children are playing outside but does not establish a boy playing Gamecube on a couch or rule out such an event. Contradiction would require assuming the boy is one of those children and the couch is indoors."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

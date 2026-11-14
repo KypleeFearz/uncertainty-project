@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63469n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3efd0b53e50669f459148513a0467189b99c879b4604117b8b030370bf51676",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_047eb9a4fed7b0b7016acbf97232b087d28bafb663f346a6ef",
+  "received_at": "2026-10-11T21:02:46.052776+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.17,
+    "probabilistic_inference": 0.69,
+    "brief_reason": "The premise describes the item as lacking humor, supporting the claim that it was not funny. However, the speaker's preference for jokes with a grain of truth does not establish that the article was based on lies."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "96923n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8eb65230f70d2b65456e64ff750300e8bd0f436578400d9f49ee2b28d0f0cf6f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD1XPaicG6BsnpCAo81",
+  "received_at": "2026-10-11T22:05:02.072795+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.6,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "\"Can be very helpful\" does not say whether any offices are unhelpful, so the hypothesis is neither established nor ruled out. Some readers may take it to imply that offices are generally helpful, which would conflict with the hypothesis."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

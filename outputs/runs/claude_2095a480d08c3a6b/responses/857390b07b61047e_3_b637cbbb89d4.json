@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "61684n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "efdd57ca753cf09e87858cf568b16e757fbd7237364b568d6bdc83960ad95ce3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Vp4RH2qzKr4BvFhA4",
+  "received_at": "2026-10-12T21:34:35.791203+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.35,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Julius concludes that 'we' were wrong, which is not the same as Julius having been right that they were incorrect. The hypothesis implies Julius held the correct view, while the premise suggests the group (possibly including Julius) erred, so it leans contradiction but is unclear."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

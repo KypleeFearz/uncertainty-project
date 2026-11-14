@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "101531c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f41af53d4369e71e989a88a0fbe3d46c3a5b1a9ffb34c1d572ed78dcc433d929",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBzdR62DMYwsRgZTyTQ",
+  "received_at": "2026-10-11T21:51:42.508175+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says a single large clay pot cooked all their food, which directly rules out the use of multiple clay pots."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 116,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

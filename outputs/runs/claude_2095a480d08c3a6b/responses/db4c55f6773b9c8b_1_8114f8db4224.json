@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "80374n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "63e9ced70c53a3a8cf75c3190ababdac98f61de7e2ae0b7e802e724780017397",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4eiFvKMbSszaRgLMBa",
+  "received_at": "2026-10-12T21:36:35.675016+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.25,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is a rhetorical question implying that you failed to grasp that he thought Cynthia guilty, which closely matches the hypothesis. But both are questions, so the premise might only ask rather than assert, which leaves some uncertainty."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 808,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

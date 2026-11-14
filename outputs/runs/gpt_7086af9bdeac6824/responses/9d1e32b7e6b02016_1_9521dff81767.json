@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53415n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6aa6393382b0712f977c5bb6de54a6825e3202b4fc3f5531a28bc5ee9d630975",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00de213e6c7b624e016acbf8fb92c087d2a14cca81ae108ea4",
+  "received_at": "2026-10-11T21:00:47.048186+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes difficult conditions for reviewers generally but does not establish how specialist or senior reviewers fare. Those groups could have an easier time than others while still facing tough conditions."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

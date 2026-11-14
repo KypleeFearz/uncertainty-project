@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61466n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e72768436c8bcb44faf51ce3f43284f1fe6eb38da6c2799795694111037563c3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b3bbc6a1913ef7c016acd46e9188c87d29764bbf7f5663d55",
+  "received_at": "2026-10-12T20:45:34.076855+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "If “starter” refers to a player in the starting lineup, the premise suggests he may enter later, but does not establish that he always plays or when he enters. The hypothesis therefore requires assumptions beyond the premise."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

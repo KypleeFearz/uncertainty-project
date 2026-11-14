@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3208032657.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53c65bad89a5d596431bcf8231497759873e05901fe3327a42485f4f610a8e3d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_014c783b8d2e713f016acd4afc23bc87d296d3f23cb7bdf814",
+  "received_at": "2026-10-12T21:02:56.553048+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "Powerwashing the stairs establishes cleaning near the pool. Calling the person a worker is reasonable if it means someone doing work, but their employment status is not established."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 470
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

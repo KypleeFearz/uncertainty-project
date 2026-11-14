@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55561n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c2aa4218547515697e059084dec948d4442a4c75c93e5301483b1623405b1b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a928d9d6964a2ef016acbf92ab3e887d287d491ea02c27432",
+  "received_at": "2026-10-11T21:01:35.589607+00:00",
+  "parsed": {
+    "entailment": 0.73,
+    "neutral": 0.26,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The contrast with wedding or feast-day performances in their “true context” supports viewing festival performances as less contextualized and authentic. However, the claim about how authentic they feel is implied rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

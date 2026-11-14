@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_371910695.jpg#3r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise describes people looking at menus, which is a common activity in restaurants but does not specify any special occasion like a birthday. The hypothesis introduces an unobserved celebratory context that is not entailed by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 336,
+  "output_tokens": 116
+ },
+ "seconds": 2.5,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:25:52.352248+00:00"
+}

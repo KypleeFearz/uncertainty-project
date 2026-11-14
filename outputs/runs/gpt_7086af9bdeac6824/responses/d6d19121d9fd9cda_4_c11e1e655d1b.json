@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32814n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bd2c33b6818bfa079dd3535e1a68d5e2ea6a8644c9c33c0575dfb45c3a280b12",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff12811a67e2601016acbec658ab087d2808a5abdde54eb8a",
+  "received_at": "2026-10-11T20:07:05.672753+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise asserts unspecified existence in the present, whereas the hypothesis asserts it in the past. Present existence neither guarantees nor rules out past existence, and neither sentence identifies what exists."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

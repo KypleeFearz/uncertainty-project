@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88646c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb6bfb246956e0da7a5b380c0895e0f9c584946a0b0b741be884e810ce80f33a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a7caa12b8f2ec1016acbfa8def1087d29eef4d1b9b403919",
+  "received_at": "2026-10-11T21:07:28.867471+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "Having no instincts does not establish having no willpower, nor does it rule that out. The premise also does not identify whether the person addressed as “you” is the hypothesis’s “I.”"
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

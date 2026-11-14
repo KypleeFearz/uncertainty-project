@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24385c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e1b5b1244fd3aa5b10cee877205dfac81ba20d8205bd80febb145a32dcbe24bd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_027da8d611fa7eaf016acd44b0c2fc87d2a6dfe8eb79ac78ec",
+  "received_at": "2026-10-12T20:36:04.405317+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise is a fragment linking farmworkers to the U.S., but it does not establish employment, exceptional ability, or a rocket-fueling purpose. It also does not rule out those details."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

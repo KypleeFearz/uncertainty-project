@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139705c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e15241432c81c4d4afc60d1310d2022714c89818166814d354b7321b1ff2930e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0272020c1cacbb4d016acd43c2ce1087d2b03bd7533e157029",
+  "received_at": "2026-10-12T20:32:05.686284+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explains why porches and stoops stopped serving as gathering places, but says nothing about renewed interest in outdoor gathering places or trends in cities. A later revival is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "40867e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bf957c4faaa955f8ea00d4745a1f603ec7753978c6f70816a9e6a5d8e4ca9b1e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4DnWxmGYrcwZ7Q6RHc",
+  "received_at": "2026-10-12T21:30:57.786016+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.6,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says 'we' have used at least five minutes, while the hypothesis says 'I' used 'the last 5 minutes', which changes the agent and the time span. The premise doesn't confirm either, so this is mostly neutral, with some chance it reads as contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 774,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103364n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "285220c909c8780cfab500f2d904a50839fa022b9bdbef6132075f5cbaf06feb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02f3f184e111b3c1016acbf54fedac87d29a127c17ac09defa",
+  "received_at": "2026-10-11T20:45:08.842154+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.47,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "Officially designating beaches for nudism and appointing a supervisor supports acceptance of nude people. However, “they” is unspecified, and official permission does not guarantee that all relevant people personally approve."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

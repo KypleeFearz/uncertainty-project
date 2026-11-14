@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142604e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c58f2a37e81383ffadd54f3311f81165549e3386168acef9a500c0e84c5e3c23",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08bb79a6225d08fd016acbf72dd6c887d2bea38a79334a1abd",
+  "received_at": "2026-10-11T20:53:05.964897+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says obtaining needed records may become harder, whereas the hypothesis asserts that records are more difficult to obtain and audits and evaluations are consequently harder. This is a plausible consequence, but the premise does not establish it as an actual fact."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

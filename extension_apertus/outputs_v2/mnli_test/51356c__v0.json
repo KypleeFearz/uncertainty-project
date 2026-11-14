@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "51356c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.7,
+  "neutral": 0.2,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise conditionally links Washington Square's ripeness to the state of U-Turn and Devil's Advocate, but the hypothesis asserts certainty about Washington Square's ripeness without addressing the other items. The relationship is partially supported but relies on probabilistic assumptions about the causal link."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 126
+ },
+ "seconds": 2.82,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:28:37.583282+00:00"
+}

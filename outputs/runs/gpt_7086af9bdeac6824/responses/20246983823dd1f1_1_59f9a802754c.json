@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32197n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3d4905f576919840190d2e2d4163b4bd36fd3148342b1487c4aac1e149450d70",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06689217078728bc016acbf811162487d2a98826cfb165eb04",
+  "received_at": "2026-10-11T20:56:53.774725+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise mentions State and Federal courts but does not establish whether their duties and responsibilities differ. Federal commonly denotes the national level, while equating State with local is imprecise and is not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 573
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

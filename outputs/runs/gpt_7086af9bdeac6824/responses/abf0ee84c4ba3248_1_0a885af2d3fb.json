@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69975e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc33b5fbf4800f827bbce5b19767ce9272f1e086a14fe22fbc5e899e330ee315",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b52f60a961df6e7016acbf14981d087d2bd8daa2f64106c1c",
+  "received_at": "2026-10-11T20:27:57.821446+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.1,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The speaker explicitly says they are not interested in tactics. The hypothesis follows if “the author” refers to that speaker, though that identification is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

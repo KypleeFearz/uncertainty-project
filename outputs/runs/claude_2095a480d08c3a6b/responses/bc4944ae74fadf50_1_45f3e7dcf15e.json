@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "34573e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "cadbfa1d6c94cbe8675a9f3683e6e3c5b6175c4ebf59fbd2a6b7411745f8a3e5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4A7ufADUGiyYibp96t",
+  "received_at": "2026-10-12T21:30:08.049750+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.4,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says the exclamations burst out disjointedly, which roughly matches 'chaotically', and 'wasn't unlocked' is equivalent to 'was locked'. But the hypothesis quotes different wording than the premise and 'chaotically' is a stronger word than 'disjointedly', so the match is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 804,
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,23 @@
+{
+  "uid": "102817e",
+  "variant": 0,
+  "model_key": "claude",
+  "attempts": [
+    {
+      "status": "exception",
+      "exception_type": "APIConnectionError",
+      "usage": {}
+    },
+    {
+      "status": "exception",
+      "exception_type": "APIConnectionError",
+      "usage": {}
+    },
+    {
+      "status": "exception",
+      "exception_type": "APIConnectionError",
+      "usage": {}
+    }
+  ],
+  "at": "2026-10-11T17:15:39.847793+00:00"
+}

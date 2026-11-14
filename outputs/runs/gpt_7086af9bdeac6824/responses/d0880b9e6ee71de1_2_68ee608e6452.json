@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_662492649.jpg#4r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d04b5a3da8f283a0bc0a9d73d11ef8523dae6db905ec4aeb78f0a93ba8f8f4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c8c69eff0dc34f9016acd4e61364087d2977d4cbccd772572",
+  "received_at": "2026-10-12T21:17:25.943752+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.15,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise explicitly describes a sitting man spraying a pedestrian, which naturally supports describing him as making mischief. However, calling the action mischief assumes a playful or troublesome purpose that is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

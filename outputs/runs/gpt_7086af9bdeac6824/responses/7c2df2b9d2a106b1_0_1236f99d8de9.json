@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61726n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9aa8a7f79fc1067a2d1141389daedaeb2244e4a2df3349ec39adf0807dee1427",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a7f77266b41b951016acbf055019c87d2b826d29ab81eca41",
+  "received_at": "2026-10-11T20:23:52.471605+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The speaker links being in their forties to having mellowed out and no longer getting upset in a ball-and-club sporting context. The hypothesis captures this change, though it states the causal role of age slightly more definitively."
+  },
+  "usage": {
+    "input_tokens": 417,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

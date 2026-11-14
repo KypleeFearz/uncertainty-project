@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15100e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a97002c69101e702ec7c99ac5d7e3dc0d98b65571fa9c5521bf99f9bb37cdcb1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037b53a72221ec42016acbea05228087d2b359819a70aed75a",
+  "received_at": "2026-10-11T19:56:56.998183+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The speakers report doing only a little gardening on the patio and waiting for rain to subside before mowing. This supports the hypothesis, although attributing all their limited gardening to rain requires a small inference."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

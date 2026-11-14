@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3150659152.jpg#2r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50ef33f1df05d23858488326658ea2a72a2220be2ef0b83c2edba1360a8b7713",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08fe910c4e1d58fc016acd4ad3d52087d2aecaf66edecb967a",
+  "received_at": "2026-10-12T21:02:17.647753+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.27,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise places the blue canoe in front of some plants, whereas the hypothesis places it inside them. These ordinarily describe conflicting locations, though being in front of some plants does not strictly exclude being surrounded by others."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 72
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16086n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ee97bc5e5f6ff81912dbdad915b5b4973ec91e38e0e399651d8cad666c0cdb7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a13185b26a027f016acd444174b087d2b6258cbd8c3f84f3",
+  "received_at": "2026-10-12T20:34:13.493180+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise states a conditional duty to make report copies publicly available, but does not establish that this report is likely restricted. It also does not specify what “should not be ensured” means or prohibit public availability for restricted reports."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

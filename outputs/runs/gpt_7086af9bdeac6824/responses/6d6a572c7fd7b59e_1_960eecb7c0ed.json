@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3628059004.jpg#3r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c4260735e06e5642b548a17ec5de28ac404df6260a11147e91bb2ba93a3fdd59",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09220c18961bc1ab016acd4bb2cfe087d295e1dbf59189f450",
+  "received_at": "2026-10-12T21:05:57.606351+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.92,
+    "brief_reason": "A guitar and microphone suggest a musical performance, but the premise only states that the woman smiles. It does not establish whether she is singing."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 467
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

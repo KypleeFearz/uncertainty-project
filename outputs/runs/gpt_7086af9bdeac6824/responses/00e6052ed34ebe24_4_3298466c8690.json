@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2315113960.jpg#1r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dcc9caa33369fdd81c0f737bddf2bd7f9b04a0ab245db99019b1ce70ea0b5d28",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a89ecfb4b75168016acd4994100c87d29497815a7140f8a0",
+  "received_at": "2026-10-12T20:56:56.251665+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The woman is looking at a pamphlet while talking to someone, which suggests she is discussing it. However, the premise does not explicitly identify the topic of conversation."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

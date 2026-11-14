@@ -1,0 +1,93 @@
+{
+  "selected_parameters": {
+    "score_only": {
+      "distribution": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      },
+      "risk": {
+        "max_depth": 3,
+        "min_samples_leaf": 40
+      },
+      "epistemic": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      }
+    },
+    "no_concepts": {
+      "distribution": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      },
+      "risk": {
+        "max_depth": 2,
+        "min_samples_leaf": 20
+      },
+      "epistemic": {
+        "max_depth": 2,
+        "min_samples_leaf": 20
+      }
+    },
+    "full": {
+      "distribution": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      },
+      "risk": {
+        "max_depth": 2,
+        "min_samples_leaf": 20
+      },
+      "epistemic": {
+        "max_depth": 4,
+        "min_samples_leaf": 20
+      }
+    }
+  },
+  "temperature": 1.5935746092686267,
+  "policies": {
+    "decomposed": {
+      "kind": "two_signal",
+      "aleatoric_threshold": 0.9,
+      "epistemic_threshold": 0.3,
+      "cue_threshold": 0.5
+    },
+    "risk_trained_all_cases": {
+      "kind": "two_signal",
+      "aleatoric_threshold": 0.9,
+      "epistemic_threshold": 0.6,
+      "cue_threshold": 0.5
+    },
+    "single_score_risk": {
+      "kind": "single",
+      "hedge_threshold": 0.6239316239316239,
+      "debatable_threshold": 1.623931623931624,
+      "cue_threshold": 0.5
+    },
+    "single_score_confidence": {
+      "kind": "single",
+      "hedge_threshold": 0.41200000000000003,
+      "debatable_threshold": 1.648,
+      "cue_threshold": 0.5
+    },
+    "raw": {
+      "kind": "two_signal",
+      "aleatoric_threshold": 1.01,
+      "epistemic_threshold": 0.4,
+      "cue_threshold": 0.5
+    },
+    "calibrated": {
+      "kind": "two_signal",
+      "aleatoric_threshold": 1.01,
+      "epistemic_threshold": 0.5,
+      "cue_threshold": 0.5
+    }
+  },
+  "human_thresholds": {
+    "clear_max_entropy": 0.6243943715625421,
+    "debatable_min_entropy": 0.6828639224630875,
+    "clarify_cue_threshold": 0.5
+  },
+  "train_n": 950,
+  "dev_n": 322,
+  "created_at": "2026-10-12T20:09:55.780615+00:00"
+}

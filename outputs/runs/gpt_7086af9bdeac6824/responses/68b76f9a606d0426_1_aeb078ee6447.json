@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe2dcd55bfb506446c0bbe64b80c13f04057a7b8eb34719f60812c97e1cbb150",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0685cda55d93f1d5016acbe3f55b8887d2a6ce01c2d890e0d3",
+  "received_at": "2026-10-11T19:31:05.144561+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The speaker describes going without debt as a hypothetical choice and expresses optimism about its benefits. The premise does not establish that the speaker's generation actually has no debt."
+  },
+  "usage": {
+    "input_tokens": 566,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 692
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

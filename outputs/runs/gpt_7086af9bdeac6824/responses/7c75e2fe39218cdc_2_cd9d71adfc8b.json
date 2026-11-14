@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95953c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5c9231a98c4047cafff2be4d73a94e60d32f573b192e1ef91d7f5b72495dac04",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bdbf4f2ce0dfc22016acbf4a9c2b487d28555639bc0c427c3",
+  "received_at": "2026-10-11T20:42:21.214206+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.98,
+    "contradiction": 0.015,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise identifies AILA and unspecified other organizations as joining the ACLU, but does not identify the EPA. It neither establishes nor rules out EPA participation."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

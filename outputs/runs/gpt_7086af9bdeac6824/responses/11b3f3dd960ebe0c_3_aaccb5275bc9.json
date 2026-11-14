@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36859n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2347d81c873c088107deec52df801193c471119d7362199d4710b70a3a4df2f6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa78399b1382096016acbecf3910c87d2b12aacc06c4ce1c5",
+  "received_at": "2026-10-11T20:09:26.636123+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Submitting the report to specified officials does not establish that everyone needs to see it, nor does it rule out that need. The scope of “everyone” is unspecified."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

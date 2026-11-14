@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6804e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69d8ec45d49b1f74eafeb9c6d5cf925fb64769f220d5444d25e31691b6721d80",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09bfa5ca4fac7bce016acbf12555dc87d2ad1366ef3e62273c",
+  "received_at": "2026-10-11T20:27:21.063826+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says what follows if someone takes the position seriously, but does not assert that anyone actually does. The hypothesis adds both the existence of such people and the degree 'very seriously.'"
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 16
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

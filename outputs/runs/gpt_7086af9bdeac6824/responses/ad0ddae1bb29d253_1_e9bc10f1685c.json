@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4254811316.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5db418084522698ccf9fb3e7d19de1208feeba66610547dd6d7fdf3af111a851",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04ac17f300fb18ba016acd4c6242b487d2be505416b5ecd8d4",
+  "received_at": "2026-10-12T21:08:52.867516+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.0,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise explicitly says three children are dressed in winter clothes, which ordinarily means warm clothing. Warmth is implied by the clothing category rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

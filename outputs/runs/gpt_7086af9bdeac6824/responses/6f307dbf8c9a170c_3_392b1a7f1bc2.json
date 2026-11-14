@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114916c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b466f06ed5a3632e181f10af1e7497cd5887e285535b6c604493f60d53e1e51f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c51a624851dd5e016acd42456d7c87d2b25f56c7ef634555",
+  "received_at": "2026-10-12T20:25:45.931624+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.85,
+    "contradiction": 0.14,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise places the described period before the times of the old empire but does not establish whether that empire still exists. Calling it \"old\" may suggest a past empire, but its ending is not stated."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

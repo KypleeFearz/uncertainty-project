@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141293e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "85868492d05a12fc3dd4d45d4fdf2dd9a53a9750ec05481acd4cd0a44ec90f7d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bac7ad3264b2fe9016acbf725ab4087d2b1e735f8b4d065f0",
+  "received_at": "2026-10-11T20:52:58.106296+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker says they started about five years ago, supporting the hypothesis’s timing. However, what “it” refers to is unspecified, and the premise gives an approximate rather than exact date."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

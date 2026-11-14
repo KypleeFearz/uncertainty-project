@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23774n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4acc1872c53b0a193e0467fee6fa119399ac0f1aecdb35c66897d978d68440c5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy44uiZHrH86H2U1eTxH",
+  "received_at": "2026-10-12T21:28:57.239462+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.4,
+    "contradiction": 0.55,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says Bill got one letter that tore at his heartstrings, which suggests exactly one such letter, so 'more than one' is likely contradicted. However, 'tore at heartstrings' may mean sad rather than loved, and he may have received other letters, so the premise does not fully rule out the hypothesis."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 793,
+    "output_tokens": 181,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

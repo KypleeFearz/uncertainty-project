@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "32754n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d0d0d8c321c3e53ba271d00f1a4add9626d0fc38ef398cbc648f4c2ce5a5426a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAS5noNQCkS8TqXmdVw",
+  "received_at": "2026-10-11T21:31:14.374886+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Clinton succeeded where Reagan failed, which implies Reagan tried to close the DOE and failed. This is a presupposition rather than an explicit statement, and 'where even Reagan failed' could refer more loosely to fighting waste in general."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

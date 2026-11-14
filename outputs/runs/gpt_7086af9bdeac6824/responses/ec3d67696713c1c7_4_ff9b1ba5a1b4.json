@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56124n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bf2407e4a5531437667e6f04774757d8f1400b8dba576df5be816faf06d5b2a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c64ee662895582016acd46a673c087d289bd7eabb6fbc53b",
+  "received_at": "2026-10-12T20:44:27.688998+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.9,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise describes gentle physical contact after tea, but does not identify it as romantic. The saint's prayer and blessing context also allows a nonromantic interpretation."
+  },
+  "usage": {
+    "input_tokens": 493,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 14
+    },
+    "total_tokens": 605
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

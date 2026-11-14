@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103559e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "205dab61ccf1c6d05cd68c66f8c974f44f6d1ad9d6b1ee6302d814d06fead239",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_097e6ea3114da9f7016acbe428336c87d2b4c419c05016a8ce",
+  "received_at": "2026-10-11T19:31:56.448644+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise recommends gin, vermouth, and a twist, but “should” does not necessarily establish the stronger requirement expressed by “must.” The hypothesis does not explicitly exclude a twist, so its omission is not a contradiction."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

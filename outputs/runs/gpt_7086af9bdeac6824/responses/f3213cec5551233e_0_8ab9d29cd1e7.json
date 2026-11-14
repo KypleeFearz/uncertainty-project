@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92771n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f7a6538e30ba35bbfae634553d4f22e57fc2f865d9ff1b5e4592595c2550ea7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e32268c395de9b016acbf43e3bd087d2be6f5f4ac401a766",
+  "received_at": "2026-10-11T20:40:36.281248+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.75,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise allocates 80% of annual allowances to specified Acid Rain Program units using coal or residual oil, not necessarily to coal units alone. The hypothesis could be a loose summary, but its phrase \"stemming from coal\" omits the residual-oil alternative and obscures what is being allocated."
+  },
+  "usage": {
+    "input_tokens": 464,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 655
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

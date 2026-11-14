@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61198n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d1761db5c600a2b7f5271cd95c11b7f7f6a8fb10d41bf5ff0dd7b78b87c1d4d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0673b8e396791921016acbf033659487d29506989535717970",
+  "received_at": "2026-10-11T20:23:20.252707+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.73,
+    "brief_reason": "The speaker criticizes how income taxes fund schooling for families with different numbers of children, but does not explicitly call for changing tax laws. Inferring that such laws need reform is plausible, not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

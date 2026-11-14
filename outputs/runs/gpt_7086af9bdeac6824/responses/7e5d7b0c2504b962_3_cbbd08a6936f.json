@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120896n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "954b0d5b979ea63306a346d5db8233b457b718c3eb75a2edbf83d70349a3bea9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05df1b1109a38e74016acbe67a75c087d2a081bb8179614f58",
+  "received_at": "2026-10-11T19:41:49.707270+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.049,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "Both ask how written words led someone to discover that a will had been made. The hypothesis omits the envelope and the precise timing, while describing the recently made will as new."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

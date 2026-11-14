@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104935e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63f22c9073e6a5e4c32e96b50c9fdbe8832a7ccbff53d63a8c43c196cd4e9d8f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e86cebfe3fcc2cf016acbf55d703487d287705a3d4deafd5a",
+  "received_at": "2026-10-11T20:45:20.710077+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise portrays Will as explaining precise tactical details of baseball, supporting the characterization of him as an expert. However, expertise is an evaluative inference rather than an explicitly stated qualification."
+  },
+  "usage": {
+    "input_tokens": 445,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

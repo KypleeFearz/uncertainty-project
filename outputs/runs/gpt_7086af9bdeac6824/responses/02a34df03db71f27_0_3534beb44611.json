@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56759n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e3df1cc1f888a4a29f1e1ff9decaa2b4b12aed6648e8a324e762b10d0d63d3a7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00d1e9b59d9587d3016acbefb21cbc87d29df1916991a0a48c",
+  "received_at": "2026-10-11T20:21:09.974888+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise identifies limited resources as the reason programs turn people away, suggesting that adequate resources could prevent this. It does not establish the stronger judgment that turning so many people away would then be unthinkable."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

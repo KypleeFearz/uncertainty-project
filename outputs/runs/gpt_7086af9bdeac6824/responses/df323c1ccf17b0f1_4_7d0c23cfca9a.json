@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_459538095.jpg#0r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "228407f1a636c1f96b17791b386f32932eae029c89b928031e0a0ec638869a63",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08773e5a7cec37bb016acd4cdbced087d2ae929031d636a644",
+  "received_at": "2026-10-12T21:10:56.362777+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.89,
+    "brief_reason": "Working on electronics may suggest an interest in them, but the men could be doing their jobs rather than pursuing an enthusiasm. The premise does not establish their interests."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

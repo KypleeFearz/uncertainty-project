@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6105e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "59654b7093a7330a1261cae944a10cbfa8245a40f04f5a8ba6aac0f8ec94c1e3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e41e0c6ff1ae3b016acbf026941c87d297a643e23bd5e8f6",
+  "received_at": "2026-10-11T20:23:06.918450+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise says Nicholson invoked an apparently party-line response when asked about abortion on CNN, supporting the description of a standard party answer. The qualifier \"apparently\" leaves some uncertainty about whether it was truly the party's standard response."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

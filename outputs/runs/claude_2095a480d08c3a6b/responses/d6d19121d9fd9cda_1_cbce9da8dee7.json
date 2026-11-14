@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "32814n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "2bbd66a03b723c0fe09001d6db9bdcc4d42d6d796dddd99a44f740ae50fcd59b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwASBJhHcvb5KBj54niR",
+  "received_at": "2026-10-11T21:31:15.763975+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.6,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise \"There is.\" lacks any stated subject, so the referent is unclear. The present-tense claim does not establish a past-tense one, and the two might conflict if something has only just come into existence, so neutral is most likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 758,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

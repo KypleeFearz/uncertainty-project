@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "67063n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "43308dc573c863078fab5f38d29a65fc62995ae1274c8079137fd0a1981581bf",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBFpea3Xy35JzFwCtpR",
+  "received_at": "2026-10-11T21:42:02.152144+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.37,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says GAO will offer requesters a draft that is with the agency for comment, which suggests the agency has the draft, likely from GAO. However, it does not explicitly state GAO sent it, and 'will offer' leaves the timing uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

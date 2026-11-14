@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33340c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db69d200afbb98e9b3c7621c06aaf823571a16ceb8a66d5734093ef7523fa243",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0925d9e8135e3b18016acd451b743487d2aa60a65070765101",
+  "received_at": "2026-10-12T20:37:51.002656+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.07,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The goods are priced in US dollars, and payment must be in foreign currency, supporting that US dollars can be used. Strictly, a pricing currency does not always guarantee that currency is accepted for payment."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "142298n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "95639953dbb5694f8b216169e4fd2a829909730437b182820a2241bce7e75514",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9vrCSVvKypcvWCGk48",
+  "received_at": "2026-10-11T21:24:37.863406+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says Buffalo shows promise, which may suggest recent good results but does not state it; they could be promising due to young players or drafts. So the hypothesis is plausible but not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 797,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

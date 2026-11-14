@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "121910c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise states that romanticized writings still provide a more precise picture, not an accurate one, so it does not entail the hypothesis. However, it leaves open the possibility that they offer some useful insight, making it neither a clear contradiction nor a direct entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 354,
+  "output_tokens": 124
+ },
+ "seconds": 2.59,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:53:52.558129+00:00"
+}

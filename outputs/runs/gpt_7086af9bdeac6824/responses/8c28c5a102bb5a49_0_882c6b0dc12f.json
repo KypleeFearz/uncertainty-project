@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133597n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "71254f8dfa60e41dad60358b8f18a7a51883ab7a6cd6908dbdda7364488f66d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7fb7ed58d77135016acbe8325d3c87d2997eff69be2288bb",
+  "received_at": "2026-10-11T19:49:09.372572+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says signatures usually indicate attestations, verifications, and approvals, but does not restrict signatures to those purposes. The hypothesis adds an exclusivity claim that the premise neither establishes nor rules out."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

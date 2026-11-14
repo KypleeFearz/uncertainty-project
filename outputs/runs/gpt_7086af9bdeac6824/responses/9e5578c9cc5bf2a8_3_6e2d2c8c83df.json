@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55241e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c24f315c4d6145039c0ccd17582c859973d8f124a687d213a555b695bc1a53e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f199b0adccaa89e016acbef773e4087d2b3e1edb9f8dda995",
+  "received_at": "2026-10-11T20:20:11.723822+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise explicitly describes men's masculinity being called into question and implicitly attributes masculinity to men. However, that wording does not strictly establish that men actually possess some degree of masculinity."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

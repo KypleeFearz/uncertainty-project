@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4658483278.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec08e87e6bac15ad656f66d8dbbcf867a2bb5eb8ec790935ff0e35f12b0eb141",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d4b35a0fed08e4016acd4cf4b75087d2a844736ae717d608",
+  "received_at": "2026-10-12T21:11:20.604551+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise establishes that the young man is standing outside a wooden structure, but does not state why. His smile may suggest willingness, but it does not establish that he is there because he wants to be."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

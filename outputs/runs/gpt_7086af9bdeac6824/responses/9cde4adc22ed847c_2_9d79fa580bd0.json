@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105587n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8e421c5beec0b1ba723787da66b94b7685d427884bf997a2dc0ba05ede83b43",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fffeead3cb1c539016acbf5761a9087d29d6336112652fee8",
+  "received_at": "2026-10-11T20:45:46.353869+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.74,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.82,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "A “false career” could involve a fabricated professional identity or other deception, not necessarily pretending to work. Success in that career therefore does not establish being very good at pretending to work."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

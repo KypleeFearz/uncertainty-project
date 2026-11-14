@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120759n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "746ece2ef98632bcedebd9f015017eef00d2c0660c1865e68900aff7b71d07c0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e73df828de0323016acbe676454087d2ba19cfa0453fce34",
+  "received_at": "2026-10-11T19:41:46.450278+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says something was benchmarked by the U.S., but does not establish that the benchmark is notable or unremarkable. The fragment also leaves the benchmarked subject unspecified."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

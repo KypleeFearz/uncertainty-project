@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58559baaf2f6cbbb4ad26021a9a63af936520076e496198171a7e947bcbc6f9a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e40ff3237d58b9a016acbe6018a9487d2b2781ae85d33811e",
+  "received_at": "2026-10-11T19:39:50.328667+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise explicitly says some hotels do not open until the end of April, conflicting with the claim that the hotels open on March 13th. It does not identify March 13th as an opening date."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

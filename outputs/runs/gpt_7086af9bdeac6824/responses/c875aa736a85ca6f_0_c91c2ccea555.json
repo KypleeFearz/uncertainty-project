@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128832e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0977043707e8e30454229b8568ecb046389e14dbccd34236c544673757a7575f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a57b9ac5b06eac016acbd8b7efb487d29b2f0329a5a49b94",
+  "received_at": "2026-10-11T18:43:08.801227+00:00",
+  "parsed": {
+    "entailment": 0.64,
+    "neutral": 0.34,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "If “it” refers to the restaurant and “Underworld” means the criminal world, the premise’s “always” supports the hypothesis’s weaker “tend to.” However, the premise does not explicitly say the pictures are about the Underworld, leaving some uncertainty."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

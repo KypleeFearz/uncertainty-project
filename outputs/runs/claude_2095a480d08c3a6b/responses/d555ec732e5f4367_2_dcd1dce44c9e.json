@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "64123c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d5f46e0ff8b524d31e37b1b1da1e234ff300eaf97f5add53fcf317c081413658",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCm5uG6ZJnycdpZJSBZ",
+  "received_at": "2026-10-11T22:01:45.962657+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise is a question asking about frequency per week, and the hypothesis is a statement that could answer it, but a question asserts nothing, so it neither supports nor rules out 'Every day.' Some readers might treat it as an answer that conflicts, but that is a weak reading."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 753,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

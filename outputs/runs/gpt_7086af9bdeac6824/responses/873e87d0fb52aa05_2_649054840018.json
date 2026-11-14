@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "522n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e27c57de8113cdc65224f708cb54f145d9f9884005020275d1112858976ef2f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_062203f2a132ed94016acbf8ed732087d2a04cc9fb0e7f069f",
+  "received_at": "2026-10-11T21:00:32.491650+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.39,
+    "brief_reason": "The premise establishes that the islands are now officially part of France rather than colonies, but does not say whether this change resulted from a vote. Their being proudly part of France does not establish how that status was chosen."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

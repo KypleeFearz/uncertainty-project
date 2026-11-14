@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61684n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3330690bdf8406f29186e5d1050eb22b04e919ac4bd79c3279ac7c05b9d057bd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6701c701914297016acd46ee78bc87d2b36881d2ac8445cd",
+  "received_at": "2026-10-12T20:45:38.797131+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "Julius tentatively concedes that his group was wrong, but the premise does not establish that this concession was correct. The hypothesis adds that Julius was right about their being incorrect."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

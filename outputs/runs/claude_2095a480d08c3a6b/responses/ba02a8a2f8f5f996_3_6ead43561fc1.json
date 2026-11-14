@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "2043e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "418e995a82d63e70f83d566a6bb90d83ef2fe582baf91d48734c4138c345e75c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy43Nt8aFnXi44Lrdous",
+  "received_at": "2026-10-12T21:28:36.395426+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.33,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the speaker knows what nothing is as of moving out there, which suggests learning it then, but 'discovered' is a likely inference rather than a stated fact. The speaker could have already known before moving."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

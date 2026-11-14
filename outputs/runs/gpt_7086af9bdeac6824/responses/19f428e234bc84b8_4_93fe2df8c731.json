@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111167c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3e61eee8ca1da242fb2e2d27c78110bc527928a95804e45b1a6f937152bff71e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dc3e48fbc906c28016acbe52785e887d29e9183d79ed825b6",
+  "received_at": "2026-10-11T19:36:10.865273+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise asks someone to discuss the social ramifications of chewing gum in public but does not establish whether that person has an opinion. The hypothesis asserts an absence of opinion, which is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

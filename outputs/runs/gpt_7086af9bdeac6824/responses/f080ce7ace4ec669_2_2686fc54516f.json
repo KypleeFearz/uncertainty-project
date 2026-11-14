@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139595n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "102ddd0a0e4d5dd1476ec8824cece02cad85361b65a5e1a943258a76070ca137",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0661aa5b5aa87716016acd43b0bd8487d2b24f0d8f70cbc131",
+  "received_at": "2026-10-12T20:31:48.792617+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.56,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise asks about a possible philosophy of using whatever weapon is available, rather than asserting that anyone follows it. It neither mentions a cave nor establishes that they choose weapons found there."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

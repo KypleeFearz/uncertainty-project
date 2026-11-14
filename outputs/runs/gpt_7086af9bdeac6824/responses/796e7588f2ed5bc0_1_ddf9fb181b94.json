@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83774c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e83db6c7b09b5182a27409672c85215b39c9d6d3338457e558fb5229859a6e6e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01391107544a7aad016acbf353a48487d2af0ac1a317d6d2e4",
+  "received_at": "2026-10-11T20:36:39.624495+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise refers to agencies’ operating trust funds and requires auditable financial statements, conflicting with the hypothesis’s denial of operating trust. The requirement alone does not establish how many statements agencies actually produce."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

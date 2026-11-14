@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98197c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b59ee97b7e7a3db766931f17da7e2b4931192651f4306bf68f454608c7c858b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00dbcd10aaae041a016acbd97dd21c87d2b8cc6db3ebda70ea",
+  "received_at": "2026-10-11T18:46:27.110228+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.09,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.64,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "If “a few” means some, use by most major federal audit entities supports the hypothesis, assuming “GAO system” refers to the named manual. If “a few” instead means only a small number, it conflicts with “most.”"
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 198,
+    "output_tokens_details": {
+      "reasoning_tokens": 83
+    },
+    "total_tokens": 594
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

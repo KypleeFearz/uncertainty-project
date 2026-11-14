@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67938e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "61c825b0859911cac55d8fbff126aa8c8e9d921eddc1b64724f7004cab0e0e89",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b5921d8fb78159016acd473bc9ac87d2984c7d8fdec9f355",
+  "received_at": "2026-10-12T20:46:57.025385+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "If “local” means local things or content, not showing local things supports showing only nonlocal things. The premise is fragmentary, however, and does not specify what “local” describes."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

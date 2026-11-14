@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123891c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0e9a4bbffcfe20673048e82a3fd48657cb566a0f6bad76415cd7ff996c1460e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c106d4b768f0d3016acbf66df6d487d2a4b6de963cd23357",
+  "received_at": "2026-10-11T20:49:53.724437+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.27,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes him as reserved, which contrasts with being excessively loud in demeanor. If “loud” refers strictly to vocal volume, the premise does not establish that."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

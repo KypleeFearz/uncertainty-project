@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34776c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a25c8a3ccdcd0c8fabe310ca7ef3859804f02040b6079a5df8fa392fe8f08d9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09601a5d45934a2e016acbecac90d087d2b088bc05b0dfa555",
+  "received_at": "2026-10-11T20:08:16.234389+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.87,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise suggests that federal CIOs’ operating context likely explains the deviations, but it does not compare their context with that of other CIOs. A distinctive federal context might be inferred, but it is not established."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

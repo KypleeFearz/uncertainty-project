@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40799n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e0a606ad1cdfbd0bf935694573c1e3b2de66f7f112c20f286ca775c78f229890",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cdeec04188ccff3016acbf86289c087d293b79a8134b0c3eb",
+  "received_at": "2026-10-11T20:58:14.997886+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise describes the places visible from the route as uninhabited, not the route or a pass itself. It does not establish whether the route pass is inhabited."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

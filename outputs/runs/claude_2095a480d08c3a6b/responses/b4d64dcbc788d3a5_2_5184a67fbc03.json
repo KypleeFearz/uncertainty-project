@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "62287n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0dd971d82e7074e48e874729f2e8c49fbc706ca92b72e029d0acfb0b40b9615b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBAFHjPUYpGaPrbPbYv",
+  "received_at": "2026-10-11T21:40:46.222451+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.7,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the state arguably has an interest in regulating media use and that Fiss' discussion of it is the least aggravating part of his book. It does not say Fiss argues the state should have a greater interest, so the hypothesis is plausible but not established."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 826,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

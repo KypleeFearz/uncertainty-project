@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103431n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3084fb944b9f17aa62665b69f673e38f2cd6a974cc7555bc2e7bf6e1ca020be3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0094b844b05aae45016acd41b15ca087d2b360f10a8d63b964",
+  "received_at": "2026-10-12T20:23:16.689754+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise says the rewards and incentives recognize support for improvement initiatives, but does not state that they will improve company performance or express that hope. Such a benefit is plausible rather than established."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

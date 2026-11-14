@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104805e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "894b4863aa57ea3e5ab0919fb5cdf17f7c4cd4e0910a5f139fdd88324b1289ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b075a8a079fbd02016acd41bd130487d2a7977325af052848",
+  "received_at": "2026-10-12T20:23:29.381393+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“High” could describe elevation, intoxication, or excitement, whereas “hyped up” typically describes excitement or promotion. The premise does not establish that the intended meaning is being hyped up, nor does it rule that out."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

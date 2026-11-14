@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98065e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e8e3a5c6991735bf5a56d2b4428765c36bb5c39a2c6b18d5846893f97b5b6319",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4ndkXaCrtWZy8WWHxP",
+  "received_at": "2026-10-12T21:38:23.253491+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.6,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is only a title-like phrase ('In Loco Parentis Returnus') and gives no clear information about a location, so the hypothesis is not established. 'Loco' could be read as a place name or as Latin/Spanish, and a reading in which it is not a location is possible, which leaves some chance of contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

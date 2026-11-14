@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "74768e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "22983bb2da0f098176a9916a73695f3ffb8ec64bb4c08e4da69affe65d23e7a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0049a0e155d534d2016acd478618a087d2b8f37d42be2a2313",
+  "received_at": "2026-10-12T20:48:09.207708+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.015,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise explicitly describes her as angry but \"completely mistress of herself,\" meaning she maintained self-control despite her anger."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 88,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

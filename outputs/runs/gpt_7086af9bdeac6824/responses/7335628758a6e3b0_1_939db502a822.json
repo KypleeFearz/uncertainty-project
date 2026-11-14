@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42563e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e9b2fb524ac8987f940508ecac13b6391511d137fa10e5c2e783d6cf80a99acc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_039fd5904240a9fa016acbedb00c0c87d299f80a7a6281411b",
+  "received_at": "2026-10-11T20:12:35.754738+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports hoping that Inglethorp would reveal a hiding-place, but does not establish that he himself hid there. The hypothesis is more strongly supported if “where he hid” means where he concealed something."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

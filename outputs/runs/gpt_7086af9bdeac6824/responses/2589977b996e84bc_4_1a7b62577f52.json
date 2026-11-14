@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73156n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab715e870eb5a4dcaec395aa2eee97f16439fbd430204c97f78ee722518dd370",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07f58d8c50f42ab5016acbf1a24c8487d2ba89125d222b63c4",
+  "received_at": "2026-10-11T20:29:26.079628+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.89,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.43,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The speaker says they miss something and find being around different people exciting, but does not establish whether their current place still surprises them. The incomplete premise also leaves what they miss unclear."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "14388e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise states that a \"life and a day\" sentence excludes parole eligibility, and the hypothesis claims the system is corrupt because parole is denied under that sentence. The premise provides factual support for the hypothesis, but the corruption claim is an inference rather than a direct logical entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 378,
+  "output_tokens": 130
+ },
+ "seconds": 2.74,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:07:47.629015+00:00"
+}

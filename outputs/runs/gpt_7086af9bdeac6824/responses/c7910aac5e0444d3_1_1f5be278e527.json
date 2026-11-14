@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61524n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9166b731837a5ff48593d3cc2f56c6c4368dcfa78b46218ba40762a7d0a4c710",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_069cbcb431014f81016acbf0511de887d2b160b296fb816453",
+  "received_at": "2026-10-11T20:23:48.962199+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.83,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "A wrap-up suggests concluding remarks, but it does not establish that these are Randy's last words. 'Last words' could mean either closing comments or final words before death."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 18
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

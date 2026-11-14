@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44957n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "132f95af478aa5c5e0d195f5a5a594ed2315f494d32253ac8ae46ddea4593001",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_013b60aa9c05f336016acbee022e1087d2be4e915cf79cec1e",
+  "received_at": "2026-10-11T20:13:58.843356+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.76,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise connects Postal Service data with costs and cost drivers, but does not specify that the data concerns delivery. The hypothesis also leaves “drivers” less specific than “cost drivers,” allowing a different reading."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

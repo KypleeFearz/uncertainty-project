@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126486n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8abed681c1149a080c02a67a892dc79a97cba032924951b4aadad45053993f63",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0023252c17025595016acbe711154c87d2bafafc6374e0db22",
+  "received_at": "2026-10-11T19:44:20.026442+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The premise says the setup rewards political lobbying, but does not establish that lobbying has increased. Such an increase is a plausible consequence of the incentives, not a guaranteed or stated outcome."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

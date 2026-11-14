@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123703c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4cb0c2d092e851bdf0e6fda42bda15cf86b31a4d1c9f2a9031bab8815ad7937a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ec227e7871541f016acd42ad469487d2a8aaf2c0651880cc",
+  "received_at": "2026-10-12T20:27:30.226173+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says the needed CIO specialization depends on the organization's objectives, with operations specialization among several options. It suggests that some CIOs need not be operations specialists, but does not establish the hypothesis as a general claim."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

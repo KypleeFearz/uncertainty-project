@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34573n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d9a86c50d72f7fc67d8cf33fd005c8f764a2c4e679201757ac15ebfb35fbeed4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06930caf3e03e012016acd452c960487d2a9b260a0b21d0795",
+  "received_at": "2026-10-12T20:38:09.020496+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise supports disjointed exclamations about the door being locked, but does not establish that everyone jumped up in a frenzy. That added physical action makes the hypothesis neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

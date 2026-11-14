@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85309c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0c25766d90306c37eaa52496e2f6a25cc74353c31dcd02f3791cacc0b662d114",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c118a2d84419a80016acbfa65169c87d2b964730531ae7bb0",
+  "received_at": "2026-10-11T21:06:48.468866+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.36,
+    "contradiction": 0.63,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise describes prototyping as useful for defining requirements and controlling uncertainty and risk, which conflicts with calling it unimportant. It does not compare prototyping with testing a finished product, and usefulness does not strictly establish importance."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

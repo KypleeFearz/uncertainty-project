@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23261n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "851f6df30a1c201ff21977a484bb8d24e84a7e011c6412efb3847c47998319e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d055c0d952ed3f2016acbeb0cd6fc87d2a043c5969e5ea975",
+  "received_at": "2026-10-11T20:01:20.721391+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.88,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the transformation and smoothing process takes a lot, but does not specify spirit or determination. Interpreting the unspecified demand as spirit requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

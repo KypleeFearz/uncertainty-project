@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4682929932.jpg#4r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cf4929411b6d44d829b03a40ff56e33b7bc3a7c664aa82fb4032adc85df12dc5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0125761d739c8bdb016acd4d08513487d28eb60a22d7f45604",
+  "received_at": "2026-10-12T21:11:40.314841+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.13,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Crowding around toys on a table strongly suggests that people are looking at the toys, though the premise does not explicitly state where they are looking."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

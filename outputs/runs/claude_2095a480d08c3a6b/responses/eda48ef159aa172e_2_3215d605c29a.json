@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "6792e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4ca0b756c6401c94a1e16adb7be13ac1293531f20eac592759722d3e63cdca4c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4YqJBBcvhnQPhX1M4U",
+  "received_at": "2026-10-12T21:35:15.968104+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.08,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says British magazines published a huge number of interviews with Kate Winslet, which supports the claim that she was interviewed a lot. A small gap remains because 'published interviews' could differ slightly from 'interviewed'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 819,
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

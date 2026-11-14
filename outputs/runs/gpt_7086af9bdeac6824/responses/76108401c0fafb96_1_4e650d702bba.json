@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "116293c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64247f923dad15fc93785adba73279436b98504a3decbfd6e1513215fe6c36c7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015de8cd40927e44016acbf615330487d29561517f5a414086",
+  "received_at": "2026-10-11T20:48:26.625493+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.85,
+    "contradiction": 0.14,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise states his purpose for visiting the store, not whether cowboy boots were actually available. Expecting the store to stock them is plausible but not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

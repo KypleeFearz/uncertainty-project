@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "76016c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "446b4ab0c96407446a46b92b3fcbc0a2fb6b807ea406ea219d5d9c70d31ef0ee",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBSUvxwNCzzUsJHwgrp",
+  "received_at": "2026-10-11T21:44:26.615710+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.22,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says divers can explore the deeps here, which implies it is an option they take up, so the claim that they do not like it conflicts with it. It does not say outright that divers enjoy it, so some neutrality remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 802,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

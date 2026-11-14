@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "23583e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "95a0088b7e1e1594912ce3b93afba6d5a6dec1033b636ac01f0daa71689e0d5b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwACrspKp8M4vsXXfaTy",
+  "received_at": "2026-10-11T21:28:15.023278+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.3,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says they were constrained by bondage, while folk tales and traditions were part of the culture they created despite that constraint. The hypothesis wrongly makes the folk tales and traditions the source of the constraint, so it mostly conflicts with the premise, though the garbled wording leaves some room for a neutral reading."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 817,
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

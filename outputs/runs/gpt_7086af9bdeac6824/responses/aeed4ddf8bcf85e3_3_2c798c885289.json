@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5280521648.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3846f93813ae09bde4b91e672134fa5d7fa2768b46fa24d418f013c6c712499e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bbb74fd4d6270df016acd4df6cfdc87d2a71d25704ae5f597",
+  "received_at": "2026-10-12T21:15:37.603620+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "Lab coats and laboratory activities suggest scientific work, but the people could be students rather than scientists. Reading a textbook and looking at a microscope do not establish that they are conducting an experiment."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

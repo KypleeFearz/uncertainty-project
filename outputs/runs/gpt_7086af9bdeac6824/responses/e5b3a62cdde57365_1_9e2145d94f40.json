@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49611e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9fcb90ec6bf9e74674b32983c35a491c5add9dd147b0d117c2784c0a451a2de0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0724ea56650fef82016acbeebce05487d291eca74e96b602fc",
+  "received_at": "2026-10-11T20:17:05.635207+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The hypothesis paraphrases the question if “get it” means obtaining an object. However, “it” has no clear referent, and “get” could instead mean understand, so the object-acquisition reading is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

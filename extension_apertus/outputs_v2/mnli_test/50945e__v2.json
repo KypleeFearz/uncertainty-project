@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "50945e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise states the address is the same as the speaker's office address, which strongly suggests mail can be received there, but does not guarantee it (e.g., forwarding rules could apply). The reference to 'my office address' is clear enough to link to the workplace, though some ambiguity remains about whether 'now' implies a temporary change."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 143
+ },
+ "seconds": 4.48,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:28:17.084107+00:00"
+}

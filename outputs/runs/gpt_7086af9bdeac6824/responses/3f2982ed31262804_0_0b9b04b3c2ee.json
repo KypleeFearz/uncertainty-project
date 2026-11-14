@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18428n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95ec6367fc0c4018d929f2daa8df858ee6ae524f18b01ae55711096218bb71b1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06866bd88361893f016acbf7788f2087d2ad3e93b96646791d",
+  "received_at": "2026-10-11T20:54:20.882151+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Accepting Indian financial participation supports the claim that foreign companies had to take Indian money. The hypothesis interprets this requirement as a condition for operating, which is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

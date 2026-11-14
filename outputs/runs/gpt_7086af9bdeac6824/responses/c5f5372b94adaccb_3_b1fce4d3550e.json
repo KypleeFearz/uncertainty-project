@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58557e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "efe1d1e41ad782201b1aa22275c322498323e5d30c6c23fb9de236eddfd96029",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_016e903b00da29a5016acbeff9361887d2abb0ba221e161f2d",
+  "received_at": "2026-10-11T20:22:22.972473+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise supports the hypothesis if “the time” means callers’ waiting time before reaching an agent. It does not establish that no caller-related time is recorded at all, and its claim is conditional on the first instance."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "reasoning_tokens": 77
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41636e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a49ddfa091f0b2d4b872ff8288458303a041fa330fd000fab80ef48fd941cd4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0efb9f4c21939f4d016acbed91d4f087d2beb53437c6018de3",
+  "received_at": "2026-10-11T20:12:05.619823+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.95,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "“Legend” could mean a famous person, a traditional story, or a map key. Even if it refers to a famous person, the premise does not establish that the person is a hero."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

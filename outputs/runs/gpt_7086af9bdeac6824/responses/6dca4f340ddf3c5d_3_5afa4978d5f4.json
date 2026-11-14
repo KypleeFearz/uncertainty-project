@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76483n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "75a5a67c670b332ba6497066cc5fba410051be247130b26738c3f941e7503fbb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02e0f79005c56f9d016acbf22f327c87d2bdf90044f4b0ec46",
+  "received_at": "2026-10-11T20:31:47.004194+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise suggests that good schools might accompany incoming industry, but does not establish that industry will create better schools. The hypothesis strengthens both the certainty and the causal claim."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

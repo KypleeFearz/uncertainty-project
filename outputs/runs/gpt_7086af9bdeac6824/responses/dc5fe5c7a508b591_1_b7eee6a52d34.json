@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42983c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aceca942966ebecd8f6a46994900bdffc6ec86739f207a4ca6c59ac23c91bf15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_081b68b832b02a22016acbedcbb8d887d2a0cde3cf301bb724",
+  "received_at": "2026-10-11T20:13:02.618670+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise identifies sparkling wine as a specialty of the town, conflicting with the claim that it only makes red wine. There is slight uncertainty because sparkling wine can be red, and being known for wine does not explicitly establish local production."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

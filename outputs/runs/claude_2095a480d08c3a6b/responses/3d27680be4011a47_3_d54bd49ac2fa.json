@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69348e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9b3ec95dc3adcd77ab4d658975cdc8819948e6bc0e61b6497e221f817bd43693",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwytEfMpPzNY1mBxME9",
+  "received_at": "2026-10-11T18:47:56.959278+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.4,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Fight for attention\" is most naturally figurative (compete), while the hypothesis can be read literally as a physical fight. The premise does not settle which sense is meant, so the label is uncertain."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

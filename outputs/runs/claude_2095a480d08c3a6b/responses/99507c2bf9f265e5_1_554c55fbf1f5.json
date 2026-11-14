@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "10916n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5ee85b5f7608c9ad3f2a3b736207c208e89d9f659bc47b4fa12fc4724e6069d2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw99MEeKuHs28CicuTuP",
+  "received_at": "2026-10-11T21:14:20.368315+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.24,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Going a long way on what he found in one elementary book strongly implies he gained a lot from it, though 'learned' is a mild inference and the progress could be partly his own doing."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

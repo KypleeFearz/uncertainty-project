@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3912076502.jpg#0r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes the women's location and what they are looking at, but does not mention any action like tossing pennies. The hypothesis adds an action not present in the premise, making it neither confirmed nor denied."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 115
+ },
+ "seconds": 2.45,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:26:46.903230+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136752e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3ed3fd44ee1a733824769a2175c70cd6257c76099119a3f36cb7eabe8e94b4bf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_036a403714583f76016acbe8a982d887d289b9e033f25109b5",
+  "received_at": "2026-10-11T19:51:09.725079+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.11,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise refers to questions and presents their need for tailoring as uncertain, supporting the hypothesis's “may or may not” formulation. Both sentences leave the target of tailoring unspecified."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

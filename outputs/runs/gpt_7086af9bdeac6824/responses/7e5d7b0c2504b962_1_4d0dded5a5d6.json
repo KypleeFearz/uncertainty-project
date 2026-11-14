@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120896n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "098b2d0367f069d5fdccdf2586979fb70ab95be41c011748ea2ac1c80d581240",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d537a18f3d518c016acbe6791bf087d2a7a9550c6403a1d3",
+  "received_at": "2026-10-11T19:41:49.323866+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "Both questions ask how the written words led to discovering that a will had been made. Calling the will “new” is supported by its having been made yesterday, though the premise does not say it replaced an earlier will."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

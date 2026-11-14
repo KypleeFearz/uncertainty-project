@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "46820e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.25,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise mentions a part-time job at a restaurant in Salisbury where meals cost under $14, matching the hypothesis's core claims, though the premise is grammatically messy and contains unclear references to 'our' restaurant and 'my job or whatever'."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 390,
+  "output_tokens": 126
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:25:14.698896+00:00"
+}

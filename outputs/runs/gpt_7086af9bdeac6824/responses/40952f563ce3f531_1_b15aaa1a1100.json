@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4429760815.jpg#3r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd4fd241faa773c030d6f5d58c8cfb4f8e81bd247c62a26975ccaefefb9d8b61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07fb4a9b88f511f9016acd4c92a2ec87d29668215b0e31c881",
+  "received_at": "2026-10-12T21:09:46.455121+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise establishes that both people are waiting for a train, but does not explicitly rule out their also waiting for a bus. Treating the statements as conflicting requires assuming they are waiting for only one mode of transport."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 226,
+    "output_tokens_details": {
+      "reasoning_tokens": 117
+    },
+    "total_tokens": 603
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44550n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff011af3813b2a7ac0963c626c81deaaf5a79c78f4431d437525115f48bc6066",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c01f154a4b9b60016acbeded316487d2872619465b6da1d3",
+  "received_at": "2026-10-11T20:13:36.055359+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise says the speaker liked him immediately, but does not establish whether that liking has increased since then. The hypothesis adds a change over time that is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 463
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

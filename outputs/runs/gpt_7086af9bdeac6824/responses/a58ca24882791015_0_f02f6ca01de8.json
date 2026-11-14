@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23583n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b49c970791be07e7c94346c707cedcc291c385c7e6098cab5425b2287cba994",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035b2bb4cdef2979016acbeb1932b887d28fdc6a0c151f2843",
+  "received_at": "2026-10-11T20:01:33.178585+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.91,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise identifies bondage as a constraint and describes a rich culture developed despite it. It does not establish that traditional life itself holds people back."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

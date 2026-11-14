@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "38784n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b49f89277405a62e2622cc61eeabb4ac7bd00482b6d8ba0cf49e24ea7a15c62f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05153cd4e8d53d8f016acbed424e2087d288d1bf88e91afdff",
+  "received_at": "2026-10-11T20:10:45.661902+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise reports his assertion about the area's appealing natural features but does not establish whether he sincerely believed it. Assuming that an assertion reflects its speaker's belief is plausible, not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 438,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

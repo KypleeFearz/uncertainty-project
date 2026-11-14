@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68583n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c66bd43cc4706372637d8b4f1e1752fba90e8806c504dde6a8c4543571a4334c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07cd3d780381b713016acbf12eea7887d2933982da2ec3d69b",
+  "received_at": "2026-10-11T20:27:30.723426+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.18,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The majority favoring federal intervention supports the claim that most Americans want health-care changes. Calling those changes “major” requires an assumption about the scope of the desired intervention."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

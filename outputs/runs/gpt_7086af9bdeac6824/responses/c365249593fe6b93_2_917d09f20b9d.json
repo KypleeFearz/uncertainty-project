@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100248n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "441e78cb674365f7952b9a7eca2b6ce073020c2cf79529772af962bd7600b93b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0474bc93a18c9937016acbf51e642887d285d4aeaf42ed2fa0",
+  "received_at": "2026-10-11T20:44:17.225613+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise leaves future regulation possible if industry self-policing fails. It does not establish that lawmakers are changing their opinions or that such changes explain the possibility."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

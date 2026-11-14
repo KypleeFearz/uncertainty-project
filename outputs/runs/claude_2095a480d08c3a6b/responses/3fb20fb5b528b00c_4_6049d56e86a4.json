@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "79130e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c048415d88107109fa1c5e3b32c30bdd3bcc425f0426a9c4487e5a7270e64991",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCqrxnaHxYJxhmQz8om",
+  "received_at": "2026-10-11T22:02:50.660051+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.3,
+    "contradiction": 0.58,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "\"Full to overflowing\" could suggest garments spill out, implying the chest couldn't contain them all, but it is often idiomatic for very full. The hypothesis is therefore ambiguous between entailed and contradicted, depending on how literally \"overflowing\" is read."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 816,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

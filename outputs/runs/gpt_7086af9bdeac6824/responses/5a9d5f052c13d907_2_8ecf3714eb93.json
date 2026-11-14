@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97367n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1857a6b95b042a60f0c45502ce66de5a2346d00ce42170c4fb66e130b65e5b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077d2e2e8e09cb6d016acbf4d4c88487d29db4e60d5e392147",
+  "received_at": "2026-10-11T20:43:04.366140+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.89,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise locates Edinburgh Zoo on the slopes of a hill but does not specify the hill's size. Calling it a giant hill adds an unsupported description."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

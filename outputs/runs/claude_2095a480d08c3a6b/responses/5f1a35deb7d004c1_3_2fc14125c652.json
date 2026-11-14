@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2833560457.jpg#4r1n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "750c5255233b1be86db8488a1127466abfbc353db9294c0af5588188f1b0861a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy57E8FZTPE8mxiRnmc3",
+  "received_at": "2026-10-12T21:42:35.346159+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.57,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "A dog running on grass is very likely outdoors, but the premise does not state it is playing; it could be running for another reason. Outdoor and playing are plausible but not guaranteed inferences."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 761,
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

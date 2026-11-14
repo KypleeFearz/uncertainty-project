@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109876n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9b045382ed9174c3b3327372a782c142fc2316d5d670fe4f489bed0289ed49b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c19d8318415ce8d016acbe4fd732c87d2aa8b492b07e2aeff",
+  "received_at": "2026-10-11T19:35:28.720243+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise lists a text box titled “Gross Domestic Product and Gross National Product,” but provides no calculation methods. Inferring that the text explains how GDP and GNP are calculated requires an unsupported assumption about its contents."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

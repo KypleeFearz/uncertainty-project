@@ -1,0 +1,11 @@
+{
+  "paired_majority_agreement_difference": {
+    "mean_difference": 0.0,
+    "ci_95_low": -0.057334550433591966,
+    "ci_95_high": 0.06256262606545637,
+    "groups": 272,
+    "bootstrap_repetitions": 500,
+    "direction": "positive: gpt agrees with the majority more often than claude"
+  },
+  "same_answer_rate": 0.7111801242236024
+}

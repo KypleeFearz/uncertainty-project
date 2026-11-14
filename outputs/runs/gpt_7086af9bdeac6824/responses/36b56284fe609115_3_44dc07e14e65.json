@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71832n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a1bf605cdc561ef2270f239dc700c67b7d02a130568ca4db849a15efcd28428c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_014a38e66d434de6016acbf9b7372487d294b97cf23346561f",
+  "received_at": "2026-10-11T21:03:55.675162+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise asks whether concern is warranted, but does not explicitly ask whether something is a problem. The questions can serve similar purposes in context, though that equivalence requires an assumption about the unspecified situation."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

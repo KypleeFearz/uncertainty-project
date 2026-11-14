@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124839c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "416a69a62bd43f61c1ced70607814840137b5e49a8755bfd485f2d6f7a33f5bf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03f535869c27c0b2016acbe6d55dc487d28ee1663b0bb79a71",
+  "received_at": "2026-10-11T19:43:21.588222+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise leaves open whether a bigger contribution signals strong support for Candidate X and says nothing about Candidate Y. It therefore neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

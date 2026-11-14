@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82049n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7668cc2e814e9b8ab1ef7484493c26d02810c2be9090f1f02f700b433287a74a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0895aa9d2da8aa4a016acbf2fd287487d29ac190b6d5d6ca2e",
+  "received_at": "2026-10-11T20:35:13.530738+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The fragment mentions having a prescription but does not clearly establish that anything provides assurance of it. The incomplete wording and unspecified referent of \"that\" leave the relationship uncertain."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121360c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e40e6709d1a4649d283dc22fe12beb43bcb23de903612f7f29648c4aa8329c7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03da0f500d8e1a42016acbe681952087d28dc983b1106a1a5a",
+  "received_at": "2026-10-11T19:41:57.191407+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.51,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes the tip's shape, not its fragility or ability to scratch. The hypothesis's pronoun \"they\" also has no clear plural referent in the premise."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

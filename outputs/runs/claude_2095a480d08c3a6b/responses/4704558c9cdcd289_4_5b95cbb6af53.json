@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "70738c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3ba9103316a29fb9430d02bb83b584db8d17138cfa1cec276b02d139eff07afb",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4ZxsMu4jSNVVNyNEE5",
+  "received_at": "2026-10-12T21:35:30.667322+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.07,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise defines interest rate as the price charged per unit of money borrowed, usually a percentage, not the total amount borrowed, so the hypothesis conflicts with it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

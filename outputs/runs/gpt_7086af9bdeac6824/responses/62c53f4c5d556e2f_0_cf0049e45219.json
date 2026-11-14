@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_985067019.jpg#1r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc12d54064c0b7c81c4650ccfb87b1d99d2fcc59b0fe0b484004baa9a11a833c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b5f227bec1f3dac016acd4f0edda487d2879a61d21c0d6218",
+  "received_at": "2026-10-12T21:20:20.912045+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.32,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Sliding down and rolling around describe different motions, so the hypothesis conflicts with the premise if both describe the same action. The premise does not explicitly exclude additional rolling, leaving some support for a neutral interpretation."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

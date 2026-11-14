@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4530729176.jpg#3r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "11eb653e318c583e039f1ba827c62c289fa600cabdf2e8c967614f70b1bb126f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d004c855c87f14016acd4caf52b487d2b2bd4e2f7c8d41bb",
+  "received_at": "2026-10-12T21:10:10.338368+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "Crafting something in a workshop is a form of working, so the premise supports the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 83,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 454
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

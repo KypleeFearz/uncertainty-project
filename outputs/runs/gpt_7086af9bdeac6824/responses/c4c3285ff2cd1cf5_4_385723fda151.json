@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62332n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "968b04471673438883f0dcccdd9648a6b34b827f375496d76d1b7b0a0138ce6d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06874e28d2e2a966016acd4703e3f887d2ab58239c62a341ea",
+  "received_at": "2026-10-12T20:45:58.993348+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.43,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise discusses the limited benefit to national saving from early access to mandatory accounts, not people's happiness. The hypothesis is awkwardly phrased, but its apparent claim about happier people is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

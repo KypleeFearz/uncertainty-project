@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_86901941.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a0f2b6734e132bc94842cfce16493d5e0dcdcb899b296e1d6ac94ca71fd7eca",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06e19ea402c8a6df016acd4efa1c0887d2a993b7b3a3e7f2b5",
+  "received_at": "2026-10-12T21:19:57.553919+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Selling hardware parts on a dirty sidewalk does not establish whether the man has a home. Inferring homelessness would require an unsupported assumption about his living circumstances."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

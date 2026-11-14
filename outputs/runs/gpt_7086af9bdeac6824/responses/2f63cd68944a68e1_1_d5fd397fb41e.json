@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91650n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "416030714ac6b5932ed35314031ce53ce8c2e114280aa24d5b4d27e7bbbffc35",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01228ab40bc8e4d3016acbf414cd1487d28098183111f86315",
+  "received_at": "2026-10-11T20:39:52.312540+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.03,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise directly states that it is heavy when it is self-propelled. “In case you were wondering” adds a conversational aside without changing that claim."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

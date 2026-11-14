@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2315113960.jpg#1r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a64aa43b36abbd8c3b29e59469f869e1ea3d5eb087b08b19b16f2c44c72ccda3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea71d0104570f1c016acd4992673087d2bb0e8159f76b5950",
+  "received_at": "2026-10-12T20:56:56.159645+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The woman is looking at a pamphlet while talking to someone, but the premise does not specify what they are discussing. Assuming the pamphlet is the topic is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

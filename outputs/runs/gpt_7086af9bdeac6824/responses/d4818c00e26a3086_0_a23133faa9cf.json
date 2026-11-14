@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11362e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "401306d11d5d2abc43bad407c27fcb70b6e7f403611d77343568ff4411a5e919",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035c260285cd872f016acbf5e6b83c87d295d44b55b12e70e7",
+  "received_at": "2026-10-11T20:47:41.044030+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says the volumes are available again and cannot return to the stacks before renovation. Public availability after renovation is plausible, but neither public access nor continued availability is explicitly guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 205,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 585
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

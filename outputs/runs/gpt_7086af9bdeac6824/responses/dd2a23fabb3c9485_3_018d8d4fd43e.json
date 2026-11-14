@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4553492074.jpg#4r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f34764cb3617960edc252f39c7bff456db56f3f1df1ffc684772235ed81ed9dc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07ba6f941df3f413016acd4cc6379487d29bcb0d1a8458878e",
+  "received_at": "2026-10-12T21:10:33.587934+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.67,
+    "brief_reason": "Sitting outside does not establish that the man is on the ground; he could be sitting on a chair or another surface. Being on the ground is a possible but unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

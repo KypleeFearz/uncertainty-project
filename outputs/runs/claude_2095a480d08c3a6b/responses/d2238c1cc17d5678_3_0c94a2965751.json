@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "16521n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "6131bc3f9c7f94cf0791b054f3b5918e2cc4ab69168f5f831100d20fd65cd81e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA3gqKZtK9qHY6jkZqV",
+  "received_at": "2026-10-11T21:26:10.555826+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.27,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Officials state copies of both analyses were submitted to the Chief Counsel, which implies receipt and conflicts with the hypothesis. It is only a claim by officials and submission does not strictly guarantee receipt, so some neutrality remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

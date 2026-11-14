@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119758n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ce02dbac24379c90ad458344c88aed336817606f08f46616efe1b7e20764ea9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a853df4666b519a016acbe6372ac487d294ca0f2e974e8629",
+  "received_at": "2026-10-11T19:40:45.206047+00:00",
+  "parsed": {
+    "entailment": 0.36,
+    "neutral": 0.63,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.46,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Both questions concern whether shade-tolerant grass is needed, but the premise does not specify growing grass from special seed. The hypothesis also shifts from asking about 'you' to asking about 'I,' without establishing that these refer to the same person."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 608
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

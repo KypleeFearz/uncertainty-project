@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17179n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73b957574338b2c710d1984d6624c1663c2a5e277316e85df3153e247981f352",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9c00c003452fb7016acbea3f8b7c87d2b947d15b67c2c76c",
+  "received_at": "2026-10-11T19:57:56.823855+00:00",
+  "parsed": {
+    "entailment": 0.48,
+    "neutral": 0.51,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "“Do not use your mind” can paraphrase “DON'T THINK,” but the hypothesis adds the unsupported characterization “crazy.” Whether that adjective is merely rhetorical or adds substantive meaning affects the relationship."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "reasoning_tokens": 89
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

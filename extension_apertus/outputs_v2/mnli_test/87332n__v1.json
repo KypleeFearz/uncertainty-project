@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "87332n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise states that capital gains on existing assets do not count as saving in NIPA, and the hypothesis claims that house equity gains are not counted as savings by NIPA. This is a specific instance of the general rule stated in the premise, making the hypothesis entailed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 365,
+  "output_tokens": 130
+ },
+ "seconds": 2.86,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:47:26.156109+00:00"
+}

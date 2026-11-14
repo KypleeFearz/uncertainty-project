@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "121360e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e337ea6541cd5b21b9629dc5bc26fc2f2c34f7b54e7e59f17c3ee121e7ba2d18",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9TLdhCXFgFJw7q2pB5",
+  "received_at": "2026-10-11T21:18:24.591835+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.5,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise only compares a hooked tip to slaughter knives; it does not say what \"They\" refers to or that they were weapons used to kill. Slaughter knives kill animals, but the comparison does not establish that the items were weapons."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

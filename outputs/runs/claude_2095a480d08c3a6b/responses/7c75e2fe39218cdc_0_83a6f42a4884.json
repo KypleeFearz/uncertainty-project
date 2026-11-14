@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "95953c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0380b67d7628c08fb5d4cf3a840d6ab1bb33fdaaa819562977e467ecf88d3e48",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBtamutoFTzRZfMTC34",
+  "received_at": "2026-10-11T21:50:20.628073+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.18,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says AILA joined the ACLU in the FOIA request, not the EPA. Since the EPA is not mentioned, the hypothesis is likely false, though the premise says 'other organizations' and does not strictly exclude the EPA."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 834,
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117487e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e26fb3d8784b9f08625d2bf3bb862490698f65fee12e0f1e6b8cabb73c791f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aecce5ee2891327016acbe5f8c03c87d2b94996837625db99",
+  "received_at": "2026-10-11T19:39:40.440897+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.81,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise challenges someone to reject petty rules governing lesser men, not any rules whatsoever. The hypothesis broadens the scope of the rules and changes “rise to the occasion” to the potentially different “rise up.”"
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

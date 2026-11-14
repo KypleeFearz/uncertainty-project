@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4665585666.jpg#0r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7a8c7a740d55ffb1e814b6ecf4eeb89adfaa5daae141195c36915cad63ebf782",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0356d2e0ee739ec2016acd4d037fd487d2b3c823d4dd78c927",
+  "received_at": "2026-10-12T21:11:36.102277+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.88,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "The father and his two children establish that three people are present, but the premise does not specify whether they are indoors. A chair does not guarantee an indoor setting."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 125,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4967473062.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "16204395983b22eb6cb72ed5fb5cd799cb4099da0125c45709a357b9458be7ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f7a7bf60df0bf77016acd4dbec6d887d28dfa9e48c333fef4",
+  "received_at": "2026-10-12T21:14:44.271811+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.54,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.9,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise establishes that a man and a woman stand on the sidewalk between buildings. If “couple” means two people, the hypothesis follows; if it means romantic partners, their relationship is not established."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

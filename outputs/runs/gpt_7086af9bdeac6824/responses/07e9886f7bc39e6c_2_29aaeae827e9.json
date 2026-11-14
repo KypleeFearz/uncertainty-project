@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "917c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db4cca0d227f2d9c3f289067753fc99dc6d8fb4ccfe2487fce89b4786d75e670",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a9d802974b6522016acbf41f0e3087d28bafa7e3481d31ad",
+  "received_at": "2026-10-11T20:40:02.717566+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.18,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise identifies rules that apply when a state fails to substantially enforce statutory requirements, indicating that enforcement matters. However, the premise is a fragment and does not explicitly describe the consequences."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

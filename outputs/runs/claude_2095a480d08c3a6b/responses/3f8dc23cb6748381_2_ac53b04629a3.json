@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "74509n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f9157b1495b7bc47e1a63e6cf09c272561a5831014c16933539ce1f3f8e8e780",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBQdBzvMKYacFA5xpCa",
+  "received_at": "2026-10-11T21:44:01.439764+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.2,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise gives $273B in 2002 versus $267B now, a $6B rise in annual spending, which matches the hypothesis. Minor doubts: the premise doesn't name the US, and the hypothesis doesn't say annual or by 2002."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 803,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3693n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "68758dadedc25253eaf7c7f1fa2006f8bedbd05483bc7c9c822879b3a887fc39",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fe195788203c03f016acbecfbb98887d2a9a6eb38376f7eae",
+  "received_at": "2026-10-11T20:09:34.802097+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise says speculation has diminished recently, not that anyone has ignored it. Ignoring it could accompany its decline, but neither that behavior nor its absence is established."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

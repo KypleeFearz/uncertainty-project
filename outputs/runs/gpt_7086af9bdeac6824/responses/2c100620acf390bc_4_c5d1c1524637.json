@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106431e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fb6ea472eceedcea1702a243c553e979da0015adb28763c706a51a5c9e8087f4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef73a2ec257de74016acbf59c87cc87d28b869cf3225c0ce4",
+  "received_at": "2026-10-11T20:46:24.370034+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "“Defensible” closely matches “justifiable,” and “in that sense” supports “in one sense.” However, the premise’s “maybe” is more tentative than the hypothesis’s unqualified assertion."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

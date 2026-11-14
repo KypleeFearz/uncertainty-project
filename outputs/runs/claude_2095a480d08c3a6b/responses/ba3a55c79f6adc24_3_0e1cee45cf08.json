@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "101981n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "db71031c2f0869f4555a7bcdce2e170ae69fe6b23238effe2a119d474196b19c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3Z3Feau1HV2btPTkAj",
+  "received_at": "2026-10-12T21:22:11.406675+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.72,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise recommends Beaune as the place to buy for beginners and most others, likely about wine. It says nothing about artists or the best place for all levels, so the hypothesis goes beyond it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

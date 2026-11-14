@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "75276n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a44c441eb735c3944e86ab29020b467aca5bf0e96babc9a75c3db27b6e7f5307",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_045fe5f910e45ee4016acbf20201a487d295678d92238edddb",
+  "received_at": "2026-10-11T20:31:01.675881+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.89,
+    "brief_reason": "Riding into smoke could soon obscure the rider, but the premise does not establish the smoke's density or whether Jon lost sight of him. The hypothesis is a plausible continuation rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

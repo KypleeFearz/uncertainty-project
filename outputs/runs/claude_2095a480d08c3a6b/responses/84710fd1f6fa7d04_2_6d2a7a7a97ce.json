@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "105051c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "37a2d24a18a8e5a0e7beab0ad40561e6b4c00b503c11d67678efe3f9947b08c2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC2BY9bxV4VTPbgxkPn",
+  "received_at": "2026-10-11T21:52:03.349609+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise (garbled, with a missing word) suggests Las Vegas was no longer only the place for adult fun, which hints at family-oriented marketing but does not say it was billed for all ages. Alternatively, it could be read as stressing adult fun, which conflicts with the 'all ages' claim."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

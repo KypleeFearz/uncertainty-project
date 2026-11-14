@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98944c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a124f2601140272e38a3814f22426911f54bf0942514ce1e3f08558e005fcb5b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea9e181323b4dce016acd48b5ead487d29d4c29e1084ab5e4",
+  "received_at": "2026-10-12T20:53:13.089516+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.46,
+    "unclear_reference": 0.29,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The fragment mentions evaluation questions but does not establish what materials are available or any exclusivity. It could conflict with 'only statements' if questions and statements are interpreted as distinct available materials."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 469
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

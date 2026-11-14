@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82629e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6bd6f8ff8ea591cf6981fd5dba4c44bb9d34e3680ca30fea4e6029010154223b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ec7337da7e28b0016acbf338525087d2a2bee0c57d1c5507",
+  "received_at": "2026-10-11T20:36:12.575995+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise allows a reasonable time for an agency to provide an existing record, but does not establish time allotted to prepare a report. Interpreting “they” as the agency and “do the report” as providing the record would make the hypothesis more plausible."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

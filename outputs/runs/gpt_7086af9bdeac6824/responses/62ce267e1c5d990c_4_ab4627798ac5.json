@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "137399e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "24d6fbe08a32a2886678e46da66bc669a64f1418384f89d161e88bb47b442dad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b26822141580a63016acbd8de945087d2b99d1783ac4a862d",
+  "received_at": "2026-10-11T18:43:46.212194+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.18,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "TDY ordinarily means temporary duty, supporting a temporary work assignment at Bent Waters. However, temporary duty does not necessarily mean the assignment lasted only a little while."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

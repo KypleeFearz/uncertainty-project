@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_1463638541.jpg#0r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9ef22abd9480c1385d39b00e56ed534a67e844d8778cc5f568aa591adecae87a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4uWn2Q6tzL6TGWp7ED",
+  "received_at": "2026-10-12T21:39:56.723380+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.84,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says a person is climbing near a sign at the top, but not that they are climbing the sign itself or intend to spray paint it. The purpose is not established, so the hypothesis is neither confirmed nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

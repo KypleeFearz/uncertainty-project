@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4046112444.jpg#2r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db19e2e22e78c84e0308518c977ac4350f78198b5a39c60c232c7f76b991ed0a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c971259c682db7016acd4c3b4d6c87d2bb239c58258c0312",
+  "received_at": "2026-10-12T21:08:14.043730+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.039,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "Using gloves to control a device containing wires supports the description of a gloved young man working on a wired device. The hypothesis uses a slightly broader description of the activity."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

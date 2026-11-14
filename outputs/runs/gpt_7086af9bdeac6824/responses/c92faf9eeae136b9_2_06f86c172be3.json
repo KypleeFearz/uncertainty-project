@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131059e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b3ea23b5f7fd925b81d9c5c795552fbe08772f136ac9e093f054911994707fb6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01f6fe67240cc7df016acbe7e6f86487d280ff11743ae360c9",
+  "received_at": "2026-10-11T19:47:55.153012+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.059,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "A quarter of an hour is 15 minutes, and “repaired to the hall to show the visitor out” supports going to escort the visitor out. The hypothesis’s specification that the setting is a house is plausible but not explicit."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

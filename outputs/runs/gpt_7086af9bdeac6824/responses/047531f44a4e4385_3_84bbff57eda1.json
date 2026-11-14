@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82349n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2900cb07422f5b3fa468569599951cff1814b122cbb7599c7d58f108e3db997a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_025bec4cd43d5117016acbf31b382c87d29d8d7445fffbda07",
+  "received_at": "2026-10-11T20:35:42.378339+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise is incomplete and says funding is secured, but does not establish that proceeding would be impossible without secured funding. The hypothesis introduces a necessity claim not supported or ruled out by the fragment."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

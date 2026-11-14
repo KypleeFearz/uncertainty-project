@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "8269e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4d69140e3828beb26892056270cf5c697a93f4ffe18b8c90be2d964e1f60d00e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfvx1khndPa2Nk1viRsvo",
+  "received_at": "2026-10-11T18:48:22.511906+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Flip off\" is ambiguous here: it likely means a flip off a boat toward a rock formation, or perhaps a flip off the rock itself. The premise does not clearly say one can somersault off a rock, so the hypothesis is not established, though it is not clearly ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 808,
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

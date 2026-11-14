@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44493n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc9ed6c77e4cc74344a358323d14d87ae3e1645e17beea84852843c75de22221",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7dc7a9cfcf7460016acbedebce5087d2a27ae38f986c5cf8",
+  "received_at": "2026-10-11T20:13:34.989380+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Demanding unconditional surrender establishes the Allies' conditions for ending the war, not whether they cared about peace. Inferring indifference to peace from those demands requires an unsupported assumption about their motives."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

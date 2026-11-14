@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "130869c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dc9860ebf1b86561d89d0c4913ee328882a36b532d71b5c6ac82119f9f7041b4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCGFRCrsBg9mVSAxX2a",
+  "received_at": "2026-10-11T21:55:14.624216+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.35,
+    "contradiction": 0.45,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise names Castlerigg (near Keswick) as the best example, while the hypothesis names Keswick (near Castlerigg) as a good example, so the two swap the entity. The hypothesis could be read as loosely paraphrasing the premise, but strictly it points to a different place, which makes it closer to contradiction or neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

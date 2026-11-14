@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "16195n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "77e469fd25e3fb3cb5283d2faaa30b07aafbdf514c5e7c713c36fd6f5f4e5f0b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCNrUG7i7iZQuzjRgYP",
+  "received_at": "2026-10-11T21:56:44.336937+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says internal control is an ongoing cycle with no defined beginning or end, but it says nothing about whether the cycle started by accident or on purpose. The hypothesis adds that unsupported claim, so it is mostly neutral, with a slight chance of being read as conflicting because the premise implies deliberate controls."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

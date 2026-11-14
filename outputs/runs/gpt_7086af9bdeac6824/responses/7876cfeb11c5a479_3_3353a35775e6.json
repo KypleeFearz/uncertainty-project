@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55262c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8662ebd8df21a2a41f597d5aeb6ee9ea7fd9814c5336e352a3d3e3f0420ab16b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_060dfde246cda0cb016acbef7e905887d2a7208c1a5b00f329",
+  "received_at": "2026-10-11T20:20:18.854261+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise describes presenting a test by comparing actual and predicted percentages for every post. Reading “estimated percentages” as “predicted percentages,” the hypothesis restates that comparison."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "119758c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "43ccced3448adf690cb704fb7379f505d5e0d2e1e02eb3fd4fdcd44d25f1becd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d1d2147b920e8d1016acbe6321af087d2a556ccd4a8ef26b0",
+  "received_at": "2026-10-11T19:40:38.412222+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.87,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise asks about obtaining shade-tolerant grass but does not establish sunlight requirements for all grass seed. Its wording suggests grass may grow in shade, but that suggestion is not an explicit assertion."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

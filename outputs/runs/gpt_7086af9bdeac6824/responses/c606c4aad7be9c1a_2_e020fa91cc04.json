@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69481n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b04070037acbace6d54d2e4ebcac0f1ec793dc743000e1abdd66c23ba2a00a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa4915f762ccff4016acbf13a97fc87d2a9ce0f25adf0699d",
+  "received_at": "2026-10-11T20:27:43.643227+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise directly asserts that it was deserved; “definitely” ordinarily emphasizes that same assertion. A stricter reading could treat the added certainty as information not explicitly established by the premise."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

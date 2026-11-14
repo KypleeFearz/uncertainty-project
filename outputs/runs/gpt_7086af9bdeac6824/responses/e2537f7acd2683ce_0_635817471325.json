@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2870n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bae2128a1f2e857501e9c3a3f1905d5c238ac7d81d8eb65f6f7f890e7a8b8408",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eb65d7d8fb690cf016acbebe1e4c487d2b3b47a7bdcb987c4",
+  "received_at": "2026-10-11T20:04:53.723452+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise says tipping is customary when service is satisfactory, but it does not establish that most customers receive satisfactory service or actually tip. The taxes included in most menu prices do not establish how frequently customers leave tips."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

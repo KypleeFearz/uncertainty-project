@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144408n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff1c99725a2a420b84043cd6713b9850d33bc05fdea2b8f6717f8b1e41e6992f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08887680c13fbf7a016acbe9b7f61c87d290b56489437aadea",
+  "received_at": "2026-10-11T19:55:39.392694+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.17,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise describes the village as selling some of the most authentic papyrus, suggesting authentic papyrus is also available elsewhere rather than making the village the exclusive source. However, it does not explicitly identify another seller of authentic papyrus."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

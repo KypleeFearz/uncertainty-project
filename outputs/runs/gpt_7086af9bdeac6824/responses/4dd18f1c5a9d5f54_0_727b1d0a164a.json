@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112688n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "51f7fb8f57a2b9dcb9bfe35077db87ec68ddcd62f8063a3ac0e1a4dee5b5dfe5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e2cf184d08011d5016acbf5de9e6487d28f0cd56c120714ee",
+  "received_at": "2026-10-11T20:47:29.500297+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise directs readers to “app.” for more information but does not establish that the performance plans are available online. The abbreviated reference could mean an appendix rather than an online application."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

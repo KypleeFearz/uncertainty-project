@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f8c3804dc2fe2359006c1a8e1d3f42d364873708b9953749e41ba62bf57c2275",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCnafffZBgQ2Rajjtu8",
+  "received_at": "2026-10-11T22:02:06.077110+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.16,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says people are rarely indifferent, meaning they usually have strong opinions, which conflicts with the hypothesis that people don't hold strong opinions. The leftover 'She' is noise and does not change this."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 777,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47877n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9297c256c938be7d0c385c1ecf708bd04d8244f803782081016c1320315ecd1f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa95c5b83dfde30016acbee837a9087d2805308abc64706e1",
+  "received_at": "2026-10-11T20:16:07.667601+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says many children share fears such as someone being under the bed, but “it's funny” appears to express the speaker's reaction rather than the children's amusement. It also does not mention anyone hiding in a closet."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

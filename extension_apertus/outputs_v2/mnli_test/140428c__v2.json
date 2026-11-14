@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "140428c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.15,
+  "unclear_reference": 0.25,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise asks whether the listener has a kiln, which directly aligns with the hypothesis's question about lacking a kiln. Ambiguity arises from the repeated phrasing and unclear antecedent, but the core inquiry is consistent."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 122
+ },
+ "seconds": 2.67,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:05:29.547140+00:00"
+}

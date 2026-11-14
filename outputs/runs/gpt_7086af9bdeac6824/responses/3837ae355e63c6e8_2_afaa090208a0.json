@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125225e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a25c17d7d63bbe9aeef4f0b2ea4675c43e58812468c4a68b722e5baa790fa4b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ca20392d94cf4b016acbf67b123487d29a7d25271ea0d3f6",
+  "received_at": "2026-10-11T20:50:07.138636+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise promises simultaneous availability online and to the highest-paid Washington lobbyist, not to loyalists. It neither establishes nor rules out a promise involving loyalists."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

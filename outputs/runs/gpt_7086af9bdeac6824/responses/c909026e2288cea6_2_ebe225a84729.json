@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86331e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2adafef066a88fe47cc0583cb5b58a941109d9e8492b57b247bd98e3bb3878fe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0796ee73081b60bc016acbf3a02c1087d299a3839307bce3f7",
+  "received_at": "2026-10-11T20:37:56.442975+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Both sentences ask whether the listener wants tea, making them ordinary paraphrases. The hypothesis specifies a cup, while the premise leaves the serving amount unspecified."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

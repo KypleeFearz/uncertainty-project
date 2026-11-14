@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32814n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2bbd66a03b723c0fe09001d6db9bdcc4d42d6d796dddd99a44f740ae50fcd59b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01310ec52c4f9802016acbec63011487d2911c134a704f167c",
+  "received_at": "2026-10-11T20:07:03.301477+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.92,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise asserts something in the present but does not establish whether it existed in the past. What \"there\" refers to is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

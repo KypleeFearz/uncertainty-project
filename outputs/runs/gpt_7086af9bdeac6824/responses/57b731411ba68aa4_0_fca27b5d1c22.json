@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4967473062.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "500c6645b05b15327796425eaeecc1c568612578349309b4a7c2d7f647fa7ac4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bc735cc9bd1dbc7016acd4db9c2ac87d28275a113994859da",
+  "received_at": "2026-10-12T21:14:38.207399+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.35,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise supports 'a couple' if it means two people standing together. If it means romantic partners, their relationship is not established."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

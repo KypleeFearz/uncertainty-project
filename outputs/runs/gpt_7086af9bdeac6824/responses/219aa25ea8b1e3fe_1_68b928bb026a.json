@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144418e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b81aa857bc84e7c9d18043a050e7adcc97901c1a903f21be833dc6010e8aa383",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f41acb6e3fa1b23016acbe9c5c51c87d2b427f27b52ddebc6",
+  "received_at": "2026-10-11T19:55:54.878682+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.39,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The fragment mentions savings in the millions this year, which supports the colloquial description “a ton.” However, it does not identify who achieved those savings, so attributing them to “we” requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

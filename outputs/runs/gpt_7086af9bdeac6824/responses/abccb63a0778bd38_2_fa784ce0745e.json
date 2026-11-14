@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40271e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f9253003e07b76bdf3f61fea1a1f2b5223bef80dadcd3ed636de04cd621918c4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e4834eba6afd79f016acbf852b85887d2950415127fcaafd0",
+  "received_at": "2026-10-11T20:57:58.943347+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.075,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The warmth that developed \"between them\" supports a shared positive feeling in their relationship. Mutuality is implied by this wording, though not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

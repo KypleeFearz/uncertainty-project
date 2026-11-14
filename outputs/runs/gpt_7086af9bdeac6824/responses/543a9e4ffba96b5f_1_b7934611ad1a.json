@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121910c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "83d563dbab4c67af71034c87e01dec708f5c580ae061ba4c5941c5fb0074836c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e1f1622866e15a016acd429364d087d2a654f929c00839b1",
+  "received_at": "2026-10-12T20:27:03.900425+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise conditionally describes a more precise picture, which does not necessarily establish an accurate picture. Treating “Indo-Anryan” as a typo for “Indo-Aryan,” the hypothesis remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

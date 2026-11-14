@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "7788n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "68b162ec9ad6244d8ed230c4f1322eade6fceea56be3336f65b684b9c52c19d8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBVR2tr3hsVL6Y6h7jx",
+  "received_at": "2026-10-11T21:45:06.503439+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.35,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise singles out the cathedral as impressive after dark, which implies it is more impressive then than by day, so 'equally impressive' is likely contradicted. But the premise does not strictly rule out equal impressiveness, leaving some neutral possibility."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "24929e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "56111e36f976ad7a751fa2c8905f39b3bec4bb8f897e5c4eedae5967381dc7a8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCTSFP4kySPbzJpsYxc",
+  "received_at": "2026-10-11T21:57:46.509475+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.1,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "\"Provides general background information\" closely matches \"shows general info\"; \"shows\" is a looser paraphrase of \"provides\", and the hypothesis omits the emission-control topic without conflict."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

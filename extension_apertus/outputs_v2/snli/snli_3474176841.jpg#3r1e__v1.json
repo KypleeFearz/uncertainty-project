@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3474176841.jpg#3r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.05,
+  "brief_reason": "A cyclist riding down a mountain is logically equivalent to riding a bike, as a cyclist is defined by riding a bicycle; the only minor uncertainty is whether \"he\" correctly refers to the cyclist, but this is standard usage."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 334,
+  "output_tokens": 122
+ },
+ "seconds": 2.84,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:21:27.201588+00:00"
+}

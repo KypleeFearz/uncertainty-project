@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130928n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b718a63b7dd0b39cd4c55f5f79841a8752bce242c458bdf72d4f9db27087aca6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_030a63c12a056ad1016acd430518c487d2b9d10934dd06f061",
+  "received_at": "2026-10-12T20:28:57.217751+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise suggests that an unspecified difficulty can be overcome, but it does not establish that anything needs to be ignored. “Got over” and the unspecified referent of “that” leave room for differing interpretations."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5090324042.jpg#4r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5abcddd510c511f7360c0f1b51bab5a9ce1bc23b674f0ce0d3a92c0b21e854c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_077b26c14badfe21016acd4dd4ae4487d2b08a4da52157cacb",
+  "received_at": "2026-10-12T21:15:04.015176+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.89,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise describes singing with a stuffed bear but does not establish that the man is a ventriloquist. Treating the bear as a ventriloquist's puppet requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

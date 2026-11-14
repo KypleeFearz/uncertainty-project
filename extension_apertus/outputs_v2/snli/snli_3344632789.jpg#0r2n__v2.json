@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3344632789.jpg#0r2n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise mentions a man doing a skateboard trick with others behind him, while the hypothesis adds a blue cap and a crowd in front, details not present in the premise but plausible. The core action is consistent, but extra specifics introduce uncertainty."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 357,
+  "output_tokens": 120
+ },
+ "seconds": 2.69,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:19:02.791685+00:00"
+}

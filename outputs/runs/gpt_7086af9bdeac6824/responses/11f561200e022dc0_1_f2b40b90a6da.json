@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15791e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63f6cd74282891ea858e9677ad6e8e7431818104e61d94c7ac3f8808afdc71c6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d81d2dc51386d2016acd4437be7487d2b3bc0cc8a510d862",
+  "received_at": "2026-10-12T20:34:05.049319+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "If 'improve or decline' refers to per capita food consumption, the hypothesis summarizes the premise's prediction for less-developed African nations. If it refers to the nations' overall condition, that broader claim is not established."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 189,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 603
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

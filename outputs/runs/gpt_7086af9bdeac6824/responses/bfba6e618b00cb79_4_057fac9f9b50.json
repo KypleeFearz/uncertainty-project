@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120245e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f6ded17d25e75aaa95ef53f01fd630607529af78f3b0cacbd945eedbacbeb0cf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f0d344d83147536016acbe663976487d2be4b1115e72eba8c",
+  "received_at": "2026-10-11T19:41:26.394781+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says spring weather makes hiking extremely enjoyable in the Aegean, but does not compare spring with other seasons. Calling it the best time requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6141981912.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dbbde0d0962de2219e92fa1d081468b4384336d93c9dce67375588a1dffa409e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0154f7d0f0d05fd6016acd4e2f936c87d29abb52f30324796f",
+  "received_at": "2026-10-12T21:16:34.444291+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.27,
+    "brief_reason": "The premise states that a soccer player holds the ball, but does not establish whether the player is professional. Being guarded by another uniformed player does not guarantee professional status."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45774c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a5781d54686342d2d21036196dc14847097bbf2a32365d571dc2273142edf8fd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0035487668582ebd016acbf88e81e887d2a18f1b56351a59a6",
+  "received_at": "2026-10-11T20:58:58.404804+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.64,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise describes routine accounting activities consuming about 69 percent of finance costs, not whether finance would function without some processing. The hypothesis's phrase '5 percent processing' is unclear and is not established by the report citation marker '5'."
+  },
+  "usage": {
+    "input_tokens": 414,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 112,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

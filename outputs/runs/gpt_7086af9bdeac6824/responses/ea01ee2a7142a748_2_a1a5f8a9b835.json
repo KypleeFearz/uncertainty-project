@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15537n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91577dff9aa8daa334c46325771a1f233d87ca709fdabd9a9c54ff33a98205ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01eedef320d4a808016acbea0b70c487d2adef2a8762c0e628",
+  "received_at": "2026-10-11T19:57:03.295647+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.9,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise says the clients depend on this provider for access to the legal system, but does not specify whether its assistance costs anything or whether they can barely afford it. Their dependence may suggest financial hardship, but does not establish the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

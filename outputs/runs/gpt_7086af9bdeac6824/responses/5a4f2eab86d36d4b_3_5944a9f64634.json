@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115954n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cbc61c873eac4f3ec79afbdc0f656ec386dec45f4d6f0cccbaffb13f01463072",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b35802e5897de7a016acbe5af2c1487d29e22e553cf17f937",
+  "received_at": "2026-10-11T19:38:28.134550+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise identifies Atatürk with the title “Father of the Turks,” which supports the hypothesis in its honorific sense. It does not independently establish literal fatherhood or his historical role in founding the nation."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 173,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

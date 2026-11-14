@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125021c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c63c8c79ef17088915e7eabfbe12c92f93a5e2bfb6f0293090948499a634b33b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03690f4a41b874c8016acbe6e0d9dc87d2932d71c9ec372c47",
+  "received_at": "2026-10-11T19:43:34.021444+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise presumes that some Postal Service components do not exhibit significant scale economies, conflicting with the hypothesis's exclusive claim of very large scale economies. The wording \"operates very large scale economies\" is imprecise, and the premise explicitly notes that its presumption is unproven."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

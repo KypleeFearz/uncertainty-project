@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144418c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f7b27a7c5510f6a9433d21a84cce3905cc6e3cb1a00f8c0f0d6ce3f5f8bc0573",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037418718d10d7e9016acbe9bf070887d2934d8d489a8133de",
+  "received_at": "2026-10-11T19:55:49.412141+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.64,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The fragment mentions savings this year but does not identify whose finances or establish whether losses also occurred. Savings and losses contrast if they describe the same financial outcome, but that shared reference is not established."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 209,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 581
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

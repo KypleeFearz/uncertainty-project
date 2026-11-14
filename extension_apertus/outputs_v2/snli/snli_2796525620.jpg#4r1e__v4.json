@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2796525620.jpg#4r1e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.85,
+  "brief_reason": "Toddlers are young children, so the premise implies at least one child is present; the hypothesis claims at least two, which is a probabilistic inference since one toddler could be playing alone."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 332,
+  "output_tokens": 113
+ },
+ "seconds": 2.51,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:08:07.550096+00:00"
+}

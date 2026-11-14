@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85860e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad438a2e56007dca6d0e09cfeef30df453829ac375ceba76cc65bcf95ec33570",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ee2b7b7f507ae6016acbf391d40c87d2a67e35262f32255e",
+  "received_at": "2026-10-11T20:37:42.211377+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.47,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the reconfiguration takes effect in January, but the Passaic office refuses to participate. If “it” refers to that office, the hypothesis is undermined; if it refers to something else, its reconfiguration is not clearly established."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 588
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

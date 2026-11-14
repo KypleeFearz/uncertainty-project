@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98116c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "600a16e486f12277785db8301f0bbaee47d3f22d65a63148f5874eaa98348a31",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4oASViRcfLT1LKjstA",
+  "received_at": "2026-10-12T21:38:30.056016+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.72,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise asks whether the listener actually pursued some field, while the hypothesis speculates about an unrealized alternative. The two are different claims, and the premise does not settle the counterfactual, though it could conflict if 'that' was in fact what happened."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 772,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

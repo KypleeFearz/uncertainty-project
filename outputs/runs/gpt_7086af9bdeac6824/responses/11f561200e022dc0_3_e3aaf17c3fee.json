@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15791e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "461a5a3f1d71d4a214d84468e6be4ec1dfee4c343d46851eb14cd45c02052877",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fcaf084a942b92016acd443874c087d2a0354c72a8e9aa6d",
+  "received_at": "2026-10-12T20:34:07.440426+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.38,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says per capita food consumption in less-developed African nations will scarcely improve or will decline despite projected production increases. The hypothesis is supported if “improve or decline” refers to that consumption, but not necessarily if it refers to the nations’ overall condition."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 78
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

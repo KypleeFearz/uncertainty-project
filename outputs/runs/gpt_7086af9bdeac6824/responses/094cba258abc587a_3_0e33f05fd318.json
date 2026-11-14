@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142604e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2cc73e9691d3c07ca4596236b76d8b4282496cb0aad22a04ae6b7c3709139e3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0598150616b88ff2016acbf72dc95c87d2ab9802fed1b009b3",
+  "received_at": "2026-10-11T20:53:06.153151+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise says GAO may face greater difficulty obtaining necessary records, not that this difficulty already exists or has made audits and evaluations harder. The hypothesis turns a possible consequence into an established fact."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134446n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c68d2ea4b9808f83a1c05d4ff820f2925a84106e18e0e9a227fcd200b07d7609",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04424f08fe8c1e0a016acbe85cd31887d281b8b7b8d9a67b5d",
+  "received_at": "2026-10-11T19:49:52.559286+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.84,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "Judge Newton says he has heard the complaint many times, but does not state whether he finds it convincing. Interpreting this familiarity as dismissal requires an assumption about his attitude."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

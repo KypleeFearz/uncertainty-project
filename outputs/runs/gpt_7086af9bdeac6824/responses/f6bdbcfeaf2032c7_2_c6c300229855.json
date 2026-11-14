@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117900n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fac01904009f98ed41813caeb6948f84536ec99dd50fd07bec3566f8006ed6da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_042b393cee7c2618016acbe610af7887d2909fafc40c86888b",
+  "received_at": "2026-10-11T19:40:03.333000+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise states that the Committee intends LSC to consult stakeholders, but says nothing about who will pay consultation expenses. It neither supports nor rules out the Committee covering all such expenses."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

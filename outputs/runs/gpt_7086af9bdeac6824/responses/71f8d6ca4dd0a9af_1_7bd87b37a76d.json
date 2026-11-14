@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "94674c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8b73a31346cf7ebbf23133a86364931ce21ba43567e297883b0ef37acfc1e83",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a65371740b97680016acbd9718c5487d2a4a8dc093b1fe10f",
+  "received_at": "2026-10-11T18:46:13.987879+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.89,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise mentions the WorldAid '96 Global Expo, not an expo in 2002. It does not establish or exclude a separate WorldAid expo in 2002."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

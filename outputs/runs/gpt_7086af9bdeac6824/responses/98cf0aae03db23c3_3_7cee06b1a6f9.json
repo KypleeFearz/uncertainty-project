@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50415n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ef9246c8c4474e7335bffb746f02d50bb53877568118babbf8c6b3b3fe5849ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00c051215678f951016acbf8df49a087d2881cb34161d7d590",
+  "received_at": "2026-10-11T21:00:19.132546+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise mentions living in an apartment but does not establish an exception for living in a house. Both fragments omit the condition or claim they qualify, and “defiantly” may be intended as “definitely.”"
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

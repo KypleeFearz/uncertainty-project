@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3714944415.jpg#1r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1fdb59c72dfbcce5bed55e512f6a1d0ec4ef071aec9a044283a85dab8c095eda",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a8856b706a3ebd016acd4bed009887d280d6802daca918a8",
+  "received_at": "2026-10-12T21:06:57.193620+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise describes the woman as sitting, whereas the hypothesis describes her as standing. It also provides no information about a husband nearby."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 124,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_281419391.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2ffaa4a1502124cbf24c7547ca17160494e6854442e81ca907d7c8dd7dce5508",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01ee51c0e94d3497016acd4a2fdc0887d293c4f893f9c2887a",
+  "received_at": "2026-10-12T20:59:31.730723+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "The premise establishes that a black race car is starting up, but does not state that it is preparing for a race. That purpose is plausible given the car and crowd, but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

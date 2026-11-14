@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101253c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a669311f1ab2e50cc6218aa3e8559eaa0834332a6a0e6a576b3acd769a351b61",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_034f50363acc73f3016acbe3c0e18087d2950bee0a4aa45033",
+  "received_at": "2026-10-11T19:30:13.493464+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise places Ataterk's nationalism-building effort in the 1920s, not in 1942. The campaign's continuation does not establish that he personally pursued nationalism in 1942, nor does the premise rule it out."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_200797624.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb2e134b22711a6e28c7746301e60b3f1ac32b68ea471eefcb5c9f6955342537",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02f0334d5dd1e8d7016acd4929c45887d2bbea1f65b4e75868",
+  "received_at": "2026-10-12T20:55:11.457228+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.24,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise depicts troops gathered around grills, with some cooking, rather than marching. It does not explicitly rule out other troops marching, but the described activity conflicts with the hypothesis's characterization."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

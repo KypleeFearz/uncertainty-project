@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65162n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4bc347caaa3933ebb898c4d2ae5229a0220e8eba10ffcc32ca53e6f785b3b019",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0200fe5709af1723016acd470c56f887d2bf2262b9e1addb1a",
+  "received_at": "2026-10-12T20:46:07.834498+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise warns shoppers to watch for donkeys in Fira's alleys, but does not establish that they are used for transport or are its main method. Inferring their dominance as transport requires assumptions beyond the premise."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

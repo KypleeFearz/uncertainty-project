@@ -1,0 +1,5 @@
+rank,target,signal,minus,auroc_difference,ci_95_low,ci_95_high,valid_resamples,question
+primary,debatable,learned_human_entropy,learned_epistemic_risk,0.1601216064443668,0.07292263788794595,0.23582746211577824,500,Does the disagreement signal detect debatable cases better than the risk signal?
+primary,error_on_clear,learned_epistemic_risk,learned_human_entropy,0.06945317410433693,-0.03542677552950618,0.17497489939956581,500,Does the risk signal detect majority deviations on clear cases better than the disagreement signal?
+primary,error_on_clear,learned_epistemic_risk,baseline_label_confidence,-0.05106851037083593,-0.11310363430616595,0.012414165046183772,500,"Do ensemble signals (MI, credal width, cues) add anything beyond answer label + confidence?"
+secondary,debatable,learned_entropy_direct,learned_human_entropy,0.01529762596336326,-0.024141976726647692,0.05595937892575906,500,Robustness: does predicting human entropy directly change disagreement detection?

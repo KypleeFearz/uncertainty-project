@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113193n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1f64906a9d8859a43023d80a351a799146f821f5f2c0a71e7324692acd6f599",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089323aa3d022e81016acd422f88bc87d2a17786107b0ffa58",
+  "received_at": "2026-10-12T20:25:25.925745+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise predicts strong dislike of annexation, but does not establish that Cubans would protest or resist it. “Go up in arms” can suggest either angry opposition or armed resistance, with the latter requiring a stronger inference."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 69
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

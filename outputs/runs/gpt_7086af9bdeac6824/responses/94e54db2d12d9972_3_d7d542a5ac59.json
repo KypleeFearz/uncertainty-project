@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19921n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8ed3ac2a03d270363ea0b4b9b01edafa95034ad8e0a80020bab14b78dbe4de2c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08b241f6fc386dc4016acbea971bfc87d2b06a45cf2f7129cb",
+  "received_at": "2026-10-11T19:59:24.014294+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise identifies a productivity gap between women and men, which supports the hypothesis if “gap of genders” means a gender-related disparity. The hypothesis’s awkward wording leaves the intended type of gap underspecified."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

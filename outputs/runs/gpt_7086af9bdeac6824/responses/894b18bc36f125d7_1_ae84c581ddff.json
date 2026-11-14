@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7595435150.jpg#4r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bff7e1d066628b62aaa2acd6125f7b172f682d5adf9e9ff94250133cf4f7cd9b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0060315244a10799016acd4ec7d6a087d2ada5d22b427b61df",
+  "received_at": "2026-10-12T21:19:06.708120+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes people conducting a ritual but does not say whether they are hunting animals. A ritual does not necessarily involve hunting or exclude it."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

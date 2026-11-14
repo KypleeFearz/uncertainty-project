@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34580n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bca53f6aa2ae93f26df53604dcd5f02b794f879da26745c5ef3225e4e249c484",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04cfd8a6f0cf7ff9016acbeca8b97c87d282c1dce153f68c2e",
+  "received_at": "2026-10-11T20:08:12.568106+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Almost mechanically” supports the robot-like comparison, but “categorically” means definitively or unequivocally, not in perfect order. The premise neither establishes nor rules out that the answers were given in perfect order."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

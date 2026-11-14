@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103863n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "11108e92b6976f5a8457668e74ba519071ddd8f1878c595d20fd76b97881cc7a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a373f9b6a482a02016acbe430ee3087d2af8fd8ed73c84486",
+  "received_at": "2026-10-11T19:32:03.532191+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise expresses dislike of winter and its lifeless appearance, but says nothing about how long winter lasts. It neither establishes nor explicitly rules out winter lasting all year."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

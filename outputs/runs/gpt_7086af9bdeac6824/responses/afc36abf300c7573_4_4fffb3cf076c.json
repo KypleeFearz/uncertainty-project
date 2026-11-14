@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105790e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5eb6578654847d8296cc3de42d8d7d5bd9c4979c6c1cf13afd48919e9a23845c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f974dab249803e0016acbe478dd6887d2a6b7c3bc8b479628",
+  "received_at": "2026-10-11T19:33:15.927428+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise explicitly says that once the kids are big enough, you can have them do the yardwork. The hypothesis closely paraphrases this, though “grow up” could imply adulthood rather than simply being old enough."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

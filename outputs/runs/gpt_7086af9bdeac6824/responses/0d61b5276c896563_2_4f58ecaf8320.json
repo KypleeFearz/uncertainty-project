@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134514n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7e0828106c3983bc133f471980a8c7497aba87b3db733d362448c3e668810351",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ef0098b2584dd5d016acbf6e75b0887d2aa304baf554190be",
+  "received_at": "2026-10-11T20:51:55.857023+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“They” naturally refers to the co-requesters, whom the premise explicitly says cannot restrict release timing. The hypothesis omits the premise’s “after it is issued” qualification, leaving a small uncertainty about whether it asserts a broader restriction."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

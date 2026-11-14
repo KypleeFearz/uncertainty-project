@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "26372n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a444bcfd570a7a21fa9c9718485b2b6f8d09f30590b36a9bcc7ce7d6a255b3dc",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAHVjidUASf2FachUhU",
+  "received_at": "2026-10-11T21:29:17.755405+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Tommy handed over a shabby green notebook and Tuppence began writing, which suggests it may have had blank pages. It never says the notebook was empty, and it does not explicitly say Tuppence received it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 806,
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

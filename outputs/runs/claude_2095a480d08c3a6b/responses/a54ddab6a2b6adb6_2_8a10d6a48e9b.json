@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_6952893010.jpg#2r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c702549f3dd388c36d7a44aaf62e4bfd156e1871fbe57d38fd0afe9ddb9c2074",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5ueENAZiLSn6qRY5Yj",
+  "received_at": "2026-10-12T21:53:05.028737+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.82,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise mentions a large sailboat and three small boats but says nothing about green flags or their placement. 'Towering above' is also not stated, so the hypothesis adds unsupported details without contradicting the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44834e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "771df9886213b2ab6338d5cd358bb0e68bcd2508c829810d93f82a5ca140be79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b4c621f403e089016acbedfbb23c87d281ca198cdd6b9937",
+  "received_at": "2026-10-11T20:13:51.885742+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.14,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says people tired of speculative analyses and shifted toward data collection, whereas the hypothesis adds that they tired of data collection too. This conflicts with the stated direction of the shift, although the premise does not explicitly deny fatigue with data collection."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

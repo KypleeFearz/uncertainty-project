@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69806c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5ef7bd838323950a55b82020c9837df5cb9e01332b4bcc168e98021f4b4ea330",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea702a8fa2098a7016acbd93620a087d287507f90bb5dd360",
+  "received_at": "2026-10-11T18:45:14.493917+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise portrays liberal democracy as fitting 'us' naturally, contrary to the hypothesis that it does not fit us well. It also provides no support for the claim that we consider communism better."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

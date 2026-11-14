@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29844c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc4ea6ba80738bfc4e77da1f03acbbf72dec22f90b71b23b475685d4752b48b8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec3afea0202c67d016acbec0ecd5c87d28dddd966ba38c50c",
+  "received_at": "2026-10-11T20:05:39.773367+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.19,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Jon explicitly says he is glad, which conflicts with the hypothesis describing him as sad about the same circumstance. However, the premise leaves the complement of \"wasn't\" unspecified, so it does not establish that she wasn't happy."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

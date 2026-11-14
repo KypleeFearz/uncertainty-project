@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "63559n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7a01007277aea0c364736c80c8ee754fcbb8fb6d75b3e60f5aac55bd03d8e112",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBCN2LhiXdMgSArrwAv",
+  "received_at": "2026-10-11T21:41:14.664304+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.37,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says energy-related activities are the primary source of US man-made emissions, which matches the hypothesis's 'main source'. However, 'producing dirty energy' narrows the premise's broader 'energy-related activities' (which includes consumption) and adds the evaluative word 'dirty', so some annotators may see it as neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 801,
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4104001356.jpg#4r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise only states that school kids have blue backpacks, not their gender or uniform status. The hypothesis adds specific details (female, in uniforms) not present in the premise, making it uncertain whether they are entailed, neutral, or contradictory."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 330,
+  "output_tokens": 121
+ },
+ "seconds": 2.55,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:29:18.491418+00:00"
+}

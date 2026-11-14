@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "56075n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "9818dc07889b532cfcd6b16ec733571c3b3f42736aa1c85f6607e10cddc5a7f3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4RzeJBXNkvaoVihXbU",
+  "received_at": "2026-10-12T21:33:43.080560+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.6,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says more detailed plans are needed, which suggests but does not establish that plans are complex. 'Complex' is vague, and the inference from 'detailed' to 'complex' is plausible but not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 771,
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

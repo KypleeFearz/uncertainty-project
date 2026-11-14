@@ -1,0 +1,57 @@
+uid,variant,reason,finish_reason,all_labels_zero,raw_start
+1073c,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.8, ""brief_reason"": ""The premise describes competitive pressur"
+1073c,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 1.0, ""brief_reason"": ""The premise only states that Microsoft's "
+1073c,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes competitive pressur"
+1073c,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.8, ""brief_reason"": ""The premise describes competitive pressur"
+1073c,4,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.8, ""brief_reason"": ""The premise describes a threat to Microso"
+109254n,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.9, ""unclear_reference"": 0.9, ""probabilistic_inference"": 0.2, ""brief_reason"": ""The premise is an incomplete phrase that "
+109254n,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.9, ""unclear_reference"": 0.1, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise is an incomplete phrase that "
+132539c,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a hiking trail with"
+137708c,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a possible short-ru"
+142630n,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise asks a question about a will,"
+142630n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise asks a question about a will "
+142630n,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise asks a question about a will "
+142816c,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise states the speaker likes the "
+142816c,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes the speaker's prefe"
+143760n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 1.0, ""brief_reason"": ""The premise discusses the speaker's prefe"
+2942n,2,Summe 0.75,stop,False,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.75, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.25, ""brief_reason"": ""The premise states that the legislature"
+2942n,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise describes legislative action "
+38336c,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise contains a string of unrelate"
+46198n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 1.0, ""brief_reason"": ""The premise discusses the effectiveness o"
+46198n,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise discusses the effectiveness o"
+51356n,0,Summe 0.00,stop,True,"{
+  ""entailment"": 0.0,
+  ""neutral"": 0.0,
+  ""contradiction"": 0.0,
+  ""lexical_ambiguity"": 0.0,
+  ""unclear_reference"": 0.0,
+  ""probabilistic_inference"": 1.0,
+  ""brief_reason"": ""The premise discusses ripe"
+51356n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 1.0, ""brief_reason"": ""The premise discusses ripeness and decay,"
+51356n,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise and hypothesis discuss differ"
+51356n,3,Summe 0.00,stop,True,"{
+  ""entailment"": 0.0,
+  ""neutral"": 0.0,
+  ""contradiction"": 0.0,
+  ""lexical_ambiguity"": 0.0,
+  ""unclear_reference"": 0.0,
+  ""probabilistic_inference"": 0.85,
+  ""brief_reason"": ""The premise only provides"
+51356n,4,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise only provides information abo"
+54822n,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.5, ""brief_reason"": ""The premise describes grants for statewid"
+75320c,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise presents a conflict between t"
+75320c,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 1.0, ""brief_reason"": ""The premise describes contradictory exhor"
+75320c,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes encouragement to in"
+76957c,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a procedural step i"
+76957c,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a procedural step i"
+76957c,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a procedural step i"
+76957c,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a procedural step i"
+76957c,4,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.0, ""brief_reason"": ""The premise describes a procedural step i"
+86429n,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a procedural rule f"
+86429n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a procedural rule f"
+86429n,3,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a procedural rule f"
+86429n,4,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.7, ""brief_reason"": ""The premise describes a procedural rule f"
+91191n,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.7, ""brief_reason"": ""The premise discusses racial and socioeco"
+91191n,2,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.7, ""brief_reason"": ""The premise describes systemic racial and"
+98487c,0,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a single action (no"
+98487c,1,Summe 0.00,stop,True,"{""entailment"": 0.0, ""neutral"": 0.0, ""contradiction"": 0.0, ""lexical_ambiguity"": 0.0, ""unclear_reference"": 0.0, ""probabilistic_inference"": 0.6, ""brief_reason"": ""The premise describes a single action (no"

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136860n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "11aa8864f499a3eec10eb86eda946145746fc6d3792c2429e01f4f67525e7b22",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09da55fedb989564016acbf6fd2c4487d29a1c9103e0120573",
+  "received_at": "2026-10-11T20:52:17.060364+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise proposes agreeing that someone else should do the task, but does not establish that anyone will be appointed or will actually do it. The hypothesis is compatible with the premise but adds an appointment and a definite future action."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

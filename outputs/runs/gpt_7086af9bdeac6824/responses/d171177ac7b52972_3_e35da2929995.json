@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134356n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "50748cf16b7a55b9f6af4adece0906d901d933ed8f6f72ec70aab84924669945",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05e160a73ee16b75016acbe855506087d29b1cfe9af3836d29",
+  "received_at": "2026-10-11T19:49:45.417865+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.71,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.67,
+    "brief_reason": "The premise recalls a warning about people who do not tell the truth, but does not establish that such people are nearby. Treating the warning as evidence of local dishonest people requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17473n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0839854c7f7a9902a22ab95cbe9958912ba841d7edc0cbeb7044c46db6560fc3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0811b9481266a881016acd445576b887d285c5334bcbd3c833",
+  "received_at": "2026-10-12T20:34:34.627586+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.31,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The speaker intends to try and emphasizes that the oil filter is accessible, supporting the idea that attempting removal seems worthwhile. However, removal is inferred rather than explicitly identified as the action being attempted."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

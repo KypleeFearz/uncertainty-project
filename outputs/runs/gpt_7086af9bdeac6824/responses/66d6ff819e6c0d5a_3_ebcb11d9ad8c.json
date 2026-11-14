@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93587e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "369d031d280464dd3e7f57c989a93701d8ff62b382605328ae47cf19437f7935",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02e2f02b89c1f90c016acbf470493887d2952fb13d1ada8c49",
+  "received_at": "2026-10-11T20:41:25.166418+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The hypothesis closely paraphrases the premise’s alternatives: personal parties or commercial phone-answering things. The fragment does not identify what is being discussed, leaving the hypothesis’s “it” unspecified."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

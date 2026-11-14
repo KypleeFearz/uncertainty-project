@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109679n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e17180d768344b23a060c3ddb15f006d646ec30ddaf6edf499cb1bca4d70bad",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3d04d91dc338e6016acd41f188d487d281c1161b2bdd76cb",
+  "received_at": "2026-10-12T20:24:27.316925+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise supports the presence of a square court with arches, but does not establish that it is wonderful. That positive evaluation is an additional, subjective characterization."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

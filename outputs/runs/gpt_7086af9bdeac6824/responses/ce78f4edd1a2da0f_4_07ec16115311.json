@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123703c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "49327db1759a99e6ab8a8dc52587d66a21d6924d0b6fe7b28536c475e97129d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ee57df861dbc6e016acd42b2182487d280e4e3f879e0ca5d",
+  "received_at": "2026-10-12T20:27:35.346642+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.26,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise presents operations specialist as one of several possible CIO profiles, supporting the reading that this specialization is not universally required. It does not establish whether a particular organization's CIO needs that specialization."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

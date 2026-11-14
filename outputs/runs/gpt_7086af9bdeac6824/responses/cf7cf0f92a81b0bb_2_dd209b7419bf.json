@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76947n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4450f84333c3f385d3ee0bc65aab60f29e0d090ba0d4e879ec4944c176b10c87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c47e0b3a17b99eb016acbf232f60087d2b37643a4eff250e6",
+  "received_at": "2026-10-11T20:31:50.902456+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.9,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise expresses thanks and a farewell but does not establish that the speaker cannot thank the other person enough or that the thanks concern help. The fragment \"we have too\" leaves its intended meaning and context unclear."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28387c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "872ac9b65c7dc628ffdc7979b656cef4f6008e06f86635a41e90883d9a5848c0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_047c8712953b216d016acd44e1df9c87d29e0574579f23e919",
+  "received_at": "2026-10-12T20:36:53.812707+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise asks whether to describe what living in a mandrake root would be like, whereas the hypothesis asks whether to send the soul there. The premise neither establishes nor rules out that offer."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

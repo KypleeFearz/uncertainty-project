@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_7382482712.jpg#0r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c773dfa693b6696a90e5d40371b6a39a4eb85e97b79cd589f3942f6bfba4cc3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0eb6e75c7a7ae33e016acd4ebf52fc87d2b42a61d52c666377",
+  "received_at": "2026-10-12T21:18:58.118573+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.75,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise places the team together on a soccer field but does not say they are playing. Playing is a plausible assumption from the setting, not an established fact."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

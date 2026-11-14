@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "98445c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "0d85f6a0125574cbc21bc63f69cc79f8d24e9c75a335464f9fdf3529657e2512",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwD32W5C6LSA9fs2HMbT",
+  "received_at": "2026-10-11T22:05:22.106462+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.3,
+    "contradiction": 0.68,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise lists many demands (free speech, trade unions, debt relief, etc.) for direct elections, which conflicts with the hypothesis claiming the only thing is more power to presidential electors. The hypothesis is garbled, so some neutrality is possible."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 899,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

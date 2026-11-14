@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "79952n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The premise states that the book portrays Jesus as the ultimate businessman, but the hypothesis claims it is the best example of this portrayal, which is a stronger, unproven assertion."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 387,
+  "output_tokens": 111
+ },
+ "seconds": 2.47,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:44:08.593281+00:00"
+}

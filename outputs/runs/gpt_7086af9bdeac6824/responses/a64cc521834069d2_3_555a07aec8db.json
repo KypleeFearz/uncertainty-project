@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83247e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a4f8c5e0353b77af55194f07cb247b83fd552f0cf78a4593a54f72dbe3b7dc99",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e1903dec30d2b8016acbfa445eec87d2b921ba9dc37c5e87",
+  "received_at": "2026-10-11T21:06:16.427626+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.8,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise describes Julius reacting excitedly to a possible completed return, not hearing that something will return in the future. It also does not establish whom “they” refers to."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

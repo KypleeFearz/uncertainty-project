@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42563c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b2961d0f2571469bbd57155cf347224d1d75f3253bc2cedf055197465300e87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f70ee867cc77a98016acbeda9b66887d2a64345f7570ead76",
+  "received_at": "2026-10-11T20:12:30.137907+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.25,
+    "contradiction": 0.72,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.32,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "Keeping Mr. Inglethorp under watch suggests there is a way to track where he is, opposing the hypothesis. However, the premise does not explicitly establish his current whereabouts, and his location is distinct from the unknown hiding-place."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

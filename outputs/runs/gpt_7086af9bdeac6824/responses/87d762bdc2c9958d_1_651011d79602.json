@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142120n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2329ac7ed211efa905e2ebe3aaaf9d63170849c00e1f23acd2a5914865ceb794",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d0fce84d200a751016acbe975f93887d2b71431deb447884c",
+  "received_at": "2026-10-11T19:54:33.337760+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise explicitly mentions a pause before his reply to her question. Julius is the natural referent of “his,” supporting the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

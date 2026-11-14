@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4525922214.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.5,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes a man’s clothing and action but does not specify age, so the hypothesis adds an unverified attribute. The reference to the man is clear, but age is uncertain, making the relationship partially neutral with a probabilistic lean toward entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 338,
+  "output_tokens": 121
+ },
+ "seconds": 2.55,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:33:03.921245+00:00"
+}

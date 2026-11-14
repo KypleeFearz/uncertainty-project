@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129081n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17d1825f0f9e6bc9e3723d9991d9c758cd6fb59fb3b7d5597c3d0342bf077b1e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca099a394a94c11016acbe7561a5087d2b918468cfae8e33f",
+  "received_at": "2026-10-11T19:45:29.277381+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says others have kept everyone informed and that the speaker sometimes wondered whether it was excessive. It does not establish that the speaker shared the information or plans to share less next year."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

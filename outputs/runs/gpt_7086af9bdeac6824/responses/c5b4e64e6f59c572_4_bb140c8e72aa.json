@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "68946c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1de26bb1e76d3b0e0fb4800dc1d11bcb429f23463ed10f0813d6aa4f63ba64d5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0de2ebcd6fab02ad016acbf1375ed487d29305ba92a51aca6e",
+  "received_at": "2026-10-11T20:27:38.737128+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.83,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise identifies peoples who used the fortress and contributed masonry, but gives no construction date or sole builder. Its earlier use suggests that it predates the medieval French, although later rebuilding is not excluded."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

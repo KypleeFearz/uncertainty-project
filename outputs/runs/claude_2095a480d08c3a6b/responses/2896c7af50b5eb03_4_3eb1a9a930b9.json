@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_329835313.jpg#0r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d5d0171f7e8de7b710556d57a0db15a84c207e4b90bc7fe974fe243a64dcc781",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5H1YFQxfd1oJZqdNwm",
+  "received_at": "2026-10-12T21:44:47.854138+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.05,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says the baby wears a bib with fruit characters on it, so the characters decorate the bib. The baby is a child, so the reference matches."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

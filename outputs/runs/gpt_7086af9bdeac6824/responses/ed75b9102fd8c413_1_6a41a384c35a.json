@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110671n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3025a0cb4d9760e62cda945a8bef3255a57f2010299c7ea2061314dc405e14db",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a3a51f7c112c2d016acbe51b032487d28fdef7de2cfcacc1",
+  "received_at": "2026-10-11T19:35:58.703785+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The speaker tells John that something is not one of their group, but this does not establish what John knew beforehand. The hypothesis also assumes that “they” refers to the premise’s “it.”"
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

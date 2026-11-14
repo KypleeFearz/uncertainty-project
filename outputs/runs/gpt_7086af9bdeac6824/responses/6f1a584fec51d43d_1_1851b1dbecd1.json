@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107935n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e78d772d7c6304e24c4e5e86535fc057cc59305096f9892d5386a19bd9b5ffed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d54cffe92e9621016acbe4b4277887d296a2d0f1ecbab4c7",
+  "received_at": "2026-10-11T19:34:15.000732+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise establishes that we are going to Aunt Basia's birthday party today, but does not specify its location. The added claim that it is at a restaurant is therefore undetermined."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

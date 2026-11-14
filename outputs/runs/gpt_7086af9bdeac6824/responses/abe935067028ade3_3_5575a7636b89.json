@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98065e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "83bf68ceaeb8dbac793d59c5b8143517cbfa3439955444177ba7b85b87538b12",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c18486ece6080c5016acd489242e087d287896006e81f6137",
+  "received_at": "2026-10-12T20:52:39.269567+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise is a fragment or title and does not establish that anything is located in a place called Loco Parentis. The hypothesis treats the phrase as a location, which the premise neither supports nor rules out."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

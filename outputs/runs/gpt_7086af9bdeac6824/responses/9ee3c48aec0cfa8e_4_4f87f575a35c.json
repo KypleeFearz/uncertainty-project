@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42860n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de572ca5566a3c441e704162764c2f92ae9fa8615fddf1b559ea73833a37a164",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_093e9aa655313d40016acbedca2c3087d285ef0cd750188ecd",
+  "received_at": "2026-10-11T20:13:02.712550+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise identifies a reason for trying to kill the addressee, which strongly supports a reason for wanting to do so. However, attempting an act does not strictly guarantee personally wanting its outcome."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

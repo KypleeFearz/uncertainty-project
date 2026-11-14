@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62273n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "13fe2ac3648b7a5500a30c2c0502c8b3679555cdc10f4301f8df9867545a473a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c44706b7d8e3491016acbf07f315887d2be2284e5c81bf0fe",
+  "received_at": "2026-10-11T20:24:34.879878+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says the book contains quotes from Lincoln and Jefferson, but does not identify it as Bill Reilly's book. That attribution is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

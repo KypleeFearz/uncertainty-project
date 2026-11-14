@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114074e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "049871f4c5f5dbc60cd543162f5999ddbd6aea3cbb97699e88149e13ede8559f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a41ebac0696865016acbe57eef7487d2baec802e1e358203",
+  "received_at": "2026-10-11T19:37:38.641987+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise supports deciding to walk rather than take the subway, but waking on a bright morning does not establish waking early. The hypothesis therefore adds an unsupported timing detail."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

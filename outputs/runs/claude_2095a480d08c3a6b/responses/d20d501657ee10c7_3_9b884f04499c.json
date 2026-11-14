@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_435054077.jpg#1r1e",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "00923367fc68d37687fa8175864836a8eedd18493ebfe04537d360947b87fbd5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Xc1JtsQ5XsWjwx2f9",
+  "received_at": "2026-10-12T21:48:05.706807+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.4,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise puts a crosslegged woman on the grass among a crowd of dogs, which fits the hypothesis. It does not say the dogs are standing, and they could be sitting or lying down, so entailment is not guaranteed."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 796,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

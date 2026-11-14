@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "123027n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a063f492ad079df1b357f3900eb5d7c2398e6f11e4c86c96320c02a2e23e06ae",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCCfyhpipbDYZbYujsd",
+  "received_at": "2026-10-11T21:54:25.529973+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.75,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "High humidity often goes with warm, sweaty conditions, but the premise says nothing about temperature, so the hypothesis is not guaranteed. Humidity could also occur in cool weather."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

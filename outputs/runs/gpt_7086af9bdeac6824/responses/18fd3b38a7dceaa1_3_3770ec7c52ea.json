@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "134533c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7cd51241f268f8079a44ca8bdb9b604898de920effedd307a7a1fcb698c6cfbf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03d64ad43e85cf70016acbe86126f887d294c1280e0808a4ca",
+  "received_at": "2026-10-11T19:49:56.190516+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise asks about art's location, while the hypothesis asks about virtue's place. Neither question establishes an answer or a relationship between art and virtue."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

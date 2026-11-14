@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_504413268.jpg#1r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92fbf9faaba9c4c7c8aca4abc9b30ab4b76d9e4f7a7013688b7aa7e9c1a73861",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ee424afd7814167016acd4dcb15ec87d281cdf74f9c3e00a9",
+  "received_at": "2026-10-12T21:14:57.235870+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise identifies construction workers but does not specify their gender or explicitly say they are currently working. Interpreting them as men engaged in work requires plausible but unguaranteed assumptions."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 559
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

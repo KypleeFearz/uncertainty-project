@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49172n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dbf515fa6a742704e6c042740bd97aedc08fc77ad6a270cdeb7b0d46f9cc91ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_048146861f79ab8c016acd45f90f3887d2a4509776cad186cd",
+  "received_at": "2026-10-12T20:41:31.847608+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "Having potentially valuable uses supports the claim that these things may be valuable. This assumes “they” refers to the same things as “these.”"
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 453
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

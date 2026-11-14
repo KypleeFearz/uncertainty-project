@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102174n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "16cef9cd19edf51e4b549d53f6445fce1793a127fb3f20610f362db9b835cf22",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d6670c7c6a82ce1016acbe3e7c06c87d289917ea83f3664f2",
+  "received_at": "2026-10-11T19:30:51.584276+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise explicitly considers what happens if they are not hitting that night or are performing poorly. The hypothesis closely paraphrases that possibility as having a bad night."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

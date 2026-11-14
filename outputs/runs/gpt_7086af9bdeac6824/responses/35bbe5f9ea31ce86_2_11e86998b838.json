@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107302e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d98fd80ae4ca0ce7bc7ebb0cd0620db6550853fa3be3b6ab5dd6b249e1ac08e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1083f48abc675b016acbe497303087d28a2db5ab2e831c14",
+  "received_at": "2026-10-11T19:33:47.802956+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.62,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The hypothesis closely paraphrases having a good profit-sharing plan but no profits to share. If \"no money\" means no money at all rather than no distributable profits, the premise does not establish that stronger claim."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 551
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

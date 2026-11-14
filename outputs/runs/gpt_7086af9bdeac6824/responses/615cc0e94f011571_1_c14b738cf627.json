@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142964n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "05d68469fadd2e2e84d1f2edb943b1e7b0a681b5fb2b123305a05f6ee340b1dd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fc0ae0fbd61c22d016acd43fbb36887d2bb35a9d961aa23a8",
+  "received_at": "2026-10-12T20:33:04.131404+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says the accounts are commonly combined in discussions, not that combining them is necessary for the program to function. It does not establish what would happen if they were taken individually."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

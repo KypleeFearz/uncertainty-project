@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "102174e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "fa86d9799d8576e1aab264e240f826df6e8bff14f812800b9dfe038e68b656a8",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8yLP2BtTqW8dDcdJ5b",
+  "received_at": "2026-10-11T21:12:07.332073+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.12,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The speaker says it could be that they are not hitting that night or are low, which closely matches the hypothesis that they might not be playing well. 'Hitting' is a slightly different wording from 'playing well', and 'they' is not clearly identified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 817,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

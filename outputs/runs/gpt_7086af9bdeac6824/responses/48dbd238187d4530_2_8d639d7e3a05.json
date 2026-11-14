@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89331c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc12d473e9542c4fa07b852b5802eef4a411133c737440f578508e0c49b32160",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b86af2a98151933016acbfa99ded487d29eb61b0f86e7549e",
+  "received_at": "2026-10-11T21:07:41.871938+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The question presupposes that the man knew something, which conflicts with the hypothesis that he knew nothing. A question can challenge its own presupposition in some contexts, but no such context is provided."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

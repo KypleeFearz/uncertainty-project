@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63462e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2b11e638ee577091411f6fde780a573b7e93087db13f00e89cfa3b208c275934",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0250e0258d5bf4ac016acbf0b23d9887d2b0043bdcd433d473",
+  "received_at": "2026-10-11T20:25:26.666385+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Both utterances express a friendly farewell, but saying \"all right thanks\" does not establish \"that's great,\" and \"bye bye\" does not establish seeing someone later. The hypothesis is compatible with the premise but not guaranteed by it."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

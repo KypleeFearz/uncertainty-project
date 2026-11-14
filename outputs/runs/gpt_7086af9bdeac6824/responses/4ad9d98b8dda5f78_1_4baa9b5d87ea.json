@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "124853e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "245b912e0ae6f2d0f67dcef32b6ffaab1e0a7176e06cfd95f41796742efb3775",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b8d88a9f76c679016acbf6753cfc87d2ae347b5b7f1ca228",
+  "received_at": "2026-10-11T20:50:02.773040+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise supports an ongoing foreign-residence requirement for H-2A agricultural workers, which supports the hypothesis for at least one agricultural visa type. However, “permanent” is stronger than explicitly stated and depends on interpreting an intention not to abandon the residence as permanence."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 207,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 599
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

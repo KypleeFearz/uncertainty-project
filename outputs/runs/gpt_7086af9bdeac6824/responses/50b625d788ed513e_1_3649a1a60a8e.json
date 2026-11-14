@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46198n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac0ed7be2523a7235b0f048ed232b3532a065d37cd865f8585f76be6d199595b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02b90d1a80a5f133016acd45d38e4487d2aeafffb567f47bb1",
+  "received_at": "2026-10-12T20:40:54.545316+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.998,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise links DOD's management of the funds to its investment return but does not identify what the funds will purchase. The potato purchase is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

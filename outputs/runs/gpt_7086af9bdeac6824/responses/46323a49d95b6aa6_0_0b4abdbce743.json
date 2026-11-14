@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114074e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d401899e351bfed389f3fecb32c2375b9a02e2714000ebe6c6acaf350aa7386a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04fc7ed55026cc14016acbe57de79c87d2b2d1d223b1f6ff90",
+  "received_at": "2026-10-11T19:37:37.596517+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise supports deciding to walk rather than take the subway, but it only says you wake up on a bright autumn morning, not that you wake up early. Waking early is a plausible assumption rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

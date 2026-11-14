@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64123c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f7455eb79fc8e8d78b9b022747cd9a6f0b7ee5254092fa45ddd82cf55bddaac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fd5ddfad50d538c016acbf97ea8bc87d282618292ae2954e7",
+  "received_at": "2026-10-11T21:02:57.549899+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.92,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.77,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise asks about a weekly rate but asserts no frequency. Without knowing what either fragment refers to, it neither establishes nor rules out an everyday occurrence."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 457
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

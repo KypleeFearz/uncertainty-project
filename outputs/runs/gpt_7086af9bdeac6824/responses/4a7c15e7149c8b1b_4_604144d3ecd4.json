@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19578n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fa6aa1a2350c485b029c71f42aaee04532759651b97ebe530846d8817a239b87",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d1b9390e1cca4a0016acbea7bd1e487d2bfa04a77052e4048",
+  "received_at": "2026-10-11T19:58:54.852340+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.69,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "Recently showing signs of cultural maturity may suggest room for further development, but it does not establish that there is a lot of room for improvement. The hypothesis adds an assessment of degree that the premise does not specify."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

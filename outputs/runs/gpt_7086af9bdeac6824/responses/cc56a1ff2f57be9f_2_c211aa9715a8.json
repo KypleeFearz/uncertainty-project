@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2843695880.jpg#2r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f48d14075074124b90d125aa2aee8dd0a7c244c193f2bfafb8c64056894eed15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075abcd0ad0a67bb016acd4a4c18d887d2aaacf4b1db31d296",
+  "received_at": "2026-10-12T20:59:59.206934+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.92,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "Standing in the ocean does not establish that the boys are surfing, nor does it explicitly rule out surfing. No surfboards or surfing activity are mentioned."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

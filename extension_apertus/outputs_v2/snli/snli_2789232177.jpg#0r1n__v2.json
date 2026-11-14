@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2789232177.jpg#0r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.8,
+  "contradiction": 0.2,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.2,
+  "brief_reason": "The premise only states that people are watching a TV, not what is being shown on it, so the hypothesis about a soccer game is not supported or ruled out. The content on the TV is unclear, making the reference ambiguous."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 117
+ },
+ "seconds": 2.49,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:07:49.424317+00:00"
+}

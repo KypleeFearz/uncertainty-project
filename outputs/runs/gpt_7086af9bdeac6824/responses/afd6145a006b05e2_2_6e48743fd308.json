@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "31113e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3626f102f1327477178176dbd248aa630974d245e1928b13416eca82538932a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080d42f9db22bd8a016acd450bc4cc87d2bef44d6022689e3d",
+  "received_at": "2026-10-12T20:37:35.129260+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "J. asks whether there is a difference, but the premise does not state J.'s belief. Calling J. a wag suggests a joke that might imply equivalence, but that interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

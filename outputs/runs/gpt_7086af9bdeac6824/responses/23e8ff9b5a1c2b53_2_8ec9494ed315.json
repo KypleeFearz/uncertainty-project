@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "110234e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6534c15bc1a7654ec0f02bd71a1ecca21d82bc41bf5e00be9d877a50ccc1c4f6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_083f124d602ab461016acbf5c0fa1087d2842adfaf17fa343d",
+  "received_at": "2026-10-11T20:47:00.991129+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.44,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Saying \"I thought it was great\" supports describing the same thing as a nice experience. However, the premise does not identify what \"it\" refers to or explicitly establish that it was an experience."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

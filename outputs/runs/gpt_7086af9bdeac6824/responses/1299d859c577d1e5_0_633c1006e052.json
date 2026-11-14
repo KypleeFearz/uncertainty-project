@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27076c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "38d8f2bf4efb0beca96a94c8ae32f3f50e8c73b3350ada0f184a4404efb98468",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa921f1fb40f6e0016acbebb030e487d28dd5174e47bceadc",
+  "received_at": "2026-10-11T20:04:04.616661+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.65,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.69,
+    "brief_reason": "The question may rhetorically suggest that a lookalike should be good enough, but it does not assert that the lookalike is plenty good. It concerns adequacy for 'them,' whereas the hypothesis leaves the relevant standard unspecified."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

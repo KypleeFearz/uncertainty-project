@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4046112444.jpg#2r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "468a17e46534b7109d858f69c34e752b3b553519d46af903d294ee0c3a8f3d0e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0605b154dd0a6fdc016acd4c37b74c87d2b3054800cf8225ba",
+  "received_at": "2026-10-12T21:08:10.937039+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.07,
+    "brief_reason": "Using gloves to control a device containing wires supports describing the man as gloved and working on a wired device. “Working on” is slightly broader and could alternatively suggest repairing or modifying the device."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

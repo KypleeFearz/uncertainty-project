@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30171n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f65f6fd8ad3b01233b41305de3ed8f26867d5af2d69253c736459a17fe22f874",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0716d6323d6d52a5016acbec26987087d2af913c060ed09f92",
+  "received_at": "2026-10-11T20:06:03.189562+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.92,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says a government promise remains unfulfilled until everyone has access, not that the government itself is flawed or unfulfilled. Calling the government flawed requires an additional judgment not established by the premise."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

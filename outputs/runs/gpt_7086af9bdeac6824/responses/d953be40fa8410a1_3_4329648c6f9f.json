@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82156e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dde98ef304e5886773020ef83d7fbcb6dd39539d47bf1c3f9a4a7c8da31efee0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0210751dbfceb931016acbd94ba6c087d2a600d44ff10de32e",
+  "received_at": "2026-10-11T18:45:36.058912+00:00",
+  "parsed": {
+    "entailment": 0.26,
+    "neutral": 0.72,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise presents the road as a great Italian adventure, but does not establish that it represents the Italy people want to see. That reading requires interpreting the metaphor and inferring people's preferences."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

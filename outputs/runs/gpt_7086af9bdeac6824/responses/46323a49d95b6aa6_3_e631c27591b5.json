@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "114074e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dd6997100d21963c3c7befe4cde62bf4839a0c9d0eaba173c741eb973401febf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0326a03a19665edb016acbe581911c87d2b371cb26b2358d82",
+  "received_at": "2026-10-11T19:37:40.651913+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise supports deciding to walk rather than take the subway, but it only says you wake up in the morning, not early. Waking early would be a plausible assumption rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

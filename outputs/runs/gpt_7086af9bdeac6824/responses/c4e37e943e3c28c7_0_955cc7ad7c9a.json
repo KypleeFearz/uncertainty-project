@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123038e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4198af4e49add949890dc546a562b71595bc5085c4948665f030ad11bb7116e1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_090062fcdf228f6b016acbc214ed0087d2bbe7ade8e658aa7c",
+  "received_at": "2026-10-11T17:06:36.961360+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.25,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.68,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The hypothesis appears to paraphrase the same reporting requirement using awkward synonyms. However, “validation engagements” and “government evaluating guidelines” are not unambiguously equivalent to the premise’s technical terms."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

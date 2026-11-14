@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "130928n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec5c43484181a02b9afec1598673faf0eaf820ee90653b6eb1e07637beb08e64",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b680d270ccee84016acd4309b2cc87d2b0c33092f804e5e9",
+  "received_at": "2026-10-12T20:29:02.698050+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise suggests that an unspecified difficulty can be overcome, but does not establish that anything needs to be ignored. Interpreting “got over” as disregarding something could make the hypothesis seem related, but adds meaning not explicitly supported."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121910e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "04f4386501e6721925bbcd45bbd634b93bfdd9d433dc628c6121516bde045d6f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09feed6b7d67536b016acd429cd0e087d2a46c63e04e68bc1f",
+  "received_at": "2026-10-12T20:27:15.835312+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.61,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.46,
+    "brief_reason": "A more precise picture is not necessarily an accurate one, so the premise does not establish or rule out the hypothesis. The contrast between “romanticized” and “more precise” allows different interpretations of the writings’ accuracy."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 224,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 619
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

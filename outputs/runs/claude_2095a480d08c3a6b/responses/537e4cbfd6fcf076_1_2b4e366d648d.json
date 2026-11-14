@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2460799229.jpg#1r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7e1bb6adb2310d16fe29eee0c06e4b514947ea1461969ea15029e80778bd08a4",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy53CHmJgQjFcK1cHbBz",
+  "received_at": "2026-10-12T21:41:40.143768+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.55,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Being on top of an innertube in water suggests floating rather than swimming, but the premise doesn't say whether they swim. Whether 'swimming' covers floating is a matter of interpretation."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48150c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1c162c78c3c640177cf503e907428e33bb7e02432d08f1f4f41635381de5c03f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8ea4e4f15a9623016acd45f27bd887d2a71d6136f4010048",
+  "received_at": "2026-10-12T20:41:27.583793+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.21,
+    "contradiction": 0.75,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "On the ordinary racial reading, the premise denies the identity asserted by the hypothesis. The qualifier \"tonight\" leaves some uncertainty about whether this is a literal denial or a temporary, figurative claim."
+  },
+  "usage": {
+    "input_tokens": 359,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

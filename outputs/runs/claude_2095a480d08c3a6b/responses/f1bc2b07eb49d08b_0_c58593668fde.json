@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "117576c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7ba0e8c037f0fffe2f8b814276c1543de7e736d0e7228f8168e24da97da37d23",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC9doeok6MsBx4amUvG",
+  "received_at": "2026-10-11T21:53:44.951569+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.32,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The speaker is uncertain about how long questioning takes, which conflicts with the hypothesis's confident claim that it would be short. The premise does not say outright that it takes long, so some neutral reading remains."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

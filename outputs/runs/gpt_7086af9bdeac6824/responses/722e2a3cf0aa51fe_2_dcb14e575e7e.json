@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40100e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb523783aab0267ae2166c05297c5a713d1b0fa2cf9a8c2dd3c41124de751b46",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0346ef33b1437021016acbed643f4887d29db1fbadc4634db8",
+  "received_at": "2026-10-11T20:11:22.348521+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.2,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise identifies Tripp as having been indicted for illegally recording conversations with Lewinsky, supporting the hypothesis's description. However, an indictment establishes an accusation rather than conclusively establishing that the act occurred."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 215,
+    "output_tokens_details": {
+      "reasoning_tokens": 109
+    },
+    "total_tokens": 599
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

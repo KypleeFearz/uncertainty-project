@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39277n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ecc008f1e5630e80de4f8ab40c295b1dce3806746a665be5dcd77ccaded54d93",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029838f49163704e016acbed4ca2c087d2aeb054ac79aba2a4",
+  "received_at": "2026-10-11T20:10:56.794044+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Building season” suggests a time for construction, but the fragment does not establish that the projects are major. Interpreting “building” specifically as construction also requires resolving its underspecified meaning."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53897c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "afd85252916eb0b52f4277edcfe040e598fb11bebd7e5987f5d2a8a07af944a3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d9874bb4d5d0eb016acbf90d7e9487d280699f96a32a0f1d",
+  "received_at": "2026-10-11T21:01:04.993498+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise states that greenhouse gas concentrations have increased, but does not explicitly establish whether global warming is occurring. Contradicting the hypothesis requires additional assumptions about the relationship between those concentrations and warming."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

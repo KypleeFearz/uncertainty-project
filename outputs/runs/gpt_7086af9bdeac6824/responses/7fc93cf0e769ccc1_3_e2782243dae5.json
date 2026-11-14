@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63729n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c8a16dd31bd695baea64f80317c246293ce73ec826752d0fadf432a358d0f5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b8c4785e8979225016acbf0c7571c87d2bef3a2f79ac9a38e",
+  "received_at": "2026-10-11T20:25:47.250730+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.84,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise is a title fragment and does not establish that the work is a second chapter. “Final” could refer to a second chapter, so the two descriptions are not necessarily incompatible."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

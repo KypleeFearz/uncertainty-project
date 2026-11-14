@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56895c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1daa5c514c78041d775953d0c14cbf18538554faf6195c6b43a2ac64e8d6df6b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029b15d70268a17d016acbf933477887d28fdde44014bfa975",
+  "received_at": "2026-10-11T21:01:43.983925+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says Japan supplied an army during the Korean War, but does not establish whether Japan and Korea were at war with each other. Inferring that they were not would require additional historical assumptions."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

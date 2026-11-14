@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21297n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c3b06cfd933d67a2a4f2c1985764bd54881bbca04b64f70d0502e031d4d076d0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0db8b160b054bc19016acbeabd807887d295dbf281a2e384d3",
+  "received_at": "2026-10-11T20:00:01.400284+00:00",
+  "parsed": {
+    "entailment": 0.025,
+    "neutral": 0.965,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Walloped” suggests a forceful hit, but the premise does not specify a spoon. Both statements describe a comparison rather than establish that his mother actually hit him."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

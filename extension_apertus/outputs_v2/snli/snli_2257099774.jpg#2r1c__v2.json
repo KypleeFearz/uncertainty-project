@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2257099774.jpg#2r1c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.65,
+  "contradiction": 0.35,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.35,
+  "brief_reason": "The premise describes the woman's clothing but provides no information about her state of consciousness, so it neither supports nor contradicts the hypothesis about her being asleep."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 332,
+  "output_tokens": 105
+ },
+ "seconds": 2.38,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:01:11.894866+00:00"
+}

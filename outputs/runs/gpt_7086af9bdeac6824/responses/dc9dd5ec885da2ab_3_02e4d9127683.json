@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63469c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "264630b6c4f715dc50980f79f845fa93a4a685ef6ebe51b047ea944cfaa36fd5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06008d03f9b53a1e016acbf96f4a7087d282b3938a876e3fce",
+  "received_at": "2026-10-11T21:02:42.278661+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise criticizes an unspecified work but says nothing about whether it won a Pulitzer Prize. A negative assessment does not rule out receiving an award."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

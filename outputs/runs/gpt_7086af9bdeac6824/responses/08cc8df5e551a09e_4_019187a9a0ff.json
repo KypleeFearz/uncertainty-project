@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "33063n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5225e6385a731460a64183ec026172f402d416dfee1d0ee9651059502d7864d5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0135f513ed68ef97016acbec7a0cac87d2b96b1084e0da4cba",
+  "received_at": "2026-10-11T20:07:25.157505+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.09,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise places musicians at the back of the stage and describes their accompaniment, but does not say they are sitting or rank their importance in the show. It therefore neither establishes nor rules out their being the most important part."
+  },
+  "usage": {
+    "input_tokens": 423,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

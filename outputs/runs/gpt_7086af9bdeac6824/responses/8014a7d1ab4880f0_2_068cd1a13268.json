@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53074n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6dc169d4d09d852f0ab151a72232db13df76e38e25064f879cfc2749b21d7cb0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089d4185c4f6c48d016acbf8f84ad087d2b190929cb85b05f7",
+  "received_at": "2026-10-11T21:00:43.631924+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the speaker watches Knots Landing on Thursday nights but does not restrict watching frivolous things to that night. The hypothesis adds an unsupported exclusivity claim."
+  },
+  "usage": {
+    "input_tokens": 415,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

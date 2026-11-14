@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136770c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "381f34b5711d3f0c05ccb255b6194f99f94af40074f08cf12057e4707820572f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d2df30a8b494e3a016acbe8b4d3cc87d2b38ed45528a8b2a5",
+  "received_at": "2026-10-11T19:51:19.829884+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise describes a lack of late-night activity, not whether the Lake District is accessible around the clock. A place can be open 24/7 without offering much early-morning action."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

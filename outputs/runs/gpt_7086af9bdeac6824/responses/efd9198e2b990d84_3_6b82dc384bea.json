@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80643n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "659d44874594d298cc5b471e94c2c26900831e669cb72c42044bcb26c1ae710f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ccc352eae4bb5d016acbf2c5e6bc87d2982ab0d01dfa8753",
+  "received_at": "2026-10-11T20:34:18.094520+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says Dole rejected Clinton's basis for withholding a specific memo. It does not say Dole limited executive privilege to actions involving the presidency or characterized this memo as outside presidential affairs."
+  },
+  "usage": {
+    "input_tokens": 419,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

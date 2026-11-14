@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "69907e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6534eed93cd579af6101b994c9fcb83395c86890e644b3a1b88dd478f7e51248",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d91e5a48d87106f016acbf9a7ac1887d2a5efa7c62f40c040",
+  "received_at": "2026-10-11T21:03:38.894307+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.17,
+    "brief_reason": "The premise says people are rarely indifferent, whereas the hypothesis says they lack a strong opinion. These generally conflict, although being non-indifferent does not necessarily mean having a strong opinion."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

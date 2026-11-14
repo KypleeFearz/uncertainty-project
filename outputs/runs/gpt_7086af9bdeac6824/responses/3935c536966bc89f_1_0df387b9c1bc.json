@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105911c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "60f21b5760fcf975bc94f97b1f24d4a7379d25982694ff6b848ca5fb19046dc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_043331eaea96893a016acd41c7372487d2b9ef419ec4b8940d",
+  "received_at": "2026-10-12T20:23:40.436991+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise associates day care or other caregivers with missing the bonding process, but does not explicitly say children should not attend day care. Reading “day car” as “day care,” the hypothesis requires inferring a recommendation from that concern."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12815e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "402d775113442f555fc27d67aa157b15800b659ac2f8d26fbbb061391709a174",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff97a7ac17e3826016acbd8b7575887d28e86ec0d6074a37a",
+  "received_at": "2026-10-11T18:43:07.779184+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says a league is bowling every time the speaker has tried to go, but does not establish that only leagues are present or allowed. Reading league bowling as excluding all other bowling requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

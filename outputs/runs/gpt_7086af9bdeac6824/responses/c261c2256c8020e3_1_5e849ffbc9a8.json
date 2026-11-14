@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "146070e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd4c80ab5cc7f76737ac049661d72fee183d512bce054a30605275046a7af326",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b997a0dfd1ed14016acbe9f7432887d290a2a1987c11d1ab",
+  "received_at": "2026-10-11T19:56:42.486097+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says trackers will be looking for a tiger's hunting ground, not that any tigers are currently hunting. A hunting ground can be located without the tiger hunting there at that time."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

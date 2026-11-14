@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129601n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "327f890cc7d947f889bbaedd0d9c58e1812b216ce8caed83dfa0e808ea796d53",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_008aaf5c3cc26e24016acbd8bd877487d2b08c635f198580e3",
+  "received_at": "2026-10-11T18:43:13.283306+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "'Took forever' usually expresses that something took a very long time without specifying its duration. Two years is compatible with that description but is not established by it."
+  },
+  "usage": {
+    "input_tokens": 357,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "115830n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2a9889a3a9bb32578d777513570fb9084f47f01bbbeef1b49bd1118910570d06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018aa442fe75c2de016acbe5ab09c887d2bad0889ad053b919",
+  "received_at": "2026-10-11T19:38:22.755383+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.86,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise gives the avenue's direction and locates the Grand Vezir's Office at the tower's foot, but does not specify where the avenue ends. It therefore does not establish whether the avenue continues beyond the office."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

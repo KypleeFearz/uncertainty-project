@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27335e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "278c8b95fb95594f36a27d2532947c081356481ad00104edab3df31422f8c8f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b6581d4f95d9e43016acd44c524e487d2989a6ee8505760ea",
+  "received_at": "2026-10-12T20:36:25.826539+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Both questions ask whether the referenced type or genre of music persists. “Still a thing” can mean still exists or remains popular, which is slightly broader than being available."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

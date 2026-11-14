@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4867540330.jpg#0r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "eaf301d6dc51b6cd0246cc33ff4d14b0072f0c1acc6f566fd9d9ef83df90f91b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5iff8vWg5WMTTKTaPJ",
+  "received_at": "2026-10-12T21:50:35.727325+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.77,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise shows a man and woman playing Nintendo DS on a couch, which matches playing video games together, but nothing establishes that they are married."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "40867c",
+ "variant": 3,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise suggests at least five minutes have been used, which aligns with the hypothesis that the last five minutes were taken up, though it is not strictly guaranteed. Ambiguity exists in whether 'the last five minutes' refers to a specific recent period or just any five-minute span, and the exact timing is inferred probabilistically."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 342,
+  "output_tokens": 141
+ },
+ "seconds": 2.95,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:20:50.024535+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63453e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "16e9482a564b01e27354d55643554cfe863e3ad52f9a65084f580af906e42947",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5fb1a8a765b5a2016acbf0a9267487d2a9d44d3da36f0008",
+  "received_at": "2026-10-11T20:25:16.928428+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.115,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise describes Puglia’s landscapes as “curiously romantic,” supporting the hypothesis that they are beautiful. The support depends slightly on interpreting “romantic” as an aesthetic compliment."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 21
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11362e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e06fa35cb4a2a8832259051ee04b7f7d0d9a00a6b88cb1cc9cc730721d972c78",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02aebe7fce60016b016acbf5e80f3087d2ac8decc386f2bd76",
+  "received_at": "2026-10-11T20:47:40.684009+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The volumes are already available, and renovation is presented as a prerequisite for returning them to the stacks. Public availability after renovation is a natural inference, but the premise does not explicitly identify who can access them or guarantee continued availability."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

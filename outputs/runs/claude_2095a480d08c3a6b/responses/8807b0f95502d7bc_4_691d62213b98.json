@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_7283335868.jpg#2r1e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "25bf25952551ba40256b4145b74326b739241b683d4f99866aabf992d08b34a2",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5vv1vGJXzc77tAXgcg",
+  "received_at": "2026-10-12T21:53:22.279965+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.03,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says the man has blue jeans, which means he is wearing jeans. The ungrammatical 'are skating' adds only slight doubt about who has the jeans."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 781,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

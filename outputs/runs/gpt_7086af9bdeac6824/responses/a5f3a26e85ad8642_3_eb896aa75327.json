@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89209n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62f32c81d8cb54dda56f3604237e1032c015fc15e16d88e2566cd2505acd2427",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ce776cad64fcf0016acbf3f1074c87d28bf14f25b4a2d940",
+  "received_at": "2026-10-11T20:39:16.442681+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The speaker says they occasionally try to watch Cheers and are unsure whether they follow any series, but does not state how much they like television or Cheers. Inferring those preferences from viewing habits requires assumptions."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

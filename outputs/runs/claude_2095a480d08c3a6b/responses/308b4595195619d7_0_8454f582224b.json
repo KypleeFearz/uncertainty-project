@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "140005c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "df444f731ef432e8d3b831abddc664232da511b6ac8c7731403167bdb52fe97a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCL8fWommMdeB7j5Fiv",
+  "received_at": "2026-10-11T21:56:06.909466+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.04,
+    "contradiction": 0.94,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise says toxicity in a range-finding test may differ significantly from the follow-up test, which rules out the claim that it will be exactly the same."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 882,
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

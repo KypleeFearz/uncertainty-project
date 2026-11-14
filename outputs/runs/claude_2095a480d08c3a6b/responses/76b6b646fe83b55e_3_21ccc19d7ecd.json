@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "66973n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ae2ef7d2d9174a0fefabfb38f9e13c397488eedbd21b687805a1036b8ee61124",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Y55dCNJSXabJu7Dnz",
+  "received_at": "2026-10-12T21:35:05.592489+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says GAO's recommendations aim to improve agency economy and efficiency for the public's benefit, but it does not say the American people \"look up to\" GAO or rely on it for this. The hypothesis adds an attitude of respect and trust that the premise does not establish."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 831,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52542n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dad70f3f3f1e6e896537ab6e1cc3710dadf6f0f87a731b4046654a19abe4259a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0313f2baaa4cd102016acbeef7ef2487d282ed27d4c7a09c69",
+  "received_at": "2026-10-11T20:18:02.620982+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes Jane Finn as mysterious, elusive, and long-sought, but says nothing about her beauty. It neither establishes nor rules out the comparison in the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 478
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

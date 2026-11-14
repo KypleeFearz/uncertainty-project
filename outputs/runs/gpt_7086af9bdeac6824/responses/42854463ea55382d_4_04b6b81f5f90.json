@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57163c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23989d7498ada75cb8039cd8c8ff0a70d65090e13546db6651d84a091f6f2be7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0575724dedcad5bb016acbf93de02087d286f21bd2486a49ef",
+  "received_at": "2026-10-11T21:01:53.915596+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.15,
+    "contradiction": 0.83,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise presents documenting the basis for judgments as potentially harder than documenting nonjudgmental information, whereas the hypothesis reverses that comparison. Because both statements use “can,” they do not strictly exclude different difficulty patterns in different circumstances."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 577
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

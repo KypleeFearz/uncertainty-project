@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13652n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c72c63c52da70779a4a4c3ca4428c03e5c7bf891e6a401e8ca0a03f0111137af",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fb199509f2c2cf016acbe8a4cb5487d294c47234f7064c01",
+  "received_at": "2026-10-11T19:51:04.619489+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Whittington's increased uneasiness supports his being uncomfortable, but the premise does not establish that anyone was trying to avoid Tuppence. The hypothesis also leaves the subject of 'was trying to avoid her' unclear."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

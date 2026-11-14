@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_1796608106.jpg#4r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ceb84e31db81f7b0248d13548d592c71320455b8c9f7ffb2d97e078c00bb430",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080a0e48fce613a2016acd4920f48887d2bbb566b88d497f69",
+  "received_at": "2026-10-12T20:55:00.936691+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.84,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the woman is building a sand castle for herself, but does not mention a child or helping one. Helping a child is not established, though it is not explicitly ruled out."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

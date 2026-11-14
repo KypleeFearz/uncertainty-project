@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2232822316.jpg#0r1e",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.4,
+  "neutral": 0.5,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.6,
+  "probabilistic_inference": 0.4,
+  "brief_reason": "The premise describes clothing and an action but does not explicitly state the location or season, making it uncertain whether she is outside or in summer. The attire could be worn indoors or in mild weather, so the hypothesis is plausible but not guaranteed."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 355,
+  "output_tokens": 119
+ },
+ "seconds": 2.72,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:00:10.726612+00:00"
+}

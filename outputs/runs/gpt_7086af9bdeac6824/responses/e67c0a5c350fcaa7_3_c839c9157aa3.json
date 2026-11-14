@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3103n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9984feb03445b454de03130cbd3876b3fa6ea6f9bbd6b7d5f1470eca5785f07e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01fccd59d6710dbf016acbec46444c87d2b35d3153a00ff1fe",
+  "received_at": "2026-10-11T20:06:33.632216+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says the track passes a necropolis and reaches an amphitheatre, but does not mention church ruins. It neither establishes nor rules out the path also leading to a ruined church."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

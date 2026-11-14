@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133243e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5148f67d1bff0494d21d062e8236c65fbdc18ba0411a9327b27ebb74a22ef6a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05cb9dd117303984016acbf6d8724087d29aa1190aa0a2b3e7",
+  "received_at": "2026-10-11T20:51:39.387482+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise establishes that the river flowed, but not that it flowed noisily or forcefully enough to roar. A roaring river is compatible with the premise, but is not established by it."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

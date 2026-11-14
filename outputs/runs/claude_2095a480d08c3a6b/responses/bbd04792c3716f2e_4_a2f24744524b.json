@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "38156n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d0c8f9c03df8b1db246cff9c3b4b9f93c492f399797414c3ce6e98d0dc29bc30",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAa9tqKhpMRoTSCZray",
+  "received_at": "2026-10-11T21:33:03.642883+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.9,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise only defines 'budgetary resources' as authority to incur obligations; it says nothing about administrations' views on how resources should be distributed among agencies."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 809,
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

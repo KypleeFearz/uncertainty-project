@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "67412n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a6fc6fc78e20595b0c0d4c659f29b4b3aba2d8bcdc5ad4f553a3f2e271848b05",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0142a77858b682be016acbf99e8c1087d2a193fbfddae41281",
+  "received_at": "2026-10-11T21:03:30.098782+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Even reading “is” as a typo for “us,” the premise says this morning, which does not establish “very early.” The hypothesis is compatible with the premise but adds timing specificity."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

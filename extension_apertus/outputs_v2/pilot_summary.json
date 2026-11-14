@@ -1,0 +1,12 @@
+{
+ "label": "Pilot",
+ "requested": 20,
+ "new_done": 20,
+ "failed": 0,
+ "input_tokens": 7111,
+ "output_tokens": 2307,
+ "usd_this_session": 0.0126,
+ "pilot_ok_total": 20,
+ "pilot_salvaged_total": 0,
+ "estimate_full_run_usd": 1.98
+}

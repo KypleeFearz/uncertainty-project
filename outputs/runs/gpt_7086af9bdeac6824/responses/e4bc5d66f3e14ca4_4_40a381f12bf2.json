@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2133n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9a39d03a1d15a185a917039b5f4f01fd3d1588f76c74909506ba837422884e1a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c09e566e2b6168c016acbeac6f43087d2a274a5a2879fefeb",
+  "received_at": "2026-10-11T20:00:12.210464+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.39,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "If “tomb garden” means the tomb guardian, the premise describes limited visibility and self-guided exploration rather than a thorough tour. Read literally, “tomb garden” refers to something the premise does not discuss, making the hypothesis neutral."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 199,
+    "output_tokens_details": {
+      "reasoning_tokens": 84
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

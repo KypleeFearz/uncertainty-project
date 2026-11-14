@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86136e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fdeb30f0732250a35d5afae541063584920cee0cd6f17579f1f81209c5f4c727",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c0cbd5b31f097f0016acd4807df5c87d28f998b4378e3d583",
+  "received_at": "2026-10-12T20:50:19.638659+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise says the guidelines will determine maximum allowable costs for therapy services, making them relevant to those services. The hypothesis contradicts this if “policies and procedures” refers to those guidelines."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

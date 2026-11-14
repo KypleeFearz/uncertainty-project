@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56743e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c371f5aa698c54013c9a3883defc2bac599ef69b007e31402f4619c0de8ce063",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03eee642629c8ae8016acbefac3b5c87d2b47690084c73aaa3",
+  "received_at": "2026-10-11T20:21:03.662143+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.82,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise establishes that she was pale and leaning against the bannisters when found, but not that she was unable to stand unaided. The hypothesis supplies a plausible but unconfirmed reason for her leaning."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

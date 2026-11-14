@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56634c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "666b772740d27350150c5408b53ee62860217d4fe3f0b720a79458245986ca55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04bbea2dec7c5ee3016acbefa4145c87d2901b3354af84ff4f",
+  "received_at": "2026-10-11T20:20:58.107601+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise reports a claim that 'we' were staying at the inn, without identifying whether 'he' belongs to that group or establishing that the claim was true. Contradiction requires assuming both the relevant identity and the truth of the reported claim."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 195,
+    "output_tokens_details": {
+      "reasoning_tokens": 79
+    },
+    "total_tokens": 571
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

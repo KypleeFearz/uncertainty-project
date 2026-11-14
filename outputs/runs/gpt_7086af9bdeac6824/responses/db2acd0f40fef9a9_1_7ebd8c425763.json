@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11297c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e5b7dcbef21624580cba195dafbeaf39b924bd06856e3e0fab43a1ee6704edb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_027328576bb72241016acd4221e03087d2889752c8f41a162f",
+  "received_at": "2026-10-12T20:25:09.983645+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise says that changing control of public health programs raises concerns, which conflicts with the claim that everyone is content with the change. The premise concerns a change in control specifically, rather than necessarily changes to the programs themselves."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

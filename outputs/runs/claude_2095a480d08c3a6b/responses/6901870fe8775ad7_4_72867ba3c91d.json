@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_3632197966.jpg#3r1n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "48a8d1801feb5458b13787662ddd2d45193209efd6013d41c9883a2842473d03",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5PaRbGrYjexFX2btHm",
+  "received_at": "2026-10-12T21:46:17.297817+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.6,
+    "contradiction": 0.32,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says motorcyclists race on a course, while the hypothesis adds a single man being chased by people, which the premise does not mention. Racing is somewhat at odds with being chased, but the two are not strictly incompatible, so the pair leans neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 779,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

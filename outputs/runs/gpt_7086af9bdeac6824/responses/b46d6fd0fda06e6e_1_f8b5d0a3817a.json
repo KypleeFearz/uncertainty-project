@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "16469n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fccf789db04843b682ee2db4648c292b4e843c1b785ddb2682b67ee76901d4cf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fa70b58bd41161016acd4445479887d2ae759788cf4fa21c",
+  "received_at": "2026-10-12T20:34:17.537502+00:00",
+  "parsed": {
+    "entailment": 0.27,
+    "neutral": 0.72,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says Douglas, Arizona was the only place they played on their trip, but does not establish that it was a highlight. The speaker's amazement may suggest significance, though its cause and whether it was positive are unclear."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

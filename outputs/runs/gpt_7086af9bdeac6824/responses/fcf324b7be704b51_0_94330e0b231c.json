@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "60543n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "65a0b58d7b178728f0565b6013dfe29bfea18b79d709e21fedcbffad4f8acfab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a9229370685c287016acbf018a11487d285b0beb5ad849a44",
+  "received_at": "2026-10-11T20:22:52.603005+00:00",
+  "parsed": {
+    "entailment": 0.74,
+    "neutral": 0.26,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The guy woke the speaker and urged them to leave a tent that might collapse, which strongly suggests concern for their safety. His emotional state or motivation is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

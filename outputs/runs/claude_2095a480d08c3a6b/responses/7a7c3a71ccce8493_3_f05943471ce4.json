@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "145495c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d4b0ad69b08863c09d40845361e55a1a7412a3f8cde551d1ef46eb0895e9c609",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCMqRjNY5URouzG8di1",
+  "received_at": "2026-10-11T21:56:30.383937+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.62,
+    "contradiction": 0.28,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says the reaction was swift and contentious, as if feelings were hurt, but does not say it was horror. Horror is a possible but unconfirmed emotion, and contentious hurt feelings may not match it, so the label is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 780,
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

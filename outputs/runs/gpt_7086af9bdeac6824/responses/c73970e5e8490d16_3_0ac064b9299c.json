@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140615e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db61dbb7964de9b040ea0afdd3e1fab6b648ce13d459deff5be6a28aa4197145",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06109f4420e195d9016acbf71add4087d2a079580e93a3b024",
+  "received_at": "2026-10-11T20:52:45.757404+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.9,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise supports considering economic theory when adjusting some mortality and morbidity unit values. It does not establish that economic theory is the deciding factor in valuation generally."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

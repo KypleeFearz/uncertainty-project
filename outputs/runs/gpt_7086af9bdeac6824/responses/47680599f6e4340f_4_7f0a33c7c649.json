@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47260n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9a673f2b3121b3f43a07e858e93b9bdcc898ff536f7f9d8faf6869eb1bbbfb8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_007de44d59926020016acbee59d21087d2b11d94a0f59103c1",
+  "received_at": "2026-10-11T20:15:24.511535+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says good news can be found in certain reports but does not identify that news. It provides no information about a puppy or whether its life was saved."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

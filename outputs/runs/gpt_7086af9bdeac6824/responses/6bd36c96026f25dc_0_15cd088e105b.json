@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120144n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "52db72bcfbda92bb452296a3e4459d63a5f03de74fbe544d401dbee36e5b4336",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0758cd22c26c82ae016acd42813e6087d2a6c1948eff09be23",
+  "received_at": "2026-10-12T20:26:45.316750+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise supports seeing him ring a bell and enter the house, but does not specify that the bell was big, brass, or echoing during his admission. These added details are neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 506
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

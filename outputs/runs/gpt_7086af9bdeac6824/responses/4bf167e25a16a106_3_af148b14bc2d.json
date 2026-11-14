@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6906541132.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "764df20fb98711814c5d7880619238f4791b668a976df3e3ae71b91947f020c9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a7e9edc97658618016acd4e7cb42c87d29b4a032ebfa72117",
+  "received_at": "2026-10-12T21:17:51.458851+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise says people are walking near a leaning crane, but does not establish their speed or that they are moving away from it. A leaning crane might appear likely to tip over, but that is an inference rather than an explicit fact."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 111,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

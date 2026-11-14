@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6688e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69a08a7869ca4f3b1f73676f3518d898a50507cd50669ab5b449268aba931052",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035600fbea0f52d1016acbf9922ddc87d2b9e6d91afa0528cd",
+  "received_at": "2026-10-11T21:03:19.786339+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.56,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The title suggests White House recordings spanning several presidencies, but it does not explicitly establish how many tapes there were or where they were recorded. Interpreting this as many tapes recorded inside the White House requires plausible assumptions."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 80
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

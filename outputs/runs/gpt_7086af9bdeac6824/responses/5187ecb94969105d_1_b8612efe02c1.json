@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98410n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7ac73493df1e3aec7d7ff8cef9109c798074431e8e82b76d340de9535fc3f64f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08c7cf32e7bb9d0a016acbf4e91d7087d2a458f12b22d30008",
+  "received_at": "2026-10-11T20:43:24.982809+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "'Same here' ordinarily indicates that the speaker shares the other person's experience or situation. However, the missing context leaves open whether it refers to an experience, an opinion, or something else."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

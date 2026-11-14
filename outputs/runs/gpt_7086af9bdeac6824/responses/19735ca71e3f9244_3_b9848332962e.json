@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46975e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c8c11f3ad6918bf7611d0220a0d1366cd5707cdb89e5a0930bffd74786341041",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09e6d7e357ab139f016acbee4dd2bc87d28f85fe7b3245a936",
+  "received_at": "2026-10-11T20:15:14.483974+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.065,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Spun Hanson around” supports the paraphrase “turned Hanson on his heels.” The premise does not specify his exact foot movement, but the hypothesis naturally describes the same turning action."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

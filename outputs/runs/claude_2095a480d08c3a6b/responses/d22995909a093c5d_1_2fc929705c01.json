@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "50293n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ccd940e3507a9d6510cb61f32b58b8d666218e5aca6d1c0b5e396df00f12244b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4Laox2e51pJUzN2CP6",
+  "received_at": "2026-10-12T21:32:29.886615+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.68,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Spanning a divide with rhetoric and positions means bridging it in appeal, not necessarily working to close it. Whether he aims to eventually close it is a plausible but unstated assumption."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

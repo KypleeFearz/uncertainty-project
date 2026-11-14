@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "95883e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7ec7f349aa5273207c139c4033f32595b54d4358926057c4b4f4b20ad37cf47a",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4jgqVQJhuYumiNkNjy",
+  "received_at": "2026-10-12T21:37:42.826759+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.25,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Increasing a supplement on court filing fees implies fees rise, which conflicts with the hypothesis that they lower. Some uncertainty remains because the supplement's net effect on total fees is not stated, and 'introduced legislation' is not the same as enacting a law."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 812,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9022e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6dfa3fe47bbd8c7998b5f7d7719ddb2390d92081798a50918aa74442645acfdf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ec4c6286943f592016acbfab4d0cc87d2a95261789066c4ba",
+  "received_at": "2026-10-11T21:08:09.064446+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.28,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "The premise predicts a return to work soon because the leg wound is minor, but returning to work does not guarantee that the legs will be healed by then. It also mentions only one leg wound, whereas the hypothesis refers to multiple legs."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

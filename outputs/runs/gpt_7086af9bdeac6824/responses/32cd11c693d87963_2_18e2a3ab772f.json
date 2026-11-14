@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128176e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2325f0234a90a05049eded2b9c262f5966a1792e9148ae0be80d518f8d80dba1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03c758c9e1d75d44016acbe733ef1c87d2aa2a0e0ce46985f0",
+  "received_at": "2026-10-11T19:44:56.319273+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise establishes that Reich's description of the chart was inaccurate, but not that he misunderstood it. His claim could instead reflect misremembering or deliberate misrepresentation."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

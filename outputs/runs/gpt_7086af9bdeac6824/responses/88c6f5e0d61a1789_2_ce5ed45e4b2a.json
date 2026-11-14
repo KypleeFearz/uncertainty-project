@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "126768n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0eb0ab42fce389d7c3926e6b37ba0db2d84edb8329e5eab0335a3f990f1acc32",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_075e059fcf574246016acd42c9f59087d29d81ce4fd646af05",
+  "received_at": "2026-10-12T20:27:57.211098+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says the media covered an admission that cigarettes cause cancer, but does not say they cause cancer in all users. “Lingett” also differs from “Liggett,” though it plausibly refers to the same entity."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 109,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

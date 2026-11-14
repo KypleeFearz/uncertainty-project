@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53415n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a2bf4e4d5c37ecf72cc5d5380f019f84d9da638f75f671e4149da518d492eb07",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCfyKzXTGHYeqickzXU",
+  "received_at": "2026-10-11T22:00:36.376566+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says times are tough for reviewers in general, which suggests no subgroup is having an easy time, so the hypothesis is likely contradicted. However, \"in general\" allows exceptions such as specialists or senior reviewers, leaving some room for neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 165,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

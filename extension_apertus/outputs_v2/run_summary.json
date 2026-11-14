@@ -1,0 +1,29 @@
+{
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "base_url": "https://api.publicai.co/v1",
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "finished_at": "2026-11-07T22:00:57.530647+00:00",
+ "parts": [
+  {
+   "label": "Test",
+   "requested": 1635,
+   "new_done": 5,
+   "failed": 42,
+   "input_tokens": 32029,
+   "output_tokens": 9675,
+   "usd_this_session": 0.0545
+  },
+  {
+   "label": "unbekannte Eingaben (SNLI)",
+   "requested": 1500,
+   "new_done": 0,
+   "failed": 16,
+   "input_tokens": 10890,
+   "output_tokens": 3618,
+   "usd_this_session": 0.0195
+  }
+ ]
+}

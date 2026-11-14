@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "141293e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "282236275453fc8c5c7d8b295fc715e0228ee7ef84cb646a93177911d8f682fa",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01cdfa51e7a3d8a6016acbf728b81487d28bfa25ca1bdb6507",
+  "received_at": "2026-10-11T20:53:01.214925+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise places the speaker’s start at about five years ago, supporting the hypothesis if “it” refers to that activity. However, the referent of “it” is unspecified, and the stated timing is approximate."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

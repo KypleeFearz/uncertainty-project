@@ -1,0 +1,2 @@
+# The freeze seals files byte by byte. Never let git convert line endings.
+* -text

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6792e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4ca0b756c6401c94a1e16adb7be13ac1293531f20eac592759722d3e63cdca4c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_019c475a942fb119016acd473883c087d2962e03f36c177f2b",
+  "received_at": "2026-10-12T20:46:51.395505+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.03,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise says British magazines published a huge number of interviews with Kate Winslet, supporting that they interviewed her a lot. A small uncertainty is that publishing interviews does not strictly guarantee the magazines conducted them."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

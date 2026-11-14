@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82510e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a42a2a1d6c54336e0222781632cce287315e333abefd69f2599ad18acba3df53",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c5d55fa51297c3016acd47e854a487d2b210a18ee5b63ac5",
+  "received_at": "2026-10-12T20:49:48.252941+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.58,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "The premise says they painted the inside of the house and includes the disfluent phrase “we almost one day we painted.” This does not clearly establish that the painting took one day, rather than merely occurring on a particular day."
+  },
+  "usage": {
+    "input_tokens": 457,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 609
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

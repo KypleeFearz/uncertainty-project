@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4653329590.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "33b34eede35068146d2e86210d085744fb9749b0e3b62218c7a46b8a79a81f03",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d6f8fe50a6936d016acd4ce905ac87d2997b5e4318921d3c",
+  "received_at": "2026-10-12T21:11:08.325625+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "Painting a face on a wall supports describing the woman as an artist. However, this activity alone does not establish that she is an artist in a professional or enduring sense."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

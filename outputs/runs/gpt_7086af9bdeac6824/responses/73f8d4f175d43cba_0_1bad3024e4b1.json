@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98116c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a18ec32461482cef67074ac1405714e09cd6a624b0805c94a143f8c0dc24726",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00669f644574c866016acd4898953887d28e8530b5416aeb0b",
+  "received_at": "2026-10-12T20:52:44.760046+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.9,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise asks about what someone actually ended up pursuing, whereas the hypothesis asks about a possibility under different circumstances. Neither question establishes an answer, and the referent of “that” is unspecified."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,359 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Uncertain or Debatable?</title>
+<style>
+/* Visual language taken from the thesis prototype (Perspectival AI Interaction, 2026). */
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#f5f4f0;--card:#fff;--line:#e2e0d8;--soft:#f7f5f0;--ink:#1a1a1a;--text:#333;--muted:#777;--faint:#999;
+  --blue:#1a50a0;--blue-bg:#e5eefb;--purple:#5a3faa;--purple-bg:#ede9fb;--purple-line:#ddd8f5;--purple-box:#f3f0fb;
+  --green:#1f6b38;--green-bg:#e3f3e8;--amber:#8a5a00;--amber-bg:#fdf3dc;--amber-line:#f0d9a0;--red:#a33;--accent:#6a96d8}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--ink);min-height:100vh;font-size:15px;line-height:1.6}
+.wrap{max-width:820px;margin:0 auto;padding:40px 20px 100px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:32px 36px;margin-bottom:20px}
+h1{font-size:26px;font-weight:700;margin-bottom:10px;line-height:1.3}
+h2{font-size:20px;font-weight:600;margin-bottom:12px;line-height:1.35}
+h3{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin:22px 0 10px}
+p{margin-bottom:10px;color:var(--text)}
+.badge{display:inline-block;font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;padding:3px 10px;border-radius:5px;margin-bottom:14px}
+.b-blue{background:var(--blue-bg);color:var(--blue)}.b-purple{background:var(--purple-bg);color:var(--purple)}
+.b-green{background:var(--green-bg);color:var(--green)}.b-amber{background:var(--amber-bg);color:var(--amber)}.b-gray{background:#eeecea;color:#666}
+.lead{font-size:15px;color:#555}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1px solid var(--line);background:var(--card);border-radius:20px;padding:6px 14px;font-size:13px;cursor:pointer;font-family:inherit;color:var(--text);transition:all .12s}
+.chip:hover{border-color:#bbb;background:var(--soft)}.chip.on{background:var(--ink);color:#fff;border-color:var(--ink)}
+.chip.ghost{border-style:dashed;color:var(--muted)}
+.seg{display:flex;gap:10px}
+.seg button{flex:1;padding:12px;border:1px solid var(--line);border-radius:8px;background:var(--card);cursor:pointer;text-align:center;font-family:inherit;transition:all .15s}
+.seg button.on{border-color:var(--ink);background:var(--ink);color:#fff}
+.seg .t{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.04em}.seg .s{font-size:12px;opacity:.7}
+label.f{display:block;font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);margin:16px 0 6px}
+textarea{width:100%;padding:12px 16px;border:1px solid var(--line);border-radius:8px;font-size:15px;font-family:inherit;line-height:1.5;color:var(--ink);background:#fff;resize:vertical;min-height:54px}
+textarea:focus{outline:none;border-color:var(--accent)}
+.row{display:flex;gap:16px;align-items:center;justify-content:space-between;flex-wrap:wrap;margin-top:22px;padding-top:20px;border-top:1px solid #eae8e2}
+.btn{padding:13px 32px;background:var(--ink);color:#fff;border:none;border-radius:9px;font-size:15px;font-weight:500;cursor:pointer;font-family:inherit}
+.btn:hover{background:#333}.btn:disabled{opacity:.4;cursor:wait}
+.hint{font-size:13px;color:var(--muted)}
+.toggle{font-size:13px;color:var(--text);display:flex;gap:8px;align-items:center;cursor:pointer}
+.toggle input{accent-color:var(--ink);width:16px;height:16px}
+.case-note{background:var(--soft);border:1px solid var(--line);border-radius:10px;padding:12px 16px;font-size:13.5px;color:#555;margin-bottom:18px}
+.pair{border-left:3px solid var(--line);padding:2px 0 2px 14px;margin-bottom:18px}
+.pair div{font-size:14.5px;color:var(--text)}.pair span{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);margin-right:8px}
+.single-text p{font-size:16px;line-height:1.75;color:#2a2a2a}
+.overview-box,.shared-box{background:var(--soft);border:1px solid #e2dfd6;border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.disagree-box{background:var(--purple-box);border:1px solid var(--purple-line);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.uncertain-box{background:var(--amber-bg);border:1px solid var(--amber-line);border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.question-box{background:var(--blue-bg);border:1px solid #c9daf3;border-radius:10px;padding:16px 20px;margin-bottom:12px}
+.question-box p{font-size:17px;font-weight:600;color:var(--blue);margin:0}
+.box-label{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);margin-bottom:6px}
+.disagree-box .box-label{color:#8a6fc0}.uncertain-box .box-label{color:var(--amber)}.question-box .box-label{color:var(--blue)}
+.overview-box p,.disagree-box p,.uncertain-box p{font-size:14.5px;color:#444;margin:0}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.persp{border:1px solid var(--line);border-radius:10px;padding:16px 20px}
+.persp-title{font-size:14px;font-weight:600;margin-bottom:6px;color:var(--ink)}
+.persp p{font-size:14px;color:#444;margin:0}
+.foot{font-size:12px;color:var(--faint);margin-top:16px;padding-top:12px;border-top:1px solid #eae8e2}
+details summary{cursor:pointer;font-weight:600;font-size:15px;list-style:none}
+details summary::before{content:"▸ ";color:var(--faint)}details[open] summary::before{content:"▾ "}
+.path{list-style:none;margin:6px 0 4px}.path li{font-family:'SF Mono',Menlo,Consolas,monospace;font-size:13px;padding:3px 0;color:var(--text)}
+.meter{margin:10px 0}.meter .lbl{display:flex;justify-content:space-between;font-size:13px;color:var(--text)}
+.track{position:relative;height:8px;background:#eeece6;border-radius:4px;margin-top:4px}
+.fill{position:absolute;left:0;top:0;bottom:0;border-radius:4px;background:#9a9a9a}
+.thr{position:absolute;top:-4px;bottom:-4px;width:2px;background:var(--ink)}
+.dist{display:grid;grid-template-columns:110px 1fr 46px;gap:8px;align-items:center;font-size:13px;margin:4px 0}
+.dist .bar{height:10px;border-radius:3px}
+.c-e{background:#5b8bd0}.c-n{background:#b5b0a5}.c-c{background:#c9746a}
+table{border-collapse:collapse;width:100%;font-size:12.5px;margin-top:6px}
+.tablewrap{overflow-x:auto}
+@media (max-width:640px){table td:last-child{min-width:220px}}
+th,td{border-bottom:1px solid #eee;padding:5px 6px;text-align:left;vertical-align:top}th{color:var(--faint);font-weight:600}
+.ok{color:var(--green);font-weight:600}.no{color:var(--red);font-weight:600}
+.btn2{padding:12px 20px;background:var(--card);color:var(--ink);border:1px solid var(--ink);border-radius:9px;font-size:14px;font-weight:500;cursor:pointer;font-family:inherit}
+.btn2:hover{background:var(--soft)}.btn2:disabled{opacity:.4;cursor:wait}
+.btns{display:flex;gap:10px;flex-wrap:wrap}
+.rules{width:100%;font-size:13.5px;margin-top:4px}.rules td{padding:7px 6px;border-bottom:1px solid #eee}.rules tr.me td{font-weight:600}
+.rules .act{text-transform:capitalize}
+.cmp{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.cmp.three{grid-template-columns:1fr 1fr 1fr}
+.posthoc{border-style:dashed;background:#fafaf8}
+.ph-tag{display:inline-block;font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:#8a6d00;background:#fff4cc;border-radius:4px;padding:1px 6px;margin-left:6px}
+.cmp .persp h4{font-size:12px;font-weight:700;text-transform:uppercase;letter-spacing:.05em;color:var(--faint);margin-bottom:8px}
+.cmp .big{font-size:18px;font-weight:600;margin:2px 0 8px}
+.cmp .kv{font-size:13px;color:var(--text);display:flex;justify-content:space-between;padding:2px 0}
+.linkbtn{background:none;border:none;color:var(--blue);font-size:13px;cursor:pointer;padding:0;margin-top:8px;font-family:inherit;text-decoration:underline}
+.err{background:#fbeaea;border:1px solid #eec;color:var(--red);border-radius:8px;padding:12px 16px;font-size:14px;margin-top:14px;display:none}
+.spinner{display:none;font-size:14px;color:var(--muted)}
+@media (max-width:640px){.card{padding:22px 18px}.grid2,.cmp,.cmp.three{grid-template-columns:1fr}.seg{flex-direction:column}}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="card">
+    <div class="badge b-blue">Integrative Master's Project · University of St. Gallen</div>
+    <h1>Uncertain or Genuinely Debatable?</h1>
+    <p class="lead">Give the system a sentence and a statement. It decides whether to <b>answer</b>, to <b>flag its own uncertainty</b>,
+      to <b>show several reasonable readings</b> or to <b>ask back</b>. The decision comes from an assessor that was frozen
+      before testing and evaluated on held-out data.</p>
+  </div>
+
+  <div class="card">
+    <h3 style="margin-top:0">Example cases</h3>
+    <div class="chips" id="chips"></div>
+    <div class="chips" style="margin-top:10px">
+      <button class="chip ghost" onclick="randomCase('test')">Random MNLI test case</button>
+      <button class="chip ghost" onclick="randomCase('shift')">Random SNLI case</button>
+    </div>
+
+    <h3>Model</h3>
+    <div class="seg" id="models"></div>
+
+    <label class="f" for="premise">Sentence</label>
+    <textarea id="premise" rows="2" placeholder="e.g. Finish it, someone yelled."></textarea>
+    <label class="f" for="hypothesis">Statement</label>
+    <textarea id="hypothesis" rows="2" placeholder="e.g. Keep going, someone yelled."></textarea>
+
+    <div class="row">
+      <div>
+        <label class="toggle"><input type="checkbox" id="llm"> Write the reply with the language model (1 extra call, wording not evaluated)</label>
+        <div class="hint" id="costhint">Stored example: no API call.</div>
+      </div>
+      <div class="btns"><button class="btn2" id="cmp" onclick="compare()">Compare all models</button>
+        <button class="btn" id="go" onclick="run()">Check</button></div>
+    </div>
+    <div class="spinner" id="spin">Asking the model with five prompts…</div>
+    <div class="err" id="err"></div>
+  </div>
+
+  <div id="out"></div>
+
+  <div class="card" style="background:transparent;border-style:dashed">
+    <h3 style="margin-top:0">Scope</h3>
+    <p class="hint">English sentence pairs only. The assessor was trained on MNLI (ChaosNLI, 100 human votes per pair); on SNLI image
+      captions the primary learned disagreement signal and response policy performed worse. Transfer varies by component.
+      Disagreement is normalised entropy, not a probability; error risk and cues are estimates, not calibrated guarantees.
+      Human votes are label judgements, not votes on which response the interface should show.</p>
+    <p class="hint" id="proto"></p>
+  </div>
+</div>
+
+<script>
+const LABELS = ["entailment", "neutral", "contradiction"];
+const SHORT = {entailment: "follows", neutral: "stays open", contradiction: "is ruled out"};
+const STYLE = {answer: ["b-green", "Answer"], hedge: ["b-amber", "Hedge"], alternatives: ["b-purple", "Alternatives"], clarify: ["b-blue", "Clarify"]};
+let META = null, busy = false, state = {uid: null, model: "gpt", curated: null};
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;"}[c]));
+const pct = v => Math.round(v * 100) + "%";
+function setBusy(v) {
+  busy = v;
+  document.querySelectorAll("button, textarea, input").forEach(el => el.disabled = v);
+}
+function showError(e) { $("err").textContent = e.message; $("err").style.display = "block"; }
+
+async function api(path, body) {
+  const r = await fetch(path, body ? {method: "POST", headers: {"Content-Type": "application/json"}, body: JSON.stringify(body)} : {});
+  const data = await r.json();
+  if (!r.ok) throw new Error(data.error || r.statusText);
+  return data;
+}
+
+function renderModels() {
+  $("models").innerHTML = META.models.map(m =>
+    `<button class="${m.key === state.model ? "on" : ""}" onclick="setModel('${m.key}')"><div class="t">${m.key === "gpt" ? "GPT" : "Claude"}</div><div class="s">${esc(m.name)}</div></button>`).join("");
+}
+function setModel(k) { if (busy) return; state.model = k; renderModels(); if (state.uid) run(true); }
+function renderChips() {
+  $("chips").innerHTML = META.curated.map((c, i) =>
+    `<button class="chip ${state.curated === i ? "on" : ""}" onclick="pick(${i})">${esc(c.tag)}</button>`).join("");
+}
+function markLive() {
+  state.uid = null; state.curated = null; renderChips();
+  $("out").innerHTML = "";
+  $("costhint").textContent = "New input: Check uses 5 prompts; Compare uses 10. Cached prompts are reused. Retries and optional wording may add calls.";
+}
+async function loadExample(uid) {
+  const r = await api("/api/assess", {uid, model: state.model, wording: "template"});
+  $("premise").value = r.premise; $("hypothesis").value = r.hypothesis;
+  state.uid = uid; $("costhint").textContent = "Stored example: no API call" + ($("llm").checked ? " except the wording." : ".");
+  return r;
+}
+async function pick(i) {
+  if (busy) return;
+  const c = META.curated[i]; state.curated = i; state.model = c.model; renderModels(); renderChips();
+  setBusy(true); $("err").style.display = "none";
+  try { render(await loadExample(c.uid)); } catch(e) { showError(e); } finally { setBusy(false); }
+}
+async function randomCase(split) {
+  if (busy) return;
+  setBusy(true); $("err").style.display = "none";
+  try {
+    const {uid} = await api("/api/random?split=" + split); state.curated = null; renderChips(); setBusy(true);
+    render(await loadExample(uid));
+  } catch(e) { showError(e); } finally { setBusy(false); }
+}
+
+async function run(passive = false) {
+  if (busy) return;
+  setBusy(true); $("err").style.display = "none";
+  const live = !state.uid; $("spin").style.display = live || $("llm").checked ? "block" : "none";
+  $("spin").textContent = live ? "Asking the model with five prompts…" : "Writing the reply…";
+  try {
+    const body = {model: state.model, wording: !passive && $("llm").checked ? "llm" : "template"};
+    if (state.uid) body.uid = state.uid; else { body.premise = $("premise").value; body.hypothesis = $("hypothesis").value; }
+    render(await api("/api/assess", body));
+  } catch (e) { $("err").textContent = e.message; $("err").style.display = "block"; }
+  finally { setBusy(false); $("spin").style.display = "none"; }
+}
+
+function inputBody() {
+  return state.uid ? {uid: state.uid} : {premise: $("premise").value, hypothesis: $("hypothesis").value};
+}
+async function compare() {
+  if (busy) return;
+  setBusy(true); $("err").style.display = "none";
+  const live = !state.uid; $("spin").style.display = live ? "block" : "none";
+  $("spin").textContent = "Asking GPT and Claude with five prompts each…";
+  try {
+    const res = await api("/api/compare", inputBody());
+    let ap = null;
+    if (META.apertus) {
+      if (state.uid) {
+        try { ap = await api("/api/apertus", {uid: state.uid}); } catch (e) { ap = {error: e.message}; }
+      } else {
+        ap = {error: "Apertus is shown for stored example cases only (no live calls)."};
+      }
+    }
+    renderCompare(res, ap);
+  }
+  catch (e) { $("err").textContent = e.message; $("err").style.display = "block"; }
+  finally { setBusy(false); $("spin").style.display = "none"; }
+}
+function showModel(k) { if (busy) return; state.model = k; renderModels(); run(true); }
+function mark(m) { return m === undefined ? "" : (m ? ` <span class="ok">✓</span>` : ` <span class="no">✗</span>`); }
+
+function apertusCol(ap) {
+  if (!ap) return "";
+  if (ap.error) return `<div class="persp posthoc"><h4>Apertus<span class="ph-tag">post-hoc</span></h4>
+    <p class="hint">${esc(ap.error)}</p></div>`;
+  const row = k => { const a = ap.assessors[k], [cls, short] = STYLE[a.action];
+    return `<div class="kv"><span>With ${k === "gpt" ? "GPT" : "Claude"} assessor</span><span><span class="badge ${cls}" style="margin:0;padding:1px 7px">${short}</span>${mark(a.matches_reference)}</span></div>`; };
+  return `<div class="persp posthoc"><h4>Apertus · ${esc(ap.model_name)}<span class="ph-tag">post-hoc</span></h4>
+    <div class="big">${ap.model_label} (${ap.model_confidence.toFixed(2)})</div>
+    <div class="kv"><span>Matches human majority</span><b>${ap.model_matches_majority ? "yes" : "no"}</b></div>
+    <div class="kv"><span>Label changes across prompts</span><span>${pct(ap.label_flips)}</span></div>
+    ${Object.keys(ap.assessors).map(row).join("")}
+    <div class="kv"><span>Reference for this model</span><b>${esc(ap.reference_coarse)}</b></div>
+    <p class="hint">Added after the freeze. No assessor was trained on Apertus: the frozen GPT and Claude assessors are applied unchanged.
+      Stored answers only, no live calls.</p></div>`;
+}
+
+function renderCompare(res, ap = null) {
+  const keys = Object.keys(res), any = res[keys[0]], h = any.human;
+  const agree = keys.every(k => res[k].decision.action === any.decision.action);
+  const col = k => { const r = res[k], d = r.decision, [cls, short] = STYLE[d.action];
+    return `<div class="persp"><h4>${k === "gpt" ? "GPT" : "Claude"} · ${esc(r.model_name)}</h4>
+      <div class="badge ${cls}" style="margin-bottom:4px">${short}</div>${h ? mark(r.human.matches_reference) : ""}
+      <div class="big">${esc(d.action_title)}</div>
+      <div class="kv"><span>Model answer</span><b>${d.model_label} (${d.model_confidence.toFixed(2)})</b></div>
+      <div class="kv"><span>Predicted disagreement</span><span>${d.scores.disagreement.toFixed(2)} / ${d.thresholds.disagreement.toFixed(2)}</span></div>
+      <div class="kv"><span>Error risk</span><span>${d.scores.error_risk.toFixed(2)} / ${d.thresholds.error_risk.toFixed(2)}</span></div>
+      <div class="kv"><span>Label changes across prompts</span><span>${pct(d.scores.label_flips)}</span></div>
+      ${r.human ? `<div class="kv"><span>Reference for this model</span><b>${esc(r.human.reference_coarse)}</b></div>
+      <p class="hint">✓/✗ compares the coarse response category. It does not certify the model answer or generated explanation.</p>` : ""}
+      <button class="linkbtn" onclick="showModel('${k}')">Show full answer and explanation</button></div>`; };
+  $("out").innerHTML = `<div class="card">
+    <div class="badge b-gray">Model comparison</div>
+    <h2>${agree ? "Both models choose the same reaction" : "The models choose different reactions"}</h2>
+    <div class="pair"><div><span>Sentence</span>${esc(any.premise)}</div><div><span>Statement</span>${esc(any.hypothesis)}</div></div>
+    <div class="cmp${ap ? " three" : ""}">${keys.map(col).join("")}${apertusCol(ap)}</div>
+    ${h ? `<p class="hint" style="margin-top:14px">Human votes (100 annotators): ${LABELS.map(l => `${l} ${pct(h.votes[l])}`).join(" · ")} ·
+      Each model has its own reference response because it depends on that model's answer as well as the human votes.</p>` : `<p class="hint" style="margin-top:14px">Your own pair: no human judgements were collected for it, so there is no reference to compare with.</p>`}
+    <div class="foot">Each model has its own frozen assessor and thresholds (protocol ${esc(any.protocol_id)}). Format: score / threshold.</div>
+  </div>`;
+}
+
+function rulesBox(r) {
+  const d = r.decision, h = r.human;
+  const row = (name, action, m, me) => `<tr class="${me ? "me" : ""}"><td>${name}</td><td class="act">${action}${h ? mark(m) : ""}</td></tr>`;
+  return `<h3>How simpler rules would decide</h3>
+    <table class="rules">${row("This system: disagreement + error risk (two signals)", d.action, h && h.matches_reference, true)}
+    ${d.baselines.map(b => row(esc(b.name), b.action, b.matches_reference, false)).join("")}</table>
+    <p class="hint" style="margin-top:6px">${h ? "✓/✗ = same reaction type as the human reference (answer / hedge / debatable). " : ""}All rules use thresholds chosen on development data.
+      On the held-out MNLI test, two signals beat one learned score for GPT but not for Claude.</p>`;
+}
+
+function reply(r) {
+  const d = r.decision, t = r.text, a = d.action, [r1, r2] = d.readings;
+  const readings = `<div class="grid2">
+      <div class="persp"><div class="persp-title">${r.wording_source === "llm" ? "Suggested reading 1" : "Predicted label 1"} · ${r1}</div><p>${esc(t.reading_1)}</p></div>
+      <div class="persp"><div class="persp-title">${r.wording_source === "llm" ? "Suggested reading 2" : "Predicted label 2"} · ${r2}</div><p>${esc(t.reading_2)}</p></div></div>`;
+  if (a === "answer") return `<div class="single-text"><p>${esc(t.answer_text)}</p></div>`;
+  if (a === "hedge") return `<div class="uncertain-box"><div class="box-label">Uncertain answer</div><p>${esc(t.answer_text)}</p></div>`;
+  if (a === "alternatives") return `<div class="overview-box"><div class="box-label">Overview</div><p>${esc(t.answer_text)}</p></div>${readings}` +
+    (t.divergence ? `<div class="disagree-box" style="margin-top:12px"><div class="box-label">Where the readings split</div><p>${esc(t.divergence)}</p></div>` : "");
+  return `<div class="question-box"><div class="box-label">Before answering</div><p>${esc(t.question)}</p></div>
+    <div class="overview-box"><p>${esc(t.answer_text)}</p></div>${t.reading_1 && t.reading_2 ? `<h3>Predicted human labels</h3>${readings}` : ""}`;
+}
+
+function meter(name, v, thr, note, used = true) {
+  return `<div class="meter" style="${used ? "" : "opacity:.4"}"><div class="lbl"><span>${name} <span class="hint">${note}</span></span><span><b>${v.toFixed(2)}</b> · threshold ${thr.toFixed(2)}</span></div>
+    <div class="track"><div class="fill" style="width:${Math.min(100, v * 100)}%;background:${v >= thr ? "#1a1a1a" : "#b5b0a5"}"></div><div class="thr" style="left:${Math.min(100, thr * 100)}%"></div></div></div>`;
+}
+function dist(title, p) {
+  return `<div class="box-label" style="margin-top:12px">${title}</div>` + LABELS.map((l, i) =>
+    `<div class="dist"><span>${l}</span><div class="bar c-${l[0]}" style="width:${Math.max(2, p[l] * 100)}%"></div><span>${pct(p[l])}</span></div>`).join("");
+}
+
+function render(r) {
+  const d = r.decision, [cls, short] = STYLE[d.action], h = r.human;
+  const selected = state.curated !== null ? META.curated[state.curated] : null;
+  const cur = selected && selected.uid === r.uid && selected.model === r.model ? selected : null;
+  const debatable = d.scores.disagreement >= d.thresholds.disagreement;
+  const verdict = h ? (h.matches_reference ? `<span class="ok">✓ coarse category matches</span>` : `<span class="no">✗ coarse category differs</span>`) : "";
+  $("out").innerHTML = `
+  <div class="card">
+    ${cur ? `<div class="case-note"><b>${esc(cur.tag)}.</b> ${esc(cur.why)}</div>` : ""}
+    <div class="badge ${cls}">${short}</div> <span class="hint">· ${r.mode === "live" ? "live" : esc(r.source)} · ${esc(r.model_name)}</span>
+    <h2>${esc(d.action_title)}</h2>
+    <div class="pair"><div><span>Sentence</span>${esc(r.premise)}</div><div><span>Statement</span>${esc(r.hypothesis)}</div></div>
+    <p class="hint">Frozen pipeline classification: <b>${esc(d.model_label)}</b>. Chosen reaction: <b>${esc(d.action)}</b>.</p>
+    ${r.wording_warning ? `<p class="hint">${esc(r.wording_warning)}</p>` : ""}
+    ${reply(r)}
+    ${rulesBox(r)}
+    <div class="foot">Decision: frozen assessor and policy (protocol ${esc(r.protocol_id)}). Wording: ${r.wording_source === "llm" ? "generated separately, not evaluated; semantic consistency is not guaranteed" : "fixed template; no case-specific readings generated"}.</div>
+  </div>
+  <div class="card"><details ${cur ? "open" : ""}><summary>Why this decision?</summary>
+    <h3>Decision path</h3><ul class="path">${d.decision_path.map(x => `<li>${esc(x)}</li>`).join("")}</ul>
+    <h3>Signals</h3>
+    ${meter("Predicted human disagreement", d.scores.disagreement, d.thresholds.disagreement, "(learned from 100 votes per training pair)")}
+    ${meter("Error risk on a clear case", d.scores.error_risk, d.thresholds.error_risk, debatable ? "(not used: disagreement comes first)" : "(learned)", !debatable)}
+    ${meter("Clarification cue", d.scores.clarify_cue, d.thresholds.clarify_cue, debatable ? "(model's own rating)" : "(not used: only for debatable cases)", debatable)}
+    <p class="hint" style="margin-top:8px">Model answer: <b>${d.model_label}</b> · confidence ${d.model_confidence.toFixed(2)} ·
+      label changes across the 5 prompts: ${pct(d.scores.label_flips)}</p>
+    <div class="${h ? "grid2" : ""}"><div>${dist("Predicted human votes", d.predicted_human)}</div>
+      ${h ? `<div>${dist("Actual human votes (100 annotators)", h.votes)}</div>` : ""}</div>
+    ${h ? `<h3>Compared with the operational reference</h3><p class="hint">Coarse reference (votes + this model's answer): <b>${esc(h.reference_coarse)}</b> · system: <b>${d.action}</b> · ${verdict}.
+      ${h.reference_fine ? `<br>Fine reference: <b>${esc(h.reference_fine)}</b> · ${h.matches_reference_fine ? "matches" : "differs"}.` : "<br>No annotated fine reference for clarify versus alternatives."}
+      ${h.categories && h.categories.length ? ` · annotated reason: ${esc(h.categories.join(", "))}` : ""}</p>` : ""}
+    <h3>Five prompts</h3>
+    <div class="tablewrap"><table><tr><th>#</th><th>ent.</th><th>neu.</th><th>con.</th><th>lex.</th><th>ref.</th><th>prob.</th><th>model's short reason</th></tr>
+    ${d.heads.map(x => `<tr><td>${x.prompt}</td><td>${x.entailment.toFixed(2)}</td><td>${x.neutral.toFixed(2)}</td><td>${x.contradiction.toFixed(2)}</td>
+      <td>${x.lexical_ambiguity.toFixed(2)}</td><td>${x.unclear_reference.toFixed(2)}</td><td>${x.probabilistic_inference.toFixed(2)}</td><td>${esc(x.reason)}</td></tr>`).join("")}</table></div>
+  </details></div>`;
+}
+
+(async () => {
+  META = await api("/api/meta");
+  $("proto").textContent = `Frozen protocol ${META.protocol_id} · ${META.counts.test} MNLI test pairs and ${META.counts.shift} SNLI pairs stored.`;
+  renderModels(); renderChips();
+  ["premise", "hypothesis"].forEach(id => $(id).addEventListener("input", markLive));
+  $("llm").addEventListener("change", () => { if (state.uid) $("costhint").textContent = "Stored example: no API call" + ($("llm").checked ? " except the wording." : "."); });
+  await pick(0);
+})().catch(showError);
+</script>
+</body>
+</html>

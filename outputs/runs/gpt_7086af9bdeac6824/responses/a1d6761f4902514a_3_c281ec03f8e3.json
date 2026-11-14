@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18264e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "66af979ae100040f05482402c64e82fe27e13596c445ad48a5ee5f61f3843c5b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04169fb45d693112016acbf76b2b9c87d2971fcb0d759dcd38",
+  "received_at": "2026-10-11T20:54:07.238684+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "If most of a whale is incompressible, it supports the claim that whales cannot be compressed well. The hypothesis does generalize from the particular whale mentioned to whales overall."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

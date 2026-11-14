@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40710n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ba0b7ddceebb5ae17523df82be5dc861f519b4ec0f51c6e194eebdaa37de9e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011b80faac7eb7b7016acbf85b371487d287122d03bd326982",
+  "received_at": "2026-10-11T20:58:06.840958+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.22,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The repeated imperative encourages continued writing, which supports the hypothesis. Calling that writing “practice” adds a plausible purpose that is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 119,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

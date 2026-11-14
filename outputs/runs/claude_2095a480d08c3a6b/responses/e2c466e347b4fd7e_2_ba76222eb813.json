@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "18874n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "baa4a79805ce428e186ec2518b17258b8c97d58a8d0f7b8276d41f8de885552b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy42uR9EdVyDKkkqeR7Y",
+  "received_at": "2026-10-12T21:28:30.080426+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.82,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise only says the addressee wonders what they will become, which does not establish wanting to be a lawyer. The speaker being a lawyer is incidental, and wondering suggests uncertainty, so the hypothesis is unsupported and only weakly in tension."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

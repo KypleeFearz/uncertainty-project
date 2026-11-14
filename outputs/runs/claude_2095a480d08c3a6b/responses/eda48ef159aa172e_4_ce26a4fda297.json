@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "6792e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "30ad360ad2cd077ce68e184f7f958fcc79290ed5d843c7b85059d57b2ac27df5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4YvtXsYmJFfSyBKjqx",
+  "received_at": "2026-10-12T21:35:17.237048+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.09,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says British magazines published a huge number of interviews with Kate Winslet, which matches 'interviewed her a lot'. Small gap: published interviews may not mean each magazine conducted its own interview."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

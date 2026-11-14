@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "142604e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c826036ad83206329c7061dd795d8ba19b89a9f9c2949cbe2c5652a107913d4f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf5e7c7697d4e34016acbf72d26c487d28495777cc7b22eb0",
+  "received_at": "2026-10-11T20:53:05.118791+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise says obtaining necessary records may become harder, not that it is already more difficult or that audits and evaluations are harder. The hypothesis turns a possible obstacle into an established causal difficulty."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 571
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

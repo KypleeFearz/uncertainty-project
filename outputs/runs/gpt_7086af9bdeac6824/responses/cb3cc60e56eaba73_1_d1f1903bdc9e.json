@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105962c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "45a0ad1dd30bbceae50571c5938cef5bf2c71b8f94cd8d882f976fdc55b140d9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05ef6ee74c872150016acbe47f839c87d2b886863ca13dfbd0",
+  "received_at": "2026-10-11T19:33:24.210323+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise associates the document with July 29, 1999, but does not explicitly say it was put in place then. The hypothesis is supported only if “put in place” means issued or published on the cited date."
+  },
+  "usage": {
+    "input_tokens": 482,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 662
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "44861n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise states indifference to how librarians handle the reporters, while the hypothesis claims indifference to discarding them. 'Do with' is broader than 'thrown away,' but discarding is a plausible extreme interpretation of neglecting handling. The reference to 'law librarians' introduces some ambiguity about who is acting."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 371,
+  "output_tokens": 137
+ },
+ "seconds": 2.81,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:23:52.877661+00:00"
+}

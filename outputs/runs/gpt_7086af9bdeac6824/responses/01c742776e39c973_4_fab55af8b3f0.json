@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41391n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a561646661777ac0f584b4123f1d8ebd9373daa22f2e3c5909eb1e3605aa13d0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a298e5826cd50eb016acbed89286887d2a0d22fb7bb9430f2",
+  "received_at": "2026-10-11T20:11:57.263787+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise confirms more than 160 reports detailing specific findings, but gives no upper bound. Roughly 170 is compatible with that count, though it requires an assumption about how close the total is to 170."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 572
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97011c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64fe56dc85dca59c21645fa3cbc0e605b1a8b5e26f44e8ce6ecf67e865ae5359",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_049726e8b4d94c51016acd4865f57887d2850225282e9fb4fd",
+  "received_at": "2026-10-12T20:51:54.647996+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "Unmet expectations about ANC-led reform do not establish that the ANC would not be in charge. The ANC could be responsible for reform but fail to deliver the expected results."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

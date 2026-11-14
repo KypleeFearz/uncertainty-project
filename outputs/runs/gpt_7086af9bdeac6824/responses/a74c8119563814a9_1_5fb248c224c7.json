@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6141981912.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be550234f9c5590e3d7a669adf65600242ca973d8984ba911ff2e16828499244",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0989448a8f5cd4dd016acd4e2df35087d2816381b1962e5afe",
+  "received_at": "2026-10-12T21:16:32.719051+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.94,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The premise states that a soccer player holds the ball, but does not establish that the player is professional. The player could be either professional or amateur."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 94,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

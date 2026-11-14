@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18264n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8df1cf34f6f9768790f50ce3736c23e80b80ef7d3a3c8bb03aacc1416449c80f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf0c47c18d789b5016acbf76f2c5087d2ba83e6f0f60ad6ac",
+  "received_at": "2026-10-11T20:54:11.162732+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.86,
+    "brief_reason": "The premise says most of the whale is incompressible but does not explicitly establish that any remaining parts are compressible. Reading “most” as “most but not all” makes the hypothesis plausible, though that interpretation is not logically guaranteed."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

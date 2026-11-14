@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "41975e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b967da9df079c49fe009c90cd772e3d380fd04458ab2f56d884e253bdcc0a86",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8c6a6f59ebc6b7016acd458ae16087d2ba77c60589e18ba5",
+  "received_at": "2026-10-12T20:39:41.785924+00:00",
+  "parsed": {
+    "entailment": 0.97,
+    "neutral": 0.025,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "Tommy's casual manner supports a calm outward demeanor, while his furious effort to think and recognition that his wits were his only chance of escape support the description of his racing thoughts."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

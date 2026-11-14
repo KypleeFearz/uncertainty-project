@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43891n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e416462585c770f552963908ace7380fe23a5549058e6736ead9c2d7df3348e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_006e515af31ab5be016acbf873e9c087d2a2ecd210618ab2e3",
+  "received_at": "2026-10-11T20:58:31.025453+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.989,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise describes a recommendation to the Secretary of Defense about policy and guidance, not dietary advice to you. It neither establishes nor rules out a separate GAO recommendation about fruit and vegetable consumption."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

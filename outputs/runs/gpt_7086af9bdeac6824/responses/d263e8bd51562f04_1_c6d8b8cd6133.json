@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "39995n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "634e4397d07eba17cbb53854bf920fd4819a267cbbf19a6214998cf2ded64567",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089d3f57ea238608016acd456b61cc87d2ad77cc320e533bf6",
+  "received_at": "2026-10-12T20:39:10.591244+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.81,
+    "brief_reason": "The premise states that Julius groaned, but does not establish that he was hearing advice or that the advice was terrible. Those details require assumptions about the quoted statement and his reaction."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

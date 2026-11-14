@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42983e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "386be2579ae49c5ac7e73f0400d993b5d9358688e562f2e533b34997ce947367",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01b8a237abdc41da016acbedd3821087d280487adac0fafc50",
+  "received_at": "2026-10-11T20:13:11.350615+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says the town is known for its sparkling wine but does not specify how much wine it has. Abundance is a plausible inference from that reputation, not a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

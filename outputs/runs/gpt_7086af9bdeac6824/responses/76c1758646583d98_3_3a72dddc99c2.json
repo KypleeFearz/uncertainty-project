@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131623c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9c0c5be7dccf60178b483a4b8c304b2251c9e050ecad5a5f08454cb8cd1ca2be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff1a50c7a9f5180016acd4319cd7887d2805c8d5101437478",
+  "received_at": "2026-10-12T20:29:19.024232+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.9,
+    "contradiction": 0.09,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise reports Americans' suspicions that Communists intended to undermine democracy, not what Communists actually did. It neither establishes nor rules out their assisting America's government during the Cold War."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

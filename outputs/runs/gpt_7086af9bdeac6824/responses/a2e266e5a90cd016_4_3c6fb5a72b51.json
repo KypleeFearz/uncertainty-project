@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53027n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "21a8ddb2a5e554676ced2e6ae671da5adc05792eb197374ab60c3bea0741ea56",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_047ca1080d01716f016acbef10c30487d2a0c9184e3fa1a64c",
+  "received_at": "2026-10-11T20:18:28.462573+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise explicitly says cormorants can be seen in October. Its statement that there is plenty to see year-round does not establish that cormorants specifically are visible throughout the year."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

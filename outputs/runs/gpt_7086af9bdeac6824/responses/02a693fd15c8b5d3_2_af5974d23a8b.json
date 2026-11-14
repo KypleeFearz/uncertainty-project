@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13607n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eff4014c3f1dfc6f7cab86f780eeae87410cd7bde2baca0d988d2b97c83991ca",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04ce7c2579f2a472016acd4384851887d281a8ab9b0a6d7a1f",
+  "received_at": "2026-10-12T20:31:04.580079+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.09,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "“Now it's my turn” and “I can make my way afresh” support the idea that the speaker has an opportunity to change things for themselves. The hypothesis paraphrases the figurative language as personal renewal."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

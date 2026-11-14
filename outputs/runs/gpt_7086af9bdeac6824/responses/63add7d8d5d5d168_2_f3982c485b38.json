@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "76037n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c7f4a1fc0f7843886ba489d1e59988f59dfe04ab0f50b601e1be3ec90c33f334",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08b51c02d438322c016acbf21f0cf487d293f9f0c554518f6f",
+  "received_at": "2026-10-11T20:31:30.566059+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise asks whether an unspecified action occurred, while the hypothesis asks whether it was intended. The premise does not establish the person's intention, and the action referred to is unclear."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

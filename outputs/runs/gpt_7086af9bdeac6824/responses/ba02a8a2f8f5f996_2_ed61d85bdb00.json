@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2043e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "57d40e0078d3634bf525325659f84063b1bae49c58ee2197c0d0879a62544f65",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_011f82dd22b73bf0016acd4474da8887d2bce3db975ad53c7a",
+  "received_at": "2026-10-12T20:35:04.694586+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.52,
+    "brief_reason": "The premise links knowing what “nothing” is to moving out there, supporting the hypothesis as a natural paraphrase. However, “discovered” implies newly acquiring that knowledge, which the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

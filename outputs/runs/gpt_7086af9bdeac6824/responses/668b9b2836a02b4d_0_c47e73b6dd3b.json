@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44138c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac70a6ffdeb9b17a546b24c2a0c06fbee671c8f0c1c09b639d902c6124c7e66a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f09aa2d72a2346a016acd45acb7dc87d29de67e7eda769a09",
+  "received_at": "2026-10-12T20:40:16.757576+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "Calling 1820 a pivotal year in the Kingdom of Hawaii's history implies a significant development after the 18th century, conflicting with the claim that it has remained exactly the same. The premise does not specify the nature of that development."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

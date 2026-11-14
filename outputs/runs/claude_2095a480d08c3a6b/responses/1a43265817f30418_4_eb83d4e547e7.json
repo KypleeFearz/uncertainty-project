@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "126286e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "edd5c264690f7cd1ff68f39f012c5c492d4047725323df0ba1585cd88cc986f6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9YzsUKe4AFiRrqT4Hm",
+  "received_at": "2026-10-11T21:19:41.714166+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.28,
+    "contradiction": 0.65,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says cost is the big factor, with \"this day and age\" being just an idiom for the present time, not the age of a person. The hypothesis takes \"age\" as a factor, which the premise does not say and in effect conflicts with, though a reading that treats it as merely unmentioned would make the pair neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 180,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

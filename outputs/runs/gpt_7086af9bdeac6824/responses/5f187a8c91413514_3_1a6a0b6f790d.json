@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80517e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6d4feb9bbd7a896ba4058e3c9e989285aea6c1ef32aa6a13690d2ea846876a1b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_091a3fbaf903ea06016acd47d0b52487d2a84a6f5b03a1fcc3",
+  "received_at": "2026-10-12T20:49:25.311302+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "“Doesn't look good” suggests a negative assessment but does not establish the stronger claim “looks really bad.” It could describe something merely mediocre, though it can also function as an understatement."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

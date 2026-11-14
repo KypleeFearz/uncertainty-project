@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117576c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2e0327b68007bd6511e7b6f4eea98666daf88636daa3ef386485ca376cb94937",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a7e9488966345a016acbf6211a8887d2b8f614011eb8aec8",
+  "received_at": "2026-10-11T20:48:36.109693+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.13,
+    "contradiction": 0.86,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The speaker explicitly says they do not know how long questioning the person would take. This conflicts with the hypothesis's expressed certainty that it would not take long."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

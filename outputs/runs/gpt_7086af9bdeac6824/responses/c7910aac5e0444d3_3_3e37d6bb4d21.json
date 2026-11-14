@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61524n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "baa67195fba220de9895aef8a5ddfddeaecc749b4ae5b8ce9ec5512d3345161d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01db1c1585362cc2016acbf053f29487d29289dfda78f9c12f",
+  "received_at": "2026-10-11T20:23:52.010079+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "An anecdotal wrap-up is a concluding summary, but it does not establish that these are Randy's last words. 'Last words' could mean closing remarks or final words before death, making the relationship ambiguous."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

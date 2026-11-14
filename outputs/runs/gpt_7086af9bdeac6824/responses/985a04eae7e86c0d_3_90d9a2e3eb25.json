@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54904e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9dd1f500e1dab6c51e393912cffa4feb9a83be60d880d27b5d326ad10f6ddade",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0721e692f14347f8016acbef6a52b087d2ae4f035c83a6f27a",
+  "received_at": "2026-10-11T20:19:57.400399+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise asks for confirmation that John and Miss Howard were truthful, but does not establish that the speaker knows them well or is certain of their truthfulness."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

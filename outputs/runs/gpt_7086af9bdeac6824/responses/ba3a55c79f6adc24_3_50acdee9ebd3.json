@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101981n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "db71031c2f0869f4555a7bcdce2e170ae69fe6b23238effe2a119d474196b19c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09a09d3f8222f081016acd41966cb887d284c065b8586c76da",
+  "received_at": "2026-10-12T20:22:49.396170+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.88,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise recommends Beaune for beginners and most others, but does not identify them as artists or extend the recommendation to all levels. Reading “the place to buy” as “the best place” also requires interpretation."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

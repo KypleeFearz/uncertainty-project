@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37407n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9e06a0837dc3944de5b3ae86990e6095b697f30f245d1c3d523f67a727c3a233",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e367357c2ee7d38016acbed12ed7887d2a0d9154c3e692648",
+  "received_at": "2026-10-11T20:09:58.676716+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.93,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.88,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise mentions correlation during summer but does not establish or rule out correlation with winter. It also does not identify what “5” and “Six” refer to or connect them."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

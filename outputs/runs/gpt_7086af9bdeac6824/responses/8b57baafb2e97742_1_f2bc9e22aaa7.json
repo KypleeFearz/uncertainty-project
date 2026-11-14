@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86008n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "11405a31577f601d9a608f0ea8cfac9f3678c46f2e7c7bc2b141dbb0df5f2f6d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03740cc63dac9bdf016acbf3996e0487d293127a07ddd3b05e",
+  "received_at": "2026-10-11T20:37:49.990576+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise invites the listener to look for themselves if they doubt the speaker, but does not establish whether looking will convince them. The hypothesis adds a definite claim that they will remain unconvinced."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

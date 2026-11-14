@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98116c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "857fe0038b0ed168ba0bc899116f4b571d0f42498252a0020c6db886e280604d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0832a212e1a2eccb016acd489aec0087d28908e5e5578abdd4",
+  "received_at": "2026-10-12T20:52:47.039506+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.88,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise asks about an actual eventual choice, while the hypothesis asks about a possibility under different circumstances. The premise establishes neither that counterfactual possibility nor its negation."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

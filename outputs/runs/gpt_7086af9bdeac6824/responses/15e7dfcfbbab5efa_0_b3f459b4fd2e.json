@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82049n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f003737f275da014bd9f6f3999f56686078fd36f0361d6103632c594d33f1f34",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d9842954b391b1016acbf2f88a7887d2adfc0d0a3969b3b9",
+  "received_at": "2026-10-11T20:35:09.278720+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.75,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.78,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The fragmented premise mentions having a prescription but does not clearly establish that anything provides assurance of it. The referent of \"That\" and the connection to \"they'll\" are unspecified."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

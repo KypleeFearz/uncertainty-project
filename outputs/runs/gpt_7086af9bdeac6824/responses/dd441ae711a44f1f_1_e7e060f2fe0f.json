@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18142n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "afe87d11ea5a643d7b5d1a989f1911cdf53dddace8bc1d7fb1610ee438d36327",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ec3cef3fdda34b016acbea543e5087d28795b55edbcbc641",
+  "received_at": "2026-10-11T19:58:16.463383+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.88,
+    "contradiction": 0.06,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise mentions fast-moving buffaloes and speculates that they graze, but does not establish when or for how long they stopped. The hypothesis's claim about a long period without stopping to graze remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 403,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

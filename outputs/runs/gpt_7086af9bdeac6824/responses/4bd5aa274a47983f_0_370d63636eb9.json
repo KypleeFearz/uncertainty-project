@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105911n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3982c51ae635c75aad1d7c4a5e79a0ff369647a10e52985116fce62d3f9c5f6b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040ab6c7ada3e250016acd41ccde4487d2ab55f5cc84e262fb",
+  "received_at": "2026-10-12T20:23:44.065735+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.81,
+    "contradiction": 0.18,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise associates using day care with missing bonding with babies, but does not explicitly assess whether the day care is perfect for the children. That concern suggests a negative assessment without conclusively ruling out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 497
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

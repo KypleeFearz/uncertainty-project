@@ -1,0 +1,49 @@
+split,model,definition,clear_cases,deviations,quantity,estimate,ci_95_low,ci_95_high
+test,gpt,frozen entropy definition,94,32,auroc_clear_case_risk_tree,0.888608870967742,0.7944475446428572,0.9531701584456961
+test,gpt,frozen entropy definition,94,32,auroc_label_and_confidence_tree,0.9037298387096775,0.8177622767857142,0.963187398538961
+test,gpt,frozen entropy definition,94,32,auroc_raw_confidence,0.8021673387096776,0.6876226110321177,0.9003233225108225
+test,gpt,frozen entropy definition,94,32,auroc_disagreement_signal,0.6169354838709677,0.4900264426360673,0.7255439960767829
+test,gpt,frozen entropy definition,94,32,risk_tree_minus_label_and_confidence,-0.015120967741935498,-0.03770782880029807,0.0020453131222621023
+test,gpt,frozen entropy definition,94,32,risk_tree_minus_disagreement_signal,0.27167338709677424,0.14428924663299653,0.4128082889297901
+test,gpt,majority at least 0.80,53,13,auroc_clear_case_risk_tree,0.9798076923076924,0.9408426073131955,1.0
+test,gpt,majority at least 0.80,53,13,auroc_label_and_confidence_tree,0.9836538461538462,0.9490218495934959,1.0
+test,gpt,majority at least 0.80,53,13,auroc_raw_confidence,0.9384615384615385,0.865166827852998,0.992644806743644
+test,gpt,majority at least 0.80,53,13,auroc_disagreement_signal,0.5721153846153846,0.4056818181818182,0.7317538858434651
+test,gpt,majority at least 0.80,53,13,risk_tree_minus_label_and_confidence,-0.0038461538461538325,-0.01602990033222589,0.004132162717601572
+test,gpt,majority at least 0.80,53,13,risk_tree_minus_disagreement_signal,0.4076923076923078,0.24696143018018019,0.571590909090909
+shift,gpt,frozen entropy definition,216,19,auroc_clear_case_risk_tree,0.5933742986908896,0.41885346015991176,0.7498537053224554
+shift,gpt,frozen entropy definition,216,19,auroc_label_and_confidence_tree,0.6053967405824205,0.4534415514102717,0.7459483245939975
+shift,gpt,frozen entropy definition,216,19,auroc_raw_confidence,0.8059043547956185,0.6996982574673402,0.9114447067141033
+shift,gpt,frozen entropy definition,216,19,auroc_disagreement_signal,0.6211594977290943,0.4648751582779361,0.7625607201088103
+shift,gpt,frozen entropy definition,216,19,risk_tree_minus_label_and_confidence,-0.0120224418915309,-0.0533590191126956,0.03271361620190956
+shift,gpt,frozen entropy definition,216,19,risk_tree_minus_disagreement_signal,-0.027785199038204644,-0.20567185543030955,0.14637711015996824
+shift,gpt,majority at least 0.80,147,5,auroc_clear_case_risk_tree,0.780281690140845,0.37356930910967423,0.9954018737672583
+shift,gpt,majority at least 0.80,147,5,auroc_label_and_confidence_tree,0.7816901408450705,0.4222767231150901,0.9987121212121212
+shift,gpt,majority at least 0.80,147,5,auroc_raw_confidence,0.9380281690140846,0.8276720430107527,1.0
+shift,gpt,majority at least 0.80,147,5,auroc_disagreement_signal,0.673943661971831,0.2959638946819604,0.934625684040549
+shift,gpt,majority at least 0.80,147,5,risk_tree_minus_label_and_confidence,-0.0014084507042254613,-0.08969941956882253,0.09414015085833177
+shift,gpt,majority at least 0.80,147,5,risk_tree_minus_disagreement_signal,0.10633802816901405,-0.11959600567721,0.42749087591240875
+test,claude,frozen entropy definition,94,20,auroc_clear_case_risk_tree,0.8040540540540541,0.6942983934389394,0.8969833669354839
+test,claude,frozen entropy definition,94,20,auroc_label_and_confidence_tree,0.8922297297297297,0.7884446470896049,0.969140718450957
+test,claude,frozen entropy definition,94,20,auroc_raw_confidence,0.8104729729729729,0.7066061253561253,0.9087009234896559
+test,claude,frozen entropy definition,94,20,auroc_disagreement_signal,0.6807432432432432,0.5395435098354961,0.8140589735487946
+test,claude,frozen entropy definition,94,20,risk_tree_minus_label_and_confidence,-0.08817567567567564,-0.22042998382418555,0.03966009480715359
+test,claude,frozen entropy definition,94,20,risk_tree_minus_disagreement_signal,0.12331081081081086,-0.07662008171023249,0.31636751406488256
+test,claude,majority at least 0.80,53,8,auroc_clear_case_risk_tree,0.8763888888888889,0.7434292258715739,0.9863961038961039
+test,claude,majority at least 0.80,53,8,auroc_label_and_confidence_tree,0.9555555555555556,0.8954148645774249,0.9960725881261595
+test,claude,majority at least 0.80,53,8,auroc_raw_confidence,0.8847222222222222,0.7164860840372537,0.9921285962301587
+test,claude,majority at least 0.80,53,8,auroc_disagreement_signal,0.7875,0.5840622150022801,0.9541851441241683
+test,claude,majority at least 0.80,53,8,risk_tree_minus_label_and_confidence,-0.07916666666666672,-0.20494795854551953,0.024540255662704603
+test,claude,majority at least 0.80,53,8,risk_tree_minus_disagreement_signal,0.0888888888888889,-0.1418482704402516,0.36674418604651154
+shift,claude,frozen entropy definition,216,12,auroc_clear_case_risk_tree,0.755718954248366,0.5902323664387082,0.8958603896103896
+shift,claude,frozen entropy definition,216,12,auroc_label_and_confidence_tree,0.6942401960784313,0.4671045691003674,0.8695861845923203
+shift,claude,frozen entropy definition,216,12,auroc_raw_confidence,0.8825571895424837,0.7853952913764283,0.9582988494300773
+shift,claude,frozen entropy definition,216,12,auroc_disagreement_signal,0.5694444444444444,0.3758246045819575,0.7576981431159419
+shift,claude,frozen entropy definition,216,12,risk_tree_minus_label_and_confidence,0.061478758169934644,-0.13381345251370697,0.28729523111589694
+shift,claude,frozen entropy definition,216,12,risk_tree_minus_disagreement_signal,0.18627450980392157,-0.07903404706790128,0.4354144139273356
+shift,claude,majority at least 0.80,147,2,auroc_clear_case_risk_tree,0.9,0.7786231884057971,1.0
+shift,claude,majority at least 0.80,147,2,auroc_label_and_confidence_tree,0.996551724137931,0.9890510948905109,1.0
+shift,claude,majority at least 0.80,147,2,auroc_raw_confidence,0.9827586206896552,0.9594934699800473,1.0
+shift,claude,majority at least 0.80,147,2,auroc_disagreement_signal,0.27241379310344827,0.2020141458901441,0.34585336538461536
+shift,claude,majority at least 0.80,147,2,risk_tree_minus_label_and_confidence,-0.096551724137931,-0.21753650846332556,0.0036731161442680044
+shift,claude,majority at least 0.80,147,2,risk_tree_minus_disagreement_signal,0.6275862068965518,0.4896270274049217,0.7735651552287582

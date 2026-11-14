@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "107577e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3aa08fe7c8a9d2c812abdb22f443381d963ee20955a81507951854bf6d991c6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0024dbc19e39958b016acbe4a882d087d282b8999e048824ba",
+  "received_at": "2026-10-11T19:34:04.385354+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The premise contrasts the nave-flanking arches, which are filled with tiers of columns, with the entrance arches, which are backed by semi-domes. These different architectural treatments support the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

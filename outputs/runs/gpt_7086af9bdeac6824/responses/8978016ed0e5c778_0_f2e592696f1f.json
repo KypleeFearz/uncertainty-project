@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131261n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64956bc5c755dd9d3ff5414666f402275a12f77796931fc85430f2d55c013af7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_094150fe064a5288016acbe7f6cfa887d2bd43098d38bccfd3",
+  "received_at": "2026-10-11T19:48:11.287293+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise establishes a signal timed to the man's exit and directs the listener to act on it. Following him is a plausible intended action, but “off you go” does not explicitly specify it."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

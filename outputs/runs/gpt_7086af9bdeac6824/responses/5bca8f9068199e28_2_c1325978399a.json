@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113926e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6af2edd76afac9a2b41a8ceb5c484e680b9a98aeaafdd7e7cb4b6640b5275b84",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a2cc565866a3581016acbe57a986887d2bd0839aace7123d9",
+  "received_at": "2026-10-11T19:37:34.921946+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.19,
+    "brief_reason": "The premise says experience helps CIOs and business managers build a shared vision, supporting the hypothesis that previous involvement enables them to have the same vision. The hypothesis leaves “they” unspecified and slightly strengthens “better enables” to “are able.”"
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

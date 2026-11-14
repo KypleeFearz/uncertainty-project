@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19186c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f384dabfb4165897a5c776961028f6a4c24ab29f9eee8c6beb352a46311731da",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04767ee8b9c458d9016acd4470e31c87d2a491871f66c31b69",
+  "received_at": "2026-10-12T20:35:00.714335+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.14,
+    "brief_reason": "The premise says the researchers found expected types of stress, but does not describe how those stresses affected people. Expected stressors do not establish whether their effects matched or differed from expectations."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 121,
+    "output_tokens_details": {
+      "reasoning_tokens": 19
+    },
+    "total_tokens": 511
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

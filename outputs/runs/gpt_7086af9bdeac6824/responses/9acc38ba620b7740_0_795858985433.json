@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21957n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fe2f5f91ac82703953b08c9d03825c6cabdbc1fc3082322258e49fe8a821fe8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00d9ec860218ff1d016acbeae2a15c87d28632fb94bfa0fc53",
+  "received_at": "2026-10-11T20:00:38.289030+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.92,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.87,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise describes unspecified items manufactured for sale in Europe but does not identify the machines used or where manufacturing occurs. The referents of “those” and “the other way around” are unclear, so differently designed machines are not established."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

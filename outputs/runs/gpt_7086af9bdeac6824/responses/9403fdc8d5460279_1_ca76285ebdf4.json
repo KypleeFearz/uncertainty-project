@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3640407952.jpg#0r1e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6170cd562bb6c3b880f6570063167256fa84438dbd46b7304d0c9c51783e3483",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_061447b996bce0ca016acd4bce3b8087d2bf33d33747057099",
+  "received_at": "2026-10-12T21:06:25.165215+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "Performing a stunt on a ramp establishes the skateboarder's activity, not their preference. Enjoying skateboarding on ramps is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "10916n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3b82a8dbbc1022ee8dc196c222e9e3f9cffa209e604eeb302e83422163620c7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a483aef538a44d0016acbe4d7953887d29aa130fc2704363c",
+  "received_at": "2026-10-11T19:34:52.046382+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "Having gone a long way using what he found in the book supports the interpretation that he learned a lot from it. However, substantial progress could also result from applying a small amount of information effectively."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

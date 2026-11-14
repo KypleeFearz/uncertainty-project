@@ -1,0 +1,19 @@
+|--- single_entropy <= 0.884
+|   |--- probabilistic_inference_mean <= 0.575
+|   |   |--- credal_width_max <= 0.235
+|   |   |   |--- single_n <= 0.560
+|   |   |   |   |--- value: [0.007]
+|   |   |   |--- single_n >  0.560
+|   |   |   |   |--- value: [0.113]
+|   |   |--- credal_width_max >  0.235
+|   |   |   |--- value: [0.333]
+|   |--- probabilistic_inference_mean >  0.575
+|   |   |--- expected_entropy <= 0.790
+|   |   |   |--- value: [0.304]
+|   |   |--- expected_entropy >  0.790
+|   |   |   |--- value: [0.692]
+|--- single_entropy >  0.884
+|   |--- mean_e <= 0.320
+|   |   |--- value: [1.000]
+|   |--- mean_e >  0.320
+|   |   |--- value: [0.750]

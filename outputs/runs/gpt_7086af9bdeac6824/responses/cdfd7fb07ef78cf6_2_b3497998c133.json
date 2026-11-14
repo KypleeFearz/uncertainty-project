@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125391e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e7bff4d033b013dfc07b1a24d1716ef3994b6ba4167ebc4402ee78590f25b1eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8b49bec548a8fd016acbe6e53dc887d29b993229fb56df3a",
+  "received_at": "2026-10-11T19:43:38.017685+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise compares Liddy's campaign favorably with Bob's, but does not establish that Liddy's would be the most enjoyable among all alternatives. Entailment would require assuming that these are the only options and that 'better' means liking the work more."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

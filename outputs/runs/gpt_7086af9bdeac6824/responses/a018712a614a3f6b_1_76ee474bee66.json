@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42301c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9a2ce622bbe91f4e281a8a6750f9a8e15679cd7705025dfa787f25e1780a4055",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c4dbcc88808c0ac016acbed98b35087d2aff35df1f613dbba",
+  "received_at": "2026-10-11T20:12:15.263201+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.76,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "Both statements omit what the parties include, and the hypothesis does not clearly identify the same parties. Even assuming matching references, 'may include' expresses a possibility rather than establishing actual inclusion."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 196,
+    "output_tokens_details": {
+      "reasoning_tokens": 93
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_5964395383.jpg#1r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.2,
+  "neutral": 0.7,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.8,
+  "probabilistic_inference": 0.1,
+  "brief_reason": "The premise mentions an older gentleman finding something humorous, but does not confirm he is laughing or specify his hair color, while the hypothesis adds both laughter and blondness as unverified details."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 343,
+  "output_tokens": 108
+ },
+ "seconds": 2.37,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:47:49.550027+00:00"
+}

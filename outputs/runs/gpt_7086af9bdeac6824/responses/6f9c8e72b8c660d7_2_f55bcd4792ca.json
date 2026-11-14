@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133005c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "934bb8d1157c7bcc05da217ee22eff02c4179d45639fa140cd522c466df0abbb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09f2466abe1c8420016acbe81e918087d29b9e66f701dc58e6",
+  "received_at": "2026-10-11T19:48:49.660105+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.865,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says twice as many people intensely disliked RFK as intensely disliked Johnson, but does not rank overall dislike of politicians since Hamilton. Intense dislike and overall dislike need not yield the same ranking."
+  },
+  "usage": {
+    "input_tokens": 422,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "142950e",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1263a17971d7c9ebadab02a3327474fbe915b32b389ed3e56191a92f074502fd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9wZj1iey9qdj5N4bwv",
+  "received_at": "2026-10-11T21:24:47.575647+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.4,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the anchors Dave Fox and Tracy Rowlett came from Oklahoma City 13-14 years ago and turned channel eight around, not that the channel itself relocated. The hypothesis loosely conflates the channel with its anchors, but 'doing great now' matches the 'pretty remarkable job' turnaround."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 857,
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

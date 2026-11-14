@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "16086n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "efa9c0d03fc32b53691056f6393f4aa27c51de558589f331033cef48294a5c1f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy41B6ucAwE4NRMEY95n",
+  "received_at": "2026-10-12T21:28:06.113206+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.55,
+    "contradiction": 0.42,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise sets a general rule (ensure public availability unless restricted) and says nothing about whether this particular report is restricted, so the 'most likely restricted' claim is unsupported. It could be read as contradicting the premise's default expectation of availability, but the premise does not rule it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 803,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

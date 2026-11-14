@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59234e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "076deee5e01b3e37c252cede6a4be17a8a1f7e7bc92b964e6ece27ea4561c345",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5d322b8863ae4d016acbf00ed64887d2bedb13597872f7d1",
+  "received_at": "2026-10-11T20:22:42.968690+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.78,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says Slate is available on MSN and slate.com, but does not specify that it can be downloaded. Interpreting downloading broadly as accessing web content could support the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

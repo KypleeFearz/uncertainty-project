@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102817n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a95b2a6fb632f4510b332517562e4e267200da3d4ff8661e3d5b7802700ebb5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0de86c6bfea0ea5d016acbe3f847d087d2bd47c71266e9c0c6",
+  "received_at": "2026-10-11T19:31:06.983511+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.018,
+    "contradiction": 0.981,
+    "lexical_ambiguity": 0.025,
+    "unclear_reference": 0.035,
+    "probabilistic_inference": 0.025,
+    "brief_reason": "The premise explicitly says that a debt-free future \"wouldn't be perfect,\" contradicting the hypothesis's claim of perfection. It makes no claim that eliminating debt would end war."
+  },
+  "usage": {
+    "input_tokens": 570,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 669
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

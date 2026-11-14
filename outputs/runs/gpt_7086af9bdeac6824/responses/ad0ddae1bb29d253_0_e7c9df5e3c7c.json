@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4254811316.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c4f6c90ea1a6afddf55fd0f5c862cd31c24f9862dba212ca1f46054670b90819",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be6a748150cbdcf016acd4c611e5487d2b20b5bae71982ecd",
+  "received_at": "2026-10-12T21:08:54.454134+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise explicitly states that three children are dressed in winter clothes. Describing those clothes as warm follows their ordinary purpose, though their actual warmth is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 122,
+    "output_tokens_details": {
+      "reasoning_tokens": 23
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

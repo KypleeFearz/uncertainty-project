@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "19208c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6fc0e4920c7f1e8bbda793bba03a42ec1cf153cc76752d18b39d8a24bf145dec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0db7094d73e77045016acbf783dfcc87d290a65a71fdd9b884",
+  "received_at": "2026-10-11T20:54:31.074750+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.16,
+    "brief_reason": "The premise mentions hearty Sabbath meals but says nothing about who may receive them. It neither establishes nor rules out the restriction to Buddhists."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 110,
+    "output_tokens_details": {
+      "reasoning_tokens": 17
+    },
+    "total_tokens": 481
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

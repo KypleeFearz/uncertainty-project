@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2060904593.jpg#3r1e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "60eb345dd4e6b9757b56f829ab12c030d8d506990f6f01d588c6d5db6d827407",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d21bd12d43ddcd016acd493a83d087d28fa21786ceebf0c6",
+  "received_at": "2026-10-12T20:55:26.126147+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.84,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says that one of the three boys is inspecting a bow, but does not specify what the other two are doing. It therefore neither establishes nor rules out that all three are inspecting it."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

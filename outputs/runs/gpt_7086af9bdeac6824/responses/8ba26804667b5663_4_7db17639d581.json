@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108813n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b62a474733ff127c5be87093b5624fa3f66a1cd851cc8e165537c8326823bdf3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01489be649e92f51016acbe4cf735c87d2a5b1965257f67aa0",
+  "received_at": "2026-10-11T19:34:43.576620+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise describes the gears as jeweled, but does not specify that jewels lined them. “Jeweled” could indicate decoration or jewel components without establishing the arrangement asserted by the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

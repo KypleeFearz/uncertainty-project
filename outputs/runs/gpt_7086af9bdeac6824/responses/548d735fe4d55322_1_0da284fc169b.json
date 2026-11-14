@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9393n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ac71663173f32c6786a2237408e02f26c35edd80de3c48471ed3fad19e39076c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09ab2cd87692ec94016acbf47a528087d299959f9ed23988e3",
+  "received_at": "2026-10-11T20:41:33.575459+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The premise says the sultan enjoyed music and dancing from his throne and that the hall contained marble fountains. It does not say whether he drank from those fountains or enjoyed doing so."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

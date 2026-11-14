@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102983n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be54f30025907524fbab371cfc57a033bd2b92da71c19d2701a98076c79afaaf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_061599edf5b47b85016acbe4070eb487d2b04d4eb4381bf7d9",
+  "received_at": "2026-10-11T19:31:22.621874+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.93,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise does not specify what would be impossible or identify an assistant-manager position at Hardees. It therefore neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

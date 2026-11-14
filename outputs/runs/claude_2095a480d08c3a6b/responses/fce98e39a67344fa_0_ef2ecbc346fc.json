@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "57454e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "7c799121db68221246a7fe028a44c4fe7a49c06dbdb08456e77b00e7a3ff3652",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB3qZJP34BCS2sNS6gR",
+  "received_at": "2026-10-11T21:39:19.106507+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.35,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The speaker's question \"does he have a funny part in the movie\" presupposes Robin Williams is in the film, but the garbled \"Robby Robin Williams\" and the unclear \"he\" leave some doubt. It is also a question, so entailment depends on the presupposition."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

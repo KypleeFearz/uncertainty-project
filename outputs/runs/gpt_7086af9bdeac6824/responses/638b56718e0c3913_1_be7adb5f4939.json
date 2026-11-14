@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77152c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62028ef089caaf574af39a2de072deab79db71900fdb89550abc0d6b3896f770",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0163a629123fb622016acbf242a06087d2a8e15659bb2aec29",
+  "received_at": "2026-10-11T20:32:06.536790+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says only that some people with unmet needs can pay for a lawyer, not that everyone involved has plenty of money. It also does not establish that anyone lacks money, so the hypothesis remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 29
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

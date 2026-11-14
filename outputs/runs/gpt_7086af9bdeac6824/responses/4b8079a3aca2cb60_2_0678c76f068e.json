@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "9412e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12b6c7911d23a0bb3d17b9d8a917efb1ad508d29b4309dd300fbae64e00a64be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c3bf88dbbc83f83016acbf487eaa887d2ad1b52fb8cde7395",
+  "received_at": "2026-10-11T20:41:46.932637+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The speaker explicitly says they painted their house only once during their ownership. The hypothesis's 'had to' adds a slight implication of necessity not explicitly stated in the premise."
+  },
+  "usage": {
+    "input_tokens": 437,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

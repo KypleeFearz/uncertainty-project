@@ -1,0 +1,77 @@
+{
+  "experiment_name": "chaos_mnli_v2_two_models",
+  "seed": 2026,
+  "split": {"train": 0.6, "dev": 0.2, "test": 0.2},
+  "pilot_size": 50,
+  "smoke_size": 5,
+  "models": {
+    "gpt": {
+      "provider": "openai",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "low",
+      "max_output_tokens": 4096,
+      "pricing_usd_per_million": {"input": 2.0, "output": 10.0},
+      "pricing_source": "https://developers.openai.com/api/docs/models/gpt-6.1-sol",
+      "pricing_checked_on": "2026-10-04"
+    },
+    "claude": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-5-5",
+      "effort": "low",
+      "max_output_tokens": 4096,
+      "pricing_usd_per_million": {"input": 2.0, "output": 10.0},
+      "pricing_source": "https://platform.claude.com/docs/en/models/overview",
+      "pricing_checked_on": "2026-10-11"
+    }
+  },
+  "api": {
+    "timeout_seconds": 90,
+    "max_retries": 4,
+    "parse_retries": 2,
+    "parallel_requests": 4,
+    "stop_after_consecutive_failures": 8
+  },
+  "trees": {"max_depth": [2, 3, 4], "min_samples_leaf": [20, 40]},
+  "decomposition": {
+    "clear_case_train_entropy_quantile": 0.33,
+    "debatable_train_entropy_quantile": 0.5,
+    "clarify_cue_threshold": 0.5,
+    "note": "Thresholds are quantiles of HUMAN vote entropy on the TRAIN split only. They are fixed before any test result is seen."
+  },
+  "policy": {
+    "aleatoric_thresholds": [0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.01],
+    "epistemic_thresholds": [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 1.01]
+  },
+  "bootstrap_repetitions": 500,
+  "shift": {"source": "chaos_snli", "size": 300, "seed": 2026,
+            "note": "Transfer to another NLI text source (SNLI image captions): a fixed random sample of ChaosNLI-SNLI without premise overlap with MNLI, prepared before freezing and evaluated once with the frozen assessors. MNLI thresholds (0.624 / 0.683) and dev-selected policies are reused unchanged. Reported separately from the MNLI test. Same task and labels, and both ChaosNLI subsets were selected by the same low-agreement criterion: a limited transfer check, not robustness to arbitrary inputs."},
+  "analysis_plan": {
+    "fixed_before_test": true,
+    "primary": [
+      "RQ1: specialisation, paired AUROC difference on debatable cases: learned_human_entropy minus learned_epistemic_risk",
+      "RQ1: specialisation, paired AUROC difference on majority deviations among clear cases: learned_epistemic_risk minus learned_human_entropy",
+      "RQ1: added value of ensemble signals, AUROC on clear cases: learned_epistemic_risk minus baseline_label_confidence",
+      "RQ2: balanced accuracy, decomposed minus single_score_risk (paired bootstrap)",
+      "RQ3: transfer GPT <-> Claude: policy balanced accuracy, human JS divergence and clear-case error AUROC, transfer vs own"
+    ],
+    "secondary": [
+      "Remaining policy comparisons: decomposed minus risk_trained_all_cases, single_score_confidence, calibrated",
+      "Robustness: learned_entropy_direct minus learned_human_entropy on debatable cases",
+      "Full dissociation table incl. raw signals, joint GPT+Claude signals and the answer-label baseline",
+      "Distribution metrics (JS divergence, majority agreement of the distribution tree, reported as its own result, not as an improved model answer)",
+      "Transfer to another NLI text source (SNLI sample): same tables, reported separately"
+    ],
+    "exploratory": [
+      "clarify vs alternatives on annotated MNLI cases: reported in full although development results were weak; not evaluated on SNLI (no annotations)",
+      "Language cues vs disagreement categories",
+      "Hypothesis that neutral answers act as an evasive label"
+    ],
+    "interpretation_rules": [
+      "Signals are compared on two observable targets; this does not identify epistemic and aleatoric uncertainty. Prompt MI first measures prompt dependence.",
+      "Cases between the thresholds (0.624 < entropy < 0.683) are not debatable: reference answer if the model matches the majority, else hedge.",
+      "The evaluated model answer is always the top label of the five-prompt mean, also in transfer (reference actions use the target model's answer).",
+      "Intervals are 95% percentile bootstraps over premise groups, not adjusted for multiple comparisons; only primary comparisons support claims, others are descriptive.",
+      "Development numbers are optimistic because trees and thresholds were selected on the same data."
+    ]
+  }
+}

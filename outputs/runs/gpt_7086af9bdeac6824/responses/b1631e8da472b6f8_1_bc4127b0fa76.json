@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127490e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e2948f70c5249a4d96b09b7257247ba2af1c1e9154ec340a1306d6813e83d51",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e67524e44947042016acbf684510087d2bd9e6420d3a63552",
+  "received_at": "2026-10-11T20:50:17.539496+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The reduction from 48 tons to a 26-ton cap supports a substantial tightening of emissions limits. Strictly, however, the premise gives current emissions rather than an existing cap, so a reduction in the cap itself is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 200,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 593
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

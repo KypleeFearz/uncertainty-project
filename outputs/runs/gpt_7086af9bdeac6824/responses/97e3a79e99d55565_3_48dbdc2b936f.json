@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "113668n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "403eb4aa75e7d12420bc8dafd0ba946adb0b7028395ab25af07e62e73ceaf963",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_082fcbfafc20168e016acbe56ffdb087d29721791368441448",
+  "received_at": "2026-10-11T19:37:23.782591+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.52,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise requires proportional reductions in allowances for units subject to section 414 when necessary to meet other restrictions. It does not establish that section 414 itself helps balance allocations, although proportional reductions could suggest that interpretation."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

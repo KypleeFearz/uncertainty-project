@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_8680922.jpg#0r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab92c4ae8cdb9fe603fb7d2f3ed2e1de69ae5c1fb3c4a5cd87d3d152188306c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0234902c697f81f7016acd4ef2aa7887d28f4f9cb9fbcdf0ca",
+  "received_at": "2026-10-12T21:19:50.115667+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.001,
+    "contradiction": 0.998,
+    "lexical_ambiguity": 0.001,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.001,
+    "brief_reason": "The premise explicitly describes a man planting seeds, which contradicts the claim that nobody is planting."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 83,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88298e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c504d2558b7e0502448d41a37eb2d2949304923ba54f7ee31911f767f636b7ab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0debef19425709f8016acbfa84c74487d283e0a6f036a5d78e",
+  "received_at": "2026-10-11T21:07:21.029536+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The CEO's vision of making Pfizer preeminent in corporate finance supports a desire to improve its standing. The hypothesis broadens that industry-specific ambition to standing in the world."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

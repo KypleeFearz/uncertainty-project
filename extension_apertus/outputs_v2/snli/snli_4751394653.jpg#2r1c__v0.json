@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_4751394653.jpg#2r1c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise specifies the woman is preparing vegetables for the market, which suggests a commercial or public setting rather than a private home, but it does not explicitly rule out a home location. The hypothesis introduces an assumption about the location that is not confirmed by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 325,
+  "output_tokens": 123
+ },
+ "seconds": 2.64,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:38:33.705853+00:00"
+}

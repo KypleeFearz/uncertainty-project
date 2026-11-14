@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "108062c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "07abf44cd3673c006e70c6dcbbc4b40a8658b2f4c466c004e079ae9b2b7ab7e1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_043c81fa9ccb8a4b016acbe4c29d9087d28f0f653a22335b7d",
+  "received_at": "2026-10-11T19:34:32.068559+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.14,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes an exceptionally pronounced contrast, supporting that the contrast was easily noticeable. Some ambiguity arises because “easily marked” could instead mean easily recorded or labeled, which the premise does not establish."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

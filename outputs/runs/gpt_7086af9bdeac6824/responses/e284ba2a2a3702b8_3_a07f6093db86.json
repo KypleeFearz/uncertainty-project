@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3504662140.jpg#0r1c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23f9a9d9374784eadb7c55e932364179de62e940f58e544daac24e8b87425291",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8c807aef42f101016acd4b8bfc0087d2a56cd88e484970f7",
+  "received_at": "2026-10-12T21:05:19.865212+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.004,
+    "contradiction": 0.995,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The woman is holding hands with a man, which contradicts the claim that she is alone. The premise does not establish that she is asleep, in a car, or on the moon."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

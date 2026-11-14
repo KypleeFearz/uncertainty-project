@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57003n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9aec335bb9ba7d97fdaadb9e8b989cd8106c71d4b9ae1dbaf1941144c678b270",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02348440c8a54b78016acbefbf944087d29091bac075959cf0",
+  "received_at": "2026-10-11T20:21:22.550933+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.76,
+    "brief_reason": "The premise gives the time span over which the laws and regulations were formulated, but does not establish whether any are now obsolete. Inferring that many are obsolete from their age requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 479
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

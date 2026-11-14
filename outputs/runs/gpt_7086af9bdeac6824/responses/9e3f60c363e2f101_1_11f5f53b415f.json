@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82530n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bfcd46e9530db6ad35e355353966e8faf0d085d8c869927eaf1a1d73758ba77c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04382ba90c8f8f6b016acbf32f5d9487d29a063ee170926b18",
+  "received_at": "2026-10-11T20:36:04.519805+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise reports that a federal judge declared the voters’ decision unconstitutional, supporting the hypothesis under an ordinary reading. Strictly, reporting the judge’s conclusion does not independently establish that the decision was actually unconstitutional."
+  },
+  "usage": {
+    "input_tokens": 432,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 615
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

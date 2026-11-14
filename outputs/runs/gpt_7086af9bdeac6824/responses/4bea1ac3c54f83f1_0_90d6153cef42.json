@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97011n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "393bb98135d8105964bb29ff6e53dfa7733518f9c5f207c0969756acdc675db8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00e77366490a51d8016acd4869ab7087d28087d4c8f60b3903",
+  "received_at": "2026-10-12T20:52:00.163656+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.65,
+    "contradiction": 0.23,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise reports unmet expectations that the ANC would oversee land reform, rather than establishing who was actually in charge. Those expectations could have gone unmet because reform was not delivered even if the ANC retained responsibility."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 204,
+    "output_tokens_details": {
+      "reasoning_tokens": 98
+    },
+    "total_tokens": 594
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

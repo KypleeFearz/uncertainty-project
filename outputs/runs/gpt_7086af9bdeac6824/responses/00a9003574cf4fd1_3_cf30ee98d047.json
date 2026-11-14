@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13221c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e6832fb357b1af9b764b7e2bcea06e2ee059e9b4a4a52954dae78da0dee3c655",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f9782b4cd097147016acbf6cd847c87d2949518438ef84f30",
+  "received_at": "2026-10-11T20:51:28.416289+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The speaker wonders whether Shuger asked himself a few questions, without establishing whether he did. This does not establish that the speaker knows Shuger asked himself many questions, nor explicitly rule it out."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

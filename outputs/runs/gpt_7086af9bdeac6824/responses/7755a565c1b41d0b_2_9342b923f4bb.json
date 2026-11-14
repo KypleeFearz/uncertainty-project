@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "118403n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f98c88a2b9db4756fe82e5e0babe54f62ef5d553edb6b61f6cf0df3e2ca79b1d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_054679207cfa2ef8016acbf63fb55887d287f11a374a0dfd0b",
+  "received_at": "2026-10-11T20:49:08.728436+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.73,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.38,
+    "brief_reason": "The premise says planting as it starts getting warmer would not matter, but does not explicitly compare planting in colder and warmer conditions. Reading this as denying any benefit to colder planting requires interpreting what 'wouldn't matter' covers."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

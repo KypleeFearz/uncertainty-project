@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_435054077.jpg#1r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ca3f04dd8f61e6d0ca84183114bd81f20d25d0911422dbc59ffa2e09bfe9943b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05c8bba98062f37e016acd4c84672487d2a927b5b4cc179eee",
+  "received_at": "2026-10-12T21:09:28.418833+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise places a crosslegged woman on the grass among dogs, but does not specify whether the dogs are standing. Their standing posture is a plausible assumption rather than an established fact."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 522
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

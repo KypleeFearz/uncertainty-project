@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "48908e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e1fe454f903bfda820fb362ec80cd59ef84fe9237c5636e598af55612d5898ec",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAqT5MxxS7QCb47cC5L",
+  "received_at": "2026-10-11T21:36:31.310296+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.3,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The town flourished 6500-5500 BC, so it is at least about 7500 years old at its latest, and today's date (2000s AD) makes that over 9500 years since 6500 BC. Whether 'is over 8000 years old' counts as age of the town (founded at some point vs. ended flourishing) leaves some uncertainty."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 815,
+    "output_tokens": 188,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

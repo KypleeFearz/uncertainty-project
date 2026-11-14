@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "100768n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1539b5b2569defb1542196a0be67e00fc2148a70143670797fb3a6e7b429b202",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw8vGVnHbTX6BJdjTsBM",
+  "received_at": "2026-10-11T21:11:22.559319+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Traveling light normally means packing little, so the hypothesis follows. The premise is hedged ('in a way') and lacks context about what enables traveling light, so some readers may see it as only likely."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

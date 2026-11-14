@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_244760289.jpg#0r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a6b7c1b4823663b3cbfe053fe4c3e2078616e4dac93054bf7a097853c1313e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00e66dcf83e163d2016acd49c9194487d2a90bf45dd3985f83",
+  "received_at": "2026-10-12T20:57:49.840060+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.12,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Standing on a beach ordinarily places the three men by the ocean. However, a beach can also border a lake or river, so the ocean location is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

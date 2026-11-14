@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112688n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8c41820e4f39f6c2cc60b8e30c3b2c5d3fafe9137d80424b1e9bc90c8ca5c2d0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b075662f0d36d33016acbf5e17f2087d2b28602bd303cd411",
+  "received_at": "2026-10-11T20:47:32.520365+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.93,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise points to additional information about BLM's senior executive performance plans but does not state that the plans are available online. The abbreviated reference \"app.\" does not establish an online location."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

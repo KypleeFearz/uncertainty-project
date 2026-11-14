@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120070n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8debd15605fd2b1093fb49ea15b2e9c39d5aafa8a0f34bd7c827e42533d0274",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08258e20bad55c6d016acbe64fc94487d2a7922408dc5e291d",
+  "received_at": "2026-10-11T19:41:08.005757+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise establishes a ten-minute limit and a warning that five seconds remain to say goodbye. It does not establish that this warning sometimes requires ending before the ten-minute limit."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 563
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

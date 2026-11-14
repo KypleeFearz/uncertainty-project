@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71870e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b83604a671a35de916a9636bd774c96b3a976b9fdfa714b857379cd4b57a271e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_003b147a574eb5dd016acbf9bb9ddc87d2b1774cfcbb835335",
+  "received_at": "2026-10-11T21:04:00.012331+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "“I'm going too” supports the speaker joining others, as expressed by “I'll come along.” However, the destination and companions are unspecified, and “I guess” makes the commitment somewhat tentative."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "62485n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f243c2db647261241b598073e4d75a4c98eb683ae2dcf00bcc96d08306023946",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBAgkujUtXt8Jj7Wjmz",
+  "received_at": "2026-10-11T21:40:52.139952+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.84,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says day trips and nearby UNESCO cities are available, but gives no information on what most visitors actually do. The hypothesis's claim about most visitors is not established or ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 839,
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "109903n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a7909d368842cc846cc99e0697d902fd759e093307814c4526fe1d6d92143a3d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC5pVisWEePDywQ2xtq",
+  "received_at": "2026-10-11T21:52:52.620042+00:00",
+  "parsed": {
+    "entailment": 0.5,
+    "neutral": 0.38,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise calls the plateau \"broad\" and gives dimensions of 650 m by 300 m, which supports it being large. Whether that counts as \"very wide and very long\" is subjective and depends on the standard of comparison."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 798,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

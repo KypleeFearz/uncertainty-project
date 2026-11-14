@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_485184060.jpg#2r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a43262a7a3a72f3b4d0e4e032dbb4dfc12189474f9c8511970140ed4d73dda2a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_092e913ac4562ede016acd4d790b4487d29dfb2d792fb5e37a",
+  "received_at": "2026-10-12T21:13:33.039910+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Watering plants ordinarily involves water close to the person doing the watering. The premise does not explicitly specify the distance between the man and the water."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

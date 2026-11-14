@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49611e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "196921fa87b7a2ae44300becf0a1769f7acd699c7f8c2948c48d7e0d2933951f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_063a3d5573f50f20016acbeec028d487d2ae35be863039fcff",
+  "received_at": "2026-10-11T20:17:09.132865+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The hypothesis naturally paraphrases “How did you get it?” as asking how someone obtained an object. However, the premise does not identify what “it” refers to, so the object interpretation is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

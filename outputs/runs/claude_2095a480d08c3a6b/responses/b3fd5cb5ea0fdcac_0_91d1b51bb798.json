@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "61216n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "70622810d5da8b33ba735e4f5720a81062becc980facf8dbe31518e967924ea3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCjgM9DRiBFdqnDKL8G",
+  "received_at": "2026-10-11T22:01:26.410853+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.3,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says seeding packs with few high-value cards encourages repeated lottery-like buying, which closely matches the hypothesis. The hypothesis adds details, such as kids who already have piles and the cleverness of the scheme, that the premise does not state outright."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 830,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

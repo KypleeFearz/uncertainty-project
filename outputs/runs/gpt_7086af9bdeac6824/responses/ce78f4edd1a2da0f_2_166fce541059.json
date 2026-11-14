@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123703c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "91a6064a6503af1cf4df108ecc074c387d8e276f4f447af9d709312a0cd50c74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca34fa19080b678016acd42ac46c887d2ba9a881f52efec7d",
+  "received_at": "2026-10-12T20:27:30.271154+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise makes the required CIO specialization depend on organizational objectives; it does not categorically exclude a need for an operations specialist. If the hypothesis means that operations expertise is not universally required, rather than unnecessary for a particular CIO, it is supported."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 579
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

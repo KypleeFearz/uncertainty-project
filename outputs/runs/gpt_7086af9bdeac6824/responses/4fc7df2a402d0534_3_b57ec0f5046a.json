@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6915308239.jpg#2r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b747b0cdcbbe5f0d9ceda77a86af2dcbb5b383a1e7f42dbfb9c563b50fa78705",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080739680617d598016acd4e81f4e887d2bb8fde3181702265",
+  "received_at": "2026-10-12T21:17:57.730618+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "Holding up a photo to the class supports that the man shows a photo to a class. The Santa hat is an additional detail that does not affect the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

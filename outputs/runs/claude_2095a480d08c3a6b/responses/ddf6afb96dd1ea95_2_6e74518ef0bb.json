@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4794461173.jpg#2r1n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "de909bb84fcb56fdf8d0586f4d8e6608825c26e0f23a79899524895cf19400ae",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5gSa2YfpQkGvqp4wAE",
+  "received_at": "2026-10-12T21:50:05.885758+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.9,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise only says two girls are on a sidewalk and one is sitting; it says nothing about watching boys, so the hypothesis is neither supported nor ruled out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 773,
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

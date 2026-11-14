@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98721e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95100192f950a9e97a31654992e1916525f80839fa3d299e666ca1947cb303e4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07d3d707cc0dad95016acbf4f29d0c87d2bf8fbdb3665ee2ad",
+  "received_at": "2026-10-11T20:43:36.553148+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.55,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise mentions supervision and security, but does not clearly identify who supervises or whether people are being supervised. If “just” means supervision is their only duty, the mention of security also weakens the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 191,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

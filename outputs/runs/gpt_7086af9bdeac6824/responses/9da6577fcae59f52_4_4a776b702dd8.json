@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58016c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a96e9a0348b02774d6d066a6237086354c9b1ccecd5306d89eb2e31602e5f8d4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002a377c7a041845016acd46bb83a087d29b72bfd12f7a9a7e",
+  "received_at": "2026-10-12T20:44:46.368672+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.88,
+    "contradiction": 0.11,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise quotes a saying about identifying a fool at a poker table, but says nothing about what dealers claim. Although its suggestion of a fool contrasts with everyone being smart, it does not rule out dealers making that statement."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 499
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

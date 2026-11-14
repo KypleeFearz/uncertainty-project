@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81938e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5b5e25fcc4780af4e94bf2209f669fc20ab9e43d33e919ee89f791a49ac56d3f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c876eb5193041c2016acbfa14d79c87d2b88eb429a7e1381f",
+  "received_at": "2026-10-11T21:05:29.945457+00:00",
+  "parsed": {
+    "entailment": 0.73,
+    "neutral": 0.26,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.48,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise lists the passage of time, inflation rate, and geographic location as considerations in a comparison, supporting their description as factors. However, the fragment does not specify what they are factors in."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 569
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

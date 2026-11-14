@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "127410n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f4e29b76eff00a8acc65eca865378716f38241b6f61b25707e6467fd6cc1b5b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0972a6d262451eac016acd42da913c87d284eac577b5ecea32",
+  "received_at": "2026-10-12T20:28:17.120689+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.23,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "Paying twice ordinarily includes paying once, supporting the hypothesis. If 'once' means exactly once as a separate possible outcome, the premise does not establish that possibility."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 193,
+    "output_tokens_details": {
+      "reasoning_tokens": 94
+    },
+    "total_tokens": 576
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

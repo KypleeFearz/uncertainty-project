@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4970845641.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e07a0c8d8024dec802a16457c16170823805c0797d25e24ae373c8e989ed16eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ca053e4f58fe551016acd4dc57b3c87d29aa1e071eb591ff3",
+  "received_at": "2026-10-12T21:14:50.715157+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.17,
+    "contradiction": 0.8,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The backpack wearer is described with the pronoun \"he,\" which ordinarily conflicts with identifying that person as a woman. Some uncertainty remains because the pronoun could refer to the photographer, and the premise does not explicitly state the wearer's gender."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

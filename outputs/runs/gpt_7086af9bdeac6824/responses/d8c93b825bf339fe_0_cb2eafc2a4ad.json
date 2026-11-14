@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2835793460.jpg#0r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1b8a839b15edeabf839cca6729e22270c340fa84f808e9c667e7a2df8030b23d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05b72b957f86f2de016acd4a369c2c87d2a6c2e16846813464",
+  "received_at": "2026-10-12T20:59:38.510012+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the woman holds a bike and the boy holds a skateboard, but does not say whether they also hold hands. Holding those objects does not rule out holding hands with their free hands."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

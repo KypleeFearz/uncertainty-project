@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105911c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7efc97916fb210070a392ac233f15d70607db78b3bc42aededcd54296a89f358",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0edbc32b1e8022a9016acd41ca6bfc87d2ac070aedd2462120",
+  "received_at": "2026-10-12T20:23:43.911116+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise associates daycare or another caregiver with missing parent–baby bonding, suggesting disapproval but not explicitly saying children should not attend daycare. The hypothesis also appears to use “day car” as a typo for “day care.”"
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

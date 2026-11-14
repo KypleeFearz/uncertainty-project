@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_5090324042.jpg#4r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise describes a man interacting with a stuffed bear while singing, but does not confirm he is speaking for the bear or using ventriloquism. The hypothesis assumes a specific performance style not evident in the premise, making it neither confirmed nor denied."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 122
+ },
+ "seconds": 2.71,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:45:11.905583+00:00"
+}

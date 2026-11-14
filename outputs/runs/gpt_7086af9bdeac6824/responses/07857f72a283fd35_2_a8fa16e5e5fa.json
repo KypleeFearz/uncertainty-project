@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "4082e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c27a9b64cb21b8d71f3651d763de95a8571306e79bc9455ba17d2452d886160a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01218bc68d54cebb016acbf866f08087d289f993c90c46753c",
+  "received_at": "2026-10-11T20:58:18.664064+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise says Helms will be 81 when his fifth term ends, but does not say how soon that term ends or when his birthday occurs. Interpreting this as turning 81 soon requires an unsupported timing assumption."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

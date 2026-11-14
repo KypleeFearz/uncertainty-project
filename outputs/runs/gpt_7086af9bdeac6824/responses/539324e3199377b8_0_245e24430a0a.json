@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123748n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8818c2627f0b6e287063d7239407d0ee32d3ad2b2d0458225f1160b1939a1c7f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02d55262d0f213d5016acbe6b2b7ec87d299c9115501352c19",
+  "received_at": "2026-10-11T19:42:47.351926+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "“Many” ordinarily implies more than two, and “at the present time” matches “currently.” The kind of thing referred to by “such” is unspecified, but the hypothesis naturally refers to the same things."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

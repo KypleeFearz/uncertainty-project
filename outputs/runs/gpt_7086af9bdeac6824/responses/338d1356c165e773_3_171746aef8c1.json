@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64831n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e5647614b84d8e966f6002df474aa12c624103d92aaad5d42f23278487afd93",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_043e15c71a74d010016acbd92375fc87d29f61b036f9121b75",
+  "received_at": "2026-10-11T18:44:54.759490+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.85,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.49,
+    "brief_reason": "The premise attributes to Fiss the view that denied access to information leaves people less enlightened; it does not establish that researching unfamiliar matters would better equip them to form opinions. That hypothesis is a plausible extension, but adds an action and outcome not asserted in the premise."
+  },
+  "usage": {
+    "input_tokens": 437,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3259228898.jpg#0r1c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0ba488a68923a28ad21e48aae27d09e7d32af3a2ce5aa4cb79da23fea373a31",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_067b2e8bca65d8b7016acd4b11777c87d2a66fa493f2b61f6b",
+  "received_at": "2026-10-12T21:03:16.211546+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Calling the object a box ordinarily implies a box-like rather than ball-like shape. The premise therefore conflicts with the hypothesis under the usual meaning of “box.”"
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

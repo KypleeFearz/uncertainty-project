@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105790n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "561e188088572aa0ab1f3fc381e753f2bc1e0d80d94de17e2bb702838606c851",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08332e1729a54068016acbe47ee93487d285fe84f1aa7e157c",
+  "received_at": "2026-10-11T19:33:23.320425+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.09,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise recommends having children so that, once old enough, they can do yardwork while the parent does what they want. This supports yardwork as a reason for having children, though it does not establish it as the sole reason."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 562
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

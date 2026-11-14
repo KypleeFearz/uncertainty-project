@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132539e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea3c5ab6bbffb8e9f2caa5137500e8efafa41abad877a6c7ccf986dc637c83ce",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_097df10a73494c7a016acd4337cc9887d28a8225af2ad67464",
+  "received_at": "2026-10-12T20:29:48.235281+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.83,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise gives a moderate difficulty rating and a five-hour duration, but does not identify Boca da Corrida Encumeada as a text. The mention of views suggests a walking route, although that interpretation is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 148,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 555
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

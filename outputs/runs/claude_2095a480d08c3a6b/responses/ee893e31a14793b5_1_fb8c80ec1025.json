@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "118652e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bb4e1dff98fb209f8f1ea960e747b3e5494d181f421ad67aff55483a010f5585",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9NipHPNygMN2y4EWz4",
+  "received_at": "2026-10-11T21:17:21.787735+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.72,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says LSC recipients were asked to analyze progress toward one specific legal services model envisioned by state planners. It says nothing about all models being subject to analysis, so the hypothesis is a much broader claim that the premise neither supports nor rules out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77502e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "93adcef6563d49dd760b411e0de9cfda5fea1580d6311f02c5a8394eec4f4207",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa8e6018289eea9016acd47aacb3887d2a7e7ac9f838a6a89",
+  "received_at": "2026-10-12T20:48:46.723587+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise describes the sword as unfamiliar, not Thorn's manner of holding it. The hypothesis could concern that manner, which is unsupported, or holding such a sword, which favors entailment."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 523
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

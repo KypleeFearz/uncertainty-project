@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98066n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b35b7c6c8d382bfeac54fe1d1ab5c4f7e169fdd86bfbc6340f107a1a005f50e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ddb91d690f43494016acd4898a62c87d2b88065567c389a28",
+  "received_at": "2026-10-12T20:52:44.163922+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.75,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.14,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise gives a control-survival threshold for acceptable test results but does not explain its purpose or claim it ensures the highest quality. The hypothesis supplies a plausible rationale that is not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 425,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

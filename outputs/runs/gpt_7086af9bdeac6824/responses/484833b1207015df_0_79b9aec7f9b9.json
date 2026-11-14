@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6451570535.jpg#2r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc6f125a7db591ba2718e8949e51b5c8d760b17f58d27e891f9208a2bbc18b33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f55ff0d119ed0d4016acd4e4d063087d2be875d1bd82fe236",
+  "received_at": "2026-10-12T21:17:05.699791+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The described man is hitting a baseball on a grassy field, not sitting in a dugout. The hypothesis could concern another man, but the usual same-person interpretation makes it contradictory."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

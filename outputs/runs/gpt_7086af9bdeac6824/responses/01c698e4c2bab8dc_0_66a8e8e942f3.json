@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6059c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec712e9fb2106516fbf0d132a49aca5390854ae4fef73bf2aa98673cd1b644d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf8d475de576d5d016acbf94fc75887d2b2df7c6939dd742e",
+  "received_at": "2026-10-11T21:02:11.594472+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.979,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says mites survive when winter freezes are absent; it mentions neither a heat wave nor mites catching fire. Survival under those conditions does not establish or rule out the hypothesized event."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 24
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

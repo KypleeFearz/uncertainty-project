@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "61494e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9f39a8de5e741749dee43e2de0a3ec6f93a8664e70813a5ea0e94abdf9387a60",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00b8a962ba98f367016acbf049f3f487d2a9375cde058bdda2",
+  "received_at": "2026-10-11T20:23:42.479372+00:00",
+  "parsed": {
+    "entailment": 0.17,
+    "neutral": 0.8,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says two are sufficient for a secret, but does not establish that two people are necessary. Reading it as a requirement adds an assumption beyond what is stated."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "8219c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25fb0e9f2d108d8c896e0db0d810ed9b1a327beddd7dd6ee8146bbe0558bc93d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e2dfaee910e4e28016acbf3117fc487d2a41e55644f2d9c32",
+  "received_at": "2026-10-11T20:35:32.826348+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "The premise reports farmers applying chemicals and believing the ground would filter something out, but it is incomplete. It does not establish whether applying farming chemicals has any point or benefit."
+  },
+  "usage": {
+    "input_tokens": 409,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

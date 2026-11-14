@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53283n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b90e3b6477d91013a75b296b61a529f406780836188edc990d32c2d5a4fcce1c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03f2c96416364a66016acbef24e33c87d29482233a4992999e",
+  "received_at": "2026-10-11T20:18:50.145975+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise defines external validity as generalizing findings beyond the subjects of a study, not as studying outsiders. It does not explain the origin of the term’s name, so that claim is unsupported, although the hypothesis also appears to confuse study subjects with targets of generalization."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "reasoning_tokens": 59
+    },
+    "total_tokens": 597
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

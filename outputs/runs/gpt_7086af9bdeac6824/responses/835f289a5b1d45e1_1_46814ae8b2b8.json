@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "6804e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "982648b4ef3e51b5d6d598a1d7d39c6c89c8abe168137b03841fe969e62d722c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0ed72be0bd5202016acbf123027887d2901fadbf482a8654",
+  "received_at": "2026-10-11T20:27:18.012696+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.39,
+    "brief_reason": "The premise conditionally describes what follows if someone takes the position seriously; it does not establish that anyone actually does so. It also does not deny that some people take it very seriously."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

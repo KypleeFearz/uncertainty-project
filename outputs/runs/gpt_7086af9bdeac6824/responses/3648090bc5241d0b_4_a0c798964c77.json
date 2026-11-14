@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82174e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d8ab7fd4f615f501e7da3f02d1ba202110617117792013e37db55ee8f907ab9c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a444f22ab94bd2016acbd955fa9487d2ac46d597af3cdc00",
+  "received_at": "2026-10-11T18:45:45.636007+00:00",
+  "parsed": {
+    "entailment": 0.34,
+    "neutral": 0.65,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.88,
+    "brief_reason": "NEH support and elaborate exhibition panels could suggest substantial funding, but the premise does not establish that the exhibitions were well-funded. Elaborate presentation alone does not guarantee a large budget."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

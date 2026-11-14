@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "7788n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "68b162ec9ad6244d8ed230c4f1322eade6fceea56be3336f65b684b9c52c19d8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_012948c8e71424d7016acbf25de7ac87d2b16c881fbaaae264",
+  "received_at": "2026-10-11T20:32:32.915341+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the cathedral is impressive after dark but does not compare its nighttime and daytime appearance. Equal impressiveness during daylight is therefore neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

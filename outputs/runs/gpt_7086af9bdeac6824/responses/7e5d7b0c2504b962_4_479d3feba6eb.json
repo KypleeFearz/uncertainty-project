@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120896n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2aeefad8f1902ba37f03cd2154d57ca296659acb511bf289293117a4328c1d98",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0575d1d3a78e35d9016acbe67aa67c87d28561b565f84e5209",
+  "received_at": "2026-10-11T19:41:50.623823+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.06,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The hypothesis paraphrases the question about discovering a will from the words on the envelope. Calling it a “new will” is supported by its having been made yesterday afternoon, though the premise does not establish that it replaced an earlier will."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

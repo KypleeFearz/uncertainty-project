@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82415n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e36c26d7ef9ac67bafcacae0eb45917fbdbf1fecfa765bd16cbeded24a18d26",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b711e0ea1fb32fa016acbfa1d69ec87d294098c5a02dd9736",
+  "received_at": "2026-10-11T21:05:38.000142+00:00",
+  "parsed": {
+    "entailment": 0.43,
+    "neutral": 0.56,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.92,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "“Sobered” can mean becoming less intoxicated, which supports prior drunkenness, or becoming more serious, which does not. The premise does not specify which meaning applies."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 151,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

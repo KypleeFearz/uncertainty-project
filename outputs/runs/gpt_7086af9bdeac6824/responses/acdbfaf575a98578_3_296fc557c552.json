@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3612484827.jpg#2r1e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8c672a9978b657969fcea0c0dc7587fd58836aa27edf90f5d5590680006e25e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00aa0118ec458667016acd4bae7dd487d28812dabf452e5e29",
+  "received_at": "2026-10-12T21:05:54.618323+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "Being on his friend's back does not establish whether the man is holding his friend, though he might be gripping him. The friend might instead be supporting the man, but neither arrangement rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

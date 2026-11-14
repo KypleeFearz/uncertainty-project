@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73444n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ec3236cfd06a839255d058f158e63da5c5cec3cb7ff5c9e19f01a1b7e39ce0b0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_056560768a675138016acbf1bb67dc87d2ae98ef804aaedee8",
+  "received_at": "2026-10-11T20:29:52.947351+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The speaker expects their pursuit of an undefeated season and making history to keep them motivated, supporting the hypothesis if they continue without losses. The premise does not explicitly state how a loss would affect their motivation."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

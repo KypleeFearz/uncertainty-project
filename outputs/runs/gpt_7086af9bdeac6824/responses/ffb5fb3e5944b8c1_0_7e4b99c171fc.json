@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42615n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9dcd18f9de9be23b53b1d9199a4ea6eb1bf16eecf2a540cc8e493a7f9ddd3cc4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d4f5637993e7ebe016acbedb5064087d2ae86aae10b4aa30a",
+  "received_at": "2026-10-11T20:12:41.535856+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.79,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise establishes that the organizations are hiring two people to support justice-community websites, but it does not identify poor residents as the beneficiaries. Helping poor residents is a plausible inference about their work, not an explicitly supported claim."
+  },
+  "usage": {
+    "input_tokens": 420,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

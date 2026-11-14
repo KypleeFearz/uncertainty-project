@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "66937n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "26f5ffebe3401fbb47d3818bbc30c5f8c085d31ed1eb26ace6d37a5712405e8b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwyUfKdp4oVtmK9Kmuk",
+  "received_at": "2026-10-11T18:47:51.395179+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.6,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Tokyo Joe is alleged to have exaggerated returns by omitting losing trades, but it does not state that this caused him to gain more investors. The causal link is a plausible inference, and the claim is only an allegation."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

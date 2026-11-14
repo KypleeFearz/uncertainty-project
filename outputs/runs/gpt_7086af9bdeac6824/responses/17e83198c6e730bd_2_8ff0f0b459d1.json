@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "65058n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "de55a877353588f19d60eba18fbc9ce42cdd0dcef66079c2826036f55d4915a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e08ba0d8f0983d7016acbf0da5d8c87d2b957821a6bbc97ab",
+  "received_at": "2026-10-11T20:26:07.482641+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "“Commitment” supports “dedication,” but the premise does not establish that this dedication holds every year. The added temporal claim is neither confirmed nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

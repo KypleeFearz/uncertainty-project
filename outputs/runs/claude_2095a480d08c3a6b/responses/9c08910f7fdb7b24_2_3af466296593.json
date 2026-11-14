@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "59208n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "5e4af7bd844dd6a9ce9329f76674c6fca1405ceb598cfa43ca7bc37f79b98100",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB5ehVkXYMcGkJS6nm4",
+  "received_at": "2026-10-11T21:39:44.002579+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.45,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says Meg Ryan was chosen, so she is a possible selection and the disjunction 'Meg Ryan or Jon Doe' technically holds. But the hypothesis implies a pending choice among options, which the premise does not establish, and it is unclear who 'he' is and what was chosen."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 780,
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

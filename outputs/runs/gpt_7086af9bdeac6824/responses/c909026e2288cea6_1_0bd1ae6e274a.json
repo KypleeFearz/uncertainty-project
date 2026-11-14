@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86331e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9d49bc2d124a4e42c0da27b57912e18aaee14b8bb54c3b1ecde0630d363131f7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_037a2707807a5512016acbf39f277487d2ad1c5937dfdde9dd",
+  "received_at": "2026-10-11T20:37:55.029082+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Both questions ask whether the addressee wants tea. The hypothesis adds a cup as the serving vessel, which is conventional but not explicitly specified."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144418c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "83cde7bd2629b354aec23af1caff20966dc7a7f7da4c13a651d1bcac1ac3315e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04235a25d5f28cc4016acbe9c10e7887d28bffbe735f4e981e",
+  "received_at": "2026-10-11T19:55:50.008292+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.72,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The fragment mentions savings this year, not losses, but does not identify the amount or financial event clearly. Savings do not rule out millions being lost elsewhere during the same year."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

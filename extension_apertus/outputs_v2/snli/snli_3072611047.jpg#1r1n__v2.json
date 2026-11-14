@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3072611047.jpg#1r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.05,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise only states they are diving into a river, while the hypothesis adds details about the height of the rock and the size of the river, which are plausible but not guaranteed by the premise."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 341,
+  "output_tokens": 116
+ },
+ "seconds": 2.54,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:13:13.949896+00:00"
+}

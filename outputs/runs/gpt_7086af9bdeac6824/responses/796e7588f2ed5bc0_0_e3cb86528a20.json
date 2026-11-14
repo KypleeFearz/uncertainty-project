@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "83774c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a791a9757b92e5638c41edf014a10b9f63ad1c8ffb7a7fb1e04ac119ab5a64e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ced963a4fb32e83016acbf351fef487d295da94f49c2e656f",
+  "received_at": "2026-10-11T20:36:37.097499+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.07,
+    "contradiction": 0.92,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise refers to agencies’ operating trust funds and requires auditable financial statements, whereas the hypothesis denies operating trust and claims little or no such reporting. A requirement to produce statements does not itself guarantee actual production, but the denial of operating trust conflicts with the premise."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 117,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

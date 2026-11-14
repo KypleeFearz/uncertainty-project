@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86564n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0f08746479ab986156e3361eefbfd7066e818b9c32c589526bfb7fe55f07c4e6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00a90618d6ff63dc016acbf3a9155c87d2bbf59949fab75c90",
+  "received_at": "2026-10-11T20:38:05.573960+00:00",
+  "parsed": {
+    "entailment": 0.68,
+    "neutral": 0.31,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise links difficulty enforcing reporting standards to possible regulatory resistance to the business model, supporting a potential obstacle. Calling that obstacle \"huge\" and describing it as difficulty of the standards themselves requires some inference."
+  },
+  "usage": {
+    "input_tokens": 408,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 579
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

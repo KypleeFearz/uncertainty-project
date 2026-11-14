@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103400e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1461b554ebb226f197b2a119d6d67e8eb3e9b175bc125bc30fbb82f8949a8c91",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_046e8344493c0008016acbe411524487d29f15e88410e5cc89",
+  "received_at": "2026-10-11T19:31:34.708744+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.75,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says a temple to Jupiter preceded Saint-Etienne at the same site, not that the church itself had a temple. The hypothesis's meaning depends partly on whether 'had' describes the church or its site's history."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 187,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 587
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30894c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3226322e906371ff9964375e8bbfc4ab78ea71c69ee34d47331f23400dc0e945",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a269bdb86e2a83016acbec3bf3a487d2a26e6b7941a74694",
+  "received_at": "2026-10-11T20:06:23.152124+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise describes plans to resume opium cultivation and unpaid compensation for switching crops, but it does not state whether cultivation is illegal. Compensation for crop substitution does not by itself establish a legal prohibition."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

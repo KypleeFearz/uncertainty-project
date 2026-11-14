@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82069e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f3620274189aa1886e20d9dfd235cf29f82c8d918b490ae837d38f329bc90259",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0771868f07862ce0016acbf3051dc087d28090f77602a8510a",
+  "received_at": "2026-10-11T20:35:21.362065+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.82,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.27,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise raises whether there are enough jobs here now, but does not establish that finding jobs has become easier. The hypothesis adds a comparison with an earlier time that the fragmented premise does not clearly support."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

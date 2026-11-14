@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46820e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad1ea0768be1306cb30e32d7fc5d925a95b9e0fa6da33facab2c0d21a9500840",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a28d7e44acb1979016acd45e5251487d2bba484fd3d5634b0",
+  "received_at": "2026-10-12T20:41:12.796168+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.27,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise mentions part-time work, a restaurant in Salisbury, and eating out for under $14, but does not establish that this was the speaker's first part-time job. The disfluent wording also leaves the connection between the job and the restaurant somewhat unclear."
+  },
+  "usage": {
+    "input_tokens": 427,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 584
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

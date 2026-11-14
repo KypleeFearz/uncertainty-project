@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3464708890.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f5fc196e59c82c84224bef6215cb70a299d0450cb9c05423144913b624ea1bf",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01e49f0e2f9d47eb016acd4b713cd887d2aa08ea165529491b",
+  "received_at": "2026-10-12T21:04:52.310176+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.2,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Jumping onto a skateboard positioned on a folding chair strongly suggests an attempted skateboard trick. The premise does not explicitly establish the man's intention, so this depends on a plausible inference."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

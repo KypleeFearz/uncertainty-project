@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3072611047.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9f76cfac8f4a9b36c84c64ec19926251e8d2169429db4b8c216104b2b7ca11d1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ed4109aaeb2b660016acd4aab262c87d2bbe81e2fab3ef039",
+  "received_at": "2026-10-12T21:01:34.127727+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise establishes that two children are diving into a river, but does not specify that they dive from a high rock or that the river is small. Those added details are neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

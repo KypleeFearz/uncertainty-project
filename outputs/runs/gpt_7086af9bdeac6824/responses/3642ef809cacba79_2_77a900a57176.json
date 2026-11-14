@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85428e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "edc4584449b5c010f8b52cb2c30f0f908d092263ac044ff6dc1bab9a589f474c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04cf5f466c9fbb45016acbfa6c3a3487d2a4790f237db81742",
+  "received_at": "2026-10-11T21:06:56.436974+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The rhetorical question portrays your support as persisting even in the face of extreme wrongdoing, supporting the characterization as unwavering. However, it does not literally establish that nothing could make you withdraw support."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

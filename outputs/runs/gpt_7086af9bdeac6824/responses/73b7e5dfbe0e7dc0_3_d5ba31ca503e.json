@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63602n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f0a53c99632d89a30fe9ac4b0d6deb17fe8a5f4fbd03ec746a3a58b3257a7e25",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bc886beecea3c70016acbf0c2577c87d297828b91f811640a",
+  "received_at": "2026-10-11T20:25:41.776585+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise locates a number of the unspecified items in Tsim Sha Tsui but does not say whether any exist outside it. Their presence there neither establishes nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

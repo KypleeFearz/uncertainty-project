@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12562n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3dafe1988fe20b0c5cf6db958f5fe258173e2bd63cc086a01509de2a7831bf3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084e9f78900f0559016acbf67e43c087d28ca88c0284154687",
+  "received_at": "2026-10-11T20:50:09.625679+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise supports that music professor David Cope claims to have created a 42nd Mozart symphony, but it does not establish that he specializes in Mozart's music. Creating such a symphony might suggest that specialization, but does not guarantee it."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 114,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 515
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

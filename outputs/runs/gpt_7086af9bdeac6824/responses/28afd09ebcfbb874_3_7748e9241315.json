@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28601n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "666d76e1857ab657a5726386a3046590c1e6d65805325ba116166f4f9f1bc0be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f59bd8edcca58ab016acbebd925a887d2b8f2b8e54cc0c272",
+  "received_at": "2026-10-11T20:04:45.381230+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.34,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“Dreary inaction” suggests that the days felt slow, supporting the hypothesis on a natural reading. However, the premise does not explicitly establish their perceived pace."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

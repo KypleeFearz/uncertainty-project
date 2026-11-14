@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "34094e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29f1fc223c40fef5e485e66d98ca3fb0502059c3230ff108b01b3bb6735bb8ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad595f66c246474016acbec9dc6c087d2a1742069c51e6bd6",
+  "received_at": "2026-10-11T20:08:01.208254+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The speaker says “No” to someone addressed as “monsieur,” but no preceding question is provided. It could be an answer to a question, a refusal, or a disagreement with a statement."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

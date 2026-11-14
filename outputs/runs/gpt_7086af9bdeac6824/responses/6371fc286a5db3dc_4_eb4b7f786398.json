@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3181322965.jpg#4r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bc7680f54cb805dda8b1f6390920dd5e1faad7134108f9e03680d3d557b8d452",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_053e784ade4f22e8016acd4aed6e6887d28f58a3c05682d479",
+  "received_at": "2026-10-12T21:02:43.191634+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.19,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "Walking through water ordinarily means wading in it, whereas walking on water means walking atop its surface. These descriptions conflict under their usual readings, though a loose use of “on water” introduces some ambiguity."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

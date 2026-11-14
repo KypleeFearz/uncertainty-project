@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "50293e",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise states that Clinton has developed rhetoric and positions spanning a divide, which logically implies awareness of the divide and active development of something related to it. However, the hypothesis omits the explicit mention of 'rhetoric and positions', introducing slight ambiguity and requiring probabilistic inference about the nature of 'developing something'."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 347,
+  "output_tokens": 142
+ },
+ "seconds": 2.9,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:27:02.867847+00:00"
+}

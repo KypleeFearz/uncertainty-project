@@ -1,0 +1,15 @@
+{
+  "split": "dev",
+  "n": 322,
+  "premise_groups": 272,
+  "models": [
+    "gpt",
+    "claude"
+  ],
+  "human_thresholds": {
+    "clear_max_entropy": 0.6243943715625421,
+    "debatable_min_entropy": 0.6828639224630875,
+    "clarify_cue_threshold": 0.5
+  },
+  "written_at": "2026-10-12T20:10:50.573240+00:00"
+}

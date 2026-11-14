@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "78105n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1b02732449701d3ee98b541dfb670282007f59236e24d570166557d652eee23d",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4dziMDWtidBs5brKjV",
+  "received_at": "2026-10-12T21:36:26.073738+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.4,
+    "contradiction": 0.57,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise gives scarce supplies, a poor harvest and broken spirit as the reasons for leaving, which implies no zombie outbreak. It does not strictly exclude one, so some judges may call it neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 807,
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

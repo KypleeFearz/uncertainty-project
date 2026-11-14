@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117093n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "83c6da15b48591dc14bf36f8ef50605329511eb6b7d5fba2486a4e4a70142e66",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f5a7346b7f1ca9d016acbe5d1f06087d2934b3f6abdb610d5",
+  "received_at": "2026-10-11T19:39:03.002405+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "Hong Kong’s unrivaled commercial know-how supports describing it as a great place to find that expertise. Applying this to hiring assumes that the expertise is available among potential recruits, which the premise does not explicitly establish."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

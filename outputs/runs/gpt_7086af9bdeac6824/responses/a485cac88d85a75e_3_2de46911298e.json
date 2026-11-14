@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95663n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cf0f5a9945dc4e6af2fb4ea5029dd79691c0482c53b32b8ad7857165fe8b87cb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0da0d732e642316b016acbf4a6f61887d286360657ce2c24e1",
+  "received_at": "2026-10-11T20:42:17.806021+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise identifies base year data as actual receipts and outlays, which are financial information. It does not establish that this information is important, though that is a plausible inference."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 483
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

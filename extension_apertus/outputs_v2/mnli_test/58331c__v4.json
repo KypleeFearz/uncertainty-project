@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "58331c",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.5,
+  "neutral": 0.4,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "Puppet shows can be television shows, but not all television shows are puppet shows, so the hypothesis is only partially supported. Ambiguity arises from whether 'puppet shows' refers to a specific genre or any show involving puppets, and reference is unclear about which specific shows are meant."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 327,
+  "output_tokens": 131
+ },
+ "seconds": 2.77,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:34:01.723187+00:00"
+}

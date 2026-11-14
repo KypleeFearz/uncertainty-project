@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "93955n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8bfb7e105f76aa590fcfcd94354bbdf56fd423f61b1091ef0f9f0a5876377f88",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBrxY4Br97ymR4SgDsP",
+  "received_at": "2026-10-11T21:49:58.626614+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.33,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise states the production is large scale, which matches 'large scaled'. 'Elaborate' is not stated outright but is plausibly implied by a phenomenon worth seeing."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 791,
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

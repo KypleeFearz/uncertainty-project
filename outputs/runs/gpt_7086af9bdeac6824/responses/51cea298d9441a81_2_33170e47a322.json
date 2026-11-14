@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "93839c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fd057be59268fa5cb1086015f4892881dbe9efac3f38e6c1a44b13a4725e1a41",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_065df83c82e7b245016acbf4752ca487d2a14b69eaab574859",
+  "received_at": "2026-10-11T20:41:29.960517+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise describes her smiling while making the promise, whereas the hypothesis describes tightened mouth corners and a furrowed brow, ordinarily suggesting a frown. These expressions normally conflict, though the facial descriptions are not strictly mutually exclusive."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 49
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

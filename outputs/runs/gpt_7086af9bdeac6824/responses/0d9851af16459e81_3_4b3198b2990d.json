@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46359n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5efa07e692a970ffb9fd8bec1b4759f29553882331d7d68d516db45f2dd515ae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fc838e7b72ae1b3016acbf89ca10087d29973f156afe53fb6",
+  "received_at": "2026-10-11T20:59:13.060856+00:00",
+  "parsed": {
+    "entailment": 0.84,
+    "neutral": 0.15,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.32,
+    "brief_reason": "The premise contrasts substantial reductions with achieving only 50–75% of the proposed target, supporting the judgment that the downturn is insufficient. The evaluative phrase “in our estimation” is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 411,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 66
+    },
+    "total_tokens": 586
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

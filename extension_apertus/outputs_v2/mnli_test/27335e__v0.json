@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "27335e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The two sentences ask the same question about the continued existence of a particular music type, using slightly different phrasing; the core inquiry is identical, though the premise is phrased as an interrogative while the hypothesis is a full question."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 329,
+  "output_tokens": 122
+ },
+ "seconds": 2.6,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:14:10.451331+00:00"
+}

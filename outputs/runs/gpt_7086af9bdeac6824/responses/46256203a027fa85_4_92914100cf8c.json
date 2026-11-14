@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2262n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5f0658c5a836f024e6c6c2b6098e91dbe6b6e8fdfe9f624298f312d56e4ca46f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b71492d9b33674d016acbeafb16c887d2a86fcc62ac3de73f",
+  "received_at": "2026-10-11T20:01:03.295531+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise suggests that seeing the remains would distress her mother, but it does not establish grief specifically. Grief is a plausible emotional response rather than a guaranteed consequence."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

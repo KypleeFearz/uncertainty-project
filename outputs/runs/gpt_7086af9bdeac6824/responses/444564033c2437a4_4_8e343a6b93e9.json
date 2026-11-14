@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "53211n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cafd0cca9c76874b99d3065f612f573276ed60677aef74ef5fad5099580c8ba",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_098d46058464258b016acbef1edc4087d2b4e3e5933748a97f",
+  "received_at": "2026-10-11T20:18:41.947490+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.26,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise supports saying “no” while surprised, but does not establish repeated refusals, a male addressee, or a change of events as the cause. It does not rule out those additional details either."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

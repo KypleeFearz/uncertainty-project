@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111338c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "88980f698fb63575379fbcbef73d36e3c8156df44f62e5b5810f74c3ffe49fbd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b5b7c3975bf5806016acbe52cb70887d29c3ea8efa32fc092",
+  "received_at": "2026-10-11T19:36:17.306550+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "On the ordinary reading, shooting the other implies using a gun rather than keeping it holstered. The premise does not explicitly identify the weapon, and “shot” can have non-firearm meanings."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 63
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

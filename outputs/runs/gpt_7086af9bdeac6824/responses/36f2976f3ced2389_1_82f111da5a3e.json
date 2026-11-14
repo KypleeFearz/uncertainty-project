@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82161n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c957aaa572a99f36e1d2b875920dc4c19babfc196fe1cda613dbd6aa8e81913b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0014689a6c6c5077016acbf3092a1c87d2b9689c4e6e71cdc8",
+  "received_at": "2026-10-11T20:35:23.965740+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.14,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise identifies potential benefits of using teams but does not establish that teams typically achieved these benefits or used corporate bonding exercises. It neither supports nor rules out that method."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 489
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

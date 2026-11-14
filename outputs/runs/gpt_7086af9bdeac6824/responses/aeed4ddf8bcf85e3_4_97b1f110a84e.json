@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_5280521648.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "44a73ada27ef848f3bf68886baa99c3d928902f2c227889dbd9e3a73d693ba8c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0489435903e20814016acd4df8054c87d2a72d96017b6cbf4d",
+  "received_at": "2026-10-12T21:15:41.690863+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.77,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Lab coats and a laboratory suggest scientific activity, but the premise does not establish that the people are scientists or that reading and looking at a microscope constitute conducting an experiment."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

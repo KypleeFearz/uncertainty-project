@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "27907e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cdfec7b5f3f7178e6d7a0941f8821eaa620cb6a192fc810d9459cebc56871e7d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5db6a9b880022a016acbf7dff06487d2a081c3642f058640",
+  "received_at": "2026-10-11T20:56:04.542984+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the speaker will not prevent or interrupt the addressee; it does not establish that the addressee can cease an activity. A permission reading of “can,” together with an assumed activity, could make the hypothesis seem supported."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 163,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

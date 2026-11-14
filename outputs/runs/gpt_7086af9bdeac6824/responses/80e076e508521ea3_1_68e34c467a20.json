@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105769e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ea42e33c1767702b0f2edf59e989174ca23bb6540b00a48af0feac530bc55f64",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a0031f837a215af016acbf580e75087d28ee8e42614b80faf",
+  "received_at": "2026-10-11T20:45:56.999289+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The speaker planned to become an algebra or French teacher and was surprised to do well in chemistry. This suggests a possible change of academic direction, but does not establish either the intended major or that the speaker fell in love with chemistry."
+  },
+  "usage": {
+    "input_tokens": 465,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 614
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "85517n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a5dc8160df266ad1889cb7e9bf2c98fbd2834d95db12f10e1e9637ab8fa7d037",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ff73f52826ae530016acbf38bf95887d284b2d5b46cd01192",
+  "received_at": "2026-10-11T20:37:35.295698+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says three people approached Ser Perth although only Dave was summoned. It does not establish why the others accompanied Dave, including whether they intended to protect him."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

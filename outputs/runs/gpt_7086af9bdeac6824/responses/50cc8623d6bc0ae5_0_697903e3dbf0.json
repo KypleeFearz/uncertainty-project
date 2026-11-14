@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82988c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e44cbfca9ed5ba9eb7fc5e5b5aa0876ae1a146bcf755ddaa76b680aa9ffd28b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a5298e4ba12d82016acbfa37067c87d2aacde975871c44b1",
+  "received_at": "2026-10-11T21:06:02.618872+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says the music is not particularly using certain folk styles, whereas the hypothesis claims excessive reliance on those styles. The referent of “They” and whether “the types” denotes the same styles are not fully explicit."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 549
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

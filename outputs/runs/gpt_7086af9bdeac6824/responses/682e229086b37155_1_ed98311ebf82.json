@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "89068n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "58d32a81177cb533fc5e78418a04c5fc4b26c50a8e741cb4619dd7250099ebe2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b5ca2e4a04dbc52016acbf3ea509887d2837bbd9ce9058a28",
+  "received_at": "2026-10-11T20:39:10.460709+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise states that The Bell Curve tries and fails to get around the problems, but does not establish that it fails in many different ways. That added claim is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

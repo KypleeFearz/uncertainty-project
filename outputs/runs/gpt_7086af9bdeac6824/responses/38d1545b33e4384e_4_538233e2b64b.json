@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79265n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9ef99fec0036634ebd56f55369f74e8e4cc64606288782145984d201cc68e250",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09d4e3a6b38e7b6b016acbfa01701487d2b5d5776bec6b9c76",
+  "received_at": "2026-10-11T21:05:08.777880+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says tabulations for both funding arrangements can help assess an impression, but does not rank their usefulness. It also gives no recommendation to mark same-agency funded services differently."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

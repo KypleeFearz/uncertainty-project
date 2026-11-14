@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138237n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "17c9fb0c4b1051ebd6786225f9a1ec17d4d35e8a402df0a168bcd643f081a3ec",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0018c6153403b25c016acbe8df097087d2a256f0eb8bba2686",
+  "received_at": "2026-10-11T19:52:02.538058+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.75,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise confirms that 58% of Columbia/HCA's beds are empty, but it does not establish that a report stated this. The attribution to a report requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 529
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

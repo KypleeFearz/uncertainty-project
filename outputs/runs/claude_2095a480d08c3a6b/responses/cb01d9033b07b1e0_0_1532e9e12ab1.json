@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2218907190.jpg#1r1e",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8fe1e542c765d85b07c4cc3560768343b6e0f126f6a40db8ab1d2db64869ad12",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4xHGmTad9y1guHgw3R",
+  "received_at": "2026-10-12T21:40:34.081698+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.09,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "Climbing a staircase means going up stairs, so the hypothesis follows. A small doubt remains because 'begins to climb' may not yet mean the dog is actually going up."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 764,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

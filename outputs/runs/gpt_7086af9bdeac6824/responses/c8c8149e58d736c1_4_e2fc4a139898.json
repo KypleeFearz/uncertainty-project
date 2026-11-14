@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4270956712.jpg#0r1c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "183f64b65d2e190e6592e7b6edbf85926ed1ba97b4bbf818c6c654b72e45f716",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b4d869d28ececc1016acd4c6f579087d2aa9be8bb4718ab7b",
+  "received_at": "2026-10-12T21:09:06.413426+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.003,
+    "contradiction": 0.996,
+    "lexical_ambiguity": 0.002,
+    "unclear_reference": 0.003,
+    "probabilistic_inference": 0.002,
+    "brief_reason": "The descriptions identify the same man, but the premise specifies white socks while the hypothesis specifies blue socks."
+  },
+  "usage": {
+    "input_tokens": 434,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 84,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

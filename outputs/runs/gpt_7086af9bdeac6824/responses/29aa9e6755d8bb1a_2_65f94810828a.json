@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54043c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a3b591dea70d6d1beac87151d70ee78d849eda682b7dcd2f65d277463ca0e190",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02286da83be03e4a016acbef4907f887d2b19aa1443c7db027",
+  "received_at": "2026-10-11T20:19:27.922777+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.57,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says the activity did not go very well, but “how well” can describe its outcome without asserting success. Also, “little” modifies the activity in the premise, not the girl, so the hypothesis adds an unsupported description."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 228,
+    "output_tokens_details": {
+      "reasoning_tokens": 114
+    },
+    "total_tokens": 619
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

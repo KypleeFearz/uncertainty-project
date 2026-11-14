@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73156e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e160e9071832d458c9cd3cad96fbcd1dd03fcf78b18c22474b870579bede1c7c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab8355034be2287016acbf199903887d28c9967a618c62aa3",
+  "received_at": "2026-10-11T20:29:17.434821+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.78,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.42,
+    "brief_reason": "The premise says the speaker missed something after arriving here and found being around different people exciting. It does not establish that arriving here was exciting; the excitement may refer to what they left behind."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 521
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

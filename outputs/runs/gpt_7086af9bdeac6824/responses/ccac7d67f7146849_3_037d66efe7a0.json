@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "5193n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eb7e5559b5507a8fced6b699efbffeffb265a7dde8324e151a57ef0241e83538",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_026755d0257c5977016acbeeefc9c087d2b26f3ab9853201d7",
+  "received_at": "2026-10-11T20:17:54.698748+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.005,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise states that mercury emissions impair lakes, streams, and rivers, directly supporting that mercury releases have an impact on them."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 89,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 495
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

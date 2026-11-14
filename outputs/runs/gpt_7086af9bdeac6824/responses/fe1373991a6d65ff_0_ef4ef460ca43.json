@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45108n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b2471f00367c22b223b8928b46faa96d9b3c660cf958efb6fc220b72a1a5de9e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e537a1bc53872dc016acd45c6f82887d287deba4de179a796",
+  "received_at": "2026-10-12T20:40:42.776675+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise establishes that he said not to worry, but whispering does not establish that he was very calm. His calmness would require an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 460
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3632197966.jpg#3r1e",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise states a motorcyclist is racing on a course, which logically implies a man on a motorcycle is moving across the course; however, the premise does not explicitly mention a man or road, introducing minor ambiguity and requiring probabilistic inference about the motorcyclist's gender and the course's surface."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 330,
+  "output_tokens": 134
+ },
+ "seconds": 2.89,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:23:40.802843+00:00"
+}

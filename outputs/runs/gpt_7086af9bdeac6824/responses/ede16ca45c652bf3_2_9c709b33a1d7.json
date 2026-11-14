@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "30380c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8693ec17aa49e38100ad644d8f8e9929c5f5162cb594bc3d912c6ad54ff4b7a9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0804b057744d462b016acd44f7ef1087d2afbfb26b2c44c316",
+  "received_at": "2026-10-12T20:37:14.849266+00:00",
+  "parsed": {
+    "entailment": 0.002,
+    "neutral": 0.008,
+    "contradiction": 0.99,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise says the NYT reported that the plane flew below the altitude allowed by training-mission rules. The hypothesis says the NYT reported that flying that low was allowed, reversing the reported restriction."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

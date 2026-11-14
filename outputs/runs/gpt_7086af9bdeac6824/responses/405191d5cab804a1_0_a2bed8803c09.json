@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "79007n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9d5c60408647eb086b227ce5764f31fba67f199d44db99ad65de7e09dd72f297",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c8fb91d04110f2a016acd47bbe28887d287b0d3c5c4d8e3fd",
+  "received_at": "2026-10-12T20:49:04.401985+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.33,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.62,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise plausibly means the speaker is only ten to fifteen pounds overweight, supporting the idea that they could lose that amount. However, what the pounds measure is unstated, and the weight-loss interpretation requires an assumption."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

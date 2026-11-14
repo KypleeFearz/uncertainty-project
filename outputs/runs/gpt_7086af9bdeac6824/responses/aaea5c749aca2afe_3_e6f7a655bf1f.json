@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "140440e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4bd0f2ad9b57b91ce91b84615a604e1650d4f1cc445fb3094815c6784f3ef46f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a381c1e7a90e3cc016acbe9410d5887d290910787f2de4678",
+  "received_at": "2026-10-11T19:53:40.837494+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise identifies examples of customer satisfaction expectations for senior executive performance, but does not establish that executives have been studied to meet those expectations. The hypothesis's wording, especially \"have been studies,\" makes its intended claim somewhat ambiguous."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 22
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

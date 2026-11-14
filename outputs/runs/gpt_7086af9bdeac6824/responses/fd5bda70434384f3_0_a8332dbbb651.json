@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "120149c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9eb41787f1a177144dd870c05299f275146c06be0e9a3fa7a211fd251e6fc174",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ac319cb3a3f421f016acbf64bcc0c87d2b358cf12acafae91",
+  "received_at": "2026-10-11T20:49:19.012629+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.02,
+    "contradiction": 0.97,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise says there were many villas that gradually thinned out, contradicting the hypothesis's claim that there were only a few throughout. It also describes reaching an apparently final villa, not a small village."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3601978895.jpg#1r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f035a16708808025da15b8101a700cce13f53552bc868c372918dd4ad72f879",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0182093c7d08c254016acd4ba9849887d28babbb6e8bc67718",
+  "received_at": "2026-10-12T21:05:48.412405+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.61,
+    "brief_reason": "The premise does not identify the metal structure as a water fountain or say that the men are standing in line. A brick wall is compatible with a brick building, but does not establish one."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

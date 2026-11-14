@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "20010c",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "32eefeb752df4080531353a67fb62695c6b3031b3c41eb43bf21f255d27ad957",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwA899Deps1ko6tpn8iw",
+  "received_at": "2026-10-11T21:27:10.862654+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.7,
+    "contradiction": 0.25,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise is a garbled fragment naming a 'Great Management Reform Act', which hints management needed reform but does not state that accounting is bad management. The hypothesis is not established; a mild conflict is possible since 'Great' suggests positive framing."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 776,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

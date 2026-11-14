@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_4877883053.jpg#0r1e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "3c6e5ca45e2d225963e9a6089e3dd20860c17382c2f54332bab2e3be711d5901",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5jAQX1miypy6jQXpXQ",
+  "received_at": "2026-10-12T21:50:42.773079+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.04,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise states cyclists cross a large suspension bridge and two women riders stop to pose for a picture, which directly matches the hypothesis with a more general 'a bridge'."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 811,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112621n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cb0ee0dce3c3e567f9c3972247faca1c8e92a9778ef95d2626b141031a3063ff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08529bd5dfe61e09016acd421366b087d2b8d9def70c83e081",
+  "received_at": "2026-10-12T20:24:56.346015+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise presents shopping malls as places where everything a shopper seeks is available, supporting the hypothesis in its ordinary shopping-related sense. A strictly literal reading of “everything” in the hypothesis extends beyond what the premise establishes."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 46
+    },
+    "total_tokens": 532
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

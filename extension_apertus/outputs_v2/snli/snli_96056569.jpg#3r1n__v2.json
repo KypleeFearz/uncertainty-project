@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_96056569.jpg#3r1n",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.3,
+  "neutral": 0.6,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.7,
+  "probabilistic_inference": 0.3,
+  "brief_reason": "The premise describes a generic cake-cutting scene, while the hypothesis adds specific details (newlyweds, wedding cake) not present in the premise. The scene could plausibly be a wedding, but it could also be a birthday or other celebration, making the hypothesis uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 337,
+  "output_tokens": 127
+ },
+ "seconds": 2.76,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:59:21.555156+00:00"
+}

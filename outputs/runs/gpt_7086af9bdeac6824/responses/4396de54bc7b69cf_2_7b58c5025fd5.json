@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "14388c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dc278765a7075dbb8f06ad6ce1eb2fec3ecb1ebb75e7f1799acc953639bef0eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c412eb331b6c59f016acd440688e887d2b1c49c4128361291",
+  "received_at": "2026-10-12T20:33:14.905720+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.83,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise contrasts parole eligibility under two sentences but does not establish whether the system is fair or the sentence deserved. Its criticism of the system suggests dissatisfaction, without explicitly ruling out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 405,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 550
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

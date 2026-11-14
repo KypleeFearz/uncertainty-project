@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4710342117.jpg#2r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4632ef2b798f7a5e0863f3e7637a25610fdaaddce27fc8be0b380d98a6280f2d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0282d85906b6e843016acd4d1a736487d2aa89f5b56bce4c8b",
+  "received_at": "2026-10-12T21:11:57.247362+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "Working with an object that looks like a kite does not establish that it is a kite or that she is fixing it. Repair is a plausible but unconfirmed interpretation of her activity."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 476
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

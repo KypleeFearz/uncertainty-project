@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52278e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "155b5641f228e78f301223b252817a04e7e89147529362cf942382ea787880e9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_035e8b247756aeb2016acd464b78c887d2a1a4aa8044959914",
+  "received_at": "2026-10-12T20:42:56.653981+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.1,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The ordinary reading of “Tuppence rose” is that a person named Tuppence stood up. Other senses of “rose,” such as moving upward or increasing in status, would not establish the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 170,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

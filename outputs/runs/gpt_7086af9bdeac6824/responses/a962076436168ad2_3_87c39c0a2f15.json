@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103559e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2c1562c88b56170e4bf286d85578986d65c4f3e8de6f58803333a8b521c864ac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f250f8c07175f2d016acbe42b3c1887d2ba60aaea1824ee66",
+  "received_at": "2026-10-11T19:31:59.931205+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.5,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise recommends gin, vermouth, and a twist, but “should” does not strictly establish the hypothesis’s stronger requirement expressed by “must.” If both modals are read as stating a recipe rule, the hypothesis is supported."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

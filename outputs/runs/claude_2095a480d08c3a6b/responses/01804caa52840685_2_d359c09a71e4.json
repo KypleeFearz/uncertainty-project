@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "145846e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "47fdb67803f6d1f828fef17ab8e1d06516da046b092102fef5eae8a8adb21c18",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3zNHa8u2u3rwseUWpa",
+  "received_at": "2026-10-12T21:27:54.958551+00:00",
+  "parsed": {
+    "entailment": 0.62,
+    "neutral": 0.33,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise says such saving would improve the current account balance, so it can be improved; 'slightly' is not stated, which leaves some room for a neutral reading."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 788,
+    "output_tokens": 129,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

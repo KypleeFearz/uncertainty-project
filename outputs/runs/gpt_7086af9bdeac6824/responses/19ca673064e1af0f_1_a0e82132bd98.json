@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2370481277.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0ef3f39f78d275bf8dad184e0f16a050346b438cb8b9f265a38663421177a10c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aa9161b89319d07016acd4997bccc87d294c946f4816f2d10",
+  "received_at": "2026-10-12T20:57:00.180571+00:00",
+  "parsed": {
+    "entailment": 0.37,
+    "neutral": 0.62,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "Kicking a soccer ball while boys in referee shirts follow suggests a game, but the premise does not establish that the boy is competing rather than practicing or playing casually."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

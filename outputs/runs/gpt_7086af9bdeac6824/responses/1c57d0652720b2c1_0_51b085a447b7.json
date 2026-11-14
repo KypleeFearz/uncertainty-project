@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32754n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "32d262c2efc8bec21bf6eb23b15c05cae2e09829104aa4484b3fe6a1750573e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c1a94c1ff756022016acbec5bf4e087d2ad4493e1a5df8f7f",
+  "received_at": "2026-10-11T20:06:56.334980+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.08,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The phrase \"succeeded where even Reagan failed\" strongly implies that Reagan had attempted, but failed, to shutter the DOE. The attempt is implied rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 548
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

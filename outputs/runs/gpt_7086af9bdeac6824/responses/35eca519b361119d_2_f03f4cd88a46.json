@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40738n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "55c9907e3eb96945e8bce42b21fc832fd509c0edb885225abe90a8a9801667d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04aebd4eebe3a5c1016acbed82188087d295056e4e7926063b",
+  "received_at": "2026-10-11T20:11:49.002430+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise states that most low-income people who need legal help do not receive it, but does not establish whether they know what help is available. Lack of awareness is one possible explanation, not a necessary consequence."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 507
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

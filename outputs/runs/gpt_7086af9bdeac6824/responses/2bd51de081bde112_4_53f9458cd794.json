@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70590c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a2e4ded1964b35a1a17a4b03d1c2c67c1cc80ac2a34f4d4331fedb75199f0e13",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e925dc39132c571016acbf158a78887d2aa20ae8a11e0848e",
+  "received_at": "2026-10-11T20:28:11.200270+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.99,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.01,
+    "brief_reason": "The premise concerns China's civil war and its effects on Hong Kong. It says nothing about whether Japan fought a civil war."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 88,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

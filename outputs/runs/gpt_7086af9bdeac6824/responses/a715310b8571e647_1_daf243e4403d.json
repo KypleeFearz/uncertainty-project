@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "35664e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5cda5e8737fd0920fb38b2bd0c9cf5b86a4e74f1e23a635761c422a34b0b4ce7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d1e668059e5aef2016acd4547422087d2857c9945ae029b0b",
+  "received_at": "2026-10-12T20:38:36.923347+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.14,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The requirement to leave, backed by the threat of deportation, supports being forced to leave in the sense of legal compulsion. The premise does not establish that physical removal is currently occurring."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 556
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

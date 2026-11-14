@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_6272230270.jpg#0r1n",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.0,
+  "contradiction": 1.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise describes a man riding a bike in a uniform, while the hypothesis claims he is not afraid to fall and has damaged his uniform. There is no logical connection between the premise and the hypothesis, and the hypothesis contradicts the implied normalcy of the activity described."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 345,
+  "output_tokens": 125
+ },
+ "seconds": 2.64,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:49:17.567184+00:00"
+}

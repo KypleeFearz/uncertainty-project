@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "112688n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1afdd72108d03b5748aa54bf06e270c84b66b15c35d997d1754d1f6d65444e38",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwC744pnDdgWU7rgeEQE",
+  "received_at": "2026-10-11T21:53:09.689504+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.82,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise only points to an appendix (\"app.\") for more information on BLM's senior executive performance plans. It says nothing about whether the plans are available online."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 786,
+    "output_tokens": 130,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

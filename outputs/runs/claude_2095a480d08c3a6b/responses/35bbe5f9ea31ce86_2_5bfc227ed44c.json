@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "107302e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d98fd80ae4ca0ce7bc7ebb0cd0620db6550853fa3be3b6ab5dd6b249e1ac08e5",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw96i1UJgFULhYE8Hb71",
+  "received_at": "2026-10-11T21:13:44.261060+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.3,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says there is a good profit sharing plan but no profit, which closely matches the hypothesis of a good way of sharing money with no money. The hypothesis paraphrases loosely, since 'no profit' is not exactly 'no money', so some graders may call it neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 783,
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

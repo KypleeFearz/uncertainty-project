@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "50314c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ebbd1cfed088f4713f16a967a828ac9cc6d849d2455510b649fc280f21aa0575",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01d21b6a34929038016acbeed4e00c87d29e95755e0c8fd6f4",
+  "received_at": "2026-10-11T20:17:29.106213+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise explicitly calls for determining appropriate actions in response to audit findings and completing corrective or resolving actions. This conflicts with the hypothesis that those findings do not lead to further action, although the fragment does not confirm that the required actions actually occurred."
+  },
+  "usage": {
+    "input_tokens": 438,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 582
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

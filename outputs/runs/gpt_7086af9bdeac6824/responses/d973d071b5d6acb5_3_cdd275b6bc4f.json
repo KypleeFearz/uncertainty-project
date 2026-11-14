@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84918n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f63a89ec2ee657b641514c6b11a041ff01ff6ea71008f40e48a9b47d6bbfe97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06ab9b396766eb31016acbf37a5b0887d296cb8387db9f2c81",
+  "received_at": "2026-10-11T20:37:18.081405+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise places an image of Dionysos riding a panther on the floor of the House of Masks. It neither states nor rules out a painting of Dionysos riding a dolphin in the House of Dolphins."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 565
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

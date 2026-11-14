@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95632n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "53248df7194d376b4f0e7433cbe4c390f83de11cd05b3907e2fa88a11d5d6da4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07e4775415b13c33016acbfae4640487d28988da20cae4b429",
+  "received_at": "2026-10-11T21:08:55.286619+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise says an apparent one-week bargain could be a year-round con, not that some weekly store sales actually are scams. It also does not establish that previous customers are frustrated."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 501
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

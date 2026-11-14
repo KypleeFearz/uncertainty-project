@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21420e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "877d44735374b640454e60b7f1062818a55504c9f68dc4c48c12961e594bdebd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0338c6f61aa1e22f016acbf7a5c95c87d29f1c3e8d0cb00f16",
+  "received_at": "2026-10-11T20:55:05.969889+00:00",
+  "parsed": {
+    "entailment": 0.89,
+    "neutral": 0.1,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The speaker says they like the Lakers, Milwaukee, and Atlanta Hawks. The hypothesis matches this list if “Milwaukee” refers to the Milwaukee Bucks, as the basketball context suggests."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 526
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43764n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "22ade734928865d80f7c0a9ce06c45dfc2797e6c2e9f8b6cc3695c2aaed06374",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_063ea783b0005665016acd45a9305887d29d23a1dc70f577dc",
+  "received_at": "2026-10-12T20:40:12.302379+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise establishes that Mary's personal effects are on display but says nothing about John's. John's effects could also be displayed, but this is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26495e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "64f8f59d57ef0093c38166514b4fea803be362b99971921aeaea465e047348c1",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07c9b6867f3f79d5016acbf7d4878087d2a9910fa67d14209c",
+  "received_at": "2026-10-11T20:55:53.783294+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.66,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise concerns how effectively standard screens work for these subgroups, whereas the hypothesis can concern how the subgroups themselves perform on the screens. The hypothesis is supported only if that wording is understood as a paraphrase of screening effectiveness."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "reasoning_tokens": 54
+    },
+    "total_tokens": 558
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

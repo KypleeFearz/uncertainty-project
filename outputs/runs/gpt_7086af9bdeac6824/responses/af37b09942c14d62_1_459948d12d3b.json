@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43267c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e9d43868b838f0ec5784820ecce184770ffc3088d742620cd16e6177f7ea6805",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0edc2ca2987d431e016acd459cbadc87d28bf2134d974c76ea",
+  "received_at": "2026-10-12T20:40:01.678187+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.08,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise gives the resulting length as about his forearm, which ordinarily is much longer than a couple of inches. Assuming both statements refer to the same object and breaking event, their stated final lengths conflict."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

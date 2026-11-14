@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71886e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4e409c5dc864b3bc29c8588c0307ae2e7d93c6100dc9dc74f3658b6ea5d79eb9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06a2a812e9d362bb016acbf17cfcfc87d29253321616640cab",
+  "received_at": "2026-10-11T20:28:48.876494+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.74,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise does not identify the country as the USA, and being preapproved does not necessarily mean being fully approved already. The phrase \"I think\" also qualifies the speaker's assertion."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

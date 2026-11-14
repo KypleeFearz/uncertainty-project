@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "5193n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "85fe1a06fdb9249687ec247718a2f8f2a6ff96050813d4b270ef261fe8a1a1dd",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAtEqF4jHgq6Erpp2NK",
+  "received_at": "2026-10-11T21:37:09.149359+00:00",
+  "parsed": {
+    "entailment": 0.9,
+    "neutral": 0.08,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says EPA estimates lakes, streams and rivers are impaired by mercury emissions, which implies mercury release affects them. The only hedge is that this is an estimate, not a certain fact."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 817,
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

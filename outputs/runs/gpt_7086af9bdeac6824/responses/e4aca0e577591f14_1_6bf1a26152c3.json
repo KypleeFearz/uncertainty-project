@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3912076502.jpg#0r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "545851d859d42b45a5caf570c61349bf236e3deada080f4ab70189debfd76f9d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ea2d8af4f425d67016acd4c068d0c87d292d5b2836fc4d73c",
+  "received_at": "2026-10-12T21:07:21.671950+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says the women are looking at a fountain, but does not say they toss pennies into it. Looking and tossing pennies are compatible, so the hypothesis is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 484
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

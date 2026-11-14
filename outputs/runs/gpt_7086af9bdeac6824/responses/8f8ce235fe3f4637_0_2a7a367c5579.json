@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106431c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "619eb46f2ba06e6fcba62abb14f7e8268b81adeba8aaa2c24da6d7069211a209",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e6f83cfbee056e7016acbf593f05c87d2a2e423fb226a63c2",
+  "received_at": "2026-10-11T20:46:16.295760+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.969,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.17,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise discusses whether the behavior of those called Pippens and Iversons is defensible, without specifying their species. Interpreting these names as referring to people is plausible but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129601n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6743332d34e475b31b83b851cc117f12d135f70412a76ebbbb557dde67ab6aae",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_015734fcde49eddf016acbd8c1941887d28fe8dd5f88a51a0d",
+  "received_at": "2026-10-11T18:43:17.652483+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.93,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "“Took forever” usually means something took a very long time, without specifying its duration. It neither establishes nor rules out a duration of two years, although a literal reading of “forever” would conflict with a finite duration."
+  },
+  "usage": {
+    "input_tokens": 365,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 145,
+    "output_tokens_details": {
+      "reasoning_tokens": 32
+    },
+    "total_tokens": 510
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

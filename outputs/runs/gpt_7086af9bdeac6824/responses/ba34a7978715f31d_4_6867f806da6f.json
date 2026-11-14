@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "12815e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "adfb367e1a539b4f641a960ec8eea1e3f4bc26ab8fea36b2a6aba798745184f0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d95f421c43328dd016acbd8b77c3087d2a8a5afb8c019bc4a",
+  "received_at": "2026-10-11T18:43:07.433953+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says league bowling is occurring whenever the speaker tries to go, but does not establish that only leagues are bowling. The hypothesis adds an exclusivity claim that is plausible but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 535
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

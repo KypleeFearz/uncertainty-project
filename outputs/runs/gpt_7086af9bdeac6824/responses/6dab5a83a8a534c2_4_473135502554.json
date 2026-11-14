@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "1735n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4302b113f2b5d8fb52892cd2dac54e7c2c163c27cefd40ec6a7ee480a5668aa9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_029435a848781fcc016acbea4948f487d2bcccd2d2afd0f1eb",
+  "received_at": "2026-10-11T19:58:05.393352+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.72,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise says that something appears unfair, but it does not rule out the possibility that it is fair. The hypothesis is therefore neither clearly supported nor strictly contradicted."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

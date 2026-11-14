@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46937n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4a1f6c8b8c860c1611d937fc54fc3331721409149b401ee30a6fe654fc157bfb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04e4cc1045573d62016acd45e86f8487d289cd1f5caf77aaf8",
+  "received_at": "2026-10-12T20:41:16.891001+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.55,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise requires an unspecified action above six hundred but does not establish that no action is required below two hundred. Having a value of one thirty-one does not supply that missing rule."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

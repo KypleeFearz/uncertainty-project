@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133433e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "be4b1d8af5a05709c9e7b534f5d4f300a6c4b3927fe9fe4c0649331eec2a0bbd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bc4eede118a00d0016acbe82dc82487d2a445886a9bb6816b",
+  "received_at": "2026-10-11T19:49:04.904340+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.96,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "“Decline and decadence” does not establish poverty and wealth or rule them out. Associating decadence with wealth would require an unstated assumption."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

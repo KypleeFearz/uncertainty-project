@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88210e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cd5b7dbb45f4314a9ec3c30f8bf1c860ba1746e7bc5c49a95b3aaa7dc41dd289",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00271f0c2608e313016acbf3d79fdc87d2a64923fddfcffb2a",
+  "received_at": "2026-10-11T20:38:51.249120+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Being good does not establish the stronger claim of being excellent, but it does not rule it out. The repeated “they” does not materially change this comparison."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

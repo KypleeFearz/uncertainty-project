@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24067e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0c7823655e4528b2b20968575af7c14f3f5135ac291f6425a3a0c1602c578987",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b8cab337eba5f69016acbeb477c0c87d29d6d63972afff219",
+  "received_at": "2026-10-11T20:02:19.768750+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise explicitly links parents spending their tax cuts with rising interest rates, supporting the hypothesis’s possible outcome. The hypothesis slightly generalizes the parents involved and specifies spending on goods, which the premise leaves unspecified."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49227n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4633dfbb334ab0b0238258f7cbb6fdc8d66dc69ca4c0eec390558cd1c04b825c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0672383a58a0eecb016acbeeb3705487d298c817295b243415",
+  "received_at": "2026-10-11T20:16:54.350582+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.07,
+    "probabilistic_inference": 0.34,
+    "brief_reason": "The premise supports agreement that he lacked Montana's surrounding support, but it does not establish that he performed well. That additional claim remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 93,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

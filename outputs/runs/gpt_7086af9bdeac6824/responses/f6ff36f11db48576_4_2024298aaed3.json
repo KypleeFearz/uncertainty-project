@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139640n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a36b70b214b941c6e4b435cb0df83eb8c8a34591875e305a1d23a286eca338c8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f2f558a9c090044016acd43be955087d28d2c7fa15ccce2c0",
+  "received_at": "2026-10-12T20:32:04.022254+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.63,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.72,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "Reading \"Housed\" as \"houses,\" the premise supports their purpose of accommodating people. However, \"conjured hastily\" does not necessarily mean \"haphazardly built\": speed does not establish carelessness or conventional construction."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

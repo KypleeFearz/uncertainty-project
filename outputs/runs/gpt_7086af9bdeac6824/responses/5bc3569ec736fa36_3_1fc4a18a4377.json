@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40710c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e23620f809bf4ace8f1226262ecb2741e61da747a33a7364a14b4a4172aa918d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03f85655a3af99df016acbf85b780087d2afac92801efa2c7f",
+  "received_at": "2026-10-11T20:58:07.580739+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.94,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise urges writing repeatedly but does not state whether writing is worthwhile or a waste of time. Reading the encouragement as a positive valuation of writing requires an additional assumption."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

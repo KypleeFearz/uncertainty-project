@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3971423752.jpg#1r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e6ea7dc5dea0c08c4712a0a4eab7e325e2bef9d30d73df1ccfd86c32767b5a15",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dc1a5e4966be28b016acd4c15bf7c87d28ae31b94ac97f751",
+  "received_at": "2026-10-12T21:07:36.241716+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The hypothesis adds that the stage is outdoors. The premise does not specify whether the stage is indoors or outdoors."
+  },
+  "usage": {
+    "input_tokens": 432,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 86,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 518
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

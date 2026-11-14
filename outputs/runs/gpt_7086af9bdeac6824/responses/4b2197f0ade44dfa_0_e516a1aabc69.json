@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3375549004.jpg#4r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "da4d19982c1e04b98d3eeac9935c878784df474f2f833b878342da0f2c0c9aac",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00ec77606bf2f857016acd4b4bca8c87d2abad1905becc343e",
+  "received_at": "2026-10-12T21:04:14.907795+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.96,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise supports men walking in a line and carrying items, but does not specify heavy sacks, flour, or a path. Interpreting the line as single file is plausible, but the additional details are not established."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

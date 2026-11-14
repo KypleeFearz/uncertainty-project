@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24755e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c5592ac9102ebbf5bdd10f8e3d7ae971def747c8883151560dfef8d0c39d9e4a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07013e67e80c250f016acbf7c3550487d29df6e1ded07c24bf",
+  "received_at": "2026-10-11T20:55:36.009598+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.23,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise recommends entering through the gate to appreciate the architect's skill, but does not establish that the gate itself exemplifies that skill. The skill could instead be displayed by the courtyard or the view revealed on entry."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

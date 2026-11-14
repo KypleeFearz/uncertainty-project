@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "109876n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "29bb62eaa6dcfb37258204a1ea070269635a0c955c031ae6c3f0cb813d61ac10",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08d7dc829ebb1fea016acbe4fded8887d29014e6961b6d0526",
+  "received_at": "2026-10-11T19:35:29.238327+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The fragment lists a text box titled “Gross Domestic Product and Gross National Product,” but does not show calculations or specify that the box explains them. Inferring calculation instructions from the title requires an unsupported assumption."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 105,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

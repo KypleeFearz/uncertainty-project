@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "2262n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c039fb0ac499d5f1dad447c62637a960fd43f65322ad7e71d718159d0c12ddd3",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwABayZvqnG63Hjtd5ba",
+  "received_at": "2026-10-11T21:27:57.236849+00:00",
+  "parsed": {
+    "entailment": 0.55,
+    "neutral": 0.37,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Sparing the mother a gruesome sight implies the sight would have upset her, which likely means grief, but distress or horror is not strictly the same as grief, so the link is inferential."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 769,
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

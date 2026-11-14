@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11297n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "63bf544ae04dcfe44a77f2e875267e459a8feacab20e1467e1556e68b5567cc2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_025c79076d6d48bc016acd4227edec87d28ec1a735baedd0d7",
+  "received_at": "2026-10-12T20:25:15.860123+00:00",
+  "parsed": {
+    "entailment": 0.19,
+    "neutral": 0.8,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.09,
+    "probabilistic_inference": 0.83,
+    "brief_reason": "The premise says that transforming control of public health programs raises concerns, but does not establish that the transformation is bad. Concerns suggest possible drawbacks without guaranteeing an overall negative judgment."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 99,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

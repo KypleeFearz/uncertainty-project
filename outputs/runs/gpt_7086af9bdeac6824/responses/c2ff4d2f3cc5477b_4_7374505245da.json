@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11601n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "919f07a11c57638ba58c72a2e26aa5677c8ed99b38a954bf7512399ccca2591d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e7a5de284c12a20016acd425c60d087d28b666f15ab09e4a2",
+  "received_at": "2026-10-12T20:26:09.057876+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise says AC usage is roughly proportional to the capacity of coal-fired facilities equipped with the technology, not that it exceeds that capacity. No proportionality constant or comparable numerical values are supplied to establish the hypothesis or its negation."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 20
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

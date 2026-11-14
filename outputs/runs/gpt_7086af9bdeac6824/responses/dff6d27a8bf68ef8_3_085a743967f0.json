@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "111338e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9520a31f1fb52db5f9e63cfc984a8c56b4e91194ce3012192e9612ffd956f6e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040051d9c45a55a4016acbe536253487d2be478448a336af40",
+  "received_at": "2026-10-11T19:36:27.244672+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.74,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise does not identify what “them” refers to or whether “shot” means firing a gun rather than another kind of action. Even under the firearm reading, it does not establish that the gun was his."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

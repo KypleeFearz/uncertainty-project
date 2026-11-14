@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "101809c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3385fc41578e5bdb4f7afabe02a0146e0968ba3c773864866912006f2ba43e72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_00d49041470fa8d2016acbe3d6cdb087d2910af51814849b13",
+  "received_at": "2026-10-11T19:30:33.930053+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.04,
+    "contradiction": 0.95,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "The premise explicitly frames the figures and outcome as hypothetical through “if,” “say,” and “assuming.” This conflicts with the hypothesis that the statement is not conjecture."
+  },
+  "usage": {
+    "input_tokens": 429,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

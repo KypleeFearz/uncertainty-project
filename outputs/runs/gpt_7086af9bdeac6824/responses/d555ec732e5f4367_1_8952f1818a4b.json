@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64123c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "849bb536a0642960839f0da0754bfdf7d51e194f3a5918cc9e46d4c679a1522b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_016c32efaa536899016acbf97be68487d2bb9b9a0cf5d01c7d",
+  "received_at": "2026-10-11T21:02:55.352954+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.97,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.85,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise is a question about a weekly rate, not an assertion establishing or excluding a daily frequency. Neither fragment specifies what activity or quantity is being discussed."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 459
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

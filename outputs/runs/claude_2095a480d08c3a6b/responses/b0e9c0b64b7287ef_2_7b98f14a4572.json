@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "53723c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "8e703ee5e54e5dbb5ee42fd1c7026bbf980f0d8112ec428fa5e5fb84b547b052",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwAwkyJH9hDJVNnfxq1W",
+  "received_at": "2026-10-11T21:37:56.710361+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.27,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise asks how the listener likes something, which is a neutral question that presupposes no opinion. The hypothesis assumes the listener hates it, which a question like this does not support. It is a conversational mismatch rather than a strict logical contradiction, so some neutral probability remains. The referent 'it' is also unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 763,
+    "output_tokens": 183,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

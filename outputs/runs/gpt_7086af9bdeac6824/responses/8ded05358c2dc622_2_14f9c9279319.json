@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21834e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3faa116274d0ef85d9d760454276e1bfc3705b81bebff1f0b04c49f4089261eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04d9cee6ca139556016acbead9f1a087d29d06218e0b0f4877",
+  "received_at": "2026-10-11T20:00:30.690715+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.72,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says the world is not organized for tourists’ instruction or moral improvement. The unclear phrase “morally subject to tourists” does not reliably express that same claim, so neither it nor its negation is established."
+  },
+  "usage": {
+    "input_tokens": 380,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

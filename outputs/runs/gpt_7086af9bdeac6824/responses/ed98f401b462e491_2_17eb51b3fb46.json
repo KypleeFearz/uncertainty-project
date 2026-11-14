@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2298283771.jpg#0r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0a8e5918e3a6cb05f6b82f9afc7a3af13687c6d2e91dd677c1ed3dd4f7630a55",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a66c5b2724f83f3016acd4982a02087d2ac240a1b47eee8c2",
+  "received_at": "2026-10-12T20:56:38.523523+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.97,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise describes a man looking to the left but does not say whether he takes a photo. Looking and taking a photo are compatible, so the hypothesis is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

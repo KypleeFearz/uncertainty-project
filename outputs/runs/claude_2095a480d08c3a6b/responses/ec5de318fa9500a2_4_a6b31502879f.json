@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "56649n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "d619f6956ae5c749d5957bc92221d8fd277daae073f2eabd7387e7a79a29115f",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwB1iFCtXPuxWYqidYFu",
+  "received_at": "2026-10-11T21:38:50.505466+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.08,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "\"Never know where they won't turn up next\" is an idiomatic way of saying they could appear anywhere, which means their location is hard to predict. The pronoun \"they\" is not resolved, but the same referent appears in both sentences."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

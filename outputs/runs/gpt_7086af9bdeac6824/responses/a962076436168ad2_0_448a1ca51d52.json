@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103559e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1aefc23cbae7e6e53594b3cb5b380204f9e9719b46f32a53d222bd52ed3f8cc9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bcadecba922f193016acbe428038c87d2b6ce438599839ef5",
+  "received_at": "2026-10-11T19:31:56.687285+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise recommends gin and vermouth (plus a twist), whereas the hypothesis makes gin and vermouth mandatory. Entailment depends on interpreting “should” as a strict requirement rather than a recommendation."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

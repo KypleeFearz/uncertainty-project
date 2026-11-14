@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "89cfd3e7f69e974cf9f69609482988ef81c5c874295213e66d04c00331d19529",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0800dd2fd20a40bc016acbe602890c87d2abd9da5b6c733a23",
+  "received_at": "2026-10-11T19:39:49.446712+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.43,
+    "contradiction": 0.56,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.36,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "If “the hotels” refers to all the hotels mentioned, the claim conflicts with some not opening until the end of April. If it refers to a subset, their March 13 opening date is neither established nor excluded."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 496
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

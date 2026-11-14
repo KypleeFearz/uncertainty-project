@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80600e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6151e4179765aab305ac99f8c06cdaaf468538fb3614e1aaaa251c06bcb0f2ee",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_063a1156767da8dc016acbf2b47e8487d28be541392724eee9",
+  "received_at": "2026-10-11T20:34:01.096750+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says that a lot of kids resent things their parents tell them, supporting the hypothesis’s description of dislike. The hypothesis is slightly broader because it does not preserve the qualifiers about how many kids or which things."
+  },
+  "usage": {
+    "input_tokens": 412,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

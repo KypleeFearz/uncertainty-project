@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "103155e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.3,
+  "neutral": 0.6,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise describes Sir James nodding but does not explicitly state his thoughts, leaving the hypothesis uncertain. Nodding can indicate agreement, acknowledgment, or other reactions, so the link to thinking it absurd is only a probabilistic inference."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 339,
+  "output_tokens": 118
+ },
+ "seconds": 2.55,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T16:39:42.393650+00:00"
+}

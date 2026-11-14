@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "7449e",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "30f0ffabc4f20cd20a1994814679517e192659aa49001cb3f935e3203abc6ff9",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBQQzGqqECkwgU4yH2W",
+  "received_at": "2026-10-11T21:43:58.141997+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.7,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise says Wallace won his last race for governor in 1982, but it doesn't say whether he was reelected rather than elected after a gap, and it's unclear whether the win was the primary or the general election. Reelection is likely but not guaranteed by the text."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 822,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

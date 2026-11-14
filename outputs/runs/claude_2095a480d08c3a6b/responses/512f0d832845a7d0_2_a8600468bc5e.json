@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "118415n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "4d90c9a40368af0f121897d04f655751c15412f41f1e198254f8a87b1414f833",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCBJnDxQqaXKLtQyEsB",
+  "received_at": "2026-10-11T21:54:07.691933+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.8,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "Panzar's bottleneck claim about street delivery implies cost advantages of a single deliverer, but it does not say he supports nationalizing all postal and courier services into one entity. The hypothesis goes well beyond the premise, so the pair is mostly neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 841,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

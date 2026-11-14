@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88349n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "087001edc91b6bd3ad3e3fe8e618637a8d62543cb4d93bbc8c79cd1aa9c63010",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c79973d4082fd44016acbfa88f1e087d292fb3183018408f1",
+  "received_at": "2026-10-11T21:07:26.452660+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "“It behooves Slate” expresses a duty to make a thorough effort to uncover the truth, which supports conducting an investigation. Some uncertainty arises because “behooves” can suggest advisable action rather than a strict obligation, and the premise frames this as the speaker’s opinion."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 177,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 574
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

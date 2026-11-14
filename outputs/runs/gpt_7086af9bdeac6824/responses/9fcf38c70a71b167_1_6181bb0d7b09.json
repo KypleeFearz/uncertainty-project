@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "82629e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "eaa77a4dbf934d9f0c3f96267ba98a3d97d0a7f6520802016d022bf6e1fa062b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c280ce4d4d3ce77016acbf33483c487d290c9d1af1fac92a9",
+  "received_at": "2026-10-11T20:36:09.277428+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.8,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.75,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise mentions a reasonable time to make a requested record available, not time allotted to prepare a report. The hypothesis leaves unclear who “they” are and whether “the report” refers to that record."
+  },
+  "usage": {
+    "input_tokens": 406,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

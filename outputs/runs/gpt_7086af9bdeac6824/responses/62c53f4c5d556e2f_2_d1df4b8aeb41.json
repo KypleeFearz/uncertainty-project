@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_985067019.jpg#1r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a13db5cbf9e9b36de25aab90c183f7499b4f1c074dda532cf3b1fdeba3c5e985",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_085b34889c8d6f52016acd4f107f8887d29e68ab6849582de5",
+  "received_at": "2026-10-12T21:20:21.819271+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.78,
+    "contradiction": 0.19,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "Sliding down does not establish that the boy rolls around, but it does not explicitly exclude rolling either. Treating the two descriptions as incompatible would require an additional assumption about his movement."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

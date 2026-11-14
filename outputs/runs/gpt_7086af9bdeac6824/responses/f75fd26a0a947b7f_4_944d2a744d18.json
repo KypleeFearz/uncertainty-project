@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73191n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "69c46450f726f31c3cf8fb2718f8708a90b6604fd13bbf9c44bbe6ddaa6df4d3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084e8c10f5cf9c73016acd4778634c87d2892e390dcbeea39e",
+  "received_at": "2026-10-12T20:47:57.278950+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The premise recommends the climb as an opportunity to stretch your legs in a beautiful setting, suggesting it could be enjoyable. It does not establish that you will personally enjoy doing so."
+  },
+  "usage": {
+    "input_tokens": 425,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

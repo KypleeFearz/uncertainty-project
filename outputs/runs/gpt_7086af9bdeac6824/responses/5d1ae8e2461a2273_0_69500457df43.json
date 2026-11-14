@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3012517885.jpg#3r1e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c86a1ae2911940fe832c6b4c755b4cfe8dda91ce58a0407ec30c9eaa9f5f2959",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_002b46539f227127016acd4a86a38087d28118920158aa6042",
+  "received_at": "2026-10-12T21:00:58.529017+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.14,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise naturally describes both men working on one shared thing. However, it does not explicitly exclude their working on separate things in the shop."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

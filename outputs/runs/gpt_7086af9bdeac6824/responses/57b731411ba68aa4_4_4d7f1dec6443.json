@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4967473062.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c11bed9406970dce2d054692fcd7e428cf1baca9f37fd9af13495b75c860018",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0be211741d3969f3016acd4dbf7c4c87d2aa52cbc6af7f2cbb",
+  "received_at": "2026-10-12T21:14:43.732980+00:00",
+  "parsed": {
+    "entailment": 0.65,
+    "neutral": 0.35,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise supports 'a couple' if it means a pair of people. If it means romantic partners, their relationship is not established."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

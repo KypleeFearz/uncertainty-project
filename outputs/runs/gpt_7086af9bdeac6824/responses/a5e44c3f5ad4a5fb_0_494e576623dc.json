@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121360e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dea467b038295edff15c93ec8ac52d21dcf0cb0f1b7af0a61c30760cfe70dcd8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09d696d61bfc29a6016acbe6840fb887d2883eceeb2eb12ac4",
+  "received_at": "2026-10-11T19:41:59.873107+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.88,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "The premise compares the tip’s shape to tips of slaughter knives but does not establish that the described objects were weapons or were used to kill. The referent of “they” is also unspecified."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 516
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

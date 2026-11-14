@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96121e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1bb4243d449ce380eef28656764a76829e64e59d13ff2b1ab304f47aa7eaf3b3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0812fa942715341c016acbf4b371d487d2850de8d04d99c249",
+  "received_at": "2026-10-11T20:42:30.789111+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.04,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.13,
+    "brief_reason": "The speaker says they regularly went to Delaware along the ocean, which strongly supports usually seeing the ocean on those trips. Seeing it is implicit rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 421,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

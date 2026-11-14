@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "55241e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9cd292168c91d87fcfb92405b075f32f43a8ce7f2eb266d7bb6d4603c2ecf842",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01a5b98cabb0f14b016acbef7a6af487d2ae0b047d268ed881",
+  "received_at": "2026-10-11T20:20:15.575362+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "The premise supports that men's masculinity can be called into question, but it does not establish that men actually possess some degree of masculinity. That additional claim depends on interpreting \"their masculinity\" as implying possession rather than merely an attributed quality."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 185,
+    "output_tokens_details": {
+      "reasoning_tokens": 70
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

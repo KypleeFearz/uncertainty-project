@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138500e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2463de3e15ef3fa22e757937aea78664206862dc324bdd6cc41041ed01a74e1e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0479d612af96f415016acbf70917e087d297985ae835571729",
+  "received_at": "2026-10-11T20:52:34.128487+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.2,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker predicts that others will come for them, which broadly supports the hypothesis. However, the prediction depends on those people first getting the addressee, and coming for someone does not guarantee successfully getting them."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 82
+    },
+    "total_tokens": 560
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

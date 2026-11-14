@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136097n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bcc3092ba718d2d460489c2144a1b539e62377a3874c2685447bdc722b3a28e8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_040579e3437ef886016acbe88fb85087d29e3b8b61aa86e08a",
+  "received_at": "2026-10-11T19:50:45.201781+00:00",
+  "parsed": {
+    "entailment": 0.6,
+    "neutral": 0.39,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise presents wealthy parents as necessary to avoid prohibitive barriers to attending school. The hypothesis is supported if “prohibitive” means effectively preventing attendance, but is stronger if it merely means very expensive or difficult."
+  },
+  "usage": {
+    "input_tokens": 375,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 213,
+    "output_tokens_details": {
+      "reasoning_tokens": 104
+    },
+    "total_tokens": 588
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

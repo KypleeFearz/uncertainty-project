@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4795292403.jpg#2r1n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1db18d36381ce245caf2060e6c33312d6928c8873c6a0f5c740e725e17cefbbb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_089f966030528bbe016acd4d59218887d2871aebe8588461b4",
+  "received_at": "2026-10-12T21:13:00.303279+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.91,
+    "brief_reason": "Being in a wheelchair does not establish that the man cannot walk; people may use wheelchairs for other reasons. The hypothesis also leaves implicit which person it refers to."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 473
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

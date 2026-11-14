@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "138227e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a82f83ce61b9d85035d8e5a9c77abe30e07952261e2c194ec345381d65752642",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c16c60caabb19fe016acbe8d4366887d2bc131139861ecb84",
+  "received_at": "2026-10-11T19:51:52.604932+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.91,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise recommends considering the prevalence of alcohol problems among ED patients, not exploring a relationship between alcohol-dependent patients. The hypothesis leaves the intended relationship unspecified, and the premise neither establishes nor rejects that recommendation."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 537
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

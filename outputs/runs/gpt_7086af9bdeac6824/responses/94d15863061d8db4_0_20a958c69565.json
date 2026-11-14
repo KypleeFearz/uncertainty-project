@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3105691757.jpg#1r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "793823a6bc8a8d55d0a9e13653e0586c1a76f6b9d87e2080110590b709cd8cc6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_064d091bf63c72e6016acd4abc839c87d281342abece0a4319",
+  "received_at": "2026-10-12T21:01:52.390006+00:00",
+  "parsed": {
+    "entailment": 0.88,
+    "neutral": 0.12,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Marching in a parade supports that a group is walking, and Santa costumes strongly suggest a Christmas parade. The Christmas theme is likely but not explicitly established."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 466
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

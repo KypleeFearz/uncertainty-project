@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81579e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a022bba85c6604a3ff38501ff47a0938924d281cf9161f1ad1c344419dc00dd7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0171bed75472ee1c016acbf2f2939487d2bb65f14d676ec343",
+  "received_at": "2026-10-11T20:35:03.698834+00:00",
+  "parsed": {
+    "entailment": 0.82,
+    "neutral": 0.17,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.4,
+    "probabilistic_inference": 0.23,
+    "brief_reason": "Being prominent and nationally known supports being well-known. Entailment depends on interpreting “all” as referring to the identified organizations, since the premise does not explicitly specify which organizations were identified."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 190,
+    "output_tokens_details": {
+      "reasoning_tokens": 86
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

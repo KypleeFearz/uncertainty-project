@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49434n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3498fd56b1792522da89528b9473eb2d18a2d1ac9afcbb2989ecdbb99675893f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e1c7bd396194b9f016acd4600747487d293de5aa056447d9a",
+  "received_at": "2026-10-12T20:41:41.357805+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "The premise says using a mower on the mushy lawn would tear up the sod, supporting damage to the grass. It does not explicitly establish that the mower would sink, so the hypothesis adds a plausible but unguaranteed mechanism."
+  },
+  "usage": {
+    "input_tokens": 407,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 157,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 564
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

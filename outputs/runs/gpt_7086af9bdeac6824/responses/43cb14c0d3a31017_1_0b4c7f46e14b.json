@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "88349n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "26ed839a61d40ee7b69ba82ca1f66cb243fbcde86cafe4edfeafe231f1713822",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dfff759c257e64e016acbfa86377087d2a77240ab9b073268",
+  "received_at": "2026-10-11T21:07:23.223558+00:00",
+  "parsed": {
+    "entailment": 0.76,
+    "neutral": 0.23,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.65,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.28,
+    "brief_reason": "The premise says it behooves Slate to make a thorough effort to uncover the truth, which supports undertaking an investigation. However, “behooves” can express advisability rather than strict obligation, and “I think” qualifies the claim."
+  },
+  "usage": {
+    "input_tokens": 399,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 53
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

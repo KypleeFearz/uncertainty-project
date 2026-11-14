@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "12815n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "e650377a42964ad17910eea5187b464d808982e14283effd53390a0f1e139593",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9aKL14mEsDfhTE44a7",
+  "received_at": "2026-10-11T21:19:59.055770+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.4,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says league bowling is always happening whenever they try to go, which suggests they are blocked, but the premise never says they could not bowl. The hypothesis adds 'only' and 'can't bowl', which are plausible inferences rather than stated facts."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 804,
+    "output_tokens": 162,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

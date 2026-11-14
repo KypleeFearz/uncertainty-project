@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "37136n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "66583f5baee0d906d404619fbe6b3e72c216b5bb09f929c42ff0e798929dd8b5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0adcda415a167645016acd45544e5487d29f61501f396b46d8",
+  "received_at": "2026-10-12T20:38:48.186371+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.16,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise supports that Adrin's arms were tangled and the blades kept away, but it does not establish that the blades were rusty. Identifying the blades as Adrin's and their distance as specifically from Kal also requires inference."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 25
+    },
+    "total_tokens": 525
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

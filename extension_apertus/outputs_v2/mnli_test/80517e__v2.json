@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "80517e",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.95,
+  "neutral": 0.05,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.2,
+  "probabilistic_inference": 0.65,
+  "brief_reason": "The premise and hypothesis both express negative evaluations, with the hypothesis being a stronger version of the same sentiment. The main uncertainty comes from the degree of negativity and the lack of a clear referent, but the overall meaning is consistent."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 328,
+  "output_tokens": 121
+ },
+ "seconds": 2.58,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:44:33.796974+00:00"
+}

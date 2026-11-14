@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "104837e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e16db7863f8de4c58de55855e942a15d73927c0603dbb338c0ada8d1c1baa4d4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01483eb533da07a1016acbf55695b087d2ba148319c4fd412d",
+  "received_at": "2026-10-11T20:45:17.473049+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says some consultants describe dysfunctional workplace interactions as value-subtracting, but does not specify that the value lost is value for the consultants themselves. The hypothesis therefore requires an additional assumption about whose value is reduced."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 176,
+    "output_tokens_details": {
+      "reasoning_tokens": 67
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49123n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dbf520cffb5fd27141e1c73dc506b3305d7ce3aef055475aa930dfb15734f191",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b51bf1ca7066236016acbf8c9240487d2b52b48082a3dad21",
+  "received_at": "2026-10-11T20:59:57.285059+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise reports recommendations from contacted individuals and organizations, not agencies' beliefs about their own practices. Those recommendations establish neither that agencies consider current practices sufficient nor that they consider them insufficient."
+  },
+  "usage": {
+    "input_tokens": 410,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 132,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 542
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

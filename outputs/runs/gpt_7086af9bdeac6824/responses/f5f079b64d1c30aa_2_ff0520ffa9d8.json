@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "71957n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5d88d25ed9a38e5242aa34a9f8b554fa95f9e9f405fc6ef3dc1b29010cb22440",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084bc566b45ea30c016acbf180d92087d28dddc90db0414984",
+  "received_at": "2026-10-11T20:28:52.892236+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "Agricultural shows can be exhibitions or fairs, not necessarily parades. The premise neither establishes farm parades nor rules them out."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 127,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 490
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

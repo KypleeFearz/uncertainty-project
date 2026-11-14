@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "52278e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4b56dbd76a1ac78f0e5251b4288d452ddfce7dee9d5a487de4353459cb95401d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_018476e7ce8ca09b016acd464d780487d2b4f05fbb7e67d8a4",
+  "received_at": "2026-10-12T20:42:58.319559+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.055,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.05,
+    "brief_reason": "On the ordinary reading of Tuppence as a person's name, “rose” means “stood up.” Other senses of “rose,” such as moving upward or increasing, are possible without further context."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

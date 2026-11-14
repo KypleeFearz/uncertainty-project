@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "59208n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9fbce1c56a88e57eb0a7a81356cd6e94297b526e9445657a95e6bb3ded9461df",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c48c9c56110b03016acbf0097cf887d2b4a63072a17c323b",
+  "received_at": "2026-10-11T20:22:37.719961+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise identifies Meg Ryan as the actual choice, supporting her inclusion as a possible selection. The disjunction does not require Jon Doe to be a possible choice as well."
+  },
+  "usage": {
+    "input_tokens": 374,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 500
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77690n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ab62a702a91a083ae46d8ae03cd10ee1c42da99d1df51c380fd0d798a833c015",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01e198236336cb39016acbf2520eb487d2b6b5658d91e13d2a",
+  "received_at": "2026-10-11T20:32:20.905242+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.24,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise says regulatory changes occurred concurrently with downsizing, not that downsizing caused or immensely helped produce the freedoms. It also describes flexibility for agencies, whereas the hypothesis attributes freedoms to firms and adds other contributing factors."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 509
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

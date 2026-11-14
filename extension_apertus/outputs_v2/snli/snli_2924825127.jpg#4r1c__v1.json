@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2924825127.jpg#4r1c",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.1,
+  "neutral": 0.8,
+  "contradiction": 0.1,
+  "lexical_ambiguity": 0.2,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.5,
+  "brief_reason": "The premise only states the man tumbles while being watched, not that he was running beforehand; running is an assumption, not guaranteed by the tumble. The location is unspecified, so whether it is a field is uncertain."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 116
+ },
+ "seconds": 2.47,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:10:41.591246+00:00"
+}

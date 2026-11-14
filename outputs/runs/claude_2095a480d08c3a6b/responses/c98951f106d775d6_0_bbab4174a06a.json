@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "33822c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "309cd979a4b37e911ee62b3341026fcf3a13fbd7a6c7e52082a31d3473ce6aa0",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwATidtHhBVJYXCpwGLX",
+  "received_at": "2026-10-11T21:31:36.467807+00:00",
+  "parsed": {
+    "entailment": 0.2,
+    "neutral": 0.6,
+    "contradiction": 0.2,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.8,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The rhetorical question 'Why shouldn't he be?' leaves 'be' and 'that way' without a clear referent. It might suggest he already is that way, but the premise doesn't establish it."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 752,
+    "output_tokens": 144,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

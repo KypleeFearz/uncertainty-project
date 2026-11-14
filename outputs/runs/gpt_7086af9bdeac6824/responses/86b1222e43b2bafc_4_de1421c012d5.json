@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105176n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7376a47433c9b752c08045a38e79286de382e228e2a09b7aa9b5c37d3d922b5f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05145fcab15e86ef016acbe452a6b487d297ea4d01430cc287",
+  "received_at": "2026-10-11T19:32:37.403470+00:00",
+  "parsed": {
+    "entailment": 0.09,
+    "neutral": 0.89,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "The premise supports noticing him repeatedly and believing he was afraid, but does not specify that he was hiding something or feared discovery. Those details are possible explanations of his fear, not established facts."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_322103537.jpg#2r1n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "dcfd15e7a6a92bc6772c125d48b11a165b2fba8787dd6c852a897171d8aa6bed",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy5Fr5C9gTrMgcC8ex9r",
+  "received_at": "2026-10-12T21:44:32.236039+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.62,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The girl in a bikini jumping off a sand dune matches, but the premise says nothing about landing in a pirate ship. That detail is unlikely yet not strictly ruled out, so it is mostly neutral, with some contradiction by implausibility."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 799,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

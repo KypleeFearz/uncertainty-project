@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32851e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b0a228535307584a1e052c51754bbbf8f13356b66a32b76935b1624f67af7e33",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b7acc3fcd577b03016acbec6d0e4087d2a977f9d7be5e414e",
+  "received_at": "2026-10-11T20:07:13.228512+00:00",
+  "parsed": {
+    "entailment": 0.28,
+    "neutral": 0.7,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise says that few other cities offer the same observable variety of costumes, not that few cities contain a large array at all. The hypothesis requires treating that relative comparison and likelihood of seeing costumes as an absolute claim about their presence."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 536
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

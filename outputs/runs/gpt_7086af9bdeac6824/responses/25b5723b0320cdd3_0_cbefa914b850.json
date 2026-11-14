@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "77025c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3f885f078b817e1563b6942326ac1cd5ee17095b662d117772a36e4bf9f531b6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c25c952d29bc004016acbf236df9887d2b2e653f8c0fac14c",
+  "received_at": "2026-10-11T20:31:55.346077+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.13,
+    "contradiction": 0.85,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "Tommy's head shake most naturally indicates that he did not disclose his identity, whereas the hypothesis presupposes that he did. The negatively phrased question leaves some ambiguity about what his gesture denies."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "reasoning_tokens": 55
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

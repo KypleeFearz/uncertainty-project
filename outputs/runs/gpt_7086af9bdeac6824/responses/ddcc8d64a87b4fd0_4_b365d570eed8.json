@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "48454c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f6c89f81a8517c2e92507b9105edf64718c4991e4b7a8636289cbe40a903b8a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d3dda8a23770abc016acbeea4a82087d289fb0aa0971b5ddc",
+  "received_at": "2026-10-11T20:16:41.021296+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Emanuel's favorable reaction to revelations embarrassing Clinton's opponents suggests satisfaction among Clinton's supporters. However, the premise does not explicitly identify hearings or establish that supporters were pleased with how they went."
+  },
+  "usage": {
+    "input_tokens": 438,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "45319e",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b4efb2a89f5955c5fa28e53ddcc69c275eb309e562438636fa0a82e7e9f51984",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCbQwTsKoKFHv9HZ3Kh",
+  "received_at": "2026-10-11T21:59:34.715000+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.45,
+    "contradiction": 0.43,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "\"Good\" is positive and could mean anything from decent to great, while the hypothesis says \"all right but not great,\" which may clash with an enthusiastic reading or be compatible with a lukewarm one. The referent of \"they\" is also unspecified."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 767,
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

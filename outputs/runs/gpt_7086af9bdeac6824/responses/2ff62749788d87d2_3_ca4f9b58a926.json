@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "17769n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5f15c1badf4683ea7f1c5690f9f7a584683df7656feacc90a25f4204e64e3bb6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0177bdce462b67e2016acd4463c6dc87d2a3eff31f30ea9aef",
+  "received_at": "2026-10-12T20:34:48.705442+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise asks what is available for our lunch, whereas the hypothesis asks what others served for lunch. The premise does not establish that these refer to the same meal or that any food was served."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

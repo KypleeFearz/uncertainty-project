@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "125238c",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "800ac33164dfb2b47471ea8cf2c144268a70a6b7d62771586a59417f8bc3a46e",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3k88tam4L4rpxu38Ax",
+  "received_at": "2026-10-12T21:24:42.421869+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.8,
+    "contradiction": 0.17,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The hypothesis is a fragment about nonexchange revenue going to 'General Mills', which the premise never mentions; it only discusses transfers to the General Fund or another entity. It is likely a corrupted version, so the premise neither supports nor clearly rules it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 814,
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

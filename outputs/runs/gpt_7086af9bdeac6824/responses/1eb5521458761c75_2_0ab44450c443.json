@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70047c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d283cee02d2ba4bff6b1d56cf2ae7da77c95d2dd97a38b77ec9d1b52f924668",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b011098b1dc0908016acbf152efbc87d28384bc727c301349",
+  "received_at": "2026-10-11T20:28:06.111665+00:00",
+  "parsed": {
+    "entailment": 0.07,
+    "neutral": 0.91,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says they closely examined the cliff-side, but does not specify that they were at the top of the cliff. Looking for the hole is plausible from the context, but the stated vantage point is unsupported."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 487
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

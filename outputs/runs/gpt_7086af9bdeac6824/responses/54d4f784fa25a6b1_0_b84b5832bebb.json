@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54811n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7c2fc4d7b2af22332aada9104c3e343480fc5ec82716f02b40768466f2ca6f75",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01779ec0df251007016acbf918861887d2b3b3aad2f35c5337",
+  "received_at": "2026-10-11T21:01:16.831801+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.85,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise calls the park a good playground but describes the toboggan ride, not the park itself, as tame for older kids. Finding the park unremarkable is possible, but it is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 553
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

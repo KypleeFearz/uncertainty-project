@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "52806c",
+ "variant": 0,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.8,
+  "brief_reason": "The premise criticizes the film as formulaic and lacking direction, which contradicts the idea that it is a classic. However, the assessment is subjective, leaving room for neutral disagreement or probabilistic disagreement about whether it could be considered a classic by some."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 355,
+  "output_tokens": 121
+ },
+ "seconds": 2.66,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:29:33.129979+00:00"
+}

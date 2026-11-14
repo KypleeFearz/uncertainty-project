@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "100248c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f70301f7d7de1b40ec88eec893e3a494d4dd380c05aec04a8faa8dc7ee6b6c3c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05a0ea2e82a4d5a5016acbf515e5e887d2a9fe8745091fe858",
+  "received_at": "2026-10-11T20:44:11.935134+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.86,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise leaves future regulation possible if industry self-policing fails, but does not establish whether regulation will actually occur. The hypothesis makes a definite prediction that the premise neither guarantees nor conclusively rules out."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 561
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

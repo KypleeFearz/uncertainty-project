@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "82436n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "533defb0e20ea5519cafaf4d74658af5effb12b1d1dabd3cf34fe97b8df586b6",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBcy7tSKMRwx7h6sKtg",
+  "received_at": "2026-10-11T21:46:49.101172+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.55,
+    "contradiction": 0.35,
+    "lexical_ambiguity": 0.1,
+    "unclear_reference": 0.25,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise praises the aging of the character except for the last actor, but the hypothesis adds specifics (ages 5 to 20, 'you totally knew who that actor was') that are not stated. The 'except the last actor' part is cut off, so whether it was a flaw is unclear; the added details are unsupported, and the last part may even conflict with the premise."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 838,
+    "output_tokens": 192,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

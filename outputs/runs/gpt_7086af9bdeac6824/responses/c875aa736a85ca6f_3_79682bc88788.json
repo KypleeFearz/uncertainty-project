@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "128832e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8db6323e884ea95a3977233db96babfa4bd22327c8bc5b101739d3c453503c56",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ef7517889e6d1a016acbd8bbd9e887d284b481916a513e1c",
+  "received_at": "2026-10-11T18:43:12.803281+00:00",
+  "parsed": {
+    "entailment": 0.75,
+    "neutral": 0.24,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "Reading “pictures” as films and “it” as a restaurant, the premise’s “always” supports the hypothesis’s weaker “tend to.” However, depicting crooks with a restaurant in the Underworld does not strictly establish that the films are about the Underworld."
+  },
+  "usage": {
+    "input_tokens": 388,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 208,
+    "output_tokens_details": {
+      "reasoning_tokens": 87
+    },
+    "total_tokens": 596
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

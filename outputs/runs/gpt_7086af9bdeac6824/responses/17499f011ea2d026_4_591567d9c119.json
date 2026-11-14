@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13765c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "297aeb5809d4c6a8df66e1a5c32ac9611786f8fea661eca8093ed8160d95e69d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a3587d60960a84f016acd4399744c87d2939f7955536c262d",
+  "received_at": "2026-10-12T20:31:25.086722+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.08,
+    "contradiction": 0.91,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The speaker describes stealing as morally bad and criticizes thieves for not caring about their victims. This indicates an objection to stealing, contrary to the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 123,
+    "output_tokens_details": {
+      "reasoning_tokens": 27
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

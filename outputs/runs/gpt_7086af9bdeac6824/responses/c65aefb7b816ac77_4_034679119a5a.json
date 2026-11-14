@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "91709c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f40844223227ba77de22f71a15dad758a861c1f435227fbc1a840d78ffa6d7eb",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0cf94b3f12799013016acbface2bf087d2b7c9b09abc37ce42",
+  "received_at": "2026-10-11T21:08:33.742449+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.94,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.32,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise establishes only Jon's impression that San'doro did not sound hypothetical. It does not establish that San'doro's words were hollow or that Jon immediately recognized them as such."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

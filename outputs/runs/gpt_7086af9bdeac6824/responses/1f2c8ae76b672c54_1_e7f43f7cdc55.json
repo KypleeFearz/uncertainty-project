@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105191c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "724aac80b1831c68241becea70e3bea9dfbd8b9dd3923c320d9d90e2bb483c79",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0739fc2d58295fde016acbe459839c87d2abf0b9f28e521c4e",
+  "received_at": "2026-10-11T19:32:45.665640+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise reports a description involving political brinkmanship, not a description of the situation as beautiful. It does not establish or rule out that the Washington Post also called it beautiful."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 51
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

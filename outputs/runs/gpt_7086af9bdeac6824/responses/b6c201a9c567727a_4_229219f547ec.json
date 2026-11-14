@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "36655n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0e74ba23d86a0651d053b674c7d8fe67e867c0314cc32c13cee32dd973a046b9",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04de9f8899b2fcf0016acbecdb099c87d2ad3444020b30b442",
+  "received_at": "2026-10-11T20:09:03.613653+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.15,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise says the Bonapartists, led by Napoleon's nephew, emerged triumphant in the 1848 revolution, supporting the hypothesis. However, it does not explicitly identify France or state that their victory resulted in his ruling it."
+  },
+  "usage": {
+    "input_tokens": 413,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

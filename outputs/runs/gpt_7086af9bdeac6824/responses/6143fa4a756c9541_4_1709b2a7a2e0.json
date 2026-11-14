@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133456n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "682992c7e51ff93533bb29158418c17d35c46f3f5f6a682a19d042d1c054f6ca",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_005a5021b283abc5016acbe83207f087d2ada066c98be75e6e",
+  "received_at": "2026-10-11T19:49:09.914578+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says the tax preference lowers borrowing costs for public infrastructure, but does not establish that communities will develop faster. Faster development is a plausible consequence rather than a guaranteed one."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 531
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

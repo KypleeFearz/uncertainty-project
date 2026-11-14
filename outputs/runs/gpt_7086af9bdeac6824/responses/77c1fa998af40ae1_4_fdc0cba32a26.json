@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "72389c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb627113c79569961ab9d9d6e9a146b5e6e4d194c58608a700e1835b76f03eed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06fbae6bae8055b5016acd4763984887d29660a3547960beaa",
+  "received_at": "2026-10-12T20:47:35.220237+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.96,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.15,
+    "brief_reason": "The premise says the NFL semifinals are set but does not describe anyone's ability to disclose scheduling information. The hypothesis leaves both “they” and the relevant dates unspecified."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 475
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

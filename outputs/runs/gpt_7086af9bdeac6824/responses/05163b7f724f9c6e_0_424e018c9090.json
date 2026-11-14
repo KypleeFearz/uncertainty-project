@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "47877c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3bef693a4dac89fedfc8e373130a201a45908d98db0fed0af45680ee5098933c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0501b6b0224e3589016acbee7edcb487d2a435449e79ab4f13",
+  "received_at": "2026-10-11T20:16:03.471624+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.94,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise says many children share fears and that the speaker finds this funny; it does not establish whether most children find it amusing. Having a fear does not necessarily rule out finding the shared experience amusing."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23780n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7b9a146c237225c313caa3739f5162bb5fdb9bb623e6258ff3e3d7e184682f0f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0dd0e7e2e9fc4275016acbd8ee0f4c87d29d8bc3b643734309",
+  "received_at": "2026-10-11T18:44:02.000344+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise says Monte regains normality once the pious devotions end, supporting the hypothesis that it is normal outside that period. There is slight ambiguity in whether “normal” describes the location itself or its usual activities."
+  },
+  "usage": {
+    "input_tokens": 402,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 544
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

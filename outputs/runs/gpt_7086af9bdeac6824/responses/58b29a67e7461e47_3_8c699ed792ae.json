@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "122928e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "30711b49c3dda3543e55db7d46a6ad8dca006fc037c5d4bdad9f575e944d5283",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06dcf0bee6ac1cc0016acbe6a8664c87d281bf01be53aaa128",
+  "received_at": "2026-10-11T19:42:35.822341+00:00",
+  "parsed": {
+    "entailment": 0.98,
+    "neutral": 0.019,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise places a page-boy waiting outside her door when she returns, supporting that she found someone or something waiting. The hypothesis uses “something” broadly rather than identifying the page-boy."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

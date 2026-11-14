@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13911n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aa30627dce86c0916d34af7e86d028a7860aef3745396f6160984a1ce44daecc",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_073645d2affbf0a0016acbe90e051487d2b0c2dba0519cf297",
+  "received_at": "2026-10-11T19:52:49.661259+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.91,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise says technology will change control activities and their implementation, while basic control requirements remain unchanged. It does not establish that people will have less control over activities."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "reasoning_tokens": 39
+    },
+    "total_tokens": 538
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

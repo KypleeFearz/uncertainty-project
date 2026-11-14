@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125021c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "73262f7733eb415cd58fa3225cea90d00b506fe55e081fb8d3c5d9e8805531a2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f67cf7f54e20324016acbe6dfcc3887d28b3bdbb34a932a42",
+  "received_at": "2026-10-11T19:43:33.144517+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.2,
+    "contradiction": 0.78,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise presumes that some Postal Service components lack significant economies of scale, which conflicts with the hypothesis’s claim of exclusively very large economies of scale. Some uncertainty comes from the hypothesis’s awkward wording and the premise’s explicitly unproven presumption."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 178,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 570
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

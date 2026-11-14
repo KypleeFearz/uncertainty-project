@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24385e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5524eef73b9104a84929a00622f9ea7336bee63560352be429d4e528db52a1ed",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08e5ed9d9dac9c5f016acd44b165cc87d296471e557c5a6bd8",
+  "received_at": "2026-10-12T20:36:06.258403+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.94,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise is fragmentary and mentions farmworkers but does not specify sampling or any other clear activity involving them. It therefore neither establishes nor rules out that some farm laborers were sampled."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 140,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 504
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

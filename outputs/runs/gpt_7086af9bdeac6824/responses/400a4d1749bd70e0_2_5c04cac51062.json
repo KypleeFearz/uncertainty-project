@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "73840n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "95fe109385a544b7a2d0440faddf736cafac94d42c03af359a9ee8054934682c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa181364d968e9b016acbf1d3cb9887d28c2375b6cfd298ef",
+  "received_at": "2026-10-11T20:30:15.174346+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.52,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.77,
+    "brief_reason": "Tuppence says an unspecified event seems meant to be, which may suggest fate or coincidence but does not establish that luck is real. Carter's nod does not resolve that distinction."
+  },
+  "usage": {
+    "input_tokens": 393,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

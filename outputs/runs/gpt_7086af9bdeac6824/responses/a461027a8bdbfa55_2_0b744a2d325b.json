@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "13137n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "33de177914bc7e10f85fa30d94df11c29708a8a6830c95092dd9b77eca3a9249",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c5dee7faa9eb50016acbe8037c9c87d2b4982d6e96a7a23f",
+  "received_at": "2026-10-11T19:48:22.403152+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.21,
+    "brief_reason": "The premise says a packed restaurant allowed them to eat dinner off the floor, but does not say any seats were stolen or that theft forced them to do so. The proposed cause is therefore unsupported, not explicitly ruled out."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 108,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

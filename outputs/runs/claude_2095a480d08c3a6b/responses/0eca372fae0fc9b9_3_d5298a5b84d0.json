@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "125600n",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "b72e4c6c7a1d7f91275dea6623165ea7d92b68567e4efa8a51078fca4b86e631",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9XhDo8m57U8jPk1Nuo",
+  "received_at": "2026-10-11T21:19:23.742893+00:00",
+  "parsed": {
+    "entailment": 0.5,
+    "neutral": 0.38,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.6,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "\"Stinks\" is figuratively negative, which fits \"terrible situation\", but it could also mean a literal bad smell. \"It\" and \"instance of it\" are unspecified, so the referent may not be a situation."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 768,
+    "output_tokens": 154,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

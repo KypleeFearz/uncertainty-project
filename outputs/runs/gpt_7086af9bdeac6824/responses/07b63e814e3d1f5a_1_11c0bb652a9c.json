@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132516n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e66fa4667335257fa04e5563cbbd7f0c3cc6bf09dfa5b9dae783b5491cd94dde",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0194aa44414dd1d0016acd4329242087d28e8031af2d9c0fa6",
+  "received_at": "2026-10-12T20:29:33.088594+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.95,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.79,
+    "brief_reason": "The fragment says they left a woman and a child (or possibly animals), but does not establish that any men were taken as slaves. It also does not establish mercy as the reason for leaving anyone."
+  },
+  "usage": {
+    "input_tokens": 389,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

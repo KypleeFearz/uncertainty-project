@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32005e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c242bc845a750a6380fba521c046ff2ea686acf0d608d2ae095f9e694b0425a0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02dea31efeb1640b016acbec544b7c87d2905d7de8e1871980",
+  "received_at": "2026-10-11T20:06:48.545945+00:00",
+  "parsed": {
+    "entailment": 0.24,
+    "neutral": 0.74,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.8,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.4,
+    "brief_reason": "The premise affirms petting zoos and similar things, whereas the hypothesis affirms petting itself and other things. Visiting or discussing petting zoos may suggest petting, but the fragment does not establish that activity."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 56
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

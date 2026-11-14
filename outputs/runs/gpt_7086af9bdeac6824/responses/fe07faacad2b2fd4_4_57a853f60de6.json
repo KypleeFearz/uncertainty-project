@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "136097c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fc4e152a9b2459398c9f622ed31c6276fca59cee57b1e18f52532e61aa73d9ab",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07f4d3bd2bb1e081016acbe88d444887d2a546944dcf580d69",
+  "received_at": "2026-10-11T19:50:42.692582+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.26,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.34,
+    "probabilistic_inference": 0.52,
+    "brief_reason": "The premise presents wealthy parents as a condition for avoiding prohibitive barriers to schooling, which conflicts with the hypothesis's apparent denial of that necessity. However, 'prohibitive' can mean extremely costly rather than impossible, and the hypothesis does not specify what wealthy parents are necessary for."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 186,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 567
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

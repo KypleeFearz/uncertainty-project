@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3220650628.jpg#3r1c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3ba6a8afd751869c9b18910c4c5c5bf2f00c07237d354c03e241430eb20fc29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04cceacc22ddb3d8016acd4b00eb1c87d2aaeae052dcf50326",
+  "received_at": "2026-10-12T21:02:59.684938+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.24,
+    "brief_reason": "The premise states why the group gathered but does not specify where. Watching fireworks may suggest an outdoor setting, but it does not rule out gathering inside a house."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

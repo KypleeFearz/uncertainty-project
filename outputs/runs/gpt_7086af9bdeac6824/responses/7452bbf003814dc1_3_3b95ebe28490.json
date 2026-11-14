@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "18264n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "070d9d1a654faa566c58bdbee1006e00fe6921c3c63a680cd3b21d55eb75e3d6",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ab9feaab8393261016acbf770c4d887d28ded3795dcd51aec",
+  "received_at": "2026-10-11T20:54:14.688252+00:00",
+  "parsed": {
+    "entailment": 0.58,
+    "neutral": 0.41,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.82,
+    "brief_reason": "'Most' commonly suggests 'not all,' supporting the inference that some parts are compressible. Strictly, however, saying most is incompressible does not exclude the possibility that all of it is."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 202,
+    "output_tokens_details": {
+      "reasoning_tokens": 96
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "99791c",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "12f75c73f31de7554a678be2db3661100e0991341ff1a01b6123c5733cb82b06",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0bff34b3fe6572e6016acd48cb915887d2bb696200dfc10343",
+  "received_at": "2026-10-12T20:53:36.886129+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.83,
+    "contradiction": 0.16,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says some analysts argued for loosening the old standards, not making them tougher. It does not rule out other analysts having wanted tougher standards."
+  },
+  "usage": {
+    "input_tokens": 401,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 167,
+    "output_tokens_details": {
+      "reasoning_tokens": 71
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

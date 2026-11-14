@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "103616e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3dba71ce8f06c23df7ef9a1c85221575c7e06bde20829ba79fc9153ac92a90f5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a8705b41b895a07016acd41b8997c87d287b7d99f1f2a652f",
+  "received_at": "2026-10-12T20:23:24.633495+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says factory showrooms may offer small savings, whereas the hypothesis asserts that they are cheaper. Possible savings do not establish a definite price advantage."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 43
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

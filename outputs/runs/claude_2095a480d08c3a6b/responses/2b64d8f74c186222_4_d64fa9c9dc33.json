@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "132344c",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "17bbab64da8341853cbc8ac53c0e5b79a10c58af66c4dc23890ba2f7a6b38239",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfvwuX2M7mJcmNnHRwA6P",
+  "received_at": "2026-10-11T18:46:57.389959+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.3,
+    "contradiction": 0.67,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise says larger boats for up to 20 people offer gourmet cruises, while the hypothesis attributes them to smaller two-person boats. The premise does not say whether smaller boats also offer cruises, so it is not a strict contradiction, but the claim is unsupported and conflicts in emphasis."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 800,
+    "output_tokens": 179,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

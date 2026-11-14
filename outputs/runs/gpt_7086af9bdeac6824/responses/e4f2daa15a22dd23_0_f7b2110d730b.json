@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "15684n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a61bd40d8de9b91866e063cc70f912800ebda386b073d47f286a10cdd5964f24",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a28fa9e19572bef016acbea0e5f3087d280d1a1373a9d25c5",
+  "received_at": "2026-10-11T19:57:06.284170+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.85,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.45,
+    "probabilistic_inference": 0.7,
+    "brief_reason": "The premise reports appreciation by a majority of responding agencies, not necessarily all, and does not explicitly establish helpfulness as the reason. The hypothesis also leaves unclear whether “they” refers to the protocols or something else."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 540
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

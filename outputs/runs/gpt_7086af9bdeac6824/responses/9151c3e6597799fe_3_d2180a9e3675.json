@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "11534n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "86460029074c3c6620677c1650a369708ff60bc7e5242fddea7b38032241836f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04b3ad3e41a1eb6b016acbf6085b3487d29be7798522b1f34d",
+  "received_at": "2026-10-11T20:48:13.026226+00:00",
+  "parsed": {
+    "entailment": 0.23,
+    "neutral": 0.76,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise says he redirected his attention from worry to his problem, but does not establish that he could not afford distraction. That stronger claim requires an assumption about the stakes or urgency of his problem."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 31
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

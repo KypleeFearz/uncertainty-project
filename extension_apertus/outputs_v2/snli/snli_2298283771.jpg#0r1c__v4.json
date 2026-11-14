@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_2298283771.jpg#0r1c",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.0,
+  "neutral": 0.6,
+  "contradiction": 0.4,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.3,
+  "probabilistic_inference": 0.6,
+  "brief_reason": "The premise describes the man's appearance and gaze direction but does not mention any action like taking a photo, making the hypothesis unsupported. However, it is plausible that looking at something could involve taking a photo, so the relationship is neither clearly entailed nor contradicted."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 346,
+  "output_tokens": 125
+ },
+ "seconds": 2.62,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:01:41.545662+00:00"
+}

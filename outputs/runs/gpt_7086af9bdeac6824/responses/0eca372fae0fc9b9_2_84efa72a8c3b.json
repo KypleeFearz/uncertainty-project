@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125600n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "21de8949024317b8cdd9765d00db33962f53e0cb3e9997ee3bed5629bdb30284",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05d08ac02c90f4e0016acbe6ea59d887d29005e5e8f3117dc5",
+  "received_at": "2026-10-11T19:43:42.889162+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.5,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "If “stinks” means “is very bad” and both uses of “it” refer to the same situation, the premise supports the hypothesis. A literal odor reading or a different referent would leave the hypothesis unestablished."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 174,
+    "output_tokens_details": {
+      "reasoning_tokens": 61
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

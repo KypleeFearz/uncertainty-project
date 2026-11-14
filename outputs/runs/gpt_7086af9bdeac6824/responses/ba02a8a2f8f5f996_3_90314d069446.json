@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "2043e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "418e995a82d63e70f83d566a6bb90d83ef2fe582baf91d48734c4138c345e75c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f01ce623dcddbca016acd447520c487d2bff28dd3d22de254",
+  "received_at": "2026-10-12T20:35:05.821942+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise links knowing what “nothing” is to moving out there, supporting the hypothesis as a natural paraphrase. However, it does not explicitly state that the speaker first discovered this upon moving."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 153,
+    "output_tokens_details": {
+      "reasoning_tokens": 48
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

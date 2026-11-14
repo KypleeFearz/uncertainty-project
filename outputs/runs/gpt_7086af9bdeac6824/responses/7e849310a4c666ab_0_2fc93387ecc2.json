@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "112293n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ff52d45ea99cabe70e304e6474e3f0d7a328a23f9e82dda90d7d6dc2d1c39529",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07b3a963ca146a4b016acd4209f42087d28859c990978f1798",
+  "received_at": "2026-10-12T20:24:44.748076+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.13,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise supports that harder rock caused difficulties and led the artists to abandon their effort. It does not establish that everyone was disappointed."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 90,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 494
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "125600n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25f9c924db7b7587381009513ed623279bcd371e6033f2a91a1ffcdba0b482d5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a04aa797ef8a741016acbe6edb7b887d2bbe0bacc4445dcd9",
+  "received_at": "2026-10-11T19:43:46.267696+00:00",
+  "parsed": {
+    "entailment": 0.64,
+    "neutral": 0.35,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.42,
+    "unclear_reference": 0.62,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "“Stinks” commonly expresses a strongly negative judgment, supporting the description “terrible.” However, the premise does not identify what “it” refers to, and “stinks” could describe a literal odor rather than a bad situation."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 152,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "42983e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3631bf15b2f3abc64cf6ec82297f278821021aae785ac5c0a6a0e28cef81f42b",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_071544088fe77732016acbedd0d1f887d28900ede03b4e570b",
+  "received_at": "2026-10-11T20:13:08.707917+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Being known for sparkling wine suggests an association with it, but does not establish that the town has a large quantity. The hypothesis requires an additional assumption about abundance."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

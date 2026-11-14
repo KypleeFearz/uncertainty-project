@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "snli_3464708890.jpg#1r1n",
+ "variant": 4,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.75,
+  "brief_reason": "Jumping onto a skateboard placed on a chair suggests an intentional action, likely a trick, but does not guarantee it; the setup is unusual and could have other purposes."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 344,
+  "output_tokens": 112
+ },
+ "seconds": 2.5,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T18:21:10.785450+00:00"
+}

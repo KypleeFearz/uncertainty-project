@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139595e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e656cff8a21bc03bc66142186b79981d23468673cc83e6dcd8af633a96e40b29",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ad6cb265ee7ffc1016acd43acf1f887d2aa086238540db5f3",
+  "received_at": "2026-10-12T20:31:44.336207+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.83,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.24,
+    "unclear_reference": 0.44,
+    "probabilistic_inference": 0.63,
+    "brief_reason": "The premise asks whether the approach is to use whatever weapon is available, rather than asserting that it is. The hypothesis turns that possibility into a claim about an unspecified group."
+  },
+  "usage": {
+    "input_tokens": 373,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 113,
+    "output_tokens_details": {
+      "reasoning_tokens": 13
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

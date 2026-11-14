@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "44138e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8bc5c0edd01a432edcb81d39e6fc473e646ad47686cff90ef085ea25d7d22b51",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a624bd61f9e9919016acd45b4856c87d29b59aa572d092c7a",
+  "received_at": "2026-10-12T20:40:25.210569+00:00",
+  "parsed": {
+    "entailment": 0.78,
+    "neutral": 0.21,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "Calling 1820 a pivotal year supports the idea that it marked a significant change for Hawaii. However, lasting change through all subsequent years is implied rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

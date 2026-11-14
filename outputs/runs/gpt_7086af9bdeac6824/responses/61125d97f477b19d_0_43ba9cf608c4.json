@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "132716n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "acfa9c5f2be5d4208838516548cabe38de761781c8e0f7ff1c48126573208a30",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04c467971a231249016acbe8183a5887d29c3341a4f5b63a2b",
+  "received_at": "2026-10-11T19:48:44.083985+00:00",
+  "parsed": {
+    "entailment": 0.1,
+    "neutral": 0.87,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.35,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "The premise says they tried something, were unhappy with it, and he now does it himself. It does not establish that they tried valiantly, that only one person was unhappy, or that he explicitly decided to take over because of that dissatisfaction."
+  },
+  "usage": {
+    "input_tokens": 391,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

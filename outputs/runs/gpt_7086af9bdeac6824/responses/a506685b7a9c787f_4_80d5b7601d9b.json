@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "121172c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8f807f319b3c2738088e8ee7cc2cc1463e6eee154ad5070476562dffd238fcff",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0d91cd7e7599769f016acd4291cca087d287bfabe47eb29431",
+  "received_at": "2026-10-12T20:27:02.134566+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.85,
+    "contradiction": 0.13,
+    "lexical_ambiguity": 0.35,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise does not identify the cloak as a superhero cape or establish that he tightened it to show off. His regret about shaving his head suggests discomfort from cold, but that motive is not explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 156,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "142298n",
+  "variant": 2,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "a7d9f83cd7873e7a638ea7059861d1059049dc2089c063cb45e211cba1094998",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfw9vy7f7LFsZ2trTb2Y4",
+  "received_at": "2026-10-11T21:24:39.379486+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.76,
+    "contradiction": 0.12,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The speaker says Buffalo shows promise for the coming years, which suggests but does not establish good results last season; it could also mean the team was poor before and is only now improving."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 790,
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

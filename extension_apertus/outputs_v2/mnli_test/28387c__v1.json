@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "28387c",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.1,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The premise proposes sending the soul into a mandrake root as a hypothetical scenario, which aligns with the hypothesis's direct question about doing so. The only uncertainty is whether Dave's head shake negates the proposal, but the hypothesis itself is a restatement of the proposal."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 365,
+  "output_tokens": 129
+ },
+ "seconds": 2.79,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:15:16.163796+00:00"
+}

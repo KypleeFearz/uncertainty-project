@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "98066n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1d8c244d44ac80c325f525ef6118bac2d33ff36b3e13c1401ee130ca389ca3c5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03cb8955b3417c5c016acd4897ae2087d2b0fbcbf9840630e9",
+  "received_at": "2026-10-12T20:52:42.524386+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise specifies an 80 percent control-survival threshold for acceptable test results, but does not state why that threshold is required. Ensuring the highest quality of results is a plausible rationale, not an established fact."
+  },
+  "usage": {
+    "input_tokens": 426,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 107,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 533
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

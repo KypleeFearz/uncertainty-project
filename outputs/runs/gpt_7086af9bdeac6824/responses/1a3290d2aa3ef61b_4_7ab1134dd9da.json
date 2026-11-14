@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129601e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "dcbb07aa9ce6a1384fd9bb8a238a2fe5339eadd5fdfbb69e358bec0d3681c6b2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0331b2f281b1fa58016acbe76f64c887d2810691aef17e08eb",
+  "received_at": "2026-10-11T19:45:54.465612+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.045,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "'Took forever' conventionally expresses that something lasted an excessively long time, supporting 'Lasted too long.' The judgment of excess is implicit rather than explicitly stated."
+  },
+  "usage": {
+    "input_tokens": 364,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 461
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

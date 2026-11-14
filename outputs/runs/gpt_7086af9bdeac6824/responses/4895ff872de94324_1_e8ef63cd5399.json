@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "21912e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7038e1ed14bee59bdc117585af625ad9658a6f54eab3045867bb623ad17a1f74",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_030807d348b514c8016acbeadea6ec87d28b9921c17404a078",
+  "received_at": "2026-10-11T20:00:34.990691+00:00",
+  "parsed": {
+    "entailment": 0.92,
+    "neutral": 0.07,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise states that the speaker visited the Wyoming area but is unsure exactly where the film was shot. The hypothesis naturally summarizes this, although it leaves what the speaker does not know implicit."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

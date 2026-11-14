@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_3344632789.jpg#0r2n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8af70613e62289bb1947ad9d899e052ab95930908ef2e4dfc47f4ba527a8dd81",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_080d02b1f8bceb28016acd4b3cbaa887d29d68c18100e6800e",
+  "received_at": "2026-10-12T21:03:59.985737+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise supports a man performing a skateboard trick with people behind him, but does not specify that he wears a blue cap. Whether several people constitute a crowd is also somewhat underspecified."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

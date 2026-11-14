@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "63751e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f1dd8ec1aff7b816b3380d4b2ad10bf98cb381c8ac4b815129701dcc6faf109",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0da79989a3dc5c17016acbf97acf0887d2a5c2fae3c9b895fd",
+  "received_at": "2026-10-11T21:02:56.904713+00:00",
+  "parsed": {
+    "entailment": 0.7,
+    "neutral": 0.29,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "A bell and knocker together strongly suggest door fixtures, making it likely that Tuppence and Jane were by the door. However, the premise does not explicitly establish the objects’ location or attachment to a door."
+  },
+  "usage": {
+    "input_tokens": 378,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 222,
+    "output_tokens_details": {
+      "reasoning_tokens": 113
+    },
+    "total_tokens": 600
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "75838n",
+  "variant": 1,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "c82895e74e2ae90d3ce2fb6af95fff61bf079bf302910bbff1583f912034d83c",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwBSM5gkYK7vanWiUWLe",
+  "received_at": "2026-10-11T21:44:24.792533+00:00",
+  "parsed": {
+    "entailment": 0.45,
+    "neutral": 0.48,
+    "contradiction": 0.07,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "Missing college and having a good time suggest nostalgia and plausibly a wish to return, but the speaker never says they want to go back, and may just miss the experience or the past period of life."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 775,
+    "output_tokens": 137,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

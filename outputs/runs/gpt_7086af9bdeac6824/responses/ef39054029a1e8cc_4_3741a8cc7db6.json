@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4654662119.jpg#0r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b37b50e5b86d062eb1d64f2323b4961c6df15d0b61e90d633f804b5af4431d5a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02aa1d93cb3815a8016acd4cf0b15087d294e10cd83200ff19",
+  "received_at": "2026-10-12T21:11:16.343156+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.85,
+    "brief_reason": "The premise does not identify the background water as an ocean or establish that the boys are about to fly the kites. “A couple” could mean two people or a romantic pair, adding ambiguity."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 104,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 485
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

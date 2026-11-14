@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "141321n",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "bd0de92fc881094ed8764ede7ca35d729acff55599f5d0e4ad1d8130da16a136",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy3wXX7vFemp2eRsURW4",
+  "received_at": "2026-10-12T21:27:16.594519+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.1,
+    "contradiction": 0.88,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.1,
+    "probabilistic_inference": 0.1,
+    "brief_reason": "The premise places the show in the Maryland woods, while the hypothesis places it in the woods north of Boston. These are different locations, so the hypothesis is ruled out. The small neutral weight allows for an odd reading where the setting differs from where it is held."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 817,
+    "output_tokens": 161,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

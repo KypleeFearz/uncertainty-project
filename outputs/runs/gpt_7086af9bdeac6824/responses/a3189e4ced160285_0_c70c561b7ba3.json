@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_6979479436.jpg#4r1c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "51278ea968ad92249e89c5a80f4d8278a205bb949efc7889f785314c7414353a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05cf523186e92486016acd4e9bb49c87d2a299459bd71bc0ba",
+  "received_at": "2026-10-12T21:18:22.703489+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.91,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.37,
+    "brief_reason": "The premise describes a man swimming with goggles but does not specify his location. Swimming could occur near a beach or elsewhere, so being on the beach is not established or ruled out."
+  },
+  "usage": {
+    "input_tokens": 362,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 100,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

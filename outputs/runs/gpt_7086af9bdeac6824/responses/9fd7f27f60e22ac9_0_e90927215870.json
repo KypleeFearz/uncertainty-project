@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "81579c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "92d2dd7129907cfc341dda71e8d3aaa03456b9f05a43070f1a1fb3c108ad7333",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a67082dc7365c0a016acbf2e975e087d29d7b8f4599854e1b",
+  "received_at": "2026-10-11T20:34:54.316537+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.09,
+    "contradiction": 0.9,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.22,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "For the same group of organizations, being prominent and nationally known conflicts with being obscure. The premise does not specify the group referred to by “all,” so the hypothesis could instead concern organizations outside that group."
+  },
+  "usage": {
+    "input_tokens": 361,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 75
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90846n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "31767ecddcd4782ac2c4be4382062a965bb2aba70b40e241eec7f8d68b032381",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_000069e0541ffe99016acbf40b0a5087d2bf72336130f7aac3",
+  "received_at": "2026-10-11T20:39:43.253668+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.28,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.78,
+    "brief_reason": "Calling financial reporting 'only the first step' suggests additional steps, but does not establish that there are many. The hypothesis therefore depends on an assumption about how extensive the process is."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

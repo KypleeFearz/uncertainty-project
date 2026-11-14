@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "84092c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4553edc254ce3b9cd2bd017b4402c976b8d72098448697cfc8059cfaae181205",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0389101c16265170016acbfa568a0c87d2ba84c7dc01520aec",
+  "received_at": "2026-10-11T21:06:33.471633+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.95,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "The premise describes a conditional risk of exposure for terrorists doing business with these institutions, not whether the institutions support them. Doing business with terrorists does not by itself establish support."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 492
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

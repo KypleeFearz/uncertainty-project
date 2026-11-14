@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "90548e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "59c2b35e28fd1165e9b0b6758bfa3c00fe26f3967353f641be1a3e04da1b8fd8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0aee25297c4bf25b016acbf3fc14f487d29a309eb495b6c5b6",
+  "received_at": "2026-10-11T20:39:27.416147+00:00",
+  "parsed": {
+    "entailment": 0.72,
+    "neutral": 0.27,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.19,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "“Splendid!” conventionally expresses enthusiastic approval, supporting the hypothesis. Excitement is not guaranteed, since the remark could be restrained or sarcastic."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

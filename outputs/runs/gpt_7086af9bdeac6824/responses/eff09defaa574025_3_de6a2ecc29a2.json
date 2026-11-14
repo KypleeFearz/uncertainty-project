@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133274n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6b1daf033ae64f90c0d011f1ad9edeeb1c2ab1eb999c7051694a01525401a000",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0b8e2c30542b309f016acd434beddc87d2ab8d62145722d49d",
+  "received_at": "2026-10-12T20:30:09.083551+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.16,
+    "contradiction": 0.82,
+    "lexical_ambiguity": 0.16,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The premise emphasizes a contrast between smoking a cigarette and injecting pure nicotine, opposing the hypothesis's claim of strong similarity. However, it does not explicitly state how different the two are."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 160,
+    "output_tokens_details": {
+      "reasoning_tokens": 58
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

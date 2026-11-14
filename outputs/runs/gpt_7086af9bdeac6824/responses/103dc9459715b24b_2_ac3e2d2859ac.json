@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "139409e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d613ed6e68eb54572c04181d0a7347d38da487e5e2e613301ca2d2e84bfcdb72",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04f9a927c0f3d3b6016acbe9198ae887d29472ceed0993549c",
+  "received_at": "2026-10-11T19:53:01.637077+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.05,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.07,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.09,
+    "brief_reason": "The hypothesis paraphrases the premise’s surprised question: “all the time” corresponds to “constantly,” and “under our very noses” suggests being very near it."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 134,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

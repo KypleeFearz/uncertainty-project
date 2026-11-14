@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4809864612.jpg#0r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5e4cc7e5e0b3f91919470584c7286dddd0e6580c3aa5dcc3cc97e5f34f3595f3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0c6a70d4b958a485016acd4d63b8e487d28be4a6330052d4d8",
+  "received_at": "2026-10-12T21:13:10.778496+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise establishes that the men are walking, but does not identify the location as a boardwalk. Strolling is compatible with walking, yet the specific setting is unsupported."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 98,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

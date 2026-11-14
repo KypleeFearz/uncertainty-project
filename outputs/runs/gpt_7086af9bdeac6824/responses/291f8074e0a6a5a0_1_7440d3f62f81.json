@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "56634c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "a6e408cda22db31632084300c2b0c054ab6b290d285f039a897b2c85c6dceedd",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_06d0ea203d740ff0016acbefa1a27887d2a8dc9068d0ea24f1",
+  "received_at": "2026-10-11T20:20:54.412526+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.29,
+    "contradiction": 0.7,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.65,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise reports that a group was staying at the inn, which conflicts with the hypothesis if “he” belongs to that group. However, the identity of “he” and his connection to “we” are not established."
+  },
+  "usage": {
+    "input_tokens": 377,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 175,
+    "output_tokens_details": {
+      "reasoning_tokens": 64
+    },
+    "total_tokens": 552
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

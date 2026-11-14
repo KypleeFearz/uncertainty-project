@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_415657941.jpg#3r1e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e75d28fc8ba631c807fd3a431518b6bc173fd5c1d97d296446f23cdae80ce62c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_084cd87d0894bd17016acd4c533c9c87d2a73b59efc0371e9d",
+  "received_at": "2026-10-12T21:08:37.914584+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.0,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "A playground is ordinarily understood as an outdoor play area, so the premise supports children playing outside. Indoor playgrounds are possible, making the outdoor location not strictly guaranteed."
+  },
+  "usage": {
+    "input_tokens": 368,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 97,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 465
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "54904e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "2fb2557f2d1b354038683576e45a485a61af9e467e2cd75f7caacc6160062e40",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_031714b96e3b057f016acbef675d1c87d289682b11235c011d",
+  "received_at": "2026-10-11T20:19:54.362322+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.89,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.19,
+    "probabilistic_inference": 0.48,
+    "brief_reason": "The premise asks whether John and Miss Howard were speaking the truth, but does not establish that the speaker knows them well or is certain of their truthfulness. The question may suggest confidence, without guaranteeing the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 493
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

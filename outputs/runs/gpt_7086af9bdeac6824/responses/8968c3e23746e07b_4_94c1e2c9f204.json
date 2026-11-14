@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "26460n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3c7546cfd41bb9578b9c3bce0cf19dfc1553495f98c2f783ca8d6c66d5aa8a52",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09065fbeed5ac704016acbf7d3b82887d29cf8d9009cf1d8eb",
+  "received_at": "2026-10-11T20:55:52.676311+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise supports the general claim that democracies are unlikely to go to war unless attacked, but does not specify that the attack must occur on their own soil. Its acknowledgment of occasional offensive action does not contradict the hypothesis's probabilistic wording."
+  },
+  "usage": {
+    "input_tokens": 398,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 159,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

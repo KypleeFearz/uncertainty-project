@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "135779e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "212385849f060263098a2306e8b08114f14c06c086b4f2230fbb336239ff167f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0248037e282812f7016acbe876a06087d28eab9ce9e1a87de1",
+  "received_at": "2026-10-11T19:50:18.369075+00:00",
+  "parsed": {
+    "entailment": 0.09,
+    "neutral": 0.88,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.58,
+    "brief_reason": "The premise says Judge Bailey was chosen to represent future winners, not that he was chosen as a winner. His own status as a winner is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 520
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

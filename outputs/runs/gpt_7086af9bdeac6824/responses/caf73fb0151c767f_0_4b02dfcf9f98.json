@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "97394n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6bb2e765cda2183950f2efdb06aa0d8ebecfbc7dfb37b5fe3f0fd969b82b4cc0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0fa2e9602f1284f6016acbfafe484887d28eb6c422734f5aa6",
+  "received_at": "2026-10-11T21:09:23.306084+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.68,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.82,
+    "unclear_reference": 0.06,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise says First-Class mail bears a disproportionate share of postal overhead, but it does not establish that it is \"too busy.\" The hypothesis could loosely mean overburdened, making its interpretation depend on the unusual use of \"busy.\""
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 172,
+    "output_tokens_details": {
+      "reasoning_tokens": 57
+    },
+    "total_tokens": 566
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

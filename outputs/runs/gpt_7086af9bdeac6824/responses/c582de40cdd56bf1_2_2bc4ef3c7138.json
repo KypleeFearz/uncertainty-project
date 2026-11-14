@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4782296476.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "25715dc2b2ace1b873cb62a30a81eb0c72e03a42be38be3de478013f907d580d",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0720ba85ef44697e016acd4d51def487d2909c13d83ed37e18",
+  "received_at": "2026-10-12T21:12:52.451156+00:00",
+  "parsed": {
+    "entailment": 0.13,
+    "neutral": 0.86,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.79,
+    "brief_reason": "Standing in front of pictures does not establish that the man is looking at them. His gaze could be directed elsewhere."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 87,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 477
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

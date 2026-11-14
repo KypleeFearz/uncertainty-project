@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "70711e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "62cc5196341c50fa2651dd4ed6a4aa33eded738e11239af82272694770fc8cd8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0148e8492967ec86016acbf15e24d487d2b7a5098135c682d6",
+  "received_at": "2026-10-11T20:28:17.893864+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise explicitly says that starting them when it is cooler in spring leads to it getting too hot in summer. The hypothesis closely restates this, omitting the cooler-weather qualification."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 138,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 528
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "62287n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "c1371b51ce0b9587183d9a6a56be52fc34d1a92bd3a22592dceaed4323c39335",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02ea6db4c51efe47016acbf082777887d2853fcae8fd93eb44",
+  "received_at": "2026-10-11T20:24:37.424803+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.94,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.13,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.36,
+    "brief_reason": "The premise says the state arguably has an interest in regulating how media are used and that Fiss discusses those issues. It does not establish that Fiss advocates a greater state interest in media use."
+  },
+  "usage": {
+    "input_tokens": 416,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

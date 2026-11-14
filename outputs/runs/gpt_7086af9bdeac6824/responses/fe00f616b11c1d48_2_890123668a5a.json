@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "92422e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b0217b6f47c2b047c96b3517f4c1543ac863f97aecde3c690503537ef58458f8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0ae2229180a24903016acbfaddd97087d286afdca1c5f7e1b1",
+  "received_at": "2026-10-11T21:08:49.923397+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.87,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.38,
+    "unclear_reference": 0.18,
+    "probabilistic_inference": 0.72,
+    "brief_reason": "The premise describes a conditional reproductive advantage, not whether dominant males actually had access to fertile females. Reading the malformed hypothesis as that claim also requires equating dominance with getting one's pick and apparent fertility with actual fertility."
+  },
+  "usage": {
+    "input_tokens": 390,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 155,
+    "output_tokens_details": {
+      "reasoning_tokens": 47
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

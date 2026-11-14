@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "24126n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8e89425d966fe9bcb63dc8e9945aaee9d4fcbba7f5539113e83f235a7566659a",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09757a9f4eb369a9016acbeb54170487d2b833177a11160298",
+  "received_at": "2026-10-11T20:02:31.592396+00:00",
+  "parsed": {
+    "entailment": 0.18,
+    "neutral": 0.81,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.9,
+    "brief_reason": "The premise establishes that the door did not move, but does not establish that it was stuck or that being stuck caused its immobility. That explanation is plausible rather than guaranteed."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 136,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 503
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

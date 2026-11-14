@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "139705n",
+ "variant": 1,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.1,
+  "contradiction": 0.05,
+  "lexical_ambiguity": 0.1,
+  "unclear_reference": 0.15,
+  "probabilistic_inference": 0.7,
+  "brief_reason": "The premise attributes the decline of porches and stoops to air conditioning, implying a shift toward indoor comfort. The hypothesis offers a plausible explanation for that shift, but the premise does not explicitly state people's preference for indoor comfort over outdoor heat, making it a reasonable inference rather than a direct entailment."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 366,
+  "output_tokens": 138
+ },
+ "seconds": 2.9,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:05:00.125876+00:00"
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "43897e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d741cb60d41916211bef67bdc43b3571b87eba14172cb6f5e9ab7fc88c8be1f2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_099a7c5a7dc68983016acbf87d311087d28fc177e125131e25",
+  "received_at": "2026-10-11T20:58:41.311679+00:00",
+  "parsed": {
+    "entailment": 0.15,
+    "neutral": 0.84,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.6,
+    "brief_reason": "The premise is a heading naming the receipt of water samples, not an explicit requirement that they should be received. Reading it as an instruction requires an assumption about the surrounding document."
+  },
+  "usage": {
+    "input_tokens": 371,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 40
+    },
+    "total_tokens": 512
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

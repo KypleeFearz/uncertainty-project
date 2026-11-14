@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "129360e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6e08ab85141eb42e8c874f2bb80809c9a837ba2c1c6ead92baef9c19899acd6c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0480357d249050a4016acd42f0b3f887d2b22b248e7f13df45",
+  "received_at": "2026-10-12T20:28:35.078210+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.95,
+    "probabilistic_inference": 0.25,
+    "brief_reason": "The premise only names melatonin and does not state that anything contains it. The referent of \"it\" is unspecified, so the hypothesis remains undetermined."
+  },
+  "usage": {
+    "input_tokens": 366,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 462
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

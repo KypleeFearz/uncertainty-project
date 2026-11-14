@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80099c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6a3c90d96610e4feff4c8426b1fc4697dfa0f3addfa7db6d8483bba3c25029e0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a35d0b856c11ceb016acbd93ed28487d2ac67c8839f75a168",
+  "received_at": "2026-10-11T18:45:23.035947+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.22,
+    "brief_reason": "The premise says the family lost a son and a daughter, not that those children lost their father. It does not establish whether their father was also lost."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 36
+    },
+    "total_tokens": 502
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

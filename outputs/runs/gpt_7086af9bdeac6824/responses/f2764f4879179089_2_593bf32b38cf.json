@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "86810e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "7f648e4a9355eec60a41b9e90a5a55385b390ce25117ef55ed023fefe0a3909c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e852525b2cc6f63016acbf3b8663087d29f64e7fe11194ac4",
+  "received_at": "2026-10-11T20:38:20.056549+00:00",
+  "parsed": {
+    "entailment": 0.93,
+    "neutral": 0.07,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "Taking a voice-over course ordinarily involves receiving instruction, so the premise supports the hypothesis. The premise does not explicitly describe the instruction received."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 126,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 498
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

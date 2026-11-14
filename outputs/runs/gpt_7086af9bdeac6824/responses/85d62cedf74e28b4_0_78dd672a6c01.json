@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4574570790.jpg#3r1n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d0cdcc52f25e38dec3674e2bf6d2b1ad5a6863b6fe58523485d3cc672b330afe",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0444fcb4ccfe2b93016acd4cc958d487d29cb38bea2a9feb3c",
+  "received_at": "2026-10-12T21:10:36.362518+00:00",
+  "parsed": {
+    "entailment": 0.99,
+    "neutral": 0.009,
+    "contradiction": 0.001,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "A boxer punching his opponent in a boxing arena supports that he is competing in a fight."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 82,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 452
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

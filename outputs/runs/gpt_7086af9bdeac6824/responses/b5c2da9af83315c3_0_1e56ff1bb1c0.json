@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "106411n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e2f5433043ca003a03222f5cdaad7e434aebff3d1743ec487ef265fcd7db2548",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0025a56fe2eebeb8016acd41d181fc87d28af342baf7bd8eb2",
+  "received_at": "2026-10-12T20:23:49.036132+00:00",
+  "parsed": {
+    "entailment": 0.35,
+    "neutral": 0.64,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "The premise identifies wheaten bread as his diet but does not explicitly exclude other foods. The hypothesis adds an exclusivity claim that depends on interpreting the description as exhaustive."
+  },
+  "usage": {
+    "input_tokens": 367,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 141,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2280437733.jpg#0r1n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "23ff6e354bd1707a16b8f1bc5ef08153f016539a79a7fea073378dc922f808b7",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0011ca42b082b3f6016acd497e30c887d2959c36f8549ea0f7",
+  "received_at": "2026-10-12T20:56:34.255188+00:00",
+  "parsed": {
+    "entailment": 0.16,
+    "neutral": 0.81,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.3,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "A show featuring a man singing between two women could be a play, but it could also be a concert or another performance. The premise does not establish which type of show is occurring."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 131,
+    "output_tokens_details": {
+      "reasoning_tokens": 28
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

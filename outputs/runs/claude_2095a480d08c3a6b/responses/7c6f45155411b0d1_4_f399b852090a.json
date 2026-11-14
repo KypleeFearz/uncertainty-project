@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "118064n",
+  "variant": 4,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "ce4ad0ede41a2ac02fe0f0d8166d1622c5dbcf6cdb7ccba28c80ee3294993292",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCAMLUcEfYBakGSuK6T",
+  "received_at": "2026-10-11T21:53:55.272531+00:00",
+  "parsed": {
+    "entailment": 0.85,
+    "neutral": 0.1,
+    "contradiction": 0.05,
+    "lexical_ambiguity": 0.05,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise says Ken Bode scolded the NYT Magazine for a Nov. 9 fashion spread, which counts as past criticism. The garbled wording about who Bode is leaves slight reference uncertainty, but the scolding is clearly attributed to him."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 847,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

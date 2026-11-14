@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "46300n",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "fa53df4800e1e1bd98d89b330ca5d15e4b8cb22b68cc4aca857fb31b10110850",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01477b8a88926058016acd45d6f35487d2b8c91f38bf538ea0",
+  "received_at": "2026-10-12T20:40:57.909013+00:00",
+  "parsed": {
+    "entailment": 0.96,
+    "neutral": 0.035,
+    "contradiction": 0.005,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.06,
+    "brief_reason": "The premise lists accuracy first and speed next among the scorecard measures, supporting the hypothesis. There is slight uncertainty about whether the sentence's listing order reflects the scorecard's actual order."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 488
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

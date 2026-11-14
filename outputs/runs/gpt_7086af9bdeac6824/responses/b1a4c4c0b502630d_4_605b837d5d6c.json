@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "57151c",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb5b9b6a8cd49b8d3ab97c7b98da55e75649dca33e596ab4c26e3a50205cd852",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a3d2b01a990ca3016acbefc7706087d296e310118dab1dc4",
+  "received_at": "2026-10-11T20:21:31.528938+00:00",
+  "parsed": {
+    "entailment": 0.14,
+    "neutral": 0.82,
+    "contradiction": 0.04,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.43,
+    "brief_reason": "The premise says Part III will relax the assumption when considering larger discount changes. It does not establish that Part III will raise further concerns about the assumption, though that is a possible interpretation of relaxing it."
+  },
+  "usage": {
+    "input_tokens": 431,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 147,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 578
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "117713c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6db86216488c28453830a60047d52be160df04cc3074c052d3965ebf4544637f",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0259b313b80b712d016acbe5fc23c487d2bd5855c1e542304d",
+  "received_at": "2026-10-11T19:39:46.526772+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.7,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The premise gives customary seasonal opening dates for many hotels, but does not establish whether the hotels operate or begin their season at Halloween. Interpreting 'open' as beginning the season rather than being open for business makes the hypothesis more plausible, but not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 386,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 194,
+    "output_tokens_details": {
+      "reasoning_tokens": 76
+    },
+    "total_tokens": 580
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

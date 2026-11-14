@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "96539c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "ad30d3dbaca7205c720139d56449f6d1e027a7dcd536ceb33c9c02dbcc057490",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0321f63269b1bb03016acbf4bd2fac87d2beb4d639e880420b",
+  "received_at": "2026-10-11T20:42:41.422143+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.88,
+    "contradiction": 0.1,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The premise says they are now planting flowers they could never plant in San Antonio. It does not establish whether they planted many other kinds of flowers in San Antonio."
+  },
+  "usage": {
+    "input_tokens": 387,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 45
+    },
+    "total_tokens": 530
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

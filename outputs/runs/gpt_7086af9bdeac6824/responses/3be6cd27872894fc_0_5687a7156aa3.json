@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "49237c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3d5f51c2a7e5c5c41b2a07b19d00d0c67f9dff5e281721e30c12d910133c46be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05f7fc528f5da1ba016acbeeb6e0b487d2ad80a224095e532f",
+  "received_at": "2026-10-11T20:16:57.641553+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.015,
+    "contradiction": 0.98,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise says the house was burned down, whereas the hypothesis says it remains in perfect condition despite an attempted burning. These descriptions conflict about the house’s condition."
+  },
+  "usage": {
+    "input_tokens": 372,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 468
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

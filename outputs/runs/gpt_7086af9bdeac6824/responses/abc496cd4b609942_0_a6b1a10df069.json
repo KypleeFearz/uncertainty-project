@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "144418c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d6e656618d7bfb4bb6c9af8cd8251ca80094744b085346be8461c1295c3814d2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0adcaacf323ff67d016acbe9bedc7c87d2b32403f172ba0dbb",
+  "received_at": "2026-10-11T19:55:48.872151+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.69,
+    "contradiction": 0.3,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.73,
+    "probabilistic_inference": 0.39,
+    "brief_reason": "The fragment mentions savings this year but does not establish whether millions were also lost. Savings and losses contrast if they describe the same financial result, but the missing context does not establish that connection."
+  },
+  "usage": {
+    "input_tokens": 363,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 164,
+    "output_tokens_details": {
+      "reasoning_tokens": 60
+    },
+    "total_tokens": 527
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

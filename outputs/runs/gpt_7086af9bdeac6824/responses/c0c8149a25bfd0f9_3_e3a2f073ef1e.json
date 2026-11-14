@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "64231e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b6b5baf98668187306e14dea16d113fffc0dac8f28d2443070b21f1e8fa03a97",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03c5a9d624c21f5d016acbf0d1058887d2969d980d7a9f0084",
+  "received_at": "2026-10-11T20:25:57.483108+00:00",
+  "parsed": {
+    "entailment": 0.87,
+    "neutral": 0.12,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.22,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.18,
+    "brief_reason": "The Vice President’s letter asserts that GAO has no right of access to documents, supporting the hypothesis. However, the premise concerns access in this particular study, while the hypothesis could be read as a broader objection to GAO reading any documents."
+  },
+  "usage": {
+    "input_tokens": 473,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 150,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 623
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

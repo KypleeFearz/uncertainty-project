@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4733464337.jpg#2r1n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "b320d6602f65d0cba27d247a042ee2daac8ad6ad26dd7557827fadc0b31329a8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a6a9e36a80b5bab016acd4d28cf7487d2afaec6046df9ca3d",
+  "received_at": "2026-10-12T21:12:11.895479+00:00",
+  "parsed": {
+    "entailment": 0.66,
+    "neutral": 0.33,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.04,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.87,
+    "brief_reason": "The building and buses suggest a city setting, but those features can also occur outside a city. The hypothesis is plausible rather than explicitly established."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 92,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 471
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_4431189771.jpg#0r1n",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "9052be3a6f2851888150cf2578f566eb5b18e3565991bfc6949d96d173869ef0",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02e53a08f703768f016acd4c9c737887d2aadc58b379404053",
+  "received_at": "2026-10-12T21:09:52.234836+00:00",
+  "parsed": {
+    "entailment": 0.22,
+    "neutral": 0.77,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.23,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.84,
+    "brief_reason": "Performing all three activities simultaneously suggests coordination, but does not establish that he is very coordinated or flexible. Flexibility could mean physical suppleness or adaptability, neither of which is explicitly established."
+  },
+  "usage": {
+    "input_tokens": 384,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 102,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 486
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

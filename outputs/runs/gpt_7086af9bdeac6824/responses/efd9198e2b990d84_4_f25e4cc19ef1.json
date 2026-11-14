@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80643n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e524166accfe61f2e94c72b4fb2079d37a45d3770b45674aeeef1376ba6f15be",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_097b69b9d877ca17016acbf2c6374c87d29cd3afd901da8c10",
+  "received_at": "2026-10-11T20:34:18.011555+00:00",
+  "parsed": {
+    "entailment": 0.08,
+    "neutral": 0.9,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.29,
+    "brief_reason": "The premise says Dole disputed Clinton's basis for withholding a particular memo. It does not say Dole limited executive privilege to actions involving the presidency or characterized the memo as unrelated to presidential actions."
+  },
+  "usage": {
+    "input_tokens": 418,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 34
+    },
+    "total_tokens": 557
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32005e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "87799452afc6fe42f90bd7fa4804498f07f4ebf6b97aaab0a9bc6ad8c6157283",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_05be17aaf51888bf016acbec538b8c87d29fc3ccf16bee8ef0",
+  "received_at": "2026-10-11T20:06:48.055811+00:00",
+  "parsed": {
+    "entailment": 0.25,
+    "neutral": 0.73,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise affirms “petting zoos and things,” whereas the hypothesis affirms petting itself and other things. Mentioning petting zoos does not necessarily affirm the activity of petting, though the hypothesis could be interpreted as an abbreviated paraphrase."
+  },
+  "usage": {
+    "input_tokens": 379,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 50
+    },
+    "total_tokens": 547
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

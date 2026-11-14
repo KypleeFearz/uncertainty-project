@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "58331c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "1cab4b537a56f62356207c141c000f0ffecc16c043088fff8ac313b938fffb70",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4TLPV6zXGcWf5vdjjv",
+  "received_at": "2026-10-12T21:34:00.733183+00:00",
+  "parsed": {
+    "entailment": 0.05,
+    "neutral": 0.8,
+    "contradiction": 0.15,
+    "lexical_ambiguity": 0.45,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.45,
+    "brief_reason": "The premise names puppet shows without saying whether they are on television, so the hypothesis is neither established nor ruled out. Some readers may see the two as different categories, which suggests a mild contradiction."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 748,
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

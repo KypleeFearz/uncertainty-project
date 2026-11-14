@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "28827n",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "183ad459557e5732cf737aec90c1c69f2fb78036aab4f897c46b3c6561f13123",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0927fa7a294cdd3f016acbebf79b8487d2b3361a9ee6bba66b",
+  "received_at": "2026-10-11T20:05:14.645838+00:00",
+  "parsed": {
+    "entailment": 0.06,
+    "neutral": 0.93,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.12,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.66,
+    "brief_reason": "Increasing risks from computer attacks do not establish that the attacks are too powerful to handle. The premise leaves the Department of Defense's ability to manage them unspecified."
+  },
+  "usage": {
+    "input_tokens": 385,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 95,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 480
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

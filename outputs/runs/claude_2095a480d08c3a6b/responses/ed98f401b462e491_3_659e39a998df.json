@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "snli_2298283771.jpg#0r1c",
+  "variant": 3,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "f870efb12fb235f5852ec17b63dfa9bdd963010177449c87e14a3d4db9b61c8b",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011Cfy4zAEAEon8nZweEprgn",
+  "received_at": "2026-10-12T21:40:59.616043+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.7,
+    "contradiction": 0.26,
+    "lexical_ambiguity": 0.08,
+    "unclear_reference": 0.12,
+    "probabilistic_inference": 0.5,
+    "brief_reason": "The premise says the man looks at something to the left, which does not establish that he takes a photo. It is not strictly incompatible, since he could be photographing, but taking a photo is not stated; some readers may treat looking elsewhere as ruling it out."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 785,
+    "output_tokens": 158,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

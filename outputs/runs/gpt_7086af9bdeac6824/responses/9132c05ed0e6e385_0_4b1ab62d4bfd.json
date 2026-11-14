@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "58357c",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "aa575dd6289b0bb42e8f18fe470a83ac76caab9c1138abb9f62dacd6862db32c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_02cf5873c0ed5b3a016acd46c630fc87d2bd419e86c982f90f",
+  "received_at": "2026-10-12T20:44:57.665710+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.91,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.02,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.49,
+    "brief_reason": "The premise asks a question rather than asserting that anything changed, so it does not establish or rule out the hypothesis. The question can suggest that some change occurred, but that assumption is not guaranteed."
+  },
+  "usage": {
+    "input_tokens": 355,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 103,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 458
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "80630e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0472601dc304d8a2a7e3b059fa7324695d04eac02929d01c71a3cdb0a03e4d36",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08e9017638824411016acbf2b7e8c487d2b1a503dccc0d17e8",
+  "received_at": "2026-10-11T20:34:03.761274+00:00",
+  "parsed": {
+    "entailment": 0.95,
+    "neutral": 0.05,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.04,
+    "brief_reason": "The avenue reaches the sea in fewer than three blocks, supporting that the sea is less than three blocks away. This assumes the hypothesis measures distance from the avenue’s starting point."
+  },
+  "usage": {
+    "input_tokens": 370,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 143,
+    "output_tokens_details": {
+      "reasoning_tokens": 42
+    },
+    "total_tokens": 513
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

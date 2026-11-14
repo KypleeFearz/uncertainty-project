@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "40647c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "785ebee3d7c39521a423ef39352289869c9c1db6db5147151d9b4713af220965",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_08909225a16f58e7016acbed7c297c87d285fee52e866bf95a",
+  "received_at": "2026-10-11T20:11:43.094173+00:00",
+  "parsed": {
+    "entailment": 0.001,
+    "neutral": 0.002,
+    "contradiction": 0.997,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.001,
+    "probabilistic_inference": 0.002,
+    "brief_reason": "The premise explicitly says the biography uses unpublished diaries and untapped Cuban government archives, contradicting the hypothesis that it uses only published diaries and well-known government information."
+  },
+  "usage": {
+    "input_tokens": 450,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 546
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

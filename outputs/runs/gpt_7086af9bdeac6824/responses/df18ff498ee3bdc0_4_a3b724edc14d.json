@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "45298e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "8a5de0d4171f004af643846c44af995460a2ed5e7d7c391e88cd2b752fe6c0f4",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a80ee311b3a389a016acbd91744f487d29e8ec0f47484d7ae",
+  "received_at": "2026-10-11T18:44:42.568303+00:00",
+  "parsed": {
+    "entailment": 0.12,
+    "neutral": 0.86,
+    "contradiction": 0.02,
+    "lexical_ambiguity": 0.48,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.62,
+    "brief_reason": "Being sturdier than it seems does not establish that the book is great, though it may suggest a favorable assessment. “Sturdier” could refer to physical durability or literary substance."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 101,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 482
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "78322e",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "e8cc5855b1094d63b2fbbf32716678395355c7b14bce6e558285bc9b0aa1f613",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e5ec79add255ffa016acbf26dff6887d2906df5a8ec5b2d46",
+  "received_at": "2026-10-11T20:32:50.455102+00:00",
+  "parsed": {
+    "entailment": 0.83,
+    "neutral": 0.16,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.75,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise recommends not dismissing tourist offices even for adventurous travelers, supporting the hypothesis if 'tourist officers' is a typo for 'tourist offices.' Read literally as people, 'officers' does not establish a place worth visiting."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 182,
+    "output_tokens_details": {
+      "reasoning_tokens": 68
+    },
+    "total_tokens": 582
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

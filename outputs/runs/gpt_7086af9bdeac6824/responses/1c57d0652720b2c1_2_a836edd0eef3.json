@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32754n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "589ed8d3ad0c38bb3044047302d222fc1b8b238b63c634f1c305ebc4a57a3737",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_01c0643ede4ea6fc016acbec5ed2e487d2a84a7a6e1944e5be",
+  "received_at": "2026-10-11T20:06:58.981418+00:00",
+  "parsed": {
+    "entailment": 0.8,
+    "neutral": 0.19,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.55,
+    "brief_reason": "The phrase “succeeded where even Reagan failed” suggests that Reagan unsuccessfully attempted to shutter the DOE. However, this is embedded in a description of how Clinton could portray himself, rather than an explicit statement of Reagan’s actions."
+  },
+  "usage": {
+    "input_tokens": 394,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 37
+    },
+    "total_tokens": 543
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

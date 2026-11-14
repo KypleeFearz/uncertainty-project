@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123038e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "0713f462650f6b64ab389112a4778ce8b69dd1c7a98d79819e564f7e431a1c57",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_03e4a4a42b8d0c3f016acbc217609887d2868ab23cc96e55e4",
+  "received_at": "2026-10-11T17:06:40.444472+00:00",
+  "parsed": {
+    "entailment": 0.86,
+    "neutral": 0.13,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The hypothesis appears to paraphrase the requirement that engagement reports state compliance with generally accepted government auditing standards. Its awkward substitutions, especially “validation” for “attestation” and “evaluating” for “auditing,” introduce some uncertainty about equivalence."
+  },
+  "usage": {
+    "input_tokens": 400,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 168,
+    "output_tokens_details": {
+      "reasoning_tokens": 52
+    },
+    "total_tokens": 568
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

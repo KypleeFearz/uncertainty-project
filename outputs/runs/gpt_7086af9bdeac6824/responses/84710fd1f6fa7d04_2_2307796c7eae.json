@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "105051c",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "37a2d24a18a8e5a0e7beab0ad40561e6b4c00b503c11d67678efe3f9947b08c2",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f6db3d404806247016acbf563046087d281eaed3ef9fc7e75",
+  "received_at": "2026-10-11T20:45:27.511620+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.9,
+    "contradiction": 0.08,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "The premise describes Las Vegas as a destination for adult fun, but does not say how it was billed or whether it offered fun for other ages. Adult appeal alone neither establishes nor rules out appeal to all ages."
+  },
+  "usage": {
+    "input_tokens": 392,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 149,
+    "output_tokens_details": {
+      "reasoning_tokens": 41
+    },
+    "total_tokens": 541
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

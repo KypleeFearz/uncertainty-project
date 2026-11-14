@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "29632n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d3afc94aac9718e75123f27046252f027b0320a4b0bd0b7d19fedf8377c0bc82",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04a68193b6004087016acd44f4f9f487d2af1add1ab829662a",
+  "received_at": "2026-10-12T20:37:12.238195+00:00",
+  "parsed": {
+    "entailment": 0.4,
+    "neutral": 0.59,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.8,
+    "brief_reason": "“Serious fiscal housecleaning” suggests financial problems but does not establish extensive wasteful spending. It could instead refer to deficits, taxation, or other fiscal reforms."
+  },
+  "usage": {
+    "input_tokens": 382,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 135,
+    "output_tokens_details": {
+      "reasoning_tokens": 35
+    },
+    "total_tokens": 517
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

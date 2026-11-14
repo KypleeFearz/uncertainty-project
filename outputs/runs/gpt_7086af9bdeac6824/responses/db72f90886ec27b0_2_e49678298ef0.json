@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "3799n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "bb94377c36e5c166dbe90526f74fcd11edc189f7e1e07a772b75d5ccbf5da206",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0092f084b164ed58016acbed207f6c87d2a0fe231f9e13c435",
+  "received_at": "2026-10-11T20:10:12.123575+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.4,
+    "unclear_reference": 0.05,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise concerns inconsistent interpretation of principles, not stakeholders’ understanding of how they want to invest their money. The hypothesis also uses “interpret” awkwardly, but its investment-related claim is neither established nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 397,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 142,
+    "output_tokens_details": {
+      "reasoning_tokens": 33
+    },
+    "total_tokens": 539
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

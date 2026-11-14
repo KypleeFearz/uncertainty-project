@@ -1,0 +1,39 @@
+{
+  "status": "ok",
+  "uid": "88646c",
+  "variant": 0,
+  "model_key": "claude",
+  "run_digest": "2095a480d08c3a6b8f5f898d456f1b65cd85796d1e3d20989e452de8ef58394f",
+  "messages_digest": "95c190e719d63dc2050e298e074d76d4c0f36da6ee7efb32e7f4d8da30689eec",
+  "requested_model": "claude-sonnet-5-5",
+  "returned_model": "claude-sonnet-5-5",
+  "response_id": "msg_011CfwCwdNPcQNxefs7uqocs",
+  "received_at": "2026-10-11T22:04:08.484094+00:00",
+  "parsed": {
+    "entailment": 0.03,
+    "neutral": 0.37,
+    "contradiction": 0.6,
+    "lexical_ambiguity": 0.15,
+    "unclear_reference": 0.3,
+    "probabilistic_inference": 0.2,
+    "brief_reason": "The premise quotes him saying 'you have no instincts', while the hypothesis reports 'no willpower', which is a different claim. It is not a strict logical contradiction since he might have said both, but the statements differ, so contradiction is somewhat more likely than neutral."
+  },
+  "usage": {
+    "cache_creation": {
+      "ephemeral_1h_input_tokens": 0,
+      "ephemeral_5m_input_tokens": 0
+    },
+    "cache_creation_input_tokens": 0,
+    "cache_read_input_tokens": 0,
+    "inference_geo": "global",
+    "input_tokens": 766,
+    "output_tokens": 166,
+    "output_tokens_details": {
+      "thinking_tokens": 0
+    },
+    "server_tool_use": null,
+    "service_tier": "standard"
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

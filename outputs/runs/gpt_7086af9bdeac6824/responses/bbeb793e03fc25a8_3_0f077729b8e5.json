@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "23901e",
+  "variant": 3,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "f5ee0162ca4706e3d54c1c5a570645e86b2ddd08d558a570b365cd9a223890e5",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_09892293bcbde1bf016acbeb3a14c487d2ba8eba81d1b62fb1",
+  "received_at": "2026-10-11T20:02:07.466963+00:00",
+  "parsed": {
+    "entailment": 0.77,
+    "neutral": 0.22,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.55,
+    "unclear_reference": 0.15,
+    "probabilistic_inference": 0.3,
+    "brief_reason": "Shuman makes a negative claim about Linux, which supports the hypothesis if “accusations” broadly means critical claims about the platform. A narrower sense involving allegations of wrongdoing is not established."
+  },
+  "usage": {
+    "input_tokens": 376,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 169,
+    "output_tokens_details": {
+      "reasoning_tokens": 65
+    },
+    "total_tokens": 545
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

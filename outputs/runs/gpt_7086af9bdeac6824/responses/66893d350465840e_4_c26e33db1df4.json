@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131206n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "4f801b0a2f7685514fff557bf410619fbcfbd0742d064a4bf04cdfa068432d14",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0a1cbe7b81c03d81016acbe7eb5ad887d2ac963e00ab2d3251",
+  "received_at": "2026-10-11T19:47:58.302127+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.98,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.04,
+    "probabilistic_inference": 0.03,
+    "brief_reason": "The premise states the FDA's suggestion of a possible association but provides no research assessing whether that suggestion is wrong. It therefore neither supports nor rules out the hypothesis."
+  },
+  "usage": {
+    "input_tokens": 395,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 96,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 491
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

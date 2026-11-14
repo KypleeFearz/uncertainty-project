@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "131059e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "3438c125188226dcb5dca28a8c1a300c65409ebc5bc6c537dbd172998e6d8ec3",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f8ea9b89ad9a868016acbe7e793a887d2a7b39c4e9abf6070",
+  "received_at": "2026-10-11T19:47:54.891040+00:00",
+  "parsed": {
+    "entailment": 0.94,
+    "neutral": 0.06,
+    "contradiction": 0.0,
+    "lexical_ambiguity": 0.06,
+    "unclear_reference": 0.02,
+    "probabilistic_inference": 0.12,
+    "brief_reason": "A quarter of an hour is 15 minutes, and going to the hall to show the visitor out supports the hypothesis's paraphrase. The premise does not explicitly identify the building as a house or state that Tuppence completed escorting the visitor out."
+  },
+  "usage": {
+    "input_tokens": 404,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 115,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 519
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

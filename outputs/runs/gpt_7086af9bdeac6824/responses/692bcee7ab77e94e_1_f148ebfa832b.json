@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "snli_2711885008.jpg#1r1c",
+  "variant": 1,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "cc44e3586141eb3be42134a6207e36881cb80f1e0f4f1b43d9c589349dd84d5e",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0111f7080c8d30d6016acd4a1ae7e087d2be94a3b3e7c432e9",
+  "received_at": "2026-10-12T20:59:11.227055+00:00",
+  "parsed": {
+    "entailment": 0.01,
+    "neutral": 0.06,
+    "contradiction": 0.93,
+    "lexical_ambiguity": 0.01,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.08,
+    "brief_reason": "The premise places the boy's climbing activity in a large tree, whereas the hypothesis describes him climbing over a car seat. These are incompatible descriptions of the same activity under the ordinary reading."
+  },
+  "usage": {
+    "input_tokens": 381,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 133,
+    "output_tokens_details": {
+      "reasoning_tokens": 30
+    },
+    "total_tokens": 514
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "32851e",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "d9fd120e6fa93e253f23b1c2d830711abefe10840b23cc17bdf99ddcc6eb230c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_006d235997b2ee9d016acbec71437487d2b15f850b848e407e",
+  "received_at": "2026-10-11T20:07:17.876937+00:00",
+  "parsed": {
+    "entailment": 0.32,
+    "neutral": 0.67,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.25,
+    "unclear_reference": 0.08,
+    "probabilistic_inference": 0.68,
+    "brief_reason": "The premise says few other cities offer such a variety, rather than saying few cities have a large variety at all. Many cities could have a large array of costumes while still having less variety than the city being described."
+  },
+  "usage": {
+    "input_tokens": 383,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 171,
+    "output_tokens_details": {
+      "reasoning_tokens": 62
+    },
+    "total_tokens": 554
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

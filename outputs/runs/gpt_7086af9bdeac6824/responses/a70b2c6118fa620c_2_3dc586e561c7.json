@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "102708e",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "afcb164fc19e7bd95bbf570e01803edd5bb085718eabd5b04749001bfccdf540",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0f6a87d6f19aae4a016acbf548102487d2abad05baddf977fe",
+  "received_at": "2026-10-11T20:45:00.062087+00:00",
+  "parsed": {
+    "entailment": 0.04,
+    "neutral": 0.95,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.85,
+    "unclear_reference": 0.2,
+    "probabilistic_inference": 0.35,
+    "brief_reason": "The fragment does not establish that “cases” refers to legal cases or says anything about legal matters. The hypothesis is compatible with the premise but is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 369,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 139,
+    "output_tokens_details": {
+      "reasoning_tokens": 38
+    },
+    "total_tokens": 508
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

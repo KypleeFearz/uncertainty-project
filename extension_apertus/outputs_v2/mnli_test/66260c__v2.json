@@ -1,0 +1,31 @@
+{
+ "status": "ok",
+ "uid": "66260c",
+ "variant": 2,
+ "model": "swiss-ai/apertus-v1.5-70b",
+ "returned_model": "swiss-ai/apertus-v1.5-70b",
+ "parsed": {
+  "entailment": 0.85,
+  "neutral": 0.15,
+  "contradiction": 0.0,
+  "lexical_ambiguity": 0.0,
+  "unclear_reference": 0.0,
+  "probabilistic_inference": 0.15,
+  "brief_reason": "The two phrases convey similar encouragement to continue an action, with \"finish it\" implying the final step of an ongoing task and \"keep going\" suggesting continued effort; the core meaning is compatible, though \"finish\" is more specific than \"keep going\"."
+ },
+ "renormalized": false,
+ "salvaged": false,
+ "tries": 1,
+ "finish_reason": "stop",
+ "usage": {
+  "input_tokens": 329,
+  "output_tokens": 126
+ },
+ "seconds": 2.71,
+ "prompt_fingerprint": "37d7e209e7fc9178",
+ "temperature": 0.0,
+ "thinking_off_sent": true,
+ "format_mode": "none",
+ "format_instruction": true,
+ "received_at": "2026-11-07T17:37:42.991366+00:00"
+}

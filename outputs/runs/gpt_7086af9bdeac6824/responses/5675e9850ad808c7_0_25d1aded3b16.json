@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "123267e",
+  "variant": 0,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "6871c844564aefab9fb32dc5fd99130eac70b16c4cdda1ecbe070a746d5c697c",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_04dc5e26fb24f229016acbd89e606487d2a7118bb5a95b117c",
+  "received_at": "2026-10-11T18:42:42.407170+00:00",
+  "parsed": {
+    "entailment": 0.3,
+    "neutral": 0.69,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.6,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.75,
+    "brief_reason": "“A bad lot” describes someone as morally bad or disreputable, but does not specifically establish dishonesty. Dishonesty is a plausible interpretation rather than a necessary implication."
+  },
+  "usage": {
+    "input_tokens": 359,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 146,
+    "output_tokens_details": {
+      "reasoning_tokens": 44
+    },
+    "total_tokens": 505
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

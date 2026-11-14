@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "95883n",
+  "variant": 2,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "1164187871f575d75c41a002c80f68fbc5e6b05b8286159a9df9f61e53af65b8",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_07a6639dae3e402e016acd48487ac087d2a40081b5432296ec",
+  "received_at": "2026-10-12T20:51:24.774242+00:00",
+  "parsed": {
+    "entailment": 0.02,
+    "neutral": 0.95,
+    "contradiction": 0.03,
+    "lexical_ambiguity": 0.18,
+    "unclear_reference": 0.03,
+    "probabilistic_inference": 0.65,
+    "brief_reason": "Introducing legislation to increase a supplement on filing fees does not establish that Geveden successfully caused the government to increase a budget. The premise also does not characterize the change as fortunate."
+  },
+  "usage": {
+    "input_tokens": 396,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 128,
+    "output_tokens_details": {
+      "reasoning_tokens": 26
+    },
+    "total_tokens": 524
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}

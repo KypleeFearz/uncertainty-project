@@ -1,0 +1,35 @@
+{
+  "status": "ok",
+  "uid": "133005n",
+  "variant": 4,
+  "model_key": "gpt",
+  "run_digest": "7086af9bdeac6824285c2420268e2a5e4c7926f9dfbdc28e962417f3f9490765",
+  "messages_digest": "5cdf513f30c53c4565cf18853653f35131a5b688a6cf1de22c2b0b2793136058",
+  "requested_model": "gpt-6.1-sol",
+  "returned_model": "gpt-6.1-sol",
+  "response_id": "resp_0e7f8ca613e1a628016acbe82487a487d2b71e43c823eac43c",
+  "received_at": "2026-10-11T19:48:55.946243+00:00",
+  "parsed": {
+    "entailment": 0.005,
+    "neutral": 0.985,
+    "contradiction": 0.01,
+    "lexical_ambiguity": 0.03,
+    "unclear_reference": 0.01,
+    "probabilistic_inference": 0.02,
+    "brief_reason": "The premise reports that more people intensely disliked RFK than Johnson, but it gives no information about RFK’s attitudes on cheesecake or their effect on his popularity. The proposed cause is neither supported nor ruled out."
+  },
+  "usage": {
+    "input_tokens": 428,
+    "input_tokens_details": {
+      "cache_write_tokens": 0,
+      "cached_tokens": 0
+    },
+    "output_tokens": 106,
+    "output_tokens_details": {
+      "reasoning_tokens": 0
+    },
+    "total_tokens": 534
+  },
+  "attempts": 1,
+  "failed_attempts": []
+}
